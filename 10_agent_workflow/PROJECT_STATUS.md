@@ -9,7 +9,7 @@ Mốc 09/11/2026 sau hợp nhất main. Tiến độ về sau lấy từ `produc
 | Kịch bản | 28 trang, chỉ định A/B/C, lời dẫn/thoại và **từ khóa** | Đối chiếu và khóa chữ; một số lời dẫn vượt 65 tiếng |
 | Tranh trang | Bộ tham chiếu và thư viện prompt | Chưa sinh 28 trang minh họa thành phẩm |
 | Dàn trang | SVG/tokens và helper HTML proof | Chưa có 28 trang ghép chữ hoặc file in |
-| Vận hành | 125 tác vụ, CLI/brief/phục hồi và mẫu cấu hình CI (chưa kích hoạt) | Mốc này: 2 done, 122 todo, 1 blocked |
+| Vận hành | 125 tác vụ, CLI/brief/phục hồi và workflow CI chạy khi push main | Mốc này: 2 done, 122 todo, 1 blocked |
 | Phần kết | Trang 27–28 có nhãn mở rộng | Cần nguồn ngoài đoạn trích, task SOURCE_EPILOGUE |
 | Chế bản cuối | Trim 190×240, bleed 196×246 mm | Cần font Việt, giấy/đóng/gáy/ICC; thông tin xuất bản và quyền sử dụng khi liên quan |
 

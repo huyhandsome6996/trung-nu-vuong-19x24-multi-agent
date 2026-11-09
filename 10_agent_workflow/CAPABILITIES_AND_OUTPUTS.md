@@ -24,4 +24,6 @@ File trên 100 MB không push Git thường. Chọn gói nguồn nhẹ hoặc LF
 
 ## CI trên GitHub
 
-[Mẫu YAML](templates/github-actions-validate.yml) đã có nhưng chưa kích hoạt: PAT hiện tại thiếu quyền workflow, GitHub đã từ chối push khi đặt vào .github/workflows. Không cần CI để chạy các lệnh kiểm local. Chỉ khi môi trường được cấp quyền workflow, đưa mẫu tới .github/workflows/validate-main.yml và xác nhận lần chạy thực; không tự tuyên bố CI đang xanh.
+Workflow thực thi ở [.github/workflows/validate-main.yml](../.github/workflows/validate-main.yml), chạy tests và check_repo sau mỗi push main hoặc khi chạy thủ công. Chỉ có quyền đọc nội dung repo; không gọi AI, không tự push hay xuất bản.
+
+Xem [kết quả chạy thực](https://github.com/huyhandsome6996/trung-nu-vuong-19x24-multi-agent/actions/workflows/validate-main.yml). CI xanh chỉ xác nhận bộ kiểm kỹ thuật; QA nguồn, hình ảnh và in vẫn phải thực hiện. [Mẫu YAML](templates/github-actions-validate.yml) được giữ để tham khảo.

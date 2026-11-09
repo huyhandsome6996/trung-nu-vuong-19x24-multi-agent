@@ -1,5 +1,7 @@
 # TRƯNG NỮ VƯƠNG — truyện minh họa 19×24 cm
 
+[![Validate repository](https://github.com/huyhandsome6996/trung-nu-vuong-19x24-multi-agent/actions/workflows/validate-main.yml/badge.svg)](https://github.com/huyhandsome6996/trung-nu-vuong-19x24-multi-agent/actions/workflows/validate-main.yml)
+
 **Một repo, một nhánh `main`, một lối vào cho agent.** Dành cho học sinh lớp 8–10; chuyển thể Hồi 7–8 từ tư liệu dự án, phong cách mực đen đan nét kết hợp màu nước/chì màu cổ điển hào hùng.
 
 ## Bắt đầu ngay

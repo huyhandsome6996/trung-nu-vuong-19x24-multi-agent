@@ -81,3 +81,9 @@ timezone: "Asia/Ho_Chi_Minh"
 - Main remote đã nhận commit3fec447, SHA local/remote khớp. Hai nhánh agent-04/art-assets-part-1 và agent-06/qa-review đã được xác nhận là tổ tiên của main rồi xóa trên remote và local; toàn bộ lịch sử vẫn nằm trong main.
 - Tạo một bản clone sạch từ commit main đã lưu, chạy check_repo và8tests đều đạt; next chọn PAGE01_TEXT, packet sinh lại không làm bẩn working tree. Đây là kiểm bản clone local, không phải khẳng định đã tải và kiểm trên mọi máy.
 - CI tự động chưa kích hoạt do token thiếu workflow scope; mẫu cấu hình sẵn ở Ngăn10. Các lệnh kiểm local dùng được đầy đủ.
+
+## CI-004 — Kích hoạt kiểm tra GitHub Actions (09/11/2026)
+
+- Chủ dự án cấp thông tin xác thực mới để xử lý giới hạn quyền workflow ở phiên trước. Chỉ dùng xác thực tạm trong tiến trình; không lưu token vào repo/remote/log.
+- Đưa cấu hình đã chuẩn bị vào .github/workflows/validate-main.yml, cập nhật tài liệu vận hành và liên kết kết quả chạy. Workflow có quyền contents:read, chạy Python3.11, cài Pillow, chạy8tests và check_repo khi push main hoặc workflow_dispatch; không tự gọiAI hay ghi repo.
+- Báo cáo trước về thiếu quyền là lịch sử ở thời điểm đó. Kết quả chạy mới được ghi sau khi kiểm Actions thực tế; không suy thành công chỉ từ việc push file YAML.

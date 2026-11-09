@@ -39,4 +39,4 @@ Thay đường dẫn bằng file thật. Helper từ chối chữ chưa locked, 
 
 Mở HTML bằng renderer thật, chờ font nạp, kiểm tràn chữ, 3–5 dòng lời dẫn, glyph Việt và vị trí hình. HTML này là bản kiểm, không phải PDF/X hoặc file in đã duyệt. Cần điều chỉnh bố cục và nội dung hợp lý; không thu nhỏ font tùy tiện để hết tràn.
 
-[Mẫu CI GitHub](templates/github-actions-validate.yml) hiện chưa bật do token thiếu quyền workflow. Có thể dùng đầy đủ bộ kiểm local mà không bật Actions.
+[CI trên GitHub](https://github.com/huyhandsome6996/trung-nu-vuong-19x24-multi-agent/actions/workflows/validate-main.yml) chạy cùng tests/check_repo trên mỗi push main. Có thể chạy các kiểm tra local trước khi push; không coi CI xanh là xác nhận chất lượng sử học/thị giác hoặc file in.
