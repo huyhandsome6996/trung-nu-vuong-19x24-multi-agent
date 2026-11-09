@@ -1,0 +1,15 @@
+{
+  "image": "assets_generated/raw_pages/PAGE01_v001.png",
+  "version": "v001",
+  "native_size_px": [0, 0],
+  "sha256": "MEASURE_FROM_ACTUAL_FILE",
+  "prompt": "EXACT_PROMPT_ACTUALLY_SENT",
+  "actual_references": [{"path": "ACTUAL_REPO_IMAGE_PATH", "sha256": "ACTUAL_HASH"}],
+  "generator": "ACTUAL_TOOL_AND_MODEL_IF_EXPOSED",
+  "text_free": true,
+  "top_clearance_checked": false,
+  "visual_qa_report": "PATH_AFTER_REAL_INSPECTION",
+  "user_approved": false,
+  "print_ready": false,
+  "note": "Template only. Replace placeholders with observed values; never fabricate native dimensions or reference use."
+}

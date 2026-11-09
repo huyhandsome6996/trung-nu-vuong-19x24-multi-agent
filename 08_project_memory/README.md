@@ -25,7 +25,7 @@ Ngăn vận hành bổ sung theo yêu cầu chủ dự án ngày 09/11/2026. Gi�
 
 - Mỗi kết luận phải có nguồn, hành động hoặc kết quả kiểm tra cụ thể.
 - Ghi vấn đề phát hiện, nguyên nhân, cách xử lý, giới hạn kiểm tra và bước tiếp theo; không chỉ ghi “đã xong”.
-- Cập nhật ngay sau một phần việc có kết quả kiểm chứng được, commit theo phạm vi rõ ràng và push lên nhánh phù hợp. Không tự coi yêu cầu cập nhật repo là tác vụ chạy nền.
+- Cập nhật ngay sau một phần việc có kết quả kiểm chứng được, commit theo phạm vi rõ ràng và push trực tiếp main. Không tự coi yêu cầu cập nhật repo là tác vụ chạy nền.
 - Không lưu PAT, mật khẩu hoặc URL chứa thông tin đăng nhập vào file, log, commit hay remote.
 - Không tự đổi trạng thái bản nháp thành APPROVED; không coi đã đọc hồ sơ là đã phê duyệt thiết kế.
 - Chỉ dẫn trực tiếp mới nhất của chủ dự án có ưu tiên cao hơn tài liệu cũ. Nếu các yêu cầu cùng lúc không thể thỏa mãn, ghi rõ xung đột trước khi thực hiện phần phụ thuộc.

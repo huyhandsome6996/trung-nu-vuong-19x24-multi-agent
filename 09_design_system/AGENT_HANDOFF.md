@@ -10,6 +10,8 @@ date: "2026-11-09"
 
 # Hướng dẫn cho agent tiếp nhận
 
+> Bắt đầu phiên ở [START_HERE](../START_HERE.md) và workflowNgăn10. Mọi công việc ởmain; tài liệu này mô tả riêng cách dùng thiết kế.
+
 ## Đọc đúng phần, lấy đúng ảnh
 
 1. Đọc `00_READ_FIRST.md`, `SOURCE_DECISIONS.md`, `MASTER_ART_DIRECTION.md`.

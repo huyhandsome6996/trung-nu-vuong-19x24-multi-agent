@@ -71,3 +71,15 @@ Một album hình có tên, mã và vị trí, cộng bản tóm tắt2phút gi�
 ## 15. Kiểm toàn chuỗi tham chiếu sau khi sửa phiên bản
 
 Đổi filev002 phải đổi ảnh album, thumbnail, metadata, prompt sửa, trạng thái bản cũ và nguồn ảnh thực sự đã truyền. Validator kiểm ID/file/hash/phiên bản và link; không thay kiểm mắt. Khuôn SVG có thể render bằng Inkscape ngay cả khi runtime Python không có CairoSVG. Không báo đã kiểm Chromium khi máy không có browser binary.
+
+## Workflow một main và tiếp tục sau ngắt phiên
+
+**Đã gặp:** chủ dự án khó biết công việc có mất sau phiên dài bị ngắt, thiết kế đầy đủ nằm ở nhánh phụ nên mở main không thấy.
+
+**Cách làm:** hợp nhất lịch sử vào main; README có một lối vào. Tách queue theo TEXT → ART → LAYOUT → QA cho từng trang, phụ thuộc cụ thể và evidence có hash. Checkpoint ghi file thật và bước tiếp, commit/push sau từng phần; next ưu tiên task đang dở. Reopen một đầu vào phải mở lại downstream, giữ bằng chứng và phiên bản cũ.
+
+**Bài học:** tác vụ được ghi “done” phải có sản phẩm và kiểm chứng. Một danh sách TODO trong Markdown chưa đủ để agent xác định việc đang dở; một báo cáo pass chưa đủ chứng minh chất lượng hình. Repo dùng main vẫn cần một người ghi tại một thời điểm và pull trước push. Không hứa chống mất dữ liệu nếu artifact chưa được lưu/push.
+
+## Đếm thật trước khi khóa chữ
+
+Tiêu đề cũ ghi 52–60 từ nhưng một số lời dẫn thực tế dài hơn 65 tiếng. Đếm theo khoảng trắng trên chữ thực, giữ từ khóa, đối chiếu nguồn và kiểm 3–5 dòng bằng renderer. Không tin nhãn đếm cũ, không cắt thoại hoặc thu nhỏ font chỉ để vừa hộp. Draft do packet tạo chưa chép thoại phải có nhãn rõ, tránh chế bản thiếu lời nhân vật.

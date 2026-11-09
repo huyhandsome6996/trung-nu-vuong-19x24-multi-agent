@@ -1,0 +1,2 @@
+# Python 3.10+. Used to decode and verify PNG/JPG/WebP; no image generation SDK required.
+Pillow>=10.4,<13

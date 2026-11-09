@@ -10,6 +10,8 @@ date: "2026-11-09"
 
 # Bộ thiết kế tổng thể TRƯNG NỮ VƯƠNG
 
+> Quy trình hiện hành: [START_HERE](../START_HERE.md). Toàn bộ thiết kế đã hợp nhất vào main; Ngăn09 chuyên về thiết kế, Ngăn10 quản lý tác vụ sản xuất.
+
 Dành cho chủ dự án muốn xem ngay hình và agent cần tiếp tục công việc. Đây là **bộ thiết kế v1 dùng thống nhất cho sản xuất bản nháp** theo ủy nhiệm ngày 09/11/2026, không tự ghi chủ dự án đã duyệt từng ảnh.
 
 ## Xem nhanh
@@ -18,7 +20,7 @@ Dành cho chủ dự án muốn xem ngay hình và agent cần tiếp tục côn
 2. Muốn hiểu truyện trong hai phút: [STORY_IN_2_MINUTES.md](STORY_IN_2_MINUTES.md).
 3. Tra người: [41 hồ sơ nhân vật](CHARACTER_INDEX.md). Tra cảnh: [14 bối cảnh](ENVIRONMENTS.md). Tra đồ vật: [36 nhóm đạo cụ và 4 động vật](PROPS_AND_ANIMALS.md).
 4. Muốn giao agent làm trang: dùng [AGENT_HANDOFF.md](AGENT_HANDOFF.md) và [PAGE_ASSET_MATRIX.md](PAGE_ASSET_MATRIX.md).
-5. Muốn gửi ngay cho AI khác: copy [AGENT_START_PROMPT.md](AGENT_START_PROMPT.md); có sẵn lệnh clone đúng nhánh chứa thiết kế.
+5. Muốn gửi ngay cho AI khác: copy [AGENT_START_PROMPT.md](AGENT_START_PROMPT.md); có sẵn lệnh clone main và quy trình tiếp quảnA–Z.
 
 ## Bộ này gồm những gì
 

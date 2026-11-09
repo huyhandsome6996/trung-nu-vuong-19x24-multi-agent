@@ -13,3 +13,9 @@ __pycache__/
 
 # Transient asset transfer fragments
 assets_generated/design_system/.*.png.*
+
+# Local environments and credentials
+.venv/
+.env
+.env.*
+!.env.example

@@ -1,4 +1,6 @@
 ---
+
+> Trạng thái hiện hành theo [workflow A–Z](../10_agent_workflow/WORKFLOW_A_TO_Z.md): QA pass là kiểm của agent; USER_APPROVED cần xác nhận thực của chủ dự án; PRINT_READY cần thông số và kiểm file in.
 project: "TRƯNG NỮ VƯƠNG - Truyện Cổ Tích Lịch Sử Hào Hùng"
 book_size: "190mm x 240mm (Bleed: 196mm x 246mm @ 300 DPI)"
 target_audience: "Học sinh Lớp 8 - Lớp 10 (13-16 tuổi)"

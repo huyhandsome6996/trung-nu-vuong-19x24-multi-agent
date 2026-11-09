@@ -35,3 +35,11 @@ Dùng scan để sửa giới tính Đô sư phụ, số voi, chiều hóa rồn
 ## D-010 — Phần kết và trang trí
 
 E13/E14 được thiết kế như concept kết mở rộng; không tự khẳng định một ngôi đền hư cấu là đền thật. Giữ tọa độ mép giấy cổ như trang trí, chữ nằm trong vùng an toàn riêng. Nguồn phần kết và thông số nhà in phải kiểm ở bước xuất sách.
+
+## D-010 — Hợp nhất main và workflow tiếp quản A–Z (09/11/2026)
+
+- **Yêu cầu:** chủ dự án muốn một main chứa mọi thứ, agent chỉ nhận link là clone và biết làm từ đầu đến cuối; không thích chia nhiều nhánh.
+- **Quyết định:** main kế thừa toàn bộ commit thiết kế/QA trước đây bằng fast-forward, giữ lịch sử. Thay quy trình branch/PR bằng một người ghi trên main, checkpoint và commit nhỏ. Nhánh cũ chỉ được dọn sau khi xác nhận main remote đã chứa các commit đó.
+- **Điểm vào:** README → START_HERE → AGENTS/Ngăn 10. Queue máy đọc có 125 task, trạng thái ban đầu 2 done/122 todo/1 blocked; không giả vờ đã sản xuất sách.
+- **Ưu tiên:** Ngăn 10 quản lý vận hành; Ngăn 03 quản lý cảnh/chữ sau đối chiếu; Ngăn 09 quản lý thiết kế; nguồn Ngăn 07 bất biến. page_asset_matrix là snapshot thiết kế, không phải tiến độ sản xuất.
+- **Giới hạn:** code không chứa model ảnh, key hoặc renderer thương mại. Chất lượng sử học/thị giác và profile nhà in không được suy từ CI xanh. APPROVED của tài liệu cũ phải hiểu theo phạm vi xác nhận, không tự thành người dùng duyệt.

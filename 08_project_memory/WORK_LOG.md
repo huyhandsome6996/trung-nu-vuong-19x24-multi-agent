@@ -63,3 +63,15 @@ timezone: "Asia/Ho_Chi_Minh"
 - Đã xem các bảng hình và khuôn SVG; chạy validator và kiểm link/file/hash. HTML chưa kiểm thị giác Chromium do thiếu binary, đã kiểm asset/cú pháp.
 - Tiếp nhận từ `09_design_system/00_READ_FIRST.md` → SOURCE_DECISIONS → IMAGE_CATALOG → PAGE_ASSET_MATRIX → AGENT_HANDOFF. Chuẩn v1 dùng làm bản nháp theo ủy nhiệm, không tự ghi chủ dự án duyệt từng ảnh.
 - Git: checkpoint đầu `00b65f2`; bản đóng bộ có commit tiếp theo trên `agent-04/art-assets-part-1`. Xem git log/remote để xác nhận SHA, không nhúng SHA của chính file này vào cùng commit.
+
+## WORKFLOW-003 — Chuẩn hóa repo/main và vận hành A–Z (09/11/2026)
+
+- Yêu cầu: tập trung main, một lối vào cho agent clone và thực hiện A–Z, có phục hồi sau ngắt phiên.
+- Hợp nhất fast-forward toàn bộ lịch sử thiết kế/QA vào main, giữ nguồn và ảnh; thay hướng dẫn branch/PR đang vận hành. Các nhánh cũ chỉ dọn sau khi kiểm main remote chứa đủ commit.
+- Tạo START_HERE, cập nhật AGENTS/README, thêm Ngăn 10 với quy trình, prompt giao agent, queue 125 task, ma trận công cụ/đầu ra, phục hồi và đổi phiên bản. Tạo packet PAGE01_TEXT thật với nguồn chữ và đường dẫn/hash ảnh ứng viên active.
+- Thêm CLI doctor/status/next/packet/start/checkpoint/block/unblock/finish/reopen/check; evidence và dependency có kiểm. Thêm helper HTML proof từ chữ locked/ảnh/font thật, không tự coi là file in.
+- Thêm check_repo, requirements, mẫu cấu hình GitHub Actions kiểm main (chưa kích hoạt) và 8 kiểm thử logic phục hồi/phụ thuộc/report/hash/stale source/ảnh native/path/keyword. Tests chạy đạt; check workflow/design/link/hash/whitespace đã đạt. GitHub từ chối kích hoạt CI vì PAT thiếu workflow scope; mẫu YAML được giữ ở Ngăn 10, không có workflow hoạt động. Bộ kiểm tra local đã chạy đạt.
+- Sửa BOOK_STRUCTURE còn sót “78 voi” thành 8 voi đực da xám ở Hát Môn; không sửa 32 JPG nguồn. Đánh dấu riêng phân biệt QA pass/USER_APPROVED/PRINT_READY ở các đặc tả cũ.
+- Phạm vi hoàn thành là hạ tầng vận hành và hợp nhất, chưa sinh 28 trang truyện hoặc file in. Queue ban đầu vẫn 2 baseline done, 122 todo, SOURCE_EPILOGUE blocked; bước tiếp PAGE01_TEXT. Thiếu công cụ/dữ liệu thì block đúng bước, không tự bịa kết quả.
+
+- Giới hạn push đã xử lý: lần push đầu bị GitHub từ chối vì tạo workflow mà PAT không có workflow scope. Chuyển YAML thành mẫu trong Ngăn 10, sửa commit local chưa công bố để không yêu cầu quyền đó; không tìm cách vượt kiểm soát quyền GitHub.

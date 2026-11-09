@@ -1,5 +1,7 @@
 # THÔNG SỐ KỸ THUẬT XUẤT BẢN CHUẨN: KHỔ SÁCH 19x24 CM (PRINT & LAYOUT MASTER SPECS)
 
+> Hiệu lực hiện hành: tọa độ cụ thể theo [layout_tokens](09_design_system/layout_components/layout_tokens.json) và [ngoại lệ đã khóa](09_design_system/SOURCE_DECISIONS.md). Mép giấy cổ X11..179/Y8..48 là trang trí; chữ X18..172/Y14..43 trong safe text. Gáy/giấy/đóng chỉ là phương án tạm, phải chốt PRINT_SPEC với nhà in.
+
 Tài liệu này là **Quy chuẩn Kỹ thuật Bắt buộc (Hard Constraints)** cho mọi AI Agent tham gia thiết kế minh họa, dàn trang, làm bìa và xuất file PDF/JPG cho dự án **TRƯNG NỮ VƯƠNG**.
 
 ## 1. Thông số Kích thước Vật lý & Độ phân giải (Physical Dimensions & Pixel Grid)
@@ -10,7 +12,7 @@ Khổ sách **19cm × 24cm** là khổ sách vàng của dòng sách tranh truy�
 | :--- | :--- | :--- | :--- | :--- |
 | **Khổ thành phẩm (Trim Size)** | **190 mm × 240 mm** *(19 cm × 24 cm)* | **2244 px × 2835 px** | **1122 px × 1417 px** | Kích thước trang sách sau khi xén giấy thành phẩm. Tỷ lệ khung hình: `19 : 24` (`≈ 0.7917`). |
 | **Khổ tràn lề (Bleed Size - cộng 3mm mỗi cạnh)** | **196 mm × 246 mm** *(19.6 cm × 24.6 cm)* | **2315 px × 2906 px** | **1157 px × 1453 px** | Mọi tranh minh họa nền (Full-bleed background) phải xuất ở kích thước này để khi xén không bị hở viền trắng. |
-| **Vùng an toàn (Safe Zone - cách mép xén 12mm–15mm)** | **162 mm × 212 mm** *(Lề trong 16mm, Lề ngoài 12mm, Trên/Dưới 14mm)* | **1913 px × 2504 px** | **956 px × 1252 px** | Toàn bộ **Khung dẫn truyện (Narration Box)**, **Bóng thoại (Speech Bubbles)**, **Số trang** và **Gương mặt nhân vật chính** BẮT BUỘC nằm trọn trong vùng này. |
+| **Vùng an toàn (Safe Zone - cách mép xén 12mm–15mm)** | **162 mm × 212 mm** *(Lề trong 16mm, Lề ngoài 12mm, Trên/Dưới 14mm)* | **1913 px × 2504 px** | **956 px × 1252 px** | Toàn bộ **chữ trong Khung dẫn truyện** (mép giấy cổ là ngoại lệ trang trí), **Bóng thoại (Speech Bubbles)**, **Số trang** và **Gương mặt nhân vật chính** BẮT BUỘC nằm trọn trong vùng này. |
 | **Trải đôi 2 trang (Double-Page Spread Trim)** | **380 mm × 240 mm** *(38 cm × 24 cm)* | **4488 px × 2835 px** | **2244 px × 1417 px** | Dùng khi thiết kế đại cảnh trải đôi (ví dụ: Đại lễ tế cờ tại đàn thề Hát Môn). |
 | **Trải đôi 2 trang có tràn lề (Spread with Bleed)** | **386 mm × 246 mm** *(38.6 cm × 24.6 cm)* | **4559 px × 2906 px** | **2280 px × 1453 px** | Tránh đặt mặt nhân vật hoặc chữ ngay đường gáy giữa (Gutter `x = 193mm ± 8mm`). |
 

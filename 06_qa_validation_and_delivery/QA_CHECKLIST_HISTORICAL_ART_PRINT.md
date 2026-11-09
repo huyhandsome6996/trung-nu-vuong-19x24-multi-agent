@@ -1,5 +1,7 @@
 # HỆ THỐNG BẢNG KIỂM CHẤT LƯỢNG 3 LỚP (3-TIER QUALITY ASSURANCE CHECKLIST)
 
+> Trạng thái hiện hành theo [workflow A–Z](../10_agent_workflow/WORKFLOW_A_TO_Z.md): QA pass là kiểm của agent; USER_APPROVED cần xác nhận thực của chủ dự án; PRINT_READY cần thông số và kiểm file in.
+
 Mọi trang sách (Bìa Trước, Bìa Sau, và 28 Trang Ruột) **BẮT BUỘC** đạt `100% PASS` qua cả 3 lớp kiểm định dưới đây trước khi chuyển sang trạng thái `APPROVED`.
 
 ## Lớp 1: Kiểm định Nội dung Lịch sử & Sư phạm Lớp 8–10 (Historical & Pedagogical Audit)

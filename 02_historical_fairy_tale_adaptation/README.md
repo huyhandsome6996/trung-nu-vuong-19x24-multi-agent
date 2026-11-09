@@ -1,4 +1,6 @@
 ---
+
+> Vận hành hiện hành: [START_HERE](../START_HERE.md) → [WorkflowA–Z](../10_agent_workflow/WORKFLOW_A_TO_Z.md). Chỉ làm trên main; nếu hướng dẫn cũ bên dưới nói chia nhánh/PR, dùng giao thức main ởNgăn10.
 project: "TRƯNG NỮ VƯƠNG - Truyện Cổ Tích Lịch Sử Hào Hùng"
 compartment: "02_historical_fairy_tale_adaptation"
 owner_agent: "AGENT-02 (Historical & Literary Adapter)"
