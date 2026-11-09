@@ -10,3 +10,6 @@ __pycache__/
 *.psd
 *.ai
 *.indd
+
+# Transient asset transfer fragments
+assets_generated/design_system/.*.png.*
