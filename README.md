@@ -40,3 +40,16 @@ Bất kỳ AI Agent nào khi được khởi chạy trên kho lưu trữ này **
    - Mở file `README.md` nằm ngay trong ngăn nhiệm vụ của mình (`02_...` đến `06_...`) và tuân thủ tuyệt đối hướng dẫn sử dụng của ngăn đó.
 4. **Bước 4 — Tự Kiểm định Trước khi Bàn giao (Tại Ngăn 06):**
    - Đối chiếu kết quả đầu ra với `06_qa_validation_and_delivery/QA_CHECKLIST_HISTORICAL_ART_PRINT.md` trước khi tạo Pull Request hoặc đóng gói thành phẩm.
+
+## 4. Hồ sơ tiếp quản và tiến độ ngày 09/11/2026
+
+Đã kiểm kê và đọc đủ **59 file gốc** (26 Markdown, 32 JPG, 1 `.gitignore`) tại commit `65c2e5a7cf71a1344be7f916c9b675e4325d31c8`. Các tài liệu bổ sung làm tăng tổng số file; số 59 chỉ áp dụng cho commit nền.
+
+- [Báo cáo sẵn sàng dự án](06_qa_validation_and_delivery/PROJECT_READINESS_REPORT.md).
+- [Kiểm kê nguồn và SHA-256](06_qa_validation_and_delivery/SOURCE_INVENTORY_BASELINE.md).
+- [Kết quả kiểm tra onboarding](06_qa_validation_and_delivery/ONBOARDING_AUDIT_2026-11-09.md).
+- [Vấn đề cần giải quyết trước sản xuất](06_qa_validation_and_delivery/ONBOARDING_ISSUES.md).
+- [Form đầu ra tổng hợp](05_book_design_and_layout_19x24/STANDARD_OUTPUT_CONTRACT.md).
+- [Ngăn 08: Nhật ký, quyết định và kinh nghiệm](08_project_memory/README.md).
+
+**Trạng thái:** hoàn tất nạp dự án; chưa tạo hoặc chốt Character Sheets, chưa sinh tranh hay xuất sách. Có mâu thuẫn cần xử lý ở hồ sơ nhân vật, căn cứ nguồn và khuôn chế bản. Chờ chủ dự án chọn bước tiếp theo; đề xuất khóa 10 bảng nhân vật trước.
