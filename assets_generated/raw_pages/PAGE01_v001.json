@@ -1,0 +1,27 @@
+{
+  "image": "assets_generated/raw_pages/PAGE01_v001.png",
+  "version": "v001",
+  "native_size_px": [
+    1086,
+    1449
+  ],
+  "prompt": "Use case: illustration-story. Produce PAGE01 text-free background for Vietnamese illustrated historical-legend book TRƯNG NỮ VƯƠNG, readers13–16. Portrait bleed aspect196:246, request native2315x2906px or highest supported native portrait size. TemplateB: reserve upper20% full width as calm pale warm sky with no subjects or busy details; below it TWO horizontal narrative panels, first from y20% to59%, second from y60% to100%, separated by a narrow ivory gutter. Reference image1 CHAR12: use ONLY first man on left (NV21 Phùng Đặng, warm brown rustic tunic, round kind face, gray short beard, low bun) and center woman (NV22 Lưu Thị Tuấn, peach-beige tunic, brown headscarf, black-gray low bun). Do NOT include rightmost king. Reference image2 ENV01: top strip E01 for upper panel architecture and river confluence; middle strip E02 for lower panel rustic house at night; ignore bottom strip. Style lock: finely inked Vietnamese adventure book illustration, confident black contour, directional crosshatching, controlled rich watercolor and pencil, semi-realistic faces, vivid and heroic yet warm, clear print-readable silhouettes, same material and palette as refs, avoid noisy faces. UPPER PANEL: sweeping sunlit Phong Châu wooden stilt settlement with thatched roofs, modest red banners without marks, green hills and broad Bạch Hạc river confluence, small wooden boats, atmospheric layered landscape. Architecture must start below the reserved20% sky. LOWER PANEL: moonlit Đông An herb healer's thatched wooden house, earthen courtyard, jars to LEFT of doorway, areca behind house. Two elderly villagers NV21 and NV22 sit together near doorway looking upward with quiet wonder, both fully inside frame. Above roof ONE luminous golden dragon dissolves into EXACTLY TWO golden peacocks with distinct beaks, wings and eye-patterned tails, surrounded by red-gold radiance; clearly a dream apparition, not four birds, not a phoenix, no extra heads. Keep couple heads below y79%, visible hands anatomically clean, modest relaxed gestures, no overlapping fused limbs. Deep indigo night contrasts with luminous gold and gentle warm lantern in house. All essential faces and apparition inside generous safe margins. Full bleed scene edge to edge. ABSOLUTELY NO TEXT, lettering, labels, captions, numbers, speech balloons, parchment boxes, logos, signatures or watermarks. No palace king, no Trưng sisters in this ancestral legend, no modern objects, no photorealism, no manga.",
+  "actual_references": [
+    {
+      "path": "assets_generated/design_system/CHAR12_v001.png",
+      "sha256": "b88bb40815f7b998d2f085c1a139a9f45dd7e21a9899c907dbddb2be8bafef7e"
+    },
+    {
+      "path": "assets_generated/design_system/ENV01_v001.png",
+      "sha256": "2b124b03d2dc4046d9b67dce60cd06a832faffe5e02ce0685da4708a41c02b00"
+    }
+  ],
+  "generator": "image_gen.imagegen (model not exposed)",
+  "text_free": true,
+  "top_clearance_checked": true,
+  "status": "REVISION_REQUIRED",
+  "user_approved": false,
+  "print_ready": false,
+  "note": "First native output retained. Native aspect0.7495 versus196/246=0.79675; division not at trimY128mm. v002 requested composition correction. Do not stretch or claim300DPI.",
+  "sha256": "1ed728976e7104746e7f26d01a3c361a96a1102519e7ca25de2bb0d114039f96"
+}

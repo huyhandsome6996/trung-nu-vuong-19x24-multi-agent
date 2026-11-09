@@ -79,10 +79,10 @@
       ],
       "instructions": "Lấy text đã khóa từ evidence bước TEXT. Xem các sheet liên quan; soạn prompt cuối theo cảnh, ghi actual_references và hash. Tạo ảnh bằng công cụ sinh ảnh, nền không chữ, không bóng thoại, chừa20% đỉnh; dùng đúng A/B/C. Kiểm mặt, phục trang, tay/chân/vũ khí và hành động. Lưu PNG native có phiên bản và metadata theo templates/RAW_IMAGE_METADATA.json. Không resize rồi khai native300DPI.",
       "evidence": [],
-      "last_note": "Đã xem CHAR12 và ENV01; sinh nền TemplateB từ hai ảnh thực",
+      "last_note": "Đã lưu PAGE01_v001.png native1086x1449; hai người đúng sheet,2khổng tước; cần sửa tỷ lệ và vị trí rãnh128mm trước layout",
       "page": 1,
       "owner": "Codex",
-      "updated_at": "2026-11-09T11:56:42+00:00"
+      "updated_at": "2026-11-09T12:00:54+00:00"
     },
     {
       "id": "PAGE01_LAYOUT",
@@ -1604,13 +1604,15 @@
       "id": "PRINT_SPEC",
       "kind": "print_spec",
       "title": "Chốt thông số nhà in và quyền sử dụng",
-      "status": "todo",
+      "status": "blocked",
       "depends_on": [
         "DESIGN_BASELINE"
       ],
       "instructions": "Ghi thông số nhà in thực cấp: giấy/đóng/gáy/ICC/PDF preset/font và quyền dùng tài liệu. Tạo print_profile.json. Nếu thiếu dữ liệu không tự xác nhận; block với lý do rõ, tiếp tục các trang và bản đọc còn làm được. Chỉ hỏi đúng dữ liệu bắt buộc còn thiếu khi đến bước này.",
       "evidence": [],
-      "last_note": ""
+      "last_note": "Chưa có nhà in cung cấp giấy/kiểu đóng/ICC/PDF preset/gáy và dữ liệu quyền xuất bản. Tiếp tục bản đọc; không tự gắn PRINT_READY.",
+      "block_reason": "Chưa có nhà in cung cấp giấy/kiểu đóng/ICC/PDF preset/gáy và dữ liệu quyền xuất bản. Tiếp tục bản đọc; không tự gắn PRINT_READY.",
+      "updated_at": "2026-11-09T12:02:34+00:00"
     },
     {
       "id": "ASSEMBLY",
@@ -1692,6 +1694,18 @@
       "task": "PAGE01_ART",
       "action": "start",
       "note": "Đã xem CHAR12 và ENV01; sinh nền TemplateB từ hai ảnh thực"
+    },
+    {
+      "at": "2026-11-09T12:00:54+00:00",
+      "task": "PAGE01_ART",
+      "action": "checkpoint",
+      "note": "Đã lưu PAGE01_v001.png native1086x1449; hai người đúng sheet,2khổng tước; cần sửa tỷ lệ và vị trí rãnh128mm trước layout"
+    },
+    {
+      "at": "2026-11-09T12:02:34+00:00",
+      "task": "PRINT_SPEC",
+      "action": "block",
+      "note": "Chưa có nhà in cung cấp giấy/kiểu đóng/ICC/PDF preset/gáy và dữ liệu quyền xuất bản. Tiếp tục bản đọc; không tự gắn PRINT_READY."
     }
   ]
 }

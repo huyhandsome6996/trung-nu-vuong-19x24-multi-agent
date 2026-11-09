@@ -1,0 +1,53 @@
+[
+  {
+    "id": "HIST01",
+    "institution": "Bảo tàng Lịch sử Quốc gia",
+    "title": "Cuộc khởi nghĩa Hai Bà Trưng (năm40–43 sau Công nguyên)",
+    "url": "https://baotanglichsu.vn/vi/Articles/3098/13485/cuoc-khoi-nghia-hai-ba-trung-nam-40-43-sau-cong-nguyen.html",
+    "published": "2013-01-17",
+    "accessed": "2026-11-09",
+    "reviewed_sections": "Các đoạn về khởi nghĩa năm40, Luy Lâu,65huyện thành, suy tôn và Mê Linh; gần3năm tự chủ.",
+    "supports": [
+      "Khởi nghĩa năm40 ở cửa sông Hát",
+      "Tiến đánh Luy Lâu, Tô Định rút chạy",
+      "65huyện thành",
+      "Trưng Trắc được suy tôn, đóng đô Mê Linh"
+    ],
+    "does_not_establish": [
+      "Đường hành quân nối trực tiếp chiến thắng Phượng Hoàng với Luy Lâu",
+      "Đội hình chung của Thánh Thiên, Phùng Thị Chính khi công thành",
+      "Kiến trúc lễ đăng quang hay số voi trong cảnh27"
+    ]
+  },
+  {
+    "id": "HERITAGE01",
+    "institution": "Cục Di sản văn hóa",
+    "title": "Di tích lịch sử Đền Hai Bà Trưng",
+    "url": "https://dsvh.gov.vn/di-tich-lich-su-den-hai-ba-trung-2970",
+    "accessed": "2026-11-09",
+    "reviewed_sections": "Mô tả đền Hạ Lôi và quần thể nhìn ra đê sông Hồng.",
+    "supports": [
+      "Đền thờ tại Hạ Lôi, Mê Linh",
+      "Tưởng niệm Trưng Trắc, Trưng Nhị"
+    ],
+    "does_not_establish": [
+      "Một đền duy nhất mang địa điểm Mê Linh–Hát Môn",
+      "Concept E14 là bản sao di tích thật"
+    ]
+  },
+  {
+    "id": "HERITAGE02",
+    "institution": "Cục Di sản văn hóa",
+    "title": "Di tích lịch sử Đền Hát Môn",
+    "url": "https://dsvh.gov.vn/di-tich-lich-su-den-hat-mon-2971",
+    "accessed": "2026-11-09",
+    "reviewed_sections": "Giới thiệu địa điểm và truyền thống hội quân; phân biệt công trình có thật với tương truyền.",
+    "supports": [
+      "Hát Môn là di tích riêng",
+      "Truyền thống hội quân và thờ Hai Bà Trưng"
+    ],
+    "does_not_establish": [
+      "Những chi tiết truyền thuyết đều là sự kiện sử học đã kiểm chứng"
+    ]
+  }
+]
