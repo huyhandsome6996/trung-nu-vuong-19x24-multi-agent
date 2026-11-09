@@ -1,0 +1,12 @@
+# Ignore OS & temporary files
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+*.tmp
+*.bak
+
+# Ignore oversized raw working files (>50MB) if not using Git LFS
+*.psd
+*.ai
+*.indd
