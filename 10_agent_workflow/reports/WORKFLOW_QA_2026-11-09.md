@@ -15,3 +15,7 @@
 - JSON report và các check pass là lời xác nhận của reviewer; CLI kiểm được cấu trúc/file/hash, không tự xác nhận nội dung scan, gương mặt hoặc không có chữ trong tranh.
 - GitHub từ chối tạo workflow bằng PAT hiện tại vì thiếu workflow scope. YAML được lưu làm mẫu tại templates/github-actions-validate.yml; CI chưa hoạt động. Tests/check đã chạy local. Khi có quyền workflow, đưa mẫu vào .github/workflows/validate-main.yml rồi kiểm trạng thái chạy thực trên GitHub.
 - Hợp nhất/push và dọn nhánh chỉ được báo thành công sau đối chiếu Git remote. Kết quả thao tác được ghi vào nhật ký sau khi thực hiện.
+
+## Kiểm clone và hợp nhất
+
+Main remote tại3fec447 đã được đối chiếu SHA. Hai nhánh cũ đều là tổ tiên của main trước khi dọn. Một bản clone local sạch đã chạy check_repo,8tests,next vàpacket đạt; tạo packet không tạo khác biệt Git. Lịch sử và toàn bộ ảnh được giữ.

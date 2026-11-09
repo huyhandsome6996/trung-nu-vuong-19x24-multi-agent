@@ -75,3 +75,9 @@ timezone: "Asia/Ho_Chi_Minh"
 - Phạm vi hoàn thành là hạ tầng vận hành và hợp nhất, chưa sinh 28 trang truyện hoặc file in. Queue ban đầu vẫn 2 baseline done, 122 todo, SOURCE_EPILOGUE blocked; bước tiếp PAGE01_TEXT. Thiếu công cụ/dữ liệu thì block đúng bước, không tự bịa kết quả.
 
 - Giới hạn push đã xử lý: lần push đầu bị GitHub từ chối vì tạo workflow mà PAT không có workflow scope. Chuyển YAML thành mẫu trong Ngăn 10, sửa commit local chưa công bố để không yêu cầu quyền đó; không tìm cách vượt kiểm soát quyền GitHub.
+
+### Kết quả đồng bộ WORKFLOW-003
+
+- Main remote đã nhận commit3fec447, SHA local/remote khớp. Hai nhánh agent-04/art-assets-part-1 và agent-06/qa-review đã được xác nhận là tổ tiên của main rồi xóa trên remote và local; toàn bộ lịch sử vẫn nằm trong main.
+- Tạo một bản clone sạch từ commit main đã lưu, chạy check_repo và8tests đều đạt; next chọn PAGE01_TEXT, packet sinh lại không làm bẩn working tree. Đây là kiểm bản clone local, không phải khẳng định đã tải và kiểm trên mọi máy.
+- CI tự động chưa kích hoạt do token thiếu workflow scope; mẫu cấu hình sẵn ở Ngăn10. Các lệnh kiểm local dùng được đầy đủ.
