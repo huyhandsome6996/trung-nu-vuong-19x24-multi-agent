@@ -1,0 +1,518 @@
+[
+  {
+    "page": 1,
+    "template": "B",
+    "characters": [
+      "NV21",
+      "NV22",
+      "NV23"
+    ],
+    "environments": [
+      "E01",
+      "E02"
+    ],
+    "props": [
+      "P13",
+      "P36"
+    ],
+    "note": "Huyền sử, vàng trăng",
+    "status": "NOT_GENERATED"
+  },
+  {
+    "page": 2,
+    "template": "B",
+    "characters": [
+      "NV14",
+      "NV15",
+      "NV23"
+    ],
+    "environments": [
+      "E01",
+      "E03"
+    ],
+    "props": [
+      "P20",
+      "P21"
+    ],
+    "note": "Huyền sử, vàng trời",
+    "status": "NOT_GENERATED"
+  },
+  {
+    "page": 3,
+    "template": "C",
+    "characters": [
+      "NV16",
+      "NV19",
+      "NV18",
+      "NV07",
+      "NV08"
+    ],
+    "environments": [
+      "E04"
+    ],
+    "props": [
+      "P22"
+    ],
+    "note": "Đêm nến",
+    "status": "NOT_GENERATED"
+  },
+  {
+    "page": 4,
+    "template": "A",
+    "characters": [
+      "NV03",
+      "NV05",
+      "NV06"
+    ],
+    "environments": [
+      "E05"
+    ],
+    "props": [
+      "P11",
+      "P12"
+    ],
+    "note": "Bình minh bình yên",
+    "status": "NOT_GENERATED"
+  },
+  {
+    "page": 5,
+    "template": "C",
+    "characters": [
+      "NV03",
+      "NV05",
+      "NV06"
+    ],
+    "environments": [
+      "E05"
+    ],
+    "props": [
+      "P17"
+    ],
+    "note": "Cấp báo; A02 chim câu",
+    "status": "NOT_GENERATED"
+  },
+  {
+    "page": 6,
+    "template": "A",
+    "characters": [
+      "NV03",
+      "NV34",
+      "NV35"
+    ],
+    "environments": [
+      "E05"
+    ],
+    "props": [
+      "P05",
+      "P07",
+      "P08"
+    ],
+    "note": "Đổi áo Lạc Hầu; đừng cho Thi Sách mặc giáp Trưng Trắc",
+    "status": "NOT_GENERATED"
+  },
+  {
+    "page": 7,
+    "template": "B",
+    "characters": [
+      "NV03",
+      "NV18",
+      "NV19"
+    ],
+    "environments": [
+      "E05"
+    ],
+    "props": [
+      "P08"
+    ],
+    "note": "Mười phát liên tiếp; A01 ngựa đen",
+    "status": "NOT_GENERATED"
+  },
+  {
+    "page": 8,
+    "template": "A",
+    "characters": [
+      "NV03",
+      "NV18"
+    ],
+    "environments": [
+      "E05"
+    ],
+    "props": [
+      "P05",
+      "P24"
+    ],
+    "note": "Thương pháp, trọng tâm rõ",
+    "status": "NOT_GENERATED"
+  },
+  {
+    "page": 9,
+    "template": "B",
+    "characters": [
+      "NV03",
+      "NV05",
+      "NV18",
+      "NV19"
+    ],
+    "environments": [
+      "E05"
+    ],
+    "props": [
+      "P06",
+      "P11"
+    ],
+    "note": "Bi tráng, không cận cảnh máu",
+    "status": "NOT_GENERATED"
+  },
+  {
+    "page": 10,
+    "template": "B",
+    "characters": [
+      "NV01",
+      "NV02",
+      "NV09",
+      "NV10"
+    ],
+    "environments": [
+      "E07"
+    ],
+    "props": [
+      "P30"
+    ],
+    "note": "Áo tang, đêm đuốc",
+    "status": "NOT_GENERATED"
+  },
+  {
+    "page": 11,
+    "template": "A",
+    "characters": [
+      "NV07",
+      "NV08"
+    ],
+    "environments": [
+      "E06"
+    ],
+    "props": [
+      "P14"
+    ],
+    "note": "Bình minh pháp trường; hai cột",
+    "status": "NOT_GENERATED"
+  },
+  {
+    "page": 12,
+    "template": "C",
+    "characters": [
+      "NV01",
+      "NV02",
+      "NV09",
+      "NV10",
+      "NV11",
+      "NV12",
+      "NV13"
+    ],
+    "environments": [
+      "E07"
+    ],
+    "props": [
+      "P17",
+      "P19"
+    ],
+    "note": "Tụ nghĩa; A03 chim ưng",
+    "status": "NOT_GENERATED"
+  },
+  {
+    "page": 13,
+    "template": "A",
+    "characters": [
+      "NV01",
+      "NV02",
+      "NV09",
+      "NV10"
+    ],
+    "environments": [
+      "E07"
+    ],
+    "props": [
+      "P01"
+    ],
+    "note": "Trưng Trắc áo trắng, mắt khô",
+    "status": "NOT_GENERATED"
+  },
+  {
+    "page": 14,
+    "template": "A",
+    "characters": [
+      "NV01"
+    ],
+    "environments": [
+      "E07"
+    ],
+    "props": [
+      "P30",
+      "P31"
+    ],
+    "note": "Sấm dậy, đám đông không che chủ thể",
+    "status": "NOT_GENERATED"
+  },
+  {
+    "page": 15,
+    "template": "B",
+    "characters": [
+      "NV16",
+      "NV17",
+      "NV19",
+      "NV27",
+      "NV28",
+      "NV29"
+    ],
+    "environments": [
+      "E04"
+    ],
+    "props": [
+      "P22"
+    ],
+    "note": "Hoảng loạn, họp chia quân",
+    "status": "NOT_GENERATED"
+  },
+  {
+    "page": 16,
+    "template": "A",
+    "characters": [
+      "NV11",
+      "NV12",
+      "NV30"
+    ],
+    "environments": [
+      "E08"
+    ],
+    "props": [
+      "P29",
+      "P30",
+      "P31",
+      "P33"
+    ],
+    "note": "Đại cảnh; A04 tám voi xám ngà trắng",
+    "status": "NOT_GENERATED"
+  },
+  {
+    "page": 17,
+    "template": "B",
+    "characters": [
+      "NV01",
+      "NV02",
+      "NV09",
+      "NV10",
+      "NV11",
+      "NV12",
+      "NV13"
+    ],
+    "environments": [
+      "E08"
+    ],
+    "props": [
+      "P29"
+    ],
+    "note": "Trưng Nhị áo nền lam; chữ bài vị ghép riêng",
+    "status": "NOT_GENERATED"
+  },
+  {
+    "page": 18,
+    "template": "A",
+    "characters": [
+      "NV01",
+      "NV02",
+      "NV09",
+      "NV10"
+    ],
+    "environments": [
+      "E08"
+    ],
+    "props": [
+      "P01",
+      "P02",
+      "P29"
+    ],
+    "note": "Đọc hịch; cả mũ/kiếm dưới vùng khung",
+    "status": "NOT_GENERATED"
+  },
+  {
+    "page": 19,
+    "template": "B",
+    "characters": [
+      "NV07",
+      "NV04"
+    ],
+    "environments": [
+      "E09"
+    ],
+    "props": [
+      "P13",
+      "P36"
+    ],
+    "note": "Hồi ức huyết sâm; không đưa cha đã mất về hiện tại",
+    "status": "NOT_GENERATED"
+  },
+  {
+    "page": 20,
+    "template": "A",
+    "characters": [
+      "NV04"
+    ],
+    "environments": [
+      "E10"
+    ],
+    "props": [
+      "P09",
+      "P10"
+    ],
+    "note": "Bảy tộc; PH03 nói thoại",
+    "status": "NOT_GENERATED"
+  },
+  {
+    "page": 21,
+    "template": "C",
+    "characters": [
+      "NV04",
+      "NV31",
+      "NV32",
+      "NV33"
+    ],
+    "environments": [
+      "E10"
+    ],
+    "props": [
+      "P28",
+      "P32"
+    ],
+    "note": "Sa bàn; chưa phải bản đồ địa lý thật",
+    "status": "NOT_GENERATED"
+  },
+  {
+    "page": 22,
+    "template": "A",
+    "characters": [
+      "NV17",
+      "NV20"
+    ],
+    "environments": [
+      "E12"
+    ],
+    "props": [
+      "P33"
+    ],
+    "note": "Sương sớm; 30 thuyền địch",
+    "status": "NOT_GENERATED"
+  },
+  {
+    "page": 23,
+    "template": "A",
+    "characters": [
+      "NV04",
+      "NV17",
+      "NV20"
+    ],
+    "environments": [
+      "E10"
+    ],
+    "props": [
+      "P09",
+      "P10",
+      "P23"
+    ],
+    "note": "Nhử địch, chỉ kiếm",
+    "status": "NOT_GENERATED"
+  },
+  {
+    "page": 24,
+    "template": "B",
+    "characters": [
+      "NV04",
+      "NV31",
+      "NV32",
+      "NV33"
+    ],
+    "environments": [
+      "E11",
+      "E12"
+    ],
+    "props": [
+      "P28",
+      "P33"
+    ],
+    "note": "Hai mặt trận, giữ phương hướng",
+    "status": "NOT_GENERATED"
+  },
+  {
+    "page": 25,
+    "template": "B",
+    "characters": [
+      "NV04",
+      "NV17",
+      "NV20",
+      "NV32",
+      "NV33"
+    ],
+    "environments": [
+      "E10"
+    ],
+    "props": [
+      "P28"
+    ],
+    "note": "Khép vòng vây",
+    "status": "NOT_GENERATED"
+  },
+  {
+    "page": 26,
+    "template": "A",
+    "characters": [
+      "NV04",
+      "NV17",
+      "NV20"
+    ],
+    "environments": [
+      "E10"
+    ],
+    "props": [
+      "P09",
+      "P14"
+    ],
+    "note": "Năm tù binh gồm ba tướng phụ không tên; không tự nhận họ là Sầm Lân/Bá/Tấn",
+    "status": "NOT_GENERATED"
+  },
+  {
+    "page": 27,
+    "template": "A",
+    "characters": [
+      "NV01",
+      "NV02",
+      "NV04",
+      "NV06",
+      "NV16"
+    ],
+    "environments": [
+      "E04"
+    ],
+    "props": [
+      "P31",
+      "P34"
+    ],
+    "note": "Mở rộng: cần nguồn kết; voi xám",
+    "status": "NOT_GENERATED"
+  },
+  {
+    "page": 28,
+    "template": "A",
+    "characters": [
+      "NV01",
+      "NV02",
+      "NV04"
+    ],
+    "environments": [
+      "E01"
+    ],
+    "props": [
+      "P26"
+    ],
+    "note": "Mở rộng: E13/E14 chưa khóa địa điểm thật; hồn Thi Sách không hiện như người sống",
+    "status": "NOT_GENERATED"
+  }
+]

@@ -23,10 +23,10 @@
 - **Nguồn PDF:** Trang 39–40 (Trang sách 250–251).
 - **Loại Bố Cục:** `Template A (Full-Page Grand Panorama Splash: Toàn cảnh Đàn thề Hát Môn uy nghiêm bên ngã ba sông)`.
 - **Text Khung Dẫn Truyện (Top Narration Box - 58 từ):**
-  > Buổi sáng mùa xuân năm 40, tại bãi bồi mênh mông nơi **cửa sông Hát Môn** giao hòa cùng **sông Nhị Hà**, một **đàn tế cao hơn hai trượng** được dựng lên uy nghiêm. Xung quanh kỳ đài là **chín mươi chín lá cờ ngũ sắc**, **bảy mươi tám thớt voi trắng ngà**, hàng ngàn kỵ binh, cung thủ và **một trăm sáu mươi chiến thuyền** rợp bóng cờ đào.
+  > Buổi sáng mùa xuân năm 40, tại bãi bồi mênh mông nơi **cửa sông Hát Môn** giao hòa cùng **sông Nhị Hà**, một **đàn tế cao hơn hai trượng** được dựng lên uy nghiêm. Xung quanh kỳ đài là **chín mươi chín lá cờ ngũ sắc**, **tám thớt voi đực da xám, ngà trắng**, hàng ngàn kỵ binh, cung thủ và **một trăm sáu mươi chiến thuyền** rợp bóng cờ đào.
 - **Bóng Thoại (Speech Bubble):** Không có (dành trọn không gian cho đại cảnh lịch sử hào hùng).
 - **Mô tả Khung hình (Visual Composition):**
-  - Đại cảnh toàn trang hoành tráng bậc nhất cuốn sách: Chính giữa bãi bồi ngã ba sông Hát Giang – Nhị Hà là Đàn thề Hát Môn 3 tầng cao vợi, 99 lá cờ ngũ sắc tung bay, 8 tầng tháp trống đồng lấp lánh dưới nắng xuân. Bên tả là 500 kỵ mã chiến giáp của Đào Chiêu Hiển và 78 thớt voi chiến ngà trắng; bên hữu là 2.000 cung thủ của Bạch Uy; dưới mặt sông Nhị Hà là 160 khinh thuyền của Đô đốc Lê Đạo xếp đội hình chỉnh tề.
+  - Đại cảnh toàn trang hoành tráng bậc nhất cuốn sách: Chính giữa bãi bồi ngã ba sông Hát Giang – Nhị Hà là Đàn thề Hát Môn 3 tầng cao vợi, 99 lá cờ ngũ sắc tung bay, 8 tầng tháp trống đồng lấp lánh dưới nắng xuân. Bên tả là 500 kỵ mã chiến giáp của Đào Chiêu Hiển và 8 thớt voi chiến ngà trắng; bên hữu là 2.000 cung thủ của Bạch Uy; dưới mặt sông Nhị Hà là 160 khinh thuyền của Đô đốc Lê Đạo xếp đội hình chỉnh tề.
 
 ---
 
@@ -38,7 +38,7 @@
 - **Bóng Thoại (Speech Bubble):** Không có.
 - **Mô tả Khung hình (Visual Composition):**
   - *Khung trên:* Cận cảnh trang nghiêm chiếc lư hương đồng chạm khắc tinh xảo tỏa khói hương quyện thành hình chim Lạc và bóng dáng tiên tổ Hùng Vương trên nền trời, phía sau là bài vị vàng *"Hùng Vương Quốc Chủ"* và hai bài vị mới ghi tên *Trưng Định – Thi Sách*.
-  - *Khung dưới:* Trong tiếng 9 hồi chiêng trống đồng vang rền, **Trưng Trắc và Trưng Nhị** mặc giáp đồng mạ vàng, khoác chiến bào đỏ son, đầu vấn khăn tang trắng kết hợp mũ kim khôi uy dũng bước lên bậc thềm kỳ đài.
+  - *Khung dưới:* Trong tiếng 9 hồi chiêng trống đồng vang rền, **Trưng Trắc** mặc giáp đồng và chiến bào đỏ son; **Trưng Nhị** mặc áo giáp nền lam sẫm viền đồng, điểm lụa đỏ; cả hai, đầu vấn khăn tang trắng kết hợp mũ kim khôi uy dũng bước lên bậc thềm kỳ đài.
 
 ---
 
@@ -144,7 +144,7 @@
 - **Nguồn PDF:** Trang 57–58 (Trang sách 268–269).
 - **Loại Bố Cục:** `Template A (Full-Page Climax Splash: Thánh Thiên rút trường kiếm tuyên án trước Tào Quyền và Lục Hiến bị trói dưới sân)`.
 - **Text Khung Dẫn Truyện (Top Narration Box - 52 từ):**
-  > Giữa khoảng sân rộng dưới chân núi Phượng Hoàng, **Tào Quyền** và tên phản bội **Lục Hiến** bị trói chặt vào **năm chiếc cọc gỗ** trước sự chứng kiến của hàng ngàn nghĩa sĩ. **Nữ động chủ Thánh Thiên** rút thanh trường kiếm sáng quắc chỉ thẳng vào tên đại gian ác, **hiên ngang tuyên tội** để tế hương hồn cha và các bậc liệt sĩ!
+  > Giữa khoảng sân rộng dưới chân núi Phượng Hoàng, **Tào Quyền**, **Lục Hiến** và ba tướng giặc bị trói mỗi người một cọc vào **năm chiếc cọc gỗ** trước sự chứng kiến của hàng ngàn nghĩa sĩ. **Nữ động chủ Thánh Thiên** rút thanh trường kiếm sáng quắc chỉ thẳng vào tên đại gian ác, **hiên ngang tuyên tội** để tế hương hồn cha và các bậc liệt sĩ!
 - **Bóng Thoại (Speech Bubble):**
   - *Thánh Thiên (uy phong lẫm liệt):* "Tào tặc! Ngươi vô cớ sát hại cha ta, tàn hại dòng giống Lạc Việt ta. Hôm nay ta thay mặt trời đất Giao Chỉ tuyên án: TRẢM THỦ!"
 - **Mô tả Khung hình (Visual Composition):**
@@ -173,3 +173,6 @@
   - Bố cục 2 tầng hòa quyện giữa Lịch sử và Hiện tại (tương tự trang kết `JPG #01` của bộ mẫu *An Dương Vương*):
     - *Tầng trên:* Hình ảnh **Trưng Nữ Vương** uy nghiêm trong long bào Lạc Việt đứng trên đài cao kinh đô Mê Linh dưới ánh mặt trời rực rỡ và đàn chim Lạc vàng bay lượn.
     - *Tầng dưới:* Cảnh đền thờ Hai Bà Trưng tại Mê Linh – Hát Môn bên dòng sông Hồng hiền hòa trong sắc xuân, nơi thế hệ học sinh Việt Nam hôm nay thành kính dâng hương tưởng nhớ công đức tiền nhân.
+
+
+> Đính chính thiết kế 09/11/2026: áp dụng đối chiếu scan và chuẩn nhận diện tại `09_design_system/SOURCE_DECISIONS.md`; xem hồ sơ v1 trước khi dùng prompt cũ.

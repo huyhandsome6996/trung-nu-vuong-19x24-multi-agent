@@ -10,11 +10,11 @@
 - **Nguồn PDF:** Trang 06–07 (Trang sách 217–218).
 - **Loại Bố Cục:** `Template B (Chia 2 khung ngang: Khung trên đại cảnh kinh đô Phong Châu - Khung dưới giấc mộng rồng vàng khổng tước)`.
 - **Text Khung Dẫn Truyện (Top Narration Box - 52 từ):**
-  > Ngày xửa ngày xưa, từ thuở **vua Hùng dựng nước Văn Lang**, giang sơn gấm vóc trải hơn **hai ngàn tám trăm năm** bền vững. Vào đời **Hùng Duệ Vương**, tại đất Đông An có vợ chồng ông **Phùng Đặng** hiền đức, đêm xuân nằm mộng thấy **đôi chim khổng tước hóa rồng vàng** giáng thế đầu thai.
+  > Ngày xửa ngày xưa, từ thuở **vua Hùng dựng nước Văn Lang**, giang sơn gấm vóc trải hơn **hai ngàn tám trăm năm** bền vững. Vào đời **Hùng Duệ Vương**, tại đất Đông An có vợ chồng ông **Phùng Đặng** hiền đức, đêm xuân nằm mộng thấy **rồng vàng hóa đôi chim khổng tước** giáng thế đầu thai.
 - **Bóng Thoại (Speech Bubble):** Không có.
 - **Mô tả Khung hình (Visual Composition):**
   - *Khung trên (40%):* Đại cảnh núi sông Văn Lang hùng vĩ nơi ngã ba sông Bạch Hạc, kinh đô Phong Châu rực rỡ cờ hoa dưới bầu trời xanh.
-  - *Khung dưới (40%):* Đêm trăng mùa xuân, vợ chồng ông Phùng Đặng – bà Lưu Thị Tuấn ngước nhìn bầu trời rực sáng hào quang đỏ vàng, nơi đôi chim khổng tước lộng lẫy đang hóa thành rồng vàng bay xuống mái nhà gỗ.
+  - *Khung dưới (40%):* Đêm trăng mùa xuân, vợ chồng ông Phùng Đặng – bà Lưu Thị Tuấn ngước nhìn bầu trời rực sáng hào quang đỏ vàng, nơi rồng vàng đang hóa thành đôi chim khổng tước lộng lẫy bay xuống mái nhà gỗ.
 
 ---
 
@@ -83,13 +83,13 @@
 
 ### TRANG 07 — TUYỆT KỸ TIỄN PHÁP THẦN THÔNG CỦA DƯƠNG HUYỆN LỆNH
 - **Nguồn PDF:** Trang 17–19 (Trang sách 228–230).
-- **Loại Bố Cục:** `Template B (Khung trên Thi Sách giương cung bắn liền 3 mũi tên - Khung dưới 10 tên giặc ngã rạp & chiến mã phi ra)`.
+- **Loại Bố Cục:** `Template B (Khung trên Thi Sách giương cung bắn liên tiếp mười phát tên - Khung dưới 10 tên giặc ngã rạp & chiến mã phi ra)`.
 - **Text Khung Dẫn Truyện (Top Narration Box - 52 từ):**
   > Trước cổng phủ, tên tướng giặc **Lữ Thạch** ngạo mạn buông lời dụ hàng rồi bất ngờ **bắn tên lén** về phía Thi Sách. Chàng lập tức gạt tên giặc, rút cây **cung gia bảo** bắn liên tiếp **mười phát tên thần thông**, xuyên thủng hàng ngũ khiên giáo của kẻ thù rồi tung mình lên **chiến mã đen tuyền**.
 - **Bóng Thoại (Speech Bubble):**
   - *Thi Sách:* "Lữ Thạch! Bọn ngươi miệng nói nhân nghĩa mà đằng sau gươm giáo hại người. Hôm nay đừng hòng toàn mạng trở về!"
 - **Mô tả Khung hình (Visual Composition):**
-  - *Khung trên:* Cận cảnh Thi Sách đứng hiên ngang trước thềm phủ Chu Diên, kéo căng dây cung gia bảo bắn một lúc 3 mũi tên xé gió lao đi.
+  - *Khung trên:* Cận cảnh Thi Sách đứng hiên ngang trước thềm phủ Chu Diên, kéo căng dây cung gia bảo bắn mười mũi tên liên tiếp xé gió lao đi.
   - *Khung dưới:* Hàng loạt lính khiên giáp hộ vệ trước mặt Lữ Thạch ngã rạp, ngựa của Lữ Thạch hoảng sợ chồm lên; trong khi đó con chiến mã đen tuyền (Hắc mã) của Thi Sách tung vó phi ra đón chủ nhân.
 
 ---
@@ -127,7 +127,7 @@
   - *Trưng Trắc (nước mắt lăn dài nhưng ánh mắt rực lửa):* "Phụ thân bị bắt, phu quân vì nước hy sinh... Thù nhà nợ nước này, Trưng nhi thề quyết trả!"
 - **Mô tả Khung hình (Visual Composition):**
   - *Khung trên:* Toàn cảnh Cổ Lôi sơn trang ẩn giữa rừng núi ban đêm, đuốc thắp sáng rực quanh 17 chiếc trống đồng cổ và đàn voi chiến.
-  - *Khung dưới:* Trong gian nhà gỗ thắp đèn nến, Trưng Trắc nắm chặt bức mật báo, đối diện là hai vị nữ sư phụ Đô Năng Tế – Cẩm Nương và em gái Trưng Nhị đang siết chặt tay nàng.
+  - *Khung dưới:* Trong gian nhà gỗ thắp đèn nến, Trưng Trắc nắm chặt bức mật báo, đối diện là hai vị sư phụ Đô Năng Tế – Cẩm Nương và em gái Trưng Nhị đang siết chặt tay nàng.
 
 ---
 
@@ -179,3 +179,6 @@
   - *Toàn thể tướng sĩ & tộc trưởng:* "QUYẾT ĐÁNH GIẶC TÔ ĐỊNH! QUYẾT ĐÁNH ĐUỔI LOÀI ÁC TẶC PHƯƠNG BẮC!"
 - **Mô tả Khung hình (Visual Composition):**
   - Đại cảnh toàn trang nhìn từ trên cao xuống đại sảnh mở thông ra sân lớn Cổ Lôi sơn trang: Hàng trăm thanh trường thương, đại đao, cung nỏ đồng loạt giơ cao lên trời dưới ánh đuốc rực lửa; 17 chiếc trống đồng lớn được gióng lên rền vang, đàn voi chiến phía xa vươn vòi gầm vang vọng khắp núi rừng Mê Linh.
+
+
+> Đính chính thiết kế 09/11/2026: áp dụng đối chiếu scan và chuẩn nhận diện tại `09_design_system/SOURCE_DECISIONS.md`; xem hồ sơ v1 trước khi dùng prompt cũ.

@@ -1,0 +1,326 @@
+[
+  {
+    "id": "CHAR02",
+    "category": "characters",
+    "title": "Trưng Nhị",
+    "prompt": "Art direction for the entire collection: traditional Vietnamese heroic historical-fairy-tale comic for ages 13–16. Sharp black ink contours with confident thick-to-fine variation, visible fine cross-hatching in all shaded forms, vivid textured watercolor and colored-pencil grain, natural semi-realistic heroic anatomy and expressive faces. Warm parchment base, rich crimson and bronze gold with deep indigo/forest green contrast. Strong readable silhouettes, meticulous hands and working weapon anatomy, energetic but dignified. Crisp rather than blurry, neither photorealistic nor 3D nor chibi nor glossy anime. ALL images are clean and completely TEXT-FREE, no labels, no letters, no captions, no speech bubbles, no watermarks. Full objects/figures stay inside margins. Use the supplied Trưng Trắc sheet only as a rendering-style reference, never transfer her face to another person. These are concept design boards, not finished story pages, so no narration frame is drawn.\n\nPortrait 4:5 master sheet: the SAME 24-year-old Vietnamese female general in full-body standing pose left and dynamic planted-feet defensive pose right, plus one clear head detail between. Navy-blue Lac Viet armor and under-robe, bronze trim, small crimson sash, two-feather war headband, high tied black hair, twin straight bronze swords and a horn bow. Family resemblance to Trung Trac but distinctly narrower jaw, straighter brows and more alert face. No red main robe and no large queen crown. Keep the same face and outfit across views.",
+    "positions": "Trái: đứng; phải: thủ kiếm; giữa: mặt",
+    "reference_paths": [
+      "assets_generated/characters/CHAR_01_Trung_Trac_v001.png"
+    ],
+    "output": "assets_generated/design_system/CHAR02_v001.png",
+    "status": "GENERATED"
+  },
+  {
+    "id": "CHAR03",
+    "category": "characters",
+    "title": "Thi Sách",
+    "prompt": "Art direction for the entire collection: traditional Vietnamese heroic historical-fairy-tale comic for ages 13–16. Sharp black ink contours with confident thick-to-fine variation, visible fine cross-hatching in all shaded forms, vivid textured watercolor and colored-pencil grain, natural semi-realistic heroic anatomy and expressive faces. Warm parchment base, rich crimson and bronze gold with deep indigo/forest green contrast. Strong readable silhouettes, meticulous hands and working weapon anatomy, energetic but dignified. Crisp rather than blurry, neither photorealistic nor 3D nor chibi nor glossy anime. ALL images are clean and completely TEXT-FREE, no labels, no letters, no captions, no speech bubbles, no watermarks. Full objects/figures stay inside margins. Use the supplied Trưng Trắc sheet only as a rendering-style reference, never transfer her face to another person. These are concept design boards, not finished story pages, so no narration frame is drawn.\n\nLandscape 3:2 master reference sheet of Thi Sach: left full-body standing in purple-crimson brocade Lac Hau ceremonial war robe with a GOLDEN TIGER CHEST EMBLEM, restrained feathered noble crown, neat short black beard, long square face and calm scholarly-heroic expression. His straight ancestral sword and distinctive horn bow/sheath shown beside the figure. Right: the SAME man on a solid pitch-black horse, holding a 220cm long wooden spear with tiger-skin grip; believable riding anatomy. One large head close-up upper center. NOT Chinese fantasy plate armor. Same robe and face in both views.",
+    "positions": "Trái: đứng; phải: hắc mã; giữa: mặt",
+    "reference_paths": [
+      "assets_generated/characters/CHAR_01_Trung_Trac_v001.png"
+    ],
+    "output": "assets_generated/design_system/CHAR03_v001.png",
+    "status": "GENERATED"
+  },
+  {
+    "id": "CHAR04",
+    "category": "characters",
+    "title": "Thánh Thiên",
+    "prompt": "Art direction for the entire collection: traditional Vietnamese heroic historical-fairy-tale comic for ages 13–16. Sharp black ink contours with confident thick-to-fine variation, visible fine cross-hatching in all shaded forms, vivid textured watercolor and colored-pencil grain, natural semi-realistic heroic anatomy and expressive faces. Warm parchment base, rich crimson and bronze gold with deep indigo/forest green contrast. Strong readable silhouettes, meticulous hands and working weapon anatomy, energetic but dignified. Crisp rather than blurry, neither photorealistic nor 3D nor chibi nor glossy anime. ALL images are clean and completely TEXT-FREE, no labels, no letters, no captions, no speech bubbles, no watermarks. Full objects/figures stay inside margins. Use the supplied Trưng Trắc sheet only as a rendering-style reference, never transfer her face to another person. These are concept design boards, not finished story pages, so no narration frame is drawn.\n\nPortrait 4:5 character sheet showing the SAME 17-year-old Vietnamese mountain commander Thanh Thien in full standing view and a grounded sword-pointing command pose, with clear facial closeup. Youthful but serious oval face, straight dark brows, braided black hair. Short practical bronze-and-leather ARMOR over modest fully covering forest-green and ivory clothing; WHITE mourning headband trailing behind; leopard-spotted flat boots, straight sword. Modest age-appropriate design, no exposed torso, no glamour. Keep a distinctly different face from Trung Trac and Trung Nhi.",
+    "positions": "Trái: đứng; phải: chỉ huy; giữa: mặt",
+    "reference_paths": [
+      "assets_generated/characters/CHAR_01_Trung_Trac_v001.png"
+    ],
+    "output": "assets_generated/design_system/CHAR04_v001.png",
+    "status": "GENERATED"
+  },
+  {
+    "id": "CHAR05",
+    "category": "characters",
+    "title": "Đinh Lương — Phùng Thị Chính",
+    "prompt": "Art direction for the entire collection: traditional Vietnamese heroic historical-fairy-tale comic for ages 13–16. Sharp black ink contours with confident thick-to-fine variation, visible fine cross-hatching in all shaded forms, vivid textured watercolor and colored-pencil grain, natural semi-realistic heroic anatomy and expressive faces. Warm parchment base, rich crimson and bronze gold with deep indigo/forest green contrast. Strong readable silhouettes, meticulous hands and working weapon anatomy, energetic but dignified. Crisp rather than blurry, neither photorealistic nor 3D nor chibi nor glossy anime. ALL images are clean and completely TEXT-FREE, no labels, no letters, no captions, no speech bubbles, no watermarks. Full objects/figures stay inside margins. Use the supplied Trưng Trắc sheet only as a rendering-style reference, never transfer her face to another person. These are concept design boards, not finished story pages, so no narration frame is drawn.\n\nLandscape 3:2 paired full-body lineup, exactly TWO DIFFERENT people. Left Dinh Luong: muscular 25-year-old Vietnamese man, broad square sun-browned face, short tied black hair, no long beard, dark brown tunic, leather guards, red headband, large broad-bladed polearm held safely upright. Right Phung Thi Chinh: athletic 20-year-old Vietnamese woman, heart-shaped face, one black braid, serious dark eyes, muted peach-crimson martial clothes with light brown leather armor, straight sword sheathed. Keep modest clothing and clear full silhouettes. Add a separate larger face detail above each corresponding person, no extra bodies.",
+    "positions": "Trái: NV05; phải: NV06; mặt phía trên cùng cột",
+    "reference_paths": [
+      "assets_generated/characters/CHAR_01_Trung_Trac_v001.png"
+    ],
+    "output": "assets_generated/design_system/CHAR05_v001.png",
+    "status": "GENERATED"
+  },
+  {
+    "id": "CHAR06",
+    "category": "characters",
+    "title": "Nguyễn Huyền — Trưng Định",
+    "prompt": "Art direction for the entire collection: traditional Vietnamese heroic historical-fairy-tale comic for ages 13–16. Sharp black ink contours with confident thick-to-fine variation, visible fine cross-hatching in all shaded forms, vivid textured watercolor and colored-pencil grain, natural semi-realistic heroic anatomy and expressive faces. Warm parchment base, rich crimson and bronze gold with deep indigo/forest green contrast. Strong readable silhouettes, meticulous hands and working weapon anatomy, energetic but dignified. Crisp rather than blurry, neither photorealistic nor 3D nor chibi nor glossy anime. ALL images are clean and completely TEXT-FREE, no labels, no letters, no captions, no speech bubbles, no watermarks. Full objects/figures stay inside margins. Use the supplied Trưng Trắc sheet only as a rendering-style reference, never transfer her face to another person. These are concept design boards, not finished story pages, so no narration frame is drawn.\n\nLandscape 3:2 two elderly Vietnamese patriots with clear facial details above full figures. LEFT Nguyen Huyen: slim long face, very long fine white beard, healer in plain beige and muted sage robes, herb satchel and small wicker basket. RIGHT Trung Dinh: broad square face, shorter three-pronged salt-and-pepper beard, sturdy frame, ivory inner robe under indigo outer robe. Both stand straight with serene fearless dignity. Neither bound nor injured in this reference sheet. Make the faces and beards distinctly different.",
+    "positions": "Trái: NV07; phải: NV08",
+    "reference_paths": [
+      "assets_generated/characters/CHAR_01_Trung_Trac_v001.png"
+    ],
+    "output": "assets_generated/design_system/CHAR06_v001.png",
+    "status": "GENERATED"
+  },
+  {
+    "id": "CHAR07",
+    "category": "characters",
+    "title": "Đô Năng Tế — Cẩm Nương",
+    "prompt": "Art direction for the entire collection: traditional Vietnamese heroic historical-fairy-tale comic for ages 13–16. Sharp black ink contours with confident thick-to-fine variation, visible fine cross-hatching in all shaded forms, vivid textured watercolor and colored-pencil grain, natural semi-realistic heroic anatomy and expressive faces. Warm parchment base, rich crimson and bronze gold with deep indigo/forest green contrast. Strong readable silhouettes, meticulous hands and working weapon anatomy, energetic but dignified. Crisp rather than blurry, neither photorealistic nor 3D nor chibi nor glossy anime. ALL images are clean and completely TEXT-FREE, no labels, no letters, no captions, no speech bubbles, no watermarks. Full objects/figures stay inside margins. Use the supplied Trưng Trắc sheet only as a rendering-style reference, never transfer her face to another person. These are concept design boards, not finished story pages, so no narration frame is drawn.\n\nLandscape 3:2 two venerable martial mentors. IMPORTANT corrected source design: LEFT Do Nang Te is an OLDER MAN age about58 with long salt-and-pepper beard, high forehead, tied greying black hair, deep indigo long robe and brown cloth belt, wooden staff. RIGHT Cam Nuong is an OLDER WOMAN about55 with broad oval face, dignified high grey-streaked bun, small bronze hairpin, muted indigo-purple robes, blank bamboo strategy slips. Full-body neutral poses plus each face detail above. Calm authoritative faces, no young woman on left, no armor or magical glow.",
+    "positions": "Trái: NV09 nam có râu; phải: NV10 nữ",
+    "reference_paths": [
+      "assets_generated/characters/CHAR_01_Trung_Trac_v001.png"
+    ],
+    "output": "assets_generated/design_system/CHAR07_v001.png",
+    "status": "GENERATED"
+  },
+  {
+    "id": "CHAR08",
+    "category": "characters",
+    "title": "Tam vị huyện lệnh",
+    "prompt": "Art direction for the entire collection: traditional Vietnamese heroic historical-fairy-tale comic for ages 13–16. Sharp black ink contours with confident thick-to-fine variation, visible fine cross-hatching in all shaded forms, vivid textured watercolor and colored-pencil grain, natural semi-realistic heroic anatomy and expressive faces. Warm parchment base, rich crimson and bronze gold with deep indigo/forest green contrast. Strong readable silhouettes, meticulous hands and working weapon anatomy, energetic but dignified. Crisp rather than blurry, neither photorealistic nor 3D nor chibi nor glossy anime. ALL images are clean and completely TEXT-FREE, no labels, no letters, no captions, no speech bubbles, no watermarks. Full objects/figures stay inside margins. Use the supplied Trưng Trắc sheet only as a rendering-style reference, never transfer her face to another person. These are concept design boards, not finished story pages, so no narration frame is drawn.\n\nLandscape 3:2 full-body lineup of exactly THREE DIFFERENT Vietnamese allied commanders, left to right. Le Dao: tallest, age55, long angular face, three-pronged half-silver beard, sea-blue robe/light armor, a BLACK HAWK perched on shoulder, small bamboo message tube. Dao Chieu Hien: age43 broad strong square face, short moustache, earth-red robe with bronze cavalry scale armor, long spear. Pham Danh Huong: age68 slender sage, long fine white beard, grey-blue flowing robes, white horsehair whisk. Space silhouettes apart; detailed faces big enough to distinguish, no duplicated faces, no labels.",
+    "positions": "Trái NV11; giữa NV12; phải NV13",
+    "reference_paths": [
+      "assets_generated/characters/CHAR_01_Trung_Trac_v001.png"
+    ],
+    "output": "assets_generated/design_system/CHAR08_v001.png",
+    "status": "GENERATED"
+  },
+  {
+    "id": "CHAR09",
+    "category": "characters",
+    "title": "Thánh Đóng — Tản Viên",
+    "prompt": "Art direction for the entire collection: traditional Vietnamese heroic historical-fairy-tale comic for ages 13–16. Sharp black ink contours with confident thick-to-fine variation, visible fine cross-hatching in all shaded forms, vivid textured watercolor and colored-pencil grain, natural semi-realistic heroic anatomy and expressive faces. Warm parchment base, rich crimson and bronze gold with deep indigo/forest green contrast. Strong readable silhouettes, meticulous hands and working weapon anatomy, energetic but dignified. Crisp rather than blurry, neither photorealistic nor 3D nor chibi nor glossy anime. ALL images are clean and completely TEXT-FREE, no labels, no letters, no captions, no speech bubbles, no watermarks. Full objects/figures stay inside margins. Use the supplied Trưng Trắc sheet only as a rendering-style reference, never transfer her face to another person. These are concept design boards, not finished story pages, so no narration frame is drawn.\n\nLandscape 3:2 mythic reference sheet of TWO different Van Lang heroes. Left Phung Luc Cong / Thanh Dong: powerful but human 16-year-old boy, broad youthful beardless face, red-and-bronze ancient martial attire, lifting a huge three-legged bronze cauldron with correct weight-bearing hands and stance, not a monster giant. Right Tan Vien Son Thanh: graceful adult mountain deity, long refined face and black tied hair, white-and-azure flowing robes, moderate feather headband, simple wood staff tipped with bronze, subtle golden atmospheric aura. Full-body all objects in frame, separate facial details above.",
+    "positions": "Trái NV14; phải NV15",
+    "reference_paths": [
+      "assets_generated/characters/CHAR_01_Trung_Trac_v001.png"
+    ],
+    "output": "assets_generated/design_system/CHAR09_v001.png",
+    "status": "GENERATED"
+  },
+  {
+    "id": "CHAR10",
+    "category": "characters",
+    "title": "Tô Định — Tào Quyền — Lữ Thạch",
+    "prompt": "Art direction for the entire collection: traditional Vietnamese heroic historical-fairy-tale comic for ages 13–16. Sharp black ink contours with confident thick-to-fine variation, visible fine cross-hatching in all shaded forms, vivid textured watercolor and colored-pencil grain, natural semi-realistic heroic anatomy and expressive faces. Warm parchment base, rich crimson and bronze gold with deep indigo/forest green contrast. Strong readable silhouettes, meticulous hands and working weapon anatomy, energetic but dignified. Crisp rather than blurry, neither photorealistic nor 3D nor chibi nor glossy anime. ALL images are clean and completely TEXT-FREE, no labels, no letters, no captions, no speech bubbles, no watermarks. Full objects/figures stay inside margins. Use the supplied Trưng Trắc sheet only as a rendering-style reference, never transfer her face to another person. These are concept design boards, not finished story pages, so no narration frame is drawn.\n\nLandscape 3:2 antagonist reference sheet, THREE full-body DIFFERENT men left to right: To Dinh, middle-aged narrow face with pointed black goatee, black-and-maroon official robes, fur cloak, official hat, SMALL DARK bronze tiger tally in hand. Tao Quyen, heavy-set middle-aged round face and short dark beard, dark iron scale armor with PURPLE cloak, broad sword. Lu Thach, tallest and muscular, square jaw and thick full beard, heavy black iron armor, EXACTLY FOUR short throwing daggers strapped on chest and heavy iron spear. Express arrogance through posture and facial acting, no racial caricature and no gore. Keep weapons in frame and figures visually separated.",
+    "positions": "Trái NV16; giữa NV17; phải NV18",
+    "reference_paths": [
+      "assets_generated/characters/CHAR_01_Trung_Trac_v001.png"
+    ],
+    "output": "assets_generated/design_system/CHAR10_v001.png",
+    "status": "PLANNED"
+  },
+  {
+    "id": "CHAR11",
+    "category": "characters",
+    "title": "Mã Tắc — Lục Hiến",
+    "prompt": "Art direction for the entire collection: traditional Vietnamese heroic historical-fairy-tale comic for ages 13–16. Sharp black ink contours with confident thick-to-fine variation, visible fine cross-hatching in all shaded forms, vivid textured watercolor and colored-pencil grain, natural semi-realistic heroic anatomy and expressive faces. Warm parchment base, rich crimson and bronze gold with deep indigo/forest green contrast. Strong readable silhouettes, meticulous hands and working weapon anatomy, energetic but dignified. Crisp rather than blurry, neither photorealistic nor 3D nor chibi nor glossy anime. ALL images are clean and completely TEXT-FREE, no labels, no letters, no captions, no speech bubbles, no watermarks. Full objects/figures stay inside margins. Use the supplied Trưng Trắc sheet only as a rendering-style reference, never transfer her face to another person. These are concept design boards, not finished story pages, so no narration frame is drawn.\n\nLandscape 3:2 reference sheet of TWO DIFFERENT antagonists. LEFT Ma Tac: thin angular long-cheeked 40-year-old military planner, fine moustache, dark blue-grey compact iron armor, low helmet, bow and quiver, one commanding hand. RIGHT Luc Hien: 48-year-old civil official with smaller pear-shaped face, sparse moustache, hunched anxious shoulders, dull olive-brown official robe, small official hat and cloth pouch with a blank seal; nervous yet not slapstick. Both full body with larger face inset directly above their own column. No copied To Dinh face.",
+    "positions": "Trái NV19; phải NV20",
+    "reference_paths": [
+      "assets_generated/characters/CHAR_01_Trung_Trac_v001.png"
+    ],
+    "output": "assets_generated/design_system/CHAR11_v001.png",
+    "status": "PLANNED"
+  },
+  {
+    "id": "CHAR12",
+    "category": "characters",
+    "title": "Phùng Đặng — Lưu Thị Tuấn — Hùng Duệ Vương",
+    "prompt": "Art direction for the entire collection: traditional Vietnamese heroic historical-fairy-tale comic for ages 13–16. Sharp black ink contours with confident thick-to-fine variation, visible fine cross-hatching in all shaded forms, vivid textured watercolor and colored-pencil grain, natural semi-realistic heroic anatomy and expressive faces. Warm parchment base, rich crimson and bronze gold with deep indigo/forest green contrast. Strong readable silhouettes, meticulous hands and working weapon anatomy, energetic but dignified. Crisp rather than blurry, neither photorealistic nor 3D nor chibi nor glossy anime. ALL images are clean and completely TEXT-FREE, no labels, no letters, no captions, no speech bubbles, no watermarks. Full objects/figures stay inside margins. Use the supplied Trưng Trắc sheet only as a rendering-style reference, never transfer her face to another person. These are concept design boards, not finished story pages, so no narration frame is drawn.\n\nLandscape 3:2 THREE full-body mythic-era characters left to right. Phung Dang: benevolent round-faced 50-year-old village healer, short grey beard, humble brown hemp robes, wicker herb basket. Luu Thi Tuan: kind oval-faced mature45 woman with low grey-streaked bun, plain peach-beige tunic and brown headcloth, simple rural mother. Hung Due Vuong: tall dignified65 elder king with broad square face and thick white beard, deep red ceremonial robe, golden feathered bronze crown and Dong Son solar belt. The rural couple must be modestly dressed, not royal. Neutral parchment, equally legible faces, distinct silhouettes.",
+    "positions": "Trái NV21; giữa NV22; phải NV23",
+    "reference_paths": [
+      "assets_generated/characters/CHAR_01_Trung_Trac_v001.png"
+    ],
+    "output": "assets_generated/design_system/CHAR12_v001.png",
+    "status": "PLANNED"
+  },
+  {
+    "id": "CHAR13",
+    "category": "characters",
+    "title": "Ngọc Hoa — Thục Vương — Hiền Đường",
+    "prompt": "Art direction for the entire collection: traditional Vietnamese heroic historical-fairy-tale comic for ages 13–16. Sharp black ink contours with confident thick-to-fine variation, visible fine cross-hatching in all shaded forms, vivid textured watercolor and colored-pencil grain, natural semi-realistic heroic anatomy and expressive faces. Warm parchment base, rich crimson and bronze gold with deep indigo/forest green contrast. Strong readable silhouettes, meticulous hands and working weapon anatomy, energetic but dignified. Crisp rather than blurry, neither photorealistic nor 3D nor chibi nor glossy anime. ALL images are clean and completely TEXT-FREE, no labels, no letters, no captions, no speech bubbles, no watermarks. Full objects/figures stay inside margins. Use the supplied Trưng Trắc sheet only as a rendering-style reference, never transfer her face to another person. These are concept design boards, not finished story pages, so no narration frame is drawn.\n\nLandscape 3:2 THREE distinct mythic support characters. Left Ngoc Hoa: adult22 princess, gentle oval face, sage-green and cream modest long dress, small bronze flower hairpin, long black hair. Center Thuc Vuong:45 ruler, rectangular face, short dense dark beard, forest-green ceremonial warrior robe with restrained bronze armor and low mountain-pattern headband, no fantasy horned helmet. Right Hien Duong:70 teacher, high broad forehead, fine white beard, slightly stooped, grey-and-indigo simple scholar robe, bamboo slips and plain staff. Full bodies, distinct age/face, warm mythic atmosphere but no glowing weapons.",
+    "positions": "Trái NV24; giữa NV25; phải NV26",
+    "reference_paths": [
+      "assets_generated/characters/CHAR_01_Trung_Trac_v001.png"
+    ],
+    "output": "assets_generated/design_system/CHAR13_v001.png",
+    "status": "PLANNED"
+  },
+  {
+    "id": "CHAR14",
+    "category": "characters",
+    "title": "Sầm Lân — Sầm Bá — Độc Cô Tấn",
+    "prompt": "Art direction for the entire collection: traditional Vietnamese heroic historical-fairy-tale comic for ages 13–16. Sharp black ink contours with confident thick-to-fine variation, visible fine cross-hatching in all shaded forms, vivid textured watercolor and colored-pencil grain, natural semi-realistic heroic anatomy and expressive faces. Warm parchment base, rich crimson and bronze gold with deep indigo/forest green contrast. Strong readable silhouettes, meticulous hands and working weapon anatomy, energetic but dignified. Crisp rather than blurry, neither photorealistic nor 3D nor chibi nor glossy anime. ALL images are clean and completely TEXT-FREE, no labels, no letters, no captions, no speech bubbles, no watermarks. Full objects/figures stay inside margins. Use the supplied Trưng Trắc sheet only as a rendering-style reference, never transfer her face to another person. These are concept design boards, not finished story pages, so no narration frame is drawn.\n\nLandscape 3:2 THREE secondary Han military officers, full-body lineup with distinct faces: left Sam Lan square face short full beard, iron armor and dark red shoulder band, spear, crested low helmet. Center Sam Ba longer face with horizontal moustache, iron armor and dark green shoulder band, iron sword, lower helmet. Right Doc Co Tan angular lean face with short pointed chin beard, tallest, iron armor and muted purple-grey shoulder band, spear, neck-guard helmet. Same army uniform construction but distinct silhouettes, no Vietnamese royal solar motifs, no copied general faces, no racial caricature.",
+    "positions": "Trái NV27; giữa NV28; phải NV29",
+    "reference_paths": [
+      "assets_generated/characters/CHAR_01_Trung_Trac_v001.png"
+    ],
+    "output": "assets_generated/design_system/CHAR14_v001.png",
+    "status": "PLANNED"
+  },
+  {
+    "id": "CHAR15",
+    "category": "characters",
+    "title": "Bạch Uy — Lão Bạch — Khúc — Hoàng",
+    "prompt": "Art direction for the entire collection: traditional Vietnamese heroic historical-fairy-tale comic for ages 13–16. Sharp black ink contours with confident thick-to-fine variation, visible fine cross-hatching in all shaded forms, vivid textured watercolor and colored-pencil grain, natural semi-realistic heroic anatomy and expressive faces. Warm parchment base, rich crimson and bronze gold with deep indigo/forest green contrast. Strong readable silhouettes, meticulous hands and working weapon anatomy, energetic but dignified. Crisp rather than blurry, neither photorealistic nor 3D nor chibi nor glossy anime. ALL images are clean and completely TEXT-FREE, no labels, no letters, no captions, no speech bubbles, no watermarks. Full objects/figures stay inside margins. Use the supplied Trưng Trắc sheet only as a rendering-style reference, never transfer her face to another person. These are concept design boards, not finished story pages, so no narration frame is drawn.\n\nLandscape 3:2 FOUR separate full-body figures, clear readable faces and equipment. LEFTMOST Bach Uy age50, square sun-browned face, short peppered beard, brown hunter coat and indigo headwrap, long bow. SECOND Lao Bach Ke Tu age65, thin deeply lined face, short WHITE beard, olive-green woodland tunic and brown wrap, compact wooden CROSSBOW and herb pouch. THIRD young commander Khuc age28, broad CLEAN-SHAVEN face, sea-teal light naval armor, brown headwrap, straight broad blade. RIGHTMOST commander Hoang age30, long face and short moustache, slate-blue light naval attire, ochre headwrap, short straight sword. These are four distinct people, not four ages of one face; full feet and weapons visible.",
+    "positions": "Từ trái NV30,NV31,NV32,NV33",
+    "reference_paths": [
+      "assets_generated/characters/CHAR_01_Trung_Trac_v001.png"
+    ],
+    "output": "assets_generated/design_system/CHAR15_v001.png",
+    "status": "PLANNED"
+  },
+  {
+    "id": "CHAR16",
+    "category": "characters",
+    "title": "Bô lão Chu Diên và anh em họ Đào",
+    "prompt": "Art direction for the entire collection: traditional Vietnamese heroic historical-fairy-tale comic for ages 13–16. Sharp black ink contours with confident thick-to-fine variation, visible fine cross-hatching in all shaded forms, vivid textured watercolor and colored-pencil grain, natural semi-realistic heroic anatomy and expressive faces. Warm parchment base, rich crimson and bronze gold with deep indigo/forest green contrast. Strong readable silhouettes, meticulous hands and working weapon anatomy, energetic but dignified. Crisp rather than blurry, neither photorealistic nor 3D nor chibi nor glossy anime. ALL images are clean and completely TEXT-FREE, no labels, no letters, no captions, no speech bubbles, no watermarks. Full objects/figures stay inside margins. Use the supplied Trưng Trắc sheet only as a rendering-style reference, never transfer her face to another person. These are concept design boards, not finished story pages, so no narration frame is drawn.\n\nLandscape 3:2 FOUR distinct full-body support figures. Left elder Khuc,68, broad square wrinkled face, wide white beard, brown brocade robe, broad headwrap, wooden staff. Second retainer Kieu,62, thin face with medium salt-and-pepper beard, blue-grey scholar robe, blank bamboo slips and brush. Third Dao Do Thong,39, smaller square jaw and fine moustache, earth-red bronze light cavalry armor, indigo scarf, spear. Fourth Dao Tam Lang,34, long oval mostly clean-shaven face, earth-red light armor, brown headwrap, bow. All adult/mature Vietnamese, correct hand and weapon anatomy, clear separated silhouettes.",
+    "positions": "Từ trái NV34,NV35,NV36,NV37",
+    "reference_paths": [
+      "assets_generated/characters/CHAR_01_Trung_Trac_v001.png"
+    ],
+    "output": "assets_generated/design_system/CHAR16_v001.png",
+    "status": "PLANNED"
+  },
+  {
+    "id": "CHAR17",
+    "category": "characters",
+    "title": "Lê Chân — Tiên Dung — Chử Đồng Tử — Dương công",
+    "prompt": "Art direction for the entire collection: traditional Vietnamese heroic historical-fairy-tale comic for ages 13–16. Sharp black ink contours with confident thick-to-fine variation, visible fine cross-hatching in all shaded forms, vivid textured watercolor and colored-pencil grain, natural semi-realistic heroic anatomy and expressive faces. Warm parchment base, rich crimson and bronze gold with deep indigo/forest green contrast. Strong readable silhouettes, meticulous hands and working weapon anatomy, energetic but dignified. Crisp rather than blurry, neither photorealistic nor 3D nor chibi nor glossy anime. ALL images are clean and completely TEXT-FREE, no labels, no letters, no captions, no speech bubbles, no watermarks. Full objects/figures stay inside margins. Use the supplied Trưng Trắc sheet only as a rendering-style reference, never transfer her face to another person. These are concept design boards, not finished story pages, so no narration frame is drawn.\n\nLandscape 3:2 FOUR full-body characters for a supplementary cast reserve sheet. Left Le Chan: athletic adult25 woman, long resolute face, high black braid, sea-teal martial clothes with leather armor, straight sword. Second Tien Dung: adult24 princess with round gentle face, terracotta-pink modest long dress, bronze leaf hairpin. Third Chu Dong Tu: adult26 gentle long-faced sun-browned man, FULLY CLOTHED in simple brown and cream woven tunic/trousers, plain wood staff, no nudity. Fourth elder Duong Cong:65 nobleman with square-long face and short thick silver beard, muted purple Lac Hau ceremonial robes, bronze tiger chest emblem, dignified. Neutral reserve character lineup, no narrative scene or implication all four met.",
+    "positions": "Từ trái NV38,NV39,NV40,NV41",
+    "reference_paths": [
+      "assets_generated/characters/CHAR_01_Trung_Trac_v001.png"
+    ],
+    "output": "assets_generated/design_system/CHAR17_v001.png",
+    "status": "PLANNED"
+  },
+  {
+    "id": "TURN01",
+    "category": "turnarounds",
+    "title": "Trưng Trắc — góc quay và biểu cảm",
+    "prompt": "Art direction for the entire collection: traditional Vietnamese heroic historical-fairy-tale comic for ages 13–16. Sharp black ink contours with confident thick-to-fine variation, visible fine cross-hatching in all shaded forms, vivid textured watercolor and colored-pencil grain, natural semi-realistic heroic anatomy and expressive faces. Warm parchment base, rich crimson and bronze gold with deep indigo/forest green contrast. Strong readable silhouettes, meticulous hands and working weapon anatomy, energetic but dignified. Crisp rather than blurry, neither photorealistic nor 3D nor chibi nor glossy anime. ALL images are clean and completely TEXT-FREE, no labels, no letters, no captions, no speech bubbles, no watermarks. Full objects/figures stay inside margins. Use the supplied Trưng Trắc sheet only as a rendering-style reference, never transfer her face to another person. These are concept design boards, not finished story pages, so no narration frame is drawn.\n\nEDIT the supplied Trung Trac sheet into a landscape 3:2 turnaround and facial-acting reference board of the SAME woman, preserving her exact facial structure, nose, eyes, jaw, hairline and complexion. Upper row: three full-length views of her in the red-and-bronze Hat Mon costume, FRONT, SIDE PROFILE and BACK, with matching crown, sun disk armor, cape attachment and straight sword. Lower row: four large close-up heads of THE SAME FACE showing calm resolve, restrained grief, commanding a battle order, and relief after victory. Natural restrained expressions, never chibi. Blank parchment with subtle dividing whitespace, no text and no labels. Do not change costume between the turnaround views.",
+    "positions": "Hàng trên: trước/nghiêng/sau; dưới: bình tĩnh/buồn/hiệu lệnh/thắng lợi",
+    "reference_paths": [
+      "assets_generated/characters/CHAR_01_Trung_Trac_v001.png"
+    ],
+    "output": "assets_generated/design_system/TURN01_v001.png",
+    "status": "PLANNED"
+  },
+  {
+    "id": "ENV01",
+    "category": "environments",
+    "title": "Phong Châu / Bạch Hạc / Sân nhà Đông An / Lầu kén rể / Lăng Sương huyền tích",
+    "prompt": "Art direction for the entire collection: traditional Vietnamese heroic historical-fairy-tale comic for ages 13–16. Sharp black ink contours with confident thick-to-fine variation, visible fine cross-hatching in all shaded forms, vivid textured watercolor and colored-pencil grain, natural semi-realistic heroic anatomy and expressive faces. Warm parchment base, rich crimson and bronze gold with deep indigo/forest green contrast. Strong readable silhouettes, meticulous hands and working weapon anatomy, energetic but dignified. Crisp rather than blurry, neither photorealistic nor 3D nor chibi nor glossy anime. ALL images are clean and completely TEXT-FREE, no labels, no letters, no captions, no speech bubbles, no watermarks. Full objects/figures stay inside margins. Use the supplied Trưng Trắc sheet only as a rendering-style reference, never transfer her face to another person. These are concept design boards, not finished story pages, so no narration frame is drawn.\n\nLandscape 3:2 environment DESIGN BOARD, three horizontal panels separated by thin cream gutters. Three broad horizontal environment panels, top ancient Phong Chau stilt-palace settlement at the green Bach Hac river confluence under golden daylight; middle humble Dong An healer courtyard with low thatched wooden house, clay water jars and areca palm under moonlight; bottom mythic timber pavilion overlooking blue Ba Vi mountains with earthen terraces and carved wood railings. Very few tiny scale figures only. Ancient northern Vietnamese landscape language, rustic materials, not fantasy Chinese imperial palace. Each panel includes wide uncluttered sky and convincing depth.",
+    "positions": "Từ trên xuống: E01,E02,E03",
+    "reference_paths": [
+      "assets_generated/characters/CHAR_01_Trung_Trac_v001.png"
+    ],
+    "output": "assets_generated/design_system/ENV01_v001.png",
+    "status": "PLANNED"
+  },
+  {
+    "id": "ENV02",
+    "category": "environments",
+    "title": "Phủ Tô Định / Luy Lâu / Sảnh và sân Chu Diên / Cổng Bắc Luy Lâu / pháp trường",
+    "prompt": "Art direction for the entire collection: traditional Vietnamese heroic historical-fairy-tale comic for ages 13–16. Sharp black ink contours with confident thick-to-fine variation, visible fine cross-hatching in all shaded forms, vivid textured watercolor and colored-pencil grain, natural semi-realistic heroic anatomy and expressive faces. Warm parchment base, rich crimson and bronze gold with deep indigo/forest green contrast. Strong readable silhouettes, meticulous hands and working weapon anatomy, energetic but dignified. Crisp rather than blurry, neither photorealistic nor 3D nor chibi nor glossy anime. ALL images are clean and completely TEXT-FREE, no labels, no letters, no captions, no speech bubbles, no watermarks. Full objects/figures stay inside margins. Use the supplied Trưng Trắc sheet only as a rendering-style reference, never transfer her face to another person. These are concept design boards, not finished story pages, so no narration frame is drawn.\n\nLandscape 3:2 environment DESIGN BOARD, three horizontal panels separated by thin cream gutters. Three wide environment panels top-to-bottom: TOP dark Luy Lau governor chamber with wooden columns, wine-red curtains, low strategy table and single oil lamp on table-left, glimpse of stone gate outside. MIDDLE Chu Dien timber main hall looking across a broad courtyard to a gate directly opposite, three stone steps, longan orchard to the RIGHT of the hall; warm dawn light. BOTTOM Luy Lau north stone gate in dawn mist, plain wood scaffold and EXACTLY TWO upright wooden poles, no prisoners, no bodies. Keep Luy Lau architectural family consistent across its two panels.",
+    "positions": "Từ trên xuống: E04,E05,E06",
+    "reference_paths": [
+      "assets_generated/characters/CHAR_01_Trung_Trac_v001.png"
+    ],
+    "output": "assets_generated/design_system/ENV02_v001.png",
+    "status": "PLANNED"
+  },
+  {
+    "id": "ENV03",
+    "category": "environments",
+    "title": "Cổ Lôi sơn trang / Đàn thề Hát Môn / Cửa biển Đằng Giang",
+    "prompt": "Art direction for the entire collection: traditional Vietnamese heroic historical-fairy-tale comic for ages 13–16. Sharp black ink contours with confident thick-to-fine variation, visible fine cross-hatching in all shaded forms, vivid textured watercolor and colored-pencil grain, natural semi-realistic heroic anatomy and expressive faces. Warm parchment base, rich crimson and bronze gold with deep indigo/forest green contrast. Strong readable silhouettes, meticulous hands and working weapon anatomy, energetic but dignified. Crisp rather than blurry, neither photorealistic nor 3D nor chibi nor glossy anime. ALL images are clean and completely TEXT-FREE, no labels, no letters, no captions, no speech bubbles, no watermarks. Full objects/figures stay inside margins. Use the supplied Trưng Trắc sheet only as a rendering-style reference, never transfer her face to another person. These are concept design boards, not finished story pages, so no narration frame is drawn.\n\nLandscape 3:2 environment DESIGN BOARD, three horizontal panels separated by thin cream gutters. Three wide environment panels: TOP Co Loi fortified mountain timber hall open to a torchlit assembly courtyard beside a river landing and large bronze drums, dense indigo forest night. MIDDLE monumental Hat Mon earthen oath altar with three terraces at a vast river confluence, many five-colored flags, bronze incense burner and three BLANK ancestral tablets, grey war elephants with WHITE TUSKS not white skin, bright heroic spring light. Depict EIGHT clearly visible elephants grouped 4+4; do not imply a white-elephant species. BOTTOM Dang Giang sea cliff under a storm, wet dark rocks and crimson ginseng roots in cracks, huge blue-grey waves, no people.",
+    "positions": "Từ trên xuống: E07,E08,E09",
+    "reference_paths": [
+      "assets_generated/characters/CHAR_01_Trung_Trac_v001.png"
+    ],
+    "output": "assets_generated/design_system/ENV03_v001.png",
+    "status": "PLANNED"
+  },
+  {
+    "id": "ENV04",
+    "category": "environments",
+    "title": "Nhà gỗ Nguyễn Huyền / Phượng Hoàng / Khe Mãng Xà / Bến Lục Đầu Giang",
+    "prompt": "Art direction for the entire collection: traditional Vietnamese heroic historical-fairy-tale comic for ages 13–16. Sharp black ink contours with confident thick-to-fine variation, visible fine cross-hatching in all shaded forms, vivid textured watercolor and colored-pencil grain, natural semi-realistic heroic anatomy and expressive faces. Warm parchment base, rich crimson and bronze gold with deep indigo/forest green contrast. Strong readable silhouettes, meticulous hands and working weapon anatomy, energetic but dignified. Crisp rather than blurry, neither photorealistic nor 3D nor chibi nor glossy anime. ALL images are clean and completely TEXT-FREE, no labels, no letters, no captions, no speech bubbles, no watermarks. Full objects/figures stay inside margins. Use the supplied Trưng Trắc sheet only as a rendering-style reference, never transfer her face to another person. These are concept design boards, not finished story pages, so no narration frame is drawn.\n\nLandscape 3:2 environment DESIGN BOARD, three horizontal panels separated by thin cream gutters. Three wide environment panels: TOP Nguyen Huyen mountain timber lodge with high central house and two lower side wings, large doors facing an open courtyard, mountain trail behind and river footpath to viewer-left; warm daylight. MIDDLE Mang Xa narrow S-shaped rocky gorge with forest, two elevated ledges suitable for ambush, readable passable path, no army. BOTTOM Luc Dau Giang reed-lined earthen landing in pale dawn mist with low wooden rowing boats, blue river and Phuong Hoang green mountain behind. Visually consistent geography across all panels; no modern buildings.",
+    "positions": "Từ trên xuống: E10,E11,E12",
+    "reference_paths": [
+      "assets_generated/characters/CHAR_01_Trung_Trac_v001.png"
+    ],
+    "output": "assets_generated/design_system/ENV04_v001.png",
+    "status": "PLANNED"
+  },
+  {
+    "id": "PROP01",
+    "category": "props",
+    "title": "Vũ khí chủ lực",
+    "prompt": "Art direction for the entire collection: traditional Vietnamese heroic historical-fairy-tale comic for ages 13–16. Sharp black ink contours with confident thick-to-fine variation, visible fine cross-hatching in all shaded forms, vivid textured watercolor and colored-pencil grain, natural semi-realistic heroic anatomy and expressive faces. Warm parchment base, rich crimson and bronze gold with deep indigo/forest green contrast. Strong readable silhouettes, meticulous hands and working weapon anatomy, energetic but dignified. Crisp rather than blurry, neither photorealistic nor 3D nor chibi nor glossy anime. ALL images are clean and completely TEXT-FREE, no labels, no letters, no captions, no speech bubbles, no watermarks. Full objects/figures stay inside margins. Use the supplied Trưng Trắc sheet only as a rendering-style reference, never transfer her face to another person. These are concept design boards, not finished story pages, so no narration frame is drawn.\n\nLandscape 3:2 armory reference board with TWELVE neatly separated OBJECT cells on parchment, no people, large clear technical illustration quality: a straight bronze commander sword with brown grip; matching twin navy-gripped straight swords; a wooden/horn bow with string correctly anchored and one arrow; a tall wooden spear with tiger-skin handgrip and leaf-shaped bronze point; a straight heirloom bronze sword with circular pommel; an ornate brown horn bow and dark quiver; a green-gripped straight sword; modest flat leopard-spotted boots and white headband; a heavy dark iron spear with FOUR small throwing daggers beside it; a compact wood hunter crossbow shown with clear mechanism; a broad-bladed long-handled polearm; a simple brown-sheathed straight martial sword. Maintain distinct material, grip and proportions; no lettering, no fantasy glowing blades.",
+    "positions": "4x3 cells, left-to-right row-major; see mapping in catalog",
+    "reference_paths": [
+      "assets_generated/characters/CHAR_01_Trung_Trac_v001.png"
+    ],
+    "output": "assets_generated/design_system/PROP01_v001.png",
+    "status": "PLANNED"
+  },
+  {
+    "id": "PROP02",
+    "category": "props",
+    "title": "Nghi lễ và tín vật",
+    "prompt": "Art direction for the entire collection: traditional Vietnamese heroic historical-fairy-tale comic for ages 13–16. Sharp black ink contours with confident thick-to-fine variation, visible fine cross-hatching in all shaded forms, vivid textured watercolor and colored-pencil grain, natural semi-realistic heroic anatomy and expressive faces. Warm parchment base, rich crimson and bronze gold with deep indigo/forest green contrast. Strong readable silhouettes, meticulous hands and working weapon anatomy, energetic but dignified. Crisp rather than blurry, neither photorealistic nor 3D nor chibi nor glossy anime. ALL images are clean and completely TEXT-FREE, no labels, no letters, no captions, no speech bubbles, no watermarks. Full objects/figures stay inside margins. Use the supplied Trưng Trắc sheet only as a rendering-style reference, never transfer her face to another person. These are concept design boards, not finished story pages, so no narration frame is drawn.\n\nLandscape 3:2 prop reference board with TWELVE separate OBJECT cells in a 4x3 grid: blank bamboo proclamation scroll; golden TIGER CHEST EMBLEM; small DARK two-part bronze TIGER COMMAND TALLY; three-legged covered bronze incense burner with two handles; a large bronze drum with concentric Dong Son Lac-bird patterns; group of three BLANK ancestral tablets; bundle of five-colored flags red/yellow/blue/white/green WITHOUT modern stars; white horsehair whisk with dark wood handle; HUGE open three-legged bronze cauldron with side handles, distinctly different from incense burner; simple mountain deity wood-and-bronze staff; small bamboo message tube; feathered old Hung king bronze sun crown. No words, no pseudo-writing, no people, no modern national flags.",
+    "positions": "4x3 cells, left-to-right row-major",
+    "reference_paths": [
+      "assets_generated/characters/CHAR_01_Trung_Trac_v001.png"
+    ],
+    "output": "assets_generated/design_system/PROP02_v001.png",
+    "status": "PLANNED"
+  },
+  {
+    "id": "PROP03",
+    "category": "props",
+    "title": "Đời sống và chiến thuật",
+    "prompt": "Art direction for the entire collection: traditional Vietnamese heroic historical-fairy-tale comic for ages 13–16. Sharp black ink contours with confident thick-to-fine variation, visible fine cross-hatching in all shaded forms, vivid textured watercolor and colored-pencil grain, natural semi-realistic heroic anatomy and expressive faces. Warm parchment base, rich crimson and bronze gold with deep indigo/forest green contrast. Strong readable silhouettes, meticulous hands and working weapon anatomy, energetic but dignified. Crisp rather than blurry, neither photorealistic nor 3D nor chibi nor glossy anime. ALL images are clean and completely TEXT-FREE, no labels, no letters, no captions, no speech bubbles, no watermarks. Full objects/figures stay inside margins. Use the supplied Trưng Trắc sheet only as a rendering-style reference, never transfer her face to another person. These are concept design boards, not finished story pages, so no narration frame is drawn.\n\nLandscape 3:2 object design board, 4x3 separate well-spaced cells: cloth healer satchel and herb packets; wicker medicine basket; clay ginseng roots closeup; wood strategy table holding sculpted CLAY mountain terrain and river channels with plain pointing stick; simple wood staff and scholar bamboo slips; brush and ceramic inkstone; dark iron broad blade; plain wood-shaft army spear; small cloth pouch containing a blank square official seal; modest bronze flower hairpin and bracelets; two upright scaffold posts with natural-fiber ropes (empty, no people); five wooden courtyard stakes for prisoners (empty). No wounds, no text, no labels, no plastic or modern metal fittings.",
+    "positions": "4x3 cells, left-to-right row-major",
+    "reference_paths": [
+      "assets_generated/characters/CHAR_01_Trung_Trac_v001.png"
+    ],
+    "output": "assets_generated/design_system/PROP03_v001.png",
+    "status": "PLANNED"
+  },
+  {
+    "id": "PROP04",
+    "category": "props",
+    "title": "Thuyền và phương tiện",
+    "prompt": "Art direction for the entire collection: traditional Vietnamese heroic historical-fairy-tale comic for ages 13–16. Sharp black ink contours with confident thick-to-fine variation, visible fine cross-hatching in all shaded forms, vivid textured watercolor and colored-pencil grain, natural semi-realistic heroic anatomy and expressive faces. Warm parchment base, rich crimson and bronze gold with deep indigo/forest green contrast. Strong readable silhouettes, meticulous hands and working weapon anatomy, energetic but dignified. Crisp rather than blurry, neither photorealistic nor 3D nor chibi nor glossy anime. ALL images are clean and completely TEXT-FREE, no labels, no letters, no captions, no speech bubbles, no watermarks. Full objects/figures stay inside margins. Use the supplied Trưng Trắc sheet only as a rendering-style reference, never transfer her face to another person. These are concept design boards, not finished story pages, so no narration frame is drawn.\n\nLandscape 3:2 vehicle and set-dressing design board with SIX generous cells (2 columns x3 rows). Top-left a wooden lightweight WAR ROWBOAT in three-quarter view and smaller side silhouette, curved prow, paired oars, no engine. Top-right a broader wooden trading boat with low woven deck shelter, no engine. Middle-left a simple brown leather horse saddle and natural cloth blanket shown from side and rear. Middle-right a simple bamboo/wood war ELEPHANT HOWDAH with woven straps and no fantasy plate armor. Bottom-left rustic oil lamp, cloth-wrapped torch and brown ceramic jar together. Bottom-right a dream-symbol vignette: GOLDEN DRAGON dissolving into TWO GOLDEN PEACOCKS, left-to-right motion only, ethereal clouds; decorative symbolic motif, no text.",
+    "positions": "2x3 cells, row-major",
+    "reference_paths": [
+      "assets_generated/characters/CHAR_01_Trung_Trac_v001.png"
+    ],
+    "output": "assets_generated/design_system/PROP04_v001.png",
+    "status": "PLANNED"
+  },
+  {
+    "id": "ARMY01",
+    "category": "crowds",
+    "title": "Quân đội và quần chúng",
+    "prompt": "Art direction for the entire collection: traditional Vietnamese heroic historical-fairy-tale comic for ages 13–16. Sharp black ink contours with confident thick-to-fine variation, visible fine cross-hatching in all shaded forms, vivid textured watercolor and colored-pencil grain, natural semi-realistic heroic anatomy and expressive faces. Warm parchment base, rich crimson and bronze gold with deep indigo/forest green contrast. Strong readable silhouettes, meticulous hands and working weapon anatomy, energetic but dignified. Crisp rather than blurry, neither photorealistic nor 3D nor chibi nor glossy anime. ALL images are clean and completely TEXT-FREE, no labels, no letters, no captions, no speech bubbles, no watermarks. Full objects/figures stay inside margins. Use the supplied Trưng Trắc sheet only as a rendering-style reference, never transfer her face to another person. These are concept design boards, not finished story pages, so no narration frame is drawn.\n\nLandscape 3:2 costume design board with EIGHT distinct full-body archetypes in two rows of four. Top row left-to-right: Lac Viet infantry in brown cloth/leather with bronze-tipped spear; Lac Viet archer in indigo tunic with wooden bow; forest hunter in olive/brown and short CROSSBOW; naval rower in rolled-sleeve sea-blue tunic and cloth headwrap with wooden paddle. Bottom row: bronze-armored Lac Viet cavalry soldier earth-red underrobe, no horse; Han infantry in dark iron lamellar armor and low helmet with spear; civilian woman in plain beige-and-brown woven clothing carrying basket; elderly tribal chief with square weathered face, short white beard, GREEN headwrap and brown woven ceremonial tunic (the speaking Than chief PH03). Natural diverse Vietnamese/ancient East Asian human faces with distinct ages; no racial caricatures, no modern ethnic costume stereotypes, no text.",
+    "positions": "Hàng1: bộ binh/cung thủ/thợ săn/thủy quân; hàng2: kỵ binh/Hán/dân/thân PH03",
+    "reference_paths": [
+      "assets_generated/characters/CHAR_01_Trung_Trac_v001.png"
+    ],
+    "output": "assets_generated/design_system/ARMY01_v001.png",
+    "status": "PLANNED"
+  },
+  {
+    "id": "ANIMAL01",
+    "category": "animals",
+    "title": "Hắc mã — chim câu — chim ưng — voi",
+    "prompt": "Art direction for the entire collection: traditional Vietnamese heroic historical-fairy-tale comic for ages 13–16. Sharp black ink contours with confident thick-to-fine variation, visible fine cross-hatching in all shaded forms, vivid textured watercolor and colored-pencil grain, natural semi-realistic heroic anatomy and expressive faces. Warm parchment base, rich crimson and bronze gold with deep indigo/forest green contrast. Strong readable silhouettes, meticulous hands and working weapon anatomy, energetic but dignified. Crisp rather than blurry, neither photorealistic nor 3D nor chibi nor glossy anime. ALL images are clean and completely TEXT-FREE, no labels, no letters, no captions, no speech bubbles, no watermarks. Full objects/figures stay inside margins. Use the supplied Trưng Trắc sheet only as a rendering-style reference, never transfer her face to another person. These are concept design boards, not finished story pages, so no narration frame is drawn.\n\nLandscape 3:2 animal reference sheet, FOUR generously separated quadrants, ink and pencil anatomical clarity. Upper-left Thi Sach pitch-BLACK HORSE in side view and smaller head detail, black mane, no white forehead blaze. Upper-right IVORY-WHITE CARRIER PIGEON in perched and wings-spread studies, tiny natural-fiber message capsule on leg. Lower-left Le Dao BLACK-BROWN HAWK with curved beak and amber eye, perched and wing detail, not white eagle. Lower-right ASIAN WAR ELEPHANT with GREY wrinkled skin and WHITE tusks, small ears, simple woven straps and plain wood howdah; head detail with correct trunk anatomy. No labels, no letters, no narrative background, no armor fantasy.",
+    "positions": "Trên trái A01; trên phải A02; dưới trái A03; dưới phải A04",
+    "reference_paths": [
+      "assets_generated/characters/CHAR_01_Trung_Trac_v001.png"
+    ],
+    "output": "assets_generated/design_system/ANIMAL01_v001.png",
+    "status": "PLANNED"
+  }
+]

@@ -43,3 +43,10 @@ Bảng này ghi chênh lệch có dẫn nguồn. **Chưa sửa nguyên tác, sto
 3. Trước chế bản: LAYOUT-01…03, PRINT-01…03, EDIT-01 và các nguồn bổ sung.
 
 Không có ảnh nào được sinh trong quá trình phát hiện các mục này.
+
+
+## Cập nhật sau nhiệm vụ thiết kế toàn bộ ngày 09/11/2026
+
+Đã xử lý ở cấp thiết kế và đồng bộ các tài liệu liên quan: CHAR-01 (Đô Năng Tế nam có râu), CHAR-02 (màu Trưng Nhị), CHAR-03 (casting bổ sung), SRC-01 (rồng→khổng tước), SRC-02 (mạch pháp trường), SRC-03 (mười phát liên tiếp), SRC-04 (tám voi xám ngà trắng). LAYOUT-01 được ghi ngoại lệ mép trang trí so với vùng chữ, không còn khẳng định toàn khung nằm trong safe text. Chi tiết tại [SOURCE_DECISIONS.md](../09_design_system/SOURCE_DECISIONS.md).
+
+SCOPE-01, biên tập lại lời dẫn, xác minh địa điểm kết, font/ICC và gáy in vẫn chưa hoàn tất. Những mục này không cản thiết kế concept nhưng cản tuyên bố sách đã sẵn in. Bảng onboarding phía trên là ảnh chụp vấn đề tại thời điểm tiếp nhận, không phải trạng thái mới nhất.

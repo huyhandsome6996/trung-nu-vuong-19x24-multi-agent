@@ -32,9 +32,9 @@ Character design reference sheet of two Vietnamese heroic warriors side-by-side:
 Character design reference sheet of two noble elderly Vietnamese patriots side-by-side: (Left) Divine Physician Nguyen Huyen (age 60, long flowing snow-white beard, serene sage-like face, wearing simple traditional hemp healer robes); (Right) Lord Trung Dinh of Me Linh (age 58, silver-streaked beard, dignified square jaw, resolute fearless eyes, wearing traditional white inner robes). Both radiate unyielding pride and wisdom, traditional hand-drawn black ink cross-hatching and textured watercolor colored-pencil illustration style, neutral parchment background, clean composition, text-free, no labels, no watermarks.
 ```
 
-## 7. Nhị Vị Nữ Sư Phụ Đô Năng Tế & Cẩm Nương
+## 7. Nhị Vị Sư Phụ Đô Năng Tế & Cẩm Nương
 ```text
-Character design reference sheet of two venerable Vietnamese female martial and spiritual masters (Do Nang Te and Cam Nuong, age 55), standing together in dignified indigo and dark bronze-trimmed robes, silver-streaked hair tied in high buns with ancient bronze hairpins, holding a wooden staff and bamboo strategy scrolls, calm and deeply wise expressions, traditional hand-drawn black ink cross-hatching and textured watercolor colored-pencil illustration style, neutral parchment background, clean composition, text-free, no labels, no watermarks.
+Character design reference sheet of two venerable Vietnamese masters: LEFT Do Nang Te, an older MAN age58 with long salt-and-pepper beard, broad forehead, indigo robes, brown belt and wood staff; RIGHT Cam Nuong, an older WOMAN age55 with grey-streaked high bun, bronze hairpin, indigo-purple robes and blank bamboo slips. Calm wise dignified faces, distinct genders and facial structures. Hand-drawn black ink cross-hatching with vivid watercolor colored-pencil texture, neutral parchment, full-body, text-free, no labels, no watermarks.
 ```
 
 ## 8. Tam Vị Huyện Lệnh Nghĩa Khí: Lê Đạo – Đào Chiêu Hiển – Phạm Danh Hương
@@ -51,3 +51,6 @@ Character design reference sheet of two mythic ancient Van Lang heroes from King
 ```text
 Character design reference sheet of three Eastern Han dynasty antagonists side-by-side: (Left) Governor To Dinh (cruel, narrow-eyed official in dark black-and-maroon Han court robes and fur cloak holding a dark bronze tiger tally); (Center) Chief Steward Tao Quyen (arrogant, heavy-set general in dark iron scale armor with a purple cape); (Right) Northern Camp Commander Lu Thach (brutal bearded warrior in heavy black iron armor with four throwing daggers strapped to his chest plate, holding a heavy iron spear). Sinister, oppressive atmosphere, traditional hand-drawn black ink cross-hatching and textured watercolor colored-pencil illustration style, neutral parchment background, clean composition, text-free, no labels, no watermarks.
 ```
+
+
+> Đính chính thiết kế 09/11/2026: áp dụng đối chiếu scan và chuẩn nhận diện tại `09_design_system/SOURCE_DECISIONS.md`; xem hồ sơ v1 trước khi dùng prompt cũ.

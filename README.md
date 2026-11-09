@@ -1,4 +1,6 @@
 # DỰ ÁN TRUYỆN CỔ TÍCH LỊCH SỬ HÀO HÙNG: TRƯNG NỮ VƯƠNG (KHỔ 19x24 CM)
+
+> **Bộ thiết kế tổng thể hiện hành:** mở [Ngăn09 — Xem và dùng thiết kế](09_design_system/00_READ_FIRST.md) hoặc [Album hình](09_design_system/IMAGE_CATALOG.md). Bao gồm41 hồ sơ nhân vật,12 bối cảnh,36 nhóm đạo cụ,4 động vật, quy chuẩn layout và hướng dẫn cho agent; tiến độ ảnh thực tế ghi trong album.
 > **Hệ thống Kho lưu trữ & Điều phối Đa Tác Tử (Multi-Agent GitHub Repository)**
 > **Chủ đề:** Chuyển thể Hồi thứ Bảy & Hồi thứ Tám tiểu thuyết lịch sử *Trưng Nữ Vương* (nhà văn Phùng Văn Khai) thành bộ truyện tranh cổ tích lịch sử hào hùng theo chuẩn bố cục mẫu *Truyền thuyết An Dương Vương*.
 > **Đối tượng độc giả mục tiêu:** Học sinh THCS & THPT từ Lớp 8 đến Lớp 10 (13 – 16 tuổi).

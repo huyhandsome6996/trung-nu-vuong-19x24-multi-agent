@@ -42,3 +42,13 @@ timezone: "Asia/Ho_Chi_Minh"
 - Kiểm tra đã chạy, kết quả, giới hạn.
 - Vấn đề còn mở và quyết định cần có.
 - Bước tiếp theo, nhánh và commit bàn giao.
+
+## 2026-11-09 — DESIGN-002 / Bộ thiết kế toàn bộ
+
+- **Ủy nhiệm:** chủ dự án yêu cầu tự triển khai thiết kế đầy đủ, chi tiết thành phần, thống nhất và có hướng dẫn cho agent sau; không cần hỏi lại từng lựa chọn mỹ thuật thông thường.
+- **Phạm vi:** 41 hồ sơ nhân vật; 12 bối cảnh; 36 nhóm đạo cụ/phương tiện; 4 động vật; 28 trang có bảng phụ thuộc; bộ SVG cho layout và token máy đọc.
+- **Đã làm ở checkpoint đầu:** registry/profiles, prompt cho27 ảnh bổ sung, hướng dẫn nhập dự án, tóm tắt truyện2phút, quy chuẩn nét/màu/diễn xuất, sửa8 tài liệu cũ theo scan và hướng nhận diện.
+- **Hình đang làm:** ảnh đã tạo được lưu dần có PNG/JSON/hash; xem IMAGE_CATALOG để có số thực tế, không lấy tổng số kế hoạch làm số hoàn thành.
+- **Bản chuẩn sử dụng:** DESIGN_BASELINE để agent tiếp tục bản nháp nhất quán; chưa tự ghi chủ dự án duyệt từng ảnh hoặc ảnh in300DPI.
+- **Kiểm:** validator kiểm ID, liên kết, file, kích thước/hash; `git diff --check`. Kết quả thị giác và giới hạn sẽ ghi riêng ở QA_DESIGN_REPORT khi đóng bộ.
+- **Giới hạn còn lại:** biên tập lời dẫn dài, nguồn phần kết27–28, địa điểm đền, font/ICC/gáy in thuộc bước dựng sách tiếp theo.

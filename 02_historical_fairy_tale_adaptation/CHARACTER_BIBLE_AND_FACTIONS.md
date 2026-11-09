@@ -21,7 +21,7 @@ Tài liệu này định nghĩa chi tiết toàn bộ hệ thống nhân vật x
 | :--- | :--- | :--- | :--- |
 | **7** | **Huyện lệnh Trưng Định** | Huyện lệnh Mê Linh, thân phụ của Hai Bà Trưng, nhạc phụ của Thi Sách. Vì liên danh cứu bạn là Nguyễn Huyền mà bị Tô Định bắt giam, hiên ngang cười lớn trên pháp trường Luy Lâu. | Bậc trưởng giả 55–60 tuổi, râu tóc điểm bạc, gương mặt quắc thước, mặc áo vải trắng bị trói trên cột gỗ ở cổng Bắc Luy Lâu nhưng lưng vẫn thẳng tắp, ngửa cổ cười sảng khoái trước lưỡi đao. |
 | **8** | **Thần y Nguyễn Huyền** | Bậc danh y đức độ vùng chân núi Phượng Hoàng (từng làm Huyện lệnh Bắc Đái), thân phụ của Thánh Thiên. Giỏi y thuật và thiên văn, đoán trước Trưng Trắc sẽ làm bậc đế vương đất Nam. | Lão y 60 tuổi hiền từ, râu dài bạc trắng như tiên ông, phong thái thoát tục, dù hai tay bị thanh thép xuyên ngang trên pháp trường vẫn ung dung cúi đầu tạ lễ Trưng Định. |
-| **9** | **Nhị vị sư phụ Đô Năng Tế & Cẩm Nương** | Hai vị nữ sư phụ văn võ song toàn ở Mê Linh – Cổ Lôi sơn trang, người thầy dạy dỗ chị em Trưng Trắc – Trưng Nhị và hoạch định đại cuộc khởi nghĩa. | Hai vị nữ trưởng lão (ngoài 50 tuổi) tóc búi cao cài trâm gỗ/đồng cổ, khoác áo choàng chàm sẫm uy nghiêm, thần thái trầm tĩnh, trí tuệ sâu thẳm. |
+| **9** | **Nhị vị sư phụ Đô Năng Tế & Cẩm Nương** | Hai vị sư phụ văn võ song toàn ở Mê Linh – Cổ Lôi sơn trang, người thầy dạy dỗ chị em Trưng Trắc – Trưng Nhị và hoạch định đại cuộc khởi nghĩa. | Đô Năng Tế: nam trưởng bối có râu muối tiêu, áo chàm, gậy gỗ (scan PDF32/sách243). Cẩm Nương: nữ trưởng bối tóc búi cài trâm đồng, áo chàm tím theo lựa chọn thiết kế. Xem 09_design_system/characters/NV09.md và NV10.md. |
 
 ### 1.3. Nhóm Tam Vị Huyện Lệnh Nghĩa Khí & Các Tộc Trưởng Lạc Việt (Allied Commanders & Tribal Chiefs)
 
@@ -49,3 +49,6 @@ Tài liệu này định nghĩa chi tiết toàn bộ hệ thống nhân vật x
 | **3** | **Mã Tắc** | **Tư mã kinh thành Luy Lâu**. Kẻ hiến kế *"Tiên phát chế nhân"* và chỉ huy 2.000 quân bắn mưa tên sát hại Thi Sách, Đinh Lương ở Chu Diên. | Gương mặt gầy gò nham hiểm, mặc giáp Tư mã phương Bắc, ngồi trên lưng ngựa chỉ tay ra lệnh bắn tên trong đêm lửa cháy Chu Diên. |
 | **4** | **Lữ Thạch** | **Chủ tướng Bắc doanh**. Hung hãn, tàn độc, kẻ trực tiếp giao chiến với Thi Sách và bị Thi Sách đâm gãy thương, chém bay đầu tại sân phủ Chu Diên. | Tướng giặc cao to dữ tợn, râu quai nón, mặc giáp sắt nặng nề, ngực giắt 4 mũi phi tiêu (túy trùy), tay cầm trường thương sắt đen. |
 | **5** | **Lục Hiến** | **Huyện lệnh phản bội (Việt gian)**. Kẻ bán đứng Thần y Nguyễn Huyền và dẫn đường cho Tào Quyền vào núi Phượng Hoàng. | Dáng vẻ khúm núm, ánh mắt lấm la lấm lét, mặc quan phục huyện lệnh nhà Hán, cuối cùng chui xuống gầm phản run cầm cập và bị trói vào cọc gỗ. |
+
+
+> Đính chính thiết kế 09/11/2026: áp dụng đối chiếu scan và chuẩn nhận diện tại `09_design_system/SOURCE_DECISIONS.md`; xem hồ sơ v1 trước khi dùng prompt cũ.

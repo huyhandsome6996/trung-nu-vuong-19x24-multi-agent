@@ -1,0 +1,34 @@
+---
+project: "TRƯNG NỮ VƯƠNG"
+book_size: "190x240mm; bleed 196x246mm @300 DPI for final pages"
+target_audience: "Lớp 8–10 (13–16 tuổi)"
+agent_author: "ChatGPT / design system production"
+status: "DESIGN_BASELINE"
+user_approved: false
+date: "2026-11-09"
+---
+
+# Bộ thiết kế tổng thể TRƯNG NỮ VƯƠNG
+
+Dành cho chủ dự án muốn xem ngay hình và agent cần tiếp tục công việc. Đây là **bộ thiết kế v1 dùng thống nhất cho sản xuất bản nháp** theo ủy nhiệm ngày 09/11/2026, không tự ghi chủ dự án đã duyệt từng ảnh.
+
+## Xem nhanh
+
+1. Mở [IMAGE_CATALOG.md](IMAGE_CATALOG.md) để xem toàn bộ bảng hình, tên người và vị trí trên ảnh.
+2. Muốn hiểu truyện trong hai phút: [STORY_IN_2_MINUTES.md](STORY_IN_2_MINUTES.md).
+3. Tra người: [41 hồ sơ nhân vật](CHARACTER_INDEX.md). Tra cảnh: [12 bối cảnh](ENVIRONMENTS.md). Tra đồ vật: [36 nhóm đạo cụ và 4 động vật](PROPS_AND_ANIMALS.md).
+4. Muốn giao agent làm trang: dùng [AGENT_HANDOFF.md](AGENT_HANDOFF.md) và [PAGE_ASSET_MATRIX.md](PAGE_ASSET_MATRIX.md).
+
+## Bộ này gồm những gì
+
+- 17 bảng casting: 10 bảng gốc + 7 bảng bổ sung, bao phủ 41 hồ sơ. Một số bảng có nhiều người, tên và vị trí được ghi ngoài ảnh để không làm lỗi chữ.
+- 1 bảng góc quay/biểu cảm Trưng Trắc; các nhân vật chính khác có mặt cận cảnh và tư thế trên sheet. Không nói mọi người đã có turnaround đủ 360°.
+- 4 bảng bối cảnh, 4 bảng đạo cụ/phương tiện, 1 bảng quân đội/quần chúng, 1 bảng động vật.
+- Thành phần dàn trang dạng SVG và thông số có thể tái sử dụng: A/B/C, khung giấy cổ, bóng thoại, số trang, bìa và màu.
+- Registry JSON, prompt nguyên văn, metadata kích thước/hash và bảng QA để agent sau tìm đúng ảnh, không vẽ lại từ trí nhớ.
+
+Tiến độ ảnh thực tế và giới hạn được ghi trong IMAGE_CATALOG.md / QA_DESIGN_REPORT.md. File thiết kế luôn khác ảnh in thành phẩm: không dùng các bảng nhiều người hoặc nhiều cảnh này làm thẳng một trang truyện.
+
+## Nguyên tắc không tự thay đổi
+
+Trưng Trắc đỏ-đồng / trắng tang; Trưng Nhị lam sẫm; Thi Sách tía và hổ phù ngực; Thánh Thiên lục và khăn tang. Mặt và đạo cụ không đổi theo từng trang. Mỗi trang có hành động rõ và biểu cảm, không chỉ xếp người đứng. Mọi chữ tiếng Việt được chế bản riêng. Chưa sinh 28 trang truyện trong nhiệm vụ làm bộ thiết kế này.

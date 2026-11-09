@@ -1,0 +1,17 @@
+{
+  "id": "CHAR02",
+  "version": "v001",
+  "status": "DESIGN_BASELINE",
+  "user_approved": false,
+  "file": "assets_generated/design_system/CHAR02_v001.png",
+  "width": 1122,
+  "height": 1402,
+  "sha256": "f4075fc661a51398efee50470805fca95a86a76ee66ec00909ba1058818ff4c7",
+  "positions": "Trái: đứng; phải: thủ kiếm; giữa: mặt",
+  "reference_paths": [
+    "assets_generated/characters/CHAR_01_Trung_Trac_v001.png"
+  ],
+  "prompt": "09_design_system/prompts/CHAR02.md",
+  "generation_method": "built-in image_gen",
+  "print_ready": false
+}

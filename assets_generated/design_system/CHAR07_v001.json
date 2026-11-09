@@ -1,0 +1,17 @@
+{
+  "id": "CHAR07",
+  "version": "v001",
+  "status": "DESIGN_BASELINE",
+  "user_approved": false,
+  "file": "assets_generated/design_system/CHAR07_v001.png",
+  "width": 1536,
+  "height": 1024,
+  "sha256": "2cd6a715af4eb27b42d6e597802431805b690c2f0c93cd31f788c10d3b3dadc3",
+  "positions": "Trái: NV09 nam có râu; phải: NV10 nữ",
+  "reference_paths": [
+    "assets_generated/characters/CHAR_01_Trung_Trac_v001.png"
+  ],
+  "prompt": "09_design_system/prompts/CHAR07.md",
+  "generation_method": "built-in image_gen",
+  "print_ready": false
+}

@@ -16,7 +16,7 @@
   - **Chân Bìa:** Hàng vạn nghĩa quân Lạc Việt giương cờ đào, cung nỏ và trống đồng xung phong.
 - **Prompt Sinh Ảnh Bìa Trước:**
   ```text
-  Epic multi-layered book cover illustration (vertical 4:5 aspect ratio for 19x24cm book) in traditional Vietnamese historical fairy-tale comic style with detailed black ink cross-hatching and rich watercolor colored-pencil texture. Leave the top 28% as dramatic golden sunrise clouds and sky for cover title typography. In the foreground center, Trung Trac and Trung Nhi stand heroically in ornate Dong Son gilded bronze armor and flowing crimson-red war capes, raising a gleaming bronze sword; beside them stands the 17-year-old female general Thanh Thien in short battle armor and a white mourning headband. In the upper-left midground, Lord Thi Sach in purple-crimson Lac Hau robes with a golden Tiger Tally emblem charges with his tiger-skin spear. In the upper-right midground rises the grand three-tier Hat Mon oath altar beside the Nhi Ha River with five-colored banners and white-tusked war elephants. At the bottom edge,Lac Viet warriors beat Dong Son bronze drums and raise spears. Vibrant heroic crimson, bronze-gold, and deep river-blue palette, clean composition, text-free, no labels, no watermarks.
+  Epic multi-layered book cover illustration (vertical 4:5 aspect ratio for 19x24cm book) in traditional Vietnamese historical fairy-tale comic style with detailed black ink cross-hatching and rich watercolor colored-pencil texture. Leave the top 28% as dramatic golden sunrise clouds and sky for cover title typography. In the foreground center, Trung Trac in crimson robes and gilded bronze armor stands beside Trung Nhi in deep NAVY-BLUE robes and bronze-trimmed armor, with small crimson accents, raising a gleaming bronze sword; beside them stands the 17-year-old female general Thanh Thien in short battle armor and a white mourning headband. In the upper-left midground, Lord Thi Sach in purple-crimson Lac Hau robes with a golden Tiger Tally emblem charges with his tiger-skin spear. In the upper-right midground rises the grand three-tier Hat Mon oath altar beside the Nhi Ha River with five-colored banners and white-tusked war elephants. At the bottom edge,Lac Viet warriors beat Dong Son bronze drums and raise spears. Vibrant heroic crimson, bronze-gold, and deep river-blue palette, clean composition, text-free, no labels, no watermarks.
   ```
 
 ### 2. BÌA SAU (BACK COVER — Khổ 19x24 cm)
@@ -30,9 +30,9 @@
 
 ## PHẦN B: PROMPT 28 TRANG RUỘT (INTERIOR PAGES 01 – 28)
 
-### Trang 01 — Huyền tích Văn Lang & Giấc mộng Đôi Khổng Tước Vàng (`Template B`)
+### Trang 01 — Huyền tích Văn Lang & Giấc mộng Rồng Vàng Hóa Đôi Khổng Tước (`Template B`)
 ```text
-Vertical two-panel comic book page (4:5 aspect ratio) in traditional Vietnamese historical ink cross-hatching and watercolor colored-pencil style, leaving top 20% sky space for narration box. Upper panel: majestic ancient Van Lang kingdom capital Phong Chau at the confluence of Bach Hac river, green mountains, stilt palaces, and Dong Son banners. Lower panel: on a moonlit spring night in a traditional wooden courtyard, an elderly benevolent Vietnamese healer couple (Phung Dang and Luu Thi Tuan) look up in awe as two radiant golden peacocks transform into a glowing golden dragon descending from crimson clouds. Clean composition, text-free, no speech bubbles, no watermarks.
+Vertical two-panel comic book page (4:5 aspect ratio) in traditional Vietnamese historical ink cross-hatching and watercolor colored-pencil style, leaving top 20% sky space for narration box. Upper panel: majestic ancient Van Lang kingdom capital Phong Chau at the confluence of Bach Hac river, green mountains, stilt palaces, and Dong Son banners. Lower panel: on a moonlit spring night in a traditional wooden courtyard, an elderly benevolent Vietnamese healer couple (Phung Dang and Luu Thi Tuan) look up in awe as a glowing golden dragon transforms into two radiant golden peacocks descending from crimson clouds. Clean composition, text-free, no speech bubbles, no watermarks.
 ```
 
 ### Trang 02 — Thánh Đóng (Phùng Lực Công) & Tản Viên Sơn Thánh Đại Phá Quân Thục (`Template B`)
@@ -62,7 +62,7 @@ Full-page heroic vertical splash illustration (4:5 aspect ratio) in traditional 
 
 ### Trang 07 — Tuyệt Kỹ Tiễn Pháp Thần Thông Của Thi Sách (`Template B`)
 ```text
-Vertical two-panel action comic page (4:5 aspect ratio) in traditional Vietnamese historical ink cross-hatching and watercolor colored-pencil style, leaving top 20% sky space for narration box. Upper panel: Lord Thi Sach standing on the stone steps of Chu Dien hall drawing his ancestral horn bow to full moon, firing three arrows simultaneously with blazing speed. Lower panel: the arrows pierce through the shields of advancing Han soldiers in front of terrified general Lu Thach, while Thi Sach's pitch-black warhorse leaps forward to meet its master. Clean composition, text-free, no speech bubbles, no watermarks.
+Vertical two-panel action comic page (4:5 aspect ratio) in traditional Vietnamese historical ink cross-hatching and watercolor colored-pencil style, leaving top 20% sky space for narration box. Upper panel: Lord Thi Sach standing on the stone steps of Chu Dien hall drawing his ancestral horn bow to full moon, firing single arrows in rapid successive shots with blazing speed. Lower panel: the arrows pierce through the shields of advancing Han soldiers in front of terrified general Lu Thach, while Thi Sach's pitch-black warhorse leaps forward to meet its master. Clean composition, text-free, no speech bubbles, no watermarks.
 ```
 
 ### Trang 08 — Đại Chiến Kỵ Mã & Tuyệt Chiêu "Mãnh Long Giáng Địa" (`Template A`)
@@ -77,7 +77,7 @@ Vertical two-panel heroic comic page (4:5 aspect ratio) in traditional Vietnames
 
 ### Trang 10 — Đêm Cổ Lôi Sơn Trang & Giọt Nước Mắt Hóa Sấm Sét (`Template B`)
 ```text
-Vertical two-panel comic page (4:5 aspect ratio) in traditional Vietnamese historical ink cross-hatching and watercolor colored-pencil style, leaving top 20% night sky for narration box. Upper panel: panoramic night view of the secret mountain fortress Co Loi Son Trang lit by torches, showing seventeen large Dong Son bronze drums and thirty war elephants gathered by the river. Lower panel: inside the timber hall by candlelight, Trung Trac clutches the tragic war report from Chu Dien with fierce, tear-glistening eyes as her sister Trung Nhi and the two venerable female masters Do Nang Te and Cam Nuong hold her hands in solemn resolve. Clean composition, text-free, no speech bubbles, no watermarks.
+Vertical two-panel comic page (4:5 aspect ratio) in traditional Vietnamese historical ink cross-hatching and watercolor colored-pencil style, leaving top 20% night sky for narration box. Upper panel: panoramic night view of the secret mountain fortress Co Loi Son Trang lit by torches, showing seventeen large Dong Son bronze drums and thirty war elephants gathered by the river. Lower panel: inside the timber hall by candlelight, Trung Trac clutches the tragic war report from Chu Dien with fierce, tear-glistening eyes as her sister Trung Nhi and the two venerable masters Do Nang Te and Cam Nuong hold her hands in solemn resolve. Clean composition, text-free, no speech bubbles, no watermarks.
 ```
 
 ### Trang 11 — Khí Tiết Bất Khuất Trên Pháp Trường Luy Lâu (`Template A`)
@@ -107,17 +107,17 @@ Vertical two-panel comic page (4:5 aspect ratio) in traditional Vietnamese histo
 
 ### Trang 16 — Đại Cảnh Đàn Thề Hát Môn Bên Dòng Sông Nhị Hà (`Template A`)
 ```text
-Full-page grand panoramic vertical splash illustration (4:5 aspect ratio) in traditional Vietnamese historical ink cross-hatching and watercolor colored-pencil style, leaving top 20% bright spring sky for narration box. At the vast sandy confluence of the Hat Mon and Nhi Ha rivers, a towering three-tier earthen oath altar stands adorned with ninety-nine five-colored banners and eight tiers of gleaming Dong Son bronze drums. Flanking the altar are seventy-eight white-tusked war elephants, five hundred armored cavalry, two thousand archers, and one hundred sixty war boats covering the blue river. Clean composition, text-free, no speech bubbles, no watermarks.
+Full-page grand panoramic vertical splash illustration (4:5 aspect ratio) in traditional Vietnamese historical ink cross-hatching and watercolor colored-pencil style, leaving top 20% bright spring sky for narration box. At the vast sandy confluence of the Hat Mon and Nhi Ha rivers, a towering three-tier earthen oath altar stands adorned with ninety-nine five-colored banners and eight tiers of gleaming Dong Son bronze drums. Flanking the altar are eight grey-skinned, white-tusked war elephants, five hundred armored cavalry, two thousand archers, and one hundred sixty war boats covering the blue river. Clean composition, text-free, no speech bubbles, no watermarks.
 ```
 
 ### Trang 17 — Suy Tôn Chủ Tướng Ba Quân Trước Linh Vị Vua Hùng (`Template B`)
 ```text
-Vertical two-panel ceremonial comic page (4:5 aspect ratio) in traditional Vietnamese historical ink cross-hatching and watercolor colored-pencil style, leaving top 20% sky and sacred incense smoke for narration box. Upper panel: close-up of an ancient Dong Son bronze incense burner on the top altar table sending swirling golden smoke upward in front of the ancestral tablet of King Hung and the memorial tablets of Trung Dinh and Thi Sach. Lower panel: Trung Trac and Trung Nhi in gleaming gilded bronze armor, crimson capes, and white mourning headbands ascending the grand steps of the altar as bronze drums and gongs resound. Clean composition, text-free, no speech bubbles, no watermarks.
+Vertical two-panel ceremonial comic page (4:5 aspect ratio) in traditional Vietnamese historical ink cross-hatching and watercolor colored-pencil style, leaving top 20% sky and sacred incense smoke for narration box. Upper panel: close-up of an ancient Dong Son bronze incense burner on the top altar table sending swirling golden smoke upward in front of the ancestral tablet of King Hung and the memorial tablets of Trung Dinh and Thi Sach. Lower panel: Trung Trac in crimson robes and gilded bronze armor beside Trung Nhi in NAVY-BLUE robes and bronze-trimmed armor, both with white mourning headbands ascending the grand steps of the altar as bronze drums and gongs resound. Clean composition, text-free, no speech bubbles, no watermarks.
 ```
 
 ### Trang 18 — Lời Thề Hát Môn Dậy Sóng Sông Nhị Hà (`Template A`)
 ```text
-Full-page monumental vertical splash illustration (4:5 aspect ratio) in traditional Vietnamese historical ink cross-hatching and watercolor colored-pencil style, leaving top 20% sunlit sky with swirling clouds for narration box. On the summit of the Hat Mon altar overlooking the crashing waves of the Nhi Ha river, Supreme Commander Trung Trac holds an open bamboo proclamation scroll in her left hand and points her bronze sword toward the heavens with her right hand; Trung Nhi, the two female masters, and seventeen tribal chiefs stand behind her while thousands of soldiers below raise their weapons in a roaring oath. Clean composition, text-free, no speech bubbles, no watermarks.
+Full-page monumental vertical splash illustration (4:5 aspect ratio) in traditional Vietnamese historical ink cross-hatching and watercolor colored-pencil style, leaving top 20% sunlit sky with swirling clouds for narration box. On the summit of the Hat Mon altar overlooking the crashing waves of the Nhi Ha river, Supreme Commander Trung Trac holds an open bamboo proclamation scroll in her left hand and points her bronze sword toward the heavens with her right hand; Trung Nhi, the two masters, and seventeen tribal chiefs stand behind her while thousands of soldiers below raise their weapons in a roaring oath. Clean composition, text-free, no speech bubbles, no watermarks.
 ```
 
 ### Trang 19 — Huyền Tích 27 Củ Huyết Sâm & Nữ Tướng Thánh Thiên (`Template B`)
@@ -157,7 +157,7 @@ Vertical two-panel comic page (4:5 aspect ratio) in traditional Vietnamese histo
 
 ### Trang 26 — Thánh Thiên Động Chủ Tuyên Án Trảm Thủ Tào Quyền (`Template A`)
 ```text
-Full-page climactic vertical splash illustration (4:5 aspect ratio) in traditional Vietnamese historical ink cross-hatching and watercolor colored-pencil style, leaving top 20% sunlit mountain sky for narration box. In the center of the Phuong Hoang mountain courtyard, Chief Steward Tao Quyen and traitor Luc Hien are bound to five heavy wooden stakes; standing tall before them, 17-year-old commander Thanh Thien points her drawn broadsword in righteous judgment as the seven tribal chieftains and thousands of victorious warriors raise their banners around the courtyard. Clean composition, text-free, no speech bubbles, no watermarks.
+Full-page climactic vertical splash illustration (4:5 aspect ratio) in traditional Vietnamese historical ink cross-hatching and watercolor colored-pencil style, leaving top 20% sunlit mountain sky for narration box. In the center of the Phuong Hoang mountain courtyard, five prisoners, including Chief Steward Tao Quyen, traitor Luc Hien and three unnamed enemy officers, are bound one per stake to five heavy wooden stakes; standing tall before them, 17-year-old commander Thanh Thien points her drawn broadsword in righteous judgment as the seven tribal chieftains and thousands of victorious warriors raise their banners around the courtyard. Clean composition, text-free, no speech bubbles, no watermarks.
 ```
 
 ### Trang 27 — Sóng Dậy Lĩnh Nam: Đại Quân Thu Phục 65 Thành Trì (`Template A`)
@@ -169,3 +169,6 @@ Full-page epic vertical splash illustration (4:5 aspect ratio) in traditional Vi
 ```text
 Full-page monumental finale vertical splash illustration (4:5 aspect ratio) in traditional Vietnamese historical ink cross-hatching and watercolor colored-pencil style, leaving top 20% radiant golden sky with flying Lac birds for narration box. Dual-horizon composition: In the upper heroic realm, Queen Trung Trac (Trung Nu Vuong) in magnificent royal Lac Viet robes and feathered crown stands flanked by Trung Nhi, Thi Sach's heroic spirit, and Thanh Thien above the ancient capital Me Linh; seamlessly transitioning in the lower foreground to the peaceful red-roofed Hat Mon / Me Linh temple beside the Red River in spring, where Vietnamese students in school uniforms respectfully offer incense in remembrance. Clean composition, text-free, no speech bubbles, no watermarks.
 ```
+
+
+> Đính chính thiết kế 09/11/2026: áp dụng đối chiếu scan và chuẩn nhận diện tại `09_design_system/SOURCE_DECISIONS.md`; xem hồ sơ v1 trước khi dùng prompt cũ.

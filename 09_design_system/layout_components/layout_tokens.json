@@ -1,0 +1,71 @@
+{
+  "trim_mm": [
+    190,
+    240
+  ],
+  "bleed_mm": 3,
+  "bleed_canvas_mm": [
+    196,
+    246
+  ],
+  "target_px": [
+    2315,
+    2906
+  ],
+  "trim_px": [
+    2244,
+    2835
+  ],
+  "safe_odd_mm": [
+    16,
+    14,
+    162,
+    212
+  ],
+  "safe_even_mm": [
+    12,
+    14,
+    162,
+    212
+  ],
+  "common_safe_intersection_mm": [
+    16,
+    14,
+    158,
+    212
+  ],
+  "parchment_mm": [
+    11,
+    8,
+    168,
+    40
+  ],
+  "narration_text_mm": [
+    18,
+    14,
+    154,
+    29
+  ],
+  "folio_center_odd_mm": [
+    173,
+    221
+  ],
+  "folio_center_even_mm": [
+    17,
+    221
+  ],
+  "folio_diameter_mm": 8,
+  "colors": {
+    "text": "#1A1A1A",
+    "red_keyword": "#C81E1E",
+    "paper_center": "#FFFBEB",
+    "paper_edge": "#F59E0B"
+  },
+  "typography": {
+    "font_preference": "Noto Sans",
+    "narration_pt": 12.8,
+    "line_height": 1.42,
+    "speech_pt": 10.8
+  },
+  "spine_mm_provisional": 3.5
+}

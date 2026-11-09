@@ -1,0 +1,1172 @@
+{
+  "version": "design-v1",
+  "status": "DESIGN_BASELINE",
+  "user_approved": false,
+  "characters": [
+    {
+      "id": "NV01",
+      "name": "Trưng Trắc",
+      "board": "CHAR01",
+      "design_age": "26",
+      "design_height_cm": 168,
+      "face": "Mắt dài, mày cong sắc, mặt trái xoan, cằm gọn, tóc búi thấp",
+      "palette": "trắng ngà #F8FAFC / đỏ son #B91C1C / đồng vàng #D97706",
+      "silhouette": "Chủ soái; đứng vững, vai thẳng, không tạo dáng người mẫu",
+      "costumes": "Cổ Lôi: áo tang trắng và khăn trắng; Hát Môn: giáp đồng, áo đỏ, mũ lông trắng-vàng; kết: lễ phục đỏ-vàng",
+      "props": [
+        "P01",
+        "P02",
+        "P06"
+      ],
+      "pages": "10-14,17-18,27-28",
+      "source": "PDF24-34,39-42; storyboard27-28 mở rộng",
+      "source_vs_design": "Tên/vai trò đối chiếu nguồn; tuổi, số đo, mặt và mã màu là quyết định mỹ thuật, không khẳng định chính sử.",
+      "status": "DESIGN_BASELINE",
+      "user_approved": false
+    },
+    {
+      "id": "NV02",
+      "name": "Trưng Nhị",
+      "board": "CHAR02",
+      "design_age": "24",
+      "design_height_cm": 165,
+      "face": "Cùng họ nét với Trưng Trắc nhưng hàm hẹp hơn, mày thẳng hơn, tóc đuôi buộc cao",
+      "palette": "lam sẫm #1E3A8A / đồng #B7791F / đỏ #991B1B",
+      "silhouette": "Phó tướng nhanh nhẹn, cơ thể nghiêng về hành động",
+      "costumes": "Áo/giáp nền lam sẫm, viền đồng, khăn chiến lông đôi; khăn tang trắng khi cảnh tang lễ; không đổi toàn áo sang đỏ ở Hát Môn",
+      "props": [
+        "P03",
+        "P04"
+      ],
+      "pages": "10,12-13,17-18,27-28",
+      "source": "Bible mục1.1",
+      "source_vs_design": "Tên/vai trò đối chiếu nguồn; tuổi, số đo, mặt và mã màu là quyết định mỹ thuật, không khẳng định chính sử.",
+      "status": "DESIGN_BASELINE",
+      "user_approved": false
+    },
+    {
+      "id": "NV03",
+      "name": "Thi Sách",
+      "board": "CHAR03",
+      "design_age": "27",
+      "design_height_cm": 180,
+      "face": "Mặt dài vuông, mày kiếm, râu ngắn gọn, tóc đen búi",
+      "palette": "tía #6B2346 / đồng #C68D2B / đen #222222",
+      "silhouette": "Học thức nhưng dũng mãnh, thân dài vai rộng",
+      "costumes": "Trước báo động: áo quan chàm tía giản dị; chiến đấu: trường bào gấm tía đính hổ phù, mũ lông; ngựa đen",
+      "props": [
+        "P05",
+        "P06",
+        "P07",
+        "P08"
+      ],
+      "pages": "04-09; 28 chỉ hồn tưởng niệm",
+      "source": "PDF03-23; 28 mở rộng",
+      "source_vs_design": "Tên/vai trò đối chiếu nguồn; tuổi, số đo, mặt và mã màu là quyết định mỹ thuật, không khẳng định chính sử.",
+      "status": "DESIGN_BASELINE",
+      "user_approved": false
+    },
+    {
+      "id": "NV04",
+      "name": "Thánh Thiên",
+      "board": "CHAR04",
+      "design_age": "17",
+      "design_height_cm": 162,
+      "face": "Mặt oval ngắn, mày thẳng, mắt sáng tập trung, tóc tết sau gáy",
+      "palette": "lục #166534 / trắng #F8FAFC / đồng #A46A2A",
+      "silhouette": "Nữ chỉ huy trẻ, nhanh, kín đáo, không tình dục hóa",
+      "costumes": "Hồi ức cứu người: vải xanh giản dị; chiến đấu: đoản giáp da-đồng, khăn tang trắng, giày da báo",
+      "props": [
+        "P09",
+        "P10"
+      ],
+      "pages": "19-28",
+      "source": "PDF42-58; 27-28 mở rộng",
+      "source_vs_design": "Tên/vai trò đối chiếu nguồn; tuổi, số đo, mặt và mã màu là quyết định mỹ thuật, không khẳng định chính sử.",
+      "status": "DESIGN_BASELINE",
+      "user_approved": false
+    },
+    {
+      "id": "NV05",
+      "name": "Đinh Lương",
+      "board": "CHAR05",
+      "design_age": "25",
+      "design_height_cm": 178,
+      "face": "Mặt vuông rộng, da rám, mày rậm, tóc ngắn búi gọn, không râu dài",
+      "palette": "nâu #5D3A24 / đỏ #991B1B",
+      "silhouette": "Vai rộng ngực nở, trọng tâm thấp, trung nghĩa",
+      "costumes": "Áo chiến nâu, băng đầu đỏ, giáp da nhẹ, đại đao cán dài",
+      "props": [
+        "P11"
+      ],
+      "pages": "04-05,09",
+      "source": "PDF04-05,10-13,23",
+      "source_vs_design": "Tên/vai trò đối chiếu nguồn; tuổi, số đo, mặt và mã màu là quyết định mỹ thuật, không khẳng định chính sử.",
+      "status": "DESIGN_BASELINE",
+      "user_approved": false
+    },
+    {
+      "id": "NV06",
+      "name": "Phùng Thị Chính",
+      "board": "CHAR05",
+      "design_age": "20",
+      "design_height_cm": 164,
+      "face": "Mặt trái tim, mày rậm gọn, mắt cương nghị, tóc đen tết một bím",
+      "palette": "đào trầm #A94B61 / nâu da #5D3A24",
+      "silhouette": "Nhanh và bền bỉ, gương mặt khác Trưng Nhị",
+      "costumes": "Áo võ sĩ hồng đào trầm, giáp da, quần kín, kiếm thẳng; giai đoạn sau thêm dải khăn trắng",
+      "props": [
+        "P12"
+      ],
+      "pages": "04-05,27-28",
+      "source": "PDF04-05,11-13; 27-28 mở rộng",
+      "source_vs_design": "Tên/vai trò đối chiếu nguồn; tuổi, số đo, mặt và mã màu là quyết định mỹ thuật, không khẳng định chính sử.",
+      "status": "DESIGN_BASELINE",
+      "user_approved": false
+    },
+    {
+      "id": "NV07",
+      "name": "Nguyễn Huyền",
+      "board": "CHAR06",
+      "design_age": "60",
+      "design_height_cm": 170,
+      "face": "Mặt dài gầy, trán cao, râu trắng dài mảnh, mắt hiền",
+      "palette": "be #D6C7A8 / lục xám #6B7D67",
+      "silhouette": "Bậc thầy thuốc trầm tĩnh, lưng thẳng",
+      "costumes": "Áo vải thầy thuốc, túi dược; khi bị bắt áo cũ bạc màu, không vẽ thương tích chi tiết",
+      "props": [
+        "P13"
+      ],
+      "pages": "03,11,19 hồi ức",
+      "source": "PDF01-03,26-29,42-43",
+      "source_vs_design": "Tên/vai trò đối chiếu nguồn; tuổi, số đo, mặt và mã màu là quyết định mỹ thuật, không khẳng định chính sử.",
+      "status": "DESIGN_BASELINE",
+      "user_approved": false
+    },
+    {
+      "id": "NV08",
+      "name": "Trưng Định",
+      "board": "CHAR06",
+      "design_age": "58",
+      "design_height_cm": 173,
+      "face": "Mặt vuông, râu ba chòm ngắn điểm bạc, lông mày đậm",
+      "palette": "trắng #E8E1D4 / chàm #3D4C67",
+      "silhouette": "Trưởng giả quắc thước, cười bất khuất",
+      "costumes": "Áo trong trắng và áo khoác chàm khi tự do; áo trắng khi pháp trường",
+      "props": [
+        "P14"
+      ],
+      "pages": "03,11",
+      "source": "PDF01-03,26-29",
+      "source_vs_design": "Tên/vai trò đối chiếu nguồn; tuổi, số đo, mặt và mã màu là quyết định mỹ thuật, không khẳng định chính sử.",
+      "status": "DESIGN_BASELINE",
+      "user_approved": false
+    },
+    {
+      "id": "NV09",
+      "name": "Đô Năng Tế",
+      "board": "CHAR07",
+      "design_age": "58",
+      "design_height_cm": 174,
+      "face": "NAM; trán rộng, râu dài muối tiêu, tóc búi có sợi bạc",
+      "palette": "chàm #253855 / đồng #8E6B36",
+      "silhouette": "Sư phụ chủ trì bàn đại sự, tay vuốt râu và giữ gậy",
+      "costumes": "Áo chàm cổ kín, đai vải nâu, gậy gỗ; không tạo hình nữ theo prompt cũ",
+      "props": [
+        "P15"
+      ],
+      "pages": "10,12-13,17-18",
+      "source": "Scan PDF32/sách243 mô tả vuốt chòm râu",
+      "source_vs_design": "Tên/vai trò đối chiếu nguồn; tuổi, số đo, mặt và mã màu là quyết định mỹ thuật, không khẳng định chính sử.",
+      "status": "DESIGN_BASELINE",
+      "user_approved": false
+    },
+    {
+      "id": "NV10",
+      "name": "Cẩm Nương",
+      "board": "CHAR07",
+      "design_age": "55",
+      "design_height_cm": 160,
+      "face": "Nữ trưởng bối, mặt oval rộng, tóc búi cao bạc hai bên thái dương",
+      "palette": "chàm tím #4B4168 / nâu #6B4A2F",
+      "silhouette": "Điềm tĩnh quan sát, ít động tác lớn",
+      "costumes": "Áo chàm tím dài kín, trâm đồng nhỏ, cuộn thẻ tre; giới tính nữ kế thừa lựa chọn Bible, chưa suy thành kết luận sử học",
+      "props": [
+        "P16"
+      ],
+      "pages": "10,12-13,17-18",
+      "source": "Bible; scan PDF04,24,41 nhắc tên",
+      "source_vs_design": "Tên/vai trò đối chiếu nguồn; tuổi, số đo, mặt và mã màu là quyết định mỹ thuật, không khẳng định chính sử.",
+      "status": "DESIGN_BASELINE",
+      "user_approved": false
+    },
+    {
+      "id": "NV11",
+      "name": "Lê Đạo",
+      "board": "CHAR08",
+      "design_age": "55",
+      "design_height_cm": 181,
+      "face": "Mặt dài góc cạnh, râu ba chòm bạc quá nửa, mắt sâu",
+      "palette": "lam biển #244A69 / da #705238",
+      "silhouette": "Cao lớn, vai rộng, chim ưng đen đậu vai",
+      "costumes": "Áo chỉ huy thủy quân lam, giáp da/đồng gọn, ống trúc thư",
+      "props": [
+        "P17",
+        "A03"
+      ],
+      "pages": "12,16-18",
+      "source": "PDF29-30,40",
+      "source_vs_design": "Tên/vai trò đối chiếu nguồn; tuổi, số đo, mặt và mã màu là quyết định mỹ thuật, không khẳng định chính sử.",
+      "status": "DESIGN_BASELINE",
+      "user_approved": false
+    },
+    {
+      "id": "NV12",
+      "name": "Đào Chiêu Hiển",
+      "board": "CHAR08",
+      "design_age": "43",
+      "design_height_cm": 179,
+      "face": "Mặt vuông đầy, mắt sáng miệng rộng, râu mép ngắn",
+      "palette": "đỏ đất #9B4E35 / đồng #AF7B36",
+      "silhouette": "Dáng kỵ tướng chắc khỏe",
+      "costumes": "Giáp vảy đồng trên áo đỏ đất, giáo dài, khăn buộc đầu",
+      "props": [
+        "P18"
+      ],
+      "pages": "12,16-18",
+      "source": "PDF30-31,39",
+      "source_vs_design": "Tên/vai trò đối chiếu nguồn; tuổi, số đo, mặt và mã màu là quyết định mỹ thuật, không khẳng định chính sử.",
+      "status": "DESIGN_BASELINE",
+      "user_approved": false
+    },
+    {
+      "id": "NV13",
+      "name": "Phạm Danh Hương",
+      "board": "CHAR08",
+      "design_age": "68",
+      "design_height_cm": 169,
+      "face": "Mặt gầy, râu trắng dài, mắt nhỏ trầm, tóc bạc búi cao",
+      "palette": "xám lam #81939D / trắng #F8FAFC",
+      "silhouette": "Tiên phong đạo cốt, không phát sáng kiểu game",
+      "costumes": "Áo đạo bào xám lam, phất trần trắng, không giáp",
+      "props": [
+        "P19"
+      ],
+      "pages": "12,16-18",
+      "source": "PDF31,39-41",
+      "source_vs_design": "Tên/vai trò đối chiếu nguồn; tuổi, số đo, mặt và mã màu là quyết định mỹ thuật, không khẳng định chính sử.",
+      "status": "DESIGN_BASELINE",
+      "user_approved": false
+    },
+    {
+      "id": "NV14",
+      "name": "Phùng Lực Công / Thánh Đóng",
+      "board": "CHAR09",
+      "design_age": "16",
+      "design_height_cm": 188,
+      "face": "Thiếu niên mặt rộng, chưa râu, thân thể lực sĩ, tóc đen búi",
+      "palette": "đỏ #B1472C / đồng #CE9A3D",
+      "silhouette": "Sức mạnh huyền sử, không thành người khổng lồ phi nhân",
+      "costumes": "Áo chiến đỏ-đồng cổ tích, đai rộng; giữ một ngoại hình trong hồi ức",
+      "props": [
+        "P20"
+      ],
+      "pages": "02",
+      "source": "PDF07-10; Phùng Công Lực ở PDF05 là biến thể tên chưa tách nhân vật",
+      "source_vs_design": "Tên/vai trò đối chiếu nguồn; tuổi, số đo, mặt và mã màu là quyết định mỹ thuật, không khẳng định chính sử.",
+      "status": "DESIGN_BASELINE",
+      "user_approved": false
+    },
+    {
+      "id": "NV15",
+      "name": "Tản Viên Sơn Thánh",
+      "board": "CHAR09",
+      "design_age": "trưởng thành",
+      "design_height_cm": 182,
+      "face": "Mặt thanh dài, tóc đen dài búi cao, râu rất nhẹ hoặc không",
+      "palette": "trắng #F1EADC / lam #73A7BF",
+      "silhouette": "Thần thái ung dung, phép thuật gắn núi-nước",
+      "costumes": "Áo choàng trắng-lam, mũ lông vừa, trượng gỗ; không áo giáp Tây phương",
+      "props": [
+        "P21"
+      ],
+      "pages": "02",
+      "source": "PDF07-10",
+      "source_vs_design": "Tên/vai trò đối chiếu nguồn; tuổi, số đo, mặt và mã màu là quyết định mỹ thuật, không khẳng định chính sử.",
+      "status": "DESIGN_BASELINE",
+      "user_approved": false
+    },
+    {
+      "id": "NV16",
+      "name": "Tô Định",
+      "board": "CHAR10",
+      "design_age": "50",
+      "design_height_cm": 172,
+      "face": "Mặt hẹp, mắt nhỏ, râu dê nhọn, tóc đen đội mũ quan",
+      "palette": "đen #1F2937 / đỏ rượu #5A2037",
+      "silhouette": "Quan quyền đa nghi; biểu cảm biểu đạt phản diện, không biến dạng dân tộc",
+      "costumes": "Áo quan đen-đỏ sẫm, áo khoác lông, hổ phù điều quân bằng đồng tối",
+      "props": [
+        "P22"
+      ],
+      "pages": "03,15,27",
+      "source": "PDF01-03,35-38; 27 mở rộng",
+      "source_vs_design": "Tên/vai trò đối chiếu nguồn; tuổi, số đo, mặt và mã màu là quyết định mỹ thuật, không khẳng định chính sử.",
+      "status": "DESIGN_BASELINE",
+      "user_approved": false
+    },
+    {
+      "id": "NV17",
+      "name": "Tào Quyền",
+      "board": "CHAR10",
+      "design_age": "46",
+      "design_height_cm": 176,
+      "face": "Mặt tròn lớn, râu cằm ngắn, gáy dày, thân nặng",
+      "palette": "sắt #303847 / tím #5B3F64",
+      "silhouette": "Ngạo mạn rồi hoảng sợ, dáng nặng khác Lữ Thạch",
+      "costumes": "Giáp sắt tối, áo choàng tím, đại đao; cuối cảnh tháo vũ khí, trói tại sân",
+      "props": [
+        "P23"
+      ],
+      "pages": "15,21-26",
+      "source": "PDF35-38,46-58",
+      "source_vs_design": "Tên/vai trò đối chiếu nguồn; tuổi, số đo, mặt và mã màu là quyết định mỹ thuật, không khẳng định chính sử.",
+      "status": "DESIGN_BASELINE",
+      "user_approved": false
+    },
+    {
+      "id": "NV18",
+      "name": "Lữ Thạch",
+      "board": "CHAR10",
+      "design_age": "42",
+      "design_height_cm": 187,
+      "face": "Hàm vuông rộng, râu quai nón, vai rất rộng, mũ sắt đơn giản",
+      "palette": "sắt #242B34 / than #36343B",
+      "silhouette": "Tướng vũ lực hung hăng, cao nhất bộ ba phản diện",
+      "costumes": "Giáp sắt nặng, bốn dao găm ở ngực, trường thương sắt",
+      "props": [
+        "P24"
+      ],
+      "pages": "03,06-09",
+      "source": "PDF03,14-23",
+      "source_vs_design": "Tên/vai trò đối chiếu nguồn; tuổi, số đo, mặt và mã màu là quyết định mỹ thuật, không khẳng định chính sử.",
+      "status": "DESIGN_BASELINE",
+      "user_approved": false
+    },
+    {
+      "id": "NV19",
+      "name": "Mã Tắc",
+      "board": "CHAR11",
+      "design_age": "40",
+      "design_height_cm": 175,
+      "face": "Mặt dài gầy, gò má cao, râu mép mảnh, mắt sâu",
+      "palette": "xám thép #465366 / lam đen #25334B",
+      "silhouette": "Tư mã mưu tính, tay chỉ huy rõ, không giống Tào Quyền",
+      "costumes": "Giáp gọn tối, mũ thấp, áo choàng lam đen, cung bên hông",
+      "props": [
+        "P04"
+      ],
+      "pages": "03,06-09,15",
+      "source": "PDF01-03,14-23,35-38; không nhập với nhân vật Tam Quốc cùng tên",
+      "source_vs_design": "Tên/vai trò đối chiếu nguồn; tuổi, số đo, mặt và mã màu là quyết định mỹ thuật, không khẳng định chính sử.",
+      "status": "DESIGN_BASELINE",
+      "user_approved": false
+    },
+    {
+      "id": "NV20",
+      "name": "Lục Hiến",
+      "board": "CHAR11",
+      "design_age": "48",
+      "design_height_cm": 167,
+      "face": "Mặt nhỏ trái lê, râu mép thưa, vai rụt, mắt liếc lo âu",
+      "palette": "nâu ôliu #655C3F / đen #2D3035",
+      "silhouette": "Quan huyện phản bội, không vẽ thành hề",
+      "costumes": "Quan phục nâu ôliu, mũ quan nhỏ, tay áo dài; cuối cảnh bị tước ấn",
+      "props": [
+        "P25"
+      ],
+      "pages": "21-22,25-26",
+      "source": "PDF37,46-58",
+      "source_vs_design": "Tên/vai trò đối chiếu nguồn; tuổi, số đo, mặt và mã màu là quyết định mỹ thuật, không khẳng định chính sử.",
+      "status": "DESIGN_BASELINE",
+      "user_approved": false
+    },
+    {
+      "id": "NV21",
+      "name": "Phùng Đặng",
+      "board": "CHAR12",
+      "design_age": "50",
+      "design_height_cm": 169,
+      "face": "Mặt tròn hiền, râu xám ngắn, tóc búi thấp",
+      "palette": "nâu ấm #8C6D4D",
+      "silhouette": "Thầy thuốc nông thôn sống giản dị",
+      "costumes": "Áo vải nâu, giỏ thuốc, tay chắp khi nhìn mộng",
+      "props": [
+        "P13"
+      ],
+      "pages": "01",
+      "source": "PDF06-07",
+      "source_vs_design": "Tên/vai trò đối chiếu nguồn; tuổi, số đo, mặt và mã màu là quyết định mỹ thuật, không khẳng định chính sử.",
+      "status": "DESIGN_BASELINE",
+      "user_approved": false
+    },
+    {
+      "id": "NV22",
+      "name": "Lưu Thị Tuấn",
+      "board": "CHAR12",
+      "design_age": "45",
+      "design_height_cm": 157,
+      "face": "Mặt oval hiền, tóc đen pha bạc búi thấp, nét khác Cẩm Nương",
+      "palette": "be đào #C6A387 / nâu #7B5C45",
+      "silhouette": "Người mẹ trong huyền tích, bình dị",
+      "costumes": "Áo vải kín màu be đào, khăn đầu nâu, không trang sức cung đình",
+      "props": [
+        "P13"
+      ],
+      "pages": "01",
+      "source": "PDF06-07",
+      "source_vs_design": "Tên/vai trò đối chiếu nguồn; tuổi, số đo, mặt và mã màu là quyết định mỹ thuật, không khẳng định chính sử.",
+      "status": "DESIGN_BASELINE",
+      "user_approved": false
+    },
+    {
+      "id": "NV23",
+      "name": "Hùng Duệ Vương",
+      "board": "CHAR12",
+      "design_age": "65",
+      "design_height_cm": 175,
+      "face": "Mặt vuông, râu trắng dày, mắt trầm, lông mày bạc",
+      "palette": "đỏ trầm #9F332B / vàng #D4A449",
+      "silhouette": "Vua già uy nghi hiền hậu, không giống Tô Định",
+      "costumes": "Lễ phục đỏ, mũ lông vàng, đai mặt trời trống đồng",
+      "props": [
+        "P26"
+      ],
+      "pages": "01-02",
+      "source": "PDF06-10",
+      "source_vs_design": "Tên/vai trò đối chiếu nguồn; tuổi, số đo, mặt và mã màu là quyết định mỹ thuật, không khẳng định chính sử.",
+      "status": "DESIGN_BASELINE",
+      "user_approved": false
+    },
+    {
+      "id": "NV24",
+      "name": "Ngọc Hoa",
+      "board": "CHAR13",
+      "design_age": "22",
+      "design_height_cm": 161,
+      "face": "Mặt oval mềm, tóc dài búi thấp gắn trâm hoa đồng",
+      "palette": "lục nhạt #85AA8A / kem #F0DFC1",
+      "silhouette": "Công chúa trong lớp huyền tích",
+      "costumes": "Áo váy lục-kem kín, vòng đồng mảnh; không giáp",
+      "props": [
+        "P27"
+      ],
+      "pages": "02 nếu mở rộng khung hồi ức",
+      "source": "PDF08",
+      "source_vs_design": "Tên/vai trò đối chiếu nguồn; tuổi, số đo, mặt và mã màu là quyết định mỹ thuật, không khẳng định chính sử.",
+      "status": "DESIGN_BASELINE",
+      "user_approved": false
+    },
+    {
+      "id": "NV25",
+      "name": "Thục Vương",
+      "board": "CHAR13",
+      "design_age": "45",
+      "design_height_cm": 177,
+      "face": "Mặt chữ nhật, râu ngắn dày, mày ngang, tóc búi",
+      "palette": "xanh rừng #355A4D / đồng #AA7C43",
+      "silhouette": "Từ đối đầu đến hòa giải trong huyền tích",
+      "costumes": "Áo lễ xanh rừng và giáp đồng, mũ thấp họa tiết núi; không nhập ngoại hình An Dương Vương mẫu",
+      "props": [
+        "P18"
+      ],
+      "pages": "02 nếu hiện đối phương",
+      "source": "PDF09-10",
+      "source_vs_design": "Tên/vai trò đối chiếu nguồn; tuổi, số đo, mặt và mã màu là quyết định mỹ thuật, không khẳng định chính sử.",
+      "status": "DESIGN_BASELINE",
+      "user_approved": false
+    },
+    {
+      "id": "NV26",
+      "name": "Hiền Đường tiên sinh",
+      "board": "CHAR13",
+      "design_age": "70",
+      "design_height_cm": 166,
+      "face": "Trán rộng cao, râu trắng mảnh, lưng hơi cong",
+      "palette": "xám #9E9B8E / chàm #525F6A",
+      "silhouette": "Thầy của Phùng Lực Công; nhân vật được nhắc",
+      "costumes": "Áo thầy đồ xám, thẻ tre, gậy; không tự thêm hoạt động vào 28 trang",
+      "props": [
+        "P16"
+      ],
+      "pages": "Chỉ nhắc trong nguồn",
+      "source": "PDF07",
+      "source_vs_design": "Tên/vai trò đối chiếu nguồn; tuổi, số đo, mặt và mã màu là quyết định mỹ thuật, không khẳng định chính sử.",
+      "status": "DESIGN_BASELINE",
+      "user_approved": false
+    },
+    {
+      "id": "NV27",
+      "name": "Sầm Lân",
+      "board": "CHAR14",
+      "design_age": "38",
+      "design_height_cm": 178,
+      "face": "Mặt vuông, râu ngắn rậm, mũ gờ dọc",
+      "palette": "xám sắt #3A4654 / đỏ sẫm #6A3034",
+      "silhouette": "Tướng phụ, không có tiểu sử ngoại hình cụ thể",
+      "costumes": "Giáp sắt cùng phe, dải vai đỏ sẫm, giáo",
+      "props": [
+        "P18"
+      ],
+      "pages": "15",
+      "source": "PDF35-38",
+      "source_vs_design": "Tên/vai trò đối chiếu nguồn; tuổi, số đo, mặt và mã màu là quyết định mỹ thuật, không khẳng định chính sử.",
+      "status": "DESIGN_BASELINE",
+      "user_approved": false
+    },
+    {
+      "id": "NV28",
+      "name": "Sầm Bá",
+      "board": "CHAR14",
+      "design_age": "36",
+      "design_height_cm": 180,
+      "face": "Mặt dài, ria ngang, mũ gờ thấp, hẹp hơn Sầm Lân",
+      "palette": "xám sắt #3A4654 / lục tối #3D5147",
+      "silhouette": "Tướng phụ; chọn dáng khác để nhận diện",
+      "costumes": "Giáp sắt, dải vai lục tối, kiếm",
+      "props": [
+        "P23"
+      ],
+      "pages": "15",
+      "source": "PDF35-38",
+      "source_vs_design": "Tên/vai trò đối chiếu nguồn; tuổi, số đo, mặt và mã màu là quyết định mỹ thuật, không khẳng định chính sử.",
+      "status": "DESIGN_BASELINE",
+      "user_approved": false
+    },
+    {
+      "id": "NV29",
+      "name": "Độc Cô Tấn",
+      "board": "CHAR14",
+      "design_age": "44",
+      "design_height_cm": 183,
+      "face": "Mặt góc cạnh, râu cằm nhọn ngắn, mũ che gáy",
+      "palette": "xám #414A58 / tím xám #625264",
+      "silhouette": "Tướng phụ giữ đội ngũ",
+      "costumes": "Giáp tối, dải vai tím xám, thương; không dùng họa tiết riêng phe Lạc",
+      "props": [
+        "P24"
+      ],
+      "pages": "15",
+      "source": "PDF35-38",
+      "source_vs_design": "Tên/vai trò đối chiếu nguồn; tuổi, số đo, mặt và mã màu là quyết định mỹ thuật, không khẳng định chính sử.",
+      "status": "DESIGN_BASELINE",
+      "user_approved": false
+    },
+    {
+      "id": "NV30",
+      "name": "Bạch Uy",
+      "board": "CHAR15",
+      "design_age": "50",
+      "design_height_cm": 174,
+      "face": "Mặt vuông rám, râu đen pha bạc ngắn, lông mày bạc một phần",
+      "palette": "nâu #765337 / chàm #344E57",
+      "silhouette": "Chủ phường săn Mê Linh, không gộp với Lão Bạch Kẻ Từ",
+      "costumes": "Áo da-vải nâu, khăn chàm, cung dài",
+      "props": [
+        "P04"
+      ],
+      "pages": "10,16-18",
+      "source": "PDF24,29,40",
+      "source_vs_design": "Tên/vai trò đối chiếu nguồn; tuổi, số đo, mặt và mã màu là quyết định mỹ thuật, không khẳng định chính sử.",
+      "status": "DESIGN_BASELINE",
+      "user_approved": false
+    },
+    {
+      "id": "NV31",
+      "name": "Lão Bạch Kẻ Từ",
+      "board": "CHAR15",
+      "design_age": "65",
+      "design_height_cm": 166,
+      "face": "Mặt hẹp nhiều nếp nhăn, râu trắng ngắn, tóc bạc",
+      "palette": "ôliu #68724A / nâu #6B4B31",
+      "silhouette": "Thợ săn lão luyện; khác Bạch Uy",
+      "costumes": "Áo rừng ôliu, khăn nâu, nỏ ngắn và túi thuốc săn",
+      "props": [
+        "P28"
+      ],
+      "pages": "21,24",
+      "source": "PDF48-50",
+      "source_vs_design": "Tên/vai trò đối chiếu nguồn; tuổi, số đo, mặt và mã màu là quyết định mỹ thuật, không khẳng định chính sử.",
+      "status": "DESIGN_BASELINE",
+      "user_approved": false
+    },
+    {
+      "id": "NV32",
+      "name": "Đô tướng họ Khúc",
+      "board": "CHAR15",
+      "design_age": "28",
+      "design_height_cm": 175,
+      "face": "Mặt rộng không râu, tóc búi, da rám",
+      "palette": "lam biển #316A7C / da nâu #725038",
+      "silhouette": "Tướng thủy quân trẻ, dáng nhanh",
+      "costumes": "Áo lam biển, giáp nhẹ, khăn nâu, đao",
+      "props": [
+        "P23"
+      ],
+      "pages": "21,24-25",
+      "source": "PDF49-50,55",
+      "source_vs_design": "Tên/vai trò đối chiếu nguồn; tuổi, số đo, mặt và mã màu là quyết định mỹ thuật, không khẳng định chính sử.",
+      "status": "DESIGN_BASELINE",
+      "user_approved": false
+    },
+    {
+      "id": "NV33",
+      "name": "Đô tướng họ Hoàng",
+      "board": "CHAR15",
+      "design_age": "30",
+      "design_height_cm": 177,
+      "face": "Mặt dài, ria ngắn, tóc búi lệch phía sau",
+      "palette": "lam xám #4D6375 / đất vàng #B38E44",
+      "silhouette": "Tướng thủy quân trẻ, khác họ Khúc",
+      "costumes": "Áo lam xám, khăn đất vàng, giáp da, đoản kiếm",
+      "props": [
+        "P06"
+      ],
+      "pages": "21,24-25",
+      "source": "PDF49-50,55",
+      "source_vs_design": "Tên/vai trò đối chiếu nguồn; tuổi, số đo, mặt và mã màu là quyết định mỹ thuật, không khẳng định chính sử.",
+      "status": "DESIGN_BASELINE",
+      "user_approved": false
+    },
+    {
+      "id": "NV34",
+      "name": "Lão trượng họ Khúc",
+      "board": "CHAR16",
+      "design_age": "68",
+      "design_height_cm": 165,
+      "face": "Mặt vuông già, râu bạc rộng, cổ to",
+      "palette": "nâu đất #806141 / kem #D5C6AA",
+      "silhouette": "Bô lão Chu Diên, không phải đô tướng Khúc",
+      "costumes": "Áo thổ cẩm nâu và khăn rộng, gậy/giáo",
+      "props": [
+        "P15"
+      ],
+      "pages": "06",
+      "source": "PDF15",
+      "source_vs_design": "Tên/vai trò đối chiếu nguồn; tuổi, số đo, mặt và mã màu là quyết định mỹ thuật, không khẳng định chính sử.",
+      "status": "DESIGN_BASELINE",
+      "user_approved": false
+    },
+    {
+      "id": "NV35",
+      "name": "Mạc khách họ Kiều",
+      "board": "CHAR16",
+      "design_age": "62",
+      "design_height_cm": 168,
+      "face": "Mặt gầy, râu muối tiêu dài vừa, mắt sáng",
+      "palette": "chàm xám #596779 / be #B6AA91",
+      "silhouette": "Người giữ văn bút, dáng thanh",
+      "costumes": "Áo thư lại chàm xám, thẻ tre và bút lông; lúc chiến chỉ cầm kiếm đơn giản",
+      "props": [
+        "P16"
+      ],
+      "pages": "06",
+      "source": "PDF16",
+      "source_vs_design": "Tên/vai trò đối chiếu nguồn; tuổi, số đo, mặt và mã màu là quyết định mỹ thuật, không khẳng định chính sử.",
+      "status": "DESIGN_BASELINE",
+      "user_approved": false
+    },
+    {
+      "id": "NV36",
+      "name": "Đào Đô Thống",
+      "board": "CHAR16",
+      "design_age": "39",
+      "design_height_cm": 177,
+      "face": "Hàm vuông nhỏ, râu mép mảnh, lông mày dày",
+      "palette": "đỏ đất #9B4E35 / chàm #394D65",
+      "silhouette": "Em Đào Chiêu Hiển, chỉ nhắc trong đoạn nguồn",
+      "costumes": "Giáp đồng nhẹ, dải khăn chàm, giáo; không tự cho thành tướng của trận mới",
+      "props": [
+        "P18"
+      ],
+      "pages": "Chỉ nhắc trong nguồn",
+      "source": "Scan PDF31/sách242",
+      "source_vs_design": "Tên/vai trò đối chiếu nguồn; tuổi, số đo, mặt và mã màu là quyết định mỹ thuật, không khẳng định chính sử.",
+      "status": "DESIGN_BASELINE",
+      "user_approved": false
+    },
+    {
+      "id": "NV37",
+      "name": "Đào Tam Lang",
+      "board": "CHAR16",
+      "design_age": "34",
+      "design_height_cm": 175,
+      "face": "Mặt oval dài, ít râu, má gọn",
+      "palette": "đỏ đất #9B4E35 / nâu #6D4A34",
+      "silhouette": "Em Đào Chiêu Hiển, trẻ hơn",
+      "costumes": "Giáp đồng nhẹ, khăn nâu, cung; cùng bảng màu gia đình khác khăn",
+      "props": [
+        "P04"
+      ],
+      "pages": "Chỉ nhắc trong nguồn",
+      "source": "Scan PDF31/sách242",
+      "source_vs_design": "Tên/vai trò đối chiếu nguồn; tuổi, số đo, mặt và mã màu là quyết định mỹ thuật, không khẳng định chính sử.",
+      "status": "DESIGN_BASELINE",
+      "user_approved": false
+    },
+    {
+      "id": "NV38",
+      "name": "Lê Chân",
+      "board": "CHAR17",
+      "design_age": "25",
+      "design_height_cm": 165,
+      "face": "Mặt dài cương nghị, tóc tết cao, da rám",
+      "palette": "lam biển #236475 / đỏ đất #9A4738",
+      "silhouette": "Ái nữ Lê Đạo, chỉ nhắc trong nguồn ở phạm vi này",
+      "costumes": "Áo võ sĩ lam biển, giáp da nhẹ, kiếm; ngoại hình là lựa chọn bổ sung",
+      "props": [
+        "P12"
+      ],
+      "pages": "Chỉ nhắc trong nguồn",
+      "source": "Scan PDF30/sách241",
+      "source_vs_design": "Tên/vai trò đối chiếu nguồn; tuổi, số đo, mặt và mã màu là quyết định mỹ thuật, không khẳng định chính sử.",
+      "status": "DESIGN_BASELINE",
+      "user_approved": false
+    },
+    {
+      "id": "NV39",
+      "name": "Tiên Dung",
+      "board": "CHAR17",
+      "design_age": "24",
+      "design_height_cm": 160,
+      "face": "Mặt tròn dịu, tóc búi trâm lá, khác Ngọc Hoa",
+      "palette": "hồng đất #BD837A / kem #E7D8BD",
+      "silhouette": "Công chúa trong lời kể gia phả, không thêm cảnh tình cảm ngoài phạm vi",
+      "costumes": "Áo váy hồng đất cổ tích kín đáo",
+      "props": [
+        "P27"
+      ],
+      "pages": "Chỉ nhắc trong nguồn",
+      "source": "Scan PDF08/sách219",
+      "source_vs_design": "Tên/vai trò đối chiếu nguồn; tuổi, số đo, mặt và mã màu là quyết định mỹ thuật, không khẳng định chính sử.",
+      "status": "DESIGN_BASELINE",
+      "user_approved": false
+    },
+    {
+      "id": "NV40",
+      "name": "Chử Đồng Tử",
+      "board": "CHAR17",
+      "design_age": "26",
+      "design_height_cm": 174,
+      "face": "Mặt dài hiền, tóc đen buộc gọn, da rám",
+      "palette": "nâu #8F7155 / kem #DDD0B8",
+      "silhouette": "Nhân vật huyền tích được nhắc",
+      "costumes": "Áo vải nâu-kem đầy đủ, thắt lưng vải; không thêm tình tiết",
+      "props": [
+        "P15"
+      ],
+      "pages": "Chỉ nhắc trong nguồn",
+      "source": "Scan PDF08/sách219",
+      "source_vs_design": "Tên/vai trò đối chiếu nguồn; tuổi, số đo, mặt và mã màu là quyết định mỹ thuật, không khẳng định chính sử.",
+      "status": "DESIGN_BASELINE",
+      "user_approved": false
+    },
+    {
+      "id": "NV41",
+      "name": "Lão Dương công",
+      "board": "CHAR17",
+      "design_age": "65",
+      "design_height_cm": 176,
+      "face": "Mặt vuông dài tương tự Thi Sách nhưng già, râu bạc ngắn dày",
+      "palette": "tía trầm #604056 / đồng #AA7B3C",
+      "silhouette": "Cha Thi Sách đã mất trước mạch truyện; chỉ hồi tưởng/ảnh thờ",
+      "costumes": "Áo lễ Lạc Hầu tía, tuyệt đối không xuất hiện sống ở trận Chu Diên",
+      "props": [
+        "P07"
+      ],
+      "pages": "Chỉ hồi tưởng trong nguồn",
+      "source": "Scan PDF03-05/sách214-216",
+      "source_vs_design": "Tên/vai trò đối chiếu nguồn; tuổi, số đo, mặt và mã màu là quyết định mỹ thuật, không khẳng định chính sử.",
+      "status": "DESIGN_BASELINE",
+      "user_approved": false
+    }
+  ],
+  "environments": [
+    {
+      "id": "E01",
+      "name": "Phong Châu / Bạch Hạc",
+      "board": "ENV01",
+      "pages": "01-02",
+      "spec": "Đồi xanh, ngã ba sông, sàn gỗ mái tranh, cột gỗ; đại cảnh nắng vàng; không cung điện bê tông",
+      "source": "PDF06-10"
+    },
+    {
+      "id": "E02",
+      "name": "Sân nhà Đông An",
+      "board": "ENV01",
+      "pages": "01",
+      "spec": "Nhà thầy thuốc mái tranh thấp, sân đất, chum nước bên trái cửa, cây cau sau nhà; đêm trăng vàng",
+      "source": "PDF06-07"
+    },
+    {
+      "id": "E03",
+      "name": "Lầu kén rể / Lăng Sương huyền tích",
+      "board": "ENV01",
+      "pages": "02",
+      "spec": "Lầu gỗ cao, lan can chạm giản dị, núi xa và mây; thiết kế cổ tích, không nhận là phục dựng",
+      "source": "PDF07-08"
+    },
+    {
+      "id": "E04",
+      "name": "Phủ Tô Định / Luy Lâu",
+      "board": "ENV02",
+      "pages": "03,15",
+      "spec": "Cột gỗ tối, rèm đỏ rượu, bàn thấp giữa, ngọn đèn dầu trái bàn, ngục và cổng đá màu xám",
+      "source": "PDF01-03,35-38"
+    },
+    {
+      "id": "E05",
+      "name": "Sảnh và sân Chu Diên",
+      "board": "ENV02",
+      "pages": "04-09",
+      "spec": "Sảnh gỗ hướng sân rộng, án thư cạnh cửa sổ, cổng đối diện sảnh, vườn nhãn bên phải sảnh, thềm đá ba bậc",
+      "source": "PDF03-23"
+    },
+    {
+      "id": "E06",
+      "name": "Cổng Bắc Luy Lâu / pháp trường",
+      "board": "ENV02",
+      "pages": "11",
+      "spec": "Cổng lớn cùng kiến trúc Luy Lâu, sàn gỗ và hai cột gỗ, sương bình minh; không bêu xác trong bảng mẫu",
+      "source": "PDF26-29"
+    },
+    {
+      "id": "E07",
+      "name": "Cổ Lôi sơn trang",
+      "board": "ENV03",
+      "pages": "10,12-14",
+      "spec": "Sơn trang gỗ ẩn rừng, sảnh lớn nhìn ra sân trống, bến nhỏ cạnh sườn đồi, đuốc đêm và cửa mở đông sáng",
+      "source": "PDF24-34"
+    },
+    {
+      "id": "E08",
+      "name": "Đàn thề Hát Môn",
+      "board": "ENV03",
+      "pages": "16-18,bìa",
+      "spec": "Đàn đất nện ba cấp là lựa chọn tạo hình; 99 cờ tổng thể, lư đồng giữa bàn, linh vị ở sau; voi xám ngà trắng",
+      "source": "PDF39-42"
+    },
+    {
+      "id": "E09",
+      "name": "Cửa biển Đằng Giang",
+      "board": "ENV03",
+      "pages": "19",
+      "spec": "Vách đá ướt dốc, huyết sâm trong khe, biển xanh xám, chớp trên mây; hồi ức biểu tượng",
+      "source": "PDF43"
+    },
+    {
+      "id": "E10",
+      "name": "Nhà gỗ Nguyễn Huyền / Phượng Hoàng",
+      "board": "ENV04",
+      "pages": "20-21,23,25-26",
+      "spec": "Nhà trung tâm cao, hai chái thấp, cửa lớn nhìn sân, đường núi sau nhà, đường bến sông bên trái; giữ bản đồ sân này",
+      "source": "PDF42-58"
+    },
+    {
+      "id": "E11",
+      "name": "Khe Mãng Xà",
+      "board": "ENV04",
+      "pages": "21,24",
+      "spec": "Khe hẹp hai vách đá có cây, lối vào cong chữ S, hai gờ phục kích; phương hướng là sơ đồ nội bộ không phải bản đồ địa lý",
+      "source": "PDF48-56"
+    },
+    {
+      "id": "E12",
+      "name": "Bến Lục Đầu Giang",
+      "board": "ENV04",
+      "pages": "22,24",
+      "spec": "Bãi lau và bến đất thấp, sông rộng, sương sáng, núi hậu cảnh; thuyền mũi cong giống PROP03",
+      "source": "PDF46-56"
+    }
+  ],
+  "props": [
+    {
+      "id": "P01",
+      "name": "Kiếm chỉ huy Trưng Trắc",
+      "board": "PROP01",
+      "owners": "NV01",
+      "spec": "Kiếm đồng thẳng, sống giữa, chuôi quấn nâu, chắn tay ngắn; dài thiết kế 90cm; không katana"
+    },
+    {
+      "id": "P02",
+      "name": "Hịch thẻ tre",
+      "board": "PROP02",
+      "owners": "NV01",
+      "spec": "Thẻ tre bản đều, hai dây buộc đen, cuộn vừa bàn tay; bề mặt trống khi sinh ảnh; chữ ghép riêng"
+    },
+    {
+      "id": "P03",
+      "name": "Song kiếm Trưng Nhị",
+      "board": "PROP01",
+      "owners": "NV02",
+      "spec": "Cặp kiếm đồng thẳng cùng chuôi lam sẫm, không đổi thành kiếm cong"
+    },
+    {
+      "id": "P04",
+      "name": "Cung và tên",
+      "board": "PROP01",
+      "owners": "NV02 NV19 NV30 NV37",
+      "spec": "Cung sừng/gỗ, dây rõ, mỗi lần lên dây một mũi trừ khi kịch bản có căn cứ; lông tên nâu-trắng"
+    },
+    {
+      "id": "P05",
+      "name": "Thương bọc da hổ",
+      "board": "PROP01",
+      "owners": "NV03",
+      "spec": "Cán gỗ dài thiết kế 220cm, đoạn cầm bọc da hổ nâu, mũi lá đồng; không bọc toàn cán bằng kim loại"
+    },
+    {
+      "id": "P06",
+      "name": "Kiếm Dương thị",
+      "board": "PROP01",
+      "owners": "NV03 NV33",
+      "spec": "Kiếm thẳng chuôi đồng có vòng tròn đốc; bản của họ Hoàng giản dị hơn, không sao chép huy hiệu Thi Sách"
+    },
+    {
+      "id": "P07",
+      "name": "Hổ phù lễ phục Lạc Hầu",
+      "board": "PROP02",
+      "owners": "NV03 NV41",
+      "spec": "Huy hiệu hổ đồng vàng gắn ngực, tách biệt hổ phù điều binh cầm tay của Tô Định"
+    },
+    {
+      "id": "P08",
+      "name": "Cung tên gia bảo Thi Sách",
+      "board": "PROP01",
+      "owners": "NV03",
+      "spec": "Cung nâu có khớp đồng, ống tên tối; bắn mười phát liên tiếp, không ba mũi đồng thời"
+    },
+    {
+      "id": "P09",
+      "name": "Trường kiếm Thánh Thiên",
+      "board": "PROP01",
+      "owners": "NV04",
+      "spec": "Kiếm thẳng vừa người, chuôi lục đen, bao da đeo lưng khi chưa rút"
+    },
+    {
+      "id": "P10",
+      "name": "Giày da báo / khăn tang",
+      "board": "PROP01",
+      "owners": "NV04",
+      "spec": "Giày đốm tự nhiên nhỏ, không ủng thời trang cao gót; khăn trắng dài gọn, không biến thành mũ miện"
+    },
+    {
+      "id": "P11",
+      "name": "Đại đao Đinh Lương",
+      "board": "PROP03",
+      "owners": "NV05",
+      "spec": "Đao bản rộng cán dài, thiết kế 170cm; cầm hai tay khi phát lực"
+    },
+    {
+      "id": "P12",
+      "name": "Kiếm Phùng Thị Chính / Lê Chân",
+      "board": "PROP03",
+      "owners": "NV06 NV38",
+      "spec": "Kiếm thẳng chuôi nâu, bao da, mỗi người phụ kiện riêng màu áo; không dùng huy hiệu chủ soái"
+    },
+    {
+      "id": "P13",
+      "name": "Túi thuốc và giỏ dược",
+      "board": "PROP03",
+      "owners": "NV07 NV21 NV22",
+      "spec": "Túi vải sợi thô, gói lá thuốc, giỏ tre; không lọ nhựa/nhãn dược hiện đại"
+    },
+    {
+      "id": "P14",
+      "name": "Cột gỗ / dây trói sân",
+      "board": "PROP03",
+      "owners": "NV08 NV07 NV17 NV20",
+      "spec": "Gỗ thô và dây thực vật, cảnh11 hai cột, cảnh26 năm cột cho năm tù binh; không minh họa thương tích chi tiết"
+    },
+    {
+      "id": "P15",
+      "name": "Gậy gỗ / giáo đơn giản",
+      "board": "PROP03",
+      "owners": "NV09 NV34 NV40",
+      "spec": "Gậy mộc nâu có nút tự nhiên; không phát hào quang hoặc khắc chữ khi sinh ảnh"
+    },
+    {
+      "id": "P16",
+      "name": "Bộ thẻ tre chiến lược / bút",
+      "board": "PROP03",
+      "owners": "NV10 NV26 NV35",
+      "spec": "Thẻ tre nhỏ, bút lông, nghiên gốm; hoàn toàn trống chữ ở ảnh nền"
+    },
+    {
+      "id": "P17",
+      "name": "Ống trúc mật thư",
+      "board": "PROP02",
+      "owners": "NV11",
+      "spec": "Ống tre nhỏ buộc dây, nắp gỗ; không có chữ sinh bởi AI"
+    },
+    {
+      "id": "P18",
+      "name": "Giáo / thương quân đội",
+      "board": "PROP03",
+      "owners": "NV12 NV25 NV27 NV36",
+      "spec": "Cán nâu, mũi sắt/đồng theo phe; không toàn bộ giống thương da hổ"
+    },
+    {
+      "id": "P19",
+      "name": "Phất trần Phạm Danh Hương",
+      "board": "PROP02",
+      "owners": "NV13",
+      "spec": "Cán gỗ sẫm, sợi trắng mềm, dài vừa cẳng tay; không giống vũ khí game"
+    },
+    {
+      "id": "P20",
+      "name": "Đỉnh đồng lực sĩ",
+      "board": "PROP02",
+      "owners": "NV14",
+      "spec": "Đỉnh ba chân lớn, hai quai, thân đồng nâu vàng; tỷ lệ lớn hơn ngực lực sĩ; không lư có nắp"
+    },
+    {
+      "id": "P21",
+      "name": "Trượng Tản Viên",
+      "board": "PROP02",
+      "owners": "NV15",
+      "spec": "Gỗ cong giản dị chạm núi, đầu đồng lam; phép thuật biểu đạt mây núi, không pha lê fantasy"
+    },
+    {
+      "id": "P22",
+      "name": "Hổ phù điều binh Tô Định",
+      "board": "PROP02",
+      "owners": "NV16",
+      "spec": "Hổ đồng tối cầm tay, đường ghép hai nửa, khác huy hiệu trước ngực Thi Sách"
+    },
+    {
+      "id": "P23",
+      "name": "Đao / dao quân Hán",
+      "board": "PROP03",
+      "owners": "NV17 NV28 NV32",
+      "spec": "Lưỡi sắt xám, chuôi gỗ tối; không có hoa văn trống đồng"
+    },
+    {
+      "id": "P24",
+      "name": "Thương sắt và bốn dao Lữ Thạch",
+      "board": "PROP01",
+      "owners": "NV18 NV29",
+      "spec": "Thương sắt tối; riêng Lữ Thạch có đúng bốn dao nhỏ gài giáp, không thêm hàng dao vô hạn"
+    },
+    {
+      "id": "P25",
+      "name": "Ấn quan Lục Hiến",
+      "board": "PROP02",
+      "owners": "NV20",
+      "spec": "Ấn nhỏ đặt trong túi vải nâu, mặt ấn trống khi sinh ảnh; không tự viết Hán tự"
+    },
+    {
+      "id": "P26",
+      "name": "Mũ Hùng Vương",
+      "board": "PROP02",
+      "owners": "NV23",
+      "spec": "Dải đồng mặt trời, lông vàng dựng, thấp hơn mũ Trưng Trắc; không sao chép mũ mẫu An Dương Vương"
+    },
+    {
+      "id": "P27",
+      "name": "Trâm / vòng đồng",
+      "board": "PROP03",
+      "owners": "NV24 NV39",
+      "spec": "Trâm hoa/lá, vòng đồng mảnh, khác mẫu từng người; không đá quý cỡ lớn"
+    },
+    {
+      "id": "P28",
+      "name": "Nỏ ngắn phường săn",
+      "board": "PROP01",
+      "owners": "NV31",
+      "spec": "Nỏ gỗ nhỏ, một dây kéo đúng cơ chế, ống tên ngắn; khác cung gia bảo"
+    },
+    {
+      "id": "P29",
+      "name": "Lư hương đồng và linh vị",
+      "board": "PROP02",
+      "owners": "E08",
+      "spec": "Lư có nắp/ba chân, hai quai vừa; phía sau ba bài vị Vua Hùng, Trưng Định, Thi Sách; chữ ghép riêng"
+    },
+    {
+      "id": "P30",
+      "name": "Trống đồng",
+      "board": "PROP02",
+      "owners": "E07 E08",
+      "spec": "Mặt sao nhiều tia và vòng hoa văn chim Lạc; không gắn đinh hiện đại; 17 trống ở Cổ Lôi theo kịch bản"
+    },
+    {
+      "id": "P31",
+      "name": "Cờ ngũ sắc / lọng",
+      "board": "PROP02",
+      "owners": "E08",
+      "spec": "Năm màu đỏ-vàng-lam-trắng-lục, không sao vàng trên nền đỏ kiểu quốc kỳ hiện đại; 99 là tổng đại cảnh"
+    },
+    {
+      "id": "P32",
+      "name": "Sa bàn đất dẻo",
+      "board": "PROP03",
+      "owners": "E10",
+      "spec": "Bàn gỗ thấp, đất nâu đắp núi và rãnh sông, que chỉ nhỏ; không bản đồ chữ hay tòa nhà hiện đại"
+    },
+    {
+      "id": "P33",
+      "name": "Khinh thuyền / thương thuyền",
+      "board": "PROP04",
+      "owners": "E08 E12",
+      "spec": "Thuyền gỗ mũi cong, mái chèo đối xứng, không máy; thuyền quân Hán cờ tối, nghĩa quân cờ ngũ sắc; 30 địch, 160 nghĩa ở đại cảnh"
+    },
+    {
+      "id": "P34",
+      "name": "Yên ngựa / bành voi",
+      "board": "PROP04",
+      "owners": "A01 A04",
+      "spec": "Dây da nâu, đệm vải, bành gỗ/tre đơn giản; không xe tăng giáp voi fantasy"
+    },
+    {
+      "id": "P35",
+      "name": "Đuốc / đèn dầu / bình gốm",
+      "board": "PROP04",
+      "owners": "E04 E05 E07",
+      "spec": "Đuốc gỗ quấn vải, đèn dầu đất nung, chum gốm nâu; không đèn kính hiện đại"
+    },
+    {
+      "id": "P36",
+      "name": "Huyết sâm / biểu tượng rồng-khổng tước",
+      "board": "PROP04",
+      "owners": "E02 E09",
+      "spec": "Rễ cây đỏ thẫm trong khe đá; rồng vàng hóa đôi khổng tước trong mộng, không đảo chiều; là huyền tích"
+    }
+  ],
+  "animals": [
+    {
+      "id": "A01",
+      "name": "Hắc mã Thi Sách",
+      "spec": "đen tuyền, bờm đen, không đốm trắng trên trán",
+      "owner": "NV03"
+    },
+    {
+      "id": "A02",
+      "name": "Bồ câu mật thư",
+      "spec": "trắng ngà, mỏ xám, túi thư nhỏ buộc chân",
+      "owner": "trang05"
+    },
+    {
+      "id": "A03",
+      "name": "Chim ưng Lê Đạo",
+      "spec": "đen nâu, mỏ cong, mắt vàng nâu, không đổi thành đại bàng trắng",
+      "owner": "NV11"
+    },
+    {
+      "id": "A04",
+      "name": "Voi chiến",
+      "spec": "da xám nếp gấp, ngà trắng, bành gỗ đơn giản; tám voi đực ở đàn Hát Môn theo scan",
+      "owner": "trang16-18,27 mở rộng"
+    }
+  ]
+}
