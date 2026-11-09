@@ -16,3 +16,7 @@ Mốc 09/11/2026 sau hợp nhất main. Tiến độ về sau lấy từ `produc
 Bước tiếp theo: `python scripts/workflow.py packet PAGE01_TEXT`. Mở brief và đối chiếu scan PDF 06–07. Sau khi khóa chữ một trang có thể đi tiếp ART → LAYOUT → QA hoặc chuyển sang việc độc lập nếu thiếu công cụ.
 
 Lời dẫn trang 06/12/16/17/19/20/24/25/26/27/28 vượt 65 tiếng ở mốc này. Số đếm dựa trên khoảng trắng, không phải tách từ theo ngôn ngữ học. Tiêu đề ghi “52 từ” trong tài liệu cũ không thay số đếm thực. Các câu tuyệt đối như “vĩ đại nhất” cũng cần đối chiếu và tiết chế trong bước TEXT.
+
+## Cập nhật CI ngày 09/11/2026
+
+CI đã chạy thực và đạt: [GitHub Actions run 42610672432](https://github.com/huyhandsome6996/trung-nu-vuong-19x24-multi-agent/actions/runs/42610672432). Xem [báo cáo kích hoạt](reports/CI_ACTIVATION_2026-11-09.md). Giới hạn quyền workflow ở phiên trước đã được giải quyết; tiến độ sản xuất sách giữ nguyên.

@@ -87,3 +87,8 @@ timezone: "Asia/Ho_Chi_Minh"
 - Chủ dự án cấp thông tin xác thực mới để xử lý giới hạn quyền workflow ở phiên trước. Chỉ dùng xác thực tạm trong tiến trình; không lưu token vào repo/remote/log.
 - Đưa cấu hình đã chuẩn bị vào .github/workflows/validate-main.yml, cập nhật tài liệu vận hành và liên kết kết quả chạy. Workflow có quyền contents:read, chạy Python3.11, cài Pillow, chạy8tests và check_repo khi push main hoặc workflow_dispatch; không tự gọiAI hay ghi repo.
 - Báo cáo trước về thiếu quyền là lịch sử ở thời điểm đó. Kết quả chạy mới được ghi sau khi kiểm Actions thực tế; không suy thành công chỉ từ việc push file YAML.
+
+### CI-004: kết quả đã xác nhận
+
+- GitHub Actions thực chạy thành công cho commit `583590432e22a1e47510be78dc66c935bb81bda2`: [run 42610672432](https://github.com/huyhandsome6996/trung-nu-vuong-19x24-multi-agent/actions/runs/42610672432). Đã chạy cài dependency, 8 unit tests và check_repo trên runner GitHub; không chỉ kiểm local.
+- Thông tin xác thực mới giải quyết giới hạn workflow trước đây. CI có hiệu lực trên main; token chỉ dùng tạm khi push và đọc trạng thái, không lưu trong file dự án.
