@@ -41,4 +41,4 @@ date: "2026-11-09"
 | 25 | B | NV04, NV17, NV20, NV32, NV33 | E10 | P28 | Khép vòng vây |
 | 26 | A | NV04, NV17, NV20 | E10 | P09, P14 | Năm tù binh gồm ba tướng phụ không tên; không tự nhận họ là Sầm Lân/Bá/Tấn |
 | 27 | A | NV01, NV02, NV04, NV06, NV16 | E04 | P31, P34 | Mở rộng: cần nguồn kết; voi xám |
-| 28 | A | NV01, NV02, NV04 | E01 | P26 | Mở rộng: E13/E14 chưa khóa địa điểm thật; hồn Thi Sách không hiện như người sống |
+| 28 | A | NV01, NV02, NV04 | E13, E14 | P26 | Mở rộng: E13/E14 chưa khóa địa điểm thật; hồn Thi Sách không hiện như người sống |

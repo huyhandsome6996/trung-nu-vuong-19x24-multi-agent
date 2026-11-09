@@ -1,0 +1,17 @@
+{
+  "id": "TURN01",
+  "version": "v001",
+  "status": "DESIGN_BASELINE",
+  "user_approved": false,
+  "file": "assets_generated/design_system/TURN01_v001.png",
+  "width": 1536,
+  "height": 1024,
+  "sha256": "a26dfc64a9fc7310c005f5cab4886d8c158ac4a95de2cf0106838a37bd911aaa",
+  "positions": "Hàng trên: trước/nghiêng/sau; dưới: bình tĩnh/buồn/hiệu lệnh/thắng lợi",
+  "reference_paths": [
+    "assets_generated/characters/CHAR_01_Trung_Trac_v001.png"
+  ],
+  "prompt": "09_design_system/prompts/TURN01.md",
+  "generation_method": "built-in image_gen",
+  "print_ready": false
+}

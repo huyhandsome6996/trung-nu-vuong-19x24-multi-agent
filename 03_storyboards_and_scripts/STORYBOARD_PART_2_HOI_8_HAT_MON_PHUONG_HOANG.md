@@ -38,7 +38,7 @@
 - **Bóng Thoại (Speech Bubble):** Không có.
 - **Mô tả Khung hình (Visual Composition):**
   - *Khung trên:* Cận cảnh trang nghiêm chiếc lư hương đồng chạm khắc tinh xảo tỏa khói hương quyện thành hình chim Lạc và bóng dáng tiên tổ Hùng Vương trên nền trời, phía sau là bài vị vàng *"Hùng Vương Quốc Chủ"* và hai bài vị mới ghi tên *Trưng Định – Thi Sách*.
-  - *Khung dưới:* Trong tiếng 9 hồi chiêng trống đồng vang rền, **Trưng Trắc** mặc giáp đồng và chiến bào đỏ son; **Trưng Nhị** mặc áo giáp nền lam sẫm viền đồng, điểm lụa đỏ; cả hai, đầu vấn khăn tang trắng kết hợp mũ kim khôi uy dũng bước lên bậc thềm kỳ đài.
+  - *Khung dưới:* Trong tiếng 9 hồi chiêng trống đồng vang rền, **Trưng Trắc** mặc giáp đồng và chiến bào đỏ son; **Trưng Nhị** mặc áo giáp nền lam sẫm viền đồng, điểm lụa đỏ; cả hai đều vấn khăn tang trắng kết hợp mũ kim khôi uy dũng bước lên bậc thềm kỳ đài.
 
 ---
 
@@ -159,7 +159,7 @@
   > Chiến thắng vang dội tại **núi Phượng Hoàng** đã mở thông đường thủy bộ từ **Lục Đầu Giang** về hội quân cùng đại bản doanh **Hát Môn**. Dưới ngọn cờ đại nghĩa của **Hai Bà Trưng** và các nữ tướng anh hùng như **Thánh Thiên, Phùng Thị Chính**, nghĩa quân Lạc Việt tiến như vũ bão, **đánh chiếm thành Luy Lâu** khiến **Tô Định** phải tháo chạy về phương Bắc!
 - **Bóng Thoại (Speech Bubble):** Không có.
 - **Mô tả Khung hình (Visual Composition):**
-  - Đại cảnh toàn trang rực rỡ sắc đỏ – vàng kim: **Hai Bà Trưng (Trưng Trắc – Trưng Nhị)** cưỡi trên lưng hai thớt voi chiến trắng ngà khổng lồ, sát cánh bên cạnh là nữ tướng **Thánh Thiên** cưỡi chiến mã và **Phùng Thị Chính**, phía sau là hàng vạn nghĩa quân giương cờ ngũ sắc tràn qua cổng thành Luy Lâu đang mở toang.
+  - Đại cảnh toàn trang rực rỡ sắc đỏ – vàng kim: **Hai Bà Trưng (Trưng Trắc – Trưng Nhị)** cưỡi trên lưng hai thớt voi chiến da xám, ngà trắng khổng lồ, sát cánh bên cạnh là nữ tướng **Thánh Thiên** cưỡi chiến mã và **Phùng Thị Chính**, phía sau là hàng vạn nghĩa quân giương cờ ngũ sắc tràn qua cổng thành Luy Lâu đang mở toang.
 
 ---
 

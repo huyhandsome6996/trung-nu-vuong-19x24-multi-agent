@@ -1,0 +1,17 @@
+{
+  "id": "ENV05",
+  "version": "v001",
+  "status": "DESIGN_BASELINE",
+  "user_approved": false,
+  "file": "assets_generated/design_system/ENV05_v001.png",
+  "width": 1536,
+  "height": 1024,
+  "sha256": "2e4d8dadd12e117bcf858886d058c8258b2661f7f0fac51b7d655204bee2ad97",
+  "positions": "Trên E13; dưới E14 (công trình hư cấu cho concept)",
+  "reference_paths": [
+    "assets_generated/characters/CHAR_01_Trung_Trac_v001.png"
+  ],
+  "prompt": "09_design_system/prompts/ENV05.md",
+  "generation_method": "built-in image_gen",
+  "print_ready": false
+}

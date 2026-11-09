@@ -1,0 +1,17 @@
+{
+  "id": "CHAR11",
+  "version": "v001",
+  "status": "DESIGN_BASELINE",
+  "user_approved": false,
+  "file": "assets_generated/design_system/CHAR11_v001.png",
+  "width": 1536,
+  "height": 1024,
+  "sha256": "ff898f586e0b7e5b2f12b0dcc0423ee623a5819c154c7b8ca6152eb80d3bb098",
+  "positions": "Trái NV19; phải NV20",
+  "reference_paths": [
+    "assets_generated/characters/CHAR_01_Trung_Trac_v001.png"
+  ],
+  "prompt": "09_design_system/prompts/CHAR11.md",
+  "generation_method": "built-in image_gen",
+  "print_ready": false
+}

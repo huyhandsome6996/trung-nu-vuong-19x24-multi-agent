@@ -23,3 +23,15 @@ timezone: "Asia/Ho_Chi_Minh"
 | D-007 | Chủ dự án yêu cầu bắt đầu sau onboarding. Chọn bước đầu có thể duyệt độc lập theo thứ tự character-first: Trưng Trắc với hai giai đoạn phục trang. | Đã sinh v001 và ghi IN_REVIEW; chưa coi lệnh bắt đầu là phê duyệt ngoại hình. | Đã tạo, chờ duyệt ảnh. |
 
 Khi thay quyết định: ghi mã mới, ngày, người quyết định, tài liệu/ảnh ảnh hưởng và quyết định nào được thay thế. Không ghi một đề xuất thành quyết định chủ dự án đã phê duyệt.
+
+## D-008 — Ủy nhiệm thiết kế tổng thể
+
+Ngày09/11/2026 chủ dự án muốn agent chủ động thiết kế đầy đủ và bàn giao cho agent sau, không yêu cầu họ tự đọc truyện rồi quyết từng chi tiết. Chọn bộ30 bảngv1 làm DESIGN_BASELINE; tách trạng thái này với phê duyệt từng ảnh và trạng thái file in. Mở rộng10 bảng casting ban đầu lên17 để bao phủ các vai thiếu;24 mã mặt tập thể lưu riêng, không đổi thành tên nhân vật bịa thêm.
+
+## D-009 — Chỉnh theo bằng chứng và kiểm hình
+
+Dùng scan để sửa giới tính Đô sư phụ, số voi, chiều hóa rồng/khổng tước và mười phát tên. Dùng ảnh sinh thực tế để cập nhật màu khăn tộc trưởng, không giả định prompt đã được tuân thủ hoàn toàn. Hai bản đạo cụv002 thay bảnv001, giữ v001 trong repo để truy vết.
+
+## D-010 — Phần kết và trang trí
+
+E13/E14 được thiết kế như concept kết mở rộng; không tự khẳng định một ngôi đền hư cấu là đền thật. Giữ tọa độ mép giấy cổ như trang trí, chữ nằm trong vùng an toàn riêng. Nguồn phần kết và thông số nhà in phải kiểm ở bước xuất sách.

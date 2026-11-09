@@ -52,3 +52,14 @@ timezone: "Asia/Ho_Chi_Minh"
 - **Bản chuẩn sử dụng:** DESIGN_BASELINE để agent tiếp tục bản nháp nhất quán; chưa tự ghi chủ dự án duyệt từng ảnh hoặc ảnh in300DPI.
 - **Kiểm:** validator kiểm ID, liên kết, file, kích thước/hash; `git diff --check`. Kết quả thị giác và giới hạn sẽ ghi riêng ở QA_DESIGN_REPORT khi đóng bộ.
 - **Giới hạn còn lại:** biên tập lời dẫn dài, nguồn phần kết27–28, địa điểm đền, font/ICC/gáy in thuộc bước dựng sách tiếp theo.
+
+### DESIGN-002 — Đóng bộ v1
+
+- Hoàn thành30 bảng hiện hành:17 casting cho41 hồ sơ,1 turnaround,5 bối cảnh,4 đạo cụ,1 quân đội,1 động vật,1 bộ24 mặt tập thể.
+- Đã thêm E13/E14 để trang28 có concept nền riêng; E14 là công trình tưởng niệm biểu tượng, không dùng làm ảnh xác minh một di tích thật.
+- Sửa ảnh có mục tiêu: PROP04 v001→v002 (bỏ đèn kính/chi tiết yên ngoài thiết kế); PROP03 v001→v002 (huyết sâm đỏ đồng nhất). Giữ ảnh cũ, đánh SUPERSEDED và cập nhật album.
+- Registry có41 người,24 mã tộc trưởng tập thể,14 cảnh,36 nhóm đạo cụ,4 động vật. Ma trận bao phủ28 trang; chưa sinh trang truyện.
+- Mỗi ảnh mới có prompt, reference_paths thực tế, metadata kích thước/hash. Album30 preview nhẹ, bấm mở gốc; có HTML tìm theo tên/mã và nhóm; không dùng thư viện ngoài.
+- Đã xem các bảng hình và khuôn SVG; chạy validator và kiểm link/file/hash. HTML chưa kiểm thị giác Chromium do thiếu binary, đã kiểm asset/cú pháp.
+- Tiếp nhận từ `09_design_system/00_READ_FIRST.md` → SOURCE_DECISIONS → IMAGE_CATALOG → PAGE_ASSET_MATRIX → AGENT_HANDOFF. Chuẩn v1 dùng làm bản nháp theo ủy nhiệm, không tự ghi chủ dự án duyệt từng ảnh.
+- Git: checkpoint đầu `00b65f2`; bản đóng bộ có commit tiếp theo trên `agent-04/art-assets-part-1`. Xem git log/remote để xác nhận SHA, không nhúng SHA của chính file này vào cùng commit.

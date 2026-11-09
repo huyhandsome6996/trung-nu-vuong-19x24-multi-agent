@@ -15,10 +15,18 @@ for key in ['characters','environments','props','animals']:
     ids=[x['id'] for x in reg[key]]
     check(len(ids)==len(set(ids)),f'duplicate IDs: {key}')
 cids={x['id'] for x in reg['characters']};eids={x['id'] for x in reg['environments']};pids={x['id'] for x in reg['props']};aids={x['id'] for x in reg['animals']}
+job_ids={j['id'] for j in jobs}
+check(len(job_ids)==len(jobs),'duplicate image job IDs')
+crowd=json.loads((D/'crowd_registry.json').read_text())
+check(len(crowd)==24 and len({c['id'] for c in crowd})==24,'expected 24 unique collective faces')
+check(len({(c['row'],c['column']) for c in crowd})==24,'duplicate face cell')
+for c in crowd:check(1<=c['row']<=4 and 1<=c['column']<=6,'face cell outside grid')
 check(len(cids)==41,'expected 41 character profiles')
 for c in reg['characters']:
     check((D/'characters'/f"{c['id']}.md").exists(),f"missing profile {c['id']}")
     check(set(c['props'])<=pids|aids,f"unknown prop for {c['id']}")
+    check(c['board']=='CHAR01' or c['board'] in job_ids,f"unknown casting board {c['id']}")
+for e in reg['environments']:check(e['board'] in job_ids,f"missing environment board {e['id']}")
 check([p['page'] for p in pages]==list(range(1,29)),'page range')
 for p in pages:
     for field,allowed in [('characters',cids),('environments',eids),('props',pids)]:
@@ -36,6 +44,8 @@ for j in jobs:
                 check(size==(meta['width'],meta['height']),f"wrong dimensions {j['id']}")
                 check(hashlib.sha256(path.read_bytes()).hexdigest()==meta['sha256'],f"hash mismatch {j['id']}")
                 check(meta['print_ready'] is False,f"concept mislabelled print-ready {j['id']}")
+                check(meta['version']==path.stem.rsplit('_',1)[-1],f"wrong version metadata {j['id']}")
+                check(meta['user_approved'] is False,f"unrecorded user approval {j['id']}")
             except Exception as e:errors.append(f"asset error {j['id']}: {e}")
 for path in D.rglob('*.svg'):
     try:ElementTree.parse(path)

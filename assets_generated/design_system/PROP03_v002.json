@@ -1,0 +1,17 @@
+{
+  "id": "PROP03",
+  "version": "v002",
+  "status": "DESIGN_BASELINE",
+  "user_approved": false,
+  "file": "assets_generated/design_system/PROP03_v002.png",
+  "width": 1536,
+  "height": 1024,
+  "sha256": "bbe1fda90f147b08edfcffb67ddb2b263e0c3cda760b72d194432a312265200a",
+  "positions": "4x3 cells, left-to-right row-major",
+  "reference_paths": [
+    "assets_generated/design_system/PROP03_v001.png"
+  ],
+  "prompt": "09_design_system/prompts/PROP03.md",
+  "generation_method": "built-in image_gen",
+  "print_ready": false
+}

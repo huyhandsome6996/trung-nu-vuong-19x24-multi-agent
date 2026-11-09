@@ -1,0 +1,19 @@
+{
+  "id": "PROP03",
+  "version": "v001",
+  "status": "SUPERSEDED",
+  "user_approved": false,
+  "file": "assets_generated/design_system/PROP03_v001.png",
+  "width": 1536,
+  "height": 1024,
+  "sha256": "fbc363c43fd149e933ed6323945d17ed12bfc4dd967149b6ddccfe15139ebf6b",
+  "positions": "4x3 cells, left-to-right row-major",
+  "reference_paths": [
+    "assets_generated/characters/CHAR_01_Trung_Trac_v001.png"
+  ],
+  "prompt": "09_design_system/prompts/PROP03.md",
+  "generation_method": "built-in image_gen",
+  "print_ready": false,
+  "superseded_by": "assets_generated/design_system/PROP03_v002.png",
+  "reason": "Đồng nhất màu huyết sâm đỏ trong bộ concept"
+}

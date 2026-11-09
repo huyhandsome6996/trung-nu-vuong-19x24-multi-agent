@@ -47,3 +47,27 @@ Bible hướng dẫn nhận diện; storyboard khóa cảnh/chữ; prompt điề
 ## 9. Tạo mẫu đầu để duyệt ngoại hình, giữ nguyên bản gốc
 
 **Đã làm:** sheet Trưng Trắc v001 chứa cùng một gương mặt ở tang bào và giáp chiến, tên file có phiên bản, prompt nguyên văn và JSON kèm hash. **Quan sát:** nét mực/chì lên rõ nhưng vùng trống 20% không được giữ toàn bề ngang vì mũ lông vũ. **Bài học:** bảng nhân vật và nền trang truyện có công năng khác nhau; không gọi sheet là trang in sẵn. Đo kích thước thực tế sau sinh, chờ chủ dự án duyệt rồi mới dùng làm tham chiếu. Không tự resize để tạo cảm giác đạt độ phân giải in.
+
+## 10. Một kiểu nét không có nghĩa một khuôn mặt
+
+Tạo cả dàn từ cùng ảnh Trưng Trắc giúp giữ chất liệu, nhưng dễ khiến nữ tướng giống nhau. Gán riêng dáng hàm, mày, tóc, độ tuổi, màu và đạo cụ; ghi tên/mã/vị trí trên bảng nhóm. Khi vẽ lại một người mới giữ mặt, khi vẽ người khác chỉ giữ phong cách. Không tuyên bố “đồng nhất100%” nếu chưa kiểm bản trang.
+
+## 11. Prompt không phải bằng chứng kiểm đạt
+
+Bảng phương tiện vẫn sinh đèn kính dù yêu cầu cổ xưa; huyết sâm ở một bảng ra màu vàng trong khi bối cảnh dùng đỏ. Phải xem ảnh, sửa đúng ô/vật và lưuv002, không đổi vài chữ prompt rồi báo ảnh đã sửa. Sau sửa cập nhật file hiện hành trong registry/catalog/metadata; giữ bản cũ và gắn SUPERSEDED.
+
+## 12. Bảng đông người cần khóa vị trí
+
+Bộ24 tộc trưởng dùng4hàng×6cột, mã ML01..ML17 rồi PH01..PH07. Cần tính đúng chỉ số: PH03 là người thứ20, hàng4/cột2. Đếm bằng lưới và xem ảnh; cập nhật màu khăn thực tế. Không chỉ dựa tên “họ Bạch/Khúc” vì các nhân vật khác nhau có thể cùng họ.
+
+## 13. Tách concept, bản trang và file in
+
+Bảng nhân vật/bối cảnh nhiều ô hữu ích để tham chiếu, không đủ điều kiện làm ngay trang in19×24. Lấy kích thước thật sau sinh; giữ hash bản gốc; chỉ tạo preview nhỏ để album tải nhanh. Khi làm trang phải sinh tranh riêng có khoảng trống đỉnh, rồi ghép chữ và kiểm kỹ thuật in thực tế.
+
+## 14. Tạo lối vào ngắn cho người không muốn đọc truyện
+
+Một album hình có tên, mã và vị trí, cộng bản tóm tắt2phút giúp chủ dự án đánh giá nhanh hơn hàng chục file mô tả. Agent vẫn có41 hồ sơ chi tiết, ma trận28trang, JSON và hướng dẫn. Không bắt chủ dự án trả lời lại thông tin vốn có trong nguồn.
+
+## 15. Kiểm toàn chuỗi tham chiếu sau khi sửa phiên bản
+
+Đổi filev002 phải đổi ảnh album, thumbnail, metadata, prompt sửa, trạng thái bản cũ và nguồn ảnh thực sự đã truyền. Validator kiểm ID/file/hash/phiên bản và link; không thay kiểm mắt. Khuôn SVG có thể render bằng Inkscape ngay cả khi runtime Python không có CairoSVG. Không báo đã kiểm Chromium khi máy không có browser binary.

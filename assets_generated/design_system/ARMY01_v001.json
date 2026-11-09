@@ -1,0 +1,17 @@
+{
+  "id": "ARMY01",
+  "version": "v001",
+  "status": "DESIGN_BASELINE",
+  "user_approved": false,
+  "file": "assets_generated/design_system/ARMY01_v001.png",
+  "width": 1536,
+  "height": 1024,
+  "sha256": "4f6b76dea97ac82cefce9338f51faaa00ee2501b3e63cb7197fb0ec4ef903ff7",
+  "positions": "Hàng1: bộ binh/cung thủ/thợ săn/thủy quân; hàng2: kỵ binh/Hán/dân/thân PH03",
+  "reference_paths": [
+    "assets_generated/characters/CHAR_01_Trung_Trac_v001.png"
+  ],
+  "prompt": "09_design_system/prompts/ARMY01.md",
+  "generation_method": "built-in image_gen",
+  "print_ready": false
+}

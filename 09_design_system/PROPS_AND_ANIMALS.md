@@ -18,7 +18,7 @@ date: "2026-11-09"
 | P02 | Hịch thẻ tre | PROP02 | NV01 | Thẻ tre bản đều, hai dây buộc đen, cuộn vừa bàn tay; bề mặt trống khi sinh ảnh; chữ ghép riêng |
 | P03 | Song kiếm Trưng Nhị | PROP01 | NV02 | Cặp kiếm đồng thẳng cùng chuôi lam sẫm, không đổi thành kiếm cong |
 | P04 | Cung và tên | PROP01 | NV02 NV19 NV30 NV37 | Cung sừng/gỗ, dây rõ, mỗi lần lên dây một mũi trừ khi kịch bản có căn cứ; lông tên nâu-trắng |
-| P05 | Thương bọc da hổ | PROP01 | NV03 | Cán gỗ dài thiết kế 220cm, đoạn cầm bọc da hổ nâu, mũi lá đồng; không bọc toàn cán bằng kim loại |
+| P05 | Thương bọc da hổ | PROP01 | NV03 | Cán gỗ dài thiết kế 220cm, đoạn da hổ ngắn dưới cổ mũi thương, mũi lá đồng; không bọc toàn cán bằng kim loại |
 | P06 | Kiếm Dương thị | PROP01 | NV03 NV33 | Kiếm thẳng chuôi đồng có vòng tròn đốc; bản của họ Hoàng giản dị hơn, không sao chép huy hiệu Thi Sách |
 | P07 | Hổ phù lễ phục Lạc Hầu | PROP02 | NV03 NV41 | Huy hiệu hổ đồng vàng gắn ngực, tách biệt hổ phù điều binh cầm tay của Tô Định |
 | P08 | Cung tên gia bảo Thi Sách | PROP01 | NV03 | Cung nâu có khớp đồng, ống tên tối; bắn mười phát liên tiếp, không ba mũi đồng thời |

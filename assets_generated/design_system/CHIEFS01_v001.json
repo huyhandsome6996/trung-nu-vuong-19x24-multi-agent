@@ -1,0 +1,18 @@
+{
+  "id": "CHIEFS01",
+  "version": "v001",
+  "status": "DESIGN_BASELINE",
+  "user_approved": false,
+  "file": "assets_generated/design_system/CHIEFS01_v001.png",
+  "width": 1536,
+  "height": 1024,
+  "sha256": "11cfde4cac7fc720bacefc2ac66b390eceeff13a15362f0d4696a8e915ef1f05",
+  "positions": "4 hàng x6 cột; ML01..ML17 rồi PH01..PH07; PH03 ô hàng4/cột2 ưu tiên ARMY01",
+  "reference_paths": [
+    "assets_generated/characters/CHAR_01_Trung_Trac_v001.png",
+    "assets_generated/design_system/ARMY01_v001.png"
+  ],
+  "prompt": "09_design_system/prompts/CHIEFS01.md",
+  "generation_method": "built-in image_gen",
+  "print_ready": false
+}

@@ -507,7 +507,8 @@
       "NV04"
     ],
     "environments": [
-      "E01"
+      "E13",
+      "E14"
     ],
     "props": [
       "P26"

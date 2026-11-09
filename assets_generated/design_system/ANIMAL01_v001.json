@@ -1,0 +1,17 @@
+{
+  "id": "ANIMAL01",
+  "version": "v001",
+  "status": "DESIGN_BASELINE",
+  "user_approved": false,
+  "file": "assets_generated/design_system/ANIMAL01_v001.png",
+  "width": 1536,
+  "height": 1024,
+  "sha256": "7dd2569d6c8bc3a6b78f11a588f82d2a26f7032b141fa702f9965240f6e28cf6",
+  "positions": "Trên trái A01; trên phải A02; dưới trái A03; dưới phải A04",
+  "reference_paths": [
+    "assets_generated/characters/CHAR_01_Trung_Trac_v001.png"
+  ],
+  "prompt": "09_design_system/prompts/ANIMAL01.md",
+  "generation_method": "built-in image_gen",
+  "print_ready": false
+}

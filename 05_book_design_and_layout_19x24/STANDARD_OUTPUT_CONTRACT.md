@@ -57,4 +57,8 @@ Bìa sau: lư hương đồng, 99 cờ ngũ sắc bên Nhị Hà, khung tóm t�
 - Dùng đúng file ảnh đã duyệt làm tham chiếu cho trang sau; ghi phiên bản và nguồn trong metadata, không chỉ dùng lại prompt chữ.
 - Đặt tên theo `06_qa_validation_and_delivery/GITHUB_COLLABORATION_PROTOCOL.md`.
 - Mỗi sản phẩm đi kèm trạng thái DRAFT/IN_REVIEW/READY_FOR_PRODUCTION/APPROVED, nguồn, prompt, tham chiếu, thông số và kiểm tra đã thực hiện. Chỉ đạt APPROVED sau kiểm cả nội dung, mỹ thuật và chế bản.
-- Tiến độ ngày 09/11/2026 sau lệnh bắt đầu: **1 bảng đã tạo (Trưng Trắc v001), 0 bảng đã duyệt, 0 trang truyện mới, 0 PDF in**. Bảng tham chiếu không áp dụng trực tiếp kích thước chế bản trang ruột; xem [tiến độ và ảnh](../assets_generated/characters/README.md).
+- Tiến độ sau nhiệm vụ thiết kế: **30 bảng hình hiện hành,17 bảng casting cho41 hồ sơ nhân vật; chưa dựng28 trang ruột hoặc PDF in**. Quy chuẩn nhân vật và layout hiện hành tại [Ngăn09](../09_design_system/00_READ_FIRST.md).
+
+- Ngoại lệ chế bản đã ghi cho chuẩn v1: mép giấy cổ giữ tọa độ gốc là trang trí; chữ trong X18..172/Y14..43mm. Dùng `09_design_system/layout_components/layout_tokens.json` và SOURCE_DECISIONS khi dựng.
+
+- Ngoại lệ chế bản đã ghi cho chuẩn v1: mép giấy cổ giữ tọa độ gốc là trang trí; chữ trong X18..172/Y14..43mm. Dùng `09_design_system/layout_components/layout_tokens.json` và SOURCE_DECISIONS khi dựng.

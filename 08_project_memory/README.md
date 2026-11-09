@@ -32,4 +32,4 @@ Ngăn vận hành bổ sung theo yêu cầu chủ dự án ngày 09/11/2026. Gi�
 
 ## Trạng thái tiếp tục
 
-**Đã hoàn tất onboarding và bắt đầu giai đoạn nhân vật.** Trưng Trắc v001 đã được tạo, đang chờ chủ dự án duyệt; tổng **1/10 bảng đã tạo, 0/10 đã duyệt**. Chưa dựng trang truyện. Xem [tiến độ nhân vật](../assets_generated/characters/README.md); các xung đột ảnh hưởng nhân vật khác phải được giải quyết trước khi khóa.
+**Đã hoàn tất onboarding và bộ thiết kế v1:** 30 bảng hình hiện hành,41 hồ sơ nhân vật,24 mặt tộc trưởng,14 bối cảnh,36 nhóm đạo cụ và4 động vật. Mở [Ngăn09](../09_design_system/00_READ_FIRST.md) và [album](../09_design_system/IMAGE_CATALOG.md). Chưa dựng28 trang truyện; dùng chuẩn v1 cho các bản nháp tiếp theo, giữ riêng trạng thái duyệt và trạng thái in.

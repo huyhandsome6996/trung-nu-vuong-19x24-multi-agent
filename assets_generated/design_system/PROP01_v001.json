@@ -1,0 +1,17 @@
+{
+  "id": "PROP01",
+  "version": "v001",
+  "status": "DESIGN_BASELINE",
+  "user_approved": false,
+  "file": "assets_generated/design_system/PROP01_v001.png",
+  "width": 1536,
+  "height": 1024,
+  "sha256": "8ac9a5f41d435726a72baf456d67dd3612cb3cd466e5f9b4f8f3794ee14f5a55",
+  "positions": "4x3 cells, left-to-right row-major; see mapping in catalog",
+  "reference_paths": [
+    "assets_generated/characters/CHAR_01_Trung_Trac_v001.png"
+  ],
+  "prompt": "09_design_system/prompts/PROP01.md",
+  "generation_method": "built-in image_gen",
+  "print_ready": false
+}

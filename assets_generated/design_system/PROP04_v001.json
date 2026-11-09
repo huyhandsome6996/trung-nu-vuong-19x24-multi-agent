@@ -1,0 +1,19 @@
+{
+  "id": "PROP04",
+  "version": "v001",
+  "status": "SUPERSEDED",
+  "user_approved": false,
+  "file": "assets_generated/design_system/PROP04_v001.png",
+  "width": 1536,
+  "height": 1024,
+  "sha256": "39c0e77f0dc1ec532b0cabf47741c53e6f94622701598052f3bb7992830c050b",
+  "positions": "2x3 cells, row-major",
+  "reference_paths": [
+    "assets_generated/characters/CHAR_01_Trung_Trac_v001.png"
+  ],
+  "prompt": "09_design_system/prompts/PROP04.md",
+  "generation_method": "built-in image_gen",
+  "print_ready": false,
+  "superseded_by": "assets_generated/design_system/PROP04_v002.png",
+  "reason": "Đèn kính và bàn đạp kim loại không theo thiết kế; dùng v002"
+}

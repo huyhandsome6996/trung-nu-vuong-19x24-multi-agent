@@ -887,6 +887,22 @@
       "pages": "22,24",
       "spec": "Bãi lau và bến đất thấp, sông rộng, sương sáng, núi hậu cảnh; thuyền mũi cong giống PROP03",
       "source": "PDF46-56"
+    },
+    {
+      "id": "E13",
+      "name": "Lễ đài Mê Linh — kết mở rộng",
+      "board": "ENV05",
+      "pages": "28",
+      "spec": "Sân lễ đài gỗ, dãy nhà mái tranh, cờ đỏ-lam, đồi và sông; thiết kế biểu tượng theo truyện, không phục dựng",
+      "source": "Storyboard28, ngoài phạm vi58 trang"
+    },
+    {
+      "id": "E14",
+      "name": "Không gian tưởng niệm biểu tượng",
+      "board": "ENV05",
+      "pages": "28",
+      "spec": "Sân đền mái ngói đỏ bên sông, cây xuân, lư đồng; công trình hư cấu cho concept, không gộp hai di tích thật Hát Môn/Mê Linh",
+      "source": "Storyboard28 mở rộng, cần xác minh khi chọn địa điểm thật"
     }
   ],
   "props": [
@@ -923,7 +939,7 @@
       "name": "Thương bọc da hổ",
       "board": "PROP01",
       "owners": "NV03",
-      "spec": "Cán gỗ dài thiết kế 220cm, đoạn cầm bọc da hổ nâu, mũi lá đồng; không bọc toàn cán bằng kim loại"
+      "spec": "Thương gỗ dài khoảng220cm; đoạn da hổ ngắn quanh phần trên cán ngay dưới cổ mũi thương như CHAR03/PROP01; mũi lá đồng, không toàn cán kim loại."
     },
     {
       "id": "P06",

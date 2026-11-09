@@ -110,4 +110,8 @@ Mỗi bối cảnh có hình khối, ánh sáng và chi tiết nhận diện; ph
 
 ## E13 / E14 — phần kết mở rộng
 
-Mê Linh lễ đăng vị và đền tưởng niệm hiện đại chỉ là thiết kế dự phòng cho trang28. Không dùng ảnh tưởng tượng làm tài liệu phục dựng hoặc ảnh đúng một ngôi đền hiện có. Khi triển khai trang28 cần chọn một địa điểm cụ thể và tài liệu ảnh được xác minh; Hát Môn và đền Mê Linh không được gộp thành một ngôi đền. SCOPE-01 còn mở; bộ concept hiện tại không khẳng định kết truyện đã được đối chiếu nguồn bổ sung.
+Mê Linh lễ đăng vị và không gian tưởng niệm biểu tượng đã có concept ENV05 dự phòng cho trang28. Không dùng ảnh tưởng tượng làm tài liệu phục dựng hoặc ảnh đúng một ngôi đền hiện có. Khi triển khai trang28 cần chọn một địa điểm cụ thể và tài liệu ảnh được xác minh; Hát Môn và đền Mê Linh không được gộp thành một ngôi đền. SCOPE-01 còn mở; bộ concept hiện tại không khẳng định kết truyện đã được đối chiếu nguồn bổ sung.
+
+
+- E13 / ô trên ENV05: lễ đài gỗ Mê Linh, nền nhà cổ tích dùng cho cảnh kết.
+- E14 / ô dưới ENV05: công trình tưởng niệm hư cấu, không tự chú thích là ảnh đúng đền Hát Môn hoặc đền Mê Linh thật.

@@ -1,0 +1,17 @@
+{
+  "id": "ENV01",
+  "version": "v001",
+  "status": "DESIGN_BASELINE",
+  "user_approved": false,
+  "file": "assets_generated/design_system/ENV01_v001.png",
+  "width": 1536,
+  "height": 1024,
+  "sha256": "2b124b03d2dc4046d9b67dce60cd06a832faffe5e02ce0685da4708a41c02b00",
+  "positions": "Từ trên xuống: E01,E02,E03",
+  "reference_paths": [
+    "assets_generated/characters/CHAR_01_Trung_Trac_v001.png"
+  ],
+  "prompt": "09_design_system/prompts/ENV01.md",
+  "generation_method": "built-in image_gen",
+  "print_ready": false
+}

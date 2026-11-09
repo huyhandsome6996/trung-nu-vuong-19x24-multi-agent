@@ -105,7 +105,7 @@
       "assets_generated/characters/CHAR_01_Trung_Trac_v001.png"
     ],
     "output": "assets_generated/design_system/CHAR10_v001.png",
-    "status": "PLANNED"
+    "status": "GENERATED"
   },
   {
     "id": "CHAR11",
@@ -117,7 +117,7 @@
       "assets_generated/characters/CHAR_01_Trung_Trac_v001.png"
     ],
     "output": "assets_generated/design_system/CHAR11_v001.png",
-    "status": "PLANNED"
+    "status": "GENERATED"
   },
   {
     "id": "CHAR12",
@@ -129,7 +129,7 @@
       "assets_generated/characters/CHAR_01_Trung_Trac_v001.png"
     ],
     "output": "assets_generated/design_system/CHAR12_v001.png",
-    "status": "PLANNED"
+    "status": "GENERATED"
   },
   {
     "id": "CHAR13",
@@ -141,7 +141,7 @@
       "assets_generated/characters/CHAR_01_Trung_Trac_v001.png"
     ],
     "output": "assets_generated/design_system/CHAR13_v001.png",
-    "status": "PLANNED"
+    "status": "GENERATED"
   },
   {
     "id": "CHAR14",
@@ -153,7 +153,7 @@
       "assets_generated/characters/CHAR_01_Trung_Trac_v001.png"
     ],
     "output": "assets_generated/design_system/CHAR14_v001.png",
-    "status": "PLANNED"
+    "status": "GENERATED"
   },
   {
     "id": "CHAR15",
@@ -165,7 +165,7 @@
       "assets_generated/characters/CHAR_01_Trung_Trac_v001.png"
     ],
     "output": "assets_generated/design_system/CHAR15_v001.png",
-    "status": "PLANNED"
+    "status": "GENERATED"
   },
   {
     "id": "CHAR16",
@@ -177,7 +177,7 @@
       "assets_generated/characters/CHAR_01_Trung_Trac_v001.png"
     ],
     "output": "assets_generated/design_system/CHAR16_v001.png",
-    "status": "PLANNED"
+    "status": "GENERATED"
   },
   {
     "id": "CHAR17",
@@ -189,7 +189,7 @@
       "assets_generated/characters/CHAR_01_Trung_Trac_v001.png"
     ],
     "output": "assets_generated/design_system/CHAR17_v001.png",
-    "status": "PLANNED"
+    "status": "GENERATED"
   },
   {
     "id": "TURN01",
@@ -201,7 +201,7 @@
       "assets_generated/characters/CHAR_01_Trung_Trac_v001.png"
     ],
     "output": "assets_generated/design_system/TURN01_v001.png",
-    "status": "PLANNED"
+    "status": "GENERATED"
   },
   {
     "id": "ENV01",
@@ -213,7 +213,7 @@
       "assets_generated/characters/CHAR_01_Trung_Trac_v001.png"
     ],
     "output": "assets_generated/design_system/ENV01_v001.png",
-    "status": "PLANNED"
+    "status": "GENERATED"
   },
   {
     "id": "ENV02",
@@ -225,7 +225,7 @@
       "assets_generated/characters/CHAR_01_Trung_Trac_v001.png"
     ],
     "output": "assets_generated/design_system/ENV02_v001.png",
-    "status": "PLANNED"
+    "status": "GENERATED"
   },
   {
     "id": "ENV03",
@@ -237,7 +237,7 @@
       "assets_generated/characters/CHAR_01_Trung_Trac_v001.png"
     ],
     "output": "assets_generated/design_system/ENV03_v001.png",
-    "status": "PLANNED"
+    "status": "GENERATED"
   },
   {
     "id": "ENV04",
@@ -249,7 +249,7 @@
       "assets_generated/characters/CHAR_01_Trung_Trac_v001.png"
     ],
     "output": "assets_generated/design_system/ENV04_v001.png",
-    "status": "PLANNED"
+    "status": "GENERATED"
   },
   {
     "id": "PROP01",
@@ -261,7 +261,7 @@
       "assets_generated/characters/CHAR_01_Trung_Trac_v001.png"
     ],
     "output": "assets_generated/design_system/PROP01_v001.png",
-    "status": "PLANNED"
+    "status": "GENERATED"
   },
   {
     "id": "PROP02",
@@ -273,7 +273,7 @@
       "assets_generated/characters/CHAR_01_Trung_Trac_v001.png"
     ],
     "output": "assets_generated/design_system/PROP02_v001.png",
-    "status": "PLANNED"
+    "status": "GENERATED"
   },
   {
     "id": "PROP03",
@@ -282,10 +282,12 @@
     "prompt": "Art direction for the entire collection: traditional Vietnamese heroic historical-fairy-tale comic for ages 13–16. Sharp black ink contours with confident thick-to-fine variation, visible fine cross-hatching in all shaded forms, vivid textured watercolor and colored-pencil grain, natural semi-realistic heroic anatomy and expressive faces. Warm parchment base, rich crimson and bronze gold with deep indigo/forest green contrast. Strong readable silhouettes, meticulous hands and working weapon anatomy, energetic but dignified. Crisp rather than blurry, neither photorealistic nor 3D nor chibi nor glossy anime. ALL images are clean and completely TEXT-FREE, no labels, no letters, no captions, no speech bubbles, no watermarks. Full objects/figures stay inside margins. Use the supplied Trưng Trắc sheet only as a rendering-style reference, never transfer her face to another person. These are concept design boards, not finished story pages, so no narration frame is drawn.\n\nLandscape 3:2 object design board, 4x3 separate well-spaced cells: cloth healer satchel and herb packets; wicker medicine basket; clay ginseng roots closeup; wood strategy table holding sculpted CLAY mountain terrain and river channels with plain pointing stick; simple wood staff and scholar bamboo slips; brush and ceramic inkstone; dark iron broad blade; plain wood-shaft army spear; small cloth pouch containing a blank square official seal; modest bronze flower hairpin and bracelets; two upright scaffold posts with natural-fiber ropes (empty, no people); five wooden courtyard stakes for prisoners (empty). No wounds, no text, no labels, no plastic or modern metal fittings.",
     "positions": "4x3 cells, left-to-right row-major",
     "reference_paths": [
-      "assets_generated/characters/CHAR_01_Trung_Trac_v001.png"
+      "assets_generated/design_system/PROP03_v001.png"
     ],
-    "output": "assets_generated/design_system/PROP03_v001.png",
-    "status": "PLANNED"
+    "output": "assets_generated/design_system/PROP03_v002.png",
+    "status": "GENERATED",
+    "revision_prompt": "Edit ONLY the object inside the TOP ROW, THIRD COLUMN of this 4-column by 3-row prop reference sheet. The ginseng roots on the round wooden plate are pale yellow; recolor ONLY these roots and their thin rootlets to deep crimson-red / reddish-brown blood-ginseng, with natural shaded root texture, matching the mythic crimson ginseng roots used elsewhere in this Vietnamese storybook design system. Keep green leaves green and berries red, keep the plate brown. Do not change roots into meat, do not add blood or liquid. Preserve all other eleven cells, dividers, composition, props, parchment, black cross-hatching and watercolor-pencil rendering exactly. No text, no labels, no watermark.",
+    "supersedes": "PROP03_v001.png"
   },
   {
     "id": "PROP04",
@@ -294,10 +296,12 @@
     "prompt": "Art direction for the entire collection: traditional Vietnamese heroic historical-fairy-tale comic for ages 13–16. Sharp black ink contours with confident thick-to-fine variation, visible fine cross-hatching in all shaded forms, vivid textured watercolor and colored-pencil grain, natural semi-realistic heroic anatomy and expressive faces. Warm parchment base, rich crimson and bronze gold with deep indigo/forest green contrast. Strong readable silhouettes, meticulous hands and working weapon anatomy, energetic but dignified. Crisp rather than blurry, neither photorealistic nor 3D nor chibi nor glossy anime. ALL images are clean and completely TEXT-FREE, no labels, no letters, no captions, no speech bubbles, no watermarks. Full objects/figures stay inside margins. Use the supplied Trưng Trắc sheet only as a rendering-style reference, never transfer her face to another person. These are concept design boards, not finished story pages, so no narration frame is drawn.\n\nLandscape 3:2 vehicle and set-dressing design board with SIX generous cells (2 columns x3 rows). Top-left a wooden lightweight WAR ROWBOAT in three-quarter view and smaller side silhouette, curved prow, paired oars, no engine. Top-right a broader wooden trading boat with low woven deck shelter, no engine. Middle-left a simple brown leather horse saddle and natural cloth blanket shown from side and rear. Middle-right a simple bamboo/wood war ELEPHANT HOWDAH with woven straps and no fantasy plate armor. Bottom-left rustic oil lamp, cloth-wrapped torch and brown ceramic jar together. Bottom-right a dream-symbol vignette: GOLDEN DRAGON dissolving into TWO GOLDEN PEACOCKS, left-to-right motion only, ethereal clouds; decorative symbolic motif, no text.",
     "positions": "2x3 cells, row-major",
     "reference_paths": [
-      "assets_generated/characters/CHAR_01_Trung_Trac_v001.png"
+      "assets_generated/design_system/PROP04_v001.png"
     ],
-    "output": "assets_generated/design_system/PROP04_v001.png",
-    "status": "PLANNED"
+    "output": "assets_generated/design_system/PROP04_v002.png",
+    "status": "GENERATED",
+    "revision_prompt": "Edit ONLY the bottom-left cell and the middle-left saddle fittings of this six-cell vehicle reference board. In the bottom-left cell remove the entire modern enclosed glass-and-metal kerosene lantern, replace it with a SIMPLE SHALLOW OPEN TERRACOTTA OIL BOWL containing one tiny burning wick, clay-red/brown, no glass chimney, no metal cage, no carrying handle. Keep the cloth-wrapped torch and ceramic jar beside it. In the middle-left saddle studies replace dangling closed metal stirrups with simple loose leather strap loops, preserving the leather saddle shapes and cloth. Preserve every other cell, both wooden boats, elephant/howdah, golden dragon-to-two-peacocks vignette, panel borders, colors, cross-hatching and paper grain exactly. Text-free, no labels, no watermark. This is a targeted correction of unwanted modern-looking equipment in the concept sheet, not a new layout.",
+    "supersedes": "PROP04_v001.png"
   },
   {
     "id": "ARMY01",
@@ -309,7 +313,7 @@
       "assets_generated/characters/CHAR_01_Trung_Trac_v001.png"
     ],
     "output": "assets_generated/design_system/ARMY01_v001.png",
-    "status": "PLANNED"
+    "status": "GENERATED"
   },
   {
     "id": "ANIMAL01",
@@ -321,6 +325,31 @@
       "assets_generated/characters/CHAR_01_Trung_Trac_v001.png"
     ],
     "output": "assets_generated/design_system/ANIMAL01_v001.png",
-    "status": "PLANNED"
+    "status": "GENERATED"
+  },
+  {
+    "id": "CHIEFS01",
+    "category": "crowds",
+    "title": "24 tộc trưởng — bộ mặt tập thể",
+    "prompt": "Art direction for the entire collection: traditional Vietnamese heroic historical-fairy-tale comic for ages 13–16. Sharp black ink contours with confident thick-to-fine variation, visible fine cross-hatching in all shaded forms, vivid textured watercolor and colored-pencil grain, natural semi-realistic heroic anatomy and expressive faces. Warm parchment base, rich crimson and bronze gold with deep indigo/forest green contrast. Strong readable silhouettes, meticulous hands and working weapon anatomy, energetic but dignified. Crisp rather than blurry, neither photorealistic nor 3D nor chibi nor glossy anime. ALL images are clean and completely TEXT-FREE, no labels, no letters, no captions, no speech bubbles, no watermarks. Full objects/figures stay inside margins. Use the supplied Trưng Trắc sheet only as a rendering-style reference, never transfer her face to another person. These are concept design boards, not finished story pages, so no narration frame is drawn.\n\nLandscape 3:2 casting portrait grid of EXACTLY TWENTY-FOUR distinct mature Vietnamese tribal chieftains, four horizontal rows and SIX columns, ONLY head-and-shoulders bust portraits, each in its own equally sized clear rectangular cell separated by thin cream gutters. Natural older adult faces with varied broad/square/long/round jaws, different eyebrows, short/long/forked beards, grey or white tied hair, different simple earth-tone woven headwraps, modest brown/indigo robes, individually readable eyes and noses, no helmets or crowns, no duplicated faces. Row1 has square white full beard, long forked beard, round short beard, high-cheek salt beard, high forehead clean-shaven, broad moustached face. Rows2-4 vary these face constructions and beard colors/lengths so all24 identities differ. The SECOND portrait of the FOURTH row (overall20th, row4 column2) is a square-faced elder with a SHORT WHITE beard and a GREEN headwrap, the speaking Than chief. Exactly24 busts, not extra full bodies, not younger princes. No lettering, no numbers, no labels. The second reference image shows army archetypes: keep the speaking chief identical to the elderly man in its BOTTOM-RIGHT cell, only transfer that chief identity into row4 column2 of this new portrait grid.",
+    "positions": "4 hàng x6 cột; ML01..ML17 rồi PH01..PH07; PH03 ô hàng4/cột2 ưu tiên ARMY01",
+    "reference_paths": [
+      "assets_generated/characters/CHAR_01_Trung_Trac_v001.png",
+      "assets_generated/design_system/ARMY01_v001.png"
+    ],
+    "output": "assets_generated/design_system/CHIEFS01_v001.png",
+    "status": "GENERATED"
+  },
+  {
+    "id": "ENV05",
+    "category": "environments",
+    "title": "Lễ đài Mê Linh và tưởng niệm biểu tượng",
+    "prompt": "Use the supplied sheet only as a reference for crisp traditional ink cross-hatching, vivid textured watercolor/colored-pencil rendering, and warm heroic Vietnamese storybook art for ages13–16. Create a landscape 3:2 ENVIRONMENT DESIGN BOARD with exactly TWO wide horizontal panels separated by a thin cream gutter, text-free, no labels, no watermark, no modern cars or electric signs. TOP panel: an artist-designed ancient ME LINH ceremonial precinct for the story epilogue, a modest but majestic raised timber royal dais decorated with bronze sun motifs and crimson/indigo woven banners, surrounding thatched timber halls, green hills and a river under golden morning light. No stone imperial fantasy castle, no people on the dais; a few tiny distant scale figures at most. BOTTOM panel: a SYMBOLIC memorial courtyard beside a broad Red River-like river, a red-tiled Vietnamese temple with two low wings and a central timber hall, trees and a bronze incense vessel, peaceful spring light and very small modern students quietly approaching from far away. This is an invented memorial setting for an illustrated epilogue, NOT an exact depiction of Hat Mon or any existing Me Linh temple, no geographic map, no legible writing or named signs. Clear architectural details and consistent perspective, bright emerald greens and deep river-blue with bronze/crimson accents, subtle pencil grain without blurring.",
+    "positions": "Trên E13; dưới E14 (công trình hư cấu cho concept)",
+    "reference_paths": [
+      "assets_generated/characters/CHAR_01_Trung_Trac_v001.png"
+    ],
+    "output": "assets_generated/design_system/ENV05_v001.png",
+    "status": "GENERATED"
   }
 ]

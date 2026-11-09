@@ -1,6 +1,6 @@
 # DỰ ÁN TRUYỆN CỔ TÍCH LỊCH SỬ HÀO HÙNG: TRƯNG NỮ VƯƠNG (KHỔ 19x24 CM)
 
-> **Bộ thiết kế tổng thể hiện hành:** mở [Ngăn09 — Xem và dùng thiết kế](09_design_system/00_READ_FIRST.md) hoặc [Album hình](09_design_system/IMAGE_CATALOG.md). Bao gồm41 hồ sơ nhân vật,12 bối cảnh,36 nhóm đạo cụ,4 động vật, quy chuẩn layout và hướng dẫn cho agent; tiến độ ảnh thực tế ghi trong album.
+> **Bộ thiết kế tổng thể hiện hành:** mở [Ngăn09 — Xem và dùng thiết kế](09_design_system/00_READ_FIRST.md) hoặc [Album hình](09_design_system/IMAGE_CATALOG.md). Bao gồm41 hồ sơ nhân vật,14 bối cảnh,36 nhóm đạo cụ,4 động vật, quy chuẩn layout và hướng dẫn cho agent; tiến độ ảnh thực tế ghi trong album.
 > **Hệ thống Kho lưu trữ & Điều phối Đa Tác Tử (Multi-Agent GitHub Repository)**
 > **Chủ đề:** Chuyển thể Hồi thứ Bảy & Hồi thứ Tám tiểu thuyết lịch sử *Trưng Nữ Vương* (nhà văn Phùng Văn Khai) thành bộ truyện tranh cổ tích lịch sử hào hùng theo chuẩn bố cục mẫu *Truyền thuyết An Dương Vương*.
 > **Đối tượng độc giả mục tiêu:** Học sinh THCS & THPT từ Lớp 8 đến Lớp 10 (13 – 16 tuổi).
@@ -54,4 +54,4 @@ Bất kỳ AI Agent nào khi được khởi chạy trên kho lưu trữ này **
 - [Form đầu ra tổng hợp](05_book_design_and_layout_19x24/STANDARD_OUTPUT_CONTRACT.md).
 - [Ngăn 08: Nhật ký, quyết định và kinh nghiệm](08_project_memory/README.md).
 
-**Trạng thái cập nhật:** đã bắt đầu giai đoạn nhân vật theo lệnh tiếp tục ngày 09/11/2026. Có **1/10 bảng được tạo (Trưng Trắc v001), 0/10 bảng được duyệt**; chưa sinh trang truyện hay xuất sách. Xem [bộ nhân vật và tiến độ](assets_generated/characters/README.md). Các mâu thuẫn được ghi trong sổ vấn đề vẫn cần xử lý trước phần sản xuất liên quan.
+**Trạng thái cập nhật:** bộ thiết kế v1 đã có30 bảng hình,41 hồ sơ nhân vật,24 mặt tộc trưởng tập thể,14 bối cảnh,36 nhóm đạo cụ và4 động vật. [Xem album](09_design_system/IMAGE_CATALOG.md). Đây là chuẩn thiết kế để làm bản nháp; chưa coi là28 trang truyện hoặc sách sẵn in.
