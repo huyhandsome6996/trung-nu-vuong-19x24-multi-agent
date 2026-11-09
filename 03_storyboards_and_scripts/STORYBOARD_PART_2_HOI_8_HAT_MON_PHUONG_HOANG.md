@@ -153,26 +153,29 @@
 ---
 
 ### TRANG 27 — SÓNG DẬY LĨNH NAM: THU PHỤC SÁU MƯƠI LĂM THÀNH TRÌ
-- **Nguồn PDF:** Tổng kết thắng lợi Hồi 7 & Hồi 8 hướng tới đại cục Khởi nghĩa Hai Bà Trưng (năm 40 SCN).
+- **Nguồn bổ sung:** HIST01, Bảo tàng Lịch sử Quốc gia (17/01/2013), đối chiếu09/11/2026 tại10_agent_workflow/tasks/SOURCE_EPILOGUE; chuyển từ mạch tiểu thuyết sang tổng kết lịch sử, không có trong scan58trang.
 - **Loại Bố Cục:** `Template A (Full-Page Epic Montage Splash: Đại quân Hai Bà Trưng cưỡi voi chiến và chiến thuyền của Thánh Thiên – Lê Đạo hợp quân tiến đánh thành Luy Lâu)`.
-- **Text Khung Dẫn Truyện (Top Narration Box - 56 từ):**
-  > Chiến thắng vang dội tại **núi Phượng Hoàng** đã mở thông đường thủy bộ từ **Lục Đầu Giang** về hội quân cùng đại bản doanh **Hát Môn**. Dưới ngọn cờ đại nghĩa của **Hai Bà Trưng** và các nữ tướng anh hùng như **Thánh Thiên, Phùng Thị Chính**, nghĩa quân Lạc Việt tiến như vũ bão, **đánh chiếm thành Luy Lâu** khiến **Tô Định** phải tháo chạy về phương Bắc!
+- **Text Khung Dẫn Truyện (Top Narration Box - 56 tiếng theo khoảng trắng):**
+  > Khép lại những trận đánh ở **núi Phượng Hoàng** và **Lục Đầu Giang**, câu chuyện hướng về khởi nghĩa **Hát Môn**. Năm40, dưới cờ **Hai Bà Trưng**, nghĩa quân **đánh chiếm thành Luy Lâu**, buộc **Tô Định** tháo chạy. Những nhân vật như **Thánh Thiên, Phùng Thị Chính** góp vào bức tranh hào hùng của truyện.
 - **Bóng Thoại (Speech Bubble):** Không có.
 - **Mô tả Khung hình (Visual Composition):**
   - Đại cảnh toàn trang rực rỡ sắc đỏ – vàng kim: **Hai Bà Trưng (Trưng Trắc – Trưng Nhị)** cưỡi trên lưng hai thớt voi chiến da xám, ngà trắng khổng lồ, sát cánh bên cạnh là nữ tướng **Thánh Thiên** cưỡi chiến mã và **Phùng Thị Chính**, phía sau là hàng vạn nghĩa quân giương cờ ngũ sắc tràn qua cổng thành Luy Lâu đang mở toang.
 
 ---
+- **Giới hạn hình ảnh:** Đội hình hợp quân là montage nhân vật truyện, không phải bằng chứng khảo chứng Thánh Thiên–Phùng Thị Chính cùng có mặt tại cổng Luy Lâu. Không khẳng định tuyến hành quân từ Phượng Hoàng.
+
 
 ### TRANG 28 — TRƯNG NỮ VƯƠNG & BẢN ANH HÙNG CA MUÔN ĐỜI BẤT DIỆT (TRANG KẾT)
-- **Nguồn PDF:** Kết tinh giá trị lịch sử & truyền thuyết của bộ truyện cho học sinh lớp 8–10.
-- **Loại Bố Cục:** `Template A (Full-Page Monumental Finale Splash: Trưng Nữ Vương lên ngôi tại kinh đô Mê Linh & Đền thờ Hai Bà Trưng bên sông Hồng ngày nay)`.
-- **Text Khung Dẫn Truyện (Top Narration Box - 58 từ):**
-  > Thu phục trọn vẹn **sáu mươi lăm thành trì**, **Trưng Trắc** được muôn dân suy tôn lên ngôi vua, xưng là **Trưng Nữ Vương**, đóng đô tại **Mê Linh**. Dù trải qua gần **hai ngàn năm lịch sử**, khí phách của **Thi Sách**, lời thề tại **cửa Hát Môn** và chiến công của **Hai Bà Trưng** cùng nữ tướng **Thánh Thiên** vẫn mãi là **niềm tự hào bất diệt của dân tộc Việt Nam**.
+- **Nguồn bổ sung:** HIST01 hỗ trợ65huyện thành/xưng vương/Mê Linh; HERITAGE01–02 hỗ trợ truyền thống tưởng niệm; xem10_agent_workflow/tasks/SOURCE_EPILOGUE, truy cập09/11/2026.
+- **Loại Bố Cục:** `Template A (Full-Page Monumental Finale Splash: Trưng Nữ Vương lên ngôi tại Mê Linh và lớp học sinh tưởng niệm trong montage biểu tượng)`.
+- **Text Khung Dẫn Truyện (Top Narration Box - 60 tiếng theo khoảng trắng):**
+  > Giải phóng **sáu mươi lăm thành trì**, **Trưng Trắc** lên ngôi **Trưng Nữ Vương**, đóng đô tại **Mê Linh**. Gần **hai ngàn năm lịch sử** qua đi, người Việt vẫn nhớ **Hai Bà Trưng**. Trong truyện, **Thi Sách**, **Thánh Thiên** và lời thề ở **cửa Hát Môn** cùng nhắc chúng ta về lòng yêu nước và ý chí tự chủ.
 - **Bóng Thoại (Speech Bubble):** Không có.
 - **Mô tả Khung hình (Visual Composition):**
   - Bố cục 2 tầng hòa quyện giữa Lịch sử và Hiện tại (tương tự trang kết `JPG #01` của bộ mẫu *An Dương Vương*):
     - *Tầng trên:* Hình ảnh **Trưng Nữ Vương** uy nghiêm trong long bào Lạc Việt đứng trên đài cao kinh đô Mê Linh dưới ánh mặt trời rực rỡ và đàn chim Lạc vàng bay lượn.
-    - *Tầng dưới:* Cảnh đền thờ Hai Bà Trưng tại Mê Linh – Hát Môn bên dòng sông Hồng hiền hòa trong sắc xuân, nơi thế hệ học sinh Việt Nam hôm nay thành kính dâng hương tưởng nhớ công đức tiền nhân.
+    - *Tầng dưới:* Thế hệ học sinh hôm nay đọc sách và tưởng niệm tiền nhân trước một công trình biểu tượng E14 trong sắc xuân. Không ghi “Mê Linh–Hát Môn” như một ngôi đền duy nhất; E14 không đại diện bản sao di tích. Hai đền thật được phân biệt trong phụ lục.
 
 
 > Đính chính thiết kế 09/11/2026: áp dụng đối chiếu scan và chuẩn nhận diện tại `09_design_system/SOURCE_DECISIONS.md`; xem hồ sơ v1 trước khi dùng prompt cũ.
+- **Giới hạn hình ảnh:** Lễ đăng quang, chim Lạc và E14 là biểu tượng nghệ thuật; không gọi là phục dựng nghi lễ hoặc kiến trúc di tích thật.

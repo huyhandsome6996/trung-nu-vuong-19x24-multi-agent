@@ -107,3 +107,9 @@ timezone: "Asia/Ho_Chi_Minh"
 - Đã xem toàntrang150DPI và crop100% từrender300DPI; fontViệt nhúng,4dòng12.8pt, nguồn/nhậndiện/hìnhhọc đạt bảnđọc. Native tranh khoảng145DPI, chưain300DPI.
 - Push checkpoint trước dùngcache credential bị môi trường từchối kết nối daemon; commit6ce03be đãlưu local nhưng chưađồngbộ ở mốc đó. Dùng credential tạm trong tiếntrình đểpush tiếp, không ghi tokenvàofile.
 - Bước tiếp: đóngQA, hoànthiện nguồn27–28, rồiPAGE02_TEXT.
+
+## SRC-006 — Bổ sung nguồn phần kết (09/11/2026)
+
+- Đã mở và đọc bài tổng quan của Bảo tàng Lịch sử Quốc gia cùng hai hồ sơ di tích của Cục Di sản văn hóa. Lưu URL, ngày truy cập, phạm vi hỗ trợ và đối chiếu từng mệnh đề tại SOURCE_EPILOGUE.
+- Sửa storyboard27–28: bỏ khẳng định tuyến hành quân Phượng Hoàng trực tiếp mở đường về Luy Lâu; phân biệt Mê Linh/Hát Môn; giữ E14 là công trình tưởng niệm biểu tượng. Giữ bản storyboard trước sửa. Chưa khóa chữ27–28.
+- Check_repo đạt trước finish SOURCE_EPILOGUE. Trang01 đã push c5e4572 và đối chiếu remote khớp. Trang02 đã khóa chữ51tiếng,5cụm đỏ, không thoại; đang tạo tranh với5ảnh tham chiếu thực đã xem.

@@ -1,0 +1,14 @@
+{
+  "task_id": "SOURCE_EPILOGUE",
+  "kind": "source",
+  "status": "draft",
+  "reviewer": "",
+  "summary": "",
+  "checks": {
+    "external_sources": "not_checked",
+    "source_comparison": "not_checked"
+  },
+  "artifacts": [],
+  "open_issues": [],
+  "reviewed_at": ""
+}

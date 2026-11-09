@@ -1,0 +1,20 @@
+{
+  "task_id": "SOURCE_EPILOGUE",
+  "kind": "source",
+  "status": "passed",
+  "reviewer": "Codex",
+  "summary": "Đã mở ba nguồn chính thống và đối chiếu từng mệnh đề, chỉnh đoạn kết và phân biệt hai di tích; đã sửa lỗi văn bản, giữ bản trước sửa.",
+  "checks": {
+    "external_sources": "pass",
+    "source_comparison": "pass"
+  },
+  "artifacts": [
+    "10_agent_workflow/tasks/SOURCE_EPILOGUE/sources.v001.json",
+    "10_agent_workflow/tasks/SOURCE_EPILOGUE/COMPARISON.v001.md",
+    "10_agent_workflow/tasks/SOURCE_EPILOGUE/STORYBOARD_PART2.before.v001.md",
+    "03_storyboards_and_scripts/STORYBOARD_PART_2_HOI_8_HAT_MON_PHUONG_HOANG.md",
+    "09_design_system/SOURCE_DECISIONS.md"
+  ],
+  "open_issues": [],
+  "reviewed_at": "2026-11-09T12:09:16+00:00"
+}

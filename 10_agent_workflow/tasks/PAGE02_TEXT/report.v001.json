@@ -1,0 +1,20 @@
+{
+  "task_id": "PAGE02_TEXT",
+  "kind": "text",
+  "status": "passed",
+  "reviewer": "Codex",
+  "summary": "Đã đối chiếu scan07–10, giữ5cụmnhấn và0thoại; khóa lớp huyềntích TemplateB.",
+  "checks": {
+    "source_alignment": "pass",
+    "narration_35_65": "pass",
+    "keywords_preserved": "pass",
+    "dialogue_locked": "pass",
+    "template_locked": "pass"
+  },
+  "artifacts": [
+    "10_agent_workflow/tasks/PAGE02_TEXT/text.v001.json",
+    "10_agent_workflow/tasks/PAGE02_TEXT/SOURCE_REVIEW.v001.md"
+  ],
+  "open_issues": [],
+  "reviewed_at": "2026-11-09T12:09:15+00:00"
+}

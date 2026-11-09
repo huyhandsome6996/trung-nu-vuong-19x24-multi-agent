@@ -32,14 +32,69 @@
       "id": "SOURCE_EPILOGUE",
       "kind": "source",
       "title": "Đối chiếu nguồn phần kết trang27–28",
-      "status": "blocked",
+      "status": "done",
       "depends_on": [
         "ONBOARDING"
       ],
       "instructions": "Tìm nguồn chính thống hỗ trợ từng mệnh đề trang27–28, ghi URL/tên tài liệu/ngày truy cập/đoạn hỗ trợ. Nếu cần thay đoạn kết, cập nhật storyboard và SOURCE_DECISIONS, không biến cảnh tưởng tượng thành ngôi đền có thật. Không hỏi lại chủ dự án để làm nghiên cứu đọc công khai.",
-      "evidence": [],
-      "last_note": "",
-      "block_reason": "Đoạn trích hiện có chưa bao phủ phần kết27–28; cần tìm và đối chiếu nguồn ngoài trước khi khóa chữ."
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/SOURCE_EPILOGUE/report.v002.json",
+          "sha256": "cede8f6f580bff7a9e6bbfdb649d4d4c0f9731d7e615730aed5f9fb0bc7ee3f1"
+        },
+        {
+          "path": "10_agent_workflow/tasks/SOURCE_EPILOGUE/sources.v001.json",
+          "sha256": "4de0132681d6969c0716a4b4013f905f06c76c824fff60b5c673499c0b257d8d"
+        },
+        {
+          "path": "10_agent_workflow/tasks/SOURCE_EPILOGUE/COMPARISON.v001.md",
+          "sha256": "a973fdd366e2f1df3de088411b125106e8fd988cde1b45220fbe14d97e6a7d9d"
+        },
+        {
+          "path": "10_agent_workflow/tasks/SOURCE_EPILOGUE/STORYBOARD_PART2.before.v001.md",
+          "sha256": "a2b2e66322ac1f6a09fd94054878e09630b08987dc75b74e1b3c21515634fd2e"
+        },
+        {
+          "path": "03_storyboards_and_scripts/STORYBOARD_PART_2_HOI_8_HAT_MON_PHUONG_HOANG.md",
+          "sha256": "51b2b09b8cf339ee46f55c7b018dc65d2d90cbd1934d0263a42719e909c7aaeb"
+        },
+        {
+          "path": "09_design_system/SOURCE_DECISIONS.md",
+          "sha256": "41a5a074119e041d7f72494aba4be1ead130f6d26667269600c7faf4679f773d"
+        }
+      ],
+      "last_note": "Nguồn27–28 đã kiểm và lưu; chữ riêng từngtrang tiếp tục theoqueue",
+      "block_reason": "",
+      "updated_at": "2026-11-09T12:09:17+00:00",
+      "owner": "Codex",
+      "previous_evidence": [
+        [
+          {
+            "path": "10_agent_workflow/tasks/SOURCE_EPILOGUE/report.v001.json",
+            "sha256": "acbf2c19c9b51eac32d9c18d5bd29a6edcdabe4c8907f037f99927a1153d5b02"
+          },
+          {
+            "path": "10_agent_workflow/tasks/SOURCE_EPILOGUE/sources.v001.json",
+            "sha256": "4de0132681d6969c0716a4b4013f905f06c76c824fff60b5c673499c0b257d8d"
+          },
+          {
+            "path": "10_agent_workflow/tasks/SOURCE_EPILOGUE/COMPARISON.v001.md",
+            "sha256": "a973fdd366e2f1df3de088411b125106e8fd988cde1b45220fbe14d97e6a7d9d"
+          },
+          {
+            "path": "10_agent_workflow/tasks/SOURCE_EPILOGUE/STORYBOARD_PART2.before.v001.md",
+            "sha256": "a2b2e66322ac1f6a09fd94054878e09630b08987dc75b74e1b3c21515634fd2e"
+          },
+          {
+            "path": "03_storyboards_and_scripts/STORYBOARD_PART_2_HOI_8_HAT_MON_PHUONG_HOANG.md",
+            "sha256": "407e74c13d276aa1967b6669438f874177ac5805f86f3df00c7cdbc16918d52f"
+          },
+          {
+            "path": "09_design_system/SOURCE_DECISIONS.md",
+            "sha256": "bf6b75d419654ac3b44416f626406104b0cb8cbf7e1c8df8334f25cc0295634a"
+          }
+        ]
+      ]
     },
     {
       "id": "PAGE01_TEXT",
@@ -233,27 +288,44 @@
       "id": "PAGE02_TEXT",
       "kind": "text",
       "title": "Trang02: đối chiếu và khóa chữ",
-      "status": "todo",
+      "status": "done",
       "depends_on": [
         "DESIGN_BASELINE"
       ],
       "instructions": "Đọc nguyên cảnh và nguồn scan; sửa các câu cường điệu/không có căn cứ, giữ giọng hào hùng 13–16 tuổi. Đếm thật 35–65 tiếng theo khoảng trắng, không dùng số từ ghi trong tiêu đề làm chứng cứ. Chép đủ thoại vào text.v001.json, giữ **từ khóa**; ghi nguồn, template và hash storyboard. Khóa chữ sau khi kiểm. Nếu sửa toàn file storyboard về sau, rà lại các text đã khóa theo hash mới.",
-      "evidence": [],
-      "last_note": "",
-      "page": 2
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/PAGE02_TEXT/report.v001.json",
+          "sha256": "20678fba529b3373804d70c898ba8311673b86f058b476efcad9bcb38198c6a2"
+        },
+        {
+          "path": "10_agent_workflow/tasks/PAGE02_TEXT/text.v001.json",
+          "sha256": "050999db9781bf92bfad7de670fe7635f1e831459f091c61cbd534581f9adab8"
+        },
+        {
+          "path": "10_agent_workflow/tasks/PAGE02_TEXT/SOURCE_REVIEW.v001.md",
+          "sha256": "757592d824ec47f7ef70e3b4c566e99ec48c5e32d260225a5928022afbdcdabd"
+        }
+      ],
+      "last_note": "Khóa TEXT02 có nhãn huyềntích, giữ5cụmđỏ, khôngthoại",
+      "page": 2,
+      "owner": "Codex",
+      "updated_at": "2026-11-09T12:09:15+00:00"
     },
     {
       "id": "PAGE02_ART",
       "kind": "art",
       "title": "Trang02: tạo và kiểm tranh nền",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "PAGE02_TEXT"
       ],
       "instructions": "Lấy text đã khóa từ evidence bước TEXT. Xem các sheet liên quan; soạn prompt cuối theo cảnh, ghi actual_references và hash. Tạo ảnh bằng công cụ sinh ảnh, nền không chữ, không bóng thoại, chừa20% đỉnh; dùng đúng A/B/C. Kiểm mặt, phục trang, tay/chân/vũ khí và hành động. Lưu PNG native có phiên bản và metadata theo templates/RAW_IMAGE_METADATA.json. Không resize rồi khai native300DPI.",
       "evidence": [],
-      "last_note": "",
-      "page": 2
+      "last_note": "Xem CHAR09/CHAR12/ENV01/PROP02/PROP04 trước tạo TemplateB",
+      "page": 2,
+      "owner": "Codex",
+      "updated_at": "2026-11-09T12:09:17+00:00"
     },
     {
       "id": "PAGE02_LAYOUT",
@@ -1540,8 +1612,9 @@
       ],
       "instructions": "Đọc nguyên cảnh và nguồn scan; sửa các câu cường điệu/không có căn cứ, giữ giọng hào hùng 13–16 tuổi. Đếm thật 35–65 tiếng theo khoảng trắng, không dùng số từ ghi trong tiêu đề làm chứng cứ. Chép đủ thoại vào text.v001.json, giữ **từ khóa**; ghi nguồn, template và hash storyboard. Khóa chữ sau khi kiểm. Nếu sửa toàn file storyboard về sau, rà lại các text đã khóa theo hash mới.",
       "evidence": [],
-      "last_note": "",
-      "page": 27
+      "last_note": "Reopen: Sửa khoảngtrắng cuối storyboard và lỗiđánhmáy trước push; giữ evidencev001",
+      "page": 27,
+      "block_reason": ""
     },
     {
       "id": "PAGE27_ART",
@@ -1553,8 +1626,9 @@
       ],
       "instructions": "Lấy text đã khóa từ evidence bước TEXT. Xem các sheet liên quan; soạn prompt cuối theo cảnh, ghi actual_references và hash. Tạo ảnh bằng công cụ sinh ảnh, nền không chữ, không bóng thoại, chừa20% đỉnh; dùng đúng A/B/C. Kiểm mặt, phục trang, tay/chân/vũ khí và hành động. Lưu PNG native có phiên bản và metadata theo templates/RAW_IMAGE_METADATA.json. Không resize rồi khai native300DPI.",
       "evidence": [],
-      "last_note": "",
-      "page": 27
+      "last_note": "Reopen: Sửa khoảngtrắng cuối storyboard và lỗiđánhmáy trước push; giữ evidencev001",
+      "page": 27,
+      "block_reason": ""
     },
     {
       "id": "PAGE27_LAYOUT",
@@ -1566,8 +1640,9 @@
       ],
       "instructions": "Dùng nguyên text đã khóa và tranh đã kiểm. Ghép khung giấy cổ, tô đỏ #C81E1E cho **...**, đặt đủ thoại/đuôi bóng đúng người. Khổ196×246/trim190×240. Dùng layout_tokens, đo tràn chữ bằng renderer thật; xuất bản xem PNG/PDF và nguồn có thể sửa. scripts/typeset_preview.py là trợ giúp HTML; không coi HTML/PDF xem trước là file in đã duyệt.",
       "evidence": [],
-      "last_note": "",
-      "page": 27
+      "last_note": "Reopen: Sửa khoảngtrắng cuối storyboard và lỗiđánhmáy trước push; giữ evidencev001",
+      "page": 27,
+      "block_reason": ""
     },
     {
       "id": "PAGE27_QA",
@@ -1579,8 +1654,9 @@
       ],
       "instructions": "Mở ảnh render ở kích thước đọc thật và zoom100%; so với scan, sheet, text đã khóa. Kiểm bốn lớp historical/art/language/print_geometry. Ghi lỗi cụ thể và sửa về đúng bước. Báo cáo pass chỉ khi có artifact thực và không còn lỗi trong phạm vi; đây là QA của agent, không phải chủ dự án duyệt.",
       "evidence": [],
-      "last_note": "",
-      "page": 27
+      "last_note": "Reopen: Sửa khoảngtrắng cuối storyboard và lỗiđánhmáy trước push; giữ evidencev001",
+      "page": 27,
+      "block_reason": ""
     },
     {
       "id": "PAGE28_TEXT",
@@ -1593,8 +1669,9 @@
       ],
       "instructions": "Đọc nguyên cảnh và nguồn scan; sửa các câu cường điệu/không có căn cứ, giữ giọng hào hùng 13–16 tuổi. Đếm thật 35–65 tiếng theo khoảng trắng, không dùng số từ ghi trong tiêu đề làm chứng cứ. Chép đủ thoại vào text.v001.json, giữ **từ khóa**; ghi nguồn, template và hash storyboard. Khóa chữ sau khi kiểm. Nếu sửa toàn file storyboard về sau, rà lại các text đã khóa theo hash mới.",
       "evidence": [],
-      "last_note": "",
-      "page": 28
+      "last_note": "Reopen: Sửa khoảngtrắng cuối storyboard và lỗiđánhmáy trước push; giữ evidencev001",
+      "page": 28,
+      "block_reason": ""
     },
     {
       "id": "PAGE28_ART",
@@ -1606,8 +1683,9 @@
       ],
       "instructions": "Lấy text đã khóa từ evidence bước TEXT. Xem các sheet liên quan; soạn prompt cuối theo cảnh, ghi actual_references và hash. Tạo ảnh bằng công cụ sinh ảnh, nền không chữ, không bóng thoại, chừa20% đỉnh; dùng đúng A/B/C. Kiểm mặt, phục trang, tay/chân/vũ khí và hành động. Lưu PNG native có phiên bản và metadata theo templates/RAW_IMAGE_METADATA.json. Không resize rồi khai native300DPI.",
       "evidence": [],
-      "last_note": "",
-      "page": 28
+      "last_note": "Reopen: Sửa khoảngtrắng cuối storyboard và lỗiđánhmáy trước push; giữ evidencev001",
+      "page": 28,
+      "block_reason": ""
     },
     {
       "id": "PAGE28_LAYOUT",
@@ -1619,8 +1697,9 @@
       ],
       "instructions": "Dùng nguyên text đã khóa và tranh đã kiểm. Ghép khung giấy cổ, tô đỏ #C81E1E cho **...**, đặt đủ thoại/đuôi bóng đúng người. Khổ196×246/trim190×240. Dùng layout_tokens, đo tràn chữ bằng renderer thật; xuất bản xem PNG/PDF và nguồn có thể sửa. scripts/typeset_preview.py là trợ giúp HTML; không coi HTML/PDF xem trước là file in đã duyệt.",
       "evidence": [],
-      "last_note": "",
-      "page": 28
+      "last_note": "Reopen: Sửa khoảngtrắng cuối storyboard và lỗiđánhmáy trước push; giữ evidencev001",
+      "page": 28,
+      "block_reason": ""
     },
     {
       "id": "PAGE28_QA",
@@ -1632,8 +1711,9 @@
       ],
       "instructions": "Mở ảnh render ở kích thước đọc thật và zoom100%; so với scan, sheet, text đã khóa. Kiểm bốn lớp historical/art/language/print_geometry. Ghi lỗi cụ thể và sửa về đúng bước. Báo cáo pass chỉ khi có artifact thực và không còn lỗi trong phạm vi; đây là QA của agent, không phải chủ dự án duyệt.",
       "evidence": [],
-      "last_note": "",
-      "page": 28
+      "last_note": "Reopen: Sửa khoảngtrắng cuối storyboard và lỗiđánhmáy trước push; giữ evidencev001",
+      "page": 28,
+      "block_reason": ""
     },
     {
       "id": "FRONT_ART",
@@ -1774,7 +1854,7 @@
       ],
       "instructions": "Dùng pagination.json và print_profile đã chốt. Xuất riêng reading.pdf và print.pdf; file ruột32trang, bìa trải theo gáy thực tế. Kiểm PDF Media/Trim/BleedBox, nhúng font, độ phân giải hiệu dụng và ICC theo nhà in; tạo delivery_manifest.json chứa hash mọi file. Không tự đặt PRINT_READY khi mới gắnDPI.",
       "evidence": [],
-      "last_note": "Reopen: Kiểm font thật phát hiện59tiếng cần5dòng cao32mm vượt hộp29mm; rút lời dẫn, giữ5từkhóa, không giảm font",
+      "last_note": "Reopen: Sửa khoảngtrắng cuối storyboard và lỗiđánhmáy trước push; giữ evidencev001",
       "block_reason": ""
     },
     {
@@ -1787,7 +1867,7 @@
       ],
       "instructions": "Chạy check --release sau khi các bước khác xong (trước RELEASE sẽ báo chưa hoàn tất là đúng). Mở toàn bộ32 trang ruột và4 mặt bìa; kiểm lỗi, file sửa được, manifesthash, nguồn/quyền, QA và hướng dẫn nhà in. Hoàn tất report RELEASE rồi chạy check --release phải đạt. Push main và đối chiếu SHA remote. Chỉ phát hành đúng phạm vi người dùng giao, không tự xuất bản thương mại.",
       "evidence": [],
-      "last_note": "Reopen: Kiểm font thật phát hiện59tiếng cần5dòng cao32mm vượt hộp29mm; rút lời dẫn, giữ5từkhóa, không giảm font",
+      "last_note": "Reopen: Sửa khoảngtrắng cuối storyboard và lỗiđánhmáy trước push; giữ evidencev001",
       "block_reason": ""
     }
   ],
@@ -1893,6 +1973,60 @@
       "task": "PAGE01_QA",
       "action": "finish",
       "note": "Trang01 hoànthành chuỗiTEXT→ART→LAYOUT→QA cho bảnđọc; chưaUSER_APPROVED/PRINT_READY"
+    },
+    {
+      "at": "2026-11-09T12:07:43+00:00",
+      "task": "SOURCE_EPILOGUE",
+      "action": "unblock",
+      "note": "Đã mở3nguồn chínhthống và lưuđối chiếu; sửađoạnkết rồi kiểm"
+    },
+    {
+      "at": "2026-11-09T12:07:43+00:00",
+      "task": "SOURCE_EPILOGUE",
+      "action": "start",
+      "note": "Chốt đối chiếu3nguồn và sửa storyboard27–28, giữphiênbảncũ"
+    },
+    {
+      "at": "2026-11-09T12:08:32+00:00",
+      "task": "SOURCE_EPILOGUE",
+      "action": "finish",
+      "note": "Đã xửlý nguồn27–28; côngtrìnhE14 vẫn làbiểu tượng, chưa khóaTEXT riêng"
+    },
+    {
+      "at": "2026-11-09T12:08:32+00:00",
+      "task": "PAGE02_TEXT",
+      "action": "start",
+      "note": "Đối chiếu scan07–10 đãmở; khóa lời dẫn huyềntích và TemplateB"
+    },
+    {
+      "at": "2026-11-09T12:09:15+00:00",
+      "task": "PAGE02_TEXT",
+      "action": "finish",
+      "note": "Khóa TEXT02 có nhãn huyềntích, giữ5cụmđỏ, khôngthoại"
+    },
+    {
+      "at": "2026-11-09T12:09:15+00:00",
+      "task": "SOURCE_EPILOGUE",
+      "action": "reopen",
+      "note": "Sửa khoảngtrắng cuối storyboard và lỗiđánhmáy trước push; giữ evidencev001"
+    },
+    {
+      "at": "2026-11-09T12:09:15+00:00",
+      "task": "SOURCE_EPILOGUE",
+      "action": "start",
+      "note": "Chỉnh văn bản hồ sơnguồn rồi kiểm trước finish"
+    },
+    {
+      "at": "2026-11-09T12:09:17+00:00",
+      "task": "SOURCE_EPILOGUE",
+      "action": "finish",
+      "note": "Nguồn27–28 đã kiểm và lưu; chữ riêng từngtrang tiếp tục theoqueue"
+    },
+    {
+      "at": "2026-11-09T12:09:17+00:00",
+      "task": "PAGE02_ART",
+      "action": "start",
+      "note": "Xem CHAR09/CHAR12/ENV01/PROP02/PROP04 trước tạo TemplateB"
     }
   ]
 }
