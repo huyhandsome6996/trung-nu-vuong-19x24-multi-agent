@@ -20,5 +20,6 @@ timezone: "Asia/Ho_Chi_Minh"
 | D-004 | Kết quả kiểm kê Git: 59 file = 26 MD + 32 JPG + .gitignore. | Mọi xác nhận “59 file” phải gắn commit nền; tổng file tăng khi bổ sung tài liệu. | Đã kiểm chứng. |
 | D-005 | Chỉ dẫn trực tiếp yêu cầu 10 bảng nhân vật, tạo/chốt trước trang 01–28. | Đề xuất bắt đầu bằng khóa hồ sơ và sheets; không tự tạo bìa/trang trước khi được chọn bước. | Chờ lệnh tạo ảnh. |
 | D-006 | Phát hiện mâu thuẫn có bằng chứng scan và hình học. | Ghi sổ vấn đề; không sửa dây chuyền nguyên tác/storyboard/prompt trong nhiệm vụ onboarding. | Chờ xử lý ở nhiệm vụ kế tiếp. |
+| D-007 | Chủ dự án yêu cầu bắt đầu sau onboarding. Chọn bước đầu có thể duyệt độc lập theo thứ tự character-first: Trưng Trắc với hai giai đoạn phục trang. | Đã sinh v001 và ghi IN_REVIEW; chưa coi lệnh bắt đầu là phê duyệt ngoại hình. | Đã tạo, chờ duyệt ảnh. |
 
 Khi thay quyết định: ghi mã mới, ngày, người quyết định, tài liệu/ảnh ảnh hưởng và quyết định nào được thay thế. Không ghi một đề xuất thành quyết định chủ dự án đã phê duyệt.

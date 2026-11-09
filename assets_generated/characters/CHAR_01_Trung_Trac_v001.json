@@ -1,0 +1,26 @@
+{
+  "project": "TRƯNG NỮ VƯƠNG",
+  "compartment": "04_art_direction_and_image_prompts",
+  "agent_author": "ChatGPT / AGENT-04 art production role",
+  "status": "IN_REVIEW",
+  "approval": "PENDING_USER_REVIEW",
+  "date": "2026-11-09",
+  "asset_id": "CHAR_01",
+  "version": "v001",
+  "character": "Trưng Trắc",
+  "variants": [
+    "Cổ Lôi: tang bào trắng",
+    "Hát Môn: giáp vàng đồng, chiến bào đỏ"
+  ],
+  "file": "assets_generated/characters/CHAR_01_Trung_Trac_v001.png",
+  "width_px": 1122,
+  "height_px": 1402,
+  "mode": "RGB",
+  "reported_dpi": null,
+  "sha256": "3387a36a801705d08b9eac3dd778aca3533fced07300db8188cd71439eeec3c3",
+  "generation_method": "built-in image_gen",
+  "prompt_and_review": "04_art_direction_and_image_prompts/production_logs/CHAR_01_Trung_Trac_v001.md",
+  "pixel_reference_inputs": [],
+  "print_ready": false,
+  "user_approved": false
+}

@@ -32,4 +32,4 @@ Ngăn vận hành bổ sung theo yêu cầu chủ dự án ngày 09/11/2026. Gi�
 
 ## Trạng thái tiếp tục
 
-**Đã hoàn tất onboarding; chưa tạo ảnh và chưa dựng trang.** Chờ chủ dự án chọn bước tiếp theo. Đề xuất khóa 10 bảng nhân vật trước; các xung đột ảnh hưởng nhân vật phải được giải quyết trước khi khóa.
+**Đã hoàn tất onboarding và bắt đầu giai đoạn nhân vật.** Trưng Trắc v001 đã được tạo, đang chờ chủ dự án duyệt; tổng **1/10 bảng đã tạo, 0/10 đã duyệt**. Chưa dựng trang truyện. Xem [tiến độ nhân vật](../assets_generated/characters/README.md); các xung đột ảnh hưởng nhân vật khác phải được giải quyết trước khi khóa.

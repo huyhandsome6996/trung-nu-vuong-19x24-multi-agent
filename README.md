@@ -52,4 +52,4 @@ Bất kỳ AI Agent nào khi được khởi chạy trên kho lưu trữ này **
 - [Form đầu ra tổng hợp](05_book_design_and_layout_19x24/STANDARD_OUTPUT_CONTRACT.md).
 - [Ngăn 08: Nhật ký, quyết định và kinh nghiệm](08_project_memory/README.md).
 
-**Trạng thái:** hoàn tất nạp dự án; chưa tạo hoặc chốt Character Sheets, chưa sinh tranh hay xuất sách. Có mâu thuẫn cần xử lý ở hồ sơ nhân vật, căn cứ nguồn và khuôn chế bản. Chờ chủ dự án chọn bước tiếp theo; đề xuất khóa 10 bảng nhân vật trước.
+**Trạng thái cập nhật:** đã bắt đầu giai đoạn nhân vật theo lệnh tiếp tục ngày 09/11/2026. Có **1/10 bảng được tạo (Trưng Trắc v001), 0/10 bảng được duyệt**; chưa sinh trang truyện hay xuất sách. Xem [bộ nhân vật và tiến độ](assets_generated/characters/README.md). Các mâu thuẫn được ghi trong sổ vấn đề vẫn cần xử lý trước phần sản xuất liên quan.

@@ -23,6 +23,17 @@ timezone: "Asia/Ho_Chi_Minh"
 - **Bàn giao:** chủ dự án chọn khóa 10 sheets hoặc ưu tiên bìa/trang 01; cần xử lý các vấn đề ảnh hưởng đầu ra trước sản xuất phần tương ứng.
 - **Git:** bản cập nhật chuẩn bị trên `agent-06/qa-review`. Xem `git log` để lấy SHA của commit chứa chính nhật ký này; SHA không tự chèn vào file cùng commit. Trạng thái remote phải được xác nhận sau push, không suy ra từ dòng nhật ký.
 
+## 2026-11-09 — ART-001 / Bắt đầu bảng nhân vật
+
+- **Yêu cầu mới:** chủ dự án yêu cầu bắt đầu làm truyện sau onboarding; tiếp tục tuân thủ nguyên tắc nhân vật trước trang truyện.
+- **Đã làm:** xem lại Bible, prompt Trưng Trắc và ảnh mẫu ngăn 07; sinh một sheet hai bộ trang phục bằng công cụ tạo ảnh tích hợp.
+- **Đầu ra:** [Trưng Trắc v001](../assets_generated/characters/CHAR_01_Trung_Trac_v001.png), [metadata](../assets_generated/characters/CHAR_01_Trung_Trac_v001.json), [prompt và kiểm tra](../04_art_direction_and_image_prompts/production_logs/CHAR_01_Trung_Trac_v001.md).
+- **Kiểm tra:** PNG giải mã được; hai khuôn mặt tương đồng; đủ hình toàn thân và đạo cụ; quan sát chưa thấy chữ hoặc watermark. Ảnh gốc 1122×1402 px, chưa gắn nhãn in 300 DPI.
+- **Giới hạn:** mũ bên phải đi vào vùng 20% đỉnh; sheet không dùng làm trang ruột; chưa có góc quay sau/nghiêng; chưa được chủ dự án duyệt.
+- **Tiến độ:** 1/10 sheets tạo, 0/10 duyệt; 0/28 trang truyện; các vấn đề onboarding chưa tự coi là được giải quyết.
+- **Git:** nhánh `agent-04/art-assets-part-1`, kế thừa hồ sơ onboarding; commit và trạng thái push đối chiếu qua Git. Không có token trong ảnh, metadata hoặc tài liệu.
+- **Bước tiếp:** chủ dự án duyệt/sửa Trưng Trắc trước khi dùng làm tham chiếu; tiếp tục các bảng theo cùng chất liệu.
+
 ## Mẫu ghi tiếp theo
 
 - Mã việc / ngày / người thực hiện.

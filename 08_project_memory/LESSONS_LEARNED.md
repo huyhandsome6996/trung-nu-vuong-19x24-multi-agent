@@ -43,3 +43,7 @@ Bible hướng dẫn nhận diện; storyboard khóa cảnh/chữ; prompt điề
 ## 8. Git phải giữ thay đổi nhỏ và bí mật ngoài repo
 
 **Cách làm:** dùng remote HTTPS sạch, nhánh QA và commit tài liệu theo phạm vi; chỉ xem push là xong sau khi đối chiếu SHA remote. Thông tin đăng nhập chỉ dùng tạm cho xác thực, không đưa vào docs hay log. **Bài học:** mỗi lần bàn giao ghi nhánh/commit; nếu push lỗi ghi đúng lỗi, không báo đã đồng bộ.
+
+## 9. Tạo mẫu đầu để duyệt ngoại hình, giữ nguyên bản gốc
+
+**Đã làm:** sheet Trưng Trắc v001 chứa cùng một gương mặt ở tang bào và giáp chiến, tên file có phiên bản, prompt nguyên văn và JSON kèm hash. **Quan sát:** nét mực/chì lên rõ nhưng vùng trống 20% không được giữ toàn bề ngang vì mũ lông vũ. **Bài học:** bảng nhân vật và nền trang truyện có công năng khác nhau; không gọi sheet là trang in sẵn. Đo kích thước thực tế sau sinh, chờ chủ dự án duyệt rồi mới dùng làm tham chiếu. Không tự resize để tạo cảm giác đạt độ phân giải in.
