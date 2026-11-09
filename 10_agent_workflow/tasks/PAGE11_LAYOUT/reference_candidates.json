@@ -1,0 +1,82 @@
+{
+  "page": 11,
+  "matrix": {
+    "page": 11,
+    "template": "A",
+    "characters": [
+      "NV07",
+      "NV08"
+    ],
+    "environments": [
+      "E06"
+    ],
+    "props": [
+      "P14"
+    ],
+    "note": "Bình minh pháp trường; hai cột",
+    "status": "NOT_GENERATED"
+  },
+  "identities": [
+    {
+      "id": "NV07",
+      "name": "Nguyễn Huyền",
+      "board": "CHAR06",
+      "positions": "Trái: NV07; phải: NV08"
+    },
+    {
+      "id": "NV08",
+      "name": "Trưng Định",
+      "board": "CHAR06",
+      "positions": "Trái: NV07; phải: NV08"
+    },
+    {
+      "id": "E06",
+      "name": "Cổng Bắc Luy Lâu / pháp trường",
+      "board": "ENV02",
+      "positions": "Từ trên xuống: E04,E05,E06"
+    },
+    {
+      "id": "P14",
+      "name": "Cột gỗ / dây trói sân",
+      "board": "PROP03",
+      "positions": "4x3 cells, left-to-right row-major"
+    }
+  ],
+  "candidates": [
+    {
+      "board": "CHAR01",
+      "path": "assets_generated/characters/CHAR_01_Trung_Trac_v001.png",
+      "sha256": "3387a36a801705d08b9eac3dd778aca3533fced07300db8188cd71439eeec3c3"
+    },
+    {
+      "board": "CHAR06",
+      "path": "assets_generated/design_system/CHAR06_v001.png",
+      "sha256": "076798401ff1f15f935f7b0a3e67258d340f5949a32e26154976e442e8ce7976"
+    },
+    {
+      "board": "ENV02",
+      "path": "assets_generated/design_system/ENV02_v001.png",
+      "sha256": "5395688c5ccad71ee13d9099a003d82fc7cbabee31d761454c7d58c6e05fbd63"
+    },
+    {
+      "board": "PROP03",
+      "path": "assets_generated/design_system/PROP03_v002.png",
+      "sha256": "bbe1fda90f147b08edfcffb67ddb2b263e0c3cda760b72d194432a312265200a"
+    },
+    {
+      "board": "ANIMAL01",
+      "path": "assets_generated/design_system/ANIMAL01_v001.png",
+      "sha256": "7dd2569d6c8bc3a6b78f11a588f82d2a26f7032b141fa702f9965240f6e28cf6"
+    },
+    {
+      "board": "ARMY01",
+      "path": "assets_generated/design_system/ARMY01_v001.png",
+      "sha256": "4f6b76dea97ac82cefce9338f51faaa00ee2501b3e63cb7197fb0ec4ef903ff7"
+    },
+    {
+      "board": "CHIEFS01",
+      "path": "assets_generated/design_system/CHIEFS01_v001.png",
+      "sha256": "11cfde4cac7fc720bacefc2ac66b390eceeff13a15362f0d4696a8e915ef1f05"
+    }
+  ]
+}

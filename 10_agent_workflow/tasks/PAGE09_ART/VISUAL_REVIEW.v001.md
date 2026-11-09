@@ -1,0 +1,1 @@
+Viewed new Template B output: ThiSách purple/tiger/shortbeard, LữThạch iron/fourdaggers fallen with broken spear, no gore; lower panel ThiSách and ĐinhLương brown/redband back-to-back, two hands on dao, arrows in earth. Top blank sky about18percent; layout expands header to20percent with uniform reviewed panel crops, not stretching. No text or balloons.

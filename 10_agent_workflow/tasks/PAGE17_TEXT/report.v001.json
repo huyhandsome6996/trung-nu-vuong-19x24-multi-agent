@@ -1,0 +1,20 @@
+{
+  "task_id": "PAGE17_TEXT",
+  "kind": "text",
+  "status": "passed",
+  "reviewer": "Codex",
+  "summary": "Opened source40–41/book251–252:3tablets,ceremonial censer,sisters with2teachers/3magistrates/17chiefs,Trắc supremecommander. Labels will be separately typeset in layout; raw tablets blank. Trắc red/bronze,Nhị navy/bronze, both white mourning bands. No dialogue.",
+  "checks": {
+    "source_alignment": "pass",
+    "narration_35_65": "pass",
+    "keywords_preserved": "pass",
+    "dialogue_locked": "pass",
+    "template_locked": "pass"
+  },
+  "artifacts": [
+    "10_agent_workflow/tasks/PAGE17_TEXT/text.v001.json",
+    "10_agent_workflow/tasks/PAGE17_TEXT/SOURCE_REVIEW.v001.md"
+  ],
+  "open_issues": [],
+  "reviewed_at": "2026-11-09T14:11:01.521799+00:00"
+}

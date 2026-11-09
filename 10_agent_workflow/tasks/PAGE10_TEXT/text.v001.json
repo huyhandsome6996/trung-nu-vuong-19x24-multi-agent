@@ -1,0 +1,17 @@
+{
+  "page": 10,
+  "template": "B",
+  "status": "locked",
+  "narration": "Tại **Cổ Lôi sơn trang**, mười bảy tộc trưởng **Mê Linh** tụ hội cùng **ba mươi thớt voi chiến**, **mười bảy chiếc trống đồng**. Nhận tin Chu Diên, **Trưng Trắc** đau đớn vì **cha bị cầm tù, chồng bị giết hại**, rồi xin sư phụ bàn kế cứu nước.",
+  "dialogues": [
+    {
+      "speaker": "Trưng Trắc",
+      "text": "Phụ thân bị bắt, phu quân vì nước hy sinh... Thù nhà nợ nước này, Trưng nhi thề quyết trả!"
+    }
+  ],
+  "dialogues_status": "locked",
+  "storyboard_path": "03_storyboards_and_scripts/STORYBOARD_PART_1_HOI_7_CHU_DIEN.md",
+  "storyboard_sha256": "feeb2f262326699f209d4f2a170aed13bf30f10327df13b9e178cfcc0cce91aa",
+  "source_notes": "Opened source24–25/book235–236: CổLôi30 elephants,17drums,17chiefs, not HátMôn8. Trắc receives massacre news, father presumed doomed while imprisoned; wording keeps her current knowledge, not a second execution. ĐôNăngTế male/graybeard, CẩmNương female. Full storyboard dialogue.",
+  "note": "Whitespace count checked; full storyboard dialogue retained; keywords retained except explicitly documented source corrections."
+}

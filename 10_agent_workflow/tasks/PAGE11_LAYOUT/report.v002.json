@@ -1,0 +1,25 @@
+{
+  "task_id": "PAGE11_LAYOUT",
+  "kind": "layout",
+  "status": "passed",
+  "reviewer": "Codex",
+  "summary": "Opened both versions and corrected tails: anchors now approach mouth corners from outside, leaving eyes readable; exact two full quotes, correct speaker sides. Five red narration spans, four lines; no gore, no overflow; embedded Vietnamese fonts and standard PDF boxes. v001 tails rejected and retained.",
+  "checks": {
+    "vietnamese_fonts": "pass",
+    "red_keywords": "pass",
+    "safe_text": "pass",
+    "bleed_geometry": "pass",
+    "no_overflow": "pass",
+    "speech_placement": "pass"
+  },
+  "artifacts": [
+    "final_book_19x24/source/PAGE11_v002.svg",
+    "final_book_19x24/proofs/PAGE11_v002.pdf",
+    "final_book_19x24/proofs/PAGE11_v002.png",
+    "final_book_19x24/proofs/PAGE11_v002.json",
+    "final_book_19x24/reading/PAGE11_v002.pdf",
+    "final_book_19x24/source/PAGE11_placement.v002.json"
+  ],
+  "open_issues": [],
+  "reviewed_at": "2026-11-09T14:19:30.048410+00:00"
+}

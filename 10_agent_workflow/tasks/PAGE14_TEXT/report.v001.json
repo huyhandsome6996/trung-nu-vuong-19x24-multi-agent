@@ -1,0 +1,20 @@
+{
+  "task_id": "PAGE14_TEXT",
+  "kind": "text",
+  "status": "passed",
+  "reviewer": "Codex",
+  "summary": "Opened source33–34/book244–245: collective shout exactly corresponding to storyboard. Editorial correction: remove unsupported absolute superlative vĩ đại nhất lịch sử from final keyword, retain cuộc tổng khởi nghĩa in red. Storyboard file remains immutable to preserve earlier lock hashes. Collective art may show only part of17chiefs/17drums/30elephants; no claim of complete visual count.",
+  "checks": {
+    "source_alignment": "pass",
+    "narration_35_65": "pass",
+    "keywords_preserved": "pass",
+    "dialogue_locked": "pass",
+    "template_locked": "pass"
+  },
+  "artifacts": [
+    "10_agent_workflow/tasks/PAGE14_TEXT/text.v001.json",
+    "10_agent_workflow/tasks/PAGE14_TEXT/SOURCE_REVIEW.v001.md"
+  ],
+  "open_issues": [],
+  "reviewed_at": "2026-11-09T14:11:00.710564+00:00"
+}

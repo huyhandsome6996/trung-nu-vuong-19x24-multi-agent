@@ -1,0 +1,22 @@
+{
+  "image": "assets_generated/raw_pages/PAGE11_v001.png",
+  "version": "v001",
+  "native_size_px": [
+    1122,
+    1402
+  ],
+  "sha256": "bea192ac390370bebd4314c3f150234e9f1dfc694d7aebcb4f92c8f6b5b39207",
+  "prompt": "Use case: identity-preserve. Reproduce recovered PAGE11 as a newly logged text-free raw illustration. Preserve the composition, identities and outfits: Nguyễn Huyền left green/cream robe long white beard, Trưng Định right navy/gold robe forked black-and-gray beard. Both bound in front beside separate wooden posts before Luy Lâu northern gate, laughing bravely before execution. Exactly two protagonists, guards below atleft. Preserve quiet pale sunrise TOP40% for narration and two later speech balloons, main faces aroundy43%..50%, lower-right corner empty stage timber for folio. No wounds, blood, severedparts, coffin details or graphic violence. Crisp ink hatching and vivid watercolor, portrait4:5, high native detail. No text, letters, labels, balloons, boxes, watermark. Keep hands, ropes, faces anatomically coherent and consistent with reference.",
+  "actual_references": [
+    {
+      "path": "assets_generated/recovered_session/PAGE11_recovered_001.png",
+      "sha256": "5712ce35e1d86ba6ee0b98d2ec66e8aa90c79655674f85e451403db032f0c7ef"
+    }
+  ],
+  "generator": "image_gen.imagegen (model not exposed)",
+  "text_free": true,
+  "top_clearance_checked": true,
+  "visual_qa_report": "10_agent_workflow/tasks/PAGE11_ART/VISUAL_REVIEW.v001.md",
+  "user_approved": false,
+  "print_ready": false
+}

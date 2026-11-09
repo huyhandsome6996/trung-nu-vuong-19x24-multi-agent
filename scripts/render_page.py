@@ -129,12 +129,13 @@ def run(text_path, raw_path, version, placement_path=None):
         if not(sx<=bx and sy<=by and bx+bw<=sx+sw and by+bh<=sy+sh):raise ValueError('Speech outside safe zone')
         cx=bx+bw/2;cy=by+bh/2
         letter=placement.get('style')=='letter'
-        p=c.beginPath();p.moveTo((cx)*mm+3*mm,(height-cy-3)*mm);p.lineTo((tx+3)*mm,(height-ty-3)*mm);p.lineTo((cx+6+3)*mm,(height-cy-3)*mm);p.close()
+        rx,ry=placement.get('tail_root_mm',[cx,cy])
+        p=c.beginPath();p.moveTo((rx+3)*mm,(height-ry-3)*mm);p.lineTo((tx+3)*mm,(height-ty-3)*mm);p.lineTo((rx+6+3)*mm,(height-ry-3)*mm);p.close()
         fill='#FFF8DD' if letter else '#FFFFFF';radius=1 if letter else 6
         c.setFillColor(fill);c.setStrokeColor('#1A1A1A');c.setLineWidth(.4*mm)
         if not letter:
             c.drawPath(p,fill=1,stroke=1)
-            svg.append(f'<path d="M{cx+3} {cy+3} L{tx+3} {ty+3} L{cx+9} {cy+3}Z" fill="white" stroke="#1A1A1A" stroke-width=".4"/>')
+            svg.append(f'<path d="M{rx+3} {ry+3} L{tx+3} {ty+3} L{rx+9} {ry+3}Z" fill="white" stroke="#1A1A1A" stroke-width=".4"/>')
         c.roundRect((bx+3)*mm,(height-by-bh-3)*mm,bw*mm,bh*mm,radius*mm,fill=1,stroke=1)
         svg.append(f'<rect x="{bx+3}" y="{by+3}" width="{bw}" height="{bh}" rx="{radius}" fill="{fill}" stroke="#1A1A1A" stroke-width=".4"/>')
         draw_text(dialogue['text'],[bx+3,by+2.5,bw-6,bh-5],10.8,13.2,f'speech_{i}')

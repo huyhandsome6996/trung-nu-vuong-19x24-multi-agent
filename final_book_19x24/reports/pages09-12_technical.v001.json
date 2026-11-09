@@ -1,0 +1,42 @@
+[
+  {
+    "page": 9,
+    "version": 2,
+    "full_dialogues_match": true,
+    "embedded_fonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+NotoSans-Bold                 TrueType          WinAnsi          yes yes yes      7  0\nAAAAAA+NotoSans-Regular              TrueType          WinAnsi          yes yes yes     11  0\n",
+    "trim_mm": [
+      190.0,
+      240.0
+    ]
+  },
+  {
+    "page": 10,
+    "version": 1,
+    "full_dialogues_match": true,
+    "embedded_fonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+NotoSans-Regular              TrueType          WinAnsi          yes yes yes      7  0\nAAAAAA+NotoSans-Bold                 TrueType          WinAnsi          yes yes yes     11  0\n",
+    "trim_mm": [
+      190.0,
+      240.0
+    ]
+  },
+  {
+    "page": 11,
+    "version": 2,
+    "full_dialogues_match": true,
+    "embedded_fonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+NotoSans-Regular              TrueType          WinAnsi          yes yes yes      7  0\nAAAAAA+NotoSans-Bold                 TrueType          WinAnsi          yes yes yes     11  0\n",
+    "trim_mm": [
+      190.0,
+      240.0
+    ]
+  },
+  {
+    "page": 12,
+    "version": 1,
+    "full_dialogues_match": true,
+    "embedded_fonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+NotoSans-Regular              TrueType          WinAnsi          yes yes yes      7  0\nAAAAAA+NotoSans-Bold                 TrueType          WinAnsi          yes yes yes     11  0\n",
+    "trim_mm": [
+      190.0,
+      240.0
+    ]
+  }
+]

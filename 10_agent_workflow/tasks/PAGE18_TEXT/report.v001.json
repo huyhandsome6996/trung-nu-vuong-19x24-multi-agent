@@ -1,0 +1,20 @@
+{
+  "task_id": "PAGE18_TEXT",
+  "kind": "text",
+  "status": "passed",
+  "reviewer": "Codex",
+  "summary": "Opened source41–42/book252–253: ceremonial proclamation quoted inside novel; source footnote theo ThiênNamvănlục. Storyboard dialogue is condensed/adapted, NOT verbatim entire ancient proclamation despite old heading. Preserve all adapted dialogue exactly and record distinction here. Four red keywords retained. No claim of actual historical transcript.",
+  "checks": {
+    "source_alignment": "pass",
+    "narration_35_65": "pass",
+    "keywords_preserved": "pass",
+    "dialogue_locked": "pass",
+    "template_locked": "pass"
+  },
+  "artifacts": [
+    "10_agent_workflow/tasks/PAGE18_TEXT/text.v001.json",
+    "10_agent_workflow/tasks/PAGE18_TEXT/SOURCE_REVIEW.v001.md"
+  ],
+  "open_issues": [],
+  "reviewed_at": "2026-11-09T14:11:01.742157+00:00"
+}

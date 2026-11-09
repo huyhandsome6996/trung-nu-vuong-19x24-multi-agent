@@ -1,0 +1,101 @@
+{
+  "page": 13,
+  "matrix": {
+    "page": 13,
+    "template": "A",
+    "characters": [
+      "NV01",
+      "NV02",
+      "NV09",
+      "NV10"
+    ],
+    "environments": [
+      "E07"
+    ],
+    "props": [
+      "P01"
+    ],
+    "note": "Trưng Trắc áo trắng, mắt khô",
+    "status": "NOT_GENERATED"
+  },
+  "identities": [
+    {
+      "id": "NV01",
+      "name": "Trưng Trắc",
+      "board": "CHAR01",
+      "positions": "Xem IMAGE_CATALOG.md"
+    },
+    {
+      "id": "NV02",
+      "name": "Trưng Nhị",
+      "board": "CHAR02",
+      "positions": "Trái: đứng; phải: thủ kiếm; giữa: mặt"
+    },
+    {
+      "id": "NV09",
+      "name": "Đô Năng Tế",
+      "board": "CHAR07",
+      "positions": "Trái: NV09 nam có râu; phải: NV10 nữ"
+    },
+    {
+      "id": "NV10",
+      "name": "Cẩm Nương",
+      "board": "CHAR07",
+      "positions": "Trái: NV09 nam có râu; phải: NV10 nữ"
+    },
+    {
+      "id": "E07",
+      "name": "Cổ Lôi sơn trang",
+      "board": "ENV03",
+      "positions": "Từ trên xuống: E07,E08,E09"
+    },
+    {
+      "id": "P01",
+      "name": "Kiếm chỉ huy Trưng Trắc",
+      "board": "PROP01",
+      "positions": "4x3 cells, left-to-right row-major; see mapping in catalog"
+    }
+  ],
+  "candidates": [
+    {
+      "board": "CHAR01",
+      "path": "assets_generated/characters/CHAR_01_Trung_Trac_v001.png",
+      "sha256": "3387a36a801705d08b9eac3dd778aca3533fced07300db8188cd71439eeec3c3"
+    },
+    {
+      "board": "CHAR02",
+      "path": "assets_generated/design_system/CHAR02_v001.png",
+      "sha256": "f4075fc661a51398efee50470805fca95a86a76ee66ec00909ba1058818ff4c7"
+    },
+    {
+      "board": "CHAR07",
+      "path": "assets_generated/design_system/CHAR07_v001.png",
+      "sha256": "2cd6a715af4eb27b42d6e597802431805b690c2f0c93cd31f788c10d3b3dadc3"
+    },
+    {
+      "board": "ENV03",
+      "path": "assets_generated/design_system/ENV03_v001.png",
+      "sha256": "fd58bd1e71c22e4bec7a0f54bb9ec6cec0b15ab0da5e0c8979c26e95bad6b929"
+    },
+    {
+      "board": "PROP01",
+      "path": "assets_generated/design_system/PROP01_v001.png",
+      "sha256": "8ac9a5f41d435726a72baf456d67dd3612cb3cd466e5f9b4f8f3794ee14f5a55"
+    },
+    {
+      "board": "ANIMAL01",
+      "path": "assets_generated/design_system/ANIMAL01_v001.png",
+      "sha256": "7dd2569d6c8bc3a6b78f11a588f82d2a26f7032b141fa702f9965240f6e28cf6"
+    },
+    {
+      "board": "ARMY01",
+      "path": "assets_generated/design_system/ARMY01_v001.png",
+      "sha256": "4f6b76dea97ac82cefce9338f51faaa00ee2501b3e63cb7197fb0ec4ef903ff7"
+    },
+    {
+      "board": "CHIEFS01",
+      "path": "assets_generated/design_system/CHIEFS01_v001.png",
+      "sha256": "11cfde4cac7fc720bacefc2ac66b390eceeff13a15362f0d4696a8e915ef1f05"
+    }
+  ]
+}

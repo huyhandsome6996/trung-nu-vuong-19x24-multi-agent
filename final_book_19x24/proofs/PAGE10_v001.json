@@ -1,0 +1,107 @@
+{
+  "page": 10,
+  "version": "v001",
+  "print_ready": false,
+  "user_approved": false,
+  "renderer": "ReportLab / vector text; PDF rendered separately with Poppler",
+  "native_size_px": [
+    1122,
+    1402
+  ],
+  "art_effective_dpi": [
+    134.47058823529412,
+    125.72999999999999,
+    145.40204081632652
+  ],
+  "crop_mm": [
+    0.4350927246790235,
+    0.0
+  ],
+  "missing_glyphs": [],
+  "boxes": [
+    {
+      "kind": "narration",
+      "bbox_mm": [
+        18,
+        14,
+        154,
+        29
+      ],
+      "font_pt": 12.8,
+      "lines": 4,
+      "text_height_mm": 25.64835555555555,
+      "max_width_mm": 150.80600888888887,
+      "overflow": false
+    },
+    {
+      "kind": "speech_0",
+      "bbox_mm": [
+        59,
+        137.5,
+        108,
+        19
+      ],
+      "font_pt": 10.8,
+      "lines": 2,
+      "text_height_mm": 9.313333333333333,
+      "max_width_mm": 98.83901999999999,
+      "overflow": false
+    }
+  ],
+  "manual_panel_placements": [
+    {
+      "source_crop_px": [
+        0,
+        0,
+        1122,
+        270
+      ],
+      "bbox_mm": [
+        -3,
+        -3,
+        196,
+        51
+      ],
+      "effective_dpi": 134.47058823529412,
+      "uniform_scale": true
+    },
+    {
+      "source_crop_px": [
+        0,
+        278,
+        1122,
+        674
+      ],
+      "bbox_mm": [
+        -3,
+        48,
+        196,
+        80
+      ],
+      "effective_dpi": 125.72999999999999,
+      "uniform_scale": true
+    },
+    {
+      "source_crop_px": [
+        0,
+        684,
+        1122,
+        1402
+      ],
+      "bbox_mm": [
+        -3,
+        131.5,
+        196,
+        111.5
+      ],
+      "effective_dpi": 145.40204081632652,
+      "uniform_scale": true
+    }
+  ],
+  "pdf_text_matches": true,
+  "hashes": {
+    "svg": "6e1a7269e88d6974e32673b6d9c9d22203aa9c0ccb857613c719d47002ff3212",
+    "pdf": "bc0bf59a0e97061b6781dc704a0ffcc0cd678293edd70cdeec9592580f40b513",
+    "reading": "4138a5a3b747af1fe281fa5ed01609dc8a051388d8c96dc210796cf04b107b30"
+  }
+}

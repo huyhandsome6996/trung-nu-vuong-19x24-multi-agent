@@ -1,0 +1,20 @@
+{
+  "task_id": "PAGE12_TEXT",
+  "kind": "text",
+  "status": "passed",
+  "reviewer": "Codex",
+  "summary": "Opened source29–31/book240–242: LêĐạo arrives with black hawk and bamboo tube; ĐàoChiêuHiển, PhạmDanhHương follow. Renunciation is an editorial summary of leaving office. Phạm carries white whisk; full adapted quote preserved, three TemplateC scenes.",
+  "checks": {
+    "source_alignment": "pass",
+    "narration_35_65": "pass",
+    "keywords_preserved": "pass",
+    "dialogue_locked": "pass",
+    "template_locked": "pass"
+  },
+  "artifacts": [
+    "10_agent_workflow/tasks/PAGE12_TEXT/text.v001.json",
+    "10_agent_workflow/tasks/PAGE12_TEXT/SOURCE_REVIEW.v001.md"
+  ],
+  "open_issues": [],
+  "reviewed_at": "2026-11-09T14:04:26.441171+00:00"
+}

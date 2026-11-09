@@ -1,0 +1,20 @@
+{
+  "task_id": "PAGE16_TEXT",
+  "kind": "text",
+  "status": "passed",
+  "reviewer": "Codex",
+  "summary": "Opened source39–40/book250–251: altar>2trượng,99flags,8male elephants with white tusks. IMPORTANT source correction to storyboard:16 refers to oars per boat; fleet is hơn trăm chiếc, NOT160boats. Replace final red keyword một trăm sáu mươi chiến thuyền with hơn một trăm chiến thuyền. Keep eight elephants count visible in art; fleet and flags may extend beyond frame. No dialogue.",
+  "checks": {
+    "source_alignment": "pass",
+    "narration_35_65": "pass",
+    "keywords_preserved": "pass",
+    "dialogue_locked": "pass",
+    "template_locked": "pass"
+  },
+  "artifacts": [
+    "10_agent_workflow/tasks/PAGE16_TEXT/text.v001.json",
+    "10_agent_workflow/tasks/PAGE16_TEXT/SOURCE_REVIEW.v001.md"
+  ],
+  "open_issues": [],
+  "reviewed_at": "2026-11-09T14:11:01.306750+00:00"
+}

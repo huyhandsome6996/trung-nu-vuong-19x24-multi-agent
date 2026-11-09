@@ -1,0 +1,15 @@
+{
+  "task_id": "FRONT_MATTER",
+  "kind": "frontmatter",
+  "status": "draft",
+  "reviewer": "",
+  "summary": "",
+  "checks": {
+    "pagination": "not_checked",
+    "text": "not_checked",
+    "rights": "not_checked"
+  },
+  "artifacts": [],
+  "open_issues": [],
+  "reviewed_at": ""
+}

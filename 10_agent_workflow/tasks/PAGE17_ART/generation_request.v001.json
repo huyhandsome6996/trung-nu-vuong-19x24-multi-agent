@@ -1,0 +1,20 @@
+{
+  "page": 17,
+  "refs": [
+    "assets_generated/characters/CHAR_01_Trung_Trac_v001.png",
+    "assets_generated/design_system/CHAR02_v001.png",
+    "assets_generated/design_system/PROP02_v001.png",
+    "assets_generated/design_system/ENV03_v001.png",
+    "assets_generated/design_system/CHAR07_v001.png"
+  ],
+  "scene": "PAGE17 Template B two horizontal scenes separated near53%. Upper y22–53%: solemn CLOSEUP of ancient open bronze ceremonial censer with incense and THREE upright BLANK redgold memorial tablets: one taller CENTER, two smaller left/right. Tablets broad blank surfaces, all three completely visible, no inscriptions. Bronze censer belongs to ritual, not teapot; no glass. Lower y55–100%: TrưngTrắc atleftcenter in ref1 RIGHT RED/bronze armor, feathered golddiadem and WHITE mourning band; TrưngNhị at rightcenter in ref2 NAVY/bronze armor, golddiadem+WHITE mourning band. Both climb altar stone/wooden steps upright at HátMôn, feet fully visible. Ref5 two teachers male longbeardnavy and olderwomanpurple follow fartherback; distant officials/chiefs not crowding foreground. Lowangle warm spring sun, joyous solemn ceremony. Heads of lower women aroundy68%, weapons sheathed to avoid upperpanel. Center altar tablet faces must remain blank for later typeset names.",
+  "prompt": "Use case: historical-scene / illustration-story. Text-free Vietnamese historical-legend illustrated book for ages13–16. Portrait4:5 page, high native detail, sharp ink hatching and rich luminous controlled watercolor, mature heroic emotional storytelling matching the supplied design sheets. Keep exact facial structure, body type and costume colors from named reference positions. TOP20%canvas must be quiet pale atmosphere with NO heads, hands, weapons or important roofs; later Vietnamese parchment narration is typeset separately. Absolutely NO writing/letters anywhere, no captions, no speech balloons, no watermark/signature. Natural attached hands, normal limbs, mechanically connected weapons. No modern objects, no gore. Keep important faces/feet inside 8–92%width and belowy28% but above94%height. PAGE17 Template B two horizontal scenes separated near53%. Upper y22–53%: solemn CLOSEUP of ancient open bronze ceremonial censer with incense and THREE upright BLANK redgold memorial tablets: one taller CENTER, two smaller left/right. Tablets broad blank surfaces, all three completely visible, no inscriptions. Bronze censer belongs to ritual, not teapot; no glass. Lower y55–100%: TrưngTrắc atleftcenter in ref1 RIGHT RED/bronze armor, feathered golddiadem and WHITE mourning band; TrưngNhị at rightcenter in ref2 NAVY/bronze armor, golddiadem+WHITE mourning band. Both climb altar stone/wooden steps upright at HátMôn, feet fully visible. Ref5 two teachers male longbeardnavy and olderwomanpurple follow fartherback; distant officials/chiefs not crowding foreground. Lowangle warm spring sun, joyous solemn ceremony. Heads of lower women aroundy68%, weapons sheathed to avoid upperpanel. Center altar tablet faces must remain blank for later typeset names.",
+  "actual_reference_paths": [
+    "assets_generated/characters/CHAR_01_Trung_Trac_v001.png",
+    "assets_generated/design_system/CHAR02_v001.png",
+    "assets_generated/design_system/PROP02_v001.png",
+    "assets_generated/design_system/ENV03_v001.png",
+    "assets_generated/design_system/CHAR07_v001.png"
+  ],
+  "generator": "image_gen.imagegen"
+}

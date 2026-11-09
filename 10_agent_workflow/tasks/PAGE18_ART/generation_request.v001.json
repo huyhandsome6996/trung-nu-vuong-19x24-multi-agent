@@ -1,0 +1,20 @@
+{
+  "page": 18,
+  "refs": [
+    "assets_generated/characters/CHAR_01_Trung_Trac_v001.png",
+    "assets_generated/design_system/CHAR02_v001.png",
+    "assets_generated/design_system/CHAR07_v001.png",
+    "assets_generated/design_system/ENV03_v001.png",
+    "assets_generated/design_system/PROP01_v001.png"
+  ],
+  "scene": "PAGE18 Template A iconic oath at HátMôn. TrưngTrắc ref1 RIGHT red/bronze armor, feathergold diadem+WHITE mourning band stands centerleft x40%,face aroundy55%, one hand holds open BLANK bamboo proclamation, other holds ancestral sword upright with tip BELOWy42%. TrưngNhị navy/bronze armor and white mourningband stands rightbehind lower, two teachers malegraybeardnavy and olderpurplewoman fartherback onaltar, distant ranks underblankflags downbelow. Allow generous quiet sky x10–90%,y22–43% for a large later speech balloon containing entire proclamation (about56words). Do NOT draw the balloon or letters. Main women's faces belowy48%, allhands and swordgrips visible belowy45%; no weapons cross quiet speecharea. Heroic lowcamera, grayblue river and bronze drums distant, wind moves redcape/whiteband, confidence rather than rage. Correct swordstraightblade, no magicalfire.",
+  "prompt": "Use case: historical-scene / illustration-story. Text-free Vietnamese historical-legend illustrated book for ages13–16. Portrait4:5 page, high native detail, sharp ink hatching and rich luminous controlled watercolor, mature heroic emotional storytelling matching the supplied design sheets. Keep exact facial structure, body type and costume colors from named reference positions. TOP20%canvas must be quiet pale atmosphere with NO heads, hands, weapons or important roofs; later Vietnamese parchment narration is typeset separately. Absolutely NO writing/letters anywhere, no captions, no speech balloons, no watermark/signature. Natural attached hands, normal limbs, mechanically connected weapons. No modern objects, no gore. Keep important faces/feet inside 8–92%width and belowy28% but above94%height. PAGE18 Template A iconic oath at HátMôn. TrưngTrắc ref1 RIGHT red/bronze armor, feathergold diadem+WHITE mourning band stands centerleft x40%,face aroundy55%, one hand holds open BLANK bamboo proclamation, other holds ancestral sword upright with tip BELOWy42%. TrưngNhị navy/bronze armor and white mourningband stands rightbehind lower, two teachers malegraybeardnavy and olderpurplewoman fartherback onaltar, distant ranks underblankflags downbelow. Allow generous quiet sky x10–90%,y22–43% for a large later speech balloon containing entire proclamation (about56words). Do NOT draw the balloon or letters. Main women's faces belowy48%, allhands and swordgrips visible belowy45%; no weapons cross quiet speecharea. Heroic lowcamera, grayblue river and bronze drums distant, wind moves redcape/whiteband, confidence rather than rage. Correct swordstraightblade, no magicalfire.",
+  "actual_reference_paths": [
+    "assets_generated/characters/CHAR_01_Trung_Trac_v001.png",
+    "assets_generated/design_system/CHAR02_v001.png",
+    "assets_generated/design_system/CHAR07_v001.png",
+    "assets_generated/design_system/ENV03_v001.png",
+    "assets_generated/design_system/PROP01_v001.png"
+  ],
+  "generator": "image_gen.imagegen"
+}

@@ -1,0 +1,20 @@
+{
+  "task_id": "PAGE09_TEXT",
+  "kind": "text",
+  "status": "passed",
+  "reviewer": "Codex",
+  "summary": "Opened contact sheet19–24, source22–23/book233–234: LữThạch dies, 200+ rescuers led byĐinhLương enter; ThiSách and all remaining defenders die. Condensed graphic killing to hạ gục, art shows last stand without gore. No PhùngThịChính in this massacre. Full adapted quote from storyboard retained.",
+  "checks": {
+    "source_alignment": "pass",
+    "narration_35_65": "pass",
+    "keywords_preserved": "pass",
+    "dialogue_locked": "pass",
+    "template_locked": "pass"
+  },
+  "artifacts": [
+    "10_agent_workflow/tasks/PAGE09_TEXT/text.v001.json",
+    "10_agent_workflow/tasks/PAGE09_TEXT/SOURCE_REVIEW.v001.md"
+  ],
+  "open_issues": [],
+  "reviewed_at": "2026-11-09T14:04:25.634395+00:00"
+}

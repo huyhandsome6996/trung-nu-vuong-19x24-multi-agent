@@ -1,0 +1,22 @@
+{
+  "page": 12,
+  "dialogues": [
+    {
+      "speaker": "Phạm Danh Hương",
+      "bbox_mm": [
+        18,
+        178,
+        82,
+        29
+      ],
+      "tail_mm": [
+        115,
+        187
+      ],
+      "tail_root_mm": [
+        93,
+        194
+      ]
+    }
+  ]
+}

@@ -139,3 +139,10 @@ timezone: "Asia/Ho_Chi_Minh"
 - PAGE07 fresh logged v004 retains corrected bowstring and minor soldier turned away; finished LAYOUTv002/QA. Taller TemplateB upper panel preserves bow and quote. PAGE08 recovered v002 exact edit prompt and input path available; finished LAYOUT/QA v001.
 - Opened both final renders, verified fonts and full quote/page07. Eight-page reading checkpoint and manifest created.
 - Original prompts for09–12 were not committed; do not invent them. Keep recovered outputs pending and use in fresh logged tool calls before ART acceptance. Continue09TEXT. Printer remains blocked.
+
+## 2026-11-09 — Pages09–12 verified; text13–18 locked
+
+- Fresh logged reference-based renders replace unauditable recovered prompt provenance for09–12. All four pages finished TEXT→ART→LAYOUT→QA. Exact full PDF dialogue, embedded Noto fonts and geometry checked; every final render opened. Rejected larger balloon09 and tails11/12 retained in earlier versions.
+- Twelve-page reading checkpoint created with source SVG, raw PNG, placement JSON, proofs/reports. Native raster remains below300DPI; not print-ready/user-approved.
+- TEXT13–18 locked against scans32–42. Corrected unsupported superlative14, chronology15 (>10days), and16: source says morethan100boats;16is oars perboat, not160boats. No storyboard-file mutation that would invalidate earlier locks.
+- Six exact requests13–18 saved, baseline pixels viewed; image calls pending. Continue returned outputs and complete layouts; do not mark timeout as success without actual file/pixel review.

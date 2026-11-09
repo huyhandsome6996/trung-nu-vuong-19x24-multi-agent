@@ -1,0 +1,2 @@
+Opened source39–40/book250–251: altar>2trượng,99flags,8male elephants with white tusks. IMPORTANT source correction to storyboard:16 refers to oars per boat; fleet is hơn trăm chiếc, NOT160boats. Replace final red keyword một trăm sáu mươi chiến thuyền with hơn một trăm chiến thuyền. Keep eight elephants count visible in art; fleet and flags may extend beyond frame. No dialogue.
+Narration tokens=51; complete dialogue count=0.

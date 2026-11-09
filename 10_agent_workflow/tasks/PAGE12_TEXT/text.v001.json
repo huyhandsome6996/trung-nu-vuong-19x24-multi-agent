@@ -1,0 +1,17 @@
+{
+  "page": 12,
+  "template": "C",
+  "status": "locked",
+  "narration": "Tin dữ từ Chu Diên và Luy Lâu **rung chuyển toàn cõi Giao Chỉ**. **Lê Đạo**, **Đào Chiêu Hiển**, **Phạm Danh Hương** quyết **trút bỏ ấn quan nhà Hán**, đưa binh lương về **Cổ Lôi sơn trang**. Ba vị huyện lệnh cùng chung ý chí khởi nghĩa.",
+  "dialogues": [
+    {
+      "speaker": "Phạm Danh Hương",
+      "text": "Lão hủ xem tinh tượng biết khí vận nước Nam đã tới, xin dâng toàn bộ binh lương theo chủ công khởi nghĩa!"
+    }
+  ],
+  "dialogues_status": "locked",
+  "storyboard_path": "03_storyboards_and_scripts/STORYBOARD_PART_1_HOI_7_CHU_DIEN.md",
+  "storyboard_sha256": "feeb2f262326699f209d4f2a170aed13bf30f10327df13b9e178cfcc0cce91aa",
+  "source_notes": "Opened source29–31/book240–242: LêĐạo arrives with black hawk and bamboo tube; ĐàoChiêuHiển, PhạmDanhHương follow. Renunciation is an editorial summary of leaving office. Phạm carries white whisk; full adapted quote preserved, three TemplateC scenes.",
+  "note": "Whitespace count checked; full storyboard dialogue retained; keywords retained except explicitly documented source corrections."
+}

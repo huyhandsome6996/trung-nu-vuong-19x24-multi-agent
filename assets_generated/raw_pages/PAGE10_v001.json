@@ -1,0 +1,22 @@
+{
+  "image": "assets_generated/raw_pages/PAGE10_v001.png",
+  "version": "v001",
+  "native_size_px": [
+    1122,
+    1402
+  ],
+  "sha256": "4721c14bd7eaef6f8f74de55500cfa5d680e4525ba9a596dc685f36922d73332",
+  "prompt": "Use case: identity-preserve. PAGE10 Vietnamese book raw illustration. Use recovered image for identity, costumes, camp and room design. Retain Template B upper panorama of Cổ Lôi camp at night, elephant enclosure and bronze drums extending beyond view (part of30 elephants/17 drums, not exactly8). Lower panel intimate room: left Đô Năng Tế MALE long graybeard/navy/staff, center-left white mourning-clad Trưng Trắc holding message in grief, center-right Trưng Nhị navy robe white mourning band gently holding her sister's hand, right older woman Cẩm Nương purple/bamboo slips. Make TOP20%canvas calm empty pale moonlit sky for separate narration. Camp panel20–53%, room55–100%; leave bare wooden wall y56–68% for later dialogue before named heads belowy70%. Exactly four named people, threewomen/oneman. Hands attached, message blank. Faithful expressive faces, no blood. Crisp ink+watercolor portrait4:5, highest native detail. No text, letters, captions, speech balloons, watermark or signature.",
+  "actual_references": [
+    {
+      "path": "assets_generated/recovered_session/PAGE10_recovered_001.png",
+      "sha256": "c8f94a1090f28983fa58b0d1db243c1970255d846ad0e53bf4fd4e7dd415255f"
+    }
+  ],
+  "generator": "image_gen.imagegen (model not exposed)",
+  "text_free": true,
+  "top_clearance_checked": true,
+  "visual_qa_report": "10_agent_workflow/tasks/PAGE10_ART/VISUAL_REVIEW.v001.md",
+  "user_approved": false,
+  "print_ready": false
+}

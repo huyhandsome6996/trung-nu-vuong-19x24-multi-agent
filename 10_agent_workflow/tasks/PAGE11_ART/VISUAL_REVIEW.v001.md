@@ -1,0 +1,1 @@
+Opened new output directly: separate posts, NguyễnHuyền green/longwhitebeard atleft, TrưngĐịnh navy/forkbeard atright; both laugh before execution, bound hands intact. Guards belowleft; lower-right stage blank for folio. Top40percent open sky. No graphic violence or text.

@@ -1,0 +1,70 @@
+{
+  "page": 11,
+  "version": "v002",
+  "print_ready": false,
+  "user_approved": false,
+  "renderer": "ReportLab / vector text; PDF rendered separately with Poppler",
+  "native_size_px": [
+    1122,
+    1402
+  ],
+  "art_effective_dpi": [
+    144.75934959349595,
+    144.75934959349593
+  ],
+  "crop_mm": [
+    0.4350927246790235,
+    0.0
+  ],
+  "missing_glyphs": [],
+  "boxes": [
+    {
+      "kind": "narration",
+      "bbox_mm": [
+        18,
+        14,
+        154,
+        29
+      ],
+      "font_pt": 12.8,
+      "lines": 4,
+      "text_height_mm": 25.64835555555555,
+      "max_width_mm": 151.16725333333332,
+      "overflow": false
+    },
+    {
+      "kind": "speech_0",
+      "bbox_mm": [
+        101,
+        63.5,
+        68,
+        24
+      ],
+      "font_pt": 10.8,
+      "lines": 3,
+      "text_height_mm": 13.969999999999997,
+      "max_width_mm": 63.36411,
+      "overflow": false
+    },
+    {
+      "kind": "speech_1",
+      "bbox_mm": [
+        21,
+        63.5,
+        68,
+        24
+      ],
+      "font_pt": 10.8,
+      "lines": 3,
+      "text_height_mm": 13.969999999999997,
+      "max_width_mm": 65.95872,
+      "overflow": false
+    }
+  ],
+  "pdf_text_matches": true,
+  "hashes": {
+    "svg": "c4e4f9859e5263202ffdd12b4ce970050d48efd42eed35eb237c0a5aefc2d09c",
+    "pdf": "5fe20e6384b03498e8afd7de3ce4b403155cc61935b4566d8e1e3d06fb663223",
+    "reading": "f134639ac6ac749232f4ddd30d7a72bd4cf5c7561aeef4415c536b1213de11e2"
+  }
+}

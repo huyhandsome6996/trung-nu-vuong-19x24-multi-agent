@@ -1,0 +1,2 @@
+Opened both versions and corrected tails: anchors now approach mouth corners from outside, leaving eyes readable; exact two full quotes, correct speaker sides. Five red narration spans, four lines; no gore, no overflow; embedded Vietnamese fonts and standard PDF boxes. v001 tails rejected and retained.
+Agent reviewed; user approval absent. Geometry is proof-only; native art is below 300DPI and PRINT_SPEC remains blocked.

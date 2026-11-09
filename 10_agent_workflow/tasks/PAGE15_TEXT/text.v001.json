@@ -1,0 +1,17 @@
+{
+  "page": 15,
+  "template": "B",
+  "status": "locked",
+  "narration": "Sau hơn mười ngày, khí thế nổi dậy đã **bùng cháy khắp cõi Giao Chỉ**. **Trống đồng, tiếng chiêng và tiếng voi gầm** khiến **Thái thú Tô Định** bất an. Nghe tin **Trưng Trắc** tụ nghĩa và **Thánh Thiên** dựng cờ ở Phượng Hoàng, y cùng Tào Quyền chia quân đàn áp.",
+  "dialogues": [
+    {
+      "speaker": "Tào Quyền",
+      "text": "Xin đại nhân cho hạ quan dẫn sáu trăm quân tinh nhuệ cùng Lục Hiến đi san phẳng núi Phượng Hoàng của con bé Thánh Thiên trước!"
+    }
+  ],
+  "dialogues_status": "locked",
+  "storyboard_path": "03_storyboards_and_scripts/STORYBOARD_PART_2_HOI_8_HAT_MON_PHUONG_HOANG.md",
+  "storyboard_sha256": "51b2b09b8cf339ee46f55c7b018dc65d2d90cbd1934d0263a42719e909c7aaeb",
+  "source_notes": "Opened source35–38/book246–249, plus39 completing discussion. Timeline is more than10days AFTER executions, not a second execution. TàoQuyền volunteers600 withLụcHiến; main hall contains TôĐịnh and officers. Full adapted quote retained. Capitalization of keyword Trống follows sentence position.",
+  "note": "Whitespace count checked; full storyboard dialogue retained; keywords retained except explicitly documented source corrections."
+}

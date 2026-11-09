@@ -1,0 +1,21 @@
+{
+  "page": 11,
+  "template": "A",
+  "status": "locked",
+  "narration": "Trước cổng Bắc **Luy Lâu**, **Thần y Nguyễn Huyền** và **Huyện lệnh Trưng Định** bị đưa ra pháp trường. Hai ông vẫn **ung dung bàn chuyện thiên mệnh đất Nam**, rồi **ngửa cổ cười vang**, đón nhận cái chết mà không khuất phục, khiến quân canh phải kính sợ.",
+  "dialogues": [
+    {
+      "speaker": "Trưng Định",
+      "text": "Cái chết của ta và huynh hôm nay chính là hiệu lệnh báo ngày tàn của bọn giặc phương Bắc!"
+    },
+    {
+      "speaker": "Nguyễn Huyền",
+      "text": "Nếu có kiếp sau làm người Giao Chỉ, xin lại được kết nghĩa huynh đệ cùng Trưng huynh!"
+    }
+  ],
+  "dialogues_status": "locked",
+  "storyboard_path": "03_storyboards_and_scripts/STORYBOARD_PART_1_HOI_7_CHU_DIEN.md",
+  "storyboard_sha256": "feeb2f262326699f209d4f2a170aed13bf30f10327df13b9e178cfcc0cce91aa",
+  "source_notes": "Opened source26–29/book237–240: northern LuyLâu execution platform, bound elders discuss TrưngTrắc and national fate, laugh before sentence. Nhị remains navy, NguyễnHuyền green/whitebeard, TrưngĐịnh navy/forkedbeard. Art depicts before execution, no wounds. Both complete storyboard quotes.",
+  "note": "Whitespace count checked; full storyboard dialogue retained; keywords retained except explicitly documented source corrections."
+}

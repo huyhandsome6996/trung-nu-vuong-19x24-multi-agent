@@ -1,0 +1,67 @@
+{
+  "page": 9,
+  "gutter_mm": [
+    142.5,
+    3.5
+  ],
+  "variant_reason": "Preserve both panels and use quiet top-band as full20percent header; raw upper-sky slightly shorter.",
+  "art_panels": [
+    {
+      "source_crop_px": [
+        0,
+        0,
+        1122,
+        253
+      ],
+      "bbox_mm": [
+        -3,
+        -3,
+        196,
+        51
+      ]
+    },
+    {
+      "source_crop_px": [
+        0,
+        261,
+        1122,
+        825
+      ],
+      "bbox_mm": [
+        -3,
+        48,
+        196,
+        94.5
+      ]
+    },
+    {
+      "source_crop_px": [
+        0,
+        833,
+        1122,
+        1402
+      ],
+      "bbox_mm": [
+        -3,
+        146,
+        196,
+        97
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "speaker": "Đinh Lương",
+      "bbox_mm": [
+        18,
+        146,
+        93,
+        25
+      ],
+      "tail_mm": [
+        121,
+        177
+      ]
+    }
+  ]
+}

@@ -1433,235 +1433,625 @@
       "id": "PAGE09_TEXT",
       "kind": "text",
       "title": "Trang09: đối chiếu và khóa chữ",
-      "status": "todo",
+      "status": "done",
       "depends_on": [
         "DESIGN_BASELINE"
       ],
       "instructions": "Đọc nguyên cảnh và nguồn scan; sửa các câu cường điệu/không có căn cứ, giữ giọng hào hùng 13–16 tuổi. Đếm thật 35–65 tiếng theo khoảng trắng, không dùng số từ ghi trong tiêu đề làm chứng cứ. Chép đủ thoại vào text.v001.json, giữ **từ khóa**; ghi nguồn, template và hash storyboard. Khóa chữ sau khi kiểm. Nếu sửa toàn file storyboard về sau, rà lại các text đã khóa theo hash mới.",
-      "evidence": [],
-      "last_note": "",
-      "page": 9
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/PAGE09_TEXT/report.v001.json",
+          "sha256": "2e0da8f389c6066eb86f07c645e4d658410747423c56d69e6de8c3b0412fb7e6"
+        },
+        {
+          "path": "10_agent_workflow/tasks/PAGE09_TEXT/text.v001.json",
+          "sha256": "69a0be0b9f31de9a3469cd4c16deb4fdd789be1945c37518f1c315ed783f8930"
+        },
+        {
+          "path": "10_agent_workflow/tasks/PAGE09_TEXT/SOURCE_REVIEW.v001.md",
+          "sha256": "66006af199089aae38aa8d5af37544a2247446adb521106183cfdaea7d71bb58"
+        }
+      ],
+      "last_note": "Opened contact sheet19–24, source22–23/book233–234: LữThạch dies, 200+ rescuers led byĐinhLương enter; ThiSách and all remaining defenders die. Condensed graphic killing to hạ gục, art shows last stand without gore. No PhùngThịChính in this massacre. Full adapted quote from storyboard retained.",
+      "page": 9,
+      "owner": "Codex",
+      "updated_at": "2026-11-09T14:04:25+00:00"
     },
     {
       "id": "PAGE09_ART",
       "kind": "art",
       "title": "Trang09: tạo và kiểm tranh nền",
-      "status": "todo",
+      "status": "done",
       "depends_on": [
         "PAGE09_TEXT"
       ],
       "instructions": "Lấy text đã khóa từ evidence bước TEXT. Xem các sheet liên quan; soạn prompt cuối theo cảnh, ghi actual_references và hash. Tạo ảnh bằng công cụ sinh ảnh, nền không chữ, không bóng thoại, chừa20% đỉnh; dùng đúng A/B/C. Kiểm mặt, phục trang, tay/chân/vũ khí và hành động. Lưu PNG native có phiên bản và metadata theo templates/RAW_IMAGE_METADATA.json. Không resize rồi khai native300DPI.",
-      "evidence": [],
-      "last_note": "",
-      "page": 9
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/PAGE09_ART/report.v001.json",
+          "sha256": "5f701e4d8d876eb13a55daff4afeee85103884642d33d1ef1de5c1c6301ea58f"
+        },
+        {
+          "path": "assets_generated/raw_pages/PAGE09_v001.png",
+          "sha256": "529fbae6f8d31b73fed8eda638f7a0a275312530f118623328b1b5cac297898c"
+        },
+        {
+          "path": "assets_generated/raw_pages/PAGE09_v001.json",
+          "sha256": "929c09a2872bff6773b10e274528d86a2cc032222ec5bb448f5e56fe57689899"
+        },
+        {
+          "path": "assets_generated/raw_pages/PAGE09_v001.prompt.txt",
+          "sha256": "699f967648ed10a2cdf9183d5407d21361a1688609aa63b6b28d76250ede1fda"
+        },
+        {
+          "path": "10_agent_workflow/tasks/PAGE09_ART/VISUAL_REVIEW.v001.md",
+          "sha256": "c8ec7c43a9b43aea2d946bf474f9759ddd2d39910c16d2f84e291839dcc5a47e"
+        }
+      ],
+      "last_note": "Viewed new Template B output: ThiSách purple/tiger/shortbeard, LữThạch iron/fourdaggers fallen with broken spear, no gore; lower panel ThiSách and ĐinhLương brown/redband back-to-back, two hands on dao, arrows in earth. Top blank sky about18percent; layout expands header to20percent with uniform reviewed panel crops, not stretching. No text or balloons.",
+      "page": 9,
+      "owner": "Codex",
+      "updated_at": "2026-11-09T14:12:36+00:00",
+      "block_reason": ""
     },
     {
       "id": "PAGE09_LAYOUT",
       "kind": "layout",
       "title": "Trang09: ghép chữ và bố cục",
-      "status": "todo",
+      "status": "done",
       "depends_on": [
         "PAGE09_ART"
       ],
       "instructions": "Dùng nguyên text đã khóa và tranh đã kiểm. Ghép khung giấy cổ, tô đỏ #C81E1E cho **...**, đặt đủ thoại/đuôi bóng đúng người. Khổ196×246/trim190×240. Dùng layout_tokens, đo tràn chữ bằng renderer thật; xuất bản xem PNG/PDF và nguồn có thể sửa. scripts/typeset_preview.py là trợ giúp HTML; không coi HTML/PDF xem trước là file in đã duyệt.",
-      "evidence": [],
-      "last_note": "",
-      "page": 9
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/PAGE09_LAYOUT/report.v002.json",
+          "sha256": "6528a8d4bd0aa0226006dcd5d43f794a2412e94a4dd8b6de04c4f478d46c5466"
+        },
+        {
+          "path": "final_book_19x24/source/PAGE09_v002.svg",
+          "sha256": "ec3b955ab422f505f27981bb61041e7e22c311e247dfb1fe989bcca428144b51"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE09_v002.pdf",
+          "sha256": "93192fa5978fb2d0be8fc39c94ef9fbd44e14cede41c75a12c193eb6b1ed5d97"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE09_v002.png",
+          "sha256": "0d18ca4515f775acec211aa15c09db5245897e66f56f8ae54612efd9cddbc512"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE09_v002.json",
+          "sha256": "574099a18849d32d85b6cd62c3ed8a39c869a70c3a99b26d8db9148babb66804"
+        },
+        {
+          "path": "final_book_19x24/reading/PAGE09_v002.pdf",
+          "sha256": "9346ab64314f3eaee1b32a7c7cd05e3ca66c06e4bfc2c02b77c058679179cf37"
+        },
+        {
+          "path": "final_book_19x24/source/PAGE09_placement.v002.json",
+          "sha256": "fd6e3b934584395918e2f80aca03cd6fc16cb119d4f2e20e0c6b9fcdd80fd46c"
+        }
+      ],
+      "last_note": "Opened revised full render: compact two-line complete ĐinhLương quote, tail reaches his mouth and leaves both faces/crowns/grips visible; five red keywords, four narration lines, correct scene order and no gore. Caption/scenes independently uniformly placed, bleed/safe boxes match tokens. Compared all dialogue to PDF extraction. v001 retained as rejected larger balloon.",
+      "page": 9,
+      "owner": "Codex",
+      "updated_at": "2026-11-09T14:15:04+00:00"
     },
     {
       "id": "PAGE09_QA",
       "kind": "qa",
       "title": "Trang09: kiểm nguồn/mỹ thuật/chữ/khổ",
-      "status": "todo",
+      "status": "done",
       "depends_on": [
         "PAGE09_LAYOUT"
       ],
       "instructions": "Mở ảnh render ở kích thước đọc thật và zoom100%; so với scan, sheet, text đã khóa. Kiểm bốn lớp historical/art/language/print_geometry. Ghi lỗi cụ thể và sửa về đúng bước. Báo cáo pass chỉ khi có artifact thực và không còn lỗi trong phạm vi; đây là QA của agent, không phải chủ dự án duyệt.",
-      "evidence": [],
-      "last_note": "",
-      "page": 9
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/PAGE09_QA/report.v002.json",
+          "sha256": "e00abf107fe9c683e989d1528ba722176039b7e404f8cd8946a8a05f15b3aa0a"
+        },
+        {
+          "path": "10_agent_workflow/tasks/PAGE09_QA/QA.v002.md",
+          "sha256": "2828804ea310361dc80787f2c83f32625b73a0f993e7a10c4583cdb9a52895a8"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE09_v002.pdf",
+          "sha256": "93192fa5978fb2d0be8fc39c94ef9fbd44e14cede41c75a12c193eb6b1ed5d97"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE09_v002.png",
+          "sha256": "0d18ca4515f775acec211aa15c09db5245897e66f56f8ae54612efd9cddbc512"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE09_v002.json",
+          "sha256": "574099a18849d32d85b6cd62c3ed8a39c869a70c3a99b26d8db9148babb66804"
+        }
+      ],
+      "last_note": "Opened revised full render: compact two-line complete ĐinhLương quote, tail reaches his mouth and leaves both faces/crowns/grips visible; five red keywords, four narration lines, correct scene order and no gore. Caption/scenes independently uniformly placed, bleed/safe boxes match tokens. Compared all dialogue to PDF extraction. v001 retained as rejected larger balloon.",
+      "page": 9,
+      "owner": "Codex",
+      "updated_at": "2026-11-09T14:15:04+00:00"
     },
     {
       "id": "PAGE10_TEXT",
       "kind": "text",
       "title": "Trang10: đối chiếu và khóa chữ",
-      "status": "todo",
+      "status": "done",
       "depends_on": [
         "DESIGN_BASELINE"
       ],
       "instructions": "Đọc nguyên cảnh và nguồn scan; sửa các câu cường điệu/không có căn cứ, giữ giọng hào hùng 13–16 tuổi. Đếm thật 35–65 tiếng theo khoảng trắng, không dùng số từ ghi trong tiêu đề làm chứng cứ. Chép đủ thoại vào text.v001.json, giữ **từ khóa**; ghi nguồn, template và hash storyboard. Khóa chữ sau khi kiểm. Nếu sửa toàn file storyboard về sau, rà lại các text đã khóa theo hash mới.",
-      "evidence": [],
-      "last_note": "",
-      "page": 10
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/PAGE10_TEXT/report.v001.json",
+          "sha256": "3b6c19686bec7c4631797de23e32de64abd45cfba47cbc23c6759800da8f15b6"
+        },
+        {
+          "path": "10_agent_workflow/tasks/PAGE10_TEXT/text.v001.json",
+          "sha256": "3ed6863200fb762bbebbffc41c2198eb9634dbf0f5f626c9664365443090d870"
+        },
+        {
+          "path": "10_agent_workflow/tasks/PAGE10_TEXT/SOURCE_REVIEW.v001.md",
+          "sha256": "e70622fb6526b270c375b262c110460103fffb206fd28a43399d6927bae79cd6"
+        }
+      ],
+      "last_note": "Opened source24–25/book235–236: CổLôi30 elephants,17drums,17chiefs, not HátMôn8. Trắc receives massacre news, father presumed doomed while imprisoned; wording keeps her current knowledge, not a second execution. ĐôNăngTế male/graybeard, CẩmNương female. Full storyboard dialogue.",
+      "page": 10,
+      "owner": "Codex",
+      "updated_at": "2026-11-09T14:04:26+00:00"
     },
     {
       "id": "PAGE10_ART",
       "kind": "art",
       "title": "Trang10: tạo và kiểm tranh nền",
-      "status": "todo",
+      "status": "done",
       "depends_on": [
         "PAGE10_TEXT"
       ],
       "instructions": "Lấy text đã khóa từ evidence bước TEXT. Xem các sheet liên quan; soạn prompt cuối theo cảnh, ghi actual_references và hash. Tạo ảnh bằng công cụ sinh ảnh, nền không chữ, không bóng thoại, chừa20% đỉnh; dùng đúng A/B/C. Kiểm mặt, phục trang, tay/chân/vũ khí và hành động. Lưu PNG native có phiên bản và metadata theo templates/RAW_IMAGE_METADATA.json. Không resize rồi khai native300DPI.",
-      "evidence": [],
-      "last_note": "",
-      "page": 10
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/PAGE10_ART/report.v001.json",
+          "sha256": "e69477bd55c736cf23f4169bd12457e1c054515edf56c00c7f0c6aebdc9b59dc"
+        },
+        {
+          "path": "assets_generated/raw_pages/PAGE10_v001.png",
+          "sha256": "4721c14bd7eaef6f8f74de55500cfa5d680e4525ba9a596dc685f36922d73332"
+        },
+        {
+          "path": "assets_generated/raw_pages/PAGE10_v001.json",
+          "sha256": "fa9980a28d5685a30994fb8d46011a7da625f2b6b1f5ca91c2f985ae7bafabf4"
+        },
+        {
+          "path": "assets_generated/raw_pages/PAGE10_v001.prompt.txt",
+          "sha256": "504dca37f2df58fd061699337c0ef2fb3f93a70b7739974d7f600bd0ceb43d99"
+        },
+        {
+          "path": "10_agent_workflow/tasks/PAGE10_ART/VISUAL_REVIEW.v001.md",
+          "sha256": "1846e2057f9cd1979f2e575236652cdc7423409d552bcecba41a98fb9f25320f"
+        }
+      ],
+      "last_note": "Viewed new Template B: top20percent clear moonlit sky; camp partial drum/elephant rows, not visual claim of8. Lower room exactly four named people: male graybearded Đô, whiteTrắc visibly griefstricken, navyNhị, olderpurpleCẩm. Hands and letter intact, no text. Source quantity30/17 belongs to full camp beyond crop.",
+      "page": 10,
+      "owner": "Codex",
+      "updated_at": "2026-11-09T14:12:36+00:00",
+      "block_reason": ""
     },
     {
       "id": "PAGE10_LAYOUT",
       "kind": "layout",
       "title": "Trang10: ghép chữ và bố cục",
-      "status": "todo",
+      "status": "done",
       "depends_on": [
         "PAGE10_ART"
       ],
       "instructions": "Dùng nguyên text đã khóa và tranh đã kiểm. Ghép khung giấy cổ, tô đỏ #C81E1E cho **...**, đặt đủ thoại/đuôi bóng đúng người. Khổ196×246/trim190×240. Dùng layout_tokens, đo tràn chữ bằng renderer thật; xuất bản xem PNG/PDF và nguồn có thể sửa. scripts/typeset_preview.py là trợ giúp HTML; không coi HTML/PDF xem trước là file in đã duyệt.",
-      "evidence": [],
-      "last_note": "",
-      "page": 10
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/PAGE10_LAYOUT/report.v001.json",
+          "sha256": "b36cf732b0ba6802f2ac2ae2cfb02f1ea5b3c1e2d3bcf93752ffadac0f3f9ee1"
+        },
+        {
+          "path": "final_book_19x24/source/PAGE10_v001.svg",
+          "sha256": "6e1a7269e88d6974e32673b6d9c9d22203aa9c0ccb857613c719d47002ff3212"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE10_v001.pdf",
+          "sha256": "bc0bf59a0e97061b6781dc704a0ffcc0cd678293edd70cdeec9592580f40b513"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE10_v001.png",
+          "sha256": "24b37628b0f5906000643004abd9fd89ad539bdcc6a468a16b6ca4852a60ddd2"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE10_v001.json",
+          "sha256": "f0a9ec2fe191df256feb93448377fa7a2edb91846763e789effa6e81af47183b"
+        },
+        {
+          "path": "final_book_19x24/reading/PAGE10_v001.pdf",
+          "sha256": "4138a5a3b747af1fe281fa5ed01609dc8a051388d8c96dc210796cf04b107b30"
+        },
+        {
+          "path": "final_book_19x24/source/PAGE10_placement.v001.json",
+          "sha256": "71863a29cba7c41b9f5b05439ebc1c6de9dbd88750400ea359d2cb8f1662ebb5"
+        }
+      ],
+      "last_note": "Opened full final render: correct four identities, tears only here, Trắc speech tail to right cheek; both sisters clasp hands without text overlap. Four narration lines/six red keyword spans, full quote, no overflow; native details retained, geometric tokens valid.",
+      "page": 10,
+      "owner": "Codex",
+      "updated_at": "2026-11-09T14:17:57+00:00"
     },
     {
       "id": "PAGE10_QA",
       "kind": "qa",
       "title": "Trang10: kiểm nguồn/mỹ thuật/chữ/khổ",
-      "status": "todo",
+      "status": "done",
       "depends_on": [
         "PAGE10_LAYOUT"
       ],
       "instructions": "Mở ảnh render ở kích thước đọc thật và zoom100%; so với scan, sheet, text đã khóa. Kiểm bốn lớp historical/art/language/print_geometry. Ghi lỗi cụ thể và sửa về đúng bước. Báo cáo pass chỉ khi có artifact thực và không còn lỗi trong phạm vi; đây là QA của agent, không phải chủ dự án duyệt.",
-      "evidence": [],
-      "last_note": "",
-      "page": 10
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/PAGE10_QA/report.v001.json",
+          "sha256": "1da0b0d82adb67f7c3e44380c13c9eb14bacbf62d7ffe22e807e517dc325a85f"
+        },
+        {
+          "path": "10_agent_workflow/tasks/PAGE10_QA/QA.v001.md",
+          "sha256": "265c5f9e4c99e4c2dd6cd5d9524e28d0fe2fad6925530504afc195ffe3ba481b"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE10_v001.pdf",
+          "sha256": "bc0bf59a0e97061b6781dc704a0ffcc0cd678293edd70cdeec9592580f40b513"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE10_v001.png",
+          "sha256": "24b37628b0f5906000643004abd9fd89ad539bdcc6a468a16b6ca4852a60ddd2"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE10_v001.json",
+          "sha256": "f0a9ec2fe191df256feb93448377fa7a2edb91846763e789effa6e81af47183b"
+        }
+      ],
+      "last_note": "Opened full final render: correct four identities, tears only here, Trắc speech tail to right cheek; both sisters clasp hands without text overlap. Four narration lines/six red keyword spans, full quote, no overflow; native details retained, geometric tokens valid.",
+      "page": 10,
+      "owner": "Codex",
+      "updated_at": "2026-11-09T14:17:57+00:00"
     },
     {
       "id": "PAGE11_TEXT",
       "kind": "text",
       "title": "Trang11: đối chiếu và khóa chữ",
-      "status": "todo",
+      "status": "done",
       "depends_on": [
         "DESIGN_BASELINE"
       ],
       "instructions": "Đọc nguyên cảnh và nguồn scan; sửa các câu cường điệu/không có căn cứ, giữ giọng hào hùng 13–16 tuổi. Đếm thật 35–65 tiếng theo khoảng trắng, không dùng số từ ghi trong tiêu đề làm chứng cứ. Chép đủ thoại vào text.v001.json, giữ **từ khóa**; ghi nguồn, template và hash storyboard. Khóa chữ sau khi kiểm. Nếu sửa toàn file storyboard về sau, rà lại các text đã khóa theo hash mới.",
-      "evidence": [],
-      "last_note": "",
-      "page": 11
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/PAGE11_TEXT/report.v001.json",
+          "sha256": "662e6cbf8759054116ed6cfef187de12ecc482db2aa8a364e626c5f273486725"
+        },
+        {
+          "path": "10_agent_workflow/tasks/PAGE11_TEXT/text.v001.json",
+          "sha256": "da7c16b3025d6cef48b9a49287ddde23ddfe8886fbae5499ad8ecd0c510eb700"
+        },
+        {
+          "path": "10_agent_workflow/tasks/PAGE11_TEXT/SOURCE_REVIEW.v001.md",
+          "sha256": "c2a44867753d007c9e49d2307a1757877cb16bebfa76adbc0dbef34ecf1c581e"
+        }
+      ],
+      "last_note": "Opened source26–29/book237–240: northern LuyLâu execution platform, bound elders discuss TrưngTrắc and national fate, laugh before sentence. Nhị remains navy, NguyễnHuyền green/whitebeard, TrưngĐịnh navy/forkedbeard. Art depicts before execution, no wounds. Both complete storyboard quotes.",
+      "page": 11,
+      "owner": "Codex",
+      "updated_at": "2026-11-09T14:04:26+00:00"
     },
     {
       "id": "PAGE11_ART",
       "kind": "art",
       "title": "Trang11: tạo và kiểm tranh nền",
-      "status": "todo",
+      "status": "done",
       "depends_on": [
         "PAGE11_TEXT"
       ],
       "instructions": "Lấy text đã khóa từ evidence bước TEXT. Xem các sheet liên quan; soạn prompt cuối theo cảnh, ghi actual_references và hash. Tạo ảnh bằng công cụ sinh ảnh, nền không chữ, không bóng thoại, chừa20% đỉnh; dùng đúng A/B/C. Kiểm mặt, phục trang, tay/chân/vũ khí và hành động. Lưu PNG native có phiên bản và metadata theo templates/RAW_IMAGE_METADATA.json. Không resize rồi khai native300DPI.",
-      "evidence": [],
-      "last_note": "",
-      "page": 11
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/PAGE11_ART/report.v001.json",
+          "sha256": "55e6d89b5194fa65bdb5d35222313fd4cb54b9a6e7ae0768ffd2052111414860"
+        },
+        {
+          "path": "assets_generated/raw_pages/PAGE11_v001.png",
+          "sha256": "bea192ac390370bebd4314c3f150234e9f1dfc694d7aebcb4f92c8f6b5b39207"
+        },
+        {
+          "path": "assets_generated/raw_pages/PAGE11_v001.json",
+          "sha256": "8e3bba5cbd3b024341663fc42b2d141e3a72ef465bd86c1784f4df0ee0110c03"
+        },
+        {
+          "path": "assets_generated/raw_pages/PAGE11_v001.prompt.txt",
+          "sha256": "9d022c673127fb9cb590aa2a9cf2c1ce5bbda3922fdc004c0264a132cd08c201"
+        },
+        {
+          "path": "10_agent_workflow/tasks/PAGE11_ART/VISUAL_REVIEW.v001.md",
+          "sha256": "3eb5d31e5127fd6d90d6cf2c329313ed8e734e66a5d1a8a37d7940cc7db4e64e"
+        }
+      ],
+      "last_note": "Opened new output directly: separate posts, NguyễnHuyền green/longwhitebeard atleft, TrưngĐịnh navy/forkbeard atright; both laugh before execution, bound hands intact. Guards belowleft; lower-right stage blank for folio. Top40percent open sky. No graphic violence or text.",
+      "page": 11,
+      "owner": "Codex",
+      "updated_at": "2026-11-09T14:12:36+00:00",
+      "block_reason": ""
     },
     {
       "id": "PAGE11_LAYOUT",
       "kind": "layout",
       "title": "Trang11: ghép chữ và bố cục",
-      "status": "todo",
+      "status": "done",
       "depends_on": [
         "PAGE11_ART"
       ],
       "instructions": "Dùng nguyên text đã khóa và tranh đã kiểm. Ghép khung giấy cổ, tô đỏ #C81E1E cho **...**, đặt đủ thoại/đuôi bóng đúng người. Khổ196×246/trim190×240. Dùng layout_tokens, đo tràn chữ bằng renderer thật; xuất bản xem PNG/PDF và nguồn có thể sửa. scripts/typeset_preview.py là trợ giúp HTML; không coi HTML/PDF xem trước là file in đã duyệt.",
-      "evidence": [],
-      "last_note": "",
-      "page": 11
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/PAGE11_LAYOUT/report.v002.json",
+          "sha256": "4f820d77582e8d61eee9536b7ed52a8be607642a8740c42d65994ea07814ae86"
+        },
+        {
+          "path": "final_book_19x24/source/PAGE11_v002.svg",
+          "sha256": "c4e4f9859e5263202ffdd12b4ce970050d48efd42eed35eb237c0a5aefc2d09c"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE11_v002.pdf",
+          "sha256": "5fe20e6384b03498e8afd7de3ce4b403155cc61935b4566d8e1e3d06fb663223"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE11_v002.png",
+          "sha256": "2b0a358523893cccccb30e98a6392a8fae3ee5ad060e00a6b31d4098cc42d6f3"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE11_v002.json",
+          "sha256": "e47ef77dec74816c3919732e0fe43726d7778d1461d511f0cb0e8d03a9665c73"
+        },
+        {
+          "path": "final_book_19x24/reading/PAGE11_v002.pdf",
+          "sha256": "f134639ac6ac749232f4ddd30d7a72bd4cf5c7561aeef4415c536b1213de11e2"
+        },
+        {
+          "path": "final_book_19x24/source/PAGE11_placement.v002.json",
+          "sha256": "c71179ba76237a27b2c02c46c1898e0313a5152ea48b061cb73797a479a7fb6a"
+        }
+      ],
+      "last_note": "Opened both versions and corrected tails: anchors now approach mouth corners from outside, leaving eyes readable; exact two full quotes, correct speaker sides. Five red narration spans, four lines; no gore, no overflow; embedded Vietnamese fonts and standard PDF boxes. v001 tails rejected and retained.",
+      "page": 11,
+      "owner": "Codex",
+      "updated_at": "2026-11-09T14:19:30+00:00"
     },
     {
       "id": "PAGE11_QA",
       "kind": "qa",
       "title": "Trang11: kiểm nguồn/mỹ thuật/chữ/khổ",
-      "status": "todo",
+      "status": "done",
       "depends_on": [
         "PAGE11_LAYOUT"
       ],
       "instructions": "Mở ảnh render ở kích thước đọc thật và zoom100%; so với scan, sheet, text đã khóa. Kiểm bốn lớp historical/art/language/print_geometry. Ghi lỗi cụ thể và sửa về đúng bước. Báo cáo pass chỉ khi có artifact thực và không còn lỗi trong phạm vi; đây là QA của agent, không phải chủ dự án duyệt.",
-      "evidence": [],
-      "last_note": "",
-      "page": 11
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/PAGE11_QA/report.v002.json",
+          "sha256": "bebbdd7defd6cf7d5c5ed38b7cb0d8839089e1629af3b7c2e2fe3ee3aa7aebaa"
+        },
+        {
+          "path": "10_agent_workflow/tasks/PAGE11_QA/QA.v002.md",
+          "sha256": "b9e2fdb22f0bb3bdff8c4c5181efea5e96943d205e79282d062f3af1195d61c4"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE11_v002.pdf",
+          "sha256": "5fe20e6384b03498e8afd7de3ce4b403155cc61935b4566d8e1e3d06fb663223"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE11_v002.png",
+          "sha256": "2b0a358523893cccccb30e98a6392a8fae3ee5ad060e00a6b31d4098cc42d6f3"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE11_v002.json",
+          "sha256": "e47ef77dec74816c3919732e0fe43726d7778d1461d511f0cb0e8d03a9665c73"
+        }
+      ],
+      "last_note": "Opened both versions and corrected tails: anchors now approach mouth corners from outside, leaving eyes readable; exact two full quotes, correct speaker sides. Five red narration spans, four lines; no gore, no overflow; embedded Vietnamese fonts and standard PDF boxes. v001 tails rejected and retained.",
+      "page": 11,
+      "owner": "Codex",
+      "updated_at": "2026-11-09T14:19:30+00:00"
     },
     {
       "id": "PAGE12_TEXT",
       "kind": "text",
       "title": "Trang12: đối chiếu và khóa chữ",
-      "status": "todo",
+      "status": "done",
       "depends_on": [
         "DESIGN_BASELINE"
       ],
       "instructions": "Đọc nguyên cảnh và nguồn scan; sửa các câu cường điệu/không có căn cứ, giữ giọng hào hùng 13–16 tuổi. Đếm thật 35–65 tiếng theo khoảng trắng, không dùng số từ ghi trong tiêu đề làm chứng cứ. Chép đủ thoại vào text.v001.json, giữ **từ khóa**; ghi nguồn, template và hash storyboard. Khóa chữ sau khi kiểm. Nếu sửa toàn file storyboard về sau, rà lại các text đã khóa theo hash mới.",
-      "evidence": [],
-      "last_note": "",
-      "page": 12
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/PAGE12_TEXT/report.v001.json",
+          "sha256": "a5abfda0b2da28c0e4ea95320136492eabfff4f57556054a2db12085b3e2d2bb"
+        },
+        {
+          "path": "10_agent_workflow/tasks/PAGE12_TEXT/text.v001.json",
+          "sha256": "6c8022008fd0053ce43d3b220cac870939205f04bcdce106fdaf96d6b399cff0"
+        },
+        {
+          "path": "10_agent_workflow/tasks/PAGE12_TEXT/SOURCE_REVIEW.v001.md",
+          "sha256": "3ed1e1a942c80a446bd412ce9f531a77deb42549e3a22e714a5b501c4bf37007"
+        }
+      ],
+      "last_note": "Opened source29–31/book240–242: LêĐạo arrives with black hawk and bamboo tube; ĐàoChiêuHiển, PhạmDanhHương follow. Renunciation is an editorial summary of leaving office. Phạm carries white whisk; full adapted quote preserved, three TemplateC scenes.",
+      "page": 12,
+      "owner": "Codex",
+      "updated_at": "2026-11-09T14:04:26+00:00"
     },
     {
       "id": "PAGE12_ART",
       "kind": "art",
       "title": "Trang12: tạo và kiểm tranh nền",
-      "status": "todo",
+      "status": "done",
       "depends_on": [
         "PAGE12_TEXT"
       ],
       "instructions": "Lấy text đã khóa từ evidence bước TEXT. Xem các sheet liên quan; soạn prompt cuối theo cảnh, ghi actual_references và hash. Tạo ảnh bằng công cụ sinh ảnh, nền không chữ, không bóng thoại, chừa20% đỉnh; dùng đúng A/B/C. Kiểm mặt, phục trang, tay/chân/vũ khí và hành động. Lưu PNG native có phiên bản và metadata theo templates/RAW_IMAGE_METADATA.json. Không resize rồi khai native300DPI.",
-      "evidence": [],
-      "last_note": "",
-      "page": 12
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/PAGE12_ART/report.v001.json",
+          "sha256": "eaf7b1c8d2da06c39e341fafd0fb345969ed1b5f74151f94ddd52a7c613296e4"
+        },
+        {
+          "path": "assets_generated/raw_pages/PAGE12_v001.png",
+          "sha256": "d60efbadf9633e9ff381eb23e54050f3b5eb016f30f5843f79ab2be27174e837"
+        },
+        {
+          "path": "assets_generated/raw_pages/PAGE12_v001.json",
+          "sha256": "3f13d726cabd8818b68687c77f23aa57caaa75420e2ed06d50975d08b3157cc6"
+        },
+        {
+          "path": "assets_generated/raw_pages/PAGE12_v001.prompt.txt",
+          "sha256": "b6879e27a1ec8534b59f1fcf9f13d22acaa5e42d94baf8940208f9674ba48caa"
+        },
+        {
+          "path": "10_agent_workflow/tasks/PAGE12_ART/VISUAL_REVIEW.v001.md",
+          "sha256": "b610a05d9d95fb523e08c4e1a8a648ca8af0d905b86e39c1bacacab0753ac03f"
+        }
+      ],
+      "last_note": "Viewed generated Template C output: two upper scenes LêĐạo navy/blackhawk/bambootube, ĐàoChiêuHiển red/bronze/spear; lower scene PhạmDanhHương whitebeard/grayblue/whitewhisk, barewall atleft for quote. Clear topquarter, no letters, correct grips and distinct faces.",
+      "page": 12,
+      "owner": "Codex",
+      "updated_at": "2026-11-09T14:12:37+00:00",
+      "block_reason": ""
     },
     {
       "id": "PAGE12_LAYOUT",
       "kind": "layout",
       "title": "Trang12: ghép chữ và bố cục",
-      "status": "todo",
+      "status": "done",
       "depends_on": [
         "PAGE12_ART"
       ],
       "instructions": "Dùng nguyên text đã khóa và tranh đã kiểm. Ghép khung giấy cổ, tô đỏ #C81E1E cho **...**, đặt đủ thoại/đuôi bóng đúng người. Khổ196×246/trim190×240. Dùng layout_tokens, đo tràn chữ bằng renderer thật; xuất bản xem PNG/PDF và nguồn có thể sửa. scripts/typeset_preview.py là trợ giúp HTML; không coi HTML/PDF xem trước là file in đã duyệt.",
-      "evidence": [],
-      "last_note": "",
-      "page": 12
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/PAGE12_LAYOUT/report.v002.json",
+          "sha256": "b5e86993ece5b4c2096039a1c9529b03519d14b90f39568e19ccb1982cbf8fd5"
+        },
+        {
+          "path": "final_book_19x24/source/PAGE12_v002.svg",
+          "sha256": "7183406d44f02203cc620fbf6f732955a4968a29b18eae539b45bfa64f9fb990"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE12_v002.pdf",
+          "sha256": "31d068fd99d8618beaedb68c36123572072d7a67d0527fa84898fd2878529b2a"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE12_v002.png",
+          "sha256": "93ba27990bd2f773f01728a325bb4d18d81b6185e163ed7a3b5618c1a2ac0d7d"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE12_v002.json",
+          "sha256": "e542bef92aaee1a4470346b67b8bb4108ae07bd3438be37ebefe1524c15dcc8f"
+        },
+        {
+          "path": "final_book_19x24/reading/PAGE12_v002.pdf",
+          "sha256": "091e24152d6ae3a87359d5cb5586410550ef4d50422a58e899d85abcc025682e"
+        },
+        {
+          "path": "final_book_19x24/source/PAGE12_placement.v002.json",
+          "sha256": "eb9b68af84eccdf18ddbdf7cc38dcef5c6a5c0cce57311b5cd5230194bcffccd"
+        }
+      ],
+      "last_note": "Opened revised full render: triangular tail now reaches PhạmDanhHương mouth rather than horizontal line toward nose. Three panels, distinct LêĐạo blackhawk, ĐàoChiêuHiển spear, Phạm whitewhisk. Six red keyword spans, four narration lines, full three-line quote. No face/grip overlap; no overflow, Vietnamese fonts/standard boxes verified.",
+      "page": 12,
+      "owner": "Codex",
+      "updated_at": "2026-11-09T14:23:58+00:00"
     },
     {
       "id": "PAGE12_QA",
       "kind": "qa",
       "title": "Trang12: kiểm nguồn/mỹ thuật/chữ/khổ",
-      "status": "todo",
+      "status": "done",
       "depends_on": [
         "PAGE12_LAYOUT"
       ],
       "instructions": "Mở ảnh render ở kích thước đọc thật và zoom100%; so với scan, sheet, text đã khóa. Kiểm bốn lớp historical/art/language/print_geometry. Ghi lỗi cụ thể và sửa về đúng bước. Báo cáo pass chỉ khi có artifact thực và không còn lỗi trong phạm vi; đây là QA của agent, không phải chủ dự án duyệt.",
-      "evidence": [],
-      "last_note": "",
-      "page": 12
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/PAGE12_QA/report.v002.json",
+          "sha256": "cec7cc1294edc001265fce3e4c0ec0cf6352d960edbdf046b7cf74c6c302cc95"
+        },
+        {
+          "path": "10_agent_workflow/tasks/PAGE12_QA/QA.v002.md",
+          "sha256": "7f2199867f91ba1d61449dfc0d9e84dc804563a86c3b1dde7b7c2513112667d2"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE12_v002.pdf",
+          "sha256": "31d068fd99d8618beaedb68c36123572072d7a67d0527fa84898fd2878529b2a"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE12_v002.png",
+          "sha256": "93ba27990bd2f773f01728a325bb4d18d81b6185e163ed7a3b5618c1a2ac0d7d"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE12_v002.json",
+          "sha256": "e542bef92aaee1a4470346b67b8bb4108ae07bd3438be37ebefe1524c15dcc8f"
+        }
+      ],
+      "last_note": "Opened revised full render: triangular tail now reaches PhạmDanhHương mouth rather than horizontal line toward nose. Three panels, distinct LêĐạo blackhawk, ĐàoChiêuHiển spear, Phạm whitewhisk. Six red keyword spans, four narration lines, full three-line quote. No face/grip overlap; no overflow, Vietnamese fonts/standard boxes verified.",
+      "page": 12,
+      "owner": "Codex",
+      "updated_at": "2026-11-09T14:23:58+00:00"
     },
     {
       "id": "PAGE13_TEXT",
       "kind": "text",
       "title": "Trang13: đối chiếu và khóa chữ",
-      "status": "todo",
+      "status": "done",
       "depends_on": [
         "DESIGN_BASELINE"
       ],
       "instructions": "Đọc nguyên cảnh và nguồn scan; sửa các câu cường điệu/không có căn cứ, giữ giọng hào hùng 13–16 tuổi. Đếm thật 35–65 tiếng theo khoảng trắng, không dùng số từ ghi trong tiêu đề làm chứng cứ. Chép đủ thoại vào text.v001.json, giữ **từ khóa**; ghi nguồn, template và hash storyboard. Khóa chữ sau khi kiểm. Nếu sửa toàn file storyboard về sau, rà lại các text đã khóa theo hash mới.",
-      "evidence": [],
-      "last_note": "",
-      "page": 13
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/PAGE13_TEXT/report.v001.json",
+          "sha256": "b7d1e8d39a5c5e21510181edda0d59610ef3f366dd28154c3145fc7f60114b9d"
+        },
+        {
+          "path": "10_agent_workflow/tasks/PAGE13_TEXT/text.v001.json",
+          "sha256": "29f0c6a354e7e8002b30aa9f4c6f776dd289c4c95d9729b69036df8806b81874"
+        },
+        {
+          "path": "10_agent_workflow/tasks/PAGE13_TEXT/SOURCE_REVIEW.v001.md",
+          "sha256": "07d6f764a3273003ed57e44d48d975cdd698f8ff302bb601a742ce5ba28c3134"
+        }
+      ],
+      "last_note": "Opened source32–33/book243–244: white mourning attire/headband, no tears at declaration;17chiefs. ĐôNăngTế male vuốt râu. All five narration keywords and full storyboard quote retained. Declaration is adapted from novel, not a verbatim historical speech.",
+      "page": 13,
+      "owner": "Codex",
+      "updated_at": "2026-11-09T14:11:00+00:00"
     },
     {
       "id": "PAGE13_ART",
       "kind": "art",
       "title": "Trang13: tạo và kiểm tranh nền",
-      "status": "todo",
+      "status": "blocked",
       "depends_on": [
         "PAGE13_TEXT"
       ],
       "instructions": "Lấy text đã khóa từ evidence bước TEXT. Xem các sheet liên quan; soạn prompt cuối theo cảnh, ghi actual_references và hash. Tạo ảnh bằng công cụ sinh ảnh, nền không chữ, không bóng thoại, chừa20% đỉnh; dùng đúng A/B/C. Kiểm mặt, phục trang, tay/chân/vũ khí và hành động. Lưu PNG native có phiên bản và metadata theo templates/RAW_IMAGE_METADATA.json. Không resize rồi khai native300DPI.",
       "evidence": [],
-      "last_note": "",
-      "page": 13
+      "last_note": "Image request pending, independent layouts continue",
+      "page": 13,
+      "owner": "Codex",
+      "updated_at": "2026-11-09T14:15:05+00:00",
+      "block_reason": "Image request pending, independent layouts continue"
     },
     {
       "id": "PAGE13_LAYOUT",
@@ -1693,27 +2083,45 @@
       "id": "PAGE14_TEXT",
       "kind": "text",
       "title": "Trang14: đối chiếu và khóa chữ",
-      "status": "todo",
+      "status": "done",
       "depends_on": [
         "DESIGN_BASELINE"
       ],
       "instructions": "Đọc nguyên cảnh và nguồn scan; sửa các câu cường điệu/không có căn cứ, giữ giọng hào hùng 13–16 tuổi. Đếm thật 35–65 tiếng theo khoảng trắng, không dùng số từ ghi trong tiêu đề làm chứng cứ. Chép đủ thoại vào text.v001.json, giữ **từ khóa**; ghi nguồn, template và hash storyboard. Khóa chữ sau khi kiểm. Nếu sửa toàn file storyboard về sau, rà lại các text đã khóa theo hash mới.",
-      "evidence": [],
-      "last_note": "",
-      "page": 14
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/PAGE14_TEXT/report.v001.json",
+          "sha256": "cb874203bd3c9cb0a828b4d115528b2ffcfc91f9a92e5c74d1d50a8774f864f0"
+        },
+        {
+          "path": "10_agent_workflow/tasks/PAGE14_TEXT/text.v001.json",
+          "sha256": "e39929f576409304afc7261a0c9abfd2f6807e7c4cbd9c4086ea4d2d0c6e3e12"
+        },
+        {
+          "path": "10_agent_workflow/tasks/PAGE14_TEXT/SOURCE_REVIEW.v001.md",
+          "sha256": "649f9a8d4a5d47c1c9bb62c48e4b37ccbc6b7fe6d40274890dbdd7869c346b02"
+        }
+      ],
+      "last_note": "Opened source33–34/book244–245: collective shout exactly corresponding to storyboard. Editorial correction: remove unsupported absolute superlative vĩ đại nhất lịch sử from final keyword, retain cuộc tổng khởi nghĩa in red. Storyboard file remains immutable to preserve earlier lock hashes. Collective art may show only part of17chiefs/17drums/30elephants; no claim of complete visual count.",
+      "page": 14,
+      "owner": "Codex",
+      "updated_at": "2026-11-09T14:11:00+00:00"
     },
     {
       "id": "PAGE14_ART",
       "kind": "art",
       "title": "Trang14: tạo và kiểm tranh nền",
-      "status": "todo",
+      "status": "blocked",
       "depends_on": [
         "PAGE14_TEXT"
       ],
       "instructions": "Lấy text đã khóa từ evidence bước TEXT. Xem các sheet liên quan; soạn prompt cuối theo cảnh, ghi actual_references và hash. Tạo ảnh bằng công cụ sinh ảnh, nền không chữ, không bóng thoại, chừa20% đỉnh; dùng đúng A/B/C. Kiểm mặt, phục trang, tay/chân/vũ khí và hành động. Lưu PNG native có phiên bản và metadata theo templates/RAW_IMAGE_METADATA.json. Không resize rồi khai native300DPI.",
       "evidence": [],
-      "last_note": "",
-      "page": 14
+      "last_note": "Image request pending, independent layouts continue",
+      "page": 14,
+      "owner": "Codex",
+      "updated_at": "2026-11-09T14:15:05+00:00",
+      "block_reason": "Image request pending, independent layouts continue"
     },
     {
       "id": "PAGE14_LAYOUT",
@@ -1745,27 +2153,45 @@
       "id": "PAGE15_TEXT",
       "kind": "text",
       "title": "Trang15: đối chiếu và khóa chữ",
-      "status": "todo",
+      "status": "done",
       "depends_on": [
         "DESIGN_BASELINE"
       ],
       "instructions": "Đọc nguyên cảnh và nguồn scan; sửa các câu cường điệu/không có căn cứ, giữ giọng hào hùng 13–16 tuổi. Đếm thật 35–65 tiếng theo khoảng trắng, không dùng số từ ghi trong tiêu đề làm chứng cứ. Chép đủ thoại vào text.v001.json, giữ **từ khóa**; ghi nguồn, template và hash storyboard. Khóa chữ sau khi kiểm. Nếu sửa toàn file storyboard về sau, rà lại các text đã khóa theo hash mới.",
-      "evidence": [],
-      "last_note": "",
-      "page": 15
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/PAGE15_TEXT/report.v001.json",
+          "sha256": "1606c486698f64eace7562d5aa5b240e4576d460cc3fd26dbddf615fe4594a4a"
+        },
+        {
+          "path": "10_agent_workflow/tasks/PAGE15_TEXT/text.v001.json",
+          "sha256": "9343f4f79409eca1171911c247f45e398b2d9a28c3c7a8f50d98f91426b28db5"
+        },
+        {
+          "path": "10_agent_workflow/tasks/PAGE15_TEXT/SOURCE_REVIEW.v001.md",
+          "sha256": "2eeef93a502996a81d31f40f66cf836d7ef87d7d3711af4e74db3c6619c9fbbf"
+        }
+      ],
+      "last_note": "Opened source35–38/book246–249, plus39 completing discussion. Timeline is more than10days AFTER executions, not a second execution. TàoQuyền volunteers600 withLụcHiến; main hall contains TôĐịnh and officers. Full adapted quote retained. Capitalization of keyword Trống follows sentence position.",
+      "page": 15,
+      "owner": "Codex",
+      "updated_at": "2026-11-09T14:11:01+00:00"
     },
     {
       "id": "PAGE15_ART",
       "kind": "art",
       "title": "Trang15: tạo và kiểm tranh nền",
-      "status": "todo",
+      "status": "blocked",
       "depends_on": [
         "PAGE15_TEXT"
       ],
       "instructions": "Lấy text đã khóa từ evidence bước TEXT. Xem các sheet liên quan; soạn prompt cuối theo cảnh, ghi actual_references và hash. Tạo ảnh bằng công cụ sinh ảnh, nền không chữ, không bóng thoại, chừa20% đỉnh; dùng đúng A/B/C. Kiểm mặt, phục trang, tay/chân/vũ khí và hành động. Lưu PNG native có phiên bản và metadata theo templates/RAW_IMAGE_METADATA.json. Không resize rồi khai native300DPI.",
       "evidence": [],
-      "last_note": "",
-      "page": 15
+      "last_note": "Image request pending, independent layouts continue",
+      "page": 15,
+      "owner": "Codex",
+      "updated_at": "2026-11-09T14:15:05+00:00",
+      "block_reason": "Image request pending, independent layouts continue"
     },
     {
       "id": "PAGE15_LAYOUT",
@@ -1797,27 +2223,45 @@
       "id": "PAGE16_TEXT",
       "kind": "text",
       "title": "Trang16: đối chiếu và khóa chữ",
-      "status": "todo",
+      "status": "done",
       "depends_on": [
         "DESIGN_BASELINE"
       ],
       "instructions": "Đọc nguyên cảnh và nguồn scan; sửa các câu cường điệu/không có căn cứ, giữ giọng hào hùng 13–16 tuổi. Đếm thật 35–65 tiếng theo khoảng trắng, không dùng số từ ghi trong tiêu đề làm chứng cứ. Chép đủ thoại vào text.v001.json, giữ **từ khóa**; ghi nguồn, template và hash storyboard. Khóa chữ sau khi kiểm. Nếu sửa toàn file storyboard về sau, rà lại các text đã khóa theo hash mới.",
-      "evidence": [],
-      "last_note": "",
-      "page": 16
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/PAGE16_TEXT/report.v001.json",
+          "sha256": "1e66bf7c32f1043e19861c8a22b1fbfb8eb0684f2ad688f504f9c794fd8e0e4d"
+        },
+        {
+          "path": "10_agent_workflow/tasks/PAGE16_TEXT/text.v001.json",
+          "sha256": "1e49946193e9ffda47a5be013e09c34949bb268b76619bf320bf7e960e4ba31a"
+        },
+        {
+          "path": "10_agent_workflow/tasks/PAGE16_TEXT/SOURCE_REVIEW.v001.md",
+          "sha256": "97ce7f12e755963bb01eb8af0891ef447011c3c61aa5c7f91c3340d03ee6d74a"
+        }
+      ],
+      "last_note": "Opened source39–40/book250–251: altar>2trượng,99flags,8male elephants with white tusks. IMPORTANT source correction to storyboard:16 refers to oars per boat; fleet is hơn trăm chiếc, NOT160boats. Replace final red keyword một trăm sáu mươi chiến thuyền with hơn một trăm chiến thuyền. Keep eight elephants count visible in art; fleet and flags may extend beyond frame. No dialogue.",
+      "page": 16,
+      "owner": "Codex",
+      "updated_at": "2026-11-09T14:11:01+00:00"
     },
     {
       "id": "PAGE16_ART",
       "kind": "art",
       "title": "Trang16: tạo và kiểm tranh nền",
-      "status": "todo",
+      "status": "blocked",
       "depends_on": [
         "PAGE16_TEXT"
       ],
       "instructions": "Lấy text đã khóa từ evidence bước TEXT. Xem các sheet liên quan; soạn prompt cuối theo cảnh, ghi actual_references và hash. Tạo ảnh bằng công cụ sinh ảnh, nền không chữ, không bóng thoại, chừa20% đỉnh; dùng đúng A/B/C. Kiểm mặt, phục trang, tay/chân/vũ khí và hành động. Lưu PNG native có phiên bản và metadata theo templates/RAW_IMAGE_METADATA.json. Không resize rồi khai native300DPI.",
       "evidence": [],
-      "last_note": "",
-      "page": 16
+      "last_note": "Image request pending, independent layouts continue",
+      "page": 16,
+      "owner": "Codex",
+      "updated_at": "2026-11-09T14:15:05+00:00",
+      "block_reason": "Image request pending, independent layouts continue"
     },
     {
       "id": "PAGE16_LAYOUT",
@@ -1849,27 +2293,45 @@
       "id": "PAGE17_TEXT",
       "kind": "text",
       "title": "Trang17: đối chiếu và khóa chữ",
-      "status": "todo",
+      "status": "done",
       "depends_on": [
         "DESIGN_BASELINE"
       ],
       "instructions": "Đọc nguyên cảnh và nguồn scan; sửa các câu cường điệu/không có căn cứ, giữ giọng hào hùng 13–16 tuổi. Đếm thật 35–65 tiếng theo khoảng trắng, không dùng số từ ghi trong tiêu đề làm chứng cứ. Chép đủ thoại vào text.v001.json, giữ **từ khóa**; ghi nguồn, template và hash storyboard. Khóa chữ sau khi kiểm. Nếu sửa toàn file storyboard về sau, rà lại các text đã khóa theo hash mới.",
-      "evidence": [],
-      "last_note": "",
-      "page": 17
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/PAGE17_TEXT/report.v001.json",
+          "sha256": "002f5741e46e144286582d9431da2156171958334848a4df6303e0478eef8fe1"
+        },
+        {
+          "path": "10_agent_workflow/tasks/PAGE17_TEXT/text.v001.json",
+          "sha256": "2838fc9f0fbbd9133503a4454e653c9c16908a9802b4405e446a3a00239b1d13"
+        },
+        {
+          "path": "10_agent_workflow/tasks/PAGE17_TEXT/SOURCE_REVIEW.v001.md",
+          "sha256": "4f8bb0ca2799e75d4118548306c33a900ca3a7e4194507b2997c06debb7a9af1"
+        }
+      ],
+      "last_note": "Opened source40–41/book251–252:3tablets,ceremonial censer,sisters with2teachers/3magistrates/17chiefs,Trắc supremecommander. Labels will be separately typeset in layout; raw tablets blank. Trắc red/bronze,Nhị navy/bronze, both white mourning bands. No dialogue.",
+      "page": 17,
+      "owner": "Codex",
+      "updated_at": "2026-11-09T14:11:01+00:00"
     },
     {
       "id": "PAGE17_ART",
       "kind": "art",
       "title": "Trang17: tạo và kiểm tranh nền",
-      "status": "todo",
+      "status": "blocked",
       "depends_on": [
         "PAGE17_TEXT"
       ],
       "instructions": "Lấy text đã khóa từ evidence bước TEXT. Xem các sheet liên quan; soạn prompt cuối theo cảnh, ghi actual_references và hash. Tạo ảnh bằng công cụ sinh ảnh, nền không chữ, không bóng thoại, chừa20% đỉnh; dùng đúng A/B/C. Kiểm mặt, phục trang, tay/chân/vũ khí và hành động. Lưu PNG native có phiên bản và metadata theo templates/RAW_IMAGE_METADATA.json. Không resize rồi khai native300DPI.",
       "evidence": [],
-      "last_note": "",
-      "page": 17
+      "last_note": "Image request pending, independent layouts continue",
+      "page": 17,
+      "owner": "Codex",
+      "updated_at": "2026-11-09T14:15:06+00:00",
+      "block_reason": "Image request pending, independent layouts continue"
     },
     {
       "id": "PAGE17_LAYOUT",
@@ -1901,27 +2363,45 @@
       "id": "PAGE18_TEXT",
       "kind": "text",
       "title": "Trang18: đối chiếu và khóa chữ",
-      "status": "todo",
+      "status": "done",
       "depends_on": [
         "DESIGN_BASELINE"
       ],
       "instructions": "Đọc nguyên cảnh và nguồn scan; sửa các câu cường điệu/không có căn cứ, giữ giọng hào hùng 13–16 tuổi. Đếm thật 35–65 tiếng theo khoảng trắng, không dùng số từ ghi trong tiêu đề làm chứng cứ. Chép đủ thoại vào text.v001.json, giữ **từ khóa**; ghi nguồn, template và hash storyboard. Khóa chữ sau khi kiểm. Nếu sửa toàn file storyboard về sau, rà lại các text đã khóa theo hash mới.",
-      "evidence": [],
-      "last_note": "",
-      "page": 18
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/PAGE18_TEXT/report.v001.json",
+          "sha256": "1c4152e9d02179f131e99eebfbf00d1381604ab730e6620fca59ee8a0d67257f"
+        },
+        {
+          "path": "10_agent_workflow/tasks/PAGE18_TEXT/text.v001.json",
+          "sha256": "9e2f7570a24a4a593ea0b8b018eff74d4d69b01b541b42ded2827bb7bc5bee79"
+        },
+        {
+          "path": "10_agent_workflow/tasks/PAGE18_TEXT/SOURCE_REVIEW.v001.md",
+          "sha256": "91ae2ac20e80415b5f398b2ebfce7fd7c3cd80f8ec95c70a0f2233a2aff8ba94"
+        }
+      ],
+      "last_note": "Opened source41–42/book252–253: ceremonial proclamation quoted inside novel; source footnote theo ThiênNamvănlục. Storyboard dialogue is condensed/adapted, NOT verbatim entire ancient proclamation despite old heading. Preserve all adapted dialogue exactly and record distinction here. Four red keywords retained. No claim of actual historical transcript.",
+      "page": 18,
+      "owner": "Codex",
+      "updated_at": "2026-11-09T14:11:01+00:00"
     },
     {
       "id": "PAGE18_ART",
       "kind": "art",
       "title": "Trang18: tạo và kiểm tranh nền",
-      "status": "todo",
+      "status": "blocked",
       "depends_on": [
         "PAGE18_TEXT"
       ],
       "instructions": "Lấy text đã khóa từ evidence bước TEXT. Xem các sheet liên quan; soạn prompt cuối theo cảnh, ghi actual_references và hash. Tạo ảnh bằng công cụ sinh ảnh, nền không chữ, không bóng thoại, chừa20% đỉnh; dùng đúng A/B/C. Kiểm mặt, phục trang, tay/chân/vũ khí và hành động. Lưu PNG native có phiên bản và metadata theo templates/RAW_IMAGE_METADATA.json. Không resize rồi khai native300DPI.",
       "evidence": [],
-      "last_note": "",
-      "page": 18
+      "last_note": "Image request pending, independent layouts continue",
+      "page": 18,
+      "owner": "Codex",
+      "updated_at": "2026-11-09T14:15:06+00:00",
+      "block_reason": "Image request pending, independent layouts continue"
     },
     {
       "id": "PAGE18_LAYOUT",
@@ -3451,6 +3931,606 @@
       "task": "PAGE08_QA",
       "action": "finish",
       "note": "Opened full 150DPI render: narration four lines with four red keywords; both saddle boots clear, intact hands/spears/horse identities, no text overlaps or missing Vietnamese accents. No dialogue per storyboard. Geometry trim190×240 bleed196×246, native art about145DPI; reading proof only."
+    },
+    {
+      "at": "2026-11-09T14:04:25+00:00",
+      "task": "PAGE09_TEXT",
+      "action": "start",
+      "note": "Continue production with source and visual verification"
+    },
+    {
+      "at": "2026-11-09T14:04:25+00:00",
+      "task": "PAGE09_TEXT",
+      "action": "checkpoint",
+      "note": "Opened contact sheet19–24, source22–23/book233–234: LữThạch dies, 200+ rescuers led byĐinhLương enter; ThiSách and all remaining defenders die. Condensed graphic killing to hạ gục, art shows last stand without gore. No PhùngThịChính in this massacre. Full adapted quote from storyboard retained."
+    },
+    {
+      "at": "2026-11-09T14:04:25+00:00",
+      "task": "PAGE09_TEXT",
+      "action": "finish",
+      "note": "Opened contact sheet19–24, source22–23/book233–234: LữThạch dies, 200+ rescuers led byĐinhLương enter; ThiSách and all remaining defenders die. Condensed graphic killing to hạ gục, art shows last stand without gore. No PhùngThịChính in this massacre. Full adapted quote from storyboard retained."
+    },
+    {
+      "at": "2026-11-09T14:04:25+00:00",
+      "task": "PAGE10_TEXT",
+      "action": "start",
+      "note": "Continue production with source and visual verification"
+    },
+    {
+      "at": "2026-11-09T14:04:26+00:00",
+      "task": "PAGE10_TEXT",
+      "action": "checkpoint",
+      "note": "Opened source24–25/book235–236: CổLôi30 elephants,17drums,17chiefs, not HátMôn8. Trắc receives massacre news, father presumed doomed while imprisoned; wording keeps her current knowledge, not a second execution. ĐôNăngTế male/graybeard, CẩmNương female. Full storyboard dialogue."
+    },
+    {
+      "at": "2026-11-09T14:04:26+00:00",
+      "task": "PAGE10_TEXT",
+      "action": "finish",
+      "note": "Opened source24–25/book235–236: CổLôi30 elephants,17drums,17chiefs, not HátMôn8. Trắc receives massacre news, father presumed doomed while imprisoned; wording keeps her current knowledge, not a second execution. ĐôNăngTế male/graybeard, CẩmNương female. Full storyboard dialogue."
+    },
+    {
+      "at": "2026-11-09T14:04:26+00:00",
+      "task": "PAGE11_TEXT",
+      "action": "start",
+      "note": "Continue production with source and visual verification"
+    },
+    {
+      "at": "2026-11-09T14:04:26+00:00",
+      "task": "PAGE11_TEXT",
+      "action": "checkpoint",
+      "note": "Opened source26–29/book237–240: northern LuyLâu execution platform, bound elders discuss TrưngTrắc and national fate, laugh before sentence. Nhị remains navy, NguyễnHuyền green/whitebeard, TrưngĐịnh navy/forkedbeard. Art depicts before execution, no wounds. Both complete storyboard quotes."
+    },
+    {
+      "at": "2026-11-09T14:04:26+00:00",
+      "task": "PAGE11_TEXT",
+      "action": "finish",
+      "note": "Opened source26–29/book237–240: northern LuyLâu execution platform, bound elders discuss TrưngTrắc and national fate, laugh before sentence. Nhị remains navy, NguyễnHuyền green/whitebeard, TrưngĐịnh navy/forkedbeard. Art depicts before execution, no wounds. Both complete storyboard quotes."
+    },
+    {
+      "at": "2026-11-09T14:04:26+00:00",
+      "task": "PAGE12_TEXT",
+      "action": "start",
+      "note": "Continue production with source and visual verification"
+    },
+    {
+      "at": "2026-11-09T14:04:26+00:00",
+      "task": "PAGE12_TEXT",
+      "action": "checkpoint",
+      "note": "Opened source29–31/book240–242: LêĐạo arrives with black hawk and bamboo tube; ĐàoChiêuHiển, PhạmDanhHương follow. Renunciation is an editorial summary of leaving office. Phạm carries white whisk; full adapted quote preserved, three TemplateC scenes."
+    },
+    {
+      "at": "2026-11-09T14:04:26+00:00",
+      "task": "PAGE12_TEXT",
+      "action": "finish",
+      "note": "Opened source29–31/book240–242: LêĐạo arrives with black hawk and bamboo tube; ĐàoChiêuHiển, PhạmDanhHương follow. Renunciation is an editorial summary of leaving office. Phạm carries white whisk; full adapted quote preserved, three TemplateC scenes."
+    },
+    {
+      "at": "2026-11-09T14:05:14+00:00",
+      "task": "PAGE09_ART",
+      "action": "start",
+      "note": "Continue production with source and visual verification"
+    },
+    {
+      "at": "2026-11-09T14:05:14+00:00",
+      "task": "PAGE09_ART",
+      "action": "checkpoint",
+      "note": "Fresh logged request saved; recovered image is actual reference; waiting for tool output"
+    },
+    {
+      "at": "2026-11-09T14:05:14+00:00",
+      "task": "PAGE09_ART",
+      "action": "block",
+      "note": "Image generation pending; independent text may continue"
+    },
+    {
+      "at": "2026-11-09T14:05:14+00:00",
+      "task": "PAGE10_ART",
+      "action": "start",
+      "note": "Continue production with source and visual verification"
+    },
+    {
+      "at": "2026-11-09T14:05:14+00:00",
+      "task": "PAGE10_ART",
+      "action": "checkpoint",
+      "note": "Fresh logged request saved; recovered image is actual reference; waiting for tool output"
+    },
+    {
+      "at": "2026-11-09T14:05:14+00:00",
+      "task": "PAGE10_ART",
+      "action": "block",
+      "note": "Image generation pending; independent text may continue"
+    },
+    {
+      "at": "2026-11-09T14:05:14+00:00",
+      "task": "PAGE11_ART",
+      "action": "start",
+      "note": "Continue production with source and visual verification"
+    },
+    {
+      "at": "2026-11-09T14:05:15+00:00",
+      "task": "PAGE11_ART",
+      "action": "checkpoint",
+      "note": "Fresh logged request saved; recovered image is actual reference; waiting for tool output"
+    },
+    {
+      "at": "2026-11-09T14:05:15+00:00",
+      "task": "PAGE11_ART",
+      "action": "block",
+      "note": "Image generation pending; independent text may continue"
+    },
+    {
+      "at": "2026-11-09T14:05:15+00:00",
+      "task": "PAGE12_ART",
+      "action": "start",
+      "note": "Continue production with source and visual verification"
+    },
+    {
+      "at": "2026-11-09T14:05:15+00:00",
+      "task": "PAGE12_ART",
+      "action": "checkpoint",
+      "note": "Fresh logged request saved; recovered image is actual reference; waiting for tool output"
+    },
+    {
+      "at": "2026-11-09T14:05:15+00:00",
+      "task": "PAGE12_ART",
+      "action": "block",
+      "note": "Image generation pending; independent text may continue"
+    },
+    {
+      "at": "2026-11-09T14:11:00+00:00",
+      "task": "PAGE13_TEXT",
+      "action": "start",
+      "note": "Continue production with source and visual verification"
+    },
+    {
+      "at": "2026-11-09T14:11:00+00:00",
+      "task": "PAGE13_TEXT",
+      "action": "checkpoint",
+      "note": "Opened source32–33/book243–244: white mourning attire/headband, no tears at declaration;17chiefs. ĐôNăngTế male vuốt râu. All five narration keywords and full storyboard quote retained. Declaration is adapted from novel, not a verbatim historical speech."
+    },
+    {
+      "at": "2026-11-09T14:11:00+00:00",
+      "task": "PAGE13_TEXT",
+      "action": "finish",
+      "note": "Opened source32–33/book243–244: white mourning attire/headband, no tears at declaration;17chiefs. ĐôNăngTế male vuốt râu. All five narration keywords and full storyboard quote retained. Declaration is adapted from novel, not a verbatim historical speech."
+    },
+    {
+      "at": "2026-11-09T14:11:00+00:00",
+      "task": "PAGE14_TEXT",
+      "action": "start",
+      "note": "Continue production with source and visual verification"
+    },
+    {
+      "at": "2026-11-09T14:11:00+00:00",
+      "task": "PAGE14_TEXT",
+      "action": "checkpoint",
+      "note": "Opened source33–34/book244–245: collective shout exactly corresponding to storyboard. Editorial correction: remove unsupported absolute superlative vĩ đại nhất lịch sử from final keyword, retain cuộc tổng khởi nghĩa in red. Storyboard file remains immutable to preserve earlier lock hashes. Collective art may show only part of17chiefs/17drums/30elephants; no claim of complete visual count."
+    },
+    {
+      "at": "2026-11-09T14:11:00+00:00",
+      "task": "PAGE14_TEXT",
+      "action": "finish",
+      "note": "Opened source33–34/book244–245: collective shout exactly corresponding to storyboard. Editorial correction: remove unsupported absolute superlative vĩ đại nhất lịch sử from final keyword, retain cuộc tổng khởi nghĩa in red. Storyboard file remains immutable to preserve earlier lock hashes. Collective art may show only part of17chiefs/17drums/30elephants; no claim of complete visual count."
+    },
+    {
+      "at": "2026-11-09T14:11:00+00:00",
+      "task": "PAGE15_TEXT",
+      "action": "start",
+      "note": "Continue production with source and visual verification"
+    },
+    {
+      "at": "2026-11-09T14:11:01+00:00",
+      "task": "PAGE15_TEXT",
+      "action": "checkpoint",
+      "note": "Opened source35–38/book246–249, plus39 completing discussion. Timeline is more than10days AFTER executions, not a second execution. TàoQuyền volunteers600 withLụcHiến; main hall contains TôĐịnh and officers. Full adapted quote retained. Capitalization of keyword Trống follows sentence position."
+    },
+    {
+      "at": "2026-11-09T14:11:01+00:00",
+      "task": "PAGE15_TEXT",
+      "action": "finish",
+      "note": "Opened source35–38/book246–249, plus39 completing discussion. Timeline is more than10days AFTER executions, not a second execution. TàoQuyền volunteers600 withLụcHiến; main hall contains TôĐịnh and officers. Full adapted quote retained. Capitalization of keyword Trống follows sentence position."
+    },
+    {
+      "at": "2026-11-09T14:11:01+00:00",
+      "task": "PAGE16_TEXT",
+      "action": "start",
+      "note": "Continue production with source and visual verification"
+    },
+    {
+      "at": "2026-11-09T14:11:01+00:00",
+      "task": "PAGE16_TEXT",
+      "action": "checkpoint",
+      "note": "Opened source39–40/book250–251: altar>2trượng,99flags,8male elephants with white tusks. IMPORTANT source correction to storyboard:16 refers to oars per boat; fleet is hơn trăm chiếc, NOT160boats. Replace final red keyword một trăm sáu mươi chiến thuyền with hơn một trăm chiến thuyền. Keep eight elephants count visible in art; fleet and flags may extend beyond frame. No dialogue."
+    },
+    {
+      "at": "2026-11-09T14:11:01+00:00",
+      "task": "PAGE16_TEXT",
+      "action": "finish",
+      "note": "Opened source39–40/book250–251: altar>2trượng,99flags,8male elephants with white tusks. IMPORTANT source correction to storyboard:16 refers to oars per boat; fleet is hơn trăm chiếc, NOT160boats. Replace final red keyword một trăm sáu mươi chiến thuyền with hơn một trăm chiến thuyền. Keep eight elephants count visible in art; fleet and flags may extend beyond frame. No dialogue."
+    },
+    {
+      "at": "2026-11-09T14:11:01+00:00",
+      "task": "PAGE17_TEXT",
+      "action": "start",
+      "note": "Continue production with source and visual verification"
+    },
+    {
+      "at": "2026-11-09T14:11:01+00:00",
+      "task": "PAGE17_TEXT",
+      "action": "checkpoint",
+      "note": "Opened source40–41/book251–252:3tablets,ceremonial censer,sisters with2teachers/3magistrates/17chiefs,Trắc supremecommander. Labels will be separately typeset in layout; raw tablets blank. Trắc red/bronze,Nhị navy/bronze, both white mourning bands. No dialogue."
+    },
+    {
+      "at": "2026-11-09T14:11:01+00:00",
+      "task": "PAGE17_TEXT",
+      "action": "finish",
+      "note": "Opened source40–41/book251–252:3tablets,ceremonial censer,sisters with2teachers/3magistrates/17chiefs,Trắc supremecommander. Labels will be separately typeset in layout; raw tablets blank. Trắc red/bronze,Nhị navy/bronze, both white mourning bands. No dialogue."
+    },
+    {
+      "at": "2026-11-09T14:11:01+00:00",
+      "task": "PAGE18_TEXT",
+      "action": "start",
+      "note": "Continue production with source and visual verification"
+    },
+    {
+      "at": "2026-11-09T14:11:01+00:00",
+      "task": "PAGE18_TEXT",
+      "action": "checkpoint",
+      "note": "Opened source41–42/book252–253: ceremonial proclamation quoted inside novel; source footnote theo ThiênNamvănlục. Storyboard dialogue is condensed/adapted, NOT verbatim entire ancient proclamation despite old heading. Preserve all adapted dialogue exactly and record distinction here. Four red keywords retained. No claim of actual historical transcript."
+    },
+    {
+      "at": "2026-11-09T14:11:01+00:00",
+      "task": "PAGE18_TEXT",
+      "action": "finish",
+      "note": "Opened source41–42/book252–253: ceremonial proclamation quoted inside novel; source footnote theo ThiênNamvănlục. Storyboard dialogue is condensed/adapted, NOT verbatim entire ancient proclamation despite old heading. Preserve all adapted dialogue exactly and record distinction here. Four red keywords retained. No claim of actual historical transcript."
+    },
+    {
+      "at": "2026-11-09T14:12:35+00:00",
+      "task": "PAGE09_ART",
+      "action": "unblock",
+      "note": "Logged tool output returned and pixels reviewed"
+    },
+    {
+      "at": "2026-11-09T14:12:35+00:00",
+      "task": "PAGE09_ART",
+      "action": "start",
+      "note": "Continue production with source and visual verification"
+    },
+    {
+      "at": "2026-11-09T14:12:35+00:00",
+      "task": "PAGE09_ART",
+      "action": "checkpoint",
+      "note": "Viewed new Template B output: ThiSách purple/tiger/shortbeard, LữThạch iron/fourdaggers fallen with broken spear, no gore; lower panel ThiSách and ĐinhLương brown/redband back-to-back, two hands on dao, arrows in earth. Top blank sky about18percent; layout expands header to20percent with uniform reviewed panel crops, not stretching. No text or balloons."
+    },
+    {
+      "at": "2026-11-09T14:12:36+00:00",
+      "task": "PAGE09_ART",
+      "action": "finish",
+      "note": "Viewed new Template B output: ThiSách purple/tiger/shortbeard, LữThạch iron/fourdaggers fallen with broken spear, no gore; lower panel ThiSách and ĐinhLương brown/redband back-to-back, two hands on dao, arrows in earth. Top blank sky about18percent; layout expands header to20percent with uniform reviewed panel crops, not stretching. No text or balloons."
+    },
+    {
+      "at": "2026-11-09T14:12:36+00:00",
+      "task": "PAGE10_ART",
+      "action": "unblock",
+      "note": "Logged tool output returned and pixels reviewed"
+    },
+    {
+      "at": "2026-11-09T14:12:36+00:00",
+      "task": "PAGE10_ART",
+      "action": "start",
+      "note": "Continue production with source and visual verification"
+    },
+    {
+      "at": "2026-11-09T14:12:36+00:00",
+      "task": "PAGE10_ART",
+      "action": "checkpoint",
+      "note": "Viewed new Template B: top20percent clear moonlit sky; camp partial drum/elephant rows, not visual claim of8. Lower room exactly four named people: male graybearded Đô, whiteTrắc visibly griefstricken, navyNhị, olderpurpleCẩm. Hands and letter intact, no text. Source quantity30/17 belongs to full camp beyond crop."
+    },
+    {
+      "at": "2026-11-09T14:12:36+00:00",
+      "task": "PAGE10_ART",
+      "action": "finish",
+      "note": "Viewed new Template B: top20percent clear moonlit sky; camp partial drum/elephant rows, not visual claim of8. Lower room exactly four named people: male graybearded Đô, whiteTrắc visibly griefstricken, navyNhị, olderpurpleCẩm. Hands and letter intact, no text. Source quantity30/17 belongs to full camp beyond crop."
+    },
+    {
+      "at": "2026-11-09T14:12:36+00:00",
+      "task": "PAGE11_ART",
+      "action": "unblock",
+      "note": "Logged tool output returned and pixels reviewed"
+    },
+    {
+      "at": "2026-11-09T14:12:36+00:00",
+      "task": "PAGE11_ART",
+      "action": "start",
+      "note": "Continue production with source and visual verification"
+    },
+    {
+      "at": "2026-11-09T14:12:36+00:00",
+      "task": "PAGE11_ART",
+      "action": "checkpoint",
+      "note": "Opened new output directly: separate posts, NguyễnHuyền green/longwhitebeard atleft, TrưngĐịnh navy/forkbeard atright; both laugh before execution, bound hands intact. Guards belowleft; lower-right stage blank for folio. Top40percent open sky. No graphic violence or text."
+    },
+    {
+      "at": "2026-11-09T14:12:36+00:00",
+      "task": "PAGE11_ART",
+      "action": "finish",
+      "note": "Opened new output directly: separate posts, NguyễnHuyền green/longwhitebeard atleft, TrưngĐịnh navy/forkbeard atright; both laugh before execution, bound hands intact. Guards belowleft; lower-right stage blank for folio. Top40percent open sky. No graphic violence or text."
+    },
+    {
+      "at": "2026-11-09T14:12:36+00:00",
+      "task": "PAGE12_ART",
+      "action": "unblock",
+      "note": "Logged tool output returned and pixels reviewed"
+    },
+    {
+      "at": "2026-11-09T14:12:36+00:00",
+      "task": "PAGE12_ART",
+      "action": "start",
+      "note": "Continue production with source and visual verification"
+    },
+    {
+      "at": "2026-11-09T14:12:37+00:00",
+      "task": "PAGE12_ART",
+      "action": "checkpoint",
+      "note": "Viewed generated Template C output: two upper scenes LêĐạo navy/blackhawk/bambootube, ĐàoChiêuHiển red/bronze/spear; lower scene PhạmDanhHương whitebeard/grayblue/whitewhisk, barewall atleft for quote. Clear topquarter, no letters, correct grips and distinct faces."
+    },
+    {
+      "at": "2026-11-09T14:12:37+00:00",
+      "task": "PAGE12_ART",
+      "action": "finish",
+      "note": "Viewed generated Template C output: two upper scenes LêĐạo navy/blackhawk/bambootube, ĐàoChiêuHiển red/bronze/spear; lower scene PhạmDanhHương whitebeard/grayblue/whitewhisk, barewall atleft for quote. Clear topquarter, no letters, correct grips and distinct faces."
+    },
+    {
+      "at": "2026-11-09T14:12:37+00:00",
+      "task": "PAGE09_LAYOUT",
+      "action": "start",
+      "note": "Continue production with source and visual verification"
+    },
+    {
+      "at": "2026-11-09T14:15:04+00:00",
+      "task": "PAGE09_LAYOUT",
+      "action": "checkpoint",
+      "note": "Opened revised full render: compact two-line complete ĐinhLương quote, tail reaches his mouth and leaves both faces/crowns/grips visible; five red keywords, four narration lines, correct scene order and no gore. Caption/scenes independently uniformly placed, bleed/safe boxes match tokens. Compared all dialogue to PDF extraction. v001 retained as rejected larger balloon."
+    },
+    {
+      "at": "2026-11-09T14:15:04+00:00",
+      "task": "PAGE09_LAYOUT",
+      "action": "finish",
+      "note": "Opened revised full render: compact two-line complete ĐinhLương quote, tail reaches his mouth and leaves both faces/crowns/grips visible; five red keywords, four narration lines, correct scene order and no gore. Caption/scenes independently uniformly placed, bleed/safe boxes match tokens. Compared all dialogue to PDF extraction. v001 retained as rejected larger balloon."
+    },
+    {
+      "at": "2026-11-09T14:15:04+00:00",
+      "task": "PAGE09_QA",
+      "action": "start",
+      "note": "Continue production with source and visual verification"
+    },
+    {
+      "at": "2026-11-09T14:15:04+00:00",
+      "task": "PAGE09_QA",
+      "action": "checkpoint",
+      "note": "Opened revised full render: compact two-line complete ĐinhLương quote, tail reaches his mouth and leaves both faces/crowns/grips visible; five red keywords, four narration lines, correct scene order and no gore. Caption/scenes independently uniformly placed, bleed/safe boxes match tokens. Compared all dialogue to PDF extraction. v001 retained as rejected larger balloon."
+    },
+    {
+      "at": "2026-11-09T14:15:04+00:00",
+      "task": "PAGE09_QA",
+      "action": "finish",
+      "note": "Opened revised full render: compact two-line complete ĐinhLương quote, tail reaches his mouth and leaves both faces/crowns/grips visible; five red keywords, four narration lines, correct scene order and no gore. Caption/scenes independently uniformly placed, bleed/safe boxes match tokens. Compared all dialogue to PDF extraction. v001 retained as rejected larger balloon."
+    },
+    {
+      "at": "2026-11-09T14:15:05+00:00",
+      "task": "PAGE13_ART",
+      "action": "start",
+      "note": "Continue production with source and visual verification"
+    },
+    {
+      "at": "2026-11-09T14:15:05+00:00",
+      "task": "PAGE13_ART",
+      "action": "checkpoint",
+      "note": "Source text locked; viewed baseline pixels; exact prompt and actual reference paths saved"
+    },
+    {
+      "at": "2026-11-09T14:15:05+00:00",
+      "task": "PAGE13_ART",
+      "action": "block",
+      "note": "Image request pending, independent layouts continue"
+    },
+    {
+      "at": "2026-11-09T14:15:05+00:00",
+      "task": "PAGE14_ART",
+      "action": "start",
+      "note": "Continue production with source and visual verification"
+    },
+    {
+      "at": "2026-11-09T14:15:05+00:00",
+      "task": "PAGE14_ART",
+      "action": "checkpoint",
+      "note": "Source text locked; viewed baseline pixels; exact prompt and actual reference paths saved"
+    },
+    {
+      "at": "2026-11-09T14:15:05+00:00",
+      "task": "PAGE14_ART",
+      "action": "block",
+      "note": "Image request pending, independent layouts continue"
+    },
+    {
+      "at": "2026-11-09T14:15:05+00:00",
+      "task": "PAGE15_ART",
+      "action": "start",
+      "note": "Continue production with source and visual verification"
+    },
+    {
+      "at": "2026-11-09T14:15:05+00:00",
+      "task": "PAGE15_ART",
+      "action": "checkpoint",
+      "note": "Source text locked; viewed baseline pixels; exact prompt and actual reference paths saved"
+    },
+    {
+      "at": "2026-11-09T14:15:05+00:00",
+      "task": "PAGE15_ART",
+      "action": "block",
+      "note": "Image request pending, independent layouts continue"
+    },
+    {
+      "at": "2026-11-09T14:15:05+00:00",
+      "task": "PAGE16_ART",
+      "action": "start",
+      "note": "Continue production with source and visual verification"
+    },
+    {
+      "at": "2026-11-09T14:15:05+00:00",
+      "task": "PAGE16_ART",
+      "action": "checkpoint",
+      "note": "Source text locked; viewed baseline pixels; exact prompt and actual reference paths saved"
+    },
+    {
+      "at": "2026-11-09T14:15:05+00:00",
+      "task": "PAGE16_ART",
+      "action": "block",
+      "note": "Image request pending, independent layouts continue"
+    },
+    {
+      "at": "2026-11-09T14:15:06+00:00",
+      "task": "PAGE17_ART",
+      "action": "start",
+      "note": "Continue production with source and visual verification"
+    },
+    {
+      "at": "2026-11-09T14:15:06+00:00",
+      "task": "PAGE17_ART",
+      "action": "checkpoint",
+      "note": "Source text locked; viewed baseline pixels; exact prompt and actual reference paths saved"
+    },
+    {
+      "at": "2026-11-09T14:15:06+00:00",
+      "task": "PAGE17_ART",
+      "action": "block",
+      "note": "Image request pending, independent layouts continue"
+    },
+    {
+      "at": "2026-11-09T14:15:06+00:00",
+      "task": "PAGE18_ART",
+      "action": "start",
+      "note": "Continue production with source and visual verification"
+    },
+    {
+      "at": "2026-11-09T14:15:06+00:00",
+      "task": "PAGE18_ART",
+      "action": "checkpoint",
+      "note": "Source text locked; viewed baseline pixels; exact prompt and actual reference paths saved"
+    },
+    {
+      "at": "2026-11-09T14:15:06+00:00",
+      "task": "PAGE18_ART",
+      "action": "block",
+      "note": "Image request pending, independent layouts continue"
+    },
+    {
+      "at": "2026-11-09T14:15:06+00:00",
+      "task": "PAGE10_LAYOUT",
+      "action": "start",
+      "note": "Continue production with source and visual verification"
+    },
+    {
+      "at": "2026-11-09T14:17:57+00:00",
+      "task": "PAGE10_LAYOUT",
+      "action": "checkpoint",
+      "note": "Opened full final render: correct four identities, tears only here, Trắc speech tail to right cheek; both sisters clasp hands without text overlap. Four narration lines/six red keyword spans, full quote, no overflow; native details retained, geometric tokens valid."
+    },
+    {
+      "at": "2026-11-09T14:17:57+00:00",
+      "task": "PAGE10_LAYOUT",
+      "action": "finish",
+      "note": "Opened full final render: correct four identities, tears only here, Trắc speech tail to right cheek; both sisters clasp hands without text overlap. Four narration lines/six red keyword spans, full quote, no overflow; native details retained, geometric tokens valid."
+    },
+    {
+      "at": "2026-11-09T14:17:57+00:00",
+      "task": "PAGE10_QA",
+      "action": "start",
+      "note": "Continue production with source and visual verification"
+    },
+    {
+      "at": "2026-11-09T14:17:57+00:00",
+      "task": "PAGE10_QA",
+      "action": "checkpoint",
+      "note": "Opened full final render: correct four identities, tears only here, Trắc speech tail to right cheek; both sisters clasp hands without text overlap. Four narration lines/six red keyword spans, full quote, no overflow; native details retained, geometric tokens valid."
+    },
+    {
+      "at": "2026-11-09T14:17:57+00:00",
+      "task": "PAGE10_QA",
+      "action": "finish",
+      "note": "Opened full final render: correct four identities, tears only here, Trắc speech tail to right cheek; both sisters clasp hands without text overlap. Four narration lines/six red keyword spans, full quote, no overflow; native details retained, geometric tokens valid."
+    },
+    {
+      "at": "2026-11-09T14:17:57+00:00",
+      "task": "PAGE11_LAYOUT",
+      "action": "start",
+      "note": "Continue production with source and visual verification"
+    },
+    {
+      "at": "2026-11-09T14:19:30+00:00",
+      "task": "PAGE11_LAYOUT",
+      "action": "checkpoint",
+      "note": "Opened both versions and corrected tails: anchors now approach mouth corners from outside, leaving eyes readable; exact two full quotes, correct speaker sides. Five red narration spans, four lines; no gore, no overflow; embedded Vietnamese fonts and standard PDF boxes. v001 tails rejected and retained."
+    },
+    {
+      "at": "2026-11-09T14:19:30+00:00",
+      "task": "PAGE11_LAYOUT",
+      "action": "finish",
+      "note": "Opened both versions and corrected tails: anchors now approach mouth corners from outside, leaving eyes readable; exact two full quotes, correct speaker sides. Five red narration spans, four lines; no gore, no overflow; embedded Vietnamese fonts and standard PDF boxes. v001 tails rejected and retained."
+    },
+    {
+      "at": "2026-11-09T14:19:30+00:00",
+      "task": "PAGE11_QA",
+      "action": "start",
+      "note": "Continue production with source and visual verification"
+    },
+    {
+      "at": "2026-11-09T14:19:30+00:00",
+      "task": "PAGE11_QA",
+      "action": "checkpoint",
+      "note": "Opened both versions and corrected tails: anchors now approach mouth corners from outside, leaving eyes readable; exact two full quotes, correct speaker sides. Five red narration spans, four lines; no gore, no overflow; embedded Vietnamese fonts and standard PDF boxes. v001 tails rejected and retained."
+    },
+    {
+      "at": "2026-11-09T14:19:30+00:00",
+      "task": "PAGE11_QA",
+      "action": "finish",
+      "note": "Opened both versions and corrected tails: anchors now approach mouth corners from outside, leaving eyes readable; exact two full quotes, correct speaker sides. Five red narration spans, four lines; no gore, no overflow; embedded Vietnamese fonts and standard PDF boxes. v001 tails rejected and retained."
+    },
+    {
+      "at": "2026-11-09T14:19:30+00:00",
+      "task": "PAGE12_LAYOUT",
+      "action": "start",
+      "note": "Continue production with source and visual verification"
+    },
+    {
+      "at": "2026-11-09T14:23:58+00:00",
+      "task": "PAGE12_LAYOUT",
+      "action": "checkpoint",
+      "note": "Opened revised full render: triangular tail now reaches PhạmDanhHương mouth rather than horizontal line toward nose. Three panels, distinct LêĐạo blackhawk, ĐàoChiêuHiển spear, Phạm whitewhisk. Six red keyword spans, four narration lines, full three-line quote. No face/grip overlap; no overflow, Vietnamese fonts/standard boxes verified."
+    },
+    {
+      "at": "2026-11-09T14:23:58+00:00",
+      "task": "PAGE12_LAYOUT",
+      "action": "finish",
+      "note": "Opened revised full render: triangular tail now reaches PhạmDanhHương mouth rather than horizontal line toward nose. Three panels, distinct LêĐạo blackhawk, ĐàoChiêuHiển spear, Phạm whitewhisk. Six red keyword spans, four narration lines, full three-line quote. No face/grip overlap; no overflow, Vietnamese fonts/standard boxes verified."
+    },
+    {
+      "at": "2026-11-09T14:23:58+00:00",
+      "task": "PAGE12_QA",
+      "action": "start",
+      "note": "Continue production with source and visual verification"
+    },
+    {
+      "at": "2026-11-09T14:23:58+00:00",
+      "task": "PAGE12_QA",
+      "action": "checkpoint",
+      "note": "Opened revised full render: triangular tail now reaches PhạmDanhHương mouth rather than horizontal line toward nose. Three panels, distinct LêĐạo blackhawk, ĐàoChiêuHiển spear, Phạm whitewhisk. Six red keyword spans, four narration lines, full three-line quote. No face/grip overlap; no overflow, Vietnamese fonts/standard boxes verified."
+    },
+    {
+      "at": "2026-11-09T14:23:58+00:00",
+      "task": "PAGE12_QA",
+      "action": "finish",
+      "note": "Opened revised full render: triangular tail now reaches PhạmDanhHương mouth rather than horizontal line toward nose. Three panels, distinct LêĐạo blackhawk, ĐàoChiêuHiển spear, Phạm whitewhisk. Six red keyword spans, four narration lines, full three-line quote. No face/grip overlap; no overflow, Vietnamese fonts/standard boxes verified."
     }
   ]
 }

@@ -1,0 +1,31 @@
+{
+  "page": 11,
+  "dialogues": [
+    {
+      "speaker": "Trưng Định",
+      "bbox_mm": [
+        98,
+        61,
+        74,
+        29
+      ],
+      "tail_mm": [
+        136,
+        112
+      ]
+    },
+    {
+      "speaker": "Nguyễn Huyền",
+      "bbox_mm": [
+        18,
+        61,
+        74,
+        29
+      ],
+      "tail_mm": [
+        62,
+        107
+      ]
+    }
+  ]
+}

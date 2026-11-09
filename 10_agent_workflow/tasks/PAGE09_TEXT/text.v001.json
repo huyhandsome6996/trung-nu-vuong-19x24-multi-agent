@@ -1,0 +1,17 @@
+{
+  "page": 9,
+  "template": "B",
+  "status": "locked",
+  "narration": "**Thi Sách** hạ gục **Lữ Thạch**. **Đinh Lương** dẫn **hai trăm tráng đinh** xông tới ứng cứu, nhưng quân Hán đã vây kín sân phủ. Tên giáo dồn dập trút xuống. Sau trận tử chiến, **Thi Sách cùng toàn bộ nghĩa sĩ đã anh dũng hy sinh**.",
+  "dialogues": [
+    {
+      "speaker": "Đinh Lương",
+      "text": "Giặc Mã! Cái chết của bọn ta hôm nay chính là ngày báo tang cho quân phương Bắc các ngươi!"
+    }
+  ],
+  "dialogues_status": "locked",
+  "storyboard_path": "03_storyboards_and_scripts/STORYBOARD_PART_1_HOI_7_CHU_DIEN.md",
+  "storyboard_sha256": "feeb2f262326699f209d4f2a170aed13bf30f10327df13b9e178cfcc0cce91aa",
+  "source_notes": "Opened contact sheet19–24, source22–23/book233–234: LữThạch dies, 200+ rescuers led byĐinhLương enter; ThiSách and all remaining defenders die. Condensed graphic killing to hạ gục, art shows last stand without gore. No PhùngThịChính in this massacre. Full adapted quote from storyboard retained.",
+  "note": "Whitespace count checked; full storyboard dialogue retained; keywords retained except explicitly documented source corrections."
+}

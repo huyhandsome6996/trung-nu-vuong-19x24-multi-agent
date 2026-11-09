@@ -1,0 +1,20 @@
+{
+  "task_id": "PAGE13_TEXT",
+  "kind": "text",
+  "status": "passed",
+  "reviewer": "Codex",
+  "summary": "Opened source32–33/book243–244: white mourning attire/headband, no tears at declaration;17chiefs. ĐôNăngTế male vuốt râu. All five narration keywords and full storyboard quote retained. Declaration is adapted from novel, not a verbatim historical speech.",
+  "checks": {
+    "source_alignment": "pass",
+    "narration_35_65": "pass",
+    "keywords_preserved": "pass",
+    "dialogue_locked": "pass",
+    "template_locked": "pass"
+  },
+  "artifacts": [
+    "10_agent_workflow/tasks/PAGE13_TEXT/text.v001.json",
+    "10_agent_workflow/tasks/PAGE13_TEXT/SOURCE_REVIEW.v001.md"
+  ],
+  "open_issues": [],
+  "reviewed_at": "2026-11-09T14:11:00.465149+00:00"
+}

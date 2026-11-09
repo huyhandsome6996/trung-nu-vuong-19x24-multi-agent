@@ -1,0 +1,2 @@
+Opened source33–34/book244–245: collective shout exactly corresponding to storyboard. Editorial correction: remove unsupported absolute superlative vĩ đại nhất lịch sử from final keyword, retain cuộc tổng khởi nghĩa in red. Storyboard file remains immutable to preserve earlier lock hashes. Collective art may show only part of17chiefs/17drums/30elephants; no claim of complete visual count.
+Narration tokens=50; complete dialogue count=1.

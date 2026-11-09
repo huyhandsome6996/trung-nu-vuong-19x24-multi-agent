@@ -1,0 +1,21 @@
+{
+  "task_id": "PAGE11_QA",
+  "kind": "qa",
+  "status": "passed",
+  "reviewer": "Codex",
+  "summary": "Opened both versions and corrected tails: anchors now approach mouth corners from outside, leaving eyes readable; exact two full quotes, correct speaker sides. Five red narration spans, four lines; no gore, no overflow; embedded Vietnamese fonts and standard PDF boxes. v001 tails rejected and retained.",
+  "checks": {
+    "historical": "pass",
+    "art": "pass",
+    "language": "pass",
+    "print_geometry": "pass"
+  },
+  "artifacts": [
+    "10_agent_workflow/tasks/PAGE11_QA/QA.v002.md",
+    "final_book_19x24/proofs/PAGE11_v002.pdf",
+    "final_book_19x24/proofs/PAGE11_v002.png",
+    "final_book_19x24/proofs/PAGE11_v002.json"
+  ],
+  "open_issues": [],
+  "reviewed_at": "2026-11-09T14:19:30.333195+00:00"
+}

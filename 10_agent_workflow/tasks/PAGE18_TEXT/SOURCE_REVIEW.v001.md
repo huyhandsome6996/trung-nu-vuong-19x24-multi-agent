@@ -1,0 +1,2 @@
+Opened source41–42/book252–253: ceremonial proclamation quoted inside novel; source footnote theo ThiênNamvănlục. Storyboard dialogue is condensed/adapted, NOT verbatim entire ancient proclamation despite old heading. Preserve all adapted dialogue exactly and record distinction here. Four red keywords retained. No claim of actual historical transcript.
+Narration tokens=53; complete dialogue count=1.

@@ -1,0 +1,17 @@
+{
+  "page": 18,
+  "template": "A",
+  "status": "locked",
+  "narration": "Trên kỳ đài, **Chủ tướng Trưng Trắc** đọc **bài Hịch tế cáo trời đất**. Ý chí **đền nợ nước, trả thù nhà, khôi phục cơ nghiệp Lĩnh Nam** hòa trong tiếng trống và sóng Nhị Hà. Lời hiệu triệu truyền khắp bốn phương như **ngọn gió lốc đại ngàn**, thôi thúc nghĩa quân.",
+  "dialogues": [
+    {
+      "speaker": "Trưng Trắc",
+      "text": "Ta vốn dòng dõi hoàng tộc, con cháu Hùng tướng, vì nghĩa trừ hại! Hãy kề vai sát cánh mà giương cây cung mạnh, quét sạch bọn ngoại bang, lấy hết nước sông Thiên Hà mà rửa binh khí! Khôi phục cơ nghiệp Lĩnh Nam, cho muôn dân hưởng thái bình!"
+    }
+  ],
+  "dialogues_status": "locked",
+  "storyboard_path": "03_storyboards_and_scripts/STORYBOARD_PART_2_HOI_8_HAT_MON_PHUONG_HOANG.md",
+  "storyboard_sha256": "51b2b09b8cf339ee46f55c7b018dc65d2d90cbd1934d0263a42719e909c7aaeb",
+  "source_notes": "Opened source41–42/book252–253: ceremonial proclamation quoted inside novel; source footnote theo ThiênNamvănlục. Storyboard dialogue is condensed/adapted, NOT verbatim entire ancient proclamation despite old heading. Preserve all adapted dialogue exactly and record distinction here. Four red keywords retained. No claim of actual historical transcript.",
+  "note": "Whitespace count checked; full storyboard dialogue retained; keywords retained except explicitly documented source corrections."
+}

@@ -1,0 +1,25 @@
+{
+  "task_id": "PAGE10_LAYOUT",
+  "kind": "layout",
+  "status": "passed",
+  "reviewer": "Codex",
+  "summary": "Opened full final render: correct four identities, tears only here, Trắc speech tail to right cheek; both sisters clasp hands without text overlap. Four narration lines/six red keyword spans, full quote, no overflow; native details retained, geometric tokens valid.",
+  "checks": {
+    "vietnamese_fonts": "pass",
+    "red_keywords": "pass",
+    "safe_text": "pass",
+    "bleed_geometry": "pass",
+    "no_overflow": "pass",
+    "speech_placement": "pass"
+  },
+  "artifacts": [
+    "final_book_19x24/source/PAGE10_v001.svg",
+    "final_book_19x24/proofs/PAGE10_v001.pdf",
+    "final_book_19x24/proofs/PAGE10_v001.png",
+    "final_book_19x24/proofs/PAGE10_v001.json",
+    "final_book_19x24/reading/PAGE10_v001.pdf",
+    "final_book_19x24/source/PAGE10_placement.v001.json"
+  ],
+  "open_issues": [],
+  "reviewed_at": "2026-11-09T14:17:57.353297+00:00"
+}

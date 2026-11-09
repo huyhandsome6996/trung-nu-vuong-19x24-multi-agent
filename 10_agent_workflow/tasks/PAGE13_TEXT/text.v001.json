@@ -1,0 +1,17 @@
+{
+  "page": 13,
+  "template": "A",
+  "status": "locked",
+  "narration": "Giữa đại sảnh, **Trưng Trắc** mặc **bộ trang phục trắng muốt**, đầu vấn **chiếc khăn tang trắng**, đứng trước **mười bảy vị tộc trưởng Mê Linh**. Nàng **không rơi thêm một giọt nước mắt**, dõng dạc khẳng định ý chí đánh giặc, giành lại giang sơn của dòng giống Hùng Vương.",
+  "dialogues": [
+    {
+      "speaker": "Trưng Trắc",
+      "text": "Cây muốn lặng mà gió chẳng dừng! Đất Mê Linh, Chu Diên này là cơ nghiệp ngàn năm của dòng giống Hồng Bàng, Hùng Vương!"
+    }
+  ],
+  "dialogues_status": "locked",
+  "storyboard_path": "03_storyboards_and_scripts/STORYBOARD_PART_1_HOI_7_CHU_DIEN.md",
+  "storyboard_sha256": "feeb2f262326699f209d4f2a170aed13bf30f10327df13b9e178cfcc0cce91aa",
+  "source_notes": "Opened source32–33/book243–244: white mourning attire/headband, no tears at declaration;17chiefs. ĐôNăngTế male vuốt râu. All five narration keywords and full storyboard quote retained. Declaration is adapted from novel, not a verbatim historical speech.",
+  "note": "Whitespace count checked; full storyboard dialogue retained; keywords retained except explicitly documented source corrections."
+}

@@ -1,0 +1,22 @@
+{
+  "image": "assets_generated/raw_pages/PAGE12_v001.png",
+  "version": "v001",
+  "native_size_px": [
+    1122,
+    1402
+  ],
+  "sha256": "d60efbadf9633e9ff381eb23e54050f3b5eb016f30f5843f79ab2be27174e837",
+  "prompt": "Use case: identity-preserve. Reproduce recovered PAGE12 raw book illustration as newly logged revision. Preserve all three distinct named men's faces/costumes and Template C with two upper side-by-side panels and one fullwidth lower panel. Calm pale sky top25% for separate narration. UpperLEFT Lê Đạo navy/blue armor, graying three-part beard, BLACK HAWK perched on shoulder and bamboo message tube in hand entering Cổ Lôi gate. UpperRIGHT Đào Chiêu Hiển red/bronze armor, short black beard, spear with mounted retinue behind. LOWER Phạm Danh Hương older whitebeard in grayblue scholar robe holding WHITE whisk at right, bowing respectfully; leave blank wall at lowerLEFT x10–52%,y74–89% for separate speech balloon. Named faces and grips unobstructed and accurate. Keep folio area lowerLEFT edge as quiet furniture. High native detail, crisp ink/watercolor portrait4:5. Absolutely no text, writing on flags, balloons, captionboxes, watermark or signature.",
+  "actual_references": [
+    {
+      "path": "assets_generated/recovered_session/PAGE12_recovered_001.png",
+      "sha256": "be7ceffe1db2f32f0f7dd1a5dc05335c5138ae8639d712acaa9193de5fce11bd"
+    }
+  ],
+  "generator": "image_gen.imagegen (model not exposed)",
+  "text_free": true,
+  "top_clearance_checked": true,
+  "visual_qa_report": "10_agent_workflow/tasks/PAGE12_ART/VISUAL_REVIEW.v001.md",
+  "user_approved": false,
+  "print_ready": false
+}

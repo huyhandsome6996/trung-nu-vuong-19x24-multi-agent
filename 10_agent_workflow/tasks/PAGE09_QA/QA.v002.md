@@ -1,0 +1,2 @@
+Opened revised full render: compact two-line complete ĐinhLương quote, tail reaches his mouth and leaves both faces/crowns/grips visible; five red keywords, four narration lines, correct scene order and no gore. Caption/scenes independently uniformly placed, bleed/safe boxes match tokens. Compared all dialogue to PDF extraction. v001 retained as rejected larger balloon.
+Agent reviewed; user approval absent. Geometry is proof-only; native art is below 300DPI and PRINT_SPEC remains blocked.

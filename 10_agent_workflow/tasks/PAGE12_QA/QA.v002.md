@@ -1,0 +1,2 @@
+Opened revised full render: triangular tail now reaches PhạmDanhHương mouth rather than horizontal line toward nose. Three panels, distinct LêĐạo blackhawk, ĐàoChiêuHiển spear, Phạm whitewhisk. Six red keyword spans, four narration lines, full three-line quote. No face/grip overlap; no overflow, Vietnamese fonts/standard boxes verified.
+Agent reviewed; user approval absent. Geometry is proof-only; native art is below 300DPI and PRINT_SPEC remains blocked.

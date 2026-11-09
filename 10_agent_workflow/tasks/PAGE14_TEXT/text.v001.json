@@ -1,0 +1,17 @@
+{
+  "page": 14,
+  "template": "A",
+  "status": "locked",
+  "narration": "Lời tuyên thệ của **Trưng Trắc** vang như **sấm động bên tai**. Các vị **bô lão, tộc trưởng, huyện lệnh và tướng sĩ** đứng bật dậy, đồng thanh quyết đánh giặc Tô Định. Tiếng hô nối nhau như sóng, mở đầu **cuộc tổng khởi nghĩa** giành lại quyền tự chủ.",
+  "dialogues": [
+    {
+      "speaker": "Toàn thể tướng sĩ và tộc trưởng",
+      "text": "QUYẾT ĐÁNH GIẶC TÔ ĐỊNH! QUYẾT ĐÁNH ĐUỔI LOÀI ÁC TẶC PHƯƠNG BẮC!"
+    }
+  ],
+  "dialogues_status": "locked",
+  "storyboard_path": "03_storyboards_and_scripts/STORYBOARD_PART_1_HOI_7_CHU_DIEN.md",
+  "storyboard_sha256": "feeb2f262326699f209d4f2a170aed13bf30f10327df13b9e178cfcc0cce91aa",
+  "source_notes": "Opened source33–34/book244–245: collective shout exactly corresponding to storyboard. Editorial correction: remove unsupported absolute superlative vĩ đại nhất lịch sử from final keyword, retain cuộc tổng khởi nghĩa in red. Storyboard file remains immutable to preserve earlier lock hashes. Collective art may show only part of17chiefs/17drums/30elephants; no claim of complete visual count.",
+  "note": "Whitespace count checked; full storyboard dialogue retained; keywords retained except explicitly documented source corrections."
+}

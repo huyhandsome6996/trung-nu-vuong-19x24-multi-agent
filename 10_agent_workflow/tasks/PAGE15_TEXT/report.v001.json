@@ -1,0 +1,20 @@
+{
+  "task_id": "PAGE15_TEXT",
+  "kind": "text",
+  "status": "passed",
+  "reviewer": "Codex",
+  "summary": "Opened source35–38/book246–249, plus39 completing discussion. Timeline is more than10days AFTER executions, not a second execution. TàoQuyền volunteers600 withLụcHiến; main hall contains TôĐịnh and officers. Full adapted quote retained. Capitalization of keyword Trống follows sentence position.",
+  "checks": {
+    "source_alignment": "pass",
+    "narration_35_65": "pass",
+    "keywords_preserved": "pass",
+    "dialogue_locked": "pass",
+    "template_locked": "pass"
+  },
+  "artifacts": [
+    "10_agent_workflow/tasks/PAGE15_TEXT/text.v001.json",
+    "10_agent_workflow/tasks/PAGE15_TEXT/SOURCE_REVIEW.v001.md"
+  ],
+  "open_issues": [],
+  "reviewed_at": "2026-11-09T14:11:00.995464+00:00"
+}

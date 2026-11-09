@@ -1,0 +1,1 @@
+Viewed new Template B: top20percent clear moonlit sky; camp partial drum/elephant rows, not visual claim of8. Lower room exactly four named people: male graybearded Đô, whiteTrắc visibly griefstricken, navyNhị, olderpurpleCẩm. Hands and letter intact, no text. Source quantity30/17 belongs to full camp beyond crop.

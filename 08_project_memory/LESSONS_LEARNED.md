@@ -108,3 +108,6 @@ Kiểm riêng dây cung phải nối hai đầu cung với nock ở ngón kéo, 
 
 - After an interrupted generation, inspect surviving output pixels and committed requests separately. A recovered image is not evidence that the exact prompt survived. Archive it honestly; use a fresh recorded call when prompt provenance is missing.
 - Keep checkpoint commits short; a restored environment can retain generated_images while losing an unpushed checkout.
+
+- Speech-tail roots need manual placement near a suitable box edge. A center-root triangle may cross a face; equal root/tip y collapses to a line. Review the final render and create a new placement version.
+- Read units in scans: source HátMôn fleet has morethan100sixteen-oared boats, not160boats. Record correction in text review while preserving storyboard hashes for completed locks.

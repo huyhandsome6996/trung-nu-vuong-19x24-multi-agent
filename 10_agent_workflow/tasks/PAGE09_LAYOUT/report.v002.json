@@ -1,0 +1,25 @@
+{
+  "task_id": "PAGE09_LAYOUT",
+  "kind": "layout",
+  "status": "passed",
+  "reviewer": "Codex",
+  "summary": "Opened revised full render: compact two-line complete ĐinhLương quote, tail reaches his mouth and leaves both faces/crowns/grips visible; five red keywords, four narration lines, correct scene order and no gore. Caption/scenes independently uniformly placed, bleed/safe boxes match tokens. Compared all dialogue to PDF extraction. v001 retained as rejected larger balloon.",
+  "checks": {
+    "vietnamese_fonts": "pass",
+    "red_keywords": "pass",
+    "safe_text": "pass",
+    "bleed_geometry": "pass",
+    "no_overflow": "pass",
+    "speech_placement": "pass"
+  },
+  "artifacts": [
+    "final_book_19x24/source/PAGE09_v002.svg",
+    "final_book_19x24/proofs/PAGE09_v002.pdf",
+    "final_book_19x24/proofs/PAGE09_v002.png",
+    "final_book_19x24/proofs/PAGE09_v002.json",
+    "final_book_19x24/reading/PAGE09_v002.pdf",
+    "final_book_19x24/source/PAGE09_placement.v002.json"
+  ],
+  "open_issues": [],
+  "reviewed_at": "2026-11-09T14:15:04.437671+00:00"
+}

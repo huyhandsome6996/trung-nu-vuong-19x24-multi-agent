@@ -1,0 +1,12 @@
+{
+  "page": 16,
+  "template": "A",
+  "status": "locked",
+  "narration": "Bên **cửa sông Hát Môn** và **sông Nhị Hà**, **đàn tế cao hơn hai trượng** hướng ra bãi rộng. **Chín mươi chín lá cờ ngũ sắc** tung bay quanh **tám thớt voi đực da xám, ngà trắng**. Kỵ binh, cung thủ cùng **hơn một trăm chiến thuyền** chỉnh tề dự lễ.",
+  "dialogues": [],
+  "dialogues_status": "locked",
+  "storyboard_path": "03_storyboards_and_scripts/STORYBOARD_PART_2_HOI_8_HAT_MON_PHUONG_HOANG.md",
+  "storyboard_sha256": "51b2b09b8cf339ee46f55c7b018dc65d2d90cbd1934d0263a42719e909c7aaeb",
+  "source_notes": "Opened source39–40/book250–251: altar>2trượng,99flags,8male elephants with white tusks. IMPORTANT source correction to storyboard:16 refers to oars per boat; fleet is hơn trăm chiếc, NOT160boats. Replace final red keyword một trăm sáu mươi chiến thuyền with hơn một trăm chiến thuyền. Keep eight elephants count visible in art; fleet and flags may extend beyond frame. No dialogue.",
+  "note": "Whitespace count checked; full storyboard dialogue retained; keywords retained except explicitly documented source corrections."
+}

@@ -1,0 +1,1 @@
+Viewed generated Template C output: two upper scenes LêĐạo navy/blackhawk/bambootube, ĐàoChiêuHiển red/bronze/spear; lower scene PhạmDanhHương whitebeard/grayblue/whitewhisk, barewall atleft for quote. Clear topquarter, no letters, correct grips and distinct faces.
