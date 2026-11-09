@@ -1,0 +1,23 @@
+{
+  "image": "assets_generated/raw_pages/PAGE01_v002.png",
+  "version": "v002",
+  "native_size_px": [
+    1120,
+    1405
+  ],
+  "sha256": "7daffa5f0f43392ae169bb49a3e6d26da35f591b97b4dd05e6129a1a8ea3f4e5",
+  "prompt": "Edit this illustrated book page for PRECISE COMPOSITION, retaining the exact ink, watercolor, faces, rustic clothing, architecture, gold dragon transforming into EXACTLY TWO gold peacocks and all story content. Output canvas must be a 4:5 portrait (approximately 196:246 or0.797 width/height), NOT3:4. Requested native size1536x1920 or1122x1402 if that is your portrait canvas. WIDEN the composition with additional scenery at left and right, do not crop heads, hands, feet or birds and do not stretch figures. Reserved calm pale warm sky/parchment-texture upper band occupies y0–20% with NO horizontal ink border at its bottom, blending naturally into the blue sky of the daytime panel. There are exactly TWO narrative panels: daytime PhongChâu panel from below narration band to horizontal division at y53.25% of FULL canvas. Make dividing gutter white edged with thin black ink, width1.42% of page height, so LOWER NIGHT PANEL starts at54.67%. These correspond to trimY128mm/gutter3.5mm/lowerY131.5mm on196x246mm bleed page. Extend the existing daytime landscape vertically to reach this split; arrange night courtyard and golden dream in remaining lower45.33%. Maintain both elderly villagers fully inside lower panel, feet above94% height and faces below78%, same left man and right woman. Calm faces looking upwards. Leave room at lower right for a tiny folio. Keep all dream dragon/peacocks inside lower panel, exactly2peacocks and1dissolving dragon. NO TEXT, NO speech bubbles, NO lettering, NO parchment box, NO watermark. Preserve NV21 round face/shortgraybeard/brownheadband and NV22 brownscarf/beigetunic from original.",
+  "actual_references": [
+    {
+      "path": "assets_generated/raw_pages/PAGE01_v001.png",
+      "sha256": "1ed728976e7104746e7f26d01a3c361a96a1102519e7ca25de2bb0d114039f96"
+    }
+  ],
+  "generator": "image_gen.imagegen (model not exposed)",
+  "text_free": true,
+  "top_clearance_checked": true,
+  "visual_qa_report": "10_agent_workflow/tasks/PAGE01_ART/VISUAL_REVIEW.v002.md",
+  "user_approved": false,
+  "print_ready": false,
+  "note": "Targeted composition edit. Direct input was v001 only; v001 directly used CHAR12+ENV01, metadata retains that provenance. Native resolution is below300DPI target. No interpolation relabelled as native."
+}

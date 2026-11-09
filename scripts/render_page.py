@@ -41,7 +41,7 @@ def run(text_path, raw_path, version, placement_path=None):
     missing = sorted({c for c in data['narration']+''.join(d['text'] for d in data['dialogues']) if not c.isspace() and ord(c) not in cmap})
     if missing: raise ValueError('Missing glyphs: '+repr(missing))
     width, height = tokens['bleed_canvas_mm']
-    c = canvas.Canvas(str(paths['pdf']), pagesize=(width*mm,height*mm), pageCompression=1)
+    c = canvas.Canvas(str(paths['pdf']), pagesize=(width*mm,height*mm), pageCompression=1, initialFontName='TNRegular')
     c.setTitle(f'TRƯNG NỮ VƯƠNG — trang {page:02d} — bản kiểm')
     c.setAuthor('TRƯNG NỮ VƯƠNG production')
     iw, ih = Image.open(w.local(raw_path)).size
@@ -50,6 +50,12 @@ def run(text_path, raw_path, version, placement_path=None):
     c.drawImage(str(w.local(raw_path)),-crop_x*mm,-crop_y*mm,width=aw*mm,height=ah*mm)
     png64=base64.b64encode(w.local(raw_path).read_bytes()).decode()
     svg=[f'<svg xmlns="http://www.w3.org/2000/svg" width="196mm" height="246mm" viewBox="0 0 196 246"><defs><style>@font-face{{font-family:TNRegular;src:url(fonts/NotoSans-Regular.ttf)}}@font-face{{font-family:TNBold;src:url(fonts/NotoSans-Bold.ttf)}}</style><radialGradient id="paper"><stop offset="0" stop-color="#FFFBEB"/><stop offset=".75" stop-color="#FEF3C7"/><stop offset="1" stop-color="#F59E0B"/></radialGradient></defs>',f'<image x="{-crop_x}" y="{-crop_y}" width="{aw}" height="{ah}" href="data:image/png;base64,{png64}"/>']
+    if data['template']=='B':
+        # The scene must already have a visually checked matching seam; this is a geometric edge.
+        c.setFillColor('#FFFFFF');c.rect(0,(height-134.5)*mm,width*mm,3.5*mm,fill=1,stroke=0)
+        c.setStrokeColor('#1A1A1A');c.setLineWidth(.3*mm)
+        for gy in [131,134.5]:c.line(0,(height-gy)*mm,width*mm,(height-gy)*mm)
+        svg.append('<rect x="0" y="131" width="196" height="3.5" fill="white"/><path d="M0 131H196 M0 134.5H196" stroke="#1A1A1A" stroke-width=".3"/>')
     # The existing parchment path is in trim-relative coordinates; shift it by the bleed.
     parchment=w.local('09_design_system/layout_components/parchment_blank.svg').read_text()
     pth=re.search(r'<path d="([^"]+)"',parchment)[1]
@@ -66,11 +72,14 @@ def run(text_path, raw_path, version, placement_path=None):
         x,y,bw,bh=bbox
         parts=marked.split('**'); words=[]
         for i,part in enumerate(parts):
-            for token in re.findall(r'\S+\s*',part):words.append((token,'TNBold' if i%2 else 'TNRegular','#C81E1E' if i%2 else '#1A1A1A'))
+            for token in re.findall(r'\s+|\S+',part):words.append((' ' if token.isspace() else token,'TNBold' if i%2 else 'TNRegular','#C81E1E' if i%2 else '#1A1A1A'))
         lines=[];line=[];used=0
         for token,font,col in words:
             tw=pdfmetrics.stringWidth(token,font,pt)/mm
-            if used+tw>bw and line:lines.append(line);line=[];used=0
+            if used+tw>bw and line:
+                while line and line[-1][0].isspace():line.pop()
+                lines.append(line);line=[];used=0
+            if token.isspace() and not line:continue
             if tw>bw:raise ValueError('Unbreakable token too wide')
             line.append((token,font,col,tw));used+=tw
         if line:lines.append(line)

@@ -1,0 +1,20 @@
+{
+  "task_id": "PAGE01_TEXT",
+  "kind": "text",
+  "status": "passed",
+  "reviewer": "Codex",
+  "summary": "Khóa v002 sau đo font NotoSans thực; rút câu nối cho hộp29mm, không bỏ từkhóa hoặc thoại.",
+  "checks": {
+    "source_alignment": "pass",
+    "narration_35_65": "pass",
+    "keywords_preserved": "pass",
+    "dialogue_locked": "pass",
+    "template_locked": "pass"
+  },
+  "artifacts": [
+    "10_agent_workflow/tasks/PAGE01_TEXT/text.v002.json",
+    "10_agent_workflow/tasks/PAGE01_TEXT/SOURCE_REVIEW.v001.md"
+  ],
+  "open_issues": [],
+  "reviewed_at": "2026-11-09T12:04:27+00:00"
+}

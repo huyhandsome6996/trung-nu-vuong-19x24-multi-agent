@@ -1,2 +1,6 @@
 # Python 3.10+. Used to decode and verify PNG/JPG/WebP; no image generation SDK required.
 Pillow>=10.4,<13
+# Vector-text proof generation; final printer profiles are supplied separately.
+reportlab>=4.4,<5
+pypdf>=6.2,<7
+fonttools>=4.60,<5

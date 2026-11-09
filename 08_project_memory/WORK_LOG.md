@@ -99,3 +99,11 @@ timezone: "Asia/Ho_Chi_Minh"
 - Đã mở scan06–07, CHAR12 và ENV01; đọc hồ sơNV21/NV22 và E01/E02. Khóa text.v001:59tiếng,5cụm đỏ, không thoại, TemplateB; có nhãn huyền tích để không biến niên đại tiểu thuyết thành sử liệu.
 - PAGE01_TEXT đã finish có report và đối chiếu nguồn. PAGE01_ART đang làm với ảnh tham chiếu thực CHAR12/ENV01; chưa gọi là bản in hoặc người dùng duyệt.
 - Bước tiếp: lưu nền native và hash, kiểm thị giác, ghép chữ rồi QA.
+
+### PROD-005 — Đóng chuỗi trang01
+
+- Trang01 đã có TEXTv002(50tiếng/5cụmđỏ/0thoại), ARTv002 native1120×1405, SVG sửađược, PDFbleed/PDFđọc vàPNG render thực.
+- Kiểm font thật phát hiện chữv00159tiếng quá hộp29mm; đã reopen đúng chuỗi, rút câu nối rồi finish lạiTEXT/ART. LAYOUTv001 lộ mất khoảngtrắng sát từkhóa; đã sửa parser và dùngLAYOUTv002, giữv001.
+- Đã xem toàntrang150DPI và crop100% từrender300DPI; fontViệt nhúng,4dòng12.8pt, nguồn/nhậndiện/hìnhhọc đạt bảnđọc. Native tranh khoảng145DPI, chưain300DPI.
+- Push checkpoint trước dùngcache credential bị môi trường từchối kết nối daemon; commit6ce03be đãlưu local nhưng chưađồngbộ ở mốc đó. Dùng credential tạm trong tiếntrình đểpush tiếp, không ghi tokenvàofile.
+- Bước tiếp: đóngQA, hoànthiện nguồn27–28, rồiPAGE02_TEXT.

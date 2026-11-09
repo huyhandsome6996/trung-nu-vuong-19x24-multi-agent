@@ -83,3 +83,11 @@ Một album hình có tên, mã và vị trí, cộng bản tóm tắt2phút gi�
 ## Đếm thật trước khi khóa chữ
 
 Tiêu đề cũ ghi 52–60 từ nhưng một số lời dẫn thực tế dài hơn 65 tiếng. Đếm theo khoảng trắng trên chữ thực, giữ từ khóa, đối chiếu nguồn và kiểm 3–5 dòng bằng renderer. Không tin nhãn đếm cũ, không cắt thoại hoặc thu nhỏ font chỉ để vừa hộp. Draft do packet tạo chưa chép thoại phải có nhãn rõ, tránh chế bản thiếu lời nhân vật.
+
+## Sản xuất trang đầu: kiểm font và pixel thực
+
+50–65tiếng không bảođảm vừa29mm: đo NotoSans thực trướckhóa. Giữcỡfont, rút câunối, giữtừkhóa vàthoại; reopen downstream cóevidence cũ. Parser tôđỏ phảigiữ khoảngtrắng ở cảhai phía dấu**, và kiểmmắt vì sochuỗi bỏwhitespace sẽbỏsót lỗi dínhchữ.
+
+Ảnhsinh cóthể khôngđúng tỷlệ dù prompt ghi kíchthước. Giữnative, sửa bố cục bằngcôngcụảnh, khôngkéoméo; ghi referencev002 thực tế làv001,khôngkhai sheettruyềngián tiếp làinputtrực tiếp.
+
+Renderer cóthểtrả mã0 nhưngPNGthiếu dữliệu; dùngPillow.verify vàPoppler hệthống thực. Render300DPI khôngbiến tranh145DPI thànhtranhchi tiết300DPI.

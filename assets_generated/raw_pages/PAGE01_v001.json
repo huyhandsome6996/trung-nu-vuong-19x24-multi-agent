@@ -19,7 +19,7 @@
   "generator": "image_gen.imagegen (model not exposed)",
   "text_free": true,
   "top_clearance_checked": true,
-  "status": "REVISION_REQUIRED",
+  "status": "SUPERSEDED_BY_v002",
   "user_approved": false,
   "print_ready": false,
   "note": "First native output retained. Native aspect0.7495 versus196/246=0.79675; division not at trimY128mm. v002 requested composition correction. Do not stretch or claim300DPI.",
