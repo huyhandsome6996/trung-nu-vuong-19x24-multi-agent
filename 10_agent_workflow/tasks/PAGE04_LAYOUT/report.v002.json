@@ -1,0 +1,25 @@
+{
+  "task_id": "PAGE04_LAYOUT",
+  "kind": "layout",
+  "status": "passed",
+  "reviewer": "Codex",
+  "summary": "Đã xem LAYOUTv002, cropchữ/thoại300DPI;4dònglờidẫn,3dòngthoạiđủ; đuôithoại đúngPhùngThịChính khôngcắtquaĐinhLương; font/safe/bleed đạt.",
+  "checks": {
+    "vietnamese_fonts": "pass",
+    "red_keywords": "pass",
+    "safe_text": "pass",
+    "bleed_geometry": "pass",
+    "no_overflow": "pass",
+    "speech_placement": "pass"
+  },
+  "artifacts": [
+    "final_book_19x24/source/PAGE04_v002.svg",
+    "final_book_19x24/source/PAGE04_placement.v002.json",
+    "final_book_19x24/proofs/PAGE04_v002.pdf",
+    "final_book_19x24/proofs/PAGE04_v002.png",
+    "final_book_19x24/proofs/PAGE04_v002.json",
+    "final_book_19x24/reading/PAGE04_v002.pdf"
+  ],
+  "open_issues": [],
+  "reviewed_at": "2026-11-09T12:30:25+00:00"
+}

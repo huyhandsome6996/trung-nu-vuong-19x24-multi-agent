@@ -1,0 +1,20 @@
+{
+  "task_id": "PAGE07_TEXT",
+  "kind": "text",
+  "status": "passed",
+  "reviewer": "Codex",
+  "summary": "Đã đọcscan17–19, khóamười phátliêntiếp,5cụmđỏ vàthoại đầyđủ.",
+  "checks": {
+    "source_alignment": "pass",
+    "narration_35_65": "pass",
+    "keywords_preserved": "pass",
+    "dialogue_locked": "pass",
+    "template_locked": "pass"
+  },
+  "artifacts": [
+    "10_agent_workflow/tasks/PAGE07_TEXT/text.v001.json",
+    "10_agent_workflow/tasks/PAGE07_TEXT/SOURCE_REVIEW.v001.md"
+  ],
+  "open_issues": [],
+  "reviewed_at": "2026-11-09T12:35:01+00:00"
+}

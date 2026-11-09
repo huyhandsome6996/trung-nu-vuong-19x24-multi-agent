@@ -1,0 +1,19 @@
+{
+  "page": 4,
+  "dialogues": [
+    {
+      "speaker": "Phùng Thị Chính",
+      "bbox_mm": [
+        18,
+        91,
+        136,
+        30
+      ],
+      "tail_mm": [
+        43,
+        146
+      ]
+    }
+  ],
+  "note": "Manually placed in plain wall above cast, tail to PhùngThịChính mouth; no faces or clasped hands under bubble."
+}

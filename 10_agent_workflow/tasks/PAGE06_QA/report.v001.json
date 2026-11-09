@@ -1,0 +1,21 @@
+{
+  "task_id": "PAGE06_QA",
+  "kind": "qa",
+  "status": "passed",
+  "reviewer": "Codex",
+  "summary": "Kiểm4lớp06đạt bản đọc, đủ chữ/thoại, đúng trang phục/đạo cụ; chưa duyệt in.",
+  "checks": {
+    "historical": "pass",
+    "art": "pass",
+    "language": "pass",
+    "print_geometry": "pass"
+  },
+  "artifacts": [
+    "10_agent_workflow/tasks/PAGE06_QA/QA.v001.md",
+    "final_book_19x24/proofs/PAGE06_v001.pdf",
+    "final_book_19x24/proofs/PAGE06_v001.png",
+    "final_book_19x24/proofs/PAGE06_v001.json"
+  ],
+  "open_issues": [],
+  "reviewed_at": "2026-11-09T12:46:45+00:00"
+}

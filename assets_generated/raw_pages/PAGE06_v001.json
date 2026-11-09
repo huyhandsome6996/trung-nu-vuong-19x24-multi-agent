@@ -1,0 +1,39 @@
+{
+  "image": "assets_generated/raw_pages/PAGE06_v001.png",
+  "version": "v001",
+  "native_size_px": [
+    1122,
+    1402
+  ],
+  "sha256": "6ce9f8c15144a6b0d7aaad3fa65fe8ddfa9d85c092dfe1fc2f840dc1558afbf3",
+  "prompt": "PAGE06 of Vietnamese illustrated historical-legend adventure, ages13–16. Portrait4:5 196:246, highest native detail, crisp ink hatching and rich controlled watercolor matching refs. TemplateA single heroic full-page scene. Ref1CHAR03 use standing Thi Sách: purple brocade LONG LạcHầu robe, gold tiger badge on chest, shortblackbeard, feather solarheadband, redcape; do NOT replace with generic red armor. Ref2CHAR16 use ONLY LEFT TWO elders: NV34 whitebeard/brown headwrap/brown patterned robe/woodstaff; NV35 graygoatee/slateblue robe/navyheadwrap/bamboo slips. EXCLUDE right two younger men. Ref3ENV02 MIDDLE strip ChuDiên hall/courtyard. Ref4PROP01 row1col4 P05 spear: wooden shaft, short tigerfur patch beneath bronze leaf spearhead; row2col2 familybow+quiver. Ref5ARMY01 common Vietnamese spearmen clothing for background followers, not its generic commander as ThiSách. Scene: Thi Sách steps out of wooden hall at dawn in purple ancestral robe, central dominant fullbody figure, both hands grasping spear at separate normal positions, bow and quiver slung on back, sword sheathed at hip. Cape sweeps right, resolute calm face. NV34 andNV35 stand at left with villagers and tribal elders raising spears and fists, shouting their oath. Small distant dark enemy banners beyond gate suggest surrounding forces; no need to depict2000 individually. Warm golden light fromleft, smokyblue distance, clear three-depth layers, energy and resolve, no gore. Composition MUST reserve top20%canvas as calm pale sky, no heads/weapons/roofs. Also leave naturally quiet wall/sky x8%..62%,y24%..37% for a later small collective speech bubble; do NOT draw the bubble. All named faces BELOWy42%; ThiSách face nearx52%,y46%, elders nearx22%,y54%, allfeet above95%. Spear can angle toward upperRIGHT but its tip must stay belowy25% and cannot cross the quiet upperleft speech area. Keep hands and weapons mechanically connected, no extra limbs. Hero identity must remain exactly the shortbearded purple-costume man fromCHAR03, not young red-armored PhùngLựcCông. No PhùngThịChính or TrưngTrắc in this scene. No modernobjects, no fire onhero: 'livingtorch' is metaphor. NO TEXT/letters on flags/scrolls, NO speechballoons, NO narrationbox, NO watermark/signature.",
+  "actual_references": [
+    {
+      "path": "assets_generated/design_system/CHAR03_v001.png",
+      "sha256": "f88b4c023f780bfa4d836bc82506607ad95ae44dfd79ffc3eebb1e6b2a5b56f8"
+    },
+    {
+      "path": "assets_generated/design_system/CHAR16_v001.png",
+      "sha256": "4a168884a44ab6a114a4fc47cae1d2a852903d6c4a0539e0e31e7c0f27ae752f"
+    },
+    {
+      "path": "assets_generated/design_system/ENV02_v001.png",
+      "sha256": "5395688c5ccad71ee13d9099a003d82fc7cbabee31d761454c7d58c6e05fbd63"
+    },
+    {
+      "path": "assets_generated/design_system/PROP01_v001.png",
+      "sha256": "8ac9a5f41d435726a72baf456d67dd3612cb3cd466e5f9b4f8f3794ee14f5a55"
+    },
+    {
+      "path": "assets_generated/design_system/ARMY01_v001.png",
+      "sha256": "4f6b76dea97ac82cefce9338f51faaa00ee2501b3e63cb7197fb0ec4ef903ff7"
+    }
+  ],
+  "generator": "image_gen.imagegen (model not exposed)",
+  "text_free": true,
+  "top_clearance_checked": true,
+  "visual_qa_report": "10_agent_workflow/tasks/PAGE06_ART/VISUAL_REVIEW.v001.md",
+  "user_approved": false,
+  "print_ready": false,
+  "note": "Native boots touch loweredge; LAYOUT uses an undistorted trim placement above a bleed background layer so boots are not cut by trimming. No pixel modification."
+}

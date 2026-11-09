@@ -1,0 +1,17 @@
+{
+  "page": 6,
+  "template": "A",
+  "status": "locked",
+  "narration": "Hơn **hai ngàn binh mã thủy bộ** của **Mã Tắc** và **Lữ Thạch** vây kín Chu Diên. **Thi Sách** bỏ quan phục Hán, khoác **bộ trường bào Lạc Hầu đính hổ phù** từ đời **vua Hùng**. Chàng quyết làm **ngọn đuốc sống**, khơi dậy lòng tự chủ của nghĩa sĩ.",
+  "dialogues": [
+    {
+      "speaker": "Các vị tộc trưởng và tráng đinh Chu Diên",
+      "text": "Quyết không đội trời chung với quan quân phương Bắc!"
+    }
+  ],
+  "dialogues_status": "locked",
+  "storyboard_path": "03_storyboards_and_scripts/STORYBOARD_PART_1_HOI_7_CHU_DIEN.md",
+  "storyboard_sha256": "feeb2f262326699f209d4f2a170aed13bf30f10327df13b9e178cfcc0cce91aa",
+  "source_notes": "Đã xem scan14–16/sách225–227: trườngbàogấmtía/hổphù, cunggiabảo, thương vàhơn2.000quân vâyphủ; tiếngđồngthanhkhôngđộitrờichung. Nhãn ngọnđuốcsống làẩn dụđượcnhânvật nói trongnguồn, khôngvẽngười bịđốt.",
+  "note": "Giữ7cụmnhấn; cụmhai_ngàn viếtđầucâu, vẫngiữnghĩahơn2.000theonguồn."
+}

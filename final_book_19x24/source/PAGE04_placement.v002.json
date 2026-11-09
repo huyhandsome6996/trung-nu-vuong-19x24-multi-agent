@@ -1,0 +1,19 @@
+{
+  "page": 4,
+  "dialogues": [
+    {
+      "speaker": "Phùng Thị Chính",
+      "bbox_mm": [
+        18,
+        103,
+        80,
+        26
+      ],
+      "tail_mm": [
+        43,
+        146
+      ]
+    }
+  ],
+  "note": "v002: smaller left bubble; tail no longer crosses ĐinhLương hair, points to PhùngThịChính mouth."
+}

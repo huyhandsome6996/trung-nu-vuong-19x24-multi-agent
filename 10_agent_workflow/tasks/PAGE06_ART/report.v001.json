@@ -1,0 +1,21 @@
+{
+  "task_id": "PAGE06_ART",
+  "kind": "art",
+  "status": "passed",
+  "reviewer": "Codex",
+  "summary": "Nhận diện3người/áotía/hổphù/thươngđúng, sạchchữ; LAYOUTgiữủngtrongtrim.",
+  "checks": {
+    "actual_refs": "pass",
+    "character_consistency": "pass",
+    "no_text": "pass",
+    "top_clearance": "pass",
+    "anatomy": "pass"
+  },
+  "artifacts": [
+    "assets_generated/raw_pages/PAGE06_v001.png",
+    "assets_generated/raw_pages/PAGE06_v001.json",
+    "10_agent_workflow/tasks/PAGE06_ART/VISUAL_REVIEW.v001.md"
+  ],
+  "open_issues": [],
+  "reviewed_at": "2026-11-09T12:43:29+00:00"
+}

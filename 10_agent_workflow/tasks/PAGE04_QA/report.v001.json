@@ -1,0 +1,21 @@
+{
+  "task_id": "PAGE04_QA",
+  "kind": "qa",
+  "status": "passed",
+  "reviewer": "Codex",
+  "summary": "QA4lớp trang04 đạt bảnđọc; phiênbảnhiệnhànhLAYOUTv002; chưaUSER_APPROVED/PRINT_READY.",
+  "checks": {
+    "historical": "pass",
+    "art": "pass",
+    "language": "pass",
+    "print_geometry": "pass"
+  },
+  "artifacts": [
+    "10_agent_workflow/tasks/PAGE04_QA/QA.v001.md",
+    "final_book_19x24/proofs/PAGE04_v002.pdf",
+    "final_book_19x24/proofs/PAGE04_v002.png",
+    "final_book_19x24/proofs/PAGE04_v002.json"
+  ],
+  "open_issues": [],
+  "reviewed_at": "2026-11-09T12:30:25+00:00"
+}

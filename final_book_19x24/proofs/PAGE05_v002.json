@@ -1,0 +1,124 @@
+{
+  "page": 5,
+  "version": "v002",
+  "print_ready": false,
+  "user_approved": false,
+  "renderer": "ReportLab / vector text; PDF rendered separately with Poppler",
+  "native_size_px": [
+    1122,
+    1402
+  ],
+  "art_effective_dpi": [
+    104.58823529411764,
+    145.27560975609757,
+    135.034693877551,
+    144.3972602739726
+  ],
+  "crop_mm": [
+    0.4350927246790235,
+    0.0
+  ],
+  "missing_glyphs": [],
+  "boxes": [
+    {
+      "kind": "narration",
+      "bbox_mm": [
+        18,
+        14,
+        154,
+        29
+      ],
+      "font_pt": 12.8,
+      "lines": 4,
+      "text_height_mm": 25.64835555555555,
+      "max_width_mm": 148.25020444444442,
+      "overflow": false
+    },
+    {
+      "kind": "speech_0",
+      "bbox_mm": [
+        21,
+        138.5,
+        148,
+        23
+      ],
+      "font_pt": 10.8,
+      "lines": 2,
+      "text_height_mm": 9.313333333333333,
+      "max_width_mm": 140.33754,
+      "overflow": false
+    }
+  ],
+  "manual_panel_placements": [
+    {
+      "source_crop_px": [
+        0,
+        0,
+        1122,
+        210
+      ],
+      "bbox_mm": [
+        -3,
+        -3,
+        196,
+        51
+      ],
+      "effective_dpi": 104.58823529411764,
+      "uniform_scale": true
+    },
+    {
+      "source_crop_px": [
+        0,
+        211,
+        1122,
+        680
+      ],
+      "bbox_mm": [
+        -3,
+        48,
+        196,
+        82
+      ],
+      "effective_dpi": 145.27560975609757,
+      "uniform_scale": true
+    },
+    {
+      "source_crop_px": [
+        40,
+        703,
+        1082,
+        979
+      ],
+      "bbox_mm": [
+        -3,
+        130,
+        196,
+        40
+      ],
+      "effective_dpi": 135.034693877551,
+      "uniform_scale": true
+    },
+    {
+      "source_crop_px": [
+        0,
+        987,
+        1122,
+        1402
+      ],
+      "bbox_mm": [
+        -3,
+        170,
+        196,
+        73
+      ],
+      "effective_dpi": 144.3972602739726,
+      "uniform_scale": true
+    }
+  ],
+  "pdf_text_matches": true,
+  "hashes": {
+    "svg": "81b1e39849e9b7ce75e246ac0bf69edc33ef1fa264e196d874d17465fe96c15f",
+    "pdf": "7ee6d22220fbc5c4f42c5fe48659262b58293875cb56cf6ee9c34a7e64e1029a",
+    "reading": "9ee60782af86e07c5e27a0364df763a5ca3438e28ce9e202b81f12266df85c80"
+  }
+}

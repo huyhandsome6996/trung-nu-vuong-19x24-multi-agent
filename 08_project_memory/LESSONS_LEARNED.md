@@ -99,3 +99,9 @@ Công cụ ảnh có thể tạo đúng hai cảnh nhưng rãnh không đúng t�
 Không đưa script dùng chung vào evidence bất biến của trang đã khóa: lưu snapshot đúng byte, để các trang sau phát triển renderer mà không làm stale báo cáo cũ.
 
 Khi sinh ảnh bất đồng bộ, lưu request hoàn chỉnh trước lúc gọi; chỉ ghi kết quả sau khi công cụ trả xong. Dữ liệu store trong cell đang chạy có thể chưa khả dụng ở cell khác. Từ chối các prompt placeholder như undefined trong validator; nếu đã ghi sai phải giữ phiên bản cũ và mở lại chuỗi để sửa có bằng chứng.
+
+## Xuất PDF và sửa lỗi cơ học trong tranh
+
+Luôn mở lại PDF đã xuất, kiểm dung lượng, font, box và render thật trước finish. Có một bản proof bị rỗng dù bước trước đã có preview; ghi qua tệp tạm rồi thay nguyên tử và chỉ dùng bản mở lại kiểm được. Không giữ tệp rỗng như deliverable.
+
+Kiểm riêng dây cung phải nối hai đầu cung với nock ở ngón kéo, ủng phải đứng đúng yên nếu lời dẫn nói vậy. Giữ ảnh lỗi với nhãn cần sửa, yêu cầu chỉnh bằng công cụảnh; không sửa vài dòng prompt rồi tự báo tranh đã đạt. Mỗi lệnh ảnh nhận tốiđa5ref, request bị từchối không được khai là ảnh đã sinh.

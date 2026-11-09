@@ -122,3 +122,13 @@ timezone: "Asia/Ho_Chi_Minh"
 - Phát hiện một metadata lấy prompt trước lúc kết quả async hoàn tất nên ghi placeholder; đã reopen đúng chuỗi02, giữ hồ sơ cũ, tạo metadata/promptv003 đúng nguyên văn, finish lại bằng hash ảnh và thành phẩm không đổi. Thêm guard và kiểm thử ngăn finish với placeholder.
 - Tách script kết xuất dùng chung khỏi evidence bất biến của trang01: lưu snapshot render_page.v001.py có cùng byte; thành phẩm01 không đổi. Trang02 dùng snapshotv002 và placementJSON riêng.
 - Bước tiếp: hoàn thiện vùng thoại04, tiếp tục PAGE05_TEXT. Chưa tạo đủ28trang; không báo hoàn tất sách.
+
+## PROD-008 — Sáu trang đầu có bản đọc kiểm được (09/11/2026)
+
+- Trang04–06 đã hoàn thành chuỗi TEXT→ART→LAYOUT→QA. Hiện6/28trang truyện có bản đọc và nguồnSVG/PDF/PNG; bảng phiên bản cập nhật trong final_book_19x24/source/README.md.
+- Tạo PDF checkpoint6trang đầu và manifest hash; chưa có trang phụ/bìa, không gọi sách hoàn chỉnh.
+- Trang05 có trích thư ghép dạng giấy, không gán thoại cho người trong cảnh; clipvector giữ cánh/mũ. PDFproofv001 bị phát hiện rỗng nên không dùng; rendererv003 ghi qua tệp tạm, v002 đã mở lại và render kiểm.
+- Trang06 giữ nguyên bộ tía/hổ phù, đủcung/thương; cliptrim giữ trọnủng, lớpbleed làbảnxem chưain.
+- Trang07–08 đã khóa chữ, tranhv001 có lỗi thực (dâycung; ủngđứngngoàiyên/đỉnhthiếukhoảngtrống), đãlưu bản cũ và yêu cầu sửa bằngcôngcụảnh. Đang chờ job110/112, khôngđánhdấupass.
+- Côngcụảnh chỉ nhận tốiđa5đườngdẫn: request07v0016ref bịtừchốitrướcsinh; requestv0025ref mới làlệnh thực. Metadata ghi đúng5ảnh thực dùng.
+- Bước tiếp: kiểm bản sửa07–08; tiếp tục trang09. PRINT_SPEC vẫn blocked do thiếu nhàin/quyền và tranh native dưới300DPI.

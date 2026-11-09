@@ -14,3 +14,16 @@ python scripts/render_page.py --text 10_agent_workflow/tasks/PAGE01_TEXT/text.v0
 Sử dụng Poppler thực đã kiểm. Binary override tên pdftoppm trong môi trường phiên này từng tạoPNG không giải mã đủ; kiểm Pillow.verify trước khi mở ảnh.
 
 ProofPDF: Media/Bleed196×246mm, Trim190×240mm cách3mm. ReadingPDF: CropBox ở trim. FontNotoSans nhúng có OFL; tranh nguồn có độ phân giải hiệu dụng khoảng145DPI. Render300DPI chỉ là lấy mẫu bản kiểm, không tăng chi tiết tranh gốc. Không file nào trong đợt này được gắnPRINT_READY hoặcUSER_APPROVED.
+
+## Bảng phiên bản đang dùng sau trang06
+
+| Trang | Chữ | Tranh | Layout |
+| --- | --- | --- | --- |
+|01|v002|v002|v002|
+|02|v001|v002 (metadata v003)|v001|
+|03|v001|v001|v001|
+|04|v001|v002|v002|
+|05|v001|v001|v002|
+|06|v001|v001|v001|
+
+Bản đọc ghép6trang đầu là checkpoint, chưa đủ sách. Trang04LAYOUTv001 bị thay vì đuôi thoại đi ngang tóc; trang05proofv001 không dùng vì lỗi xuất (tệp rỗng đã loại, nguồn/bảnđọc cũ còn). Chỉ dùng phiên bản trong bảng vàevidence state để ghép sách. Snapshotrendererv003 thêm clip thủ công từng khung, trích thư khôngđuôi, vàghiPDF bằng tệp tạm rồi thay nguyên tử.

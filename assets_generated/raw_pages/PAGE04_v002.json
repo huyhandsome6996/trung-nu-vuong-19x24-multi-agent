@@ -1,0 +1,23 @@
+{
+  "image": "assets_generated/raw_pages/PAGE04_v002.png",
+  "version": "v002",
+  "native_size_px": [
+    1122,
+    1402
+  ],
+  "sha256": "f97d300c5994e75b4abac637c9a7a0fa4f1f050401e7d58d678af67c7c56d363",
+  "prompt": "Edit ONLY the composition of this image, preserving all three faces, clothing, respectful clasped-hand poses, warm sunlight, desk and Vietnamese ink+watercolor style. WIDEN the camera framing and make ALL THREE people about65%of their current size, moving them DOWN. In the final4:5portrait image, TOP40%must be quiet pale warm plain wall/sky with no heads, feathers, hands, weapons or furniture. Every character's TOPMOST hair/feather must be BELOWy44%of full image height. All their feet must remain ABOVEy94%. Keep PhùngThịChính onLEFTFOREground, ĐinhLương centerleftbehind her, ThiSách RIGHT facingthem. Three full bodies must therefore fit between y44% and94%, retaining realistic proportions. This is crucial: the large blank upper40% is needed for two separate areas of Vietnamese typeset text; do NOT draw these textboxes or anyletters. Extend architecture/ground naturally as needed. Keepexactidentities: pink-bronze braided woman, brown-redheadband clean-shaven man, purple-gold tigerbadge bearded lord. No extra figures. AbsolutelyNO text, NO speechbubble shapes, NO watermark. Topmost40%quietbackground and smallerfigures in bottomhalf.",
+  "actual_references": [
+    {
+      "path": "assets_generated/raw_pages/PAGE04_v001.png",
+      "sha256": "75954cf64220737b5a2fee8b4dd9a459bbfb3749152ac01bfe7bae9e2f6f6db3"
+    }
+  ],
+  "generator": "image_gen.imagegen (model not exposed)",
+  "text_free": true,
+  "top_clearance_checked": true,
+  "visual_qa_report": "10_agent_workflow/tasks/PAGE04_ART/VISUAL_REVIEW.v002.md",
+  "user_approved": false,
+  "print_ready": false,
+  "note": "Composition edit only; v001 direct references are in v001metadata. Extra wall space is reserved for full dialogue, no face cropping or stretching."
+}

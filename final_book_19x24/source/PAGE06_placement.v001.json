@@ -1,0 +1,49 @@
+{
+  "page": 6,
+  "art_panels": [
+    {
+      "source_crop_px": [
+        0,
+        0,
+        1122,
+        1402
+      ],
+      "bbox_mm": [
+        -3,
+        -3,
+        196,
+        246
+      ]
+    },
+    {
+      "source_crop_px": [
+        0,
+        0,
+        1122,
+        1402
+      ],
+      "bbox_mm": [
+        0,
+        0,
+        190,
+        240
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "speaker": "Các vị tộc trưởng và tráng đinh Chu Diên",
+      "bbox_mm": [
+        18,
+        70,
+        105,
+        22
+      ],
+      "tail_mm": [
+        31,
+        140
+      ]
+    }
+  ],
+  "note": "Fullbleed background plus uniform trim placement keeps the complete boot outlines within reading trim. Collective bubble points to elders/group at left."
+}

@@ -1,0 +1,17 @@
+{
+  "page": 7,
+  "template": "B",
+  "status": "locked",
+  "narration": "Trước cổng phủ, **Lữ Thạch** bất ngờ **bắn tên lén** vào Thi Sách. Chàng gạt mũi tên, rút **cung gia bảo**, bắn liên tiếp **mười phát tên thần thông**, khiến hàng ngũ địch rối loạn. Một tiếng huýt vang lên, **chiến mã đen tuyền** lập tức phi ra đón chủ.",
+  "dialogues": [
+    {
+      "speaker": "Thi Sách",
+      "text": "Lữ Thạch! Bọn ngươi miệng nói nhân nghĩa mà đằng sau gươm giáo hại người. Hôm nay đừng hòng toàn mạng trở về!"
+    }
+  ],
+  "dialogues_status": "locked",
+  "storyboard_path": "03_storyboards_and_scripts/STORYBOARD_PART_1_HOI_7_CHU_DIEN.md",
+  "storyboard_sha256": "feeb2f262326699f209d4f2a170aed13bf30f10327df13b9e178cfcc0cce91aa",
+  "source_notes": "Đã mở scan17–19/sách228–230; một tênlén vàmười phátbắn liêntiếp, hắcmã chờhuýt. Khôngđổithành3mũi chungmộtdây. Bảnsinh chỉminhhọa khoảnhkhắcgiươngcung1mũi, lời dẫn tảchuỗi10phát.",
+  "note": "TemplateB,5cụmnhấn; đủ1thoại theo storyboard."
+}

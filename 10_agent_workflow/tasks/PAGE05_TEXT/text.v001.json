@@ -1,0 +1,17 @@
+{
+  "page": 5,
+  "template": "C",
+  "status": "locked",
+  "narration": "Một cánh **chim câu đưa thư** từ Mê Linh lao vào phủ. Đọc mật thư của **Trưng Trắc**, **Thi Sách** bàng hoàng: cha vợ **Trưng Định** đã bị bắt, quân giặc đang **kéo thẳng xuống Chu Diên**. Chàng lập tức sai Phùng Thị Chính về bảo vệ phu nhân.",
+  "dialogues": [
+    {
+      "speaker": "Mật thư của Trưng Trắc",
+      "text": "Tô Định đã bắt giữ cha thiếp tại Luy Lâu... Nay thiếp không thể nhịn nhục được nữa, thề không đội trời chung với giặc phương Bắc!"
+    }
+  ],
+  "dialogues_status": "locked",
+  "storyboard_path": "03_storyboards_and_scripts/STORYBOARD_PART_1_HOI_7_CHU_DIEN.md",
+  "storyboard_sha256": "feeb2f262326699f209d4f2a170aed13bf30f10327df13b9e178cfcc0cce91aa",
+  "source_notes": "Đã mở scan12–13/sách223–224, gồm đoạnchimcâuvà nguyênmậtthư; lệnhPhùngThịChính dẫn27thịvệ vềMêLinh. Thoại thư chépđủ từstoryboard, không biến thànhthoại ThiSách.",
+  "note": "TemplateC,5cụmnhấn; lớpchữ thư táchkhỏi ảnh, không để AI viết."
+}

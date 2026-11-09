@@ -1,0 +1,51 @@
+{
+  "scope": "Checkpoint:6of28storypages, no frontmatter or covers yet",
+  "story_pages_completed": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "agent_checked": true,
+  "user_approved": false,
+  "print_ready": false,
+  "files": [
+    {
+      "path": "final_book_19x24/reading/PAGE01_v002.pdf",
+      "sha256": "6c870b3b7addbcd47a0167f12febad66115108689ee02f9a2ba4090e89b0b7ff",
+      "bytes": 5244594
+    },
+    {
+      "path": "final_book_19x24/reading/PAGE02_v001.pdf",
+      "sha256": "efc9d01a00c5f2d26f312af224e4ec69ac114ddfa09ec971967d4e9ce3d41182",
+      "bytes": 5031544
+    },
+    {
+      "path": "final_book_19x24/reading/PAGE03_v001.pdf",
+      "sha256": "ae2b070993322f70f741cdb3f092ca91e0071a398f8704c5b19cfe1ee6d62882",
+      "bytes": 5144275
+    },
+    {
+      "path": "final_book_19x24/reading/PAGE04_v002.pdf",
+      "sha256": "2d4a4dcc3d14e899dafe0833940427f3311473500dd703b77625112dfca20c06",
+      "bytes": 4679276
+    },
+    {
+      "path": "final_book_19x24/reading/PAGE05_v002.pdf",
+      "sha256": "9ee60782af86e07c5e27a0364df763a5ca3438e28ce9e202b81f12266df85c80",
+      "bytes": 5310416
+    },
+    {
+      "path": "final_book_19x24/reading/PAGE06_v001.pdf",
+      "sha256": "b44999315fd1f1193046656cdbe480d04a1b47c50701a71ef398797520dbfaf7",
+      "bytes": 4508796
+    },
+    {
+      "path": "final_book_19x24/reading/TRUNG_NU_VUONG_PAGES_01-06_v001.pdf",
+      "sha256": "ea9b1f9879533bf42099b25e128b616b4e1ab187b583f0216e8f783071bff105",
+      "bytes": 29917896
+    }
+  ]
+}

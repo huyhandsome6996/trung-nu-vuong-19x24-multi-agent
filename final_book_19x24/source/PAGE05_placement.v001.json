@@ -1,0 +1,78 @@
+{
+  "page": 5,
+  "art_panels": [
+    {
+      "source_crop_px": [
+        0,
+        0,
+        1122,
+        210
+      ],
+      "bbox_mm": [
+        -3,
+        -3,
+        196,
+        51
+      ]
+    },
+    {
+      "source_crop_px": [
+        0,
+        211,
+        1122,
+        680
+      ],
+      "bbox_mm": [
+        -3,
+        48,
+        196,
+        82
+      ]
+    },
+    {
+      "source_crop_px": [
+        40,
+        703,
+        1082,
+        979
+      ],
+      "bbox_mm": [
+        -3,
+        130,
+        196,
+        40
+      ]
+    },
+    {
+      "source_crop_px": [
+        0,
+        987,
+        1122,
+        1402
+      ],
+      "bbox_mm": [
+        -3,
+        170,
+        196,
+        73
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "speaker": "Mật thư của Trưng Trắc",
+      "style": "letter",
+      "bbox_mm": [
+        18,
+        136,
+        154,
+        28
+      ],
+      "tail_mm": [
+        48,
+        150
+      ]
+    }
+  ],
+  "note": "Manual four clip regions: quiettop +3narrativepanels, uniform scale. Letter quote has no speech tail because writer is offscreen."
+}

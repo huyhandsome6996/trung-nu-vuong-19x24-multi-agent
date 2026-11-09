@@ -1,0 +1,35 @@
+{
+  "image": "assets_generated/raw_pages/PAGE05_v001.png",
+  "version": "v001",
+  "native_size_px": [
+    1122,
+    1402
+  ],
+  "sha256": "6c39763a641405c0f981a40e05861c193b424b4529fe099d48b69edfacf49c94",
+  "prompt": "PAGE05, Vietnamese illustrated legend adventure book. Portrait4:5, 196:246 ratio, highest native detail. Sharp ink contours and directional crosshatching with warm rich watercolor, match references. Ref1 Thi Sách: purple brocade robe, gold tiger chest badge, red cape, feather headband, short black beard. Ref2 left Đinh Lương brown tunic/red headband/clean-shaven strong young man; right Phùng Thị Chính pink-red tunic/bronze leather armor/long black braid. Ref3 MIDDLE strip Chu Diên wooden hall/courtyard. Ref4 TOP RIGHT white messenger pigeon, small bamboo message tube tied to one foot; no horse/elephant/eagle. Template C: upper arrival scene, central rectangular inset of a letter, lower departure scene. Uppermost20% entire width quiet pale warm sky/wall with no faces, wings, weapons, no border. Upper scene y22%..54%: white pigeon landing on Đinh Lương's raised hand at left; Thi Sách at right reading a small unrolled cream silk letter, alarm and resolve in eyes, Phùng Thị Chính beside them listening. All heads below25%. Letter has ABSOLUTELY NO writing or pseudo-writing. CENTRAL inset occupying x10%..58%, y42%..63%: detailed plain cream rectangular silk sheet on a wood desk, entirely BLANK with sufficient quiet room for typeset quote, no fingers or props covering its center. Draw a thin ink-and-ivory inset frame, not a speech balloon. Lower scene y66%..100%: Thi Sách points toward doorway and Phùng Thị Chính heads out with a few guards visible beyond courtyard; Đinh Lương remains beside lord. Convey urgent mission, not battle. Poses dynamic yet limbs anatomically clear. Retain costumes and distinct faces across scenes. Wooden architecture, earthen oil lamp, no glass/modern objects. No Trưng Trắc physically present: she is the offscreen letter writer. No other named characters. Keep main faces/hands inside safe margins and keep lower right free for tiny folio. NO text, lettering, marks on scrolls/banners, NO speech bubbles, NO watermark/signature/logo. Art-only page; every Vietnamese word will be typeset separately.",
+  "actual_references": [
+    {
+      "path": "assets_generated/design_system/CHAR03_v001.png",
+      "sha256": "f88b4c023f780bfa4d836bc82506607ad95ae44dfd79ffc3eebb1e6b2a5b56f8"
+    },
+    {
+      "path": "assets_generated/design_system/CHAR05_v001.png",
+      "sha256": "a3dcf69bfdd07fea6cb5cd085aadff5427fe52cc01e332352e5d899cc5d02dbb"
+    },
+    {
+      "path": "assets_generated/design_system/ENV02_v001.png",
+      "sha256": "5395688c5ccad71ee13d9099a003d82fc7cbabee31d761454c7d58c6e05fbd63"
+    },
+    {
+      "path": "assets_generated/design_system/ANIMAL01_v001.png",
+      "sha256": "7dd2569d6c8bc3a6b78f11a588f82d2a26f7032b141fa702f9965240f6e28cf6"
+    }
+  ],
+  "generator": "image_gen.imagegen (model not exposed)",
+  "text_free": true,
+  "top_clearance_checked": true,
+  "visual_qa_report": "10_agent_workflow/tasks/PAGE05_ART/VISUAL_REVIEW.v001.md",
+  "user_approved": false,
+  "print_ready": false,
+  "note": "TemplateC with3scenes; layout manually positions the quiettop and narrativepanels to prevent narration covering feathers/wingtips. Nativeimage remains unchanged."
+}

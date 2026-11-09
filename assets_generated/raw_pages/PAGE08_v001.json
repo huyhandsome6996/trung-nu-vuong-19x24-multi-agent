@@ -1,0 +1,39 @@
+{
+  "image": "assets_generated/raw_pages/PAGE08_v001.png",
+  "version": "v001",
+  "native_size_px": [
+    1122,
+    1402
+  ],
+  "sha256": "268a9013166824ea2c6516b9a7b16d828ff999e8694f5be0807a90afa7b1e8d7",
+  "prompt": "PAGE08: a heroic mounted duel, Vietnamese historical-legend illustrated adventure for ages13–16. Portrait4:5,196:246, highest native detail. Crisp black ink crosshatching, rich watercolor, semi-realistic anatomy consistent with refs. Ref1 ThiSách: purple longbrocade LạcHầu robe, redcape, goldtiger chestbadge, shortblackbeard, featherheadband. Ref2 use ONLY RIGHTMOST LữThạch, broadblackbeard, heavy darkironarmor, exactly4smallchestdaggers, ironlongspear; exclude middle/left men. Ref3ENV02 ChuDiên courtyard gate. Ref4PROP01 row1col4 hero's wooden spear with SHORT tigerfurpatch under bronze leafpoint; his opponent has plain iron spear, notsamefur. Ref5ANIMAL01 TOPLEFT hero's jetblackhorse with leather saddle/redcloth; enemy horse brown, not anotherblackidenticalhorse. TEMPLATEA single dramatic full-page action scene. TOP20% fullwidth quiet pale smoky sky, no weapons/feathers/heads. Belowy25%: ThiSách onLEFT/CENTER has risen with bothfeet planted on his blackhorse saddle, knees bent, torso balanced, using BOTHHANDS on longtigerfur spear as he thrusts down toward LữThạch atRIGHT. This is a stylized legendary acrobatic moment, not realistic ridinglesson. Clearly separate hero's twolegs from horse's fourlegs. Hero's face aroundx40%,y36%; enemyface x75%,y58%; no characterheads abovey24%. LữThạch recoils and raises iron spear to parry, weapon shafts visibly cross, no points penetrating skin. Both horses have coherent bodymass, believablelegs, properly connected reins. Horse necks and manarms must not fuse. Cape, dust and diagonals convey energy; courtyard stone and distant soldiers create depth. Golden lightleft, darkenemyarmor right, richpurpleredhero, no magiclasers. Enemy not dead yet. NOblood, no wounds, no severedparts. Mainfaces clear and safemargins, lowerleft quiet for tinyfolio. NO text/letters/labels/speechballoons/narrationpanel/watermarks/signatures. Keep robust ink linework, avoid photorealism and manga.",
+  "actual_references": [
+    {
+      "path": "assets_generated/design_system/CHAR03_v001.png",
+      "sha256": "f88b4c023f780bfa4d836bc82506607ad95ae44dfd79ffc3eebb1e6b2a5b56f8"
+    },
+    {
+      "path": "assets_generated/design_system/CHAR10_v001.png",
+      "sha256": "364e060dc0ed6ec5c5c23dbf7b162301c55f459f62784489f0f07c9b3eb20bfd"
+    },
+    {
+      "path": "assets_generated/design_system/ENV02_v001.png",
+      "sha256": "5395688c5ccad71ee13d9099a003d82fc7cbabee31d761454c7d58c6e05fbd63"
+    },
+    {
+      "path": "assets_generated/design_system/PROP01_v001.png",
+      "sha256": "8ac9a5f41d435726a72baf456d67dd3612cb3cd466e5f9b4f8f3794ee14f5a55"
+    },
+    {
+      "path": "assets_generated/design_system/ANIMAL01_v001.png",
+      "sha256": "7dd2569d6c8bc3a6b78f11a588f82d2a26f7032b141fa702f9965240f6e28cf6"
+    }
+  ],
+  "generator": "image_gen.imagegen (model not exposed)",
+  "text_free": true,
+  "top_clearance_checked": false,
+  "status": "REVISION_REQUIRED",
+  "user_approved": false,
+  "print_ready": false,
+  "note": "P07 needs correct anchored bowstring. P08 needs both hero boots on saddle plus upper clearance. Originals retained; do not mark passed."
+}

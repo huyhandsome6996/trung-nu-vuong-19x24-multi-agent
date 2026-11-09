@@ -1,0 +1,20 @@
+{
+  "task_id": "PAGE05_TEXT",
+  "kind": "text",
+  "status": "passed",
+  "reviewer": "Codex",
+  "summary": "Đã đọc scan12–13, giữ5cụmnhấn và chép đủtríchthư, khóaTemplateC.",
+  "checks": {
+    "source_alignment": "pass",
+    "narration_35_65": "pass",
+    "keywords_preserved": "pass",
+    "dialogue_locked": "pass",
+    "template_locked": "pass"
+  },
+  "artifacts": [
+    "10_agent_workflow/tasks/PAGE05_TEXT/text.v001.json",
+    "10_agent_workflow/tasks/PAGE05_TEXT/SOURCE_REVIEW.v001.md"
+  ],
+  "open_issues": [],
+  "reviewed_at": "2026-11-09T12:31:17+00:00"
+}

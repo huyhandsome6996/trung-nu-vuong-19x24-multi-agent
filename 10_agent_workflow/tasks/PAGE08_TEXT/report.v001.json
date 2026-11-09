@@ -1,0 +1,20 @@
+{
+  "task_id": "PAGE08_TEXT",
+  "kind": "text",
+  "status": "passed",
+  "reviewer": "Codex",
+  "summary": "Đãđọcscan20–21,giữ4cụmđỏ/khôngthoại,đúngthứtựchưahạLữThạch.",
+  "checks": {
+    "source_alignment": "pass",
+    "narration_35_65": "pass",
+    "keywords_preserved": "pass",
+    "dialogue_locked": "pass",
+    "template_locked": "pass"
+  },
+  "artifacts": [
+    "10_agent_workflow/tasks/PAGE08_TEXT/text.v001.json",
+    "10_agent_workflow/tasks/PAGE08_TEXT/SOURCE_REVIEW.v001.md"
+  ],
+  "open_issues": [],
+  "reviewed_at": "2026-11-09T12:36:29+00:00"
+}

@@ -125,10 +125,15 @@ def run(text_path, raw_path, version, placement_path=None):
         bx,by,bw,bh=placement['bbox_mm'];tx,ty=placement['tail_mm']
         if not(sx<=bx and sy<=by and bx+bw<=sx+sw and by+bh<=sy+sh):raise ValueError('Speech outside safe zone')
         cx=bx+bw/2;cy=by+bh/2
+        letter=placement.get('style')=='letter'
         p=c.beginPath();p.moveTo((cx)*mm+3*mm,(height-cy-3)*mm);p.lineTo((tx+3)*mm,(height-ty-3)*mm);p.lineTo((cx+6+3)*mm,(height-cy-3)*mm);p.close()
-        c.setFillColor('#FFFFFF');c.setStrokeColor('#1A1A1A');c.setLineWidth(.4*mm);c.drawPath(p,fill=1,stroke=1)
-        c.roundRect((bx+3)*mm,(height-by-bh-3)*mm,bw*mm,bh*mm,6*mm,fill=1,stroke=1)
-        svg.append(f'<path d="M{cx+3} {cy+3} L{tx+3} {ty+3} L{cx+9} {cy+3}Z" fill="white" stroke="#1A1A1A" stroke-width=".4"/><rect x="{bx+3}" y="{by+3}" width="{bw}" height="{bh}" rx="6" fill="white" stroke="#1A1A1A" stroke-width=".4"/>')
+        fill='#FFF8DD' if letter else '#FFFFFF';radius=1 if letter else 6
+        c.setFillColor(fill);c.setStrokeColor('#1A1A1A');c.setLineWidth(.4*mm)
+        if not letter:
+            c.drawPath(p,fill=1,stroke=1)
+            svg.append(f'<path d="M{cx+3} {cy+3} L{tx+3} {ty+3} L{cx+9} {cy+3}Z" fill="white" stroke="#1A1A1A" stroke-width=".4"/>')
+        c.roundRect((bx+3)*mm,(height-by-bh-3)*mm,bw*mm,bh*mm,radius*mm,fill=1,stroke=1)
+        svg.append(f'<rect x="{bx+3}" y="{by+3}" width="{bw}" height="{bh}" rx="{radius}" fill="{fill}" stroke="#1A1A1A" stroke-width=".4"/>')
         draw_text(dialogue['text'],[bx+3,by+2.5,bw-6,bh-5],10.8,13.2,f'speech_{i}')
     fx,fy=tokens['folio_center_odd_mm' if page%2 else 'folio_center_even_mm'];radius=4
     c.setFillColor('#991B1B');c.setStrokeColor('#D4A649');c.setLineWidth(.35*mm);c.circle((fx+3)*mm,(height-fy-3)*mm,radius*mm,fill=1,stroke=1)
@@ -138,7 +143,9 @@ def run(text_path, raw_path, version, placement_path=None):
     reader=PdfReader(paths['pdf']);pg=reader.pages[0]
     pg.trimbox=RectangleObject([3*mm,3*mm,193*mm,243*mm]);pg.bleedbox=RectangleObject([0,0,width*mm,height*mm])
     writer=PdfWriter();writer.add_page(pg)
-    with paths['pdf'].open('wb') as f:writer.write(f)
+    atomic=paths['pdf'].with_suffix('.pdf.tmp')
+    with atomic.open('wb') as f:writer.write(f)
+    atomic.replace(paths['pdf'])
     pg.cropbox=pg.trimbox
     writer=PdfWriter();writer.add_page(pg)
     with paths['reading'].open('wb') as f:writer.write(f)

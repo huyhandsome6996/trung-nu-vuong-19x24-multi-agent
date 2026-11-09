@@ -1,0 +1,94 @@
+{
+  "page": 5,
+  "matrix": {
+    "page": 5,
+    "template": "C",
+    "characters": [
+      "NV03",
+      "NV05",
+      "NV06"
+    ],
+    "environments": [
+      "E05"
+    ],
+    "props": [
+      "P17"
+    ],
+    "note": "Cấp báo; A02 chim câu",
+    "status": "NOT_GENERATED"
+  },
+  "identities": [
+    {
+      "id": "NV03",
+      "name": "Thi Sách",
+      "board": "CHAR03",
+      "positions": "Trái: đứng; phải: hắc mã; giữa: mặt"
+    },
+    {
+      "id": "NV05",
+      "name": "Đinh Lương",
+      "board": "CHAR05",
+      "positions": "Trái: NV05; phải: NV06; mặt phía trên cùng cột"
+    },
+    {
+      "id": "NV06",
+      "name": "Phùng Thị Chính",
+      "board": "CHAR05",
+      "positions": "Trái: NV05; phải: NV06; mặt phía trên cùng cột"
+    },
+    {
+      "id": "E05",
+      "name": "Sảnh và sân Chu Diên",
+      "board": "ENV02",
+      "positions": "Từ trên xuống: E04,E05,E06"
+    },
+    {
+      "id": "P17",
+      "name": "Ống trúc mật thư",
+      "board": "PROP02",
+      "positions": "4x3 cells, left-to-right row-major"
+    }
+  ],
+  "candidates": [
+    {
+      "board": "CHAR01",
+      "path": "assets_generated/characters/CHAR_01_Trung_Trac_v001.png",
+      "sha256": "3387a36a801705d08b9eac3dd778aca3533fced07300db8188cd71439eeec3c3"
+    },
+    {
+      "board": "CHAR03",
+      "path": "assets_generated/design_system/CHAR03_v001.png",
+      "sha256": "f88b4c023f780bfa4d836bc82506607ad95ae44dfd79ffc3eebb1e6b2a5b56f8"
+    },
+    {
+      "board": "CHAR05",
+      "path": "assets_generated/design_system/CHAR05_v001.png",
+      "sha256": "a3dcf69bfdd07fea6cb5cd085aadff5427fe52cc01e332352e5d899cc5d02dbb"
+    },
+    {
+      "board": "ENV02",
+      "path": "assets_generated/design_system/ENV02_v001.png",
+      "sha256": "5395688c5ccad71ee13d9099a003d82fc7cbabee31d761454c7d58c6e05fbd63"
+    },
+    {
+      "board": "PROP02",
+      "path": "assets_generated/design_system/PROP02_v001.png",
+      "sha256": "66b704990f77eed1b67406f057324078b87c2556b2f5d5cbd433b9997ea0d9e0"
+    },
+    {
+      "board": "ANIMAL01",
+      "path": "assets_generated/design_system/ANIMAL01_v001.png",
+      "sha256": "7dd2569d6c8bc3a6b78f11a588f82d2a26f7032b141fa702f9965240f6e28cf6"
+    },
+    {
+      "board": "ARMY01",
+      "path": "assets_generated/design_system/ARMY01_v001.png",
+      "sha256": "4f6b76dea97ac82cefce9338f51faaa00ee2501b3e63cb7197fb0ec4ef903ff7"
+    },
+    {
+      "board": "CHIEFS01",
+      "path": "assets_generated/design_system/CHIEFS01_v001.png",
+      "sha256": "11cfde4cac7fc720bacefc2ac66b390eceeff13a15362f0d4696a8e915ef1f05"
+    }
+  ]
+}

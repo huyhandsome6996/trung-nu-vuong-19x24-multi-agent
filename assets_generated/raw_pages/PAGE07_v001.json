@@ -1,0 +1,39 @@
+{
+  "image": "assets_generated/raw_pages/PAGE07_v001.png",
+  "version": "v001",
+  "native_size_px": [
+    1122,
+    1402
+  ],
+  "sha256": "e257b59ceb29fd8e694f2dc86b5d8cc9f258d585c294af04bcdf12204995c07f",
+  "prompt": "PAGE07 Vietnamese ink+watercolor illustrated historical legend, ages13–16. Portrait4:5,196:246, highest detail. Match sharp ink/crosshatching and painted palette fromrefs. Ref1 ThiSách in purple ancestral longrobe, golden tigerchestbadge, shortbeard, redcape, featherheadband. Ref2 use RIGHTMOST LữThạch only: broad beard, darkheavyironarmor,4chestdaggers; exclude twoothers. Ref3ENV02 middlecourtyard. Ref4PROP01 row2col2 familybow/quiver, notcrossbow; Ref5ANIMAL01 TOPLEFT blackhorse only; Enemy soldiers use generic dark Han armor consistent with CHAR10. TEMPLATE B TWO horizontal narrative panels; nominal seam at53%overallheight with thinwhitegutter. TOP20%fullwidth quiet pale sky, no objects. Upper scene y22%..53%: ThiSách atLEFTCENTER draws familybow, ONE arrow on ONE taut bowstring, bowarm straight, stringhand at cheek, plausible fivefingerarcherygrip. This is one moment in a sequence often shots; NEVER put3or10arrows on a singlebowstring. His face centeredx40%,y42%, eyes looking towardright. Keep quiet sky x8%..90%,y24%..35% for later speech, no actualbox. Bow should lie belowy36% and face belowy38%. Lower scene y55%..100%: LữThạch behind a disrupted shieldline, soldiers stagger/fall in non-graphic silhouettes, arrows stuck in SHIELDS/EARTH only, no bloodywounds. His horse startles. Inforeground the separate jetblackhorse ThiSách's mount gallops fromleft toward the lord, accurate fourlegs and saddle, clearly one main blackhorse plus distant enemyhorse. Show motion in cape/dust. No gore, severedparts or corpsecloseups. All mainfaces readable and safe; no random identical faces. Fullbleed, nodoubleframeoutside. NO letters, text, writing onflags, NO speechballoons or narrationparchment, NO watermark/signature. Keep purple robe, notgeneric redarmor. Do not depict ThiSách alreadymounted in upperarcheryscene.",
+  "actual_references": [
+    {
+      "path": "assets_generated/design_system/CHAR03_v001.png",
+      "sha256": "f88b4c023f780bfa4d836bc82506607ad95ae44dfd79ffc3eebb1e6b2a5b56f8"
+    },
+    {
+      "path": "assets_generated/design_system/CHAR10_v001.png",
+      "sha256": "364e060dc0ed6ec5c5c23dbf7b162301c55f459f62784489f0f07c9b3eb20bfd"
+    },
+    {
+      "path": "assets_generated/design_system/ENV02_v001.png",
+      "sha256": "5395688c5ccad71ee13d9099a003d82fc7cbabee31d761454c7d58c6e05fbd63"
+    },
+    {
+      "path": "assets_generated/design_system/PROP01_v001.png",
+      "sha256": "8ac9a5f41d435726a72baf456d67dd3612cb3cd466e5f9b4f8f3794ee14f5a55"
+    },
+    {
+      "path": "assets_generated/design_system/ANIMAL01_v001.png",
+      "sha256": "7dd2569d6c8bc3a6b78f11a588f82d2a26f7032b141fa702f9965240f6e28cf6"
+    }
+  ],
+  "generator": "image_gen.imagegen (model not exposed)",
+  "text_free": true,
+  "top_clearance_checked": false,
+  "status": "REVISION_REQUIRED",
+  "user_approved": false,
+  "print_ready": false,
+  "note": "P07 needs correct anchored bowstring. P08 needs both hero boots on saddle plus upper clearance. Originals retained; do not mark passed."
+}

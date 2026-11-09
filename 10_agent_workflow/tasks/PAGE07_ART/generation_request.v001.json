@@ -1,0 +1,13 @@
+{
+  "status": "submitted",
+  "prompt": "PAGE07 Vietnamese ink+watercolor illustrated historical legend, ages13–16. Portrait4:5,196:246, highest detail. Match sharp ink/crosshatching and painted palette fromrefs. Ref1 ThiSách in purple ancestral longrobe, golden tigerchestbadge, shortbeard, redcape, featherheadband. Ref2 use RIGHTMOST LữThạch only: broad beard, darkheavyironarmor,4chestdaggers; exclude twoothers. Ref3ENV02 middlecourtyard. Ref4PROP01 row2col2 familybow/quiver, notcrossbow; Ref5ANIMAL01 TOPLEFT blackhorse only; Ref6ARMY01 lowerrow secondfigure Hanarmor for enemycrowd. TEMPLATE B TWO horizontal narrative panels; nominal seam at53%overallheight with thinwhitegutter. TOP20%fullwidth quiet pale sky, no objects. Upper scene y22%..53%: ThiSách atLEFTCENTER draws familybow, ONE arrow on ONE taut bowstring, bowarm straight, stringhand at cheek, plausible fivefingerarcherygrip. This is one moment in a sequence often shots; NEVER put3or10arrows on a singlebowstring. His face centeredx40%,y42%, eyes looking towardright. Keep quiet sky x8%..90%,y24%..35% for later speech, no actualbox. Bow should lie belowy36% and face belowy38%. Lower scene y55%..100%: LữThạch behind a disrupted shieldline, soldiers stagger/fall in non-graphic silhouettes, arrows stuck in SHIELDS/EARTH only, no bloodywounds. His horse startles. Inforeground the separate jetblackhorse ThiSách's mount gallops fromleft toward the lord, accurate fourlegs and saddle, clearly one main blackhorse plus distant enemyhorse. Show motion in cape/dust. No gore, severedparts or corpsecloseups. All mainfaces readable and safe; no random identical faces. Fullbleed, nodoubleframeoutside. NO letters, text, writing onflags, NO speechballoons or narrationparchment, NO watermark/signature. Keep purple robe, notgeneric redarmor. Do not depict ThiSách alreadymounted in upperarcheryscene.",
+  "actual_reference_paths": [
+    "assets_generated/design_system/CHAR03_v001.png",
+    "assets_generated/design_system/CHAR10_v001.png",
+    "assets_generated/design_system/ENV02_v001.png",
+    "assets_generated/design_system/PROP01_v001.png",
+    "assets_generated/design_system/ANIMAL01_v001.png",
+    "assets_generated/design_system/ARMY01_v001.png"
+  ],
+  "generator": "image_gen.imagegen"
+}

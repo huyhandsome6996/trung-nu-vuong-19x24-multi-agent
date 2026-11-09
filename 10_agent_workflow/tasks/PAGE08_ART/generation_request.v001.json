@@ -1,0 +1,12 @@
+{
+  "status": "submitted",
+  "prompt": "PAGE08: a heroic mounted duel, Vietnamese historical-legend illustrated adventure for ages13–16. Portrait4:5,196:246, highest native detail. Crisp black ink crosshatching, rich watercolor, semi-realistic anatomy consistent with refs. Ref1 ThiSách: purple longbrocade LạcHầu robe, redcape, goldtiger chestbadge, shortblackbeard, featherheadband. Ref2 use ONLY RIGHTMOST LữThạch, broadblackbeard, heavy darkironarmor, exactly4smallchestdaggers, ironlongspear; exclude middle/left men. Ref3ENV02 ChuDiên courtyard gate. Ref4PROP01 row1col4 hero's wooden spear with SHORT tigerfurpatch under bronze leafpoint; his opponent has plain iron spear, notsamefur. Ref5ANIMAL01 TOPLEFT hero's jetblackhorse with leather saddle/redcloth; enemy horse brown, not anotherblackidenticalhorse. TEMPLATEA single dramatic full-page action scene. TOP20% fullwidth quiet pale smoky sky, no weapons/feathers/heads. Belowy25%: ThiSách onLEFT/CENTER has risen with bothfeet planted on his blackhorse saddle, knees bent, torso balanced, using BOTHHANDS on longtigerfur spear as he thrusts down toward LữThạch atRIGHT. This is a stylized legendary acrobatic moment, not realistic ridinglesson. Clearly separate hero's twolegs from horse's fourlegs. Hero's face aroundx40%,y36%; enemyface x75%,y58%; no characterheads abovey24%. LữThạch recoils and raises iron spear to parry, weapon shafts visibly cross, no points penetrating skin. Both horses have coherent bodymass, believablelegs, properly connected reins. Horse necks and manarms must not fuse. Cape, dust and diagonals convey energy; courtyard stone and distant soldiers create depth. Golden lightleft, darkenemyarmor right, richpurpleredhero, no magiclasers. Enemy not dead yet. NOblood, no wounds, no severedparts. Mainfaces clear and safemargins, lowerleft quiet for tinyfolio. NO text/letters/labels/speechballoons/narrationpanel/watermarks/signatures. Keep robust ink linework, avoid photorealism and manga.",
+  "actual_reference_paths": [
+    "assets_generated/design_system/CHAR03_v001.png",
+    "assets_generated/design_system/CHAR10_v001.png",
+    "assets_generated/design_system/ENV02_v001.png",
+    "assets_generated/design_system/PROP01_v001.png",
+    "assets_generated/design_system/ANIMAL01_v001.png"
+  ],
+  "generator": "image_gen.imagegen"
+}
