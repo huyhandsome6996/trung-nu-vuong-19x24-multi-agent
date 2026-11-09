@@ -1,0 +1,76 @@
+{
+  "page": 2,
+  "version": "v001",
+  "print_ready": false,
+  "user_approved": false,
+  "renderer": "ReportLab / vector text; PDF rendered separately with Poppler",
+  "native_size_px": [
+    1122,
+    1402
+  ],
+  "art_effective_dpi": [
+    130.87786259541986,
+    145.33811659192824
+  ],
+  "crop_mm": [
+    0.4350927246790235,
+    0.0
+  ],
+  "missing_glyphs": [],
+  "boxes": [
+    {
+      "kind": "narration",
+      "bbox_mm": [
+        18,
+        14,
+        154,
+        29
+      ],
+      "font_pt": 12.8,
+      "lines": 4,
+      "text_height_mm": 25.64835555555555,
+      "max_width_mm": 153.96689777777777,
+      "overflow": false
+    }
+  ],
+  "manual_panel_placements": [
+    {
+      "source_crop_px": [
+        0,
+        0,
+        1122,
+        675
+      ],
+      "bbox_mm": [
+        -3,
+        -3,
+        196,
+        131
+      ],
+      "effective_dpi": 130.87786259541986,
+      "uniform_scale": true
+    },
+    {
+      "source_crop_px": [
+        0,
+        686,
+        1122,
+        1324
+      ],
+      "bbox_mm": [
+        -3,
+        131.5,
+        196,
+        111.5
+      ],
+      "effective_dpi": 145.33811659192824,
+      "uniform_scale": true
+    }
+  ],
+  "pdf_text_matches": true,
+  "hashes": {
+    "svg": "8f7426e661b51d79686adb1b2d348be378fa5645c2c6e50fa1ba76a2a6caf3df",
+    "pdf": "d2ecd966169140ef4618e46bca00cdd15a3bec9f349b6cc3d7d6ef736bcff0ed",
+    "reading": "efc9d01a00c5f2d26f312af224e4ec69ac114ddfa09ec971967d4e9ce3d41182"
+  }
+}

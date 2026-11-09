@@ -188,6 +188,8 @@ def verify_report(task, path):
         meta = next((m for m in metas if m.get('image') in images), None)
         if not meta or not meta.get('prompt') or not meta.get('actual_references'):
             raise ValueError('Art metadata needs image, exact prompt and actual_references')
+        if meta['prompt'].strip().lower() in {'undefined', 'null', 'none', 'exact_prompt_actually_sent'}:
+            raise ValueError('Art metadata contains a placeholder instead of the actual submitted prompt')
         if meta.get('sha256') != digest(meta['image']):
             raise ValueError('Art hash mismatch')
         for ref in meta['actual_references']:

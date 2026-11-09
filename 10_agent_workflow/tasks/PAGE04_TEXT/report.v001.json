@@ -1,0 +1,20 @@
+{
+  "task_id": "PAGE04_TEXT",
+  "kind": "text",
+  "status": "passed",
+  "reviewer": "Codex",
+  "summary": "Đã đối chiếu scan, giữ6cụmnhấn và đầyđủthoạiPhùngThịChính; khóaTemplateA.",
+  "checks": {
+    "source_alignment": "pass",
+    "narration_35_65": "pass",
+    "keywords_preserved": "pass",
+    "dialogue_locked": "pass",
+    "template_locked": "pass"
+  },
+  "artifacts": [
+    "10_agent_workflow/tasks/PAGE04_TEXT/text.v001.json",
+    "10_agent_workflow/tasks/PAGE04_TEXT/SOURCE_REVIEW.v001.md"
+  ],
+  "open_issues": [],
+  "reviewed_at": "2026-11-09T12:15:31+00:00"
+}

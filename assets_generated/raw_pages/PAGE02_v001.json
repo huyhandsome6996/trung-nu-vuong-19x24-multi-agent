@@ -1,0 +1,39 @@
+{
+  "image": "assets_generated/raw_pages/PAGE02_v001.png",
+  "version": "v001",
+  "native_size_px": [
+    1122,
+    1402
+  ],
+  "sha256": "35b2b7205f39d2ff1cb828dc4a92f1443b54c99147c760232137d85e10c4b679",
+  "prompt": "Use case: illustration-story. Generate PAGE02 for Vietnamese historical-legend book TRƯNG NỮ VƯƠNG. Final art requested native high resolution2240x2810 or2048x2560, portrait4:5 aspect approximately196:246, not3:4. Use reference1 CHAR09: LEFT athletic sixteen-year-old clean-shaven broadface Phùng Lực Công NV14 red-brown tunic/bronze solar armor/red headband, RIGHT graceful longface Tản Viên NV15 white-blue robe/longblackhair/featherheadband/woodstaff. Reference2 CHAR12 use ONLY RIGHTMOST Hùng Duệ Vương NV23 elderly white beard/redceremonialrobes/gold feathercrown, don'tinclude healer couple. Ref3 ENV01 top+bottom strips for wooden stilt palace and mountain pavilion. Ref4 PROP02 BOTTOMLEFT object (row3col1) is P20: huge uncovered bronze threelegged cauldron with two handles; NOT lidded incense burner. Ref5 PROP04 TOPLEFT rowing wooden war boat with curving bow, no glass lantern, motors or modernparts. Same crisp blackink, directional crosshatching, rich yet controlled watercolor+pencil as references, semi-realistic anatomy, vivid Vietnamese legend adventure aesthetic for ages13–16. ExactlyTWO horizontal narrative panels with subtle dynamic diagonals in poses. TOP20% overall canvas: entirely quiet pale warm sky blended into scene below, no figures or ornaments or borders, empty for later narration. UPPER SCENE y20%..53.25%: wide palace courtyard in bright morning, muscular NV14 stance balanced knees bent, torso and arms showing credible effort, TWOHANDS gripping two separate bronze cauldron legs from below lifting it overhead; show exactly3cauldron legs and2handles, cauldron cannot obscure hisface; fullbody inside panel, head below25%page, feet above52%. NV15 stands at right with simplewoodstaff, attentive dignified expression. Elderly NV23 watches from raised thatched-wood pavilion in background, smaller scale, a few court attendants amazed. Keep no neck/joint deformations, all hands clear. No princess or extra featured characters. GUTTER exactlyat y53.25% and1.42%pageheight. LOWER SCENE y54.67%..100%: heroic river battle montage WITHOUT gore, NV14 on riverbank in same bronze-redcostume directs advance with straightforward bronze sword, NV15 beside him directs clouds with samewoodstaff, traditional wooden oared boats with warriors land behind them, distant enemy troops retreat and mountains frame the landscape. Two main heroes large readable faces fullywithin safe margins, two hands and two feet logically connected, swords do not pass throughhands. Warmgold/forestgreen/riverturquoise palette, no supernatural lasers. All essential details above95%height, small quiet lowerleft corner for folio. Fullbleed edge-to-edge painting, no frame outside page. AbsolutelyNO generated text/letters/numbers, NO dialoguebubbles, NO narrationboxes, NO watermark/signature/logos. This is legendary narrative, not archaeological reconstruction.",
+  "actual_references": [
+    {
+      "path": "assets_generated/design_system/CHAR09_v001.png",
+      "sha256": "a7124375b43238f570eb41efd3f189fc76590c330a5fce887145d6f9d5fee550"
+    },
+    {
+      "path": "assets_generated/design_system/CHAR12_v001.png",
+      "sha256": "b88bb40815f7b998d2f085c1a139a9f45dd7e21a9899c907dbddb2be8bafef7e"
+    },
+    {
+      "path": "assets_generated/design_system/ENV01_v001.png",
+      "sha256": "2b124b03d2dc4046d9b67dce60cd06a832faffe5e02ce0685da4708a41c02b00"
+    },
+    {
+      "path": "assets_generated/design_system/PROP02_v001.png",
+      "sha256": "66b704990f77eed1b67406f057324078b87c2556b2f5d5cbd433b9997ea0d9e0"
+    },
+    {
+      "path": "assets_generated/design_system/PROP04_v002.png",
+      "sha256": "e8eb31e7c6948bb21dc56d43f6d858cce2ba4a99ecf1172f0dec232ffd2441e4"
+    }
+  ],
+  "generator": "image_gen.imagegen (model not exposed)",
+  "text_free": true,
+  "top_clearance_checked": true,
+  "status": "REVISION_REQUIRED",
+  "user_approved": false,
+  "print_ready": false,
+  "note": "Two-scene illustration matches characters but gutter is near66% instead53.25%; requesting composition correction before layout."
+}

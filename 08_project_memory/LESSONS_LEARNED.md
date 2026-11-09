@@ -91,3 +91,11 @@ Tiêu đề cũ ghi 52–60 từ nhưng một số lời dẫn thực tế dài 
 Ảnhsinh cóthể khôngđúng tỷlệ dù prompt ghi kíchthước. Giữnative, sửa bố cục bằngcôngcụảnh, khôngkéoméo; ghi referencev002 thực tế làv001,khôngkhai sheettruyềngián tiếp làinputtrực tiếp.
 
 Renderer cóthểtrả mã0 nhưngPNGthiếu dữliệu; dùngPillow.verify vàPoppler hệthống thực. Render300DPI khôngbiến tranh145DPI thànhtranhchi tiết300DPI.
+
+## Clip tranh trong dàn trang và provenance bất biến
+
+Công cụ ảnh có thể tạo đúng hai cảnh nhưng rãnh không đúng tọa độ. Dùng crop vector từng cảnh sau khi xem pixel để đặt đúng khung, giữ tỷ lệ đồng nhất, kiểm đầu/tay/chân lại trên render; không kéo méo hoặc sửa ảnh native rồi gọi là nguyên bản. Lưu cropJSON và độ phân giải hiệu dụng riêng từng khung.
+
+Không đưa script dùng chung vào evidence bất biến của trang đã khóa: lưu snapshot đúng byte, để các trang sau phát triển renderer mà không làm stale báo cáo cũ.
+
+Khi sinh ảnh bất đồng bộ, lưu request hoàn chỉnh trước lúc gọi; chỉ ghi kết quả sau khi công cụ trả xong. Dữ liệu store trong cell đang chạy có thể chưa khả dụng ở cell khác. Từ chối các prompt placeholder như undefined trong validator; nếu đã ghi sai phải giữ phiên bản cũ và mở lại chuỗi để sửa có bằng chứng.

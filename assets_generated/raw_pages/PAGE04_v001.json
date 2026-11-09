@@ -1,0 +1,31 @@
+{
+  "image": "assets_generated/raw_pages/PAGE04_v001.png",
+  "version": "v001",
+  "native_size_px": [
+    1122,
+    1402
+  ],
+  "sha256": "75954cf64220737b5a2fee8b4dd9a459bbfb3749152ac01bfe7bae9e2f6f6db3",
+  "prompt": "Create PAGE04 art, Vietnamese ink+watercolor illustrated adventure, ages13–16, crisp black contours and directional crosshatching, controlled richwatercolor, same material andfaceidentities asrefs. Portrait4:5 (196:246), highestnativedetail. TEMPLATE A single fullbleed scene, notpanels. Ref1CHAR03 ThiSách male dignified shortblackbeard, purplebrocade longrobe with goldtigerchestbadge, redcape, solarheadband+smallfeathers; use standingversion without horse. Ref2CHAR05 LEFT ĐinhLương strong clean-shaven youngman brown tunic redheadband redsash, RIGHT PhùngThịChính youngwoman ovalangularface longblackbraid pinkredtunic bronzeleathershoulderarmor. Ref3ENV02 MIDDLESTRIP E05 ChuDiên warmwoodhall andcourtyard, tiledground, redbanners withoutletters. Scene: earlymorning oath in ChuDiên hall. Threefeaturedcharacters only. ThiSách atRIGHT in3/4profile facingLEFT, standingbeside lowwooddesk with blankbambooscrolls. PhùngThịChính inLEFTFOREGROUND, mouth aroundx32%y53% (trim60,124mm), hands clasped respectfully infrontofchest, calmresoluteeyes looking atThiSách. ĐinhLương stands slightly behind her atCENTERLEFT, also respectful, warriorposture. Their shoulderheight andfeet show crediblebodyweight. All three faces BELOWy43%, fullfiguresfeet above95%. Set costumes exactlylike sheets, ThiSách purple notredtunic; PhùngThịChính pink/bronze not green or blue. Weapons sheathed/putaside, no aggressivepointing. Sunlight beams fromLEFT rear openwindow, goldlight catches edges, deepwoodpillars framethem, courtyard glimpsefarbehind, simpleDongSon motifs, no modernobjects/glasslantern. TOP20%canvas MUST be entirely calm lightwarm mist/cloud/distantwall with noheads/weapons/complexarchitecture. ALSO leave quiet lowdetailspace x9%..89%pagewidth,y24%..39%pageheight as naturally illuminatedplainwall for later speech, doNOTdraw a speechbubble orlabel. Do not put faces in this blankspace. Composition should have emotionalresolve andhumaninteraction, not flatcharactersheet. No TrưngTrắc present; she already left. No extra hero/king/horse. AbsolutelyNOTEXT, NOwriting, NOspeechballoons, NOcaptionpanels, NOwatermark/signature.",
+  "actual_references": [
+    {
+      "path": "assets_generated/design_system/CHAR03_v001.png",
+      "sha256": "f88b4c023f780bfa4d836bc82506607ad95ae44dfd79ffc3eebb1e6b2a5b56f8"
+    },
+    {
+      "path": "assets_generated/design_system/CHAR05_v001.png",
+      "sha256": "a3dcf69bfdd07fea6cb5cd085aadff5427fe52cc01e332352e5d899cc5d02dbb"
+    },
+    {
+      "path": "assets_generated/design_system/ENV02_v001.png",
+      "sha256": "5395688c5ccad71ee13d9099a003d82fc7cbabee31d761454c7d58c6e05fbd63"
+    }
+  ],
+  "generator": "image_gen.imagegen (model not exposed)",
+  "text_free": true,
+  "top_clearance_checked": true,
+  "user_approved": false,
+  "print_ready": false,
+  "status": "REVISION_REQUIRED",
+  "note": "Page04 requires repositioning to leave speech space; Page03 placement to be checked after typesetting."
+}

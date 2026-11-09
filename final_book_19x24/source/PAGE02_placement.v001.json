@@ -1,0 +1,35 @@
+{
+  "page": 2,
+  "dialogues": [],
+  "art_panels": [
+    {
+      "source_crop_px": [
+        0,
+        0,
+        1122,
+        675
+      ],
+      "bbox_mm": [
+        -3,
+        -3,
+        196,
+        131
+      ]
+    },
+    {
+      "source_crop_px": [
+        0,
+        686,
+        1122,
+        1324
+      ],
+      "bbox_mm": [
+        -3,
+        131.5,
+        196,
+        111.5
+      ]
+    }
+  ],
+  "note": "Manual composition placement after pixel inspection. Preserve native image; uniform scale and clipping only. Review heads/feet/cauldron in rendered proof."
+}

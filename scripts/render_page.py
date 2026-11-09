@@ -47,9 +47,26 @@ def run(text_path, raw_path, version, placement_path=None):
     iw, ih = Image.open(w.local(raw_path)).size
     scale = max(width/iw,height/ih); aw, ah = iw*scale, ih*scale
     crop_x, crop_y = (aw-width)/2,(ah-height)/2
-    c.drawImage(str(w.local(raw_path)),-crop_x*mm,-crop_y*mm,width=aw*mm,height=ah*mm)
     png64=base64.b64encode(w.local(raw_path).read_bytes()).decode()
-    svg=[f'<svg xmlns="http://www.w3.org/2000/svg" width="196mm" height="246mm" viewBox="0 0 196 246"><defs><style>@font-face{{font-family:TNRegular;src:url(fonts/NotoSans-Regular.ttf)}}@font-face{{font-family:TNBold;src:url(fonts/NotoSans-Bold.ttf)}}</style><radialGradient id="paper"><stop offset="0" stop-color="#FFFBEB"/><stop offset=".75" stop-color="#FEF3C7"/><stop offset="1" stop-color="#F59E0B"/></radialGradient></defs>',f'<image x="{-crop_x}" y="{-crop_y}" width="{aw}" height="{ah}" href="data:image/png;base64,{png64}"/>']
+    svg=[f'<svg xmlns="http://www.w3.org/2000/svg" width="196mm" height="246mm" viewBox="0 0 196 246"><defs><style>@font-face{{font-family:TNRegular;src:url(fonts/NotoSans-Regular.ttf)}}@font-face{{font-family:TNBold;src:url(fonts/NotoSans-Bold.ttf)}}</style><radialGradient id="paper"><stop offset="0" stop-color="#FFFBEB"/><stop offset=".75" stop-color="#FEF3C7"/><stop offset="1" stop-color="#F59E0B"/></radialGradient></defs>']
+    spec=w.read(placement_path) if placement_path else {}
+    panel_metrics=[]
+    if spec.get('art_panels'):
+        # Explicit, manually reviewed placement crops. Native bitmap is kept unchanged.
+        for i,panel in enumerate(spec['art_panels']):
+            sx,sy,ex,ey=panel['source_crop_px'];dx,dy,dw,dh=panel['bbox_mm']
+            if not (0<=sx<ex<=iw and 0<=sy<ey<=ih):raise ValueError('Invalid art crop')
+            ps=max(dw/(ex-sx),dh/(ey-sy))
+            px=dx+3-sx*ps-((ex-sx)*ps-dw)/2
+            py=dy+3-sy*ps-((ey-sy)*ps-dh)/2
+            c.saveState();clip=c.beginPath();clip.rect((dx+3)*mm,(height-dy-dh-3)*mm,dw*mm,dh*mm);c.clipPath(clip,stroke=0,fill=0)
+            c.drawImage(str(w.local(raw_path)),px*mm,(height-py-ih*ps)*mm,width=iw*ps*mm,height=ih*ps*mm)
+            c.restoreState()
+            svg.append(f'<defs><clipPath id="art{i}"><rect x="{dx+3}" y="{dy+3}" width="{dw}" height="{dh}"/></clipPath></defs><image clip-path="url(#art{i})" x="{px}" y="{py}" width="{iw*ps}" height="{ih*ps}" href="data:image/png;base64,{png64}"/>')
+            panel_metrics.append({'source_crop_px':[sx,sy,ex,ey],'bbox_mm':[dx,dy,dw,dh],'effective_dpi':25.4/ps,'uniform_scale':True})
+    else:
+        c.drawImage(str(w.local(raw_path)),-crop_x*mm,-crop_y*mm,width=aw*mm,height=ah*mm)
+        svg.append(f'<image x="{-crop_x}" y="{-crop_y}" width="{aw}" height="{ah}" href="data:image/png;base64,{png64}"/>')
     if data['template']=='B':
         # The scene must already have a visually checked matching seam; this is a geometric edge.
         c.setFillColor('#FFFFFF');c.rect(0,(height-134.5)*mm,width*mm,3.5*mm,fill=1,stroke=0)
@@ -67,6 +84,9 @@ def run(text_path, raw_path, version, placement_path=None):
         (p.moveTo if i==0 else p.lineTo)((x+3)*mm,(height-y-3)*mm)
     p.close();c.setFillColor('#FEF3C7');c.setStrokeColor('#1C1917');c.setLineWidth(.7*mm);c.drawPath(p,fill=1,stroke=1)
     metrics={'page':page,'version':version,'print_ready':False,'user_approved':False,'renderer':'ReportLab / vector text; PDF rendered separately with Poppler','native_size_px':[iw,ih],'art_effective_dpi':[iw/(aw/25.4),ih/(ah/25.4)],'crop_mm':[crop_x,crop_y],'missing_glyphs':missing,'boxes':[]}
+    if panel_metrics:
+        metrics['manual_panel_placements']=panel_metrics
+        metrics['art_effective_dpi']=[p['effective_dpi'] for p in panel_metrics]
 
     def draw_text(marked,bbox,pt,leading,kind):
         x,y,bw,bh=bbox

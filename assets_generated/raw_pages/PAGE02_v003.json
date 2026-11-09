@@ -1,0 +1,24 @@
+{
+  "image": "assets_generated/raw_pages/PAGE02_v002.png",
+  "version": "v002",
+  "native_size_px": [
+    1122,
+    1402
+  ],
+  "sha256": "57bfd1573aacb410d2bdd4b0550515d4e8b11a3a8a0622027bb9b7e73d5b634b",
+  "prompt": "Edit this page composition ONLY; preserve character identities, clothes, poses, objects, drawing style and colors. Keep4:5 portrait canvas. The divider is currently around66%pageheight; MOVE it UP to53%pageheight. Empty narration sky must still occupy top20%pageheight with NO objects. Fit the ENTIRE cauldron-lifting upper scene (lifted three-legged cauldron, red athletic youth, white-blue TảnViên, king and thatched pavilion) into the band from20% to53% height: make these figures smaller, all heads/cauldron below21% and feet above52%. Keep EXACTLY3cauldronlegs and2handles. Lower battle scene must occupy from54.5%height to100%height, so EXPAND it vertically with more visible riverbank and FULL figures of red youth and white-blue TảnViên, both pairs of feet above95%height, allhands clear. Red youth points sword forward; white-blue man holds woodstaff. Include rowingboats and distant retreating soldiers. No additional figures in empty20%top. Precise panel proportions:20%empty +33%upper narrative +1.5%gutter +45.5%lower narrative. Do NOT add an extra horizontal line at20%: calm sky blends into upper scene. Absolutely NO text/letters/labels/speechballoons/watermark. This is a reflow into book page proportions, not a change of story.",
+  "actual_references": [
+    {
+      "path": "assets_generated/raw_pages/PAGE02_v001.png",
+      "sha256": "35b2b7205f39d2ff1cb828dc4a92f1443b54c99147c760232137d85e10c4b679"
+    }
+  ],
+  "generator": "image_gen.imagegen (model not exposed)",
+  "text_free": true,
+  "top_clearance_checked": true,
+  "visual_qa_report": "10_agent_workflow/tasks/PAGE02_ART/VISUAL_REVIEW.v002.md",
+  "user_approved": false,
+  "print_ready": false,
+  "note": "Direct inputv001; referencesheets recorded in v001 metadata. Illustration has two scenes; exact seam is fixed by manually checked vector placement crops inLAYOUT, native image unchanged. Native resolution below300DPI. Metadata correctionv003: previous prompt file captured an undefined placeholder while asynchronous job was not committed. Exact submitted prompt restored; native image unchanged.",
+  "metadata_version": "v003"
+}

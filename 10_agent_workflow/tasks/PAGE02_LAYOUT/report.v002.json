@@ -1,0 +1,26 @@
+{
+  "task_id": "PAGE02_LAYOUT",
+  "kind": "layout",
+  "status": "passed",
+  "reviewer": "Codex",
+  "summary": "Đã xem toàntrang và crop300DPI:4dòng12.8pt,5cụmđỏ đủ, fontnhúng, rãnh128..131.5mm; crop đều khôngméo, khôngcắtđỉnh/tay/chân. Ảnh và chữ giữ nguyên hash sau sửa provenance ARTv003.",
+  "checks": {
+    "vietnamese_fonts": "pass",
+    "red_keywords": "pass",
+    "safe_text": "pass",
+    "bleed_geometry": "pass",
+    "no_overflow": "pass",
+    "speech_placement": "pass"
+  },
+  "artifacts": [
+    "final_book_19x24/source/PAGE02_v001.svg",
+    "final_book_19x24/source/PAGE02_placement.v001.json",
+    "final_book_19x24/source/render_page.v002.py",
+    "final_book_19x24/proofs/PAGE02_v001.pdf",
+    "final_book_19x24/proofs/PAGE02_v001.png",
+    "final_book_19x24/proofs/PAGE02_v001.json",
+    "final_book_19x24/reading/PAGE02_v001.pdf"
+  ],
+  "open_issues": [],
+  "reviewed_at": "2026-11-09T12:23:51+00:00"
+}

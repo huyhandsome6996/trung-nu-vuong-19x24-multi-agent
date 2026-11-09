@@ -1,0 +1,40 @@
+{
+  "image": "assets_generated/raw_pages/PAGE03_v001.png",
+  "version": "v001",
+  "native_size_px": [
+    1122,
+    1402
+  ],
+  "sha256": "6c2456768f13f29e7a15ef19feb147e5402bafeaa5c0ce7908d94f6739b10b74",
+  "prompt": "Create PAGE03 text-free art for Vietnamese ink-and-watercolor legend adventure book, ages13–16. Portrait4:5 aspect196:246, highest native detail; match crisp black hatching, warm/cool watercolor of references. Reference1 CHAR10 use LEFT TôĐịnh narrowface sharpgoatee blackwine robes furcape官hat, and RIGHT LữThạch broadbearded ironarmored man with EXACTLY4chestdaggers; EXCLUDE middle TàoQuyền. Ref2 CHAR11 use LEFT MãTắc lean longface thinmustache steelblue armor navycape lowhelmet; EXCLUDE right LụcHiến. Ref3 CHAR06: LEFT NguyễnHuyền longwhitebeard sagegreen robe, RIGHT TrưngĐịnh saltpepper forkbeard navy robe; they are two elderly male prisoners. Ref4 ENV02 topstrip darkwood governorhall, oil lamp leftdesk, darkredcurtains, stonefort background. Ref5 PROP02 row1col3 darkbronze TIGERTALLY split in two halves, small handheldobject, no lettering; not ornamental chestbadge. TEMPLATE C with uppermainpanel, lowerprisonpanel, and one circular closeup inset. TOP20% fullwidth quiet darkindigo wall/sky gradient, no architectureorfigures/ornaments, empty for later parchment. Upper mainpanel y21%..57%: oil-lit secretwar council at night. TôĐịnh seated/standing at right of lowdesk, his FACE/MOUTH centered around x70% y43% (trimroughly133mm/100mm), giving tiger tally with anatomically cleanhand to MãTắc atleft, LữThạch behind MãTắc. TôĐịnh should look calculating andstern, not grotesqueracialcaricature. Reserve a calm lowdetail DARK area x43%..90%, y26%..39% above these heads for later dialogue, ABSOLUTELY NO emptybubble shape; just barewall. Three mainfaces must be below y40%. Oil lamp LEFTdesk, warmgoldlightonfaces, navyshadows. A round inset closeup centerx25% y48%page, diameter34%pagewidth (about68mm): show TôĐịnh's normal human hand holding bronze tiger tally with centraljoiningline; boldinkcircle with thinivoryrim; NOtextlabels. Lowerpanel y59%..100%: NguyễnHuyền onLEFT and TrưngĐịnh onRIGHT sit upright in a stonecell behind vertical ironbars, wrists in simple rope, no injuries or gore, their faces clearly distinguishable and lit by a narrow moonbeam. Retain original sagegreen/navycostumes, dignified resolute eyes; both elderlymen visible waistup or fullbody with cleanlimbs. No prisonmodernhandcuffs. Keep all importantheads/hands within safeedges; lower-right calm forfolio. NO characters overlap upper20%narration area. No modernobjects, no glasslamp. NO TEXT, NO writing on scrolls, NO speechballoons, NO captions, NO logos/watermarks/signatures. All readable Vietnamese will be typeset separately.",
+  "actual_references": [
+    {
+      "path": "assets_generated/design_system/CHAR10_v001.png",
+      "sha256": "364e060dc0ed6ec5c5c23dbf7b162301c55f459f62784489f0f07c9b3eb20bfd"
+    },
+    {
+      "path": "assets_generated/design_system/CHAR11_v001.png",
+      "sha256": "ff898f586e0b7e5b2f12b0dcc0423ee623a5819c154c7b8ca6152eb80d3bb098"
+    },
+    {
+      "path": "assets_generated/design_system/CHAR06_v001.png",
+      "sha256": "076798401ff1f15f935f7b0a3e67258d340f5949a32e26154976e442e8ce7976"
+    },
+    {
+      "path": "assets_generated/design_system/ENV02_v001.png",
+      "sha256": "5395688c5ccad71ee13d9099a003d82fc7cbabee31d761454c7d58c6e05fbd63"
+    },
+    {
+      "path": "assets_generated/design_system/PROP02_v001.png",
+      "sha256": "66b704990f77eed1b67406f057324078b87c2556b2f5d5cbd433b9997ea0d9e0"
+    }
+  ],
+  "generator": "image_gen.imagegen (model not exposed)",
+  "text_free": true,
+  "top_clearance_checked": true,
+  "user_approved": false,
+  "print_ready": false,
+  "status": "AGENT_CHECKED_DRAFT",
+  "note": "Page04 requires repositioning to leave speech space; Page03 placement to be checked after typesetting.",
+  "visual_qa_report": "10_agent_workflow/tasks/PAGE03_ART/VISUAL_REVIEW.v001.md"
+}

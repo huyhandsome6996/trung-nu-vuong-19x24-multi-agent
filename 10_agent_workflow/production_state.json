@@ -213,8 +213,8 @@
       "instructions": "Dùng nguyên text đã khóa và tranh đã kiểm. Ghép khung giấy cổ, tô đỏ #C81E1E cho **...**, đặt đủ thoại/đuôi bóng đúng người. Khổ196×246/trim190×240. Dùng layout_tokens, đo tràn chữ bằng renderer thật; xuất bản xem PNG/PDF và nguồn có thể sửa. scripts/typeset_preview.py là trợ giúp HTML; không coi HTML/PDF xem trước là file in đã duyệt.",
       "evidence": [
         {
-          "path": "10_agent_workflow/tasks/PAGE01_LAYOUT/report.v002.json",
-          "sha256": "3584b3a3ba6b40ac4f5495e995603e57c3aa25384bc92dda5494c838128daeb2"
+          "path": "10_agent_workflow/tasks/PAGE01_LAYOUT/report.v003.json",
+          "sha256": "6ee1d4e300c0fbcee4748f36fc0c30cd4bc89b3269c1bffba5cb7a6440c7c679"
         },
         {
           "path": "final_book_19x24/source/PAGE01_v002.svg",
@@ -237,15 +237,47 @@
           "sha256": "6c870b3b7addbcd47a0167f12febad66115108689ee02f9a2ba4090e89b0b7ff"
         },
         {
-          "path": "scripts/render_page.py",
+          "path": "final_book_19x24/source/render_page.v001.py",
           "sha256": "7caf00552c133da99a05523ba0aa9c59009151d590d36c152fe3d20fef1efd3d"
         }
       ],
-      "last_note": "Đã kiểm render và crop100%, chữv002/tranhv002; lưuSVG/PDF/PNG và đo hình học",
+      "last_note": "Thànhphẩm khôngđổi; evidence trỏ snapshot để tránhkhóa script dùngchung",
       "page": 1,
       "owner": "Codex",
-      "updated_at": "2026-11-09T12:06:29+00:00",
-      "block_reason": ""
+      "updated_at": "2026-11-09T12:17:57+00:00",
+      "block_reason": "",
+      "previous_evidence": [
+        [
+          {
+            "path": "10_agent_workflow/tasks/PAGE01_LAYOUT/report.v002.json",
+            "sha256": "3584b3a3ba6b40ac4f5495e995603e57c3aa25384bc92dda5494c838128daeb2"
+          },
+          {
+            "path": "final_book_19x24/source/PAGE01_v002.svg",
+            "sha256": "83dc100543d16a9bbd37c129ab47201d42002d150135ed798722114601306dcc"
+          },
+          {
+            "path": "final_book_19x24/proofs/PAGE01_v002.pdf",
+            "sha256": "a0412d9552f8b0fc49ecbe6b214036b851bd7d22b35489cb6411d6678c3b5544"
+          },
+          {
+            "path": "final_book_19x24/proofs/PAGE01_v002.png",
+            "sha256": "14c3e1d582bf591f52b6f6447c9be261a7dd114381895d2237f7a2edf7e62851"
+          },
+          {
+            "path": "final_book_19x24/proofs/PAGE01_v002.json",
+            "sha256": "48f51f890271dbc6fc3e26692c4e33dd01c983bfd463b2e6a299ff57c11dac46"
+          },
+          {
+            "path": "final_book_19x24/reading/PAGE01_v002.pdf",
+            "sha256": "6c870b3b7addbcd47a0167f12febad66115108689ee02f9a2ba4090e89b0b7ff"
+          },
+          {
+            "path": "scripts/render_page.py",
+            "sha256": "7caf00552c133da99a05523ba0aa9c59009151d590d36c152fe3d20fef1efd3d"
+          }
+        ]
+      ]
     },
     {
       "id": "PAGE01_QA",
@@ -258,8 +290,8 @@
       "instructions": "Mở ảnh render ở kích thước đọc thật và zoom100%; so với scan, sheet, text đã khóa. Kiểm bốn lớp historical/art/language/print_geometry. Ghi lỗi cụ thể và sửa về đúng bước. Báo cáo pass chỉ khi có artifact thực và không còn lỗi trong phạm vi; đây là QA của agent, không phải chủ dự án duyệt.",
       "evidence": [
         {
-          "path": "10_agent_workflow/tasks/PAGE01_QA/report.v001.json",
-          "sha256": "450a22874c25a695dd8f62750a01085f95664f1aa6e8342b0015b66dfa7d5145"
+          "path": "10_agent_workflow/tasks/PAGE01_QA/report.v002.json",
+          "sha256": "e83db10d42ba59b41a42cdc9288f055df3acbc08467de4f003a9375136d4f184"
         },
         {
           "path": "10_agent_workflow/tasks/PAGE01_QA/QA.v001.md",
@@ -278,11 +310,35 @@
           "sha256": "48f51f890271dbc6fc3e26692c4e33dd01c983bfd463b2e6a299ff57c11dac46"
         }
       ],
-      "last_note": "Trang01 hoànthành chuỗiTEXT→ART→LAYOUT→QA cho bảnđọc; chưaUSER_APPROVED/PRINT_READY",
+      "last_note": "QA trang01 giữ nguyên; chỉ tách provenance script bấtbiến",
       "page": 1,
       "block_reason": "",
       "owner": "Codex",
-      "updated_at": "2026-11-09T12:07:08+00:00"
+      "updated_at": "2026-11-09T12:17:57+00:00",
+      "previous_evidence": [
+        [
+          {
+            "path": "10_agent_workflow/tasks/PAGE01_QA/report.v001.json",
+            "sha256": "450a22874c25a695dd8f62750a01085f95664f1aa6e8342b0015b66dfa7d5145"
+          },
+          {
+            "path": "10_agent_workflow/tasks/PAGE01_QA/QA.v001.md",
+            "sha256": "9a07da47fed4594a5a99cfe9f07dc59ce1ee57fd029f1a888e1ffa1fc889c864"
+          },
+          {
+            "path": "final_book_19x24/proofs/PAGE01_v002.pdf",
+            "sha256": "a0412d9552f8b0fc49ecbe6b214036b851bd7d22b35489cb6411d6678c3b5544"
+          },
+          {
+            "path": "final_book_19x24/proofs/PAGE01_v002.png",
+            "sha256": "14c3e1d582bf591f52b6f6447c9be261a7dd114381895d2237f7a2edf7e62851"
+          },
+          {
+            "path": "final_book_19x24/proofs/PAGE01_v002.json",
+            "sha256": "48f51f890271dbc6fc3e26692c4e33dd01c983bfd463b2e6a299ff57c11dac46"
+          }
+        ]
+      ]
     },
     {
       "id": "PAGE02_TEXT",
@@ -316,120 +372,393 @@
       "id": "PAGE02_ART",
       "kind": "art",
       "title": "Trang02: tạo và kiểm tranh nền",
-      "status": "in_progress",
+      "status": "done",
       "depends_on": [
         "PAGE02_TEXT"
       ],
       "instructions": "Lấy text đã khóa từ evidence bước TEXT. Xem các sheet liên quan; soạn prompt cuối theo cảnh, ghi actual_references và hash. Tạo ảnh bằng công cụ sinh ảnh, nền không chữ, không bóng thoại, chừa20% đỉnh; dùng đúng A/B/C. Kiểm mặt, phục trang, tay/chân/vũ khí và hành động. Lưu PNG native có phiên bản và metadata theo templates/RAW_IMAGE_METADATA.json. Không resize rồi khai native300DPI.",
-      "evidence": [],
-      "last_note": "Xem CHAR09/CHAR12/ENV01/PROP02/PROP04 trước tạo TemplateB",
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/PAGE02_ART/report.v003.json",
+          "sha256": "339e057a0e11c55109c12751c3dcbf060a821fd73d1fc39c72051eec33243ac9"
+        },
+        {
+          "path": "assets_generated/raw_pages/PAGE02_v002.png",
+          "sha256": "57bfd1573aacb410d2bdd4b0550515d4e8b11a3a8a0622027bb9b7e73d5b634b"
+        },
+        {
+          "path": "assets_generated/raw_pages/PAGE02_v003.json",
+          "sha256": "48df73787f392fc55f6908ce555b6c42cf61e7893c1009c3cee96e055e443306"
+        },
+        {
+          "path": "assets_generated/raw_pages/PAGE02_v003.prompt.txt",
+          "sha256": "5358888af2854d4947a5015ac27bb0fc2a9b336d01c1fe5a9a44a15175c95095"
+        },
+        {
+          "path": "10_agent_workflow/tasks/PAGE02_ART/VISUAL_REVIEW.v002.md",
+          "sha256": "7e5878a77daede0ab3555dc9c68b3f6f02867de056e620485d4b8d8d27338c27"
+        }
+      ],
+      "last_note": "Metadata exactprompt đãsửa cóbảncũ; hashảnh giữnguyên",
       "page": 2,
       "owner": "Codex",
-      "updated_at": "2026-11-09T12:09:17+00:00"
+      "updated_at": "2026-11-09T12:23:51+00:00",
+      "block_reason": "",
+      "previous_evidence": [
+        [
+          {
+            "path": "10_agent_workflow/tasks/PAGE02_ART/report.v002.json",
+            "sha256": "c91b1c34fa1f242deea051a13c6893d94baf20ec5dc64a5bb95c2a253d54f759"
+          },
+          {
+            "path": "assets_generated/raw_pages/PAGE02_v002.png",
+            "sha256": "57bfd1573aacb410d2bdd4b0550515d4e8b11a3a8a0622027bb9b7e73d5b634b"
+          },
+          {
+            "path": "assets_generated/raw_pages/PAGE02_v002.json",
+            "sha256": "2e314d9f88b5fa19a23f86837c1b8a3e0cd2e995206dbfc7fdeaa4aa0c52a3a8"
+          },
+          {
+            "path": "assets_generated/raw_pages/PAGE02_v002.prompt.txt",
+            "sha256": "5358888af2854d4947a5015ac27bb0fc2a9b336d01c1fe5a9a44a15175c95095"
+          },
+          {
+            "path": "10_agent_workflow/tasks/PAGE02_ART/VISUAL_REVIEW.v002.md",
+            "sha256": "7e5878a77daede0ab3555dc9c68b3f6f02867de056e620485d4b8d8d27338c27"
+          }
+        ]
+      ]
     },
     {
       "id": "PAGE02_LAYOUT",
       "kind": "layout",
       "title": "Trang02: ghép chữ và bố cục",
-      "status": "todo",
+      "status": "done",
       "depends_on": [
         "PAGE02_ART"
       ],
       "instructions": "Dùng nguyên text đã khóa và tranh đã kiểm. Ghép khung giấy cổ, tô đỏ #C81E1E cho **...**, đặt đủ thoại/đuôi bóng đúng người. Khổ196×246/trim190×240. Dùng layout_tokens, đo tràn chữ bằng renderer thật; xuất bản xem PNG/PDF và nguồn có thể sửa. scripts/typeset_preview.py là trợ giúp HTML; không coi HTML/PDF xem trước là file in đã duyệt.",
-      "evidence": [],
-      "last_note": "",
-      "page": 2
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/PAGE02_LAYOUT/report.v002.json",
+          "sha256": "559e37b2cf834878396b21c6711190b72ab3aa7fd031ff7a2aaf7dce0ea7be8b"
+        },
+        {
+          "path": "final_book_19x24/source/PAGE02_v001.svg",
+          "sha256": "8f7426e661b51d79686adb1b2d348be378fa5645c2c6e50fa1ba76a2a6caf3df"
+        },
+        {
+          "path": "final_book_19x24/source/PAGE02_placement.v001.json",
+          "sha256": "9a6cb917535e2fb6845dc16d9a0ca77998bfecde25ca06dd68c1b0cd5c967408"
+        },
+        {
+          "path": "final_book_19x24/source/render_page.v002.py",
+          "sha256": "94c51e3c652b376be8341ec84bdad0e4ea50e72406809ece738b3343b51a7732"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE02_v001.pdf",
+          "sha256": "d2ecd966169140ef4618e46bca00cdd15a3bec9f349b6cc3d7d6ef736bcff0ed"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE02_v001.png",
+          "sha256": "6645e52061e30af6660f155751f681e7ab9797d57ed19fe55816d009cab57baf"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE02_v001.json",
+          "sha256": "bef041dabb49e16238072a4f52be0696e54900f412d087c3e16d1e589e803d03"
+        },
+        {
+          "path": "final_book_19x24/reading/PAGE02_v001.pdf",
+          "sha256": "efc9d01a00c5f2d26f312af224e4ec69ac114ddfa09ec971967d4e9ce3d41182"
+        }
+      ],
+      "last_note": "Thànhphẩm02 khôngđổi; provenance ARTv003 đãđối chiếu",
+      "page": 2,
+      "owner": "Codex",
+      "updated_at": "2026-11-09T12:23:51+00:00",
+      "previous_evidence": [
+        [
+          {
+            "path": "10_agent_workflow/tasks/PAGE02_LAYOUT/report.v001.json",
+            "sha256": "4307596423c484403616beebee9f7242c1dcd8ab485cff6935bf446f9bab5c8f"
+          },
+          {
+            "path": "final_book_19x24/source/PAGE02_v001.svg",
+            "sha256": "8f7426e661b51d79686adb1b2d348be378fa5645c2c6e50fa1ba76a2a6caf3df"
+          },
+          {
+            "path": "final_book_19x24/source/PAGE02_placement.v001.json",
+            "sha256": "9a6cb917535e2fb6845dc16d9a0ca77998bfecde25ca06dd68c1b0cd5c967408"
+          },
+          {
+            "path": "final_book_19x24/source/render_page.v002.py",
+            "sha256": "94c51e3c652b376be8341ec84bdad0e4ea50e72406809ece738b3343b51a7732"
+          },
+          {
+            "path": "final_book_19x24/proofs/PAGE02_v001.pdf",
+            "sha256": "d2ecd966169140ef4618e46bca00cdd15a3bec9f349b6cc3d7d6ef736bcff0ed"
+          },
+          {
+            "path": "final_book_19x24/proofs/PAGE02_v001.png",
+            "sha256": "6645e52061e30af6660f155751f681e7ab9797d57ed19fe55816d009cab57baf"
+          },
+          {
+            "path": "final_book_19x24/proofs/PAGE02_v001.json",
+            "sha256": "bef041dabb49e16238072a4f52be0696e54900f412d087c3e16d1e589e803d03"
+          },
+          {
+            "path": "final_book_19x24/reading/PAGE02_v001.pdf",
+            "sha256": "efc9d01a00c5f2d26f312af224e4ec69ac114ddfa09ec971967d4e9ce3d41182"
+          }
+        ]
+      ],
+      "block_reason": ""
     },
     {
       "id": "PAGE02_QA",
       "kind": "qa",
       "title": "Trang02: kiểm nguồn/mỹ thuật/chữ/khổ",
-      "status": "todo",
+      "status": "done",
       "depends_on": [
         "PAGE02_LAYOUT"
       ],
       "instructions": "Mở ảnh render ở kích thước đọc thật và zoom100%; so với scan, sheet, text đã khóa. Kiểm bốn lớp historical/art/language/print_geometry. Ghi lỗi cụ thể và sửa về đúng bước. Báo cáo pass chỉ khi có artifact thực và không còn lỗi trong phạm vi; đây là QA của agent, không phải chủ dự án duyệt.",
-      "evidence": [],
-      "last_note": "",
-      "page": 2
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/PAGE02_QA/report.v002.json",
+          "sha256": "27addc6a648912dfbe4bf9b429c92d580007c06cad46738ead15d760e9596d3d"
+        },
+        {
+          "path": "10_agent_workflow/tasks/PAGE02_QA/QA.v001.md",
+          "sha256": "cd6572f66100952f914827ce6de01649b7fd9dfce62f12e898fe39dd900ee97b"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE02_v001.pdf",
+          "sha256": "d2ecd966169140ef4618e46bca00cdd15a3bec9f349b6cc3d7d6ef736bcff0ed"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE02_v001.png",
+          "sha256": "6645e52061e30af6660f155751f681e7ab9797d57ed19fe55816d009cab57baf"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE02_v001.json",
+          "sha256": "bef041dabb49e16238072a4f52be0696e54900f412d087c3e16d1e589e803d03"
+        }
+      ],
+      "last_note": "QA02 giữnguyênhash thànhphẩm; exactpromptđãsửa",
+      "page": 2,
+      "owner": "Codex",
+      "updated_at": "2026-11-09T12:23:51+00:00",
+      "previous_evidence": [
+        [
+          {
+            "path": "10_agent_workflow/tasks/PAGE02_QA/report.v001.json",
+            "sha256": "6756c7319c152a3ca6c723c20b55674690c1170487e4374a8ba42abff1f7f335"
+          },
+          {
+            "path": "10_agent_workflow/tasks/PAGE02_QA/QA.v001.md",
+            "sha256": "cd6572f66100952f914827ce6de01649b7fd9dfce62f12e898fe39dd900ee97b"
+          },
+          {
+            "path": "final_book_19x24/proofs/PAGE02_v001.pdf",
+            "sha256": "d2ecd966169140ef4618e46bca00cdd15a3bec9f349b6cc3d7d6ef736bcff0ed"
+          },
+          {
+            "path": "final_book_19x24/proofs/PAGE02_v001.png",
+            "sha256": "6645e52061e30af6660f155751f681e7ab9797d57ed19fe55816d009cab57baf"
+          },
+          {
+            "path": "final_book_19x24/proofs/PAGE02_v001.json",
+            "sha256": "bef041dabb49e16238072a4f52be0696e54900f412d087c3e16d1e589e803d03"
+          }
+        ]
+      ],
+      "block_reason": ""
     },
     {
       "id": "PAGE03_TEXT",
       "kind": "text",
       "title": "Trang03: đối chiếu và khóa chữ",
-      "status": "todo",
+      "status": "done",
       "depends_on": [
         "DESIGN_BASELINE"
       ],
       "instructions": "Đọc nguyên cảnh và nguồn scan; sửa các câu cường điệu/không có căn cứ, giữ giọng hào hùng 13–16 tuổi. Đếm thật 35–65 tiếng theo khoảng trắng, không dùng số từ ghi trong tiêu đề làm chứng cứ. Chép đủ thoại vào text.v001.json, giữ **từ khóa**; ghi nguồn, template và hash storyboard. Khóa chữ sau khi kiểm. Nếu sửa toàn file storyboard về sau, rà lại các text đã khóa theo hash mới.",
-      "evidence": [],
-      "last_note": "",
-      "page": 3
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/PAGE03_TEXT/report.v001.json",
+          "sha256": "33ce4d36c9f027dd7a0120d520b875ac98a8bb37556e818918068856860ef51a"
+        },
+        {
+          "path": "10_agent_workflow/tasks/PAGE03_TEXT/text.v001.json",
+          "sha256": "1bf09451b0278d34c13eb0345abfe15adaa64c3a74fc37d0ecd32eb411d119a6"
+        },
+        {
+          "path": "10_agent_workflow/tasks/PAGE03_TEXT/SOURCE_REVIEW.v001.md",
+          "sha256": "ec68347188190ce8ada9171a9aa1fcaf0ccc341860c28103f3300e06ff50c82b"
+        }
+      ],
+      "last_note": "Chữ03 có6cụmđỏ,1thoại đầy đủ; đã kiểm scan",
+      "page": 3,
+      "owner": "Codex",
+      "updated_at": "2026-11-09T12:14:29+00:00"
     },
     {
       "id": "PAGE03_ART",
       "kind": "art",
       "title": "Trang03: tạo và kiểm tranh nền",
-      "status": "todo",
+      "status": "done",
       "depends_on": [
         "PAGE03_TEXT"
       ],
       "instructions": "Lấy text đã khóa từ evidence bước TEXT. Xem các sheet liên quan; soạn prompt cuối theo cảnh, ghi actual_references và hash. Tạo ảnh bằng công cụ sinh ảnh, nền không chữ, không bóng thoại, chừa20% đỉnh; dùng đúng A/B/C. Kiểm mặt, phục trang, tay/chân/vũ khí và hành động. Lưu PNG native có phiên bản và metadata theo templates/RAW_IMAGE_METADATA.json. Không resize rồi khai native300DPI.",
-      "evidence": [],
-      "last_note": "",
-      "page": 3
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/PAGE03_ART/report.v001.json",
+          "sha256": "3924c46f03606a9fef165224e35d860dfa5af966d792e0a860564d82002a0687"
+        },
+        {
+          "path": "assets_generated/raw_pages/PAGE03_v001.png",
+          "sha256": "6c2456768f13f29e7a15ef19feb147e5402bafeaa5c0ce7908d94f6739b10b74"
+        },
+        {
+          "path": "assets_generated/raw_pages/PAGE03_v001.json",
+          "sha256": "5db1f82caf168722e2dd74ca773bee05ed7a875629ae0b1c9ed0f1eb8f9c452e"
+        },
+        {
+          "path": "10_agent_workflow/tasks/PAGE03_ART/VISUAL_REVIEW.v001.md",
+          "sha256": "014449565cbd5ee82b2e7547ac5e51a2e140b8b6b76319213919d3bde94589eb"
+        }
+      ],
+      "last_note": "Nền03TemplateC đúngnhândiện vàđạocụ; kiểmghépthoại ởLAYOUT",
+      "page": 3,
+      "owner": "Codex",
+      "updated_at": "2026-11-09T12:24:18+00:00",
+      "block_reason": ""
     },
     {
       "id": "PAGE03_LAYOUT",
       "kind": "layout",
       "title": "Trang03: ghép chữ và bố cục",
-      "status": "todo",
+      "status": "done",
       "depends_on": [
         "PAGE03_ART"
       ],
       "instructions": "Dùng nguyên text đã khóa và tranh đã kiểm. Ghép khung giấy cổ, tô đỏ #C81E1E cho **...**, đặt đủ thoại/đuôi bóng đúng người. Khổ196×246/trim190×240. Dùng layout_tokens, đo tràn chữ bằng renderer thật; xuất bản xem PNG/PDF và nguồn có thể sửa. scripts/typeset_preview.py là trợ giúp HTML; không coi HTML/PDF xem trước là file in đã duyệt.",
-      "evidence": [],
-      "last_note": "",
-      "page": 3
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/PAGE03_LAYOUT/report.v001.json",
+          "sha256": "dae816f750d610456e8b1aabe26d10cded4dae4c532097ec741b636c77fc666e"
+        },
+        {
+          "path": "final_book_19x24/source/PAGE03_v001.svg",
+          "sha256": "35df354cb65fc879232dd52c2911c6bea0fb3fb8d2ef9273579a9ea70068fee0"
+        },
+        {
+          "path": "final_book_19x24/source/PAGE03_placement.v001.json",
+          "sha256": "60091ccb221afbcbc8010ac6910028c92d78e75aff010703dc6cb5f2f4346581"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE03_v001.pdf",
+          "sha256": "2c244cb90db02691be5081a98e699cb8c3b38ad83c18cff1bfad50c1d39bc046"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE03_v001.png",
+          "sha256": "625f014e36920c9364aac80d62a57c5799f31a7d3a916266f912c00c2c110dd9"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE03_v001.json",
+          "sha256": "0bcdd7eb49737a4a154091a91b6e73993147183a59f18ed47cc69eb5d10a4c64"
+        },
+        {
+          "path": "final_book_19x24/reading/PAGE03_v001.pdf",
+          "sha256": "ae2b070993322f70f741cdb3f092ca91e0071a398f8704c5b19cfe1ee6d62882"
+        }
+      ],
+      "last_note": "Đủthoại, khôngtràn, giữgươngmặt vàtaytraohổphù",
+      "page": 3,
+      "owner": "Codex",
+      "updated_at": "2026-11-09T12:26:46+00:00"
     },
     {
       "id": "PAGE03_QA",
       "kind": "qa",
       "title": "Trang03: kiểm nguồn/mỹ thuật/chữ/khổ",
-      "status": "todo",
+      "status": "done",
       "depends_on": [
         "PAGE03_LAYOUT"
       ],
       "instructions": "Mở ảnh render ở kích thước đọc thật và zoom100%; so với scan, sheet, text đã khóa. Kiểm bốn lớp historical/art/language/print_geometry. Ghi lỗi cụ thể và sửa về đúng bước. Báo cáo pass chỉ khi có artifact thực và không còn lỗi trong phạm vi; đây là QA của agent, không phải chủ dự án duyệt.",
-      "evidence": [],
-      "last_note": "",
-      "page": 3
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/PAGE03_QA/report.v001.json",
+          "sha256": "766f85b915a1e3a93df993a563d980672fbb6c0b6179df1df1ac70914f33caf5"
+        },
+        {
+          "path": "10_agent_workflow/tasks/PAGE03_QA/QA.v001.md",
+          "sha256": "fa045bac7822642f50073067a4b6d76d07c180ae65a9bef8a7d2ecaa2d5ec9dc"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE03_v001.pdf",
+          "sha256": "2c244cb90db02691be5081a98e699cb8c3b38ad83c18cff1bfad50c1d39bc046"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE03_v001.png",
+          "sha256": "625f014e36920c9364aac80d62a57c5799f31a7d3a916266f912c00c2c110dd9"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE03_v001.json",
+          "sha256": "0bcdd7eb49737a4a154091a91b6e73993147183a59f18ed47cc69eb5d10a4c64"
+        }
+      ],
+      "last_note": "Chuỗi03 hoàn tất bảnđọc; lưu đủ lời dẫn vàthoại",
+      "page": 3,
+      "owner": "Codex",
+      "updated_at": "2026-11-09T12:26:47+00:00"
     },
     {
       "id": "PAGE04_TEXT",
       "kind": "text",
       "title": "Trang04: đối chiếu và khóa chữ",
-      "status": "todo",
+      "status": "done",
       "depends_on": [
         "DESIGN_BASELINE"
       ],
       "instructions": "Đọc nguyên cảnh và nguồn scan; sửa các câu cường điệu/không có căn cứ, giữ giọng hào hùng 13–16 tuổi. Đếm thật 35–65 tiếng theo khoảng trắng, không dùng số từ ghi trong tiêu đề làm chứng cứ. Chép đủ thoại vào text.v001.json, giữ **từ khóa**; ghi nguồn, template và hash storyboard. Khóa chữ sau khi kiểm. Nếu sửa toàn file storyboard về sau, rà lại các text đã khóa theo hash mới.",
-      "evidence": [],
-      "last_note": "",
-      "page": 4
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/PAGE04_TEXT/report.v001.json",
+          "sha256": "25c162e896b4ed9e33c8484ebac072d7a8bfd45cfaaad4b7f2caee08486f6dfa"
+        },
+        {
+          "path": "10_agent_workflow/tasks/PAGE04_TEXT/text.v001.json",
+          "sha256": "b06e412281518397d4b2b8c0f9b2b4af1009dd83170eb781c25a088b888ff81c"
+        },
+        {
+          "path": "10_agent_workflow/tasks/PAGE04_TEXT/SOURCE_REVIEW.v001.md",
+          "sha256": "2ced72c25876b7feedd75fd80adfefb9bcd9946fa57d5522aa80a2c2b13cd3dc"
+        }
+      ],
+      "last_note": "Chữ04 đãkhóa cùng1thoại đầyđủ",
+      "page": 4,
+      "owner": "Codex",
+      "updated_at": "2026-11-09T12:15:31+00:00"
     },
     {
       "id": "PAGE04_ART",
       "kind": "art",
       "title": "Trang04: tạo và kiểm tranh nền",
-      "status": "todo",
+      "status": "blocked",
       "depends_on": [
         "PAGE04_TEXT"
       ],
       "instructions": "Lấy text đã khóa từ evidence bước TEXT. Xem các sheet liên quan; soạn prompt cuối theo cảnh, ghi actual_references và hash. Tạo ảnh bằng công cụ sinh ảnh, nền không chữ, không bóng thoại, chừa20% đỉnh; dùng đúng A/B/C. Kiểm mặt, phục trang, tay/chân/vũ khí và hành động. Lưu PNG native có phiên bản và metadata theo templates/RAW_IMAGE_METADATA.json. Không resize rồi khai native300DPI.",
       "evidence": [],
-      "last_note": "",
-      "page": 4
+      "last_note": "Chờ bản sửa v002 từ jobcell72; mọiinput/prompt đãlưu, tiếp tụcđóng trang03.",
+      "page": 4,
+      "owner": "Codex",
+      "updated_at": "2026-11-09T12:23:51+00:00",
+      "block_reason": "Chờ bản sửa v002 từ jobcell72; mọiinput/prompt đãlưu, tiếp tụcđóng trang03."
     },
     {
       "id": "PAGE04_LAYOUT",
@@ -1854,7 +2183,7 @@
       ],
       "instructions": "Dùng pagination.json và print_profile đã chốt. Xuất riêng reading.pdf và print.pdf; file ruột32trang, bìa trải theo gáy thực tế. Kiểm PDF Media/Trim/BleedBox, nhúng font, độ phân giải hiệu dụng và ICC theo nhà in; tạo delivery_manifest.json chứa hash mọi file. Không tự đặt PRINT_READY khi mới gắnDPI.",
       "evidence": [],
-      "last_note": "Reopen: Sửa khoảngtrắng cuối storyboard và lỗiđánhmáy trước push; giữ evidencev001",
+      "last_note": "Reopen: Sửa metadata prompt bị ghi placeholder khi jobchưa trả; giữ ảnh/layout thực khôngđổi, tạo hồsơv003 đúngprompt",
       "block_reason": ""
     },
     {
@@ -1867,7 +2196,7 @@
       ],
       "instructions": "Chạy check --release sau khi các bước khác xong (trước RELEASE sẽ báo chưa hoàn tất là đúng). Mở toàn bộ32 trang ruột và4 mặt bìa; kiểm lỗi, file sửa được, manifesthash, nguồn/quyền, QA và hướng dẫn nhà in. Hoàn tất report RELEASE rồi chạy check --release phải đạt. Push main và đối chiếu SHA remote. Chỉ phát hành đúng phạm vi người dùng giao, không tự xuất bản thương mại.",
       "evidence": [],
-      "last_note": "Reopen: Sửa khoảngtrắng cuối storyboard và lỗiđánhmáy trước push; giữ evidencev001",
+      "last_note": "Reopen: Sửa metadata prompt bị ghi placeholder khi jobchưa trả; giữ ảnh/layout thực khôngđổi, tạo hồsơv003 đúngprompt",
       "block_reason": ""
     }
   ],
@@ -2027,6 +2356,252 @@
       "task": "PAGE02_ART",
       "action": "start",
       "note": "Xem CHAR09/CHAR12/ENV01/PROP02/PROP04 trước tạo TemplateB"
+    },
+    {
+      "at": "2026-11-09T12:13:17+00:00",
+      "task": "PAGE02_ART",
+      "action": "checkpoint",
+      "note": "Đã lưu nativePAGE02v001 và5thamchiếuthực; sửa vịtríchiakhung trước layout"
+    },
+    {
+      "at": "2026-11-09T12:14:29+00:00",
+      "task": "PAGE02_ART",
+      "action": "block",
+      "note": "Đang chờ công cụ ảnh trả bản sửa v002 (jobcell55); v001/prompt/hash đã lưu. Không thiếu công cụ; tiếp tục việc độc lập trong lúc chờ."
+    },
+    {
+      "at": "2026-11-09T12:14:29+00:00",
+      "task": "PAGE03_TEXT",
+      "action": "start",
+      "note": "Đối chiếu scan01–03 đã mở; chép đầyđủ1thoại và rút lờidẫn theo fontthật"
+    },
+    {
+      "at": "2026-11-09T12:14:29+00:00",
+      "task": "PAGE03_TEXT",
+      "action": "finish",
+      "note": "Chữ03 có6cụmđỏ,1thoại đầy đủ; đã kiểm scan"
+    },
+    {
+      "at": "2026-11-09T12:14:30+00:00",
+      "task": "PAGE03_ART",
+      "action": "start",
+      "note": "TạoTemplateC với5nhânvật đúng5ảnhref đãxem; chừa vùng ghépthoại"
+    },
+    {
+      "at": "2026-11-09T12:15:31+00:00",
+      "task": "PAGE03_ART",
+      "action": "block",
+      "note": "Đang chờ công cụ ảnh trả nềnv001 (jobcell57), prompt/ref đã xácđịnh; tiếp tục trang04 trong lúc chờ."
+    },
+    {
+      "at": "2026-11-09T12:15:31+00:00",
+      "task": "PAGE04_TEXT",
+      "action": "start",
+      "note": "Đọcscan04–05/10–11; khóa chữ và chép đủthoại PhùngThịChính"
+    },
+    {
+      "at": "2026-11-09T12:15:31+00:00",
+      "task": "PAGE04_TEXT",
+      "action": "finish",
+      "note": "Chữ04 đãkhóa cùng1thoại đầyđủ"
+    },
+    {
+      "at": "2026-11-09T12:15:31+00:00",
+      "task": "PAGE04_ART",
+      "action": "start",
+      "note": "Xem3ảnhref cho cảnhThiSách vàĐinhLương–PhùngThịChính ởChuDiên"
+    },
+    {
+      "at": "2026-11-09T12:16:27+00:00",
+      "task": "PAGE04_ART",
+      "action": "checkpoint",
+      "note": "Lệnh sinh thực và3ảnhref đã lưu generation_request.v001.json; đang chờ jobcell60"
+    },
+    {
+      "at": "2026-11-09T12:16:27+00:00",
+      "task": "PAGE04_ART",
+      "action": "block",
+      "note": "Đang chờ công cụ ảnh trả nềnv001(jobcell60); request thực đã lưu; tiếp tục xử lý các kết quả đã trả."
+    },
+    {
+      "at": "2026-11-09T12:17:56+00:00",
+      "task": "PAGE01_LAYOUT",
+      "action": "reopen",
+      "note": "Tách script render dùngchung khỏi evidence đãkhóa; lưu snapshot đúngbyte để phát triểnlayout các trang sau"
+    },
+    {
+      "at": "2026-11-09T12:17:56+00:00",
+      "task": "PAGE01_LAYOUT",
+      "action": "start",
+      "note": "Giữ nguyên PDF/SVG/PNG đãkiểm, chỉ thay đườngdẫn script bằng snapshotbấtbiến"
+    },
+    {
+      "at": "2026-11-09T12:17:57+00:00",
+      "task": "PAGE01_LAYOUT",
+      "action": "finish",
+      "note": "Thànhphẩm khôngđổi; evidence trỏ snapshot để tránhkhóa script dùngchung"
+    },
+    {
+      "at": "2026-11-09T12:17:57+00:00",
+      "task": "PAGE01_QA",
+      "action": "start",
+      "note": "Xácnhận hashPDF/SVG/PNG khôngđổi sau chỉnhprovenance"
+    },
+    {
+      "at": "2026-11-09T12:17:57+00:00",
+      "task": "PAGE01_QA",
+      "action": "finish",
+      "note": "QA trang01 giữ nguyên; chỉ tách provenance script bấtbiến"
+    },
+    {
+      "at": "2026-11-09T12:17:57+00:00",
+      "task": "PAGE02_ART",
+      "action": "unblock",
+      "note": "Côngcụ đãtrả v002; kiểm bản sửa và cropchếbản thủcông để khóa rãnh"
+    },
+    {
+      "at": "2026-11-09T12:17:57+00:00",
+      "task": "PAGE02_ART",
+      "action": "start",
+      "note": "Xem v002, hai nhânvật đúngsheet; lên cropchếbản từngkhung không kéo méo"
+    },
+    {
+      "at": "2026-11-09T12:18:54+00:00",
+      "task": "PAGE02_ART",
+      "action": "finish",
+      "note": "Nềnv002 đãkiểm; crop từngkhung doLAYOUT quảnlý, khôngkéoméo"
+    },
+    {
+      "at": "2026-11-09T12:18:54+00:00",
+      "task": "PAGE02_LAYOUT",
+      "action": "start",
+      "note": "Crop vector hai khung đã chọn thủcông, khóa rãnh128..131.5mm và ghép chữ"
+    },
+    {
+      "at": "2026-11-09T12:21:26+00:00",
+      "task": "PAGE02_LAYOUT",
+      "action": "finish",
+      "note": "Bố cục02 đãkhóa bằngclipvector; đủ4dòng và giữnguyênảnhnative"
+    },
+    {
+      "at": "2026-11-09T12:21:26+00:00",
+      "task": "PAGE02_QA",
+      "action": "start",
+      "note": "Kiểm4lớp bảnđọc02; đãxemcrop100% vàfontnhúng"
+    },
+    {
+      "at": "2026-11-09T12:21:26+00:00",
+      "task": "PAGE02_QA",
+      "action": "finish",
+      "note": "Chuỗi trang02 hoàn tất cho bảnđọc; chưain/chưangườidùngduyệt"
+    },
+    {
+      "at": "2026-11-09T12:21:27+00:00",
+      "task": "PAGE04_ART",
+      "action": "unblock",
+      "note": "Đãtrả nềnv001; cần dờinhânvật xuốngđể bóngthoại khôngche mặt"
+    },
+    {
+      "at": "2026-11-09T12:21:27+00:00",
+      "task": "PAGE04_ART",
+      "action": "start",
+      "note": "Lưu v001 và sinh sửa bố cục vùngthoại, giữ gươngmặt/trangphục"
+    },
+    {
+      "at": "2026-11-09T12:23:51+00:00",
+      "task": "PAGE04_ART",
+      "action": "checkpoint",
+      "note": "Đã lưu v001; côngcụ đang sửa vùng trống thoại theo promptv002 đãlưu (jobcell72)"
+    },
+    {
+      "at": "2026-11-09T12:23:51+00:00",
+      "task": "PAGE04_ART",
+      "action": "block",
+      "note": "Chờ bản sửa v002 từ jobcell72; mọiinput/prompt đãlưu, tiếp tụcđóng trang03."
+    },
+    {
+      "at": "2026-11-09T12:23:51+00:00",
+      "task": "PAGE02_ART",
+      "action": "reopen",
+      "note": "Sửa metadata prompt bị ghi placeholder khi jobchưa trả; giữ ảnh/layout thực khôngđổi, tạo hồsơv003 đúngprompt"
+    },
+    {
+      "at": "2026-11-09T12:23:51+00:00",
+      "task": "PAGE02_ART",
+      "action": "start",
+      "note": "Khôi phục nguyênvăn prompt thực từ kếtquảjob; kiểm hash và khôngđổiảnh"
+    },
+    {
+      "at": "2026-11-09T12:23:51+00:00",
+      "task": "PAGE02_ART",
+      "action": "finish",
+      "note": "Metadata exactprompt đãsửa cóbảncũ; hashảnh giữnguyên"
+    },
+    {
+      "at": "2026-11-09T12:23:51+00:00",
+      "task": "PAGE02_LAYOUT",
+      "action": "start",
+      "note": "Đầu vào ảnh/chữ khôngđổi; xácnhận lại hash proof sau sửa provenance"
+    },
+    {
+      "at": "2026-11-09T12:23:51+00:00",
+      "task": "PAGE02_LAYOUT",
+      "action": "finish",
+      "note": "Thànhphẩm02 khôngđổi; provenance ARTv003 đãđối chiếu"
+    },
+    {
+      "at": "2026-11-09T12:23:51+00:00",
+      "task": "PAGE02_QA",
+      "action": "start",
+      "note": "Xácnhận lại hash thànhphẩm đãkiểm sau correction metadata"
+    },
+    {
+      "at": "2026-11-09T12:23:51+00:00",
+      "task": "PAGE02_QA",
+      "action": "finish",
+      "note": "QA02 giữnguyênhash thànhphẩm; exactpromptđãsửa"
+    },
+    {
+      "at": "2026-11-09T12:23:51+00:00",
+      "task": "PAGE03_ART",
+      "action": "unblock",
+      "note": "Job57 đãtrảnềnv001; dữliệu vàprompt/ref đãlưu đủ"
+    },
+    {
+      "at": "2026-11-09T12:23:51+00:00",
+      "task": "PAGE03_ART",
+      "action": "start",
+      "note": "Kiểm5nhânvật/hổphù/ngục vàđặtthoại sau render"
+    },
+    {
+      "at": "2026-11-09T12:24:18+00:00",
+      "task": "PAGE03_ART",
+      "action": "finish",
+      "note": "Nền03TemplateC đúngnhândiện vàđạocụ; kiểmghépthoại ởLAYOUT"
+    },
+    {
+      "at": "2026-11-09T12:24:18+00:00",
+      "task": "PAGE03_LAYOUT",
+      "action": "start",
+      "note": "Đặt1thoại trênbànphải, đuôiTôĐịnh; giữtayhổphù vàmọigươngmặt"
+    },
+    {
+      "at": "2026-11-09T12:26:46+00:00",
+      "task": "PAGE03_LAYOUT",
+      "action": "finish",
+      "note": "Đủthoại, khôngtràn, giữgươngmặt vàtaytraohổphù"
+    },
+    {
+      "at": "2026-11-09T12:26:47+00:00",
+      "task": "PAGE03_QA",
+      "action": "start",
+      "note": "Kiểm4lớp theo scan vàsheet; đối chiếu toàn bộthoại trongPDF"
+    },
+    {
+      "at": "2026-11-09T12:26:47+00:00",
+      "task": "PAGE03_QA",
+      "action": "finish",
+      "note": "Chuỗi03 hoàn tất bảnđọc; lưu đủ lời dẫn vàthoại"
     }
   ]
 }

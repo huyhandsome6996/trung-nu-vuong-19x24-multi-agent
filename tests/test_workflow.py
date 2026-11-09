@@ -98,6 +98,10 @@ class WorkflowTests(unittest.TestCase):
             w.verify_report(w.task_by_id(self.state,'PAGE01_ART'),'report.json')
         meta['native_size_px']=[80,100];w.write('art.json',meta)
         self.assertEqual(len(w.verify_report(w.task_by_id(self.state,'PAGE01_ART'),'report.json')),3)
+        meta['prompt']='undefined';w.write('art.json',meta)
+        with self.assertRaisesRegex(ValueError,'placeholder'):
+            w.verify_report(w.task_by_id(self.state,'PAGE01_ART'),'report.json')
+        meta['prompt']='Actual prompt fixture';w.write('art.json',meta)
         (w.ROOT/'reference.png').write_bytes(b'changed')
         with self.assertRaisesRegex(ValueError,'Reference hash'):
             w.verify_report(w.task_by_id(self.state,'PAGE01_ART'),'report.json')

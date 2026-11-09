@@ -1,0 +1,17 @@
+{
+  "page": 4,
+  "template": "A",
+  "status": "locked",
+  "narration": "Tại **Chu Diên**, **Huyện lệnh Thi Sách** tiễn phu nhân **Trưng Trắc** về Mê Linh bàn kế lớn, rồi triệu **Đinh Lương – Phùng Thị Chính**. Nhớ tổ tiên **Thánh Đóng Phùng Lực Công**, đôi vợ chồng trẻ nguyện **vào núi đao biển lửa**, cùng chủ công cứu nước.",
+  "dialogues": [
+    {
+      "speaker": "Phùng Thị Chính",
+      "text": "Vợ chồng tiểu nữ dẫu phải vào núi đao biển lửa cũng quyết theo chủ công đánh đuổi giặc phương Bắc!"
+    }
+  ],
+  "dialogues_status": "locked",
+  "storyboard_path": "03_storyboards_and_scripts/STORYBOARD_PART_1_HOI_7_CHU_DIEN.md",
+  "storyboard_sha256": "feeb2f262326699f209d4f2a170aed13bf30f10327df13b9e178cfcc0cce91aa",
+  "source_notes": "Đã xem contact sheetPDF01–06 vàPDF07–12; sách215–216 kể ThiSách triệu đôi vợchồng, sách221–222 cólời nguyện trungnghĩa. Giữdòng họPhùng như lớptiểuthuyết, không trìnhbày gia phảhuyền sử thành hồsơchínhsử.",
+  "note": "Giữ6cụmnhấn, chép đủ1thoại; TemplateA."
+}

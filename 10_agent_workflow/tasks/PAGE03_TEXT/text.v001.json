@@ -1,0 +1,17 @@
+{
+  "page": 3,
+  "template": "C",
+  "status": "locked",
+  "narration": "Đất **Giao Chỉ** chịu ách cai trị của **Thái thú Tô Định**. Lo hai dòng họ **Trưng – Dương** nổi dậy, hắn dùng kế **“Tiên phát chế nhân”**: bắt **Thần y Nguyễn Huyền**, giam **Huyện lệnh Mê Linh Trưng Định**, rồi bí mật điều quân đánh Chu Diên.",
+  "dialogues": [
+    {
+      "speaker": "Tô Định",
+      "text": "Hãy cầm lấy hổ phù, ngay trong đêm nay dẫn binh đánh úp phủ Chu Diên, giết sạch nhà Thi Sách!"
+    }
+  ],
+  "dialogues_status": "locked",
+  "storyboard_path": "03_storyboards_and_scripts/STORYBOARD_PART_1_HOI_7_CHU_DIEN.md",
+  "storyboard_sha256": "feeb2f262326699f209d4f2a170aed13bf30f10327df13b9e178cfcc0cce91aa",
+  "source_notes": "Đã mở contact sheetPDF01–06, đọc01–03/sách212–214. Mã Tắc vào báo, Nguyễn Huyền và Trưng Định bị giam, Tô Định phát hổ phù lệnh đánh Chu Diên. Lời thoại là thoại chuyển thể theo storyboard, không trình bày như trích nguyên sử liệu.",
+  "note": "Giữ6cụmnhấn, chép đủ1thoại; TemplateC với zoomhổphù vàkhungngục."
+}

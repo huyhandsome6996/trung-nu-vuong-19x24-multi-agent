@@ -1,0 +1,108 @@
+{
+  "page": 2,
+  "matrix": {
+    "page": 2,
+    "template": "B",
+    "characters": [
+      "NV14",
+      "NV15",
+      "NV23"
+    ],
+    "environments": [
+      "E01",
+      "E03"
+    ],
+    "props": [
+      "P20",
+      "P21"
+    ],
+    "note": "Huyền sử, vàng trời",
+    "status": "NOT_GENERATED"
+  },
+  "identities": [
+    {
+      "id": "NV14",
+      "name": "Phùng Lực Công / Thánh Đóng",
+      "board": "CHAR09",
+      "positions": "Trái NV14; phải NV15"
+    },
+    {
+      "id": "NV15",
+      "name": "Tản Viên Sơn Thánh",
+      "board": "CHAR09",
+      "positions": "Trái NV14; phải NV15"
+    },
+    {
+      "id": "NV23",
+      "name": "Hùng Duệ Vương",
+      "board": "CHAR12",
+      "positions": "Trái NV21; giữa NV22; phải NV23"
+    },
+    {
+      "id": "E01",
+      "name": "Phong Châu / Bạch Hạc",
+      "board": "ENV01",
+      "positions": "Từ trên xuống: E01,E02,E03"
+    },
+    {
+      "id": "E03",
+      "name": "Lầu kén rể / Lăng Sương huyền tích",
+      "board": "ENV01",
+      "positions": "Từ trên xuống: E01,E02,E03"
+    },
+    {
+      "id": "P20",
+      "name": "Đỉnh đồng lực sĩ",
+      "board": "PROP02",
+      "positions": "4x3 cells, left-to-right row-major"
+    },
+    {
+      "id": "P21",
+      "name": "Trượng Tản Viên",
+      "board": "PROP02",
+      "positions": "4x3 cells, left-to-right row-major"
+    }
+  ],
+  "candidates": [
+    {
+      "board": "CHAR01",
+      "path": "assets_generated/characters/CHAR_01_Trung_Trac_v001.png",
+      "sha256": "3387a36a801705d08b9eac3dd778aca3533fced07300db8188cd71439eeec3c3"
+    },
+    {
+      "board": "CHAR09",
+      "path": "assets_generated/design_system/CHAR09_v001.png",
+      "sha256": "a7124375b43238f570eb41efd3f189fc76590c330a5fce887145d6f9d5fee550"
+    },
+    {
+      "board": "CHAR12",
+      "path": "assets_generated/design_system/CHAR12_v001.png",
+      "sha256": "b88bb40815f7b998d2f085c1a139a9f45dd7e21a9899c907dbddb2be8bafef7e"
+    },
+    {
+      "board": "ENV01",
+      "path": "assets_generated/design_system/ENV01_v001.png",
+      "sha256": "2b124b03d2dc4046d9b67dce60cd06a832faffe5e02ce0685da4708a41c02b00"
+    },
+    {
+      "board": "PROP02",
+      "path": "assets_generated/design_system/PROP02_v001.png",
+      "sha256": "66b704990f77eed1b67406f057324078b87c2556b2f5d5cbd433b9997ea0d9e0"
+    },
+    {
+      "board": "ANIMAL01",
+      "path": "assets_generated/design_system/ANIMAL01_v001.png",
+      "sha256": "7dd2569d6c8bc3a6b78f11a588f82d2a26f7032b141fa702f9965240f6e28cf6"
+    },
+    {
+      "board": "ARMY01",
+      "path": "assets_generated/design_system/ARMY01_v001.png",
+      "sha256": "4f6b76dea97ac82cefce9338f51faaa00ee2501b3e63cb7197fb0ec4ef903ff7"
+    },
+    {
+      "board": "CHIEFS01",
+      "path": "assets_generated/design_system/CHIEFS01_v001.png",
+      "sha256": "11cfde4cac7fc720bacefc2ac66b390eceeff13a15362f0d4696a8e915ef1f05"
+    }
+  ]
+}

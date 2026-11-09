@@ -113,3 +113,12 @@ timezone: "Asia/Ho_Chi_Minh"
 - Đã mở và đọc bài tổng quan của Bảo tàng Lịch sử Quốc gia cùng hai hồ sơ di tích của Cục Di sản văn hóa. Lưu URL, ngày truy cập, phạm vi hỗ trợ và đối chiếu từng mệnh đề tại SOURCE_EPILOGUE.
 - Sửa storyboard27–28: bỏ khẳng định tuyến hành quân Phượng Hoàng trực tiếp mở đường về Luy Lâu; phân biệt Mê Linh/Hát Môn; giữ E14 là công trình tưởng niệm biểu tượng. Giữ bản storyboard trước sửa. Chưa khóa chữ27–28.
 - Check_repo đạt trước finish SOURCE_EPILOGUE. Trang01 đã push c5e4572 và đối chiếu remote khớp. Trang02 đã khóa chữ51tiếng,5cụm đỏ, không thoại; đang tạo tranh với5ảnh tham chiếu thực đã xem.
+
+## PROD-007 — Trang02–03 và kiểm metadata (09/11/2026)
+
+- Trang02 hoàn thành TEXT/ART/LAYOUT/QA cho bản đọc. Giữ v001/v002; bố cục cuối dùng clip vector từng khung đã chọn thủ công, không sửa pixel hoặc kéo méo. Có SVG, PDFbleed, PDFđọc, PNG và thông số crop/DPI đo được.
+- Trang03 hoàn thành TEXT/ART/LAYOUT/QA:6cụm đỏ,1thoại đầy đủ, TemplateC,5nhân vật đúng sheet. Đã kiểm toàn trang và crop300DPI; bóng thoại chỉ Tô Định và không che mặt/tay trao hổ phù.
+- Trang04 đã khóa chữ49tiếng/1thoại; tranh v001 đẹp nhưng cần chừa thêm vùng thoại, đang chờ bản sửa v002, input/prompt đã lưu.
+- Phát hiện một metadata lấy prompt trước lúc kết quả async hoàn tất nên ghi placeholder; đã reopen đúng chuỗi02, giữ hồ sơ cũ, tạo metadata/promptv003 đúng nguyên văn, finish lại bằng hash ảnh và thành phẩm không đổi. Thêm guard và kiểm thử ngăn finish với placeholder.
+- Tách script kết xuất dùng chung khỏi evidence bất biến của trang01: lưu snapshot render_page.v001.py có cùng byte; thành phẩm01 không đổi. Trang02 dùng snapshotv002 và placementJSON riêng.
+- Bước tiếp: hoàn thiện vùng thoại04, tiếp tục PAGE05_TEXT. Chưa tạo đủ28trang; không báo hoàn tất sách.

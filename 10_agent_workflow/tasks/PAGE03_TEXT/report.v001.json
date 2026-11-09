@@ -1,0 +1,20 @@
+{
+  "task_id": "PAGE03_TEXT",
+  "kind": "text",
+  "status": "passed",
+  "reviewer": "Codex",
+  "summary": "Đối chiếu scan01–03, giữ6cụmđỏ, chép đủ1thoại, khóaTemplateC.",
+  "checks": {
+    "source_alignment": "pass",
+    "narration_35_65": "pass",
+    "keywords_preserved": "pass",
+    "dialogue_locked": "pass",
+    "template_locked": "pass"
+  },
+  "artifacts": [
+    "10_agent_workflow/tasks/PAGE03_TEXT/text.v001.json",
+    "10_agent_workflow/tasks/PAGE03_TEXT/SOURCE_REVIEW.v001.md"
+  ],
+  "open_issues": [],
+  "reviewed_at": "2026-11-09T12:14:29+00:00"
+}

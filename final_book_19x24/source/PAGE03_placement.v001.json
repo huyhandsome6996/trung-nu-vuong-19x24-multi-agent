@@ -1,0 +1,19 @@
+{
+  "page": 3,
+  "dialogues": [
+    {
+      "speaker": "Tô Định",
+      "bbox_mm": [
+        100,
+        115,
+        74,
+        29
+      ],
+      "tail_mm": [
+        144,
+        92
+      ]
+    }
+  ],
+  "note": "Manually placed after viewing actual image; below TôĐịnh face, right of inset; tail to his mouth."
+}
