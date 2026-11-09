@@ -1,0 +1,107 @@
+{
+  "page": 7,
+  "version": "v002",
+  "print_ready": false,
+  "user_approved": false,
+  "renderer": "ReportLab / vector text; PDF rendered separately with Poppler",
+  "native_size_px": [
+    1122,
+    1402
+  ],
+  "art_effective_dpi": [
+    114.54901960784314,
+    145.40204081632652,
+    145.40204081632652
+  ],
+  "crop_mm": [
+    0.4350927246790235,
+    0.0
+  ],
+  "missing_glyphs": [],
+  "boxes": [
+    {
+      "kind": "narration",
+      "bbox_mm": [
+        18,
+        14,
+        154,
+        29
+      ],
+      "font_pt": 12.8,
+      "lines": 4,
+      "text_height_mm": 25.64835555555555,
+      "max_width_mm": 152.53546666666665,
+      "overflow": false
+    },
+    {
+      "kind": "speech_0",
+      "bbox_mm": [
+        96,
+        115.5,
+        75,
+        22
+      ],
+      "font_pt": 10.8,
+      "lines": 3,
+      "text_height_mm": 13.969999999999997,
+      "max_width_mm": 73.9902,
+      "overflow": false
+    }
+  ],
+  "manual_panel_placements": [
+    {
+      "source_crop_px": [
+        0,
+        0,
+        1122,
+        230
+      ],
+      "bbox_mm": [
+        -3,
+        -3,
+        196,
+        51
+      ],
+      "effective_dpi": 114.54901960784314,
+      "uniform_scale": true
+    },
+    {
+      "source_crop_px": [
+        0,
+        230,
+        1122,
+        880
+      ],
+      "bbox_mm": [
+        -3,
+        48,
+        196,
+        113.5
+      ],
+      "effective_dpi": 145.40204081632652,
+      "uniform_scale": true
+    },
+    {
+      "source_crop_px": [
+        0,
+        886,
+        1122,
+        1402
+      ],
+      "bbox_mm": [
+        -3,
+        165,
+        196,
+        78
+      ],
+      "effective_dpi": 145.40204081632652,
+      "uniform_scale": true
+    }
+  ],
+  "pdf_text_matches": true,
+  "hashes": {
+    "svg": "30629b4459d739b8bc874646b0f1542be57f97c029c9ec386dee350cd3c0ed76",
+    "pdf": "c18e5d7acfabe8ec4a61ef0d8fa20fbfcaccf3bb1adf872019ee022c418abea2",
+    "reading": "ed5c3fd00c388fc6dc791b6e59626f7b4e9b0374d3dcdb3cef1c31be27d7ffc5"
+  }
+}

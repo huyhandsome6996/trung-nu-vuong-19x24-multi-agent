@@ -1,0 +1,21 @@
+{
+  "task_id": "PAGE08_QA",
+  "kind": "qa",
+  "status": "passed",
+  "reviewer": "Codex",
+  "summary": "Opened full 150DPI render: narration four lines with four red keywords; both saddle boots clear, intact hands/spears/horse identities, no text overlaps or missing Vietnamese accents. No dialogue per storyboard. Geometry trim190×240 bleed196×246, native art about145DPI; reading proof only.",
+  "checks": {
+    "historical": "pass",
+    "art": "pass",
+    "language": "pass",
+    "print_geometry": "pass"
+  },
+  "artifacts": [
+    "10_agent_workflow/tasks/PAGE08_QA/QA.v001.md",
+    "final_book_19x24/proofs/PAGE08_v001.pdf",
+    "final_book_19x24/proofs/PAGE08_v001.png",
+    "final_book_19x24/proofs/PAGE08_v001.json"
+  ],
+  "open_issues": [],
+  "reviewed_at": "2026-11-09T14:02:40.394280+00:00"
+}

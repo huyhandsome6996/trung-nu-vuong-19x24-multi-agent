@@ -1,0 +1,1 @@
+Viewed new output: Thi Sách purple/tiger badge, one arrow and coherent V bowstring; grips attached, black horse and Lữ Thạch retained. Lower-right minor soldier turns away, no face under folio. Raw contains no text, top sky clear. Template B upper panel taller variant will preserve bow and full dialogue.

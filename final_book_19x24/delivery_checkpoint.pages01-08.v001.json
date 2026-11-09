@@ -1,0 +1,23 @@
+{
+  "reading_pdf": "final_book_19x24/reading/TRUNG_NU_VUONG_PAGES_01-08_v001.pdf",
+  "sha256": "e0c4d4f3ed1ff4bb9e86bfc88671c79129ffeecdafafc12d8c4b28a6a3770477",
+  "page_count": 8,
+  "pages": [
+    "final_book_19x24/reading/PAGE01_v002.pdf",
+    "final_book_19x24/reading/PAGE02_v001.pdf",
+    "final_book_19x24/reading/PAGE03_v001.pdf",
+    "final_book_19x24/reading/PAGE04_v002.pdf",
+    "final_book_19x24/reading/PAGE05_v002.pdf",
+    "final_book_19x24/reading/PAGE06_v001.pdf",
+    "final_book_19x24/reading/PAGE07_v002.pdf",
+    "final_book_19x24/reading/PAGE08_v001.pdf"
+  ],
+  "agent_reviewed": true,
+  "user_approved": false,
+  "print_ready": false,
+  "limitations": [
+    "24 interior pages plus covers remain",
+    "Native illustration resolution below300DPI",
+    "Printer profile absent"
+  ]
+}

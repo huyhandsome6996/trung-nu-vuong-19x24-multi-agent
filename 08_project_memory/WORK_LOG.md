@@ -132,3 +132,10 @@ timezone: "Asia/Ho_Chi_Minh"
 - Trang07–08 đã khóa chữ, tranhv001 có lỗi thực (dâycung; ủngđứngngoàiyên/đỉnhthiếukhoảngtrống), đãlưu bản cũ và yêu cầu sửa bằngcôngcụảnh. Đang chờ job110/112, khôngđánhdấupass.
 - Côngcụảnh chỉ nhận tốiđa5đườngdẫn: request07v0016ref bịtừchốitrướcsinh; requestv0025ref mới làlệnh thực. Metadata ghi đúng5ảnh thực dùng.
 - Bước tiếp: kiểm bản sửa07–08; tiếp tục trang09. PRINT_SPEC vẫn blocked do thiếu nhàin/quyền và tranh native dưới300DPI.
+
+## 2026-11-09 — Recovery and pages07–08 checkpoint
+
+- Remote93095a2 retained six completed pages. Recovered seven raw outputs for07–12 from surviving session files; archived unchanged under assets_generated/recovered_session.
+- PAGE07 fresh logged v004 retains corrected bowstring and minor soldier turned away; finished LAYOUTv002/QA. Taller TemplateB upper panel preserves bow and quote. PAGE08 recovered v002 exact edit prompt and input path available; finished LAYOUT/QA v001.
+- Opened both final renders, verified fonts and full quote/page07. Eight-page reading checkpoint and manifest created.
+- Original prompts for09–12 were not committed; do not invent them. Keep recovered outputs pending and use in fresh logged tool calls before ART acceptance. Continue09TEXT. Printer remains blocked.

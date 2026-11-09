@@ -1,0 +1,1 @@
+Viewed recovered v002: both boots visibly rest on saddle, two hands grip tiger-fur spear; Lữ Thạch alive parrying on brown horse, four chest daggers. Distinct horse legs and attached reins; no gore or text. Quiet top quarter. Matches source pages20–21 and Template A.

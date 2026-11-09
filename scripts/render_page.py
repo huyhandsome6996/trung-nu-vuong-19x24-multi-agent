@@ -69,10 +69,13 @@ def run(text_path, raw_path, version, placement_path=None):
         svg.append(f'<image x="{-crop_x}" y="{-crop_y}" width="{aw}" height="{ah}" href="data:image/png;base64,{png64}"/>')
     if data['template']=='B':
         # The scene must already have a visually checked matching seam; this is a geometric edge.
-        c.setFillColor('#FFFFFF');c.rect(0,(height-134.5)*mm,width*mm,3.5*mm,fill=1,stroke=0)
+        gutter_y,gutter_h=spec.get('gutter_mm',[128,3.5])
+        if not (80<=gutter_y<=190 and 2<=gutter_h<=5):raise ValueError('Invalid reviewed gutter variant')
+        gy0=gutter_y+3;gy1=gy0+gutter_h
+        c.setFillColor('#FFFFFF');c.rect(0,(height-gy1)*mm,width*mm,gutter_h*mm,fill=1,stroke=0)
         c.setStrokeColor('#1A1A1A');c.setLineWidth(.3*mm)
-        for gy in [131,134.5]:c.line(0,(height-gy)*mm,width*mm,(height-gy)*mm)
-        svg.append('<rect x="0" y="131" width="196" height="3.5" fill="white"/><path d="M0 131H196 M0 134.5H196" stroke="#1A1A1A" stroke-width=".3"/>')
+        for gy in [gy0,gy1]:c.line(0,(height-gy)*mm,width*mm,(height-gy)*mm)
+        svg.append(f'<rect x="0" y="{gy0}" width="196" height="{gutter_h}" fill="white"/><path d="M0 {gy0}H196 M0 {gy1}H196" stroke="#1A1A1A" stroke-width=".3"/>')
     # The existing parchment path is in trim-relative coordinates; shift it by the bleed.
     parchment=w.local('09_design_system/layout_components/parchment_blank.svg').read_text()
     pth=re.search(r'<path d="([^"]+)"',parchment)[1]

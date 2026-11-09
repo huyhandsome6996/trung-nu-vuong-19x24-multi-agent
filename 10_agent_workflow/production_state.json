@@ -1175,43 +1175,118 @@
       "id": "PAGE07_ART",
       "kind": "art",
       "title": "Trang07: tạo và kiểm tranh nền",
-      "status": "blocked",
+      "status": "done",
       "depends_on": [
         "PAGE07_TEXT"
       ],
       "instructions": "Lấy text đã khóa từ evidence bước TEXT. Xem các sheet liên quan; soạn prompt cuối theo cảnh, ghi actual_references và hash. Tạo ảnh bằng công cụ sinh ảnh, nền không chữ, không bóng thoại, chừa20% đỉnh; dùng đúng A/B/C. Kiểm mặt, phục trang, tay/chân/vũ khí và hành động. Lưu PNG native có phiên bản và metadata theo templates/RAW_IMAGE_METADATA.json. Không resize rồi khai native300DPI.",
-      "evidence": [],
-      "last_note": "Chờ côngcụ sửa dâycung v002 jobcell110; khôngđánhdấupass bảnv001",
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/PAGE07_ART/report.v004.json",
+          "sha256": "9c98eaa90ba626c8aab466cca3c92244ae92058d550f5e6a800745186d6df7d9"
+        },
+        {
+          "path": "assets_generated/raw_pages/PAGE07_v004.png",
+          "sha256": "ab044c642a0b1c756595f1811d354667cb6b951a3bb0b968559c336cff9a1ede"
+        },
+        {
+          "path": "assets_generated/raw_pages/PAGE07_v004.json",
+          "sha256": "01c3b26e6f2752f0c41e9dc09c9d878f4fc58f870f116c654eec5a20dd0b6a1d"
+        },
+        {
+          "path": "assets_generated/raw_pages/PAGE07_v004.prompt.txt",
+          "sha256": "07443071be4aa808c00e6d3fc4b88560c58a46112e996013540d9d26bf7f30c7"
+        },
+        {
+          "path": "10_agent_workflow/tasks/PAGE07_ART/VISUAL_REVIEW.v004.md",
+          "sha256": "4d4d72f24360de2db847d18074a04ed57165fd50846629557b91ba2e091a7bec"
+        }
+      ],
+      "last_note": "Viewed new output: Thi Sách purple/tiger badge, one arrow and coherent V bowstring; grips attached, black horse and Lữ Thạch retained. Lower-right minor soldier turns away, no face under folio. Raw contains no text, top sky clear. Template B upper panel taller variant will preserve bow and full dialogue.",
       "page": 7,
       "owner": "Codex",
-      "updated_at": "2026-11-09T12:47:59+00:00",
-      "block_reason": "Chờ côngcụ sửa dâycung v002 jobcell110; khôngđánhdấupass bảnv001"
+      "updated_at": "2026-11-09T14:01:24+00:00",
+      "block_reason": ""
     },
     {
       "id": "PAGE07_LAYOUT",
       "kind": "layout",
       "title": "Trang07: ghép chữ và bố cục",
-      "status": "todo",
+      "status": "done",
       "depends_on": [
         "PAGE07_ART"
       ],
       "instructions": "Dùng nguyên text đã khóa và tranh đã kiểm. Ghép khung giấy cổ, tô đỏ #C81E1E cho **...**, đặt đủ thoại/đuôi bóng đúng người. Khổ196×246/trim190×240. Dùng layout_tokens, đo tràn chữ bằng renderer thật; xuất bản xem PNG/PDF và nguồn có thể sửa. scripts/typeset_preview.py là trợ giúp HTML; không coi HTML/PDF xem trước là file in đã duyệt.",
-      "evidence": [],
-      "last_note": "",
-      "page": 7
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/PAGE07_LAYOUT/report.v002.json",
+          "sha256": "2bd3ca8c0612349360cda423922c73112469cb6e7d008d6a4e7383653cd2fe71"
+        },
+        {
+          "path": "final_book_19x24/source/PAGE07_v002.svg",
+          "sha256": "30629b4459d739b8bc874646b0f1542be57f97c029c9ec386dee350cd3c0ed76"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE07_v002.pdf",
+          "sha256": "c18e5d7acfabe8ec4a61ef0d8fa20fbfcaccf3bb1adf872019ee022c418abea2"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE07_v002.png",
+          "sha256": "0dc9e69d96fb72742a6e6681e3be505fc0e6f27432cabf1cfca819c959b49a5e"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE07_v002.json",
+          "sha256": "e19b8084a714c21b62b45fd4cabc106b96931f418bdc42eadfe45efb953e9a85"
+        },
+        {
+          "path": "final_book_19x24/reading/PAGE07_v002.pdf",
+          "sha256": "ed5c3fd00c388fc6dc791b6e59626f7b4e9b0374d3dcdb3cef1c31be27d7ffc5"
+        },
+        {
+          "path": "final_book_19x24/source/PAGE07_placement.v002.json",
+          "sha256": "c9c12573a5164ca768a93733f141387666be1a2378908bd42c20f220042d5256"
+        }
+      ],
+      "last_note": "Opened 150DPI full render and verified full quote against extracted PDF. Four narration lines, five red keywords, safe text, embedded Noto fonts, correct mouth tail and folio on helmet/armor rather than face. Raw bow mechanics reviewed separately; box overlays background/part lower bow limb, no hands/faces. Template B reviewed variant 161.5mm seam, no image stretching. Trim190×240 / bleed196×246 proof.",
+      "page": 7,
+      "owner": "Codex",
+      "updated_at": "2026-11-09T14:01:58+00:00"
     },
     {
       "id": "PAGE07_QA",
       "kind": "qa",
       "title": "Trang07: kiểm nguồn/mỹ thuật/chữ/khổ",
-      "status": "todo",
+      "status": "done",
       "depends_on": [
         "PAGE07_LAYOUT"
       ],
       "instructions": "Mở ảnh render ở kích thước đọc thật và zoom100%; so với scan, sheet, text đã khóa. Kiểm bốn lớp historical/art/language/print_geometry. Ghi lỗi cụ thể và sửa về đúng bước. Báo cáo pass chỉ khi có artifact thực và không còn lỗi trong phạm vi; đây là QA của agent, không phải chủ dự án duyệt.",
-      "evidence": [],
-      "last_note": "",
-      "page": 7
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/PAGE07_QA/report.v002.json",
+          "sha256": "e4860c2f2a5372be3759a5941233e6073f709ad200994ce932bbec268cc1793a"
+        },
+        {
+          "path": "10_agent_workflow/tasks/PAGE07_QA/QA.v002.md",
+          "sha256": "c4eeef4df8899482e1f58acaf62db4ca95f4119cbe0e528e3b314929ee03b770"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE07_v002.pdf",
+          "sha256": "c18e5d7acfabe8ec4a61ef0d8fa20fbfcaccf3bb1adf872019ee022c418abea2"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE07_v002.png",
+          "sha256": "0dc9e69d96fb72742a6e6681e3be505fc0e6f27432cabf1cfca819c959b49a5e"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE07_v002.json",
+          "sha256": "e19b8084a714c21b62b45fd4cabc106b96931f418bdc42eadfe45efb953e9a85"
+        }
+      ],
+      "last_note": "Opened 150DPI full render and verified full quote against extracted PDF. Four narration lines, five red keywords, safe text, embedded Noto fonts, correct mouth tail and folio on helmet/armor rather than face. Raw bow mechanics reviewed separately; box overlays background/part lower bow limb, no hands/faces. Template B reviewed variant 161.5mm seam, no image stretching. Trim190×240 / bleed196×246 proof.",
+      "page": 7,
+      "owner": "Codex",
+      "updated_at": "2026-11-09T14:01:59+00:00"
     },
     {
       "id": "PAGE08_TEXT",
@@ -1245,43 +1320,114 @@
       "id": "PAGE08_ART",
       "kind": "art",
       "title": "Trang08: tạo và kiểm tranh nền",
-      "status": "blocked",
+      "status": "done",
       "depends_on": [
         "PAGE08_TEXT"
       ],
       "instructions": "Lấy text đã khóa từ evidence bước TEXT. Xem các sheet liên quan; soạn prompt cuối theo cảnh, ghi actual_references và hash. Tạo ảnh bằng công cụ sinh ảnh, nền không chữ, không bóng thoại, chừa20% đỉnh; dùng đúng A/B/C. Kiểm mặt, phục trang, tay/chân/vũ khí và hành động. Lưu PNG native có phiên bản và metadata theo templates/RAW_IMAGE_METADATA.json. Không resize rồi khai native300DPI.",
-      "evidence": [],
-      "last_note": "Chờbảnsửav002 jobcell112; v001chưapass doủnglệchkhỏiyên",
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/PAGE08_ART/report.v002.json",
+          "sha256": "a61c771405896b768a14308fda55393e6bcfa138c992625cc8f9f63515993b81"
+        },
+        {
+          "path": "assets_generated/raw_pages/PAGE08_v002.png",
+          "sha256": "d961db9ecb1cd22648f3a19bdd7ae956f2a3a1f92f9807ebf91380c4cc1ba75a"
+        },
+        {
+          "path": "assets_generated/raw_pages/PAGE08_v002.json",
+          "sha256": "e6d117b2886c6f1b5bebc39e2b05fb9daee26d25165ef4d270793c1214943ae5"
+        },
+        {
+          "path": "assets_generated/raw_pages/PAGE08_v002.prompt.txt",
+          "sha256": "e1f65e60ceef611c6f30ffba639740e06a6241aaef06d706f3fd72f998f7273d"
+        },
+        {
+          "path": "10_agent_workflow/tasks/PAGE08_ART/VISUAL_REVIEW.v002.md",
+          "sha256": "aceea0ae3dc1b3f876db1294db1bde73a5cd2503649ef380838bad70bee55c48"
+        }
+      ],
+      "last_note": "Viewed recovered v002: both boots visibly rest on saddle, two hands grip tiger-fur spear; Lữ Thạch alive parrying on brown horse, four chest daggers. Distinct horse legs and attached reins; no gore or text. Quiet top quarter. Matches source pages20–21 and Template A.",
       "page": 8,
       "owner": "Codex",
-      "updated_at": "2026-11-09T12:49:23+00:00",
-      "block_reason": "Chờbảnsửav002 jobcell112; v001chưapass doủnglệchkhỏiyên"
+      "updated_at": "2026-11-09T14:01:24+00:00",
+      "block_reason": ""
     },
     {
       "id": "PAGE08_LAYOUT",
       "kind": "layout",
       "title": "Trang08: ghép chữ và bố cục",
-      "status": "todo",
+      "status": "done",
       "depends_on": [
         "PAGE08_ART"
       ],
       "instructions": "Dùng nguyên text đã khóa và tranh đã kiểm. Ghép khung giấy cổ, tô đỏ #C81E1E cho **...**, đặt đủ thoại/đuôi bóng đúng người. Khổ196×246/trim190×240. Dùng layout_tokens, đo tràn chữ bằng renderer thật; xuất bản xem PNG/PDF và nguồn có thể sửa. scripts/typeset_preview.py là trợ giúp HTML; không coi HTML/PDF xem trước là file in đã duyệt.",
-      "evidence": [],
-      "last_note": "",
-      "page": 8
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/PAGE08_LAYOUT/report.v001.json",
+          "sha256": "8f2b682f87f01938bafd3b56daf6541b22ded73aa9eb511087584a6bd4662b8d"
+        },
+        {
+          "path": "final_book_19x24/source/PAGE08_v001.svg",
+          "sha256": "091fb705090db19018d09bf2de99f98bc36f1a42df5fd820a2fccfac3d3139b1"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE08_v001.pdf",
+          "sha256": "fff218c59882fb2ceeeb4cb97b19846346f4272823ef865dc7c5cc0c39564784"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE08_v001.png",
+          "sha256": "f30c44b6eff10633ec912730ff676682785def85a14c52868c8fdb484fe96aee"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE08_v001.json",
+          "sha256": "1396be6df41dbade7f38d7706659c6b13ebd6ed694bb3e62aea304f3af20263a"
+        },
+        {
+          "path": "final_book_19x24/reading/PAGE08_v001.pdf",
+          "sha256": "6be402e4bebe58f849bf57d08c807c03a008d5c99484515981e3d46a0fa55983"
+        }
+      ],
+      "last_note": "Opened full 150DPI render: narration four lines with four red keywords; both saddle boots clear, intact hands/spears/horse identities, no text overlaps or missing Vietnamese accents. No dialogue per storyboard. Geometry trim190×240 bleed196×246, native art about145DPI; reading proof only.",
+      "page": 8,
+      "owner": "Codex",
+      "updated_at": "2026-11-09T14:02:40+00:00"
     },
     {
       "id": "PAGE08_QA",
       "kind": "qa",
       "title": "Trang08: kiểm nguồn/mỹ thuật/chữ/khổ",
-      "status": "todo",
+      "status": "done",
       "depends_on": [
         "PAGE08_LAYOUT"
       ],
       "instructions": "Mở ảnh render ở kích thước đọc thật và zoom100%; so với scan, sheet, text đã khóa. Kiểm bốn lớp historical/art/language/print_geometry. Ghi lỗi cụ thể và sửa về đúng bước. Báo cáo pass chỉ khi có artifact thực và không còn lỗi trong phạm vi; đây là QA của agent, không phải chủ dự án duyệt.",
-      "evidence": [],
-      "last_note": "",
-      "page": 8
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/PAGE08_QA/report.v001.json",
+          "sha256": "825688f73854af8810e0a4386af9d14987bd09f0bed6a2203effdbf914532e50"
+        },
+        {
+          "path": "10_agent_workflow/tasks/PAGE08_QA/QA.v001.md",
+          "sha256": "5d3649aea3431b79e0433c52e88e2a478c1f8ef83932d69c30cc9debe59f91cb"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE08_v001.pdf",
+          "sha256": "fff218c59882fb2ceeeb4cb97b19846346f4272823ef865dc7c5cc0c39564784"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE08_v001.png",
+          "sha256": "f30c44b6eff10633ec912730ff676682785def85a14c52868c8fdb484fe96aee"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE08_v001.json",
+          "sha256": "1396be6df41dbade7f38d7706659c6b13ebd6ed694bb3e62aea304f3af20263a"
+        }
+      ],
+      "last_note": "Opened full 150DPI render: narration four lines with four red keywords; both saddle boots clear, intact hands/spears/horse identities, no text overlaps or missing Vietnamese accents. No dialogue per storyboard. Geometry trim190×240 bleed196×246, native art about145DPI; reading proof only.",
+      "page": 8,
+      "owner": "Codex",
+      "updated_at": "2026-11-09T14:02:40+00:00"
     },
     {
       "id": "PAGE09_TEXT",
@@ -3161,6 +3307,150 @@
       "task": "PAGE08_ART",
       "action": "block",
       "note": "Chờbảnsửav002 jobcell112; v001chưapass doủnglệchkhỏiyên"
+    },
+    {
+      "at": "2026-11-09T13:58:06+00:00",
+      "task": "PAGE07_ART",
+      "action": "unblock",
+      "note": "Recovered images exist; resume bow/folio audit with a newly logged revision"
+    },
+    {
+      "at": "2026-11-09T13:58:06+00:00",
+      "task": "PAGE07_ART",
+      "action": "start",
+      "note": "Resume recovered page07 and retain earlier versions"
+    },
+    {
+      "at": "2026-11-09T13:58:35+00:00",
+      "task": "PAGE07_ART",
+      "action": "checkpoint",
+      "note": "Recovered seven images preserved under recovered_session; generating fully logged revision for final PAGE07 audit"
+    },
+    {
+      "at": "2026-11-09T13:58:35+00:00",
+      "task": "PAGE07_ART",
+      "action": "block",
+      "note": "New logged image revision pending; continue independent PAGE08 restoration"
+    },
+    {
+      "at": "2026-11-09T14:01:23+00:00",
+      "task": "PAGE07_ART",
+      "action": "unblock",
+      "note": "New logged revision has returned and has been inspected"
+    },
+    {
+      "at": "2026-11-09T14:01:24+00:00",
+      "task": "PAGE07_ART",
+      "action": "start",
+      "note": "Continue production with source and visual verification"
+    },
+    {
+      "at": "2026-11-09T14:01:24+00:00",
+      "task": "PAGE07_ART",
+      "action": "checkpoint",
+      "note": "Viewed new output: Thi Sách purple/tiger badge, one arrow and coherent V bowstring; grips attached, black horse and Lữ Thạch retained. Lower-right minor soldier turns away, no face under folio. Raw contains no text, top sky clear. Template B upper panel taller variant will preserve bow and full dialogue."
+    },
+    {
+      "at": "2026-11-09T14:01:24+00:00",
+      "task": "PAGE07_ART",
+      "action": "finish",
+      "note": "Viewed new output: Thi Sách purple/tiger badge, one arrow and coherent V bowstring; grips attached, black horse and Lữ Thạch retained. Lower-right minor soldier turns away, no face under folio. Raw contains no text, top sky clear. Template B upper panel taller variant will preserve bow and full dialogue."
+    },
+    {
+      "at": "2026-11-09T14:01:24+00:00",
+      "task": "PAGE08_ART",
+      "action": "unblock",
+      "note": "Recovered v002 output and exact edit prompt exist"
+    },
+    {
+      "at": "2026-11-09T14:01:24+00:00",
+      "task": "PAGE08_ART",
+      "action": "start",
+      "note": "Continue production with source and visual verification"
+    },
+    {
+      "at": "2026-11-09T14:01:24+00:00",
+      "task": "PAGE08_ART",
+      "action": "checkpoint",
+      "note": "Viewed recovered v002: both boots visibly rest on saddle, two hands grip tiger-fur spear; Lữ Thạch alive parrying on brown horse, four chest daggers. Distinct horse legs and attached reins; no gore or text. Quiet top quarter. Matches source pages20–21 and Template A."
+    },
+    {
+      "at": "2026-11-09T14:01:24+00:00",
+      "task": "PAGE08_ART",
+      "action": "finish",
+      "note": "Viewed recovered v002: both boots visibly rest on saddle, two hands grip tiger-fur spear; Lữ Thạch alive parrying on brown horse, four chest daggers. Distinct horse legs and attached reins; no gore or text. Quiet top quarter. Matches source pages20–21 and Template A."
+    },
+    {
+      "at": "2026-11-09T14:01:24+00:00",
+      "task": "PAGE07_LAYOUT",
+      "action": "start",
+      "note": "Continue production with source and visual verification"
+    },
+    {
+      "at": "2026-11-09T14:01:58+00:00",
+      "task": "PAGE07_LAYOUT",
+      "action": "checkpoint",
+      "note": "Opened 150DPI full render and verified full quote against extracted PDF. Four narration lines, five red keywords, safe text, embedded Noto fonts, correct mouth tail and folio on helmet/armor rather than face. Raw bow mechanics reviewed separately; box overlays background/part lower bow limb, no hands/faces. Template B reviewed variant 161.5mm seam, no image stretching. Trim190×240 / bleed196×246 proof."
+    },
+    {
+      "at": "2026-11-09T14:01:58+00:00",
+      "task": "PAGE07_LAYOUT",
+      "action": "finish",
+      "note": "Opened 150DPI full render and verified full quote against extracted PDF. Four narration lines, five red keywords, safe text, embedded Noto fonts, correct mouth tail and folio on helmet/armor rather than face. Raw bow mechanics reviewed separately; box overlays background/part lower bow limb, no hands/faces. Template B reviewed variant 161.5mm seam, no image stretching. Trim190×240 / bleed196×246 proof."
+    },
+    {
+      "at": "2026-11-09T14:01:59+00:00",
+      "task": "PAGE07_QA",
+      "action": "start",
+      "note": "Continue production with source and visual verification"
+    },
+    {
+      "at": "2026-11-09T14:01:59+00:00",
+      "task": "PAGE07_QA",
+      "action": "checkpoint",
+      "note": "Opened 150DPI full render and verified full quote against extracted PDF. Four narration lines, five red keywords, safe text, embedded Noto fonts, correct mouth tail and folio on helmet/armor rather than face. Raw bow mechanics reviewed separately; box overlays background/part lower bow limb, no hands/faces. Template B reviewed variant 161.5mm seam, no image stretching. Trim190×240 / bleed196×246 proof."
+    },
+    {
+      "at": "2026-11-09T14:01:59+00:00",
+      "task": "PAGE07_QA",
+      "action": "finish",
+      "note": "Opened 150DPI full render and verified full quote against extracted PDF. Four narration lines, five red keywords, safe text, embedded Noto fonts, correct mouth tail and folio on helmet/armor rather than face. Raw bow mechanics reviewed separately; box overlays background/part lower bow limb, no hands/faces. Template B reviewed variant 161.5mm seam, no image stretching. Trim190×240 / bleed196×246 proof."
+    },
+    {
+      "at": "2026-11-09T14:01:59+00:00",
+      "task": "PAGE08_LAYOUT",
+      "action": "start",
+      "note": "Continue production with source and visual verification"
+    },
+    {
+      "at": "2026-11-09T14:02:40+00:00",
+      "task": "PAGE08_LAYOUT",
+      "action": "checkpoint",
+      "note": "Opened full 150DPI render: narration four lines with four red keywords; both saddle boots clear, intact hands/spears/horse identities, no text overlaps or missing Vietnamese accents. No dialogue per storyboard. Geometry trim190×240 bleed196×246, native art about145DPI; reading proof only."
+    },
+    {
+      "at": "2026-11-09T14:02:40+00:00",
+      "task": "PAGE08_LAYOUT",
+      "action": "finish",
+      "note": "Opened full 150DPI render: narration four lines with four red keywords; both saddle boots clear, intact hands/spears/horse identities, no text overlaps or missing Vietnamese accents. No dialogue per storyboard. Geometry trim190×240 bleed196×246, native art about145DPI; reading proof only."
+    },
+    {
+      "at": "2026-11-09T14:02:40+00:00",
+      "task": "PAGE08_QA",
+      "action": "start",
+      "note": "Continue production with source and visual verification"
+    },
+    {
+      "at": "2026-11-09T14:02:40+00:00",
+      "task": "PAGE08_QA",
+      "action": "checkpoint",
+      "note": "Opened full 150DPI render: narration four lines with four red keywords; both saddle boots clear, intact hands/spears/horse identities, no text overlaps or missing Vietnamese accents. No dialogue per storyboard. Geometry trim190×240 bleed196×246, native art about145DPI; reading proof only."
+    },
+    {
+      "at": "2026-11-09T14:02:40+00:00",
+      "task": "PAGE08_QA",
+      "action": "finish",
+      "note": "Opened full 150DPI render: narration four lines with four red keywords; both saddle boots clear, intact hands/spears/horse identities, no text overlaps or missing Vietnamese accents. No dialogue per storyboard. Geometry trim190×240 bleed196×246, native art about145DPI; reading proof only."
     }
   ]
 }

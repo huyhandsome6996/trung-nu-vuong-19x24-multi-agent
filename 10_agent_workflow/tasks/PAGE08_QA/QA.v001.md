@@ -1,0 +1,2 @@
+Opened full 150DPI render: narration four lines with four red keywords; both saddle boots clear, intact hands/spears/horse identities, no text overlaps or missing Vietnamese accents. No dialogue per storyboard. Geometry trim190×240 bleed196×246, native art about145DPI; reading proof only.
+Agent reviewed; user approval absent. Geometry is proof-only; native art is below 300DPI and PRINT_SPEC remains blocked.

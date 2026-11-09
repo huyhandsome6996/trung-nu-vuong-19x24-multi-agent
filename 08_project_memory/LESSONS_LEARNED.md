@@ -105,3 +105,6 @@ Khi sinh ảnh bất đồng bộ, lưu request hoàn chỉnh trước lúc gọ
 Luôn mở lại PDF đã xuất, kiểm dung lượng, font, box và render thật trước finish. Có một bản proof bị rỗng dù bước trước đã có preview; ghi qua tệp tạm rồi thay nguyên tử và chỉ dùng bản mở lại kiểm được. Không giữ tệp rỗng như deliverable.
 
 Kiểm riêng dây cung phải nối hai đầu cung với nock ở ngón kéo, ủng phải đứng đúng yên nếu lời dẫn nói vậy. Giữ ảnh lỗi với nhãn cần sửa, yêu cầu chỉnh bằng công cụảnh; không sửa vài dòng prompt rồi tự báo tranh đã đạt. Mỗi lệnh ảnh nhận tốiđa5ref, request bị từchối không được khai là ảnh đã sinh.
+
+- After an interrupted generation, inspect surviving output pixels and committed requests separately. A recovered image is not evidence that the exact prompt survived. Archive it honestly; use a fresh recorded call when prompt provenance is missing.
+- Keep checkpoint commits short; a restored environment can retain generated_images while losing an unpushed checkout.

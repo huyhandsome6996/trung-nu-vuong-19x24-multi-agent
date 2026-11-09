@@ -1,0 +1,58 @@
+[
+  {
+    "page": 7,
+    "file": "assets_generated/recovered_session/PAGE07_recovered_001.png",
+    "sha256": "f0ffb6a88e77d2f466703a199e518522a1fd1606b33550720db9a3666b6502ed",
+    "original_generation_id": "84d03450-6408-4887-a5ac-10391a2ea29a",
+    "status": "recovered_pending_revalidation",
+    "prompt_audit": "Original prompt bytes for pages09–12 and final minor PAGE07 edit unavailable in new session; archive as recovered only. New logged generation required before acceptance."
+  },
+  {
+    "page": 7,
+    "file": "assets_generated/recovered_session/PAGE07_recovered_002.png",
+    "sha256": "a9565a5429e6ddeb6d47ab42b6151c6f61569eafb76be4b7f351a7ea7a49daad",
+    "original_generation_id": "fbdffa82-a90a-4397-a58b-0c1f5d1eb866",
+    "status": "recovered_pending_revalidation",
+    "prompt_audit": "Original prompt bytes for pages09–12 and final minor PAGE07 edit unavailable in new session; archive as recovered only. New logged generation required before acceptance."
+  },
+  {
+    "page": 8,
+    "file": "assets_generated/recovered_session/PAGE08_recovered_001.png",
+    "sha256": "d961db9ecb1cd22648f3a19bdd7ae956f2a3a1f92f9807ebf91380c4cc1ba75a",
+    "original_generation_id": "00a447c9-23d2-4c8a-9e80-2165a534b2b8",
+    "status": "recovered_pending_revalidation",
+    "prompt_audit": "Original prompt bytes for pages09–12 and final minor PAGE07 edit unavailable in new session; archive as recovered only. New logged generation required before acceptance."
+  },
+  {
+    "page": 9,
+    "file": "assets_generated/recovered_session/PAGE09_recovered_001.png",
+    "sha256": "01cbcdd0c9b5d96f65eb614508856f58571d94f3a78ae974eb9fd54b850981f7",
+    "original_generation_id": "995a8b54-519b-4748-abc4-d004c6f77396",
+    "status": "recovered_pending_revalidation",
+    "prompt_audit": "Original prompt bytes for pages09–12 and final minor PAGE07 edit unavailable in new session; archive as recovered only. New logged generation required before acceptance."
+  },
+  {
+    "page": 10,
+    "file": "assets_generated/recovered_session/PAGE10_recovered_001.png",
+    "sha256": "c8f94a1090f28983fa58b0d1db243c1970255d846ad0e53bf4fd4e7dd415255f",
+    "original_generation_id": "d92bc857-34bc-4aaa-a4fa-8ed60f030e21",
+    "status": "recovered_pending_revalidation",
+    "prompt_audit": "Original prompt bytes for pages09–12 and final minor PAGE07 edit unavailable in new session; archive as recovered only. New logged generation required before acceptance."
+  },
+  {
+    "page": 11,
+    "file": "assets_generated/recovered_session/PAGE11_recovered_001.png",
+    "sha256": "5712ce35e1d86ba6ee0b98d2ec66e8aa90c79655674f85e451403db032f0c7ef",
+    "original_generation_id": "b85b92b7-0d15-48ea-aaff-a71ce877c16c",
+    "status": "recovered_pending_revalidation",
+    "prompt_audit": "Original prompt bytes for pages09–12 and final minor PAGE07 edit unavailable in new session; archive as recovered only. New logged generation required before acceptance."
+  },
+  {
+    "page": 12,
+    "file": "assets_generated/recovered_session/PAGE12_recovered_001.png",
+    "sha256": "be7ceffe1db2f32f0f7dd1a5dc05335c5138ae8639d712acaa9193de5fce11bd",
+    "original_generation_id": "230b0662-a1d9-4e0a-bbba-44e8803f4332",
+    "status": "recovered_pending_revalidation",
+    "prompt_audit": "Original prompt bytes for pages09–12 and final minor PAGE07 edit unavailable in new session; archive as recovered only. New logged generation required before acceptance."
+  }
+]

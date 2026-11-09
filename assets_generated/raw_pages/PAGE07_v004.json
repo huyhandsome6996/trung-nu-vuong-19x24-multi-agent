@@ -1,0 +1,22 @@
+{
+  "image": "assets_generated/raw_pages/PAGE07_v004.png",
+  "version": "v004",
+  "native_size_px": [
+    1122,
+    1402
+  ],
+  "sha256": "ab044c642a0b1c756595f1811d354667cb6b951a3bb0b968559c336cff9a1ede",
+  "prompt": "Use case: identity-preserve. Reproduce this recovered PAGE07 book illustration as a new, fully logged revision. Keep the two-panel composition, faces, purple brocade costume, tiger badge, red cape, single arrow on coherent V-shaped bowstring, hands, black horse and enemy figures exactly as the reference. Preserve the minor crouching soldier at lower-right looking AWAY so no face is under the later folio. Retain the quiet pale sky at the top for separately typeset narration. Crisp clean ink hatching and watercolor, portrait 4:5. Improve only clarity of small ink details without changing anatomy or composition. Do not add any text, letters, balloons, boxes, watermark or signature. This remains a text-free raw page.",
+  "actual_references": [
+    {
+      "path": "assets_generated/recovered_session/PAGE07_recovered_002.png",
+      "sha256": "a9565a5429e6ddeb6d47ab42b6151c6f61569eafb76be4b7f351a7ea7a49daad"
+    }
+  ],
+  "generator": "image_gen.imagegen (model not exposed)",
+  "text_free": true,
+  "top_clearance_checked": true,
+  "visual_qa_report": "10_agent_workflow/tasks/PAGE07_ART/VISUAL_REVIEW.v004.md",
+  "user_approved": false,
+  "print_ready": false
+}

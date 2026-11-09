@@ -1,0 +1,2 @@
+Opened 150DPI full render and verified full quote against extracted PDF. Four narration lines, five red keywords, safe text, embedded Noto fonts, correct mouth tail and folio on helmet/armor rather than face. Raw bow mechanics reviewed separately; box overlays background/part lower bow limb, no hands/faces. Template B reviewed variant 161.5mm seam, no image stretching. Trim190×240 / bleed196×246 proof.
+Agent reviewed; user approval absent. Geometry is proof-only; native art is below 300DPI and PRINT_SPEC remains blocked.

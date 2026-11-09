@@ -1,0 +1,25 @@
+{
+  "task_id": "PAGE07_LAYOUT",
+  "kind": "layout",
+  "status": "passed",
+  "reviewer": "Codex",
+  "summary": "Opened 150DPI full render and verified full quote against extracted PDF. Four narration lines, five red keywords, safe text, embedded Noto fonts, correct mouth tail and folio on helmet/armor rather than face. Raw bow mechanics reviewed separately; box overlays background/part lower bow limb, no hands/faces. Template B reviewed variant 161.5mm seam, no image stretching. Trim190×240 / bleed196×246 proof.",
+  "checks": {
+    "vietnamese_fonts": "pass",
+    "red_keywords": "pass",
+    "safe_text": "pass",
+    "bleed_geometry": "pass",
+    "no_overflow": "pass",
+    "speech_placement": "pass"
+  },
+  "artifacts": [
+    "final_book_19x24/source/PAGE07_v002.svg",
+    "final_book_19x24/proofs/PAGE07_v002.pdf",
+    "final_book_19x24/proofs/PAGE07_v002.png",
+    "final_book_19x24/proofs/PAGE07_v002.json",
+    "final_book_19x24/reading/PAGE07_v002.pdf",
+    "final_book_19x24/source/PAGE07_placement.v002.json"
+  ],
+  "open_issues": [],
+  "reviewed_at": "2026-11-09T14:01:58.747607+00:00"
+}

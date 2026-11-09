@@ -1,0 +1,22 @@
+{
+  "image": "assets_generated/raw_pages/PAGE08_v002.png",
+  "version": "v002",
+  "native_size_px": [
+    1122,
+    1402
+  ],
+  "sha256": "d961db9ecb1cd22648f3a19bdd7ae956f2a3a1f92f9807ebf91380c4cc1ba75a",
+  "prompt": "Edit this book illustration while retaining both men's exact faces, costumes, the two horses, weapons and lively ink+watercolor style. Correct the HERO'S FEET and composition: ThiSách in purple is standing on his BLACK HORSE'S LEATHER SADDLE. BOTH of his boot soles must visibly rest on the saddle seat/pommel/cantle above the horse's BACK, behind the horse's shoulder. Move his forward boot BACK off the horse's neck/mane: no foot on neck, ears or head. His knees remain bent and torso twists as both hands thrust tigerfur spear toward the opponent's parrying iron spear. The black horse has exactly4anatomically connected legs (partially out of frame is fine), no extra horse legs. Enemy LữThạch is still on the brownhorse with4chestdaggers, alive and parrying. Also slightly zoom out and move duel DOWN so the TOP25%of FULLcanvas is quiet pale warm smoky sky with absolutelyNOhands/weapons/feathers/heads. Every hero hand, feather and weaponhandle must be BELOWy26%; the top of his head aroundy31%. This blank band is essential for narration. Full composition4:5portrait, no stretching bodies, retain dramatic crossed diagonals. No penetratingwounds, no blood, no extra figures. No text/letters/narrationboxes/speechbubbles/watermark.",
+  "actual_references": [
+    {
+      "path": "assets_generated/raw_pages/PAGE08_v001.png",
+      "sha256": "268a9013166824ea2c6516b9a7b16d828ff999e8694f5be0807a90afa7b1e8d7"
+    }
+  ],
+  "generator": "image_gen.imagegen (model not exposed)",
+  "text_free": true,
+  "top_clearance_checked": true,
+  "visual_qa_report": "10_agent_workflow/tasks/PAGE08_ART/VISUAL_REVIEW.v002.md",
+  "user_approved": false,
+  "print_ready": false
+}
