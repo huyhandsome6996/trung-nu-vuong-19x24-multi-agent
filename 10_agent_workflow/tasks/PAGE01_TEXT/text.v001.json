@@ -1,0 +1,12 @@
+{
+  "page": 1,
+  "template": "B",
+  "status": "locked",
+  "narration": "Theo huyền tích, từ thuở **vua Hùng dựng nước Văn Lang**, giang sơn trải hơn **hai ngàn tám trăm năm**. Đời **Hùng Duệ Vương**, ở Đông An, vợ chồng ông **Phùng Đặng** hiền đức nằm mộng thấy **rồng vàng hóa đôi chim khổng tước**. Ánh sáng đỏ rực tràn khắp ngôi nhà, báo trước một cuộc đời khác thường.",
+  "dialogues": [],
+  "dialogues_status": "locked",
+  "storyboard_path": "03_storyboards_and_scripts/STORYBOARD_PART_1_HOI_7_CHU_DIEN.md",
+  "storyboard_sha256": "feeb2f262326699f209d4f2a170aed13bf30f10327df13b9e178cfcc0cce91aa",
+  "source_notes": "Đã mở trực tiếp hai contact sheets: PDF06/sách217 ghi Văn Lang, hơn2.800 năm, Đông An, Phùng Đặng/Lưu Thị Tuấn và rồng vàng hóa đôi khổng tước; PDF07/sách218 tiếp giấc mộng và việc sinh Phùng Lực Công. Đây là huyền tích trong tiểu thuyết, không phải niên đại sử học đã kiểm chứng. Không có thoại ở storyboard trang01; dialogues=[] đã đối chiếu.",
+  "note": "Biên tập có ghi nhận: thêm nhãn Theo huyền tích để không biến niên đại huyền sử thành sự thật; giữ nguyên cả5 cụm từ khóa. Không sửa storyboard gốc."
+}

@@ -45,27 +45,44 @@
       "id": "PAGE01_TEXT",
       "kind": "text",
       "title": "Trang01: đối chiếu và khóa chữ",
-      "status": "todo",
+      "status": "done",
       "depends_on": [
         "DESIGN_BASELINE"
       ],
       "instructions": "Đọc nguyên cảnh và nguồn scan; sửa các câu cường điệu/không có căn cứ, giữ giọng hào hùng 13–16 tuổi. Đếm thật 35–65 tiếng theo khoảng trắng, không dùng số từ ghi trong tiêu đề làm chứng cứ. Chép đủ thoại vào text.v001.json, giữ **từ khóa**; ghi nguồn, template và hash storyboard. Khóa chữ sau khi kiểm. Nếu sửa toàn file storyboard về sau, rà lại các text đã khóa theo hash mới.",
-      "evidence": [],
-      "last_note": "",
-      "page": 1
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/PAGE01_TEXT/report.v001.json",
+          "sha256": "7d3b11e948599376aac13a57cda6310ee756fdf4a310bdc80b0a7485501a2a42"
+        },
+        {
+          "path": "10_agent_workflow/tasks/PAGE01_TEXT/text.v001.json",
+          "sha256": "22c0e3b1c3903e098b92891d0425c37b5472550165038cde55f1ceb0592245c0"
+        },
+        {
+          "path": "10_agent_workflow/tasks/PAGE01_TEXT/SOURCE_REVIEW.v001.md",
+          "sha256": "438e61b45c2105dd80e881ccaeb7d1668dbf88e9ea35236f7effb59ffb29a97c"
+        }
+      ],
+      "last_note": "Khóa chữ có nhãn huyền tích, giữ5 cụm từ khóa, không thoại",
+      "page": 1,
+      "owner": "Codex",
+      "updated_at": "2026-11-09T11:56:42+00:00"
     },
     {
       "id": "PAGE01_ART",
       "kind": "art",
       "title": "Trang01: tạo và kiểm tranh nền",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "PAGE01_TEXT"
       ],
       "instructions": "Lấy text đã khóa từ evidence bước TEXT. Xem các sheet liên quan; soạn prompt cuối theo cảnh, ghi actual_references và hash. Tạo ảnh bằng công cụ sinh ảnh, nền không chữ, không bóng thoại, chừa20% đỉnh; dùng đúng A/B/C. Kiểm mặt, phục trang, tay/chân/vũ khí và hành động. Lưu PNG native có phiên bản và metadata theo templates/RAW_IMAGE_METADATA.json. Không resize rồi khai native300DPI.",
       "evidence": [],
-      "last_note": "",
-      "page": 1
+      "last_note": "Đã xem CHAR12 và ENV01; sinh nền TemplateB từ hai ảnh thực",
+      "page": 1,
+      "owner": "Codex",
+      "updated_at": "2026-11-09T11:56:42+00:00"
     },
     {
       "id": "PAGE01_LAYOUT",
@@ -1651,5 +1668,30 @@
       "last_note": ""
     }
   ],
-  "history": []
+  "history": [
+    {
+      "at": "2026-11-09T11:56:00+00:00",
+      "task": "PAGE01_TEXT",
+      "action": "start",
+      "note": "Tiếp quản main; kiểm scan 06–07 và khóa lời dẫn trang01"
+    },
+    {
+      "at": "2026-11-09T11:56:42+00:00",
+      "task": "PAGE01_TEXT",
+      "action": "checkpoint",
+      "note": "Đã lưu text.v001.json và đối chiếu scan06–07; chuẩn bị finish"
+    },
+    {
+      "at": "2026-11-09T11:56:42+00:00",
+      "task": "PAGE01_TEXT",
+      "action": "finish",
+      "note": "Khóa chữ có nhãn huyền tích, giữ5 cụm từ khóa, không thoại"
+    },
+    {
+      "at": "2026-11-09T11:56:42+00:00",
+      "task": "PAGE01_ART",
+      "action": "start",
+      "note": "Đã xem CHAR12 và ENV01; sinh nền TemplateB từ hai ảnh thực"
+    }
+  ]
 }

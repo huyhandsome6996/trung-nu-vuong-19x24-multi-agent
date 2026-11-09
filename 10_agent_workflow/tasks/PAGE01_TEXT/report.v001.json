@@ -1,0 +1,20 @@
+{
+  "task_id": "PAGE01_TEXT",
+  "kind": "text",
+  "status": "passed",
+  "reviewer": "Codex",
+  "summary": "Đã đọc scan06–07; khóa lời dẫn có nhãn huyền tích, giữ5 cụm đỏ; không thoại; TemplateB.",
+  "checks": {
+    "source_alignment": "pass",
+    "narration_35_65": "pass",
+    "keywords_preserved": "pass",
+    "dialogue_locked": "pass",
+    "template_locked": "pass"
+  },
+  "artifacts": [
+    "10_agent_workflow/tasks/PAGE01_TEXT/text.v001.json",
+    "10_agent_workflow/tasks/PAGE01_TEXT/SOURCE_REVIEW.v001.md"
+  ],
+  "open_issues": [],
+  "reviewed_at": "2026-11-09T11:56:42+00:00"
+}

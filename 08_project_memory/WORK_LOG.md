@@ -92,3 +92,10 @@ timezone: "Asia/Ho_Chi_Minh"
 
 - GitHub Actions thực chạy thành công cho commit `583590432e22a1e47510be78dc66c935bb81bda2`: [run 42610672432](https://github.com/huyhandsome6996/trung-nu-vuong-19x24-multi-agent/actions/runs/42610672432). Đã chạy cài dependency, 8 unit tests và check_repo trên runner GitHub; không chỉ kiểm local.
 - Thông tin xác thực mới giải quyết giới hạn workflow trước đây. CI có hiệu lực trên main; token chỉ dùng tạm khi push và đọc trạng thái, không lưu trong file dự án.
+
+## PROD-005 — Sản xuất trang01 (09/11/2026)
+
+- Tiếp quản bản main sạch, pull thành công; cài Pillow12.3, doctor/check_repo/status/next/packet đạt. Queue ban đầu2done/1blocked/122todo.
+- Đã mở scan06–07, CHAR12 và ENV01; đọc hồ sơNV21/NV22 và E01/E02. Khóa text.v001:59tiếng,5cụm đỏ, không thoại, TemplateB; có nhãn huyền tích để không biến niên đại tiểu thuyết thành sử liệu.
+- PAGE01_TEXT đã finish có report và đối chiếu nguồn. PAGE01_ART đang làm với ảnh tham chiếu thực CHAR12/ENV01; chưa gọi là bản in hoặc người dùng duyệt.
+- Bước tiếp: lưu nền native và hash, kiểm thị giác, ghép chữ rồi QA.
