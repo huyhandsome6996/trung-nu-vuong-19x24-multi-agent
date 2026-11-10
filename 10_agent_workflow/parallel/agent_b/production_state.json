@@ -817,29 +817,48 @@
       "id": "PAGE25_ART",
       "kind": "art",
       "title": "Trang25: tạo và kiểm tranh nền",
-      "status": "in_progress",
+      "status": "done",
       "depends_on": [
         "PAGE25_TEXT"
       ],
       "instructions": "Lấy text đã khóa từ evidence bước TEXT. Xem các sheet liên quan; soạn prompt cuối theo cảnh, ghi actual_references và hash. Tạo ảnh bằng công cụ sinh ảnh, nền không chữ, không bóng thoại, chừa20% đỉnh; dùng đúng A/B/C. Kiểm mặt, phục trang, tay/chân/vũ khí và hành động. Lưu PNG native có phiên bản và metadata theo templates/RAW_IMAGE_METADATA.json. Không resize rồi khai native300DPI.",
-      "evidence": [],
-      "last_note": "Rawv001thậtđãlưu; cần sửa móngngựa bịcắt vàvùngthoạichật, chưa finish.",
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/PAGE25_ART/report.v002.json",
+          "sha256": "10e1e301533b5900b4898aa24dd0da3e7abf9a74dffc88bb4d555d3b7f803a9c"
+        },
+        {
+          "path": "assets_generated/raw_pages/PAGE25_v002.png",
+          "sha256": "5971624a5dc89dabcf84ef9e7c71c6cea177bd0fca67c41e0e8d2c9dd3a552d2"
+        },
+        {
+          "path": "assets_generated/raw_pages/PAGE25_v002.json",
+          "sha256": "8ea0828bbbc6c2df29a84db63e02c9d5e70da866cd7c382bccf242ca6bcb9804"
+        },
+        {
+          "path": "10_agent_workflow/tasks/PAGE25_ART/prompt.v002.txt",
+          "sha256": "abc154335204ebba53ac7394c07d7e39458672b9bbba7af96cef576e5e5eac0e"
+        }
+      ],
+      "last_note": "Giảiphẫu/nhậndiện/đỉnhđãkiểmđạt.",
       "page": 25,
       "owner": "agent_b",
-      "updated_at": "2026-11-10T08:22:34+00:00"
+      "updated_at": "2026-11-10T08:24:44+00:00"
     },
     {
       "id": "PAGE25_LAYOUT",
       "kind": "layout",
       "title": "Trang25: ghép chữ và bố cục",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "PAGE25_ART"
       ],
       "instructions": "Dùng nguyên text đã khóa và tranh đã kiểm. Ghép khung giấy cổ, tô đỏ #C81E1E cho **...**, đặt đủ thoại/đuôi bóng đúng người. Khổ196×246/trim190×240. Dùng layout_tokens, đo tràn chữ bằng renderer thật; xuất bản xem PNG/PDF và nguồn có thể sửa. scripts/typeset_preview.py là trợ giúp HTML; không coi HTML/PDF xem trước là file in đã duyệt.",
       "evidence": [],
-      "last_note": "",
-      "page": 25
+      "last_note": "Vẽkhungvàthoạinguyênvăn; đuôixuốngtráitớiđôtướngKhúc.",
+      "page": 25,
+      "owner": "agent_b",
+      "updated_at": "2026-11-10T08:24:45+00:00"
     },
     {
       "id": "PAGE25_QA",
@@ -1363,6 +1382,24 @@
       "task": "PAGE25_ART",
       "action": "checkpoint",
       "note": "Rawv001thậtđãlưu; cần sửa móngngựa bịcắt vàvùngthoạichật, chưa finish."
+    },
+    {
+      "at": "2026-11-10T08:24:44+00:00",
+      "task": "PAGE25_ART",
+      "action": "checkpoint",
+      "note": "V002thậtđãlưu/mở, ngựatrọnmóng, vùngthoạiđủ; refthựcrawv001."
+    },
+    {
+      "at": "2026-11-10T08:24:44+00:00",
+      "task": "PAGE25_ART",
+      "action": "finish",
+      "note": "Giảiphẫu/nhậndiện/đỉnhđãkiểmđạt."
+    },
+    {
+      "at": "2026-11-10T08:24:45+00:00",
+      "task": "PAGE25_LAYOUT",
+      "action": "start",
+      "note": "Vẽkhungvàthoạinguyênvăn; đuôixuốngtráitớiđôtướngKhúc."
     }
   ]
 }
