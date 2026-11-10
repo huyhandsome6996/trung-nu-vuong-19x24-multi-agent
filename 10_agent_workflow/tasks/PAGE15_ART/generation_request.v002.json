@@ -1,0 +1,43 @@
+{
+  "page": 15,
+  "refs": [
+    "assets_generated/design_system/CHAR10_v001.png",
+    "assets_generated/design_system/CHAR11_v001.png",
+    "assets_generated/design_system/CHAR14_v001.png",
+    "assets_generated/design_system/ENV02_v001.png",
+    "assets_generated/design_system/PROP03_v002.png"
+  ],
+  "scene": "PAGE15 Template B two horizontal panels with thin white seam near53%. Upper scene y22–53%: LuyLâu stone gates closed, ominous smoke columns in far horizons and anxious guards, no execution. Lower scene y55–100%: in governor wooden hall TôĐịnh (ref1LEFT thin goatee,官hat,fur-edged redblack robe) atLEFT listens tensely; TàoQuyền (ref1CENTER broad face, darkpurple/black armor, full beard) atRIGHTCENTER gesturing toward a BLANK unlabeled clay terrain/table. Ref2LEFT MãTắc lean with navycape nearby; ref3 SầmLân redcape and SầmBá greencape as smaller officers. Exclude LữThạch, alreadydead, and do not show a duplicate execution. Leave upper wall of lower panel y56–70% clear for long quote before all named heads aroundy75%. Primary speaking TàoQuyền face onright. No written map lines/characters, no modern lamps.",
+  "prompt": "Use case: historical-scene / illustration-story. Text-free Vietnamese historical-legend illustrated book for ages13–16. Portrait4:5 page, high native detail, sharp ink hatching and rich luminous controlled watercolor, mature heroic emotional storytelling matching the supplied design sheets. Keep exact facial structure, body type and costume colors from named reference positions. TOP20%canvas must be quiet pale atmosphere with NO heads, hands, weapons or important roofs; later Vietnamese parchment narration is typeset separately. Absolutely NO writing/letters anywhere, no captions, no speech balloons, no watermark/signature. Natural attached hands, normal limbs, mechanically connected weapons. No modern objects, no gore. Keep important faces/feet inside 8–92%width and belowy28% but above94%height. PAGE15 Template B two horizontal panels with thin white seam near53%. Upper scene y22–53%: LuyLâu stone gates closed, ominous smoke columns in far horizons and anxious guards, no execution. Lower scene y55–100%: in governor wooden hall TôĐịnh (ref1LEFT thin goatee,官hat,fur-edged redblack robe) atLEFT listens tensely; TàoQuyền (ref1CENTER broad face, darkpurple/black armor, full beard) atRIGHTCENTER gesturing toward a BLANK unlabeled clay terrain/table. Ref2LEFT MãTắc lean with navycape nearby; ref3 SầmLân redcape and SầmBá greencape as smaller officers. Exclude LữThạch, alreadydead, and do not show a duplicate execution. Leave upper wall of lower panel y56–70% clear for long quote before all named heads aroundy75%. Primary speaking TàoQuyền face onright. No written map lines/characters, no modern lamps.",
+  "actual_reference_paths": [
+    "assets_generated/design_system/CHAR10_v001.png",
+    "assets_generated/design_system/CHAR11_v001.png",
+    "assets_generated/design_system/CHAR14_v001.png",
+    "assets_generated/design_system/ENV02_v001.png",
+    "assets_generated/design_system/PROP03_v002.png"
+  ],
+  "generator": "image_gen.imagegen",
+  "version": "v002",
+  "actual_references": [
+    {
+      "path": "assets_generated/design_system/CHAR10_v001.png",
+      "sha256": "364e060dc0ed6ec5c5c23dbf7b162301c55f459f62784489f0f07c9b3eb20bfd"
+    },
+    {
+      "path": "assets_generated/design_system/CHAR11_v001.png",
+      "sha256": "ff898f586e0b7e5b2f12b0dcc0423ee623a5819c154c7b8ca6152eb80d3bb098"
+    },
+    {
+      "path": "assets_generated/design_system/CHAR14_v001.png",
+      "sha256": "3469610f02f0a5e6de62d638a8ce612daff988cfb343ec5e1a2d66261c5ea68f"
+    },
+    {
+      "path": "assets_generated/design_system/ENV02_v001.png",
+      "sha256": "5395688c5ccad71ee13d9099a003d82fc7cbabee31d761454c7d58c6e05fbd63"
+    },
+    {
+      "path": "assets_generated/design_system/PROP03_v002.png",
+      "sha256": "bbe1fda90f147b08edfcffb67ddb2b263e0c3cda760b72d194432a312265200a"
+    }
+  ]
+}

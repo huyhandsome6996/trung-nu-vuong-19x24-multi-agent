@@ -1,0 +1,1 @@
+Opened actual native image: correct TôĐịnh left/thin goatee/fur, MãTắc navy, SầmLân red/SầmBá green, TàoQuyền broad bearded purple right. Visible hands normal, no text, no execution. Top clear, but lower panel wall too short for complete long quote without covering heads. KEEP DRAFT, request composition correction; ART not finished.

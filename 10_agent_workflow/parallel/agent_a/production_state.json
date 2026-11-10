@@ -234,16 +234,16 @@
       "id": "PAGE15_ART",
       "kind": "art",
       "title": "Trang15: tạo và kiểm tranh nền",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "PAGE15_TEXT"
       ],
       "instructions": "Lấy text đã khóa từ evidence bước TEXT. Xem các sheet liên quan; soạn prompt cuối theo cảnh, ghi actual_references và hash. Tạo ảnh bằng công cụ sinh ảnh, nền không chữ, không bóng thoại, chừa20% đỉnh; dùng đúng A/B/C. Kiểm mặt, phục trang, tay/chân/vũ khí và hành động. Lưu PNG native có phiên bản và metadata theo templates/RAW_IMAGE_METADATA.json. Không resize rồi khai native300DPI.",
       "evidence": [],
-      "last_note": "Transferred to dedicated lane; previous interrupted image job is not assumed alive",
+      "last_note": "Actual rawv002 saved; correct cast/anatomy but lower speech clearance too small; revise panel seam before finish",
       "page": 15,
-      "owner": "Codex",
-      "updated_at": "2026-11-09T14:15:05+00:00",
+      "owner": "agent_a",
+      "updated_at": "2026-11-10T07:03:04+00:00",
       "block_reason": ""
     },
     {
@@ -635,6 +635,18 @@
       "task": "PAGE14_QA",
       "action": "finish",
       "note": "4steps done, agentQA only"
+    },
+    {
+      "at": "2026-11-10T06:58:50+00:00",
+      "task": "PAGE15_ART",
+      "action": "start",
+      "note": "Source35–39 and exact text checked; active refs opened; create two-panel hall and city"
+    },
+    {
+      "at": "2026-11-10T07:03:04+00:00",
+      "task": "PAGE15_ART",
+      "action": "checkpoint",
+      "note": "Actual rawv002 saved; correct cast/anatomy but lower speech clearance too small; revise panel seam before finish"
     }
   ]
 }
