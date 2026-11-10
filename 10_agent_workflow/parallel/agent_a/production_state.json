@@ -234,30 +234,53 @@
       "id": "PAGE15_ART",
       "kind": "art",
       "title": "Trang15: tạo và kiểm tranh nền",
-      "status": "in_progress",
+      "status": "done",
       "depends_on": [
         "PAGE15_TEXT"
       ],
       "instructions": "Lấy text đã khóa từ evidence bước TEXT. Xem các sheet liên quan; soạn prompt cuối theo cảnh, ghi actual_references và hash. Tạo ảnh bằng công cụ sinh ảnh, nền không chữ, không bóng thoại, chừa20% đỉnh; dùng đúng A/B/C. Kiểm mặt, phục trang, tay/chân/vũ khí và hành động. Lưu PNG native có phiên bản và metadata theo templates/RAW_IMAGE_METADATA.json. Không resize rồi khai native300DPI.",
-      "evidence": [],
-      "last_note": "Actual rawv002 saved; correct cast/anatomy but lower speech clearance too small; revise panel seam before finish",
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/PAGE15_ART/report.v003.json",
+          "sha256": "ada1c5c13a0790b851b20d4dac33ed8f09d6361fc8c850164741e1f84bdb2377"
+        },
+        {
+          "path": "assets_generated/raw_pages/PAGE15_v003.png",
+          "sha256": "0f3bf4b3100be463748809dc67a0f9a73fa9df5aa11c005196a51dcc62b52dad"
+        },
+        {
+          "path": "assets_generated/raw_pages/PAGE15_v003.json",
+          "sha256": "758746747bfa429f5ef3525e7f8f4ec082e9dc8c759ddf3607d78bf80076e007"
+        },
+        {
+          "path": "10_agent_workflow/tasks/PAGE15_ART/generation_request.v003.json",
+          "sha256": "4ad3cce5c06e72b76ac34648b25a98a551a219ad52b241861d71d14cba1f7ac4"
+        },
+        {
+          "path": "10_agent_workflow/tasks/PAGE15_ART/VISUAL_REVIEW.v003.md",
+          "sha256": "b4bdb6e1789490cfcb7d20999e03bb05e4092cf3bd66e22ef49239b0f87736f6"
+        }
+      ],
+      "last_note": "Composition corrected and real native reviewed",
       "page": 15,
       "owner": "agent_a",
-      "updated_at": "2026-11-10T07:03:04+00:00",
+      "updated_at": "2026-11-10T07:07:52+00:00",
       "block_reason": ""
     },
     {
       "id": "PAGE15_LAYOUT",
       "kind": "layout",
       "title": "Trang15: ghép chữ và bố cục",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "PAGE15_ART"
       ],
       "instructions": "Dùng nguyên text đã khóa và tranh đã kiểm. Ghép khung giấy cổ, tô đỏ #C81E1E cho **...**, đặt đủ thoại/đuôi bóng đúng người. Khổ196×246/trim190×240. Dùng layout_tokens, đo tràn chữ bằng renderer thật; xuất bản xem PNG/PDF và nguồn có thể sửa. scripts/typeset_preview.py là trợ giúp HTML; không coi HTML/PDF xem trước là file in đã duyệt.",
       "evidence": [],
-      "last_note": "",
-      "page": 15
+      "last_note": "ARTv003 accepted; draw full TàoQuyền quote",
+      "page": 15,
+      "owner": "agent_a",
+      "updated_at": "2026-11-10T07:07:53+00:00"
     },
     {
       "id": "PAGE15_QA",
@@ -647,6 +670,24 @@
       "task": "PAGE15_ART",
       "action": "checkpoint",
       "note": "Actual rawv002 saved; correct cast/anatomy but lower speech clearance too small; revise panel seam before finish"
+    },
+    {
+      "at": "2026-11-10T07:07:52+00:00",
+      "task": "PAGE15_ART",
+      "action": "checkpoint",
+      "note": "Actual v003 recompose saved and reviewed; lower wall now enough for whole quote"
+    },
+    {
+      "at": "2026-11-10T07:07:52+00:00",
+      "task": "PAGE15_ART",
+      "action": "finish",
+      "note": "Composition corrected and real native reviewed"
+    },
+    {
+      "at": "2026-11-10T07:07:53+00:00",
+      "task": "PAGE15_LAYOUT",
+      "action": "start",
+      "note": "ARTv003 accepted; draw full TàoQuyền quote"
     }
   ]
 }

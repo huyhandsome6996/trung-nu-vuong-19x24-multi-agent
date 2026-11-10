@@ -1,0 +1,35 @@
+{
+  "page": 15,
+  "version": "v003",
+  "refs": [
+    "assets_generated/raw_pages/PAGE15_v002.png",
+    "assets_generated/design_system/CHAR10_v001.png",
+    "assets_generated/design_system/CHAR11_v001.png",
+    "assets_generated/design_system/CHAR14_v001.png",
+    "assets_generated/design_system/ENV02_v001.png"
+  ],
+  "prompt": "Edit target image1 PAGE15 v002 without changing established faces, clothes, architecture or ink/watercolor style. Recompose the TWO horizontal panels for actual book lettering space. Move horizontal white panel seam UP to exactly y45% of full canvas. Upper panel: quiet pale sky remains TOP20%; compact city gate and anxious guards entirely in y23–44%, no execution. Lower panel begins y46% and extends to bottom. IMPORTANT leave a broad plain softly lit tan wall from x8–92%, y47–70% with no heads, props or banners, for a complete long speech added later. Place all five characters HEADS between y76–83%, with waists/table below: TôĐịnh farleft in black/red official cap and fur; MãTắc just left center in navy cloak; SầmLân red/SầmBá green smaller at center; TàoQuyền broad heavy bearded purple commander at rightcenter, open mouth facing left, gestures with natural five-finger hand. His face should be centered at x78%,y80%. Keep his broad body/table within frame and hands visible. Leave room directly above his face for short speech tail. Use supplied refs2–4 for exact identities, ref5 TOP for hall. NO letters, no cloud/balloon, no watermarks. Natural anatomy, no new characters.",
+  "actual_references": [
+    {
+      "path": "assets_generated/raw_pages/PAGE15_v002.png",
+      "sha256": "aa514dc109dfed99d58dfa3f28aac50d9c9296b469c453fc0eeb236a95fe6d52"
+    },
+    {
+      "path": "assets_generated/design_system/CHAR10_v001.png",
+      "sha256": "364e060dc0ed6ec5c5c23dbf7b162301c55f459f62784489f0f07c9b3eb20bfd"
+    },
+    {
+      "path": "assets_generated/design_system/CHAR11_v001.png",
+      "sha256": "ff898f586e0b7e5b2f12b0dcc0423ee623a5819c154c7b8ca6152eb80d3bb098"
+    },
+    {
+      "path": "assets_generated/design_system/CHAR14_v001.png",
+      "sha256": "3469610f02f0a5e6de62d638a8ce612daff988cfb343ec5e1a2d66261c5ea68f"
+    },
+    {
+      "path": "assets_generated/design_system/ENV02_v001.png",
+      "sha256": "5395688c5ccad71ee13d9099a003d82fc7cbabee31d761454c7d58c6e05fbd63"
+    }
+  ],
+  "generator": "image_gen.imagegen"
+}

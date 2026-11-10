@@ -10,3 +10,6 @@ Layoutv001 and QAv001 accepted after fullpage and300DPI detail inspection. All3s
 
 ## PAGE15 raw v002 draft
 Actual1122×1402 output archived. Cast/colors/hands correct; seam too low leaves insufficient wall for full long quote. ART remains in_progress. Next recompose seam45percent/heads78percent, keep old native.
+
+### PAGE15 art v003 accepted
+Actual composition edit returned1122×1402; lower wall now sufficient, identities/hands/source chronology correct. Exact5refs include v002 target. ART passed, LAYOUT started. Next illustrated lettering and matched seam placement.
