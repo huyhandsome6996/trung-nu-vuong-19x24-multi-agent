@@ -1,0 +1,13 @@
+{
+  "page": 19,
+  "template": "B",
+  "status": "locked",
+  "narration": "**Thánh Thiên**, con **Thần y Nguyễn Huyền**, lớn lên tại **núi Phượng Hoàng**, sớm tỏ **trí dũng hơn người**. Huyền tích kể nàng sinh giữa bão ở **cửa biển Đằng Giang**, khi cha tìm được **hai mươi bảy củ huyết sâm quý trên vách đá cheo leo** để chữa bệnh cứu người.",
+  "dialogues": [],
+  "dialogues_status": "locked",
+  "storyboard_path": "03_storyboards_and_scripts/STORYBOARD_PART_2_HOI_8_HAT_MON_PHUONG_HOANG.md",
+  "storyboard_sha256": "51b2b09b8cf339ee46f55c7b018dc65d2d90cbd1934d0263a42719e909c7aaeb",
+  "source_notes": "Opened actual scans42–43/book253–254.27roots is literarylegend: a portion for treating others, a portion for mother; no infant consumed27roots and no medicalinstruction. Source17yearold learns medicine/villageaffairs and handlespredators. Caption explicitly marks Huyền tích, preservesall6keywordphrases. Twoflashbackpanels; no dialogue. Sourcebook is fiction, not medical/historicalproof.",
+  "narration_whitespace_tokens": 52,
+  "narration_measured_lines_at_12_8pt": 4
+}

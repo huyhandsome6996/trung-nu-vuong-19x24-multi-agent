@@ -882,29 +882,44 @@
       "id": "PAGE19_TEXT",
       "kind": "text",
       "title": "Trang19: đối chiếu và khóa chữ",
-      "status": "in_progress",
+      "status": "done",
       "depends_on": [
         "DESIGN_BASELINE"
       ],
       "instructions": "Đọc nguyên cảnh và nguồn scan; sửa các câu cường điệu/không có căn cứ, giữ giọng hào hùng 13–16 tuổi. Đếm thật 35–65 tiếng theo khoảng trắng, không dùng số từ ghi trong tiêu đề làm chứng cứ. Chép đủ thoại vào text.v001.json, giữ **từ khóa**; ghi nguồn, template và hash storyboard. Khóa chữ sau khi kiểm. Nếu sửa toàn file storyboard về sau, rà lại các text đã khóa theo hash mới.",
-      "evidence": [],
-      "last_note": "Opened scans42–43/book253–254; write conciselegendcaption, preserve sixkeyword meanings without infantdosageclaim",
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/PAGE19_TEXT/report.v001.json",
+          "sha256": "a927b73fc2cb387784358cf9c18429f432fa653a1ec2fa850f4b9cc9955e0e81"
+        },
+        {
+          "path": "10_agent_workflow/tasks/PAGE19_TEXT/text.v001.json",
+          "sha256": "a91413b5fce5594085db2118dbe549f957205f79707250afa6216d18d4a83c67"
+        },
+        {
+          "path": "10_agent_workflow/tasks/PAGE19_TEXT/SOURCE_REVIEW.v001.md",
+          "sha256": "ba896c0fd58fec545d81319be6ff23e008def10a89f9fe38d867b43bbd125962"
+        }
+      ],
+      "last_note": "Source42–43 checked and completecaptionlocked",
       "page": 19,
       "owner": "agent_a",
-      "updated_at": "2026-11-10T08:36:28+00:00"
+      "updated_at": "2026-11-10T08:38:22+00:00"
     },
     {
       "id": "PAGE19_ART",
       "kind": "art",
       "title": "Trang19: tạo và kiểm tranh nền",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "PAGE19_TEXT"
       ],
       "instructions": "Lấy text đã khóa từ evidence bước TEXT. Xem các sheet liên quan; soạn prompt cuối theo cảnh, ghi actual_references và hash. Tạo ảnh bằng công cụ sinh ảnh, nền không chữ, không bóng thoại, chừa20% đỉnh; dùng đúng A/B/C. Kiểm mặt, phục trang, tay/chân/vũ khí và hành động. Lưu PNG native có phiên bản và metadata theo templates/RAW_IMAGE_METADATA.json. Không resize rồi khai native300DPI.",
       "evidence": [],
-      "last_note": "",
-      "page": 19
+      "last_note": "Textlocked; activeCHAR04/06,ENV03,PROP03,ANIMAL01pixelsopened; create2flashbackpanels",
+      "page": 19,
+      "owner": "agent_a",
+      "updated_at": "2026-11-10T08:38:23+00:00"
     },
     {
       "id": "PAGE19_LAYOUT",
@@ -1255,6 +1270,24 @@
       "task": "PAGE19_TEXT",
       "action": "start",
       "note": "Opened scans42–43/book253–254; write conciselegendcaption, preserve sixkeyword meanings without infantdosageclaim"
+    },
+    {
+      "at": "2026-11-10T08:38:21+00:00",
+      "task": "PAGE19_TEXT",
+      "action": "checkpoint",
+      "note": "Lockedtext52tokens/6keywords/4measuredlines; legendqualification andnosage checked"
+    },
+    {
+      "at": "2026-11-10T08:38:22+00:00",
+      "task": "PAGE19_TEXT",
+      "action": "finish",
+      "note": "Source42–43 checked and completecaptionlocked"
+    },
+    {
+      "at": "2026-11-10T08:38:23+00:00",
+      "task": "PAGE19_ART",
+      "action": "start",
+      "note": "Textlocked; activeCHAR04/06,ENV03,PROP03,ANIMAL01pixelsopened; create2flashbackpanels"
     }
   ]
 }

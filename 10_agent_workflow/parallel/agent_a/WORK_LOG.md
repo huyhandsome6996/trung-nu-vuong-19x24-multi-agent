@@ -41,3 +41,6 @@ Actual edit fixes fourcast/teachers and largecontinuousspeechsky. Native1122×14
 ### PAGE18 LAYOUT/QA v001 complete
 Opened finalfullpage and300DPI narration/speech detail; all6speechlines and accents manually read against lockedtext, no omissions. Adaptedproclamation is not historicalverbatim.4castcorrect, fullfeet/normalhands/connected sword andblankbamboo; cloud/tail aboveTrắc withoutcrossinganyface/hair/weapon. Narrator4lines/4redphrases, embeddedNoto/correctboxes/nooverflow. Nativeart144.76DPI; actualspeechDPIinmetrics, noresamplingdetailclaim. AGENT_QA only.
 Files: final_book_19x24/source/PAGE18_v001.svg, final_book_19x24/proofs/PAGE18_v001.pdf, final_book_19x24/reading/PAGE18_v001.pdf, final_book_19x24/proofs/PAGE18_v001.png, final_book_19x24/source/PAGE18_placement.v001.json, 10_agent_workflow/tasks/PAGE18_QA/report.v001.json. Next queue task.
+
+## PAGE19 TEXTv001 locked
+Opened actual42–43/book253–254. Caption52tokens/fourmeasuredNoto12.8ptlines/6keywords,0dialogues. Explicitlegendqualification; noinfant27rootdosageormedicalclaim. SourceReviewv001 saved; ARTstarted. Lowerflashbackbeforefatherdeath, simplegreenclothes/no mourningband.
