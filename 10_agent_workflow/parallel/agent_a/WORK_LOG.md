@@ -34,3 +34,6 @@ Files: final_book_19x24/source/PAGE17_v002.svg, final_book_19x24/proofs/PAGE17_v
 
 ## PAGE18 rawv002 draft
 Actual output1122×1402 saved with exact5refs. Trắc/Nhị correct, but male teacher missing and female incorrectly holdsstaff; feathercrest intrudes longspeecharea. ART remainsin_progress; edit requested next.
+
+### PAGE18 ARTv003 accepted
+Actual edit fixes fourcast/teachers and largecontinuousspeechsky. Native1122×1402 saved withprompt/hash/refmetadata; allhands/bootsvisible. LAYOUT started, preserve full lockedadaptedproclamation; no ancientverbatimclaim.

@@ -1,0 +1,38 @@
+{
+  "image": "assets_generated/raw_pages/PAGE18_v003.png",
+  "version": "v003",
+  "native_size_px": [
+    1122,
+    1402
+  ],
+  "sha256": "eb386788ac61b71a4b27ca37a06a43d7d1518a03d1dd91c34221d8b71511f00c",
+  "prompt": "Edit image1 PAGE18 v002. Essential composition correction, NOT adding lettering. Keep the two sisters' exact faces, clothes, weapons and ink/watercolor rendering, but make the ENTIRE lower ceremony tableau SMALLER and LOWER so it occupies only bottom45percent of canvas. Completely empty pastel sky above y54percent (apart from tiny decorative blossom corners). Highest feathers must start at y56percent, NOT at38percent. TrưngTrắc face atx40%,y64%, feet at91%; full visible bodyheight~34percent, nothalfcanvas. Swordtip x23%,y60%, natural hand/hiltlower; blankbamboo scroll atchest y73%. TrưngNhị faceatx64%,y68%, fullboots at91%. Leave x8–92%,y23–54% free of ALL headfeathers/weapons/props for a large proclamation cloud added later. Correct teachers: there must be FOUR named people total. Behind sisters, add the actual MALE Đô Năng Tế from ref4LEFT: older male, longgraybeard, navyrobe, holds woodenstaff; besidehim CẩmNương fromref4RIGHT: olderwomanpurplerobe, holds ONLYbambooscroll withtwohands, NOstaff. Keep bothteachers distinct, faces belowy70%; allfeetcomplete. River/altar/drums/ranks occupybottom, no duplicatepeople, no modernobjects, no letters/cloud/watermark. Refs2TrắcRIGHTredarmor,3Nhịnavy,4twoelders,5swordstyle. Need large negative space, not a closeup.",
+  "actual_references": [
+    {
+      "path": "assets_generated/raw_pages/PAGE18_v002.png",
+      "sha256": "74ff567b286730e5f6161d29c89dbcf915039cdaefd9406c968b5e04c26c8cc0"
+    },
+    {
+      "path": "assets_generated/characters/CHAR_01_Trung_Trac_v001.png",
+      "sha256": "3387a36a801705d08b9eac3dd778aca3533fced07300db8188cd71439eeec3c3"
+    },
+    {
+      "path": "assets_generated/design_system/CHAR02_v001.png",
+      "sha256": "f4075fc661a51398efee50470805fca95a86a76ee66ec00909ba1058818ff4c7"
+    },
+    {
+      "path": "assets_generated/design_system/CHAR07_v001.png",
+      "sha256": "2cd6a715af4eb27b42d6e597802431805b690c2f0c93cd31f788c10d3b3dadc3"
+    },
+    {
+      "path": "assets_generated/design_system/PROP01_v001.png",
+      "sha256": "8ac9a5f41d435726a72baf456d67dd3612cb3cd466e5f9b4f8f3794ee14f5a55"
+    }
+  ],
+  "generator": "image_gen.imagegen (model not exposed)",
+  "text_free": true,
+  "top_clearance_checked": true,
+  "visual_qa_report": "10_agent_workflow/tasks/PAGE18_ART/VISUAL_REVIEW.v003.md",
+  "user_approved": false,
+  "print_ready": false
+}

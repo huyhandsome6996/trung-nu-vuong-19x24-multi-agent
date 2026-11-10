@@ -737,30 +737,53 @@
       "id": "PAGE18_ART",
       "kind": "art",
       "title": "Trang18: tạo và kiểm tranh nền",
-      "status": "in_progress",
+      "status": "done",
       "depends_on": [
         "PAGE18_TEXT"
       ],
       "instructions": "Lấy text đã khóa từ evidence bước TEXT. Xem các sheet liên quan; soạn prompt cuối theo cảnh, ghi actual_references và hash. Tạo ảnh bằng công cụ sinh ảnh, nền không chữ, không bóng thoại, chừa20% đỉnh; dùng đúng A/B/C. Kiểm mặt, phục trang, tay/chân/vũ khí và hành động. Lưu PNG native có phiên bản và metadata theo templates/RAW_IMAGE_METADATA.json. Không resize rồi khai native300DPI.",
-      "evidence": [],
-      "last_note": "Actualv002 saved; draft misses maleĐôNăngTế and lacks longspeechclearance. Recompose and correct teachers beforefinish",
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/PAGE18_ART/report.v003.json",
+          "sha256": "aae2b6af3c5a1879eea56b5335296c78000f669ea144356908ef307be6db1c18"
+        },
+        {
+          "path": "assets_generated/raw_pages/PAGE18_v003.png",
+          "sha256": "eb386788ac61b71a4b27ca37a06a43d7d1518a03d1dd91c34221d8b71511f00c"
+        },
+        {
+          "path": "assets_generated/raw_pages/PAGE18_v003.json",
+          "sha256": "b5947720a1bfe1122a8de9165d85273be606aca1dde2bb46d2e4e7ae51911115"
+        },
+        {
+          "path": "10_agent_workflow/tasks/PAGE18_ART/generation_request.v003.json",
+          "sha256": "51cef4949ce8e9d7c465beab8447bdd6e1884fa12ca530a9f64440df3f2cb75e"
+        },
+        {
+          "path": "10_agent_workflow/tasks/PAGE18_ART/VISUAL_REVIEW.v003.md",
+          "sha256": "ddbc2bac8764b3bdf561513a361d2a3648b1cfaf930d4eac1259647c43053863"
+        }
+      ],
+      "last_note": "Real edit resolves identity and compositionissues",
       "page": 18,
       "owner": "agent_a",
-      "updated_at": "2026-11-10T08:26:55+00:00",
+      "updated_at": "2026-11-10T08:31:55+00:00",
       "block_reason": ""
     },
     {
       "id": "PAGE18_LAYOUT",
       "kind": "layout",
       "title": "Trang18: ghép chữ và bố cục",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "PAGE18_ART"
       ],
       "instructions": "Dùng nguyên text đã khóa và tranh đã kiểm. Ghép khung giấy cổ, tô đỏ #C81E1E cho **...**, đặt đủ thoại/đuôi bóng đúng người. Khổ196×246/trim190×240. Dùng layout_tokens, đo tràn chữ bằng renderer thật; xuất bản xem PNG/PDF và nguồn có thể sửa. scripts/typeset_preview.py là trợ giúp HTML; không coi HTML/PDF xem trước là file in đã duyệt.",
       "evidence": [],
-      "last_note": "",
-      "page": 18
+      "last_note": "Draw entire locked adapted proclamation into one organic speech asset",
+      "page": 18,
+      "owner": "agent_a",
+      "updated_at": "2026-11-10T08:31:56+00:00"
     },
     {
       "id": "PAGE18_QA",
@@ -1102,6 +1125,24 @@
       "task": "PAGE18_ART",
       "action": "checkpoint",
       "note": "Actualv002 saved; draft misses maleĐôNăngTế and lacks longspeechclearance. Recompose and correct teachers beforefinish"
+    },
+    {
+      "at": "2026-11-10T08:31:54+00:00",
+      "task": "PAGE18_ART",
+      "action": "checkpoint",
+      "note": "Actualv003 saved and checked;4castcorrect and longspeechspaceclear"
+    },
+    {
+      "at": "2026-11-10T08:31:55+00:00",
+      "task": "PAGE18_ART",
+      "action": "finish",
+      "note": "Real edit resolves identity and compositionissues"
+    },
+    {
+      "at": "2026-11-10T08:31:56+00:00",
+      "task": "PAGE18_LAYOUT",
+      "action": "start",
+      "note": "Draw entire locked adapted proclamation into one organic speech asset"
     }
   ]
 }
