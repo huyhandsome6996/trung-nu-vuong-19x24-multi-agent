@@ -120,3 +120,5 @@ Kiểm riêng dây cung phải nối hai đầu cung với nock ở ngón kéo, 
 - A lettered cloud can have correct spelling but unsuitable body/tail proportions for placement. Preserve that asset, create a revised proportion, and review the full page; do not force a tail through another figure or stretch the lettering. If the image tool rejects required locked wording, record the actual rejection and block that task while continuing independent pages.
 
 - A clean working tree does not prove unpublished commits respect page ownership. Validate each local-only commit after fetching origin/main and after rebase. Test the actual window between fetch and push by making the other clone push first; retry must preserve both lanes without force.
+
+- Drawn speech needs scene-specific alpha layout: for crowded portraits, a side-approach J-tail can avoid eyes/headbands. Inspect actual returned body/tail ratio; requested percentages are not guarantees. Preserve rejected placement versions and verify exact Vietnamese after each edit.

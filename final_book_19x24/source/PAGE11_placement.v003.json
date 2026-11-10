@@ -1,0 +1,27 @@
+{
+  "page": 11,
+  "dialogues": [
+    {
+      "speaker": "Trưng Định",
+      "bbox_mm": [
+        98,
+        61,
+        74,
+        44.38171710932674
+      ],
+      "lettered_asset": "assets_generated/speech_clouds/PAGE11_SPEECH01_v001.png",
+      "style": "illustrated_lettered_cloud"
+    },
+    {
+      "speaker": "Nguyễn Huyền",
+      "bbox_mm": [
+        18,
+        59,
+        74,
+        44.38171710932674
+      ],
+      "lettered_asset": "assets_generated/speech_clouds/PAGE11_SPEECH02_v001.png",
+      "style": "illustrated_lettered_cloud"
+    }
+  ]
+}

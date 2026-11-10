@@ -1,0 +1,114 @@
+{
+  "page": 10,
+  "version": "v004",
+  "print_ready": false,
+  "user_approved": false,
+  "renderer": "ReportLab / vector text; PDF rendered separately with Poppler",
+  "native_size_px": [
+    1122,
+    1402
+  ],
+  "art_effective_dpi": [
+    134.47058823529412,
+    125.72999999999999,
+    145.40204081632652
+  ],
+  "crop_mm": [
+    0.4350927246790235,
+    0.0
+  ],
+  "missing_glyphs": [],
+  "boxes": [
+    {
+      "kind": "narration",
+      "bbox_mm": [
+        18,
+        14,
+        154,
+        29
+      ],
+      "font_pt": 12.8,
+      "lines": 4,
+      "text_height_mm": 25.64835555555555,
+      "max_width_mm": 150.80600888888887,
+      "overflow": false
+    }
+  ],
+  "manual_panel_placements": [
+    {
+      "source_crop_px": [
+        0,
+        0,
+        1122,
+        270
+      ],
+      "bbox_mm": [
+        -3,
+        -3,
+        196,
+        51
+      ],
+      "effective_dpi": 134.47058823529412,
+      "uniform_scale": true
+    },
+    {
+      "source_crop_px": [
+        0,
+        278,
+        1122,
+        674
+      ],
+      "bbox_mm": [
+        -3,
+        48,
+        196,
+        80
+      ],
+      "effective_dpi": 125.72999999999999,
+      "uniform_scale": true
+    },
+    {
+      "source_crop_px": [
+        0,
+        684,
+        1122,
+        1402
+      ],
+      "bbox_mm": [
+        -3,
+        131.5,
+        196,
+        111.5
+      ],
+      "effective_dpi": 145.40204081632652,
+      "uniform_scale": true
+    }
+  ],
+  "speech_assets": [
+    {
+      "index": 0,
+      "speaker": "Trưng Trắc",
+      "asset": "assets_generated/speech_clouds/PAGE10_SPEECH01_v002.png",
+      "sha256": "a676423e551c2a770738f87343d8aadddf4542895c3407b370b8a8cba33c69c4",
+      "bbox_mm": [
+        46,
+        131.5,
+        122,
+        61.0
+      ],
+      "native_size_px": [
+        1774,
+        887
+      ],
+      "effective_dpi": 369.34098360655736,
+      "visible_text_manually_verified": true,
+      "text": "Phụ thân bị bắt, phu quân vì nước hy sinh... Thù nhà nợ nước này, Trưng nhi thề quyết trả!"
+    }
+  ],
+  "pdf_text_matches": true,
+  "hashes": {
+    "svg": "c97506d07a83d746cf292ed209225a0f9f8fcc51185c591e218eb2f07857a5b2",
+    "pdf": "845eec646ac76b65b6787e9b64f6c92b3d9fb0e235cae521104b3f7a59ff6bf8",
+    "reading": "8de9ff24d9a5bc7cc2b5df01cf091217b0f15ea1b5c183081d84060e684ddb4a"
+  }
+}

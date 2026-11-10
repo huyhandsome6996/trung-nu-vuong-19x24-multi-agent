@@ -1,0 +1,30 @@
+{
+  "page": 9,
+  "speaker": "Đinh Lương",
+  "text": "Giặc Mã! Cái chết của bọn ta hôm nay chính là ngày báo tang cho quân phương Bắc các ngươi!",
+  "prompt": "Edit only the TAIL of the supplied RGBA cloud; preserve exact body shape, two-line Vietnamese lettering, colors, texture and landscape3:1canvas. Current tail approaches the face from above; it must instead approach from the LEFT. Remove current tail at right. New naturally curved narrow tail begins at x66percent,y44percent, descends with arc staying nearx63percent throughy85percent, then bends RIGHT and ends exactlyx85percent,y98percent, so its last segment is almost horizontal, pointing to the RIGHT. This is a J-shaped slim tail: the empty space to its upper-right must stay transparent, as that space holds the speaker head in the eventual layout. Body remains entirely upper48percent. Preserve full quote exactly: Giặc Mã! Cái chết của bọn ta hôm nay chính là ngày báo tang cho quân phương Bắc các ngươi! No other changes, extra words or scene. Exterior genuinely transparent.",
+  "generator": "image_gen.imagegen",
+  "transparent_background": true,
+  "actual_reference_paths": [
+    "/workspace/scratch/9c77cb6cc5ef/trung-nu-vuong-19x24-multi-agent/assets_generated/speech_clouds/PAGE09_SPEECH01_v002.png"
+  ],
+  "version": "v003",
+  "image": "assets_generated/speech_clouds/PAGE09_SPEECH01_v003.png",
+  "sha256": "71472e9ac6d71dfa8e6ab8bf7595f9278ece5928e2d814c6da5ad852873f81fa",
+  "native_size_px": [
+    2172,
+    724
+  ],
+  "mode": "RGBA",
+  "status": "visual_text_verified",
+  "visible_letter_review": "Read both complete lines and all Vietnamese marks. New tail curls below-left and approaches speaker from left, leaving above-right transparent.",
+  "user_approved": false,
+  "print_ready": false,
+  "actual_references": [
+    {
+      "path": "assets_generated/speech_clouds/PAGE09_SPEECH01_v002.png",
+      "tool_path": "/workspace/scratch/9c77cb6cc5ef/trung-nu-vuong-19x24-multi-agent/assets_generated/speech_clouds/PAGE09_SPEECH01_v002.png",
+      "sha256": "fa2f0f3ab8b0d094affd795e62ba627581285620d3907810d5bb1f5fd40606cc"
+    }
+  ]
+}

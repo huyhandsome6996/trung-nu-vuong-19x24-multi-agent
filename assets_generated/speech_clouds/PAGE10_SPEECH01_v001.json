@@ -1,0 +1,30 @@
+{
+  "page": 10,
+  "speaker": "Trưng Trắc",
+  "text": "Phụ thân bị bắt, phu quân vì nước hy sinh... Thù nhà nợ nước này, Trưng nhi thề quyết trả!",
+  "prompt": "Create ONE transparent RGBA illustrated speech cloud and all its Vietnamese lettering drawn together for the reference historical watercolor comic. Warm torch-lit wooden room, restrained pale ivory with soft amber reflected light, sepia ink organic handdrawn cloud contour, subtle paper grain. Landscape2:1canvas. Main cloud body is confined to TOP45percent of height, x2–98%,y2–45%; remainder transparent except slender naturally curved tail from x36%,y42% down to tipx35%,y98%. Keep full Vietnamese quotation exact, humanist serif dark readable lettering in three centered lines inside upper cloud:\nPhụ thân bị bắt, phu quân vì nước hy sinh...\nThù nhà nợ nước này,\nTrưng nhi thề quyết trả!\nFull quote: Phụ thân bị bắt, phu quân vì nước hy sinh... Thù nhà nợ nước này, Trưng nhi thề quyết trả!\nAll tone marks accurate, no shortened words. Exterior genuinely transparent. No UI rectangle, 3D shadow, yellow glow, people, objects, scenery, watermark or extra words. Reference only sets color, lighting and ink style.",
+  "generator": "image_gen.imagegen",
+  "transparent_background": true,
+  "actual_reference_paths": [
+    "/workspace/scratch/9c77cb6cc5ef/trung-nu-vuong-19x24-multi-agent/assets_generated/raw_pages/PAGE10_v001.png"
+  ],
+  "version": "v001",
+  "image": "assets_generated/speech_clouds/PAGE10_SPEECH01_v001.png",
+  "sha256": "f4ee7e5aca807285de7c0fce4d6212544062177d4883b24597cf0a7b073cfa07",
+  "native_size_px": [
+    1774,
+    887
+  ],
+  "mode": "RGBA",
+  "status": "visual_text_verified",
+  "visible_letter_review": "All three full lines read against locked quote, accents including Phụ/bị/bắt/nước/nợ/Trưng/nhi/thề/quyết/trả correct.",
+  "user_approved": false,
+  "print_ready": false,
+  "actual_references": [
+    {
+      "path": "assets_generated/raw_pages/PAGE10_v001.png",
+      "tool_path": "/workspace/scratch/9c77cb6cc5ef/trung-nu-vuong-19x24-multi-agent/assets_generated/raw_pages/PAGE10_v001.png",
+      "sha256": "4721c14bd7eaef6f8f74de55500cfa5d680e4525ba9a596dc685f36922d73332"
+    }
+  ]
+}

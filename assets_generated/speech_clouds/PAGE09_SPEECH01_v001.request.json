@@ -1,0 +1,12 @@
+{
+  "page": 9,
+  "speaker": "Đinh Lương",
+  "text": "Giặc Mã! Cái chết của bọn ta hôm nay chính là ngày báo tang cho quân phương Bắc các ngươi!",
+  "prompt": "Use case: illustration-story. Draw ONE isolated transparent RGBA speech cloud with its full Vietnamese lettering for the reference historical watercolor comic. Broad landscape canvas 3.5:1. Cloud main body x1–99%,y2–55%; tail curves gently down from x82%,y51% to tip x87%,y98%. Body soft irregular oval with restrained smoky ivory-gray paper, muted cool blue-gray reflected light and dark brown-black ink contour matching this overcast scene. All lettering drawn inside cloud in clear dark humanist serif, exact two lines:\nGiặc Mã! Cái chết của bọn ta hôm nay chính là\nngày báo tang cho quân phương Bắc các ngươi!\nFull quote: Giặc Mã! Cái chết của bọn ta hôm nay chính là ngày báo tang cho quân phương Bắc các ngươi!\nKeep correct Vietnamese accents and all punctuation. Exterior fully transparent. Only the speech cloud and lettering, no figures, scene, weapons, decorations, watermark, UI rectangle, bright yellow glow or 3D shadow. Reference supplies style and lighting only.",
+  "generator": "image_gen.imagegen",
+  "transparent_background": true,
+  "actual_reference_paths": [
+    "/workspace/scratch/9c77cb6cc5ef/trung-nu-vuong-19x24-multi-agent/assets_generated/raw_pages/PAGE09_v001.png"
+  ],
+  "version": "v001"
+}

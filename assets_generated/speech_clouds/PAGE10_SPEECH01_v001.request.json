@@ -1,0 +1,12 @@
+{
+  "page": 10,
+  "speaker": "Trưng Trắc",
+  "text": "Phụ thân bị bắt, phu quân vì nước hy sinh... Thù nhà nợ nước này, Trưng nhi thề quyết trả!",
+  "prompt": "Create ONE transparent RGBA illustrated speech cloud and all its Vietnamese lettering drawn together for the reference historical watercolor comic. Warm torch-lit wooden room, restrained pale ivory with soft amber reflected light, sepia ink organic handdrawn cloud contour, subtle paper grain. Landscape2:1canvas. Main cloud body is confined to TOP45percent of height, x2–98%,y2–45%; remainder transparent except slender naturally curved tail from x36%,y42% down to tipx35%,y98%. Keep full Vietnamese quotation exact, humanist serif dark readable lettering in three centered lines inside upper cloud:\nPhụ thân bị bắt, phu quân vì nước hy sinh...\nThù nhà nợ nước này,\nTrưng nhi thề quyết trả!\nFull quote: Phụ thân bị bắt, phu quân vì nước hy sinh... Thù nhà nợ nước này, Trưng nhi thề quyết trả!\nAll tone marks accurate, no shortened words. Exterior genuinely transparent. No UI rectangle, 3D shadow, yellow glow, people, objects, scenery, watermark or extra words. Reference only sets color, lighting and ink style.",
+  "generator": "image_gen.imagegen",
+  "transparent_background": true,
+  "actual_reference_paths": [
+    "/workspace/scratch/9c77cb6cc5ef/trung-nu-vuong-19x24-multi-agent/assets_generated/raw_pages/PAGE10_v001.png"
+  ],
+  "version": "v001"
+}

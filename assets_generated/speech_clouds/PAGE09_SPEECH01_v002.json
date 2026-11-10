@@ -1,0 +1,30 @@
+{
+  "page": 9,
+  "speaker": "Đinh Lương",
+  "text": "Giặc Mã! Cái chết của bọn ta hôm nay chính là ngày báo tang cho quân phương Bắc các ngươi!",
+  "prompt": "Edit the supplied RGBA lettered cloud: preserve exact Vietnamese two-line lettering, gray-blue ivory watercolor and dark ink. Change COMPOSITION ONLY: landscape3:1 full transparent canvas, main cloud body compressed into TOP48percent of canvas height, with the naturally curved tail extending through the lower52percent to end at x87percent,y98percent. Main body spans x1–99percent,y1–48percent; text fits wholly inside this upper body. The tail root begins at x82percent,y45percent. This reduces body-to-tail ratio to fit a narrow comic panel header without obscuring heads. Preserve all words exactly: Giặc Mã! Cái chết của bọn ta hôm nay chính là ngày báo tang cho quân phương Bắc các ngươi! Two lines remain:\nGiặc Mã! Cái chết của bọn ta hôm nay chính là\nngày báo tang cho quân phương Bắc các ngươi!\nOutside the body/tail stays fully transparent. Do not add scene, people, words or watermark.",
+  "generator": "image_gen.imagegen",
+  "transparent_background": true,
+  "actual_reference_paths": [
+    "/workspace/scratch/9c77cb6cc5ef/trung-nu-vuong-19x24-multi-agent/assets_generated/speech_clouds/PAGE09_SPEECH01_v001.png"
+  ],
+  "version": "v002",
+  "image": "assets_generated/speech_clouds/PAGE09_SPEECH01_v002.png",
+  "sha256": "fa2f0f3ab8b0d094affd795e62ba627581285620d3907810d5bb1f5fd40606cc",
+  "native_size_px": [
+    2172,
+    724
+  ],
+  "mode": "RGBA",
+  "status": "visual_text_verified",
+  "visible_letter_review": "Both complete lines and all Vietnamese marks manually checked against locked quote; narrow body now upper48percent.",
+  "user_approved": false,
+  "print_ready": false,
+  "actual_references": [
+    {
+      "path": "assets_generated/speech_clouds/PAGE09_SPEECH01_v001.png",
+      "tool_path": "/workspace/scratch/9c77cb6cc5ef/trung-nu-vuong-19x24-multi-agent/assets_generated/speech_clouds/PAGE09_SPEECH01_v001.png",
+      "sha256": "be75a44a3bf83f93044ff523e4919ec778cf6ce0effdc3c7c3c320fbcf92e1d9"
+    }
+  ]
+}

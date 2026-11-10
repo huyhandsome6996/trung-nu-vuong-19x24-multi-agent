@@ -1,0 +1,30 @@
+{
+  "page": 10,
+  "speaker": "Trưng Trắc",
+  "text": "Phụ thân bị bắt, phu quân vì nước hy sinh... Thù nhà nợ nước này, Trưng nhi thề quyết trả!",
+  "prompt": "Edit only composition and tail of this transparent RGBA illustrated cloud. Preserve exact three-line Vietnamese text, warm ivory/amber watercolor and ink contour. Full canvas landscape2:1. Main cloud occupies x2–98%,y2–42% only. Replace existing downward tail with a slender J-shaped naturally curved tail which startsx45%,y40%, runs down nearx45% throughy90%, then bends LEFT to terminatex33%,y98%. Last segment almost horizontal pointing LEFT, to approach the speaker mouth from her right side; space below-left of root must be transparent because her forehead and eyes occupy that space. Keep tail smooth and narrow, no straight triangle. Exact text unchanged: Phụ thân bị bắt, phu quân vì nước hy sinh... Thù nhà nợ nước này, Trưng nhi thề quyết trả! Preserve three lines and all accents. No scene, figures, new lettering or watermark; transparent exterior.",
+  "generator": "image_gen.imagegen",
+  "transparent_background": true,
+  "actual_reference_paths": [
+    "/workspace/scratch/9c77cb6cc5ef/trung-nu-vuong-19x24-multi-agent/assets_generated/speech_clouds/PAGE10_SPEECH01_v001.png"
+  ],
+  "version": "v002",
+  "image": "assets_generated/speech_clouds/PAGE10_SPEECH01_v002.png",
+  "sha256": "a676423e551c2a770738f87343d8aadddf4542895c3407b370b8a8cba33c69c4",
+  "native_size_px": [
+    1774,
+    887
+  ],
+  "mode": "RGBA",
+  "status": "visual_text_verified",
+  "visible_letter_review": "Three full lines, exact punctuation and tone marks read manually. New tail curves through gap and approaches leftward.",
+  "user_approved": false,
+  "print_ready": false,
+  "actual_references": [
+    {
+      "path": "assets_generated/speech_clouds/PAGE10_SPEECH01_v001.png",
+      "tool_path": "/workspace/scratch/9c77cb6cc5ef/trung-nu-vuong-19x24-multi-agent/assets_generated/speech_clouds/PAGE10_SPEECH01_v001.png",
+      "sha256": "f4ee7e5aca807285de7c0fce4d6212544062177d4883b24597cf0a7b073cfa07"
+    }
+  ]
+}

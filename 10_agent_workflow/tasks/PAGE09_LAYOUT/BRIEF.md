@@ -47,7 +47,7 @@ Bản text.draft.json giữ nguyên lời dẫn, CHƯA chép thoại và CHƯA �
 
 reference_candidates.json là danh sách ứng viên, không phải tuyên bố mọi ảnh đã truyền cho công cụ. Ghi lại ảnh thực dùng trong metadata. Mở từng ảnh để kiểm mặt/vị trí trước khi tạo.
 
-Các tệp của bước trước nằm trong evidence của dependencies tại production_state.json. Không tạo lại chữ/ảnh đã khóa.
+Các tệp của bước trước nằm trong evidence của dependencies tại `10_agent_workflow/production_state.json`. Không tạo lại chữ/ảnh đã khóa.
 
 ## Tiêu chí bàn giao
 

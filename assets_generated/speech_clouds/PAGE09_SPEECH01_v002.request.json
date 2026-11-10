@@ -1,0 +1,12 @@
+{
+  "page": 9,
+  "speaker": "Đinh Lương",
+  "text": "Giặc Mã! Cái chết của bọn ta hôm nay chính là ngày báo tang cho quân phương Bắc các ngươi!",
+  "prompt": "Edit the supplied RGBA lettered cloud: preserve exact Vietnamese two-line lettering, gray-blue ivory watercolor and dark ink. Change COMPOSITION ONLY: landscape3:1 full transparent canvas, main cloud body compressed into TOP48percent of canvas height, with the naturally curved tail extending through the lower52percent to end at x87percent,y98percent. Main body spans x1–99percent,y1–48percent; text fits wholly inside this upper body. The tail root begins at x82percent,y45percent. This reduces body-to-tail ratio to fit a narrow comic panel header without obscuring heads. Preserve all words exactly: Giặc Mã! Cái chết của bọn ta hôm nay chính là ngày báo tang cho quân phương Bắc các ngươi! Two lines remain:\nGiặc Mã! Cái chết của bọn ta hôm nay chính là\nngày báo tang cho quân phương Bắc các ngươi!\nOutside the body/tail stays fully transparent. Do not add scene, people, words or watermark.",
+  "generator": "image_gen.imagegen",
+  "transparent_background": true,
+  "actual_reference_paths": [
+    "/workspace/scratch/9c77cb6cc5ef/trung-nu-vuong-19x24-multi-agent/assets_generated/speech_clouds/PAGE09_SPEECH01_v001.png"
+  ],
+  "version": "v002"
+}

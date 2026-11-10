@@ -1,0 +1,30 @@
+{
+  "page": 11,
+  "generator": "image_gen.imagegen",
+  "transparent_background": true,
+  "actual_reference_paths": [
+    "/workspace/scratch/9c77cb6cc5ef/trung-nu-vuong-19x24-multi-agent/assets_generated/raw_pages/PAGE11_v001.png"
+  ],
+  "version": "v001",
+  "speaker": "Nguyễn Huyền",
+  "text": "Nếu có kiếp sau làm người Giao Chỉ, xin lại được kết nghĩa huynh đệ cùng Trưng huynh!",
+  "prompt": "Draw one isolated transparent RGBA speech cloud and all Vietnamese lettering together for supplied historical watercolor comic. Soft sunrise pale ivory rose-gray paper, subtle grain, sepia ink organic cloud. Landscape5:3canvas; main cloud occupies TOP50percent, x2–98%,y2–50%. A slender naturally curved J-tail startsx93%,y48%, descends down nearx95% untily88%, then bends LEFT endingx66%,y96%, so last segment points LEFT. Keep empty lower-left area below cloud transparent, where speaker head will be. Full exact quote in three centered clear dark humanist serif lines inside upper cloud:\nNếu có kiếp sau làm người Giao Chỉ,\nxin lại được kết nghĩa huynh đệ\ncùng Trưng huynh!\nAll words and accents accurate. Reference for ink/lighting only, no figures, scenery, ropes, weapons or extra text. Exterior transparent; no UI rectangle, 3Dshadow, bright glow, watermark.",
+  "image": "assets_generated/speech_clouds/PAGE11_SPEECH02_v001.png",
+  "sha256": "a9e15505aa3a34167b7fe9ae899823f30d0bd5690e90af7c544055da2c5d2f3d",
+  "native_size_px": [
+    1619,
+    971
+  ],
+  "mode": "RGBA",
+  "status": "visual_text_verified",
+  "visible_letter_review": "Read all three lines and tone marks against full locked quote; exact spelling, punctuation and speaker verified.",
+  "user_approved": false,
+  "print_ready": false,
+  "actual_references": [
+    {
+      "path": "assets_generated/raw_pages/PAGE11_v001.png",
+      "tool_path": "/workspace/scratch/9c77cb6cc5ef/trung-nu-vuong-19x24-multi-agent/assets_generated/raw_pages/PAGE11_v001.png",
+      "sha256": "bea192ac390370bebd4314c3f150234e9f1dfc694d7aebcb4f92c8f6b5b39207"
+    }
+  ]
+}

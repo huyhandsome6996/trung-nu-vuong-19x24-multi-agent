@@ -1,0 +1,82 @@
+{
+  "page": 11,
+  "version": "v003",
+  "print_ready": false,
+  "user_approved": false,
+  "renderer": "ReportLab / vector text; PDF rendered separately with Poppler",
+  "native_size_px": [
+    1122,
+    1402
+  ],
+  "art_effective_dpi": [
+    144.75934959349595,
+    144.75934959349593
+  ],
+  "crop_mm": [
+    0.4350927246790235,
+    0.0
+  ],
+  "missing_glyphs": [],
+  "boxes": [
+    {
+      "kind": "narration",
+      "bbox_mm": [
+        18,
+        14,
+        154,
+        29
+      ],
+      "font_pt": 12.8,
+      "lines": 4,
+      "text_height_mm": 25.64835555555555,
+      "max_width_mm": 151.16725333333332,
+      "overflow": false
+    }
+  ],
+  "speech_assets": [
+    {
+      "index": 0,
+      "speaker": "Trưng Định",
+      "asset": "assets_generated/speech_clouds/PAGE11_SPEECH01_v001.png",
+      "sha256": "42f28c386f1819beb9f734ac354008fc866cffbe2682345852cfe96006f578fb",
+      "bbox_mm": [
+        98,
+        61,
+        74,
+        44.38171710932674
+      ],
+      "native_size_px": [
+        1619,
+        971
+      ],
+      "effective_dpi": 555.7108108108108,
+      "visible_text_manually_verified": true,
+      "text": "Cái chết của ta và huynh hôm nay chính là hiệu lệnh báo ngày tàn của bọn giặc phương Bắc!"
+    },
+    {
+      "index": 1,
+      "speaker": "Nguyễn Huyền",
+      "asset": "assets_generated/speech_clouds/PAGE11_SPEECH02_v001.png",
+      "sha256": "a9e15505aa3a34167b7fe9ae899823f30d0bd5690e90af7c544055da2c5d2f3d",
+      "bbox_mm": [
+        18,
+        59,
+        74,
+        44.38171710932674
+      ],
+      "native_size_px": [
+        1619,
+        971
+      ],
+      "effective_dpi": 555.7108108108108,
+      "visible_text_manually_verified": true,
+      "text": "Nếu có kiếp sau làm người Giao Chỉ, xin lại được kết nghĩa huynh đệ cùng Trưng huynh!"
+    }
+  ],
+  "pdf_text_matches": true,
+  "hashes": {
+    "svg": "f100e9312737a22389d589ff06b91194b514e5696864a174ab6add4766c4affc",
+    "pdf": "b80ad7631620c8436562c6e661f9da7e20dd8a0ec276c8a775044c4ef9f9754d",
+    "reading": "1284b4bebb3317dbad1480191a7cadca52d64d03c91cd8ecec3aa5f0cd298053"
+  }
+}

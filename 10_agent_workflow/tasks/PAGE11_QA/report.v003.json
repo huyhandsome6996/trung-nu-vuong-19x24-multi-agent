@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "reviewer": "Codex coordinator",
+  "summary": "Opened both native three-line lettered clouds and final Poppler page. Each full locked quote and all Vietnamese marks manually read. Pale rose-gray clouds match dawn; opposite J-tails approach each correct elder mouth from side, clear of eyes, hands and ropes. Unchanged raw/source reviewed previously. Four narrator lines/five red phrases, embedded Noto fonts and trim190x240/bleed196x246 checked. Agent-reviewed only; raw native under300DPI.",
+  "artifacts": [
+    "final_book_19x24/source/PAGE11_v003.svg",
+    "final_book_19x24/source/PAGE11_placement.v003.json",
+    "final_book_19x24/source/render_page.v004.py",
+    "final_book_19x24/proofs/PAGE11_v003.pdf",
+    "final_book_19x24/proofs/PAGE11_v003.png",
+    "final_book_19x24/proofs/PAGE11_v003.json",
+    "final_book_19x24/reading/PAGE11_v003.pdf",
+    "assets_generated/speech_clouds/PAGE11_SPEECH01_v001.png",
+    "assets_generated/speech_clouds/PAGE11_SPEECH01_v001.json",
+    "assets_generated/speech_clouds/PAGE11_SPEECH01_v001.request.json",
+    "assets_generated/speech_clouds/PAGE11_SPEECH02_v001.png",
+    "assets_generated/speech_clouds/PAGE11_SPEECH02_v001.json",
+    "assets_generated/speech_clouds/PAGE11_SPEECH02_v001.request.json"
+  ],
+  "open_issues": [],
+  "reviewed_at": "2026-11-10T07:11:04.893933+00:00",
+  "task_id": "PAGE11_QA",
+  "kind": "qa",
+  "checks": {
+    "historical": "pass",
+    "art": "pass",
+    "language": "pass",
+    "print_geometry": "pass"
+  }
+}
