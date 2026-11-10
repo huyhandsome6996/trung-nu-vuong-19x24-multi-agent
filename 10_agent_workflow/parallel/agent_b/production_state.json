@@ -500,29 +500,48 @@
       "id": "PAGE23_ART",
       "kind": "art",
       "title": "Trang23: tạo và kiểm tranh nền",
-      "status": "in_progress",
+      "status": "done",
       "depends_on": [
         "PAGE23_TEXT"
       ],
       "instructions": "Lấy text đã khóa từ evidence bước TEXT. Xem các sheet liên quan; soạn prompt cuối theo cảnh, ghi actual_references và hash. Tạo ảnh bằng công cụ sinh ảnh, nền không chữ, không bóng thoại, chừa20% đỉnh; dùng đúng A/B/C. Kiểm mặt, phục trang, tay/chân/vũ khí và hành động. Lưu PNG native có phiên bản và metadata theo templates/RAW_IMAGE_METADATA.json. Không resize rồi khai native300DPI.",
-      "evidence": [],
-      "last_note": "TạođúngThánhThiên giáp lục trên bậcthềm, Tào đứng sân; chừavùngthoại.",
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/PAGE23_ART/report.v001.json",
+          "sha256": "d12a71e06695734307117aacf5d269ed631df74ceaa982691bc74cf119f46593"
+        },
+        {
+          "path": "assets_generated/raw_pages/PAGE23_v001.png",
+          "sha256": "de79a3a77ecbfc7b9d4d7a1b5658ed28e06d40d598d6051ba9baf72e0501c491"
+        },
+        {
+          "path": "assets_generated/raw_pages/PAGE23_v001.json",
+          "sha256": "b0c1c7886df432b6f4b1698c1ad5f9ce1c747114ab86083336c3fd13c170ee45"
+        },
+        {
+          "path": "10_agent_workflow/tasks/PAGE23_ART/prompt.v001.txt",
+          "sha256": "ebf116e356b3be4444c34bb9a33a359abbb4de6627bc6f2e65f2dd697dcc32fb"
+        }
+      ],
+      "last_note": "Nhận diện/giáplục/kiếm/tay/chân đãkiểm.",
       "page": 23,
       "owner": "agent_b",
-      "updated_at": "2026-11-10T07:10:52+00:00"
+      "updated_at": "2026-11-10T07:14:51+00:00"
     },
     {
       "id": "PAGE23_LAYOUT",
       "kind": "layout",
       "title": "Trang23: ghép chữ và bố cục",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "PAGE23_ART"
       ],
       "instructions": "Dùng nguyên text đã khóa và tranh đã kiểm. Ghép khung giấy cổ, tô đỏ #C81E1E cho **...**, đặt đủ thoại/đuôi bóng đúng người. Khổ196×246/trim190×240. Dùng layout_tokens, đo tràn chữ bằng renderer thật; xuất bản xem PNG/PDF và nguồn có thể sửa. scripts/typeset_preview.py là trợ giúp HTML; không coi HTML/PDF xem trước là file in đã duyệt.",
       "evidence": [],
-      "last_note": "",
-      "page": 23
+      "last_note": "Vẽ cảkhungthoại vàchữ, để phía trênphải đuôi ngắn cong xuốngtrái.",
+      "page": 23,
+      "owner": "agent_b",
+      "updated_at": "2026-11-10T07:14:51+00:00"
     },
     {
       "id": "PAGE23_QA",
@@ -1006,6 +1025,24 @@
       "task": "PAGE23_ART",
       "action": "start",
       "note": "TạođúngThánhThiên giáp lục trên bậcthềm, Tào đứng sân; chừavùngthoại."
+    },
+    {
+      "at": "2026-11-10T07:14:50+00:00",
+      "task": "PAGE23_ART",
+      "action": "checkpoint",
+      "note": "Rawv001 thực vàprompt/refhash đã lưu, mở kiểm đạt."
+    },
+    {
+      "at": "2026-11-10T07:14:51+00:00",
+      "task": "PAGE23_ART",
+      "action": "finish",
+      "note": "Nhận diện/giáplục/kiếm/tay/chân đãkiểm."
+    },
+    {
+      "at": "2026-11-10T07:14:51+00:00",
+      "task": "PAGE23_LAYOUT",
+      "action": "start",
+      "note": "Vẽ cảkhungthoại vàchữ, để phía trênphải đuôi ngắn cong xuốngtrái."
     }
   ]
 }
