@@ -7,3 +7,5 @@ Owned pages: 21, 22, 23, 24, 25, 26, 27, 28. Only this agent appends here.
 - Clone main riêng; dependency, doctor, check_repo và queue check đạt. 32bước ban đầu todo.
 - TEXT21v001/reportv001 đã khóa: **51 tiếng** theo khoảng trắng (ghi chú checkpoint trước ghi57 là lỗi ghi số),8cụm đỏ,1thoại đầy đủ. Mở scan47–50; phân biệt kế hoạch và diễn biến thực.
 - ART21 đang làm; đã mở CHAR04, CHAR15, ENV04. Chưa có tranh, chưa tuyên bố QA.
+
+- ART21v001 native1122×1402 đã trả thật và mở kiểm:3khung, đúng người/màu, tay/que chỉ/sa bàn, đỉnh trống; lưu raw/prompt/request/meta/hash. Chưa dàn trang.

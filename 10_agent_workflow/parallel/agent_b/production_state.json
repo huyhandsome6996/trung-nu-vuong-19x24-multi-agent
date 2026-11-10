@@ -126,29 +126,52 @@
       "id": "PAGE21_ART",
       "kind": "art",
       "title": "Trang21: tạo và kiểm tranh nền",
-      "status": "in_progress",
+      "status": "done",
       "depends_on": [
         "PAGE21_TEXT"
       ],
       "instructions": "Lấy text đã khóa từ evidence bước TEXT. Xem các sheet liên quan; soạn prompt cuối theo cảnh, ghi actual_references và hash. Tạo ảnh bằng công cụ sinh ảnh, nền không chữ, không bóng thoại, chừa20% đỉnh; dùng đúng A/B/C. Kiểm mặt, phục trang, tay/chân/vũ khí và hành động. Lưu PNG native có phiên bản và metadata theo templates/RAW_IMAGE_METADATA.json. Không resize rồi khai native300DPI.",
-      "evidence": [],
-      "last_note": "Đã xem CHAR04/CHAR15/ENV04; tạo tranh TemplateC sa bàn và2khung nhận lệnh.",
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/PAGE21_ART/report.v001.json",
+          "sha256": "041c8e1bea2fa5a5e0e5bb756202cc930ea78effdd3f5c50913547509714b200"
+        },
+        {
+          "path": "assets_generated/raw_pages/PAGE21_v001.png",
+          "sha256": "ec133fa570405697938aa8d45247f775df67c98e7799598580f5c2e930864f53"
+        },
+        {
+          "path": "assets_generated/raw_pages/PAGE21_v001.json",
+          "sha256": "f9ba0d801e9f74638f63026222a6462de8773baee59a89e2912aa1b54b3ba2a6"
+        },
+        {
+          "path": "10_agent_workflow/tasks/PAGE21_ART/prompt.v001.txt",
+          "sha256": "239e7dce94c45f85ff56b5175458c9e46a98c48255cfb56915eac9e3d01227a0"
+        },
+        {
+          "path": "10_agent_workflow/tasks/PAGE21_ART/request.v001.json",
+          "sha256": "bc012f38c2d3567eddf80d9705b2f01389c63456d35ece3d6f0d56bd0ab09742"
+        }
+      ],
+      "last_note": "Đã kiểm ảnh native sa bàn/nhận diện/tay/chân.",
       "page": 21,
       "owner": "agent_b",
-      "updated_at": "2026-11-10T06:48:42+00:00"
+      "updated_at": "2026-11-10T06:53:32+00:00"
     },
     {
       "id": "PAGE21_LAYOUT",
       "kind": "layout",
       "title": "Trang21: ghép chữ và bố cục",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "PAGE21_ART"
       ],
       "instructions": "Dùng nguyên text đã khóa và tranh đã kiểm. Ghép khung giấy cổ, tô đỏ #C81E1E cho **...**, đặt đủ thoại/đuôi bóng đúng người. Khổ196×246/trim190×240. Dùng layout_tokens, đo tràn chữ bằng renderer thật; xuất bản xem PNG/PDF và nguồn có thể sửa. scripts/typeset_preview.py là trợ giúp HTML; không coi HTML/PDF xem trước là file in đã duyệt.",
       "evidence": [],
-      "last_note": "",
-      "page": 21
+      "last_note": "Tạo asset organic kèm đủ chữ, rồi placement/PDF/SVG.",
+      "page": 21,
+      "owner": "agent_b",
+      "updated_at": "2026-11-10T06:53:33+00:00"
     },
     {
       "id": "PAGE21_QA",
@@ -562,6 +585,24 @@
       "task": "PAGE21_ART",
       "action": "start",
       "note": "Đã xem CHAR04/CHAR15/ENV04; tạo tranh TemplateC sa bàn và2khung nhận lệnh."
+    },
+    {
+      "at": "2026-11-10T06:53:32+00:00",
+      "task": "PAGE21_ART",
+      "action": "checkpoint",
+      "note": "Rawv0011122×1402 và prompt/ref/hash đã lưu, mở kiểm đạt."
+    },
+    {
+      "at": "2026-11-10T06:53:32+00:00",
+      "task": "PAGE21_ART",
+      "action": "finish",
+      "note": "Đã kiểm ảnh native sa bàn/nhận diện/tay/chân."
+    },
+    {
+      "at": "2026-11-10T06:53:33+00:00",
+      "task": "PAGE21_LAYOUT",
+      "action": "start",
+      "note": "Tạo asset organic kèm đủ chữ, rồi placement/PDF/SVG."
     }
   ]
 }

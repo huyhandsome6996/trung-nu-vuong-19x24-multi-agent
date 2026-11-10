@@ -1,0 +1,9 @@
+{
+  "status": "prepared",
+  "image": "assets_generated/raw_pages/PAGE21_v001.png",
+  "references": [
+    "assets_generated/design_system/CHAR04_v001.png",
+    "assets_generated/design_system/CHAR15_v001.png",
+    "assets_generated/design_system/ENV04_v001.png"
+  ]
+}

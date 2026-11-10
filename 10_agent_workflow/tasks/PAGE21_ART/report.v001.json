@@ -1,0 +1,22 @@
+{
+  "task_id": "PAGE21_ART",
+  "kind": "art",
+  "status": "passed",
+  "reviewer": "agent_b",
+  "summary": "Đã xem ảnh native1122×1402: đúng TemplateC,4nhân vật/3khung, sa bàn kế hoạch; tay/chân/que chỉ hợp lý, đỉnh trống và không chữ.",
+  "checks": {
+    "actual_refs": "pass",
+    "character_consistency": "pass",
+    "no_text": "pass",
+    "top_clearance": "pass",
+    "anatomy": "pass"
+  },
+  "artifacts": [
+    "assets_generated/raw_pages/PAGE21_v001.png",
+    "assets_generated/raw_pages/PAGE21_v001.json",
+    "10_agent_workflow/tasks/PAGE21_ART/prompt.v001.txt",
+    "10_agent_workflow/tasks/PAGE21_ART/request.v001.json"
+  ],
+  "open_issues": [],
+  "reviewed_at": "2026-11-10T06:53:32.706313+00:00"
+}
