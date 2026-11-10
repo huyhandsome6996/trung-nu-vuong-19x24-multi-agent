@@ -1,0 +1,38 @@
+{
+  "image": "assets_generated/raw_pages/PAGE14_v002.png",
+  "version": "v002",
+  "native_size_px": [
+    1122,
+    1402
+  ],
+  "sha256": "c9aaa98a8277e51d04adc59da20d628b1a894c4072589937b3c8ad4261f50b33",
+  "prompt": "Use case: historical-scene / illustration-story. Text-free Vietnamese historical-legend illustrated book for ages13–16. Portrait4:5 page, high native detail, sharp ink hatching and rich luminous controlled watercolor, mature heroic emotional storytelling matching the supplied design sheets. Keep exact facial structure, body type and costume colors from named reference positions. TOP20%canvas must be quiet pale atmosphere with NO heads, hands, weapons or important roofs; later Vietnamese parchment narration is typeset separately. Absolutely NO writing/letters anywhere, no captions, no speech balloons, no watermark/signature. Natural attached hands, normal limbs, mechanically connected weapons. No modern objects, no gore. Keep important faces/feet inside 8–92%width and belowy28% but above94%height. PAGE14 Template A aerial sweeping council hall/courtyard Cổ Lôi as elders, chiefs and warriors raise swords/spears and shout in unity at dawn. Show diverse male chiefs from ML01–17 (first17faces of24sheet) and commoner soldiers consistent ARMY01; no new named heroine in foreground. Bronze Đông Sơn drums atbottom/middle, layered ranks extending beyond frame, gray elephants in distant pen (partial view of30, not an eight-elephant formation). Ref ENV03 TOPCổLôi only. Flags are blank fivecolors not text. Composition reserve quiet pale smoky sky x10–90%,y23–36% for later collective quote, raised hands belowy40%. Active rhythm, distinct expressions, full-page epic depth, folk textile muted colors and copper highlights.",
+  "actual_references": [
+    {
+      "path": "assets_generated/design_system/ENV03_v001.png",
+      "sha256": "fd58bd1e71c22e4bec7a0f54bb9ec6cec0b15ab0da5e0c8979c26e95bad6b929"
+    },
+    {
+      "path": "assets_generated/design_system/CHIEFS01_v001.png",
+      "sha256": "11cfde4cac7fc720bacefc2ac66b390eceeff13a15362f0d4696a8e915ef1f05"
+    },
+    {
+      "path": "assets_generated/design_system/ARMY01_v001.png",
+      "sha256": "4f6b76dea97ac82cefce9338f51faaa00ee2501b3e63cb7197fb0ec4ef903ff7"
+    },
+    {
+      "path": "assets_generated/design_system/PROP02_v001.png",
+      "sha256": "66b704990f77eed1b67406f057324078b87c2556b2f5d5cbd433b9997ea0d9e0"
+    },
+    {
+      "path": "assets_generated/design_system/ANIMAL01_v001.png",
+      "sha256": "7dd2569d6c8bc3a6b78f11a588f82d2a26f7032b141fa702f9965240f6e28cf6"
+    }
+  ],
+  "generator": "image_gen.imagegen (model not exposed)",
+  "text_free": true,
+  "top_clearance_checked": true,
+  "visual_qa_report": "10_agent_workflow/tasks/PAGE14_ART/VISUAL_REVIEW.v002.md",
+  "user_approved": false,
+  "print_ready": false
+}

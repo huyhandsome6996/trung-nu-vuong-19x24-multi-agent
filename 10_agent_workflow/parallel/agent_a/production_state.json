@@ -61,16 +61,37 @@
       "id": "PAGE14_ART",
       "kind": "art",
       "title": "Trang14: tạo và kiểm tranh nền",
-      "status": "todo",
+      "status": "done",
       "depends_on": [
         "PAGE14_TEXT"
       ],
       "instructions": "Lấy text đã khóa từ evidence bước TEXT. Xem các sheet liên quan; soạn prompt cuối theo cảnh, ghi actual_references và hash. Tạo ảnh bằng công cụ sinh ảnh, nền không chữ, không bóng thoại, chừa20% đỉnh; dùng đúng A/B/C. Kiểm mặt, phục trang, tay/chân/vũ khí và hành động. Lưu PNG native có phiên bản và metadata theo templates/RAW_IMAGE_METADATA.json. Không resize rồi khai native300DPI.",
-      "evidence": [],
-      "last_note": "Transferred to dedicated lane; previous interrupted image job is not assumed alive",
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/PAGE14_ART/report.v002.json",
+          "sha256": "8c70785a9fb09b8e885bd41d0f8a31ac3e1936755610f9be635c6b2afdc12048"
+        },
+        {
+          "path": "assets_generated/raw_pages/PAGE14_v002.png",
+          "sha256": "c9aaa98a8277e51d04adc59da20d628b1a894c4072589937b3c8ad4261f50b33"
+        },
+        {
+          "path": "assets_generated/raw_pages/PAGE14_v002.json",
+          "sha256": "1188a178f947fec0719bdb083f773ffb2498728abc9a9baa718debf6d6e70b46"
+        },
+        {
+          "path": "10_agent_workflow/tasks/PAGE14_ART/VISUAL_REVIEW.v002.md",
+          "sha256": "1b34cfdfabff80efc80412617ac39eb12d9a1ffa751625318108a2f0bff51364"
+        },
+        {
+          "path": "10_agent_workflow/tasks/PAGE14_ART/generation_request.v002.json",
+          "sha256": "5544e645bbb164342b3d516f9136cbb95ddad7ade0e1c103909b4e28a2215a27"
+        }
+      ],
+      "last_note": "Opened native actual output; references/anatomy/clearance/textfree passed",
       "page": 14,
-      "owner": "Codex",
-      "updated_at": "2026-11-09T14:15:05+00:00",
+      "owner": "agent_a",
+      "updated_at": "2026-11-10T06:52:46+00:00",
       "block_reason": ""
     },
     {
@@ -484,5 +505,24 @@
       "page": 20
     }
   ],
-  "history": []
+  "history": [
+    {
+      "at": "2026-11-10T06:46:48+00:00",
+      "task": "PAGE14_ART",
+      "action": "start",
+      "note": "Đã đọc chữ khóa, scan33–34 và mở pixel5ảnh active; tạo tranh nền v002"
+    },
+    {
+      "at": "2026-11-10T06:52:45+00:00",
+      "task": "PAGE14_ART",
+      "action": "checkpoint",
+      "note": "Rawv0021122x1402, exactprompt/refhash/meta et visual review sauvegardés; prêt pour finish"
+    },
+    {
+      "at": "2026-11-10T06:52:46+00:00",
+      "task": "PAGE14_ART",
+      "action": "finish",
+      "note": "Opened native actual output; references/anatomy/clearance/textfree passed"
+    }
+  ]
 }
