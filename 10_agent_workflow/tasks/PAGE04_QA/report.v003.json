@@ -1,0 +1,28 @@
+{
+  "task_id": "PAGE04_QA",
+  "kind": "qa",
+  "status": "passed",
+  "reviewer": "Codex",
+  "summary": "Viewed final Poppler full pagev003 and native RGBA speechv002. Read all3Vietnamese lines against locked quote including tone marks. Warm peach/sepia organic cloud matches hall; body clear of male topknot and faces; curved tail reaches Phùng mouth, hands and tiger-emblem ThiSách armor clear. Narration unchanged,4lines/6marked phrases, no overflow or missing glyphs. PDF reopened and trim190x240/bleed196x246 checked. Visible image lettering reviewed manually, extraction checks narration only. Raw native under300DPI; agent-reviewed, notuserapproved/printready.",
+  "checks": {
+    "historical": "pass",
+    "art": "pass",
+    "language": "pass",
+    "print_geometry": "pass"
+  },
+  "artifacts": [
+    "10_agent_workflow/tasks/PAGE04_QA/QA.v003.md",
+    "final_book_19x24/source/PAGE04_v003.svg",
+    "final_book_19x24/source/PAGE04_placement.v003.json",
+    "final_book_19x24/source/render_page.v004.py",
+    "final_book_19x24/proofs/PAGE04_v003.pdf",
+    "final_book_19x24/proofs/PAGE04_v003.png",
+    "final_book_19x24/proofs/PAGE04_v003.json",
+    "final_book_19x24/reading/PAGE04_v003.pdf",
+    "assets_generated/speech_clouds/PAGE04_SPEECH01_v002.png",
+    "assets_generated/speech_clouds/PAGE04_SPEECH01_v002.json",
+    "assets_generated/speech_clouds/PAGE04_SPEECH01_v002.request.json"
+  ],
+  "open_issues": [],
+  "reviewed_at": "2026-11-10T03:44:55.340997+00:00"
+}

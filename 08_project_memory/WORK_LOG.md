@@ -171,3 +171,9 @@ timezone: "Asia/Ho_Chi_Minh"
 - PAGE13_ART v003 actual recompose returned and visually passed: sword fully below30percent, caption area clear, white mourning/normal hands and full boots. Saved native1122×1402, exact submitted prompt/refs/hash; began drawn-lettering LAYOUT with full locked quote.
 
 - PAGE13_LAYOUT/QA v002 finished after reopening real PDF/PNG: complete4line illustrated quote, warm organic cloud with full lettering drawn inside, tail adjusted to mouth corner. Noto narrator4lines/5redphrases, exact51tokens; bleed196×246/trim190×240 and embeddedfonts checked. Raw144.76DPI/speech461.62DPI; agent-reviewed only. Seven legacy speech pages still reopened; no full-book completion claimed. Saved editableSVG/placement/exactprompt/raw/meta/QA and immutable renderv004 snapshot.
+
+## 2026-11-10 — Continued after status question
+
+- Fetched remote: still6aeb79f, no newer A/B commits visible. Started PAGE03 speech restyle. Actual image call rejected HTTP400 moderation_blocked/violence (output stage); no output. Preserved exact locked quote and request/error, blocked layout, continuing independent PAGE04. No running image job remains from the rejected request.
+
+- PAGE04_LAYOUT/QA v003 completed with actual illustrated cloud+letteringv002, exact3line quote and RGBA/nativeprompt/hash. Opened final render: all three faces/hands clear, tail reaches Phùng. PDF geometry/fonts/narration checked. PAGE03 remains toolblocked; independent06/07/09/10/11 restyle remains.

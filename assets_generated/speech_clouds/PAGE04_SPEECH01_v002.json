@@ -1,0 +1,36 @@
+{
+  "page": 4,
+  "speaker": "Phùng Thị Chính",
+  "text": "Vợ chồng tiểu nữ dẫu phải vào núi đao biển lửa cũng quyết theo chủ công đánh đuổi giặc phương Bắc!",
+  "prompt": "Use case: precise speech-art layout edit. Edit FIRST supplied RGBA lettered cloud. Preserve its exact lettering, full Vietnamese quote, three lines, sepia ink/pale peach paper texture and organic outline. Recompose to a landscape2:1 canvas with main cloud body occupying TOP65percent only, and tail extending through the lower transparent35percent. The tail should be longer relative to the body, naturally CURVED, continuous same ink/fill, and terminate exactlyx20percent,y98percent (toward lowerLEFT, not center). Its root nearx27percent,y58percent. This will let the body sit above both figures while tail reaches female speaker mouth. Keep all cloud/text fully insidecanvas, no extra words or scene. Second reference is only hall style/lighting. Exact text remains: Vợ chồng tiểu nữ dẫu phải vào núi đao biển lửa cũng quyết theo chủ công đánh đuổi giặc phương Bắc! Drawn text lines remain:\nVợ chồng tiểu nữ dẫu phải vào\nnúi đao biển lửa cũng quyết theo\nchủ công đánh đuổi giặc phương Bắc!\nTransparent RGBA exterior; no blank UI card, no3Dshadow, no watermark. Do not change spelling or shorten quote.",
+  "generator": "image_gen.imagegen",
+  "transparent_background": true,
+  "actual_reference_paths": [
+    "/workspace/scratch/9c77cb6cc5ef/trung-nu-vuong-19x24-multi-agent/assets_generated/speech_clouds/PAGE04_SPEECH01_v001.png",
+    "/workspace/scratch/9c77cb6cc5ef/trung-nu-vuong-19x24-multi-agent/assets_generated/raw_pages/PAGE04_v002.png"
+  ],
+  "actual_references": [
+    {
+      "path": "assets_generated/speech_clouds/PAGE04_SPEECH01_v001.png",
+      "tool_path": "/workspace/scratch/9c77cb6cc5ef/trung-nu-vuong-19x24-multi-agent/assets_generated/speech_clouds/PAGE04_SPEECH01_v001.png",
+      "sha256": "658807090af2073ae5f96f8c27782a4c99bc49e09e7b5fb825a3107e1f01d21e"
+    },
+    {
+      "path": "assets_generated/raw_pages/PAGE04_v002.png",
+      "tool_path": "/workspace/scratch/9c77cb6cc5ef/trung-nu-vuong-19x24-multi-agent/assets_generated/raw_pages/PAGE04_v002.png",
+      "sha256": "f97d300c5994e75b4abac637c9a7a0fa4f1f050401e7d58d678af67c7c56d363"
+    }
+  ],
+  "version": "v002",
+  "image": "assets_generated/speech_clouds/PAGE04_SPEECH01_v002.png",
+  "sha256": "81130169ac3f6958b19832b87b62688d6fc4c0ad12b90c41f09ce60ca0d96155",
+  "native_size_px": [
+    1774,
+    887
+  ],
+  "mode": "RGBA",
+  "status": "visual_text_verified",
+  "visible_letter_review": "All3lines read against locked quote, including tiểu/nữ/dẫu/núi/biển/lửa/quyết/đuổi/Bắc. Exact text; transparent exterior verified.",
+  "user_approved": false,
+  "print_ready": false
+}

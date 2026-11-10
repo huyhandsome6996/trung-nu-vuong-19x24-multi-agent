@@ -640,16 +640,16 @@
       "id": "PAGE03_LAYOUT",
       "kind": "layout",
       "title": "Trang03: ghép chữ và bố cục",
-      "status": "todo",
+      "status": "blocked",
       "depends_on": [
         "PAGE03_ART"
       ],
       "instructions": "Dùng nguyên text đã khóa và tranh đã kiểm. Ghép khung giấy cổ, tô đỏ #C81E1E cho **...**, đặt đủ thoại/đuôi bóng đúng người. Khổ196×246/trim190×240. Dùng layout_tokens, đo tràn chữ bằng renderer thật; xuất bản xem PNG/PDF và nguồn có thể sửa. scripts/typeset_preview.py là trợ giúp HTML; không coi HTML/PDF xem trước là file in đã duyệt.",
       "evidence": [],
-      "last_note": "User10Nov rejects white UI speech; coordinator must draw cloud+lettering together, preserve old layout, verify and finish new version.",
+      "last_note": "Actual image tool rejected full locked quote:400 moderation_blocked/violence; no output; preserve quote and request; continue04",
       "page": 3,
-      "owner": "Codex",
-      "updated_at": "2026-11-10T02:39:21+00:00",
+      "owner": "coordinator",
+      "updated_at": "2026-11-10T03:40:07+00:00",
       "previous_evidence": [
         [
           {
@@ -682,7 +682,7 @@
           }
         ]
       ],
-      "block_reason": ""
+      "block_reason": "Actual image tool rejected full locked quote:400 moderation_blocked/violence; no output; preserve quote and request; continue04"
     },
     {
       "id": "PAGE03_QA",
@@ -793,16 +793,61 @@
       "id": "PAGE04_LAYOUT",
       "kind": "layout",
       "title": "Trang04: ghép chữ và bố cục",
-      "status": "todo",
+      "status": "done",
       "depends_on": [
         "PAGE04_ART"
       ],
       "instructions": "Dùng nguyên text đã khóa và tranh đã kiểm. Ghép khung giấy cổ, tô đỏ #C81E1E cho **...**, đặt đủ thoại/đuôi bóng đúng người. Khổ196×246/trim190×240. Dùng layout_tokens, đo tràn chữ bằng renderer thật; xuất bản xem PNG/PDF và nguồn có thể sửa. scripts/typeset_preview.py là trợ giúp HTML; không coi HTML/PDF xem trước là file in đã duyệt.",
-      "evidence": [],
-      "last_note": "User10Nov rejects white UI speech; coordinator must draw cloud+lettering together, preserve old layout, verify and finish new version.",
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/PAGE04_LAYOUT/report.v003.json",
+          "sha256": "ce17e7ed3719ca9e7e3d3d55cadc2045e4ecfae81181e4a33118f4690a4c8e02"
+        },
+        {
+          "path": "final_book_19x24/source/PAGE04_v003.svg",
+          "sha256": "ee33cff9242f881d8958ecdd9dc03606d530b1917de94639746372760287dcb5"
+        },
+        {
+          "path": "final_book_19x24/source/PAGE04_placement.v003.json",
+          "sha256": "3ea51b3b67de304c45f04e3847353da5eca5e2c27987eb4ab3d0fdad6c9fd1f1"
+        },
+        {
+          "path": "final_book_19x24/source/render_page.v004.py",
+          "sha256": "314b628a5cc0595ee6e38165862b78866c3ada9008ecce9e05cecf07fe135108"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE04_v003.pdf",
+          "sha256": "e171ab38272abb95292f5d9726036d9edad27b4bc1ad7643fc67db692ae9080c"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE04_v003.png",
+          "sha256": "ce8c9164c5baa4137f4f105aa302740ece257da2eb73a0f776880748ef52ca50"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE04_v003.json",
+          "sha256": "63d1cca3bd3a2d40ce7e8236b8744cf71541ccb28461be7d7ea177b625ae652b"
+        },
+        {
+          "path": "final_book_19x24/reading/PAGE04_v003.pdf",
+          "sha256": "97be1b1cce87bfaecd190908e18bfdddef02ab26ed999afc259a86bf73876e4b"
+        },
+        {
+          "path": "assets_generated/speech_clouds/PAGE04_SPEECH01_v002.png",
+          "sha256": "81130169ac3f6958b19832b87b62688d6fc4c0ad12b90c41f09ce60ca0d96155"
+        },
+        {
+          "path": "assets_generated/speech_clouds/PAGE04_SPEECH01_v002.json",
+          "sha256": "a6d9e2af1997a5133488fc6965a6de1c6c86fa73ea124681e0294ba386e83982"
+        },
+        {
+          "path": "assets_generated/speech_clouds/PAGE04_SPEECH01_v002.request.json",
+          "sha256": "2310cbe9c7371b58413240cded931f08c0763e1ed6fa883acdf3118260c082fe"
+        }
+      ],
+      "last_note": "Actual drawn cloud+quotev002 placed in layoutv003; finalrender checked",
       "page": 4,
-      "owner": "Codex",
-      "updated_at": "2026-11-10T02:39:21+00:00",
+      "owner": "coordinator",
+      "updated_at": "2026-11-10T03:44:55+00:00",
       "previous_evidence": [
         [
           {
@@ -841,16 +886,65 @@
       "id": "PAGE04_QA",
       "kind": "qa",
       "title": "Trang04: kiểm nguồn/mỹ thuật/chữ/khổ",
-      "status": "todo",
+      "status": "done",
       "depends_on": [
         "PAGE04_LAYOUT"
       ],
       "instructions": "Mở ảnh render ở kích thước đọc thật và zoom100%; so với scan, sheet, text đã khóa. Kiểm bốn lớp historical/art/language/print_geometry. Ghi lỗi cụ thể và sửa về đúng bước. Báo cáo pass chỉ khi có artifact thực và không còn lỗi trong phạm vi; đây là QA của agent, không phải chủ dự án duyệt.",
-      "evidence": [],
-      "last_note": "Reopen: User10Nov rejects white UI speech; coordinator must draw cloud+lettering together, preserve old layout, verify and finish new version.",
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/PAGE04_QA/report.v003.json",
+          "sha256": "8d46fc545e699f79e8b972a24282b739f463d57f36e6cb4fe30772bb567d98a1"
+        },
+        {
+          "path": "10_agent_workflow/tasks/PAGE04_QA/QA.v003.md",
+          "sha256": "3eb034ecae949e0a2790148c53cf500d2e00c5f3e29046806ae4b14d98b2b12b"
+        },
+        {
+          "path": "final_book_19x24/source/PAGE04_v003.svg",
+          "sha256": "ee33cff9242f881d8958ecdd9dc03606d530b1917de94639746372760287dcb5"
+        },
+        {
+          "path": "final_book_19x24/source/PAGE04_placement.v003.json",
+          "sha256": "3ea51b3b67de304c45f04e3847353da5eca5e2c27987eb4ab3d0fdad6c9fd1f1"
+        },
+        {
+          "path": "final_book_19x24/source/render_page.v004.py",
+          "sha256": "314b628a5cc0595ee6e38165862b78866c3ada9008ecce9e05cecf07fe135108"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE04_v003.pdf",
+          "sha256": "e171ab38272abb95292f5d9726036d9edad27b4bc1ad7643fc67db692ae9080c"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE04_v003.png",
+          "sha256": "ce8c9164c5baa4137f4f105aa302740ece257da2eb73a0f776880748ef52ca50"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE04_v003.json",
+          "sha256": "63d1cca3bd3a2d40ce7e8236b8744cf71541ccb28461be7d7ea177b625ae652b"
+        },
+        {
+          "path": "final_book_19x24/reading/PAGE04_v003.pdf",
+          "sha256": "97be1b1cce87bfaecd190908e18bfdddef02ab26ed999afc259a86bf73876e4b"
+        },
+        {
+          "path": "assets_generated/speech_clouds/PAGE04_SPEECH01_v002.png",
+          "sha256": "81130169ac3f6958b19832b87b62688d6fc4c0ad12b90c41f09ce60ca0d96155"
+        },
+        {
+          "path": "assets_generated/speech_clouds/PAGE04_SPEECH01_v002.json",
+          "sha256": "a6d9e2af1997a5133488fc6965a6de1c6c86fa73ea124681e0294ba386e83982"
+        },
+        {
+          "path": "assets_generated/speech_clouds/PAGE04_SPEECH01_v002.request.json",
+          "sha256": "2310cbe9c7371b58413240cded931f08c0763e1ed6fa883acdf3118260c082fe"
+        }
+      ],
+      "last_note": "Manual text/visual/PDF check passed; not printrelease",
       "page": 4,
-      "owner": "Codex",
-      "updated_at": "2026-11-09T12:30:25+00:00",
+      "owner": "coordinator",
+      "updated_at": "2026-11-10T03:44:55+00:00",
       "previous_evidence": [
         [
           {
@@ -4992,6 +5086,48 @@
       "task": "PAGE13_QA",
       "action": "finish",
       "note": "Source/adaptation/art/language/proofgeometry checked; not userapproved or printready"
+    },
+    {
+      "at": "2026-11-10T03:35:58+00:00",
+      "task": "PAGE03_LAYOUT",
+      "action": "start",
+      "note": "Resume user-requested hand-drawn lettered speech restyle"
+    },
+    {
+      "at": "2026-11-10T03:40:07+00:00",
+      "task": "PAGE03_LAYOUT",
+      "action": "block",
+      "note": "Actual image tool rejected full locked quote:400 moderation_blocked/violence; no output; preserve quote and request; continue04"
+    },
+    {
+      "at": "2026-11-10T03:40:07+00:00",
+      "task": "PAGE04_LAYOUT",
+      "action": "start",
+      "note": "Independent illustrated lettering restyle while03 toolblocked"
+    },
+    {
+      "at": "2026-11-10T03:42:12+00:00",
+      "task": "PAGE04_LAYOUT",
+      "action": "checkpoint",
+      "note": "Actual cloudv001/full quote correct saved; adjusting body/tail proportions to keep Đinh Lương topknot clear"
+    },
+    {
+      "at": "2026-11-10T03:44:55+00:00",
+      "task": "PAGE04_LAYOUT",
+      "action": "finish",
+      "note": "Actual drawn cloud+quotev002 placed in layoutv003; finalrender checked"
+    },
+    {
+      "at": "2026-11-10T03:44:55+00:00",
+      "task": "PAGE04_QA",
+      "action": "start",
+      "note": "Finalrender Vietnamese letters/source/geometry reviewed"
+    },
+    {
+      "at": "2026-11-10T03:44:55+00:00",
+      "task": "PAGE04_QA",
+      "action": "finish",
+      "note": "Manual text/visual/PDF check passed; not printrelease"
     }
   ]
 }

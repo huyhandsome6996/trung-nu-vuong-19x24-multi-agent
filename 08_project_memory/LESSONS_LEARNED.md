@@ -116,3 +116,5 @@ Kiểm riêng dây cung phải nối hai đầu cung với nock ở ngón kéo, 
 
 - Parallel writers on main need disjoint output files AND disjoint queues/logs. Appending to a shared WORK_LOG still creates overlap. Gate changed files before staging, preserve versions, and test the actual two-clone push race rather than promising that pull alone prevents conflicts.
 - Filtering delegated tasks out of a queue must not discard their records from dependency lookup: filter candidates while retaining the full DAG for prerequisite checks.
+
+- A lettered cloud can have correct spelling but unsuitable body/tail proportions for placement. Preserve that asset, create a revised proportion, and review the full page; do not force a tail through another figure or stretch the lettering. If the image tool rejects required locked wording, record the actual rejection and block that task while continuing independent pages.

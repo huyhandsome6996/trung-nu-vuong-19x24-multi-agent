@@ -1,0 +1,63 @@
+{
+  "page": 4,
+  "version": "v003",
+  "print_ready": false,
+  "user_approved": false,
+  "renderer": "ReportLab / vector text; PDF rendered separately with Poppler",
+  "native_size_px": [
+    1122,
+    1402
+  ],
+  "art_effective_dpi": [
+    144.75934959349595,
+    144.75934959349593
+  ],
+  "crop_mm": [
+    0.4350927246790235,
+    0.0
+  ],
+  "missing_glyphs": [],
+  "boxes": [
+    {
+      "kind": "narration",
+      "bbox_mm": [
+        18,
+        14,
+        154,
+        29
+      ],
+      "font_pt": 12.8,
+      "lines": 4,
+      "text_height_mm": 25.64835555555555,
+      "max_width_mm": 147.02197333333334,
+      "overflow": false
+    }
+  ],
+  "speech_assets": [
+    {
+      "index": 0,
+      "speaker": "Phùng Thị Chính",
+      "asset": "assets_generated/speech_clouds/PAGE04_SPEECH01_v002.png",
+      "sha256": "81130169ac3f6958b19832b87b62688d6fc4c0ad12b90c41f09ce60ca0d96155",
+      "bbox_mm": [
+        24,
+        92.5,
+        110,
+        55.0
+      ],
+      "native_size_px": [
+        1774,
+        887
+      ],
+      "effective_dpi": 409.63272727272727,
+      "visible_text_manually_verified": true,
+      "text": "Vợ chồng tiểu nữ dẫu phải vào núi đao biển lửa cũng quyết theo chủ công đánh đuổi giặc phương Bắc!"
+    }
+  ],
+  "pdf_text_matches": true,
+  "hashes": {
+    "svg": "ee33cff9242f881d8958ecdd9dc03606d530b1917de94639746372760287dcb5",
+    "pdf": "e171ab38272abb95292f5d9726036d9edad27b4bc1ad7643fc67db692ae9080c",
+    "reading": "97be1b1cce87bfaecd190908e18bfdddef02ab26ed999afc259a86bf73876e4b"
+  }
+}

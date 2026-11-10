@@ -1,0 +1,16 @@
+{
+  "page": 4,
+  "dialogues": [
+    {
+      "speaker": "Phùng Thị Chính",
+      "bbox_mm": [
+        24,
+        92.5,
+        110,
+        55.0
+      ],
+      "lettered_asset": "assets_generated/speech_clouds/PAGE04_SPEECH01_v002.png",
+      "style": "illustrated_lettered_cloud"
+    }
+  ]
+}

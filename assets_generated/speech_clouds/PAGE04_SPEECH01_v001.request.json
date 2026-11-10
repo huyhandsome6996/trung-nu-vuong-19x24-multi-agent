@@ -1,0 +1,18 @@
+{
+  "page": 4,
+  "speaker": "Phùng Thị Chính",
+  "text": "Vợ chồng tiểu nữ dẫu phải vào núi đao biển lửa cũng quyết theo chủ công đánh đuổi giặc phương Bắc!",
+  "prompt": "Use case: hand-lettered historical comic speech cloud for educational illustrated fiction, matching reference. Produce ONE isolated transparent RGBA cloud with ALL Vietnamese lettering visibly drawn inside. Match warm late-afternoon hall watercolor, restrained pale ivory peach paper, subtle grain and sepia ink contours. Organic oval/cloud outline with gentle human ink variation, no bright white UI rounded rectangle, no thick yellow glow, no3D shadow. Landscape2:1; main cloud occupies x2–98percent,y3–67percent. Short naturally curved tapered tail extends down from body nearx30percent,y62percent to tipx30percent,y98percent; same continuous paper/ink, not a straight triangle. Clear dark humanist serif Vietnamese lettering, full tone marks, calm resolute voice. Exact text: Vợ chồng tiểu nữ dẫu phải vào núi đao biển lửa cũng quyết theo chủ công đánh đuổi giặc phương Bắc! Draw THREE centered lines with generous padding:\nVợ chồng tiểu nữ dẫu phải vào\nnúi đao biển lửa cũng quyết theo\nchủ công đánh đuổi giặc phương Bắc!\nAll letters and accents correct and readable. Cloud and lettering are a single drawn asset; outside fully transparent. Reference supplies style/lighting only; no people, room, weapons or other scene elements in output. No extra words, watermark, signature or decorations. Native high detail2048x1024.",
+  "generator": "image_gen.imagegen",
+  "transparent_background": true,
+  "actual_reference_paths": [
+    "/workspace/scratch/9c77cb6cc5ef/trung-nu-vuong-19x24-multi-agent/assets_generated/raw_pages/PAGE04_v002.png"
+  ],
+  "actual_references": [
+    {
+      "path": "assets_generated/raw_pages/PAGE04_v002.png",
+      "tool_path": "/workspace/scratch/9c77cb6cc5ef/trung-nu-vuong-19x24-multi-agent/assets_generated/raw_pages/PAGE04_v002.png",
+      "sha256": "f97d300c5994e75b4abac637c9a7a0fa4f1f050401e7d58d678af67c7c56d363"
+    }
+  ]
+}
