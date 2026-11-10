@@ -1,0 +1,38 @@
+{
+  "image": "assets_generated/raw_pages/PAGE18_v002.png",
+  "version": "v002",
+  "native_size_px": [
+    1122,
+    1402
+  ],
+  "sha256": "74ff567b286730e5f6161d29c89dbcf915039cdaefd9406c968b5e04c26c8cc0",
+  "prompt": "Use case: historical-scene / illustration-story. Text-free Vietnamese historical-legend illustrated book for ages13–16. Portrait4:5 page, high native detail, sharp ink hatching and rich luminous controlled watercolor, mature heroic emotional storytelling matching the supplied design sheets. Keep exact facial structure, body type and costume colors from named reference positions. TOP20%canvas must be quiet pale atmosphere with NO heads, hands, weapons or important roofs; later Vietnamese parchment narration is typeset separately. Absolutely NO writing/letters anywhere, no captions, no speech balloons, no watermark/signature. Natural attached hands, normal limbs, mechanically connected weapons. No modern objects, no gore. Keep important faces/feet inside 8–92%width and belowy28% but above94%height. PAGE18 Template A iconic oath at Hát Môn. Single fullpage illustration. TrưngTrắc ref1RIGHT red/bronze armor, feathered golden diadem+WHITE mourning band stands centerleft x40%, face at y63%, whole body to y93%. TrưngNhị ref2NAVY/bronze armor and white mourningband stands rightbehind atx64%,facey66%; teachers from ref3 malegraybeardnavy and olderpurplewoman fartherback on altar. Main Trắc holds OPEN BLANK bamboo proclamation in one hand and a straight ancestral sword upright in other. SwordTIP atx20%,y57%, hiltaroundy76%, entirely BELOW the speech area, natural connected blade/grip. All named heads/feathers/hands BELOWy58%. Leave huge continuous quiet pale spring sky x8–92%,y0–54% with no people/props/weapons/importantflags: narrator uses0–20%, FULL long proclamation balloon will be added in y23–53%. No balloon or letters now. Lower altar scene hasgrayblue river/ranks andbronzedrums farbelow, blank flags near loweredges, redcape/whiteband wind to right. Heroic lowcamera but all4feet complete above94percent. Confidence, no rage, no magicalfire. Keep sharpink/watercolor mature style andexact distinct identities.",
+  "actual_references": [
+    {
+      "path": "assets_generated/characters/CHAR_01_Trung_Trac_v001.png",
+      "sha256": "3387a36a801705d08b9eac3dd778aca3533fced07300db8188cd71439eeec3c3"
+    },
+    {
+      "path": "assets_generated/design_system/CHAR02_v001.png",
+      "sha256": "f4075fc661a51398efee50470805fca95a86a76ee66ec00909ba1058818ff4c7"
+    },
+    {
+      "path": "assets_generated/design_system/CHAR07_v001.png",
+      "sha256": "2cd6a715af4eb27b42d6e597802431805b690c2f0c93cd31f788c10d3b3dadc3"
+    },
+    {
+      "path": "assets_generated/design_system/ENV03_v001.png",
+      "sha256": "fd58bd1e71c22e4bec7a0f54bb9ec6cec0b15ab0da5e0c8979c26e95bad6b929"
+    },
+    {
+      "path": "assets_generated/design_system/PROP01_v001.png",
+      "sha256": "8ac9a5f41d435726a72baf456d67dd3612cb3cd466e5f9b4f8f3794ee14f5a55"
+    }
+  ],
+  "generator": "image_gen.imagegen (model not exposed)",
+  "text_free": true,
+  "top_clearance_checked": true,
+  "visual_qa_report": "10_agent_workflow/tasks/PAGE18_ART/VISUAL_REVIEW.v002.md",
+  "user_approved": false,
+  "print_ready": false
+}

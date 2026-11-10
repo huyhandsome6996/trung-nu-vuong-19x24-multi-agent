@@ -31,3 +31,6 @@ Pulled latest main; scoped evidence passes. Actual requestv003 returned native11
 ### PAGE17 LAYOUT/QA v002 complete
 Opened actual finalfullpage and300DPI caption/tablet detail. All narrator words/accents and5keywords read; three editable labels HÙNG VƯƠNG QUỐC CHỦ / TRƯNG ĐỊNH / THI SÁCH exact to40–41. Complete censer and4cast with allfeetvisible; Trắc red,Nhịnavy,bothwhitebands,malegraybeardnavy/olderwomanpurple. Uniform recordedcrop/scale keeps crest belowcaption and feetinsidepage; no stretching. Noto embedded, correctPDFboxes,nooverflow; native144.76DPI/panels145.4DPIapprox, belowprinttarget. AGENT_QA only.
 Files: final_book_19x24/source/PAGE17_v002.svg, final_book_19x24/proofs/PAGE17_v002.pdf, final_book_19x24/reading/PAGE17_v002.pdf, final_book_19x24/proofs/PAGE17_v002.png, final_book_19x24/source/PAGE17_placement.v002.json, 10_agent_workflow/tasks/PAGE17_QA/report.v002.json. Next queue task.
+
+## PAGE18 rawv002 draft
+Actual output1122×1402 saved with exact5refs. Trắc/Nhị correct, but male teacher missing and female incorrectly holdsstaff; feathercrest intrudes longspeecharea. ART remainsin_progress; edit requested next.

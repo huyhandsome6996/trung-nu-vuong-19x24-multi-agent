@@ -1,0 +1,1 @@
+Opened actual native: correct Trắc red/Nhịnavy, whitebands, blankproclamation, attachedsword/hands. DRAFT: omitted maleĐôNăngTế and gave hisstaff to CẩmNương; maincrest too high for longspeech and boots nearbottom. Requires imageedit; no ARTpass.

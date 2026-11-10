@@ -743,10 +743,10 @@
       ],
       "instructions": "Lấy text đã khóa từ evidence bước TEXT. Xem các sheet liên quan; soạn prompt cuối theo cảnh, ghi actual_references và hash. Tạo ảnh bằng công cụ sinh ảnh, nền không chữ, không bóng thoại, chừa20% đỉnh; dùng đúng A/B/C. Kiểm mặt, phục trang, tay/chân/vũ khí và hành động. Lưu PNG native có phiên bản và metadata theo templates/RAW_IMAGE_METADATA.json. Không resize rồi khai native300DPI.",
       "evidence": [],
-      "last_note": "Read locked full proclamation/source41–42;5active references already opened; prepare spacious oath illustration",
+      "last_note": "Actualv002 saved; draft misses maleĐôNăngTế and lacks longspeechclearance. Recompose and correct teachers beforefinish",
       "page": 18,
       "owner": "agent_a",
-      "updated_at": "2026-11-10T08:21:51+00:00",
+      "updated_at": "2026-11-10T08:26:55+00:00",
       "block_reason": ""
     },
     {
@@ -1096,6 +1096,12 @@
       "task": "PAGE18_ART",
       "action": "start",
       "note": "Read locked full proclamation/source41–42;5active references already opened; prepare spacious oath illustration"
+    },
+    {
+      "at": "2026-11-10T08:26:55+00:00",
+      "task": "PAGE18_ART",
+      "action": "checkpoint",
+      "note": "Actualv002 saved; draft misses maleĐôNăngTế and lacks longspeechclearance. Recompose and correct teachers beforefinish"
     }
   ]
 }
