@@ -1,0 +1,22 @@
+{
+  "text": "Lục Hiến! Ngươi ăn lộc đất Nam mà dẫn giặc về hại Thần y và đồng bào, còn mặt mũi nào nhìn hương thân phụ lão đất Phượng Hoàng!",
+  "speaker": "Đô tướng nghĩa quân (chỉ mặt Lục Hiến)",
+  "status": "visual_text_verified",
+  "image": "assets_generated/speech_clouds/PAGE25_SPEECH01_v001.png",
+  "sha256": "0daacd50ee1bbd1adcecf5608ca2d142a021408a4a793fa51bf697892fdb87b5",
+  "native_size_px": [
+    2172,
+    724
+  ],
+  "generator": "image_gen.imagegen built-in; model not exposed",
+  "prompt": "Create transparent RGBA lettered speech artwork matching supplied PAGE25 historical ink/watercolor courtyard. Draw both organic cloud and ALL exact Vietnamese text together. Wide horizontal ratio3:1 about2250x750. Main softly irregular oval/cloud body RIGHT88percent ofcanvas; shortcurvedtail frombodyLOWERLEFT atabout(17percentwidth,70percentheight) ends at(1percentwidth,96percentheight), pointing LEFT-DOWN toward youngcaptain'smouth. No scenery/characters outside cloud. Paper warm grey-ivory with muted pale sage reflection and soft tan edge, very restrained grain, darkbrown-ink outline slightly emphatic for reprimand, not brightyellow universalcloud orwhiteUIcard. Clear dark humanist serif/comicbooklettering, no ornatecalligraphy. Entire exact quote in FIVE balanced lines with margins. Text verbatim: Lục Hiến! Ngươi ăn lộc đất Nam mà dẫn giặc về hại Thần y và đồng bào, còn mặt mũi nào nhìn hương thân phụ lão đất Phượng Hoàng! Suggested breaks: Lục Hiến! Ngươi ăn lộc đất Nam / mà dẫn giặc về hại Thần y và đồng bào, / còn mặt mũi nào nhìn / hương thân phụ lão / đất Phượng Hoàng! Keep every word and correct accent/punctuation, no quotes/slashes/title added. Transparent outside, no shadow, watermark or labels.",
+  "actual_references": [
+    {
+      "path": "assets_generated/raw_pages/PAGE25_v002.png",
+      "sha256": "5971624a5dc89dabcf84ef9e7c71c6cea177bd0fca67c41e0e8d2c9dd3a552d2"
+    }
+  ],
+  "visual_review": "Manual reading of all visible words and accents in returned native pixels: exact locked quote. Alpha retained. Final placement reviewed separately.",
+  "user_approved": false,
+  "print_ready": false
+}

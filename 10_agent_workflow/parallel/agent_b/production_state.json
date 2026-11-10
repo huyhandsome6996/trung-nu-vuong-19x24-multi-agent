@@ -849,55 +849,148 @@
       "id": "PAGE25_LAYOUT",
       "kind": "layout",
       "title": "Trang25: ghép chữ và bố cục",
-      "status": "in_progress",
+      "status": "done",
       "depends_on": [
         "PAGE25_ART"
       ],
       "instructions": "Dùng nguyên text đã khóa và tranh đã kiểm. Ghép khung giấy cổ, tô đỏ #C81E1E cho **...**, đặt đủ thoại/đuôi bóng đúng người. Khổ196×246/trim190×240. Dùng layout_tokens, đo tràn chữ bằng renderer thật; xuất bản xem PNG/PDF và nguồn có thể sửa. scripts/typeset_preview.py là trợ giúp HTML; không coi HTML/PDF xem trước là file in đã duyệt.",
-      "evidence": [],
-      "last_note": "Vẽkhungvàthoạinguyênvăn; đuôixuốngtráitớiđôtướngKhúc.",
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/PAGE25_LAYOUT/report.v001.json",
+          "sha256": "8f02fe00ce3da5b3a885604b1374ae3d531383f194b27eda985da08211895b34"
+        },
+        {
+          "path": "final_book_19x24/source/PAGE25_v001.svg",
+          "sha256": "dc5da8e2418656d4112c5afe9e6b5b0b6da3a32768d7cf17ac073b46e0e7855c"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE25_v001.pdf",
+          "sha256": "7058a313f41159f7eaf02810f2d027646ea60ed07d069c2f4ce6b1a63bad94d3"
+        },
+        {
+          "path": "final_book_19x24/reading/PAGE25_v001.pdf",
+          "sha256": "b05b11b1aa6aad934e87248442051faa03da0aeb98aa555e572c3d127176b10f"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE25_v001.png",
+          "sha256": "479cb91a9fcd19e9b5a0b71fa82f6fa8bb35ca1dd36974ec5290ced83bb7c91f"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE25_v001.json",
+          "sha256": "f8b1394646bd3f440f6007983b631b32ebd6bc18be3b59c3e6b892da38dcec4c"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE25_v001_300dpi.png",
+          "sha256": "ddce90d38f1c5dddd6c80cdb4be41b8149ca440e256c96f93b1d1314ef5cb2cf"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE25_v001_detail.png",
+          "sha256": "c3d46a214ada809506265135498a9a53034a4837243f94eff2eb28fdd860a661"
+        },
+        {
+          "path": "final_book_19x24/source/PAGE25_v002.placement.json",
+          "sha256": "625086a8df35ac8b810ec34c7d9325258d746de576c2240f17c3351c9a69f0fc"
+        },
+        {
+          "path": "10_agent_workflow/tasks/PAGE25_LAYOUT/technical.v001.json",
+          "sha256": "624df3d74c7e9e4c914ecbfa032130719cb4bba771b0bc8e95a3fde342f55d1c"
+        },
+        {
+          "path": "10_agent_workflow/parallel/agent_b/render_page.snapshot.v001.py",
+          "sha256": "314b628a5cc0595ee6e38165862b78866c3ada9008ecce9e05cecf07fe135108"
+        },
+        {
+          "path": "assets_generated/speech_clouds/PAGE25_SPEECH01_v001.png",
+          "sha256": "0daacd50ee1bbd1adcecf5608ca2d142a021408a4a793fa51bf697892fdb87b5"
+        },
+        {
+          "path": "assets_generated/speech_clouds/PAGE25_SPEECH01_v001.json",
+          "sha256": "7657ba8c105e1ae6ccb3013d62849ad1aad22f0f064d069d1a4a859583fb9884"
+        },
+        {
+          "path": "assets_generated/speech_clouds/PAGE25_SPEECH01_v001.prompt.txt",
+          "sha256": "66c8ab2886cda8ce27c56c70da8622212529f739b2a76ec2cd471e170c14a24e"
+        }
+      ],
+      "last_note": "PDF/PNG/SVGđãmởkiểm,thoạiđủ5dòng.",
       "page": 25,
       "owner": "agent_b",
-      "updated_at": "2026-11-10T08:24:45+00:00"
+      "updated_at": "2026-11-10T08:27:46+00:00"
     },
     {
       "id": "PAGE25_QA",
       "kind": "qa",
       "title": "Trang25: kiểm nguồn/mỹ thuật/chữ/khổ",
-      "status": "todo",
+      "status": "done",
       "depends_on": [
         "PAGE25_LAYOUT"
       ],
       "instructions": "Mở ảnh render ở kích thước đọc thật và zoom100%; so với scan, sheet, text đã khóa. Kiểm bốn lớp historical/art/language/print_geometry. Ghi lỗi cụ thể và sửa về đúng bước. Báo cáo pass chỉ khi có artifact thực và không còn lỗi trong phạm vi; đây là QA của agent, không phải chủ dự án duyệt.",
-      "evidence": [],
-      "last_note": "",
-      "page": 25
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/PAGE25_QA/report.v001.json",
+          "sha256": "090115e9c8de4d57599cc4dbd6eb04ba2ac6bfe7814a8d88628cf6c01b1523a9"
+        },
+        {
+          "path": "10_agent_workflow/tasks/PAGE25_LAYOUT/report.v001.json",
+          "sha256": "8f02fe00ce3da5b3a885604b1374ae3d531383f194b27eda985da08211895b34"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE25_v001.png",
+          "sha256": "479cb91a9fcd19e9b5a0b71fa82f6fa8bb35ca1dd36974ec5290ced83bb7c91f"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE25_v001_detail.png",
+          "sha256": "c3d46a214ada809506265135498a9a53034a4837243f94eff2eb28fdd860a661"
+        },
+        {
+          "path": "10_agent_workflow/tasks/PAGE25_LAYOUT/technical.v001.json",
+          "sha256": "624df3d74c7e9e4c914ecbfa032130719cb4bba771b0bc8e95a3fde342f55d1c"
+        }
+      ],
+      "last_note": "4lớpđạt bảnđọc, native/effectiveDPItrongmetrics.",
+      "page": 25,
+      "owner": "agent_b",
+      "updated_at": "2026-11-10T08:27:48+00:00"
     },
     {
       "id": "PAGE26_TEXT",
       "kind": "text",
       "title": "Trang26: đối chiếu và khóa chữ",
-      "status": "todo",
+      "status": "done",
       "depends_on": [
         "DESIGN_BASELINE"
       ],
       "instructions": "Đọc nguyên cảnh và nguồn scan; sửa các câu cường điệu/không có căn cứ, giữ giọng hào hùng 13–16 tuổi. Đếm thật 35–65 tiếng theo khoảng trắng, không dùng số từ ghi trong tiêu đề làm chứng cứ. Chép đủ thoại vào text.v001.json, giữ **từ khóa**; ghi nguồn, template và hash storyboard. Khóa chữ sau khi kiểm. Nếu sửa toàn file storyboard về sau, rà lại các text đã khóa theo hash mới.",
-      "evidence": [],
-      "last_note": "",
-      "page": 26
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/PAGE26_TEXT/report.v001.json",
+          "sha256": "bb4b49406284cabc38b477bb27001383c18efbd8e678c23c32c842c1d408df01"
+        },
+        {
+          "path": "10_agent_workflow/tasks/PAGE26_TEXT/text.v001.json",
+          "sha256": "9a69647dd4353f4e73ae86c4e83749106da5bbf61923d42e93527bb3bb61a388"
+        }
+      ],
+      "last_note": "Chữđãkhóasauđốichiếuscan,1thoạiđầyđủ.",
+      "page": 26,
+      "owner": "agent_b",
+      "updated_at": "2026-11-10T08:27:50+00:00"
     },
     {
       "id": "PAGE26_ART",
       "kind": "art",
       "title": "Trang26: tạo và kiểm tranh nền",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "PAGE26_TEXT"
       ],
       "instructions": "Lấy text đã khóa từ evidence bước TEXT. Xem các sheet liên quan; soạn prompt cuối theo cảnh, ghi actual_references và hash. Tạo ảnh bằng công cụ sinh ảnh, nền không chữ, không bóng thoại, chừa20% đỉnh; dùng đúng A/B/C. Kiểm mặt, phục trang, tay/chân/vũ khí và hành động. Lưu PNG native có phiên bản và metadata theo templates/RAW_IMAGE_METADATA.json. Không resize rồi khai native300DPI.",
       "evidence": [],
-      "last_note": "",
-      "page": 26
+      "last_note": "Tạocảnh5cọc/5người, ThánhThiêngreen/white, khônghànhquyết.",
+      "page": 26,
+      "owner": "agent_b",
+      "updated_at": "2026-11-10T08:27:51+00:00"
     },
     {
       "id": "PAGE26_LAYOUT",
@@ -1400,6 +1493,42 @@
       "task": "PAGE25_LAYOUT",
       "action": "start",
       "note": "Vẽkhungvàthoạinguyênvăn; đuôixuốngtráitớiđôtướngKhúc."
+    },
+    {
+      "at": "2026-11-10T08:27:46+00:00",
+      "task": "PAGE25_LAYOUT",
+      "action": "finish",
+      "note": "PDF/PNG/SVGđãmởkiểm,thoạiđủ5dòng."
+    },
+    {
+      "at": "2026-11-10T08:27:47+00:00",
+      "task": "PAGE25_QA",
+      "action": "start",
+      "note": "Kiểm4lớpnguồn/nhậndiện/chữ/khổ."
+    },
+    {
+      "at": "2026-11-10T08:27:48+00:00",
+      "task": "PAGE25_QA",
+      "action": "finish",
+      "note": "4lớpđạt bảnđọc, native/effectiveDPItrongmetrics."
+    },
+    {
+      "at": "2026-11-10T08:27:49+00:00",
+      "task": "PAGE26_TEXT",
+      "action": "start",
+      "note": "Đọcscan57–58,5cọc/5tùbinh,3tướngvôdanh; giữthoạikhóa."
+    },
+    {
+      "at": "2026-11-10T08:27:50+00:00",
+      "task": "PAGE26_TEXT",
+      "action": "finish",
+      "note": "Chữđãkhóasauđốichiếuscan,1thoạiđầyđủ."
+    },
+    {
+      "at": "2026-11-10T08:27:51+00:00",
+      "task": "PAGE26_ART",
+      "action": "start",
+      "note": "Tạocảnh5cọc/5người, ThánhThiêngreen/white, khônghànhquyết."
     }
   ]
 }

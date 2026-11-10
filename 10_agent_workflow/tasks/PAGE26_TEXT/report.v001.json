@@ -1,0 +1,19 @@
+{
+  "task_id": "PAGE26_TEXT",
+  "kind": "text",
+  "status": "passed",
+  "reviewer": "agent_b",
+  "summary": "Đã đọc nguồn; khóa 48tiếng và 1thoại đầy đủ. ĐãmởscanPDF57–58/sách268–269:5cọc,2ngườicótênTào/Lụcvà3tướngkhôngnêutên;khônggánSầmLân/SầmBá/ĐộcCôTấn. Thoạichuyểnthểgộpcáccâutuyên tộivàmệnhlệnh,giữnguyênstoryboard. Tranhdừngởtuyênán, khôngvẽhànhquyết/máuthươngtích, phùhợp13–16tuổi. Giữ5cụmkeywordgốc.",
+  "checks": {
+    "source_alignment": "pass",
+    "narration_35_65": "pass",
+    "keywords_preserved": "pass",
+    "dialogue_locked": "pass",
+    "template_locked": "pass"
+  },
+  "artifacts": [
+    "10_agent_workflow/tasks/PAGE26_TEXT/text.v001.json"
+  ],
+  "open_issues": [],
+  "reviewed_at": "2026-11-10T08:27:49.649445+00:00"
+}

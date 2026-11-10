@@ -1,0 +1,80 @@
+{
+  "boxes_mm": {
+    "media": [
+      196,
+      246
+    ],
+    "trim": [
+      190,
+      240
+    ],
+    "bleed": [
+      196,
+      246
+    ]
+  },
+  "fonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+NotoSans-Bold                 TrueType          WinAnsi          yes yes yes      7  0\nAAAAAA+NotoSans-Regular              TrueType          WinAnsi          yes yes yes     11  0\n",
+  "metrics": {
+    "page": 25,
+    "version": "v001",
+    "print_ready": false,
+    "user_approved": false,
+    "renderer": "ReportLab / vector text; PDF rendered separately with Poppler",
+    "native_size_px": [
+      1120,
+      1405
+    ],
+    "art_effective_dpi": [
+      145.0691056910569,
+      145.0691056910569
+    ],
+    "crop_mm": [
+      0.04982206405694001,
+      0.0
+    ],
+    "missing_glyphs": [],
+    "boxes": [
+      {
+        "kind": "narration",
+        "bbox_mm": [
+          18,
+          14,
+          154,
+          29
+        ],
+        "font_pt": 12.8,
+        "lines": 4,
+        "text_height_mm": 25.64835555555555,
+        "max_width_mm": 153.93077333333332,
+        "overflow": false
+      }
+    ],
+    "speech_assets": [
+      {
+        "index": 0,
+        "speaker": "Đô tướng nghĩa quân (chỉ mặt Lục Hiến)",
+        "asset": "assets_generated/speech_clouds/PAGE25_SPEECH01_v001.png",
+        "sha256": "0daacd50ee1bbd1adcecf5608ca2d142a021408a4a793fa51bf697892fdb87b5",
+        "bbox_mm": [
+          52,
+          57,
+          122,
+          40.666666666666664
+        ],
+        "native_size_px": [
+          2172,
+          724
+        ],
+        "effective_dpi": 452.20327868852456,
+        "visible_text_manually_verified": true,
+        "text": "Lục Hiến! Ngươi ăn lộc đất Nam mà dẫn giặc về hại Thần y và đồng bào, còn mặt mũi nào nhìn hương thân phụ lão đất Phượng Hoàng!"
+      }
+    ],
+    "pdf_text_matches": true,
+    "hashes": {
+      "svg": "dc5da8e2418656d4112c5afe9e6b5b0b6da3a32768d7cf17ac073b46e0e7855c",
+      "pdf": "7058a313f41159f7eaf02810f2d027646ea60ed07d069c2f4ce6b1a63bad94d3",
+      "reading": "b05b11b1aa6aad934e87248442051faa03da0aeb98aa555e572c3d127176b10f"
+    }
+  }
+}

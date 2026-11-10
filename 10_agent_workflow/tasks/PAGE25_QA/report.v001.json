@@ -1,0 +1,21 @@
+{
+  "task_id": "PAGE25_QA",
+  "kind": "qa",
+  "status": "passed",
+  "reviewer": "agent_b",
+  "summary": "Nguồnscan54–57:quânvâynhàgỗ, Tào/Lụcchờ, đô tướngquởtrách, ThánhThiêncưỡingựaxuống. Đúngnhậndiện/giáplục; tay/ngón/reins/4móngngựađãkiểm. Đọc từngtiếng/dấuthựctừnativevàdetail300;6keywordđỏ; font/box/safeđạt. AGENT_QA only, not USER_APPROVED/PRINT_READY. Native/effective DPI measured in metrics; no upscaling claims.",
+  "checks": {
+    "historical": "pass",
+    "art": "pass",
+    "language": "pass",
+    "print_geometry": "pass"
+  },
+  "artifacts": [
+    "10_agent_workflow/tasks/PAGE25_LAYOUT/report.v001.json",
+    "final_book_19x24/proofs/PAGE25_v001.png",
+    "final_book_19x24/proofs/PAGE25_v001_detail.png",
+    "10_agent_workflow/tasks/PAGE25_LAYOUT/technical.v001.json"
+  ],
+  "open_issues": [],
+  "reviewed_at": "2026-11-10T08:27:47.961872+00:00"
+}

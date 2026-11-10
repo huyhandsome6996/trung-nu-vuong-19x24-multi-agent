@@ -1,0 +1,18 @@
+{
+  "page": 26,
+  "template": "A",
+  "status": "locked",
+  "narration": "Giữa sân núi Phượng Hoàng, **Tào Quyền**, **Lục Hiến** cùng ba tướng giặc bị trói vào **năm chiếc cọc gỗ**. Trước nghĩa quân, **Nữ động chủ Thánh Thiên** rút trường kiếm, **hiên ngang tuyên tội**. Nàng kết tội kẻ sát hại cha mình rồi ra lệnh trảm thủ.",
+  "dialogues": [
+    {
+      "speaker": "Thánh Thiên (uy phong lẫm liệt)",
+      "text": "Tào tặc! Ngươi vô cớ sát hại cha ta, tàn hại dòng giống Lạc Việt ta. Hôm nay ta thay mặt trời đất Giao Chỉ tuyên án: TRẢM THỦ!"
+    }
+  ],
+  "dialogues_status": "locked",
+  "storyboard_path": "03_storyboards_and_scripts/STORYBOARD_PART_2_HOI_8_HAT_MON_PHUONG_HOANG.md",
+  "storyboard_sha256": "51b2b09b8cf339ee46f55c7b018dc65d2d90cbd1934d0263a42719e909c7aaeb",
+  "source_notes": "ĐãmởscanPDF57–58/sách268–269:5cọc,2ngườicótênTào/Lụcvà3tướngkhôngnêutên;khônggánSầmLân/SầmBá/ĐộcCôTấn. Thoạichuyểnthểgộpcáccâutuyên tộivàmệnhlệnh,giữnguyênstoryboard. Tranhdừngởtuyênán, khôngvẽhànhquyết/máuthươngtích, phùhợp13–16tuổi. Giữ5cụmkeywordgốc.",
+  "note": "Agent B: source-checked adaptation; storyboard shared file preserved.",
+  "narration_tokens": 48
+}

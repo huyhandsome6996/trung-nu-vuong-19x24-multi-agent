@@ -26,3 +26,5 @@ Owned pages: 21, 22, 23, 24, 25, 26, 27, 28. Only this agent appends here.
 - Pullmainmớinhất, queueB13done/1blocked/18todo; khônglàmtrùng21–23. UnblockART24vàgọilạitool, rawv001đỉnhthiếuđượcgiữ. Ảnhsửav002đãtrả/mởkiểmđỉnh24%thoáng,2cảnhđúngnguồn.
 - Trang24hoànthành4bước:TEXTv00154tiếng/0thoại/4keyword; rawv002; layoutv001SVG/proof/reading/PNG150+300+detail. Font/box/safe/nỏ/tay/chânđãkiểm.
 - Xácthựcmớidùngtạmtrongtiếntrình; wrapperđãpushcheckpointthật, khônglưutoken.
+
+- Trang25hoànthành4bước:TEXTv00150tiếng/1thoại/6keyword, rawv002sửamóng/vùngthoại, speechv0015dòngđãđọctừngdấu;layoutv001/placementv002gutter142.6theoseam. Mởtoàntrang150/detail300, font/box/safeđạt.
