@@ -33,3 +33,9 @@ Bản đọc ghép6trang đầu là checkpoint, chưa đủ sách. Trang04LAYOUT
 Latest accepted illustrated-speech samples: PAGE12LAYOUTv003/ARTv001; PAGE13LAYOUTv002/ARTv003. Both contain actual lettered-cloud PNG artwork placed without distortion; original locked quote and exact generation request are retained. Render snapshotv004 supports these assets. PDF extraction validates narration only; visible dialogue requires manual review.
 
 Old layouts03,04,06,07,09,10,11 are retained as historical drafts and reopened for the new speech style. Do not assemble them as fully revised/approved pages. Pages01,02,05,08 have no ordinary speech clouds requiring this restyle. PAGE12v003 and PAGE13v002 are agent-reviewed proofs, not user approval or print release. Use current task evidence for the remaining version selections; the six-page table above is historical.
+
+## Coordinator checkpoint10Nov after A/B launch
+
+Current illustrated-speech layout/QA:06v002,07v003,09v004,10v004,11v003;04v003/12v003/13v002 remain unchanged.03is still blocked, old03v001 is not revised-QA.
+
+Front coverv002; backv001; insidefrontv001; insidebackv002; MATTER_I/II/III/IVv001. Sources are immutable render_ancillaryv001/v002/v003 and placementJSON; report evidence selects exact versions. Pagination inFRONT_MATTER selects36reading faces, including28story pages resolved from currentQA after lane integration. Eight-face covers/matter reviewPDF is not a full book.

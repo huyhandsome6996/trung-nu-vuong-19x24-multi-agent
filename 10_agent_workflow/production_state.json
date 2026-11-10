@@ -3842,85 +3842,390 @@
       "id": "FRONT_ART",
       "kind": "art",
       "title": "Bìa trước: minh họa",
-      "status": "todo",
+      "status": "done",
       "depends_on": [
         "DESIGN_BASELINE"
       ],
       "instructions": "Đọc COVER_DESIGN_SPEC, thư viện prompt và SOURCE_DECISIONS. Dùng sheet hiện hành; tạo ảnh nền không chữ. Bìa sau có lư hương/cờ ngũ sắc, không tự đặt mã ISBN. Lưu ảnh native và metadata; artcheck tương tự trang ruột.",
-      "evidence": [],
-      "last_note": ""
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/FRONT_ART/report.v001.json",
+          "sha256": "6b263f9c748af50d4ebb41f296198884243f89b82bf0b69e8f8bbd8abf005bc9"
+        },
+        {
+          "path": "assets_generated/covers/FRONT_v001.png",
+          "sha256": "cd41a77036724db8a6b198b0040bacf8e6fb49208866eff0f3ec21ec7d64a1df"
+        },
+        {
+          "path": "assets_generated/covers/FRONT_v001.json",
+          "sha256": "f8ff279c54154b7715c2490a31628511b88cdb69edc2d0ae19f5a639dad59c13"
+        },
+        {
+          "path": "10_agent_workflow/tasks/FRONT_ART/request.v001.json",
+          "sha256": "e40771ab4298eb39ac5a51dbf11cdaaff7c9378778ed7f94df8eb0dde2896abd"
+        }
+      ],
+      "last_note": "Montage four identities verified; title constrained to actual clear sky",
+      "owner": "coordinator",
+      "updated_at": "2026-11-10T07:15:51+00:00"
     },
     {
       "id": "FRONT_LAYOUT",
       "kind": "layout",
       "title": "Bìa trước: typography",
-      "status": "todo",
+      "status": "done",
       "depends_on": [
         "FRONT_ART"
       ],
       "instructions": "Khóa chữ bìa trong JSON riêng; bìa trước có4 tầng chữ, bìa sau có tóm tắt và vị trí ISBN. Chừa trống thông tin xuất bản chưa được cấp, ghi vào phụ thuộc PRINT_SPEC, không dựng ISBN giả. Xuất bản xem và nguồn sửa được.",
-      "evidence": [],
-      "last_note": ""
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/FRONT_LAYOUT/report.v002.json",
+          "sha256": "711c93672e1a728692003b1c41b0c46d5b2a1d6c0dec3b687c287b46dc60c246"
+        },
+        {
+          "path": "final_book_19x24/source/render_ancillary.v002.py",
+          "sha256": "7c455ce76bf1e9c5906e6f506a018234944535cbbf0683cb5a8cddc4befffbc2"
+        },
+        {
+          "path": "final_book_19x24/source/FRONT_placement.v002.json",
+          "sha256": "d7b2dd168f71b00e1657874fd1577950c26cc57a7b406657eb24c9ceee994235"
+        },
+        {
+          "path": "final_book_19x24/proofs/FRONT_v002.pdf",
+          "sha256": "e00f98fa2dd2dcff3e4b8769c4c6595fb6d2e0f3beb53fbc5eefd253aa797b2e"
+        },
+        {
+          "path": "final_book_19x24/proofs/FRONT_v002.png",
+          "sha256": "1c3d0dd03f639520e2aed6b54cb7fdaf7c6576021bff364fb6cea73cc6a2df24"
+        },
+        {
+          "path": "final_book_19x24/reading/FRONT_v002.pdf",
+          "sha256": "44b6edc55519ad768f21ce1d3bd9caa05a8181ee09e56106f97b7937c70bac89"
+        },
+        {
+          "path": "assets_generated/covers/FRONT_v001.png",
+          "sha256": "cd41a77036724db8a6b198b0040bacf8e6fb49208866eff0f3ec21ec7d64a1df"
+        },
+        {
+          "path": "assets_generated/covers/FRONT_v001.json",
+          "sha256": "f8ff279c54154b7715c2490a31628511b88cdb69edc2d0ae19f5a639dad59c13"
+        }
+      ],
+      "last_note": "Four-tier title and full boots verified",
+      "owner": "coordinator",
+      "updated_at": "2026-11-10T07:23:56+00:00"
     },
     {
       "id": "FRONT_QA",
       "kind": "qa",
       "title": "Bìa trước: kiểm bản xem",
-      "status": "todo",
+      "status": "done",
       "depends_on": [
         "FRONT_LAYOUT"
       ],
       "instructions": "Kiểm typography, dấu Việt, mặt nhân vật, safe/bleed, điều kiện ISBN/gáy. Đây là QA bản xem; yêu cầu nhà in phải kiểm tại PRINT_SPEC/ASSEMBLY.",
-      "evidence": [],
-      "last_note": ""
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/FRONT_QA/report.v002.json",
+          "sha256": "3247e3173ffcfc94fdf6f0ff8e6485e64831ab7f976531d332f3f2d6c3738c12"
+        },
+        {
+          "path": "final_book_19x24/source/render_ancillary.v002.py",
+          "sha256": "7c455ce76bf1e9c5906e6f506a018234944535cbbf0683cb5a8cddc4befffbc2"
+        },
+        {
+          "path": "final_book_19x24/source/FRONT_placement.v002.json",
+          "sha256": "d7b2dd168f71b00e1657874fd1577950c26cc57a7b406657eb24c9ceee994235"
+        },
+        {
+          "path": "final_book_19x24/proofs/FRONT_v002.pdf",
+          "sha256": "e00f98fa2dd2dcff3e4b8769c4c6595fb6d2e0f3beb53fbc5eefd253aa797b2e"
+        },
+        {
+          "path": "final_book_19x24/proofs/FRONT_v002.png",
+          "sha256": "1c3d0dd03f639520e2aed6b54cb7fdaf7c6576021bff364fb6cea73cc6a2df24"
+        },
+        {
+          "path": "final_book_19x24/reading/FRONT_v002.pdf",
+          "sha256": "44b6edc55519ad768f21ce1d3bd9caa05a8181ee09e56106f97b7937c70bac89"
+        },
+        {
+          "path": "assets_generated/covers/FRONT_v001.png",
+          "sha256": "cd41a77036724db8a6b198b0040bacf8e6fb49208866eff0f3ec21ec7d64a1df"
+        },
+        {
+          "path": "assets_generated/covers/FRONT_v001.json",
+          "sha256": "f8ff279c54154b7715c2490a31628511b88cdb69edc2d0ae19f5a639dad59c13"
+        }
+      ],
+      "last_note": "Front cover reviewed for reading edition",
+      "owner": "coordinator",
+      "updated_at": "2026-11-10T07:23:56+00:00"
     },
     {
       "id": "BACK_ART",
       "kind": "art",
       "title": "Bìa sau: minh họa",
-      "status": "todo",
+      "status": "done",
       "depends_on": [
         "DESIGN_BASELINE"
       ],
       "instructions": "Đọc COVER_DESIGN_SPEC, thư viện prompt và SOURCE_DECISIONS. Dùng sheet hiện hành; tạo ảnh nền không chữ. Bìa sau có lư hương/cờ ngũ sắc, không tự đặt mã ISBN. Lưu ảnh native và metadata; artcheck tương tự trang ruột.",
-      "evidence": [],
-      "last_note": ""
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/BACK_ART/report.v001.json",
+          "sha256": "c8b2730d94932a90e14fbaa1ee9f97d14da83730dca51d0c505dd2c233f3d4c3"
+        },
+        {
+          "path": "assets_generated/covers/BACK_v001.png",
+          "sha256": "c331aa6e3d83291947ac8ee6f64eb3ca409ae2e80f55de47c0009241ade42470"
+        },
+        {
+          "path": "assets_generated/covers/BACK_v001.json",
+          "sha256": "ee1cba8f394a03dda7d1f051a1611dc0df5b80e6854b922eeb70178278ce5f9f"
+        },
+        {
+          "path": "10_agent_workflow/tasks/BACK_ART/request.v001.json",
+          "sha256": "40b0852af6470a9903a438e05cbf16e042d671c6ed5ff9c26aebbc468c366e2a"
+        }
+      ],
+      "last_note": "Bronze burner/altar and synopsis clearance visually verified",
+      "owner": "coordinator",
+      "updated_at": "2026-11-10T07:17:55+00:00"
     },
     {
       "id": "BACK_LAYOUT",
       "kind": "layout",
       "title": "Bìa sau: typography",
-      "status": "todo",
+      "status": "done",
       "depends_on": [
         "BACK_ART"
       ],
       "instructions": "Khóa chữ bìa trong JSON riêng; bìa trước có4 tầng chữ, bìa sau có tóm tắt và vị trí ISBN. Chừa trống thông tin xuất bản chưa được cấp, ghi vào phụ thuộc PRINT_SPEC, không dựng ISBN giả. Xuất bản xem và nguồn sửa được.",
-      "evidence": [],
-      "last_note": ""
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/BACK_LAYOUT/report.v001.json",
+          "sha256": "9ebf8fb3a9e7ee985664c1c6783a3ae233fb050d99128d899097db6f60665ddb"
+        },
+        {
+          "path": "final_book_19x24/source/render_ancillary.v001.py",
+          "sha256": "26f628861e15b0134031c78092331734c2da6760462ee550328f227a6d3e2fbf"
+        },
+        {
+          "path": "final_book_19x24/source/BACK_placement.v001.json",
+          "sha256": "54d2e9b87880fd3794526fe04f5eec8cec06c5ae29ee9ede37c7365380b12a68"
+        },
+        {
+          "path": "final_book_19x24/proofs/BACK_v001.pdf",
+          "sha256": "a4eef2a1787a01c8a87dc799de87e6ad4d57ecb4c5b79f2f0256af06902927ca"
+        },
+        {
+          "path": "final_book_19x24/proofs/BACK_v001.png",
+          "sha256": "af0c8175948667e9c31bb52fce645f7d2fb4e556eae2bb6587ed05376f54b4d0"
+        },
+        {
+          "path": "final_book_19x24/reading/BACK_v001.pdf",
+          "sha256": "e159258d589a39c33bb62fef1187bae51400ef7185bf0d727960c3b68c71ae46"
+        },
+        {
+          "path": "assets_generated/covers/BACK_v001.png",
+          "sha256": "c331aa6e3d83291947ac8ee6f64eb3ca409ae2e80f55de47c0009241ade42470"
+        },
+        {
+          "path": "assets_generated/covers/BACK_v001.json",
+          "sha256": "ee1cba8f394a03dda7d1f051a1611dc0df5b80e6854b922eeb70178278ce5f9f"
+        }
+      ],
+      "last_note": "Synopsis and source-aware readership note verified",
+      "owner": "coordinator",
+      "updated_at": "2026-11-10T07:24:42+00:00"
     },
     {
       "id": "BACK_QA",
       "kind": "qa",
       "title": "Bìa sau: kiểm bản xem",
-      "status": "todo",
+      "status": "done",
       "depends_on": [
         "BACK_LAYOUT"
       ],
       "instructions": "Kiểm typography, dấu Việt, mặt nhân vật, safe/bleed, điều kiện ISBN/gáy. Đây là QA bản xem; yêu cầu nhà in phải kiểm tại PRINT_SPEC/ASSEMBLY.",
-      "evidence": [],
-      "last_note": ""
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/BACK_QA/report.v001.json",
+          "sha256": "65ee8b8be800a978f6d521addd24bad142dadd67a29f05c3999189274b2b1469"
+        },
+        {
+          "path": "final_book_19x24/source/render_ancillary.v001.py",
+          "sha256": "26f628861e15b0134031c78092331734c2da6760462ee550328f227a6d3e2fbf"
+        },
+        {
+          "path": "final_book_19x24/source/BACK_placement.v001.json",
+          "sha256": "54d2e9b87880fd3794526fe04f5eec8cec06c5ae29ee9ede37c7365380b12a68"
+        },
+        {
+          "path": "final_book_19x24/proofs/BACK_v001.pdf",
+          "sha256": "a4eef2a1787a01c8a87dc799de87e6ad4d57ecb4c5b79f2f0256af06902927ca"
+        },
+        {
+          "path": "final_book_19x24/proofs/BACK_v001.png",
+          "sha256": "af0c8175948667e9c31bb52fce645f7d2fb4e556eae2bb6587ed05376f54b4d0"
+        },
+        {
+          "path": "final_book_19x24/reading/BACK_v001.pdf",
+          "sha256": "e159258d589a39c33bb62fef1187bae51400ef7185bf0d727960c3b68c71ae46"
+        },
+        {
+          "path": "assets_generated/covers/BACK_v001.png",
+          "sha256": "c331aa6e3d83291947ac8ee6f64eb3ca409ae2e80f55de47c0009241ade42470"
+        },
+        {
+          "path": "assets_generated/covers/BACK_v001.json",
+          "sha256": "ee1cba8f394a03dda7d1f051a1611dc0df5b80e6854b922eeb70178278ce5f9f"
+        }
+      ],
+      "last_note": "Back cover reviewed with no invented publication data",
+      "owner": "coordinator",
+      "updated_at": "2026-11-10T07:24:42+00:00"
     },
     {
       "id": "FRONT_MATTER",
       "kind": "frontmatter",
       "title": "Bốn trang phụ,32 trang ruột",
-      "status": "todo",
+      "status": "done",
       "depends_on": [
         "DESIGN_BASELINE"
       ],
       "instructions": "Theo BOOK_STRUCTURE, lập pagination.json: 2 trang phụ trước +28 truyện +2 trang phụ sau; đảm bảo đủ32 mặt ruột và4 mặt bìa. Nội dung cụ thể phần xuất bản/quyền sử dụng phải có căn cứ. Không tự bịa nhà xuất bản, giấy phép, tác giả chuyển thể hoặc ISBN.",
-      "evidence": [],
-      "last_note": ""
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/FRONT_MATTER/report.v001.json",
+          "sha256": "202fd5d41ac2931b2cce120c380f297221292f6770350791b2f7e3d400519259"
+        },
+        {
+          "path": "final_book_19x24/source/render_ancillary.v001.py",
+          "sha256": "26f628861e15b0134031c78092331734c2da6760462ee550328f227a6d3e2fbf"
+        },
+        {
+          "path": "final_book_19x24/source/render_ancillary.v003.py",
+          "sha256": "ee95d70f022c0e8cab18abe68465d1dd4e301cf2b5941ec7e7bd4d826fe6026f"
+        },
+        {
+          "path": "10_agent_workflow/tasks/FRONT_MATTER/pagination.v001.json",
+          "sha256": "45d6c1e27d008042357ffd5958869f2fb481b8929c96625dfcbc5918fc8753bf"
+        },
+        {
+          "path": "10_agent_workflow/tasks/FRONT_MATTER/technical_checks.v001.json",
+          "sha256": "f8aee79b9a7d6c0c7e09d7177787257d549fb2e14cc2cf8e001d76643b9bf052"
+        },
+        {
+          "path": "10_agent_workflow/tasks/FRONT_MATTER/source_review.v001.json",
+          "sha256": "e392cc98158e446dfbba891d7788f5b04fc6daa197b23be6ce079617b0d34e0e"
+        },
+        {
+          "path": "final_book_19x24/source/fonts/OFL.txt",
+          "sha256": "0dab92d0544f7b233403f14b84a663bdbfa746982eda629e7f4f9ffe1b036feb"
+        },
+        {
+          "path": "final_book_19x24/source/MATTER_I_placement.v001.json",
+          "sha256": "0aa0f7c23d26f06649d6d67cc56e5c74941895c437ed098d7d97f341e25d6f84"
+        },
+        {
+          "path": "final_book_19x24/proofs/MATTER_I_v001.pdf",
+          "sha256": "8000b0cc4f0a1357527b40f2aba3884d51e2d63a2e0257cacdb3ba740f6bfd85"
+        },
+        {
+          "path": "final_book_19x24/proofs/MATTER_I_v001.png",
+          "sha256": "829d2226163da04767ad105d64a4b3088d6aab8a993a5ac1e41a951f99ea495a"
+        },
+        {
+          "path": "final_book_19x24/reading/MATTER_I_v001.pdf",
+          "sha256": "de60fbbbba9790042744cf1620d778987aa2911b6cd1338986043b0095f10f60"
+        },
+        {
+          "path": "final_book_19x24/source/MATTER_II_placement.v001.json",
+          "sha256": "397faeb0655545270af6684fa7f7dabaa5609b47e0a272d9a0c62810a6591608"
+        },
+        {
+          "path": "final_book_19x24/proofs/MATTER_II_v001.pdf",
+          "sha256": "96d32c50013177665554deb7dc3be1dc42d70c0dbb9933c635ab6002366c8d2a"
+        },
+        {
+          "path": "final_book_19x24/proofs/MATTER_II_v001.png",
+          "sha256": "4f8f126dce20fa5c2e4501a29c9cb08b0458423ec967e740fca5a9033d2354cd"
+        },
+        {
+          "path": "final_book_19x24/reading/MATTER_II_v001.pdf",
+          "sha256": "ea2c7e6a9eac4cd7f722aa08053dc40f52d6a89a4529214fddc6a9876cdcb1da"
+        },
+        {
+          "path": "final_book_19x24/source/MATTER_III_placement.v001.json",
+          "sha256": "7e5df25509d5533cd1b6ad45a891157fe5c1d5463218b88f66fef2739d4472f9"
+        },
+        {
+          "path": "final_book_19x24/proofs/MATTER_III_v001.pdf",
+          "sha256": "e8fb9d5cfbd8e49a808f6771d591c6d52a895b9135f5eee5a96f34d3f9578654"
+        },
+        {
+          "path": "final_book_19x24/proofs/MATTER_III_v001.png",
+          "sha256": "6092389d301128d036dac1f8f042ad5fdf6eed9901c396819bf7b0d1cd288ace"
+        },
+        {
+          "path": "final_book_19x24/reading/MATTER_III_v001.pdf",
+          "sha256": "736d09aef625e89bbc8b6d143ec7bd06effeade65fe22e57803555a131955292"
+        },
+        {
+          "path": "final_book_19x24/source/MATTER_IV_placement.v001.json",
+          "sha256": "4b460b4d9e148571d7802f1774d1e9ae2523ed69a72a080f41140e9b4ea636ba"
+        },
+        {
+          "path": "final_book_19x24/proofs/MATTER_IV_v001.pdf",
+          "sha256": "6c42c48766d50ffac89f0b75d2d7e682af7e85f0deb46a5ef121c65331e0f157"
+        },
+        {
+          "path": "final_book_19x24/proofs/MATTER_IV_v001.png",
+          "sha256": "0ee98ecc5eea62485a06af7ceb1d38988e490735ddbf8ba30c27b60b61dcf608"
+        },
+        {
+          "path": "final_book_19x24/reading/MATTER_IV_v001.pdf",
+          "sha256": "22cd933ee8eeecd77364d413647f2c37a1a57027abe9236bf96ea6feafc30bc3"
+        },
+        {
+          "path": "final_book_19x24/source/INSIDE_FRONT_placement.v001.json",
+          "sha256": "dbea71eed103e8788ebef6c4d17af1401b986c57dd20860202b9eb7b8c99beba"
+        },
+        {
+          "path": "final_book_19x24/proofs/INSIDE_FRONT_v001.pdf",
+          "sha256": "0914c06425689852bec81378005fb659ffcd961cdc0f53a1951c195cee5efbfc"
+        },
+        {
+          "path": "final_book_19x24/proofs/INSIDE_FRONT_v001.png",
+          "sha256": "2ae7a9ba65407c73065424f49c3246bb02bb6afd0c1a57eec052d3eeea737e55"
+        },
+        {
+          "path": "final_book_19x24/reading/INSIDE_FRONT_v001.pdf",
+          "sha256": "488e8d8744a82e3234504c4581c2341d4cd8ff340070db4da5e79a9c15a41b2b"
+        },
+        {
+          "path": "final_book_19x24/source/INSIDE_BACK_placement.v002.json",
+          "sha256": "52000ae6bc93c27fed90a83393791f632e3a619e750bb9a9381a16b4e0ca6214"
+        },
+        {
+          "path": "final_book_19x24/proofs/INSIDE_BACK_v002.pdf",
+          "sha256": "6d9f54991bf1771484d3cbca9d8e6e809ef904f764be2b0ab61e2cc15cbfbf3a"
+        },
+        {
+          "path": "final_book_19x24/proofs/INSIDE_BACK_v002.png",
+          "sha256": "4e17d53ac3389f6a99b66cc200fd001195540621248b8ebe622c3b5d33f76980"
+        },
+        {
+          "path": "final_book_19x24/reading/INSIDE_BACK_v002.pdf",
+          "sha256": "688e5f055cf9cc44543b1dc72c2942b0a46d9e2848eb77e99aca554198606230"
+        }
+      ],
+      "last_note": "Four ancillary pages, two inside covers and32+4 pagination verified",
+      "owner": "coordinator",
+      "updated_at": "2026-11-10T07:29:06+00:00"
     },
     {
       "id": "PRINT_SPEC",
@@ -5722,6 +6027,90 @@
       "task": "PAGE11_QA",
       "action": "finish",
       "note": "Full lettering and speaker positions verified"
+    },
+    {
+      "at": "2026-11-10T07:12:07+00:00",
+      "task": "FRONT_ART",
+      "action": "start",
+      "note": "Generate front montage with five active references and reserved title space"
+    },
+    {
+      "at": "2026-11-10T07:15:51+00:00",
+      "task": "FRONT_ART",
+      "action": "finish",
+      "note": "Montage four identities verified; title constrained to actual clear sky"
+    },
+    {
+      "at": "2026-11-10T07:15:51+00:00",
+      "task": "BACK_ART",
+      "action": "start",
+      "note": "Create incense altar symbolic back cover with clear synopsis area"
+    },
+    {
+      "at": "2026-11-10T07:17:55+00:00",
+      "task": "BACK_ART",
+      "action": "finish",
+      "note": "Bronze burner/altar and synopsis clearance visually verified"
+    },
+    {
+      "at": "2026-11-10T07:17:55+00:00",
+      "task": "FRONT_LAYOUT",
+      "action": "start",
+      "note": "Compose four-tier title with outlined main lettering and accurate box geometry"
+    },
+    {
+      "at": "2026-11-10T07:23:56+00:00",
+      "task": "FRONT_LAYOUT",
+      "action": "finish",
+      "note": "Four-tier title and full boots verified"
+    },
+    {
+      "at": "2026-11-10T07:23:56+00:00",
+      "task": "FRONT_QA",
+      "action": "start",
+      "note": "Review final cover artwork, title and boxes"
+    },
+    {
+      "at": "2026-11-10T07:23:56+00:00",
+      "task": "FRONT_QA",
+      "action": "finish",
+      "note": "Front cover reviewed for reading edition"
+    },
+    {
+      "at": "2026-11-10T07:23:56+00:00",
+      "task": "BACK_LAYOUT",
+      "action": "start",
+      "note": "Compose back synopsis without invented ISBN or publisher"
+    },
+    {
+      "at": "2026-11-10T07:24:42+00:00",
+      "task": "BACK_LAYOUT",
+      "action": "finish",
+      "note": "Synopsis and source-aware readership note verified"
+    },
+    {
+      "at": "2026-11-10T07:24:42+00:00",
+      "task": "BACK_QA",
+      "action": "start",
+      "note": "Check back cover at reading size"
+    },
+    {
+      "at": "2026-11-10T07:24:42+00:00",
+      "task": "BACK_QA",
+      "action": "finish",
+      "note": "Back cover reviewed with no invented publication data"
+    },
+    {
+      "at": "2026-11-10T07:24:42+00:00",
+      "task": "FRONT_MATTER",
+      "action": "start",
+      "note": "Create four ancillary pages and inside-cover reference diagrams"
+    },
+    {
+      "at": "2026-11-10T07:29:06+00:00",
+      "task": "FRONT_MATTER",
+      "action": "finish",
+      "note": "Four ancillary pages, two inside covers and32+4 pagination verified"
     }
   ]
 }

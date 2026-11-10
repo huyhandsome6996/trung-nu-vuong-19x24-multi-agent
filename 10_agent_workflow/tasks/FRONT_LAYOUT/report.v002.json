@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "reviewer": "Codex coordinator",
+  "summary": "Opened final front cover v002. Four-tier exact title/readable Vietnamese, crimson main title with cream/dark double outline, correct navy Nhi/green Thanh/white band/purple Thi. Title ends66mm without covering main faces. Uniform contained raw preserves complete boots; intentional bronze edge removes duplicate image side seams from v001. Embedded Noto fonts and reopened190x240 trim/196x246 bleed. Native raster remains below300DPI, symbolic montage only, not user-approved/print-ready.",
+  "artifacts": [
+    "final_book_19x24/source/render_ancillary.v002.py",
+    "final_book_19x24/source/FRONT_placement.v002.json",
+    "final_book_19x24/proofs/FRONT_v002.pdf",
+    "final_book_19x24/proofs/FRONT_v002.png",
+    "final_book_19x24/reading/FRONT_v002.pdf",
+    "assets_generated/covers/FRONT_v001.png",
+    "assets_generated/covers/FRONT_v001.json"
+  ],
+  "open_issues": [],
+  "reviewed_at": "2026-11-10T07:23:56.462827+00:00",
+  "task_id": "FRONT_LAYOUT",
+  "kind": "layout",
+  "checks": {
+    "vietnamese_fonts": "pass",
+    "red_keywords": "pass",
+    "safe_text": "pass",
+    "bleed_geometry": "pass",
+    "no_overflow": "pass",
+    "speech_placement": "pass"
+  }
+}

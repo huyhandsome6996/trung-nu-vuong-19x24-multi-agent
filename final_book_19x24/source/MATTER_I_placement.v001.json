@@ -1,0 +1,251 @@
+{
+  "name": "MATTER_I",
+  "version": "v001",
+  "operations": [
+    {
+      "type": "rect",
+      "bbox": [
+        -3,
+        -3,
+        196,
+        246
+      ],
+      "fill": "#FFF7E5",
+      "stroke": "#FFF7E5"
+    },
+    {
+      "type": "rect",
+      "bbox": [
+        11,
+        10,
+        168,
+        219
+      ],
+      "fill": "#FFF9ED",
+      "stroke": "#BD9C6C"
+    },
+    {
+      "type": "text",
+      "text": "TRUYỆN MINH HỌA",
+      "x": 19,
+      "baseline_y": 23,
+      "font": "B",
+      "size_pt": 9,
+      "color": "#9A6D35"
+    },
+    {
+      "type": "text",
+      "text": "",
+      "x": 19,
+      "baseline_y": 36,
+      "font": "B",
+      "size_pt": 22,
+      "color": "#902923"
+    },
+    {
+      "type": "line",
+      "points": [
+        19,
+        41,
+        171,
+        41
+      ],
+      "color": "#B88A4D"
+    },
+    {
+      "type": "text",
+      "text": "i",
+      "x": 169.94519444444444,
+      "baseline_y": 222,
+      "font": "B",
+      "size_pt": 10,
+      "color": "#9A6D35"
+    },
+    {
+      "type": "text",
+      "text": "TRƯNG",
+      "x": 69.21194444444444,
+      "baseline_y": 70,
+      "font": "B",
+      "size_pt": 40,
+      "color": "#9B2526"
+    },
+    {
+      "type": "text",
+      "text": "NỮ VƯƠNG",
+      "x": 53.71794444444445,
+      "baseline_y": 89,
+      "font": "B",
+      "size_pt": 40,
+      "color": "#9B2526"
+    },
+    {
+      "type": "text",
+      "text": "Từ Chu Diên đến lời thề Hát Môn",
+      "x": 59.79013194444445,
+      "baseline_y": 106,
+      "font": "R",
+      "size_pt": 13,
+      "color": "#40566E"
+    },
+    {
+      "type": "line",
+      "points": [
+        105.0,
+        146.0,
+        113.0,
+        146.0
+      ],
+      "color": "#A16D2C"
+    },
+    {
+      "type": "line",
+      "points": [
+        103.66025403784438,
+        151.0,
+        110.5884572681199,
+        155.0
+      ],
+      "color": "#A16D2C"
+    },
+    {
+      "type": "line",
+      "points": [
+        100.0,
+        154.6602540378444,
+        104.0,
+        161.5884572681199
+      ],
+      "color": "#A16D2C"
+    },
+    {
+      "type": "line",
+      "points": [
+        95.0,
+        156.0,
+        95.0,
+        164.0
+      ],
+      "color": "#A16D2C"
+    },
+    {
+      "type": "line",
+      "points": [
+        90.0,
+        154.6602540378444,
+        86.0,
+        161.5884572681199
+      ],
+      "color": "#A16D2C"
+    },
+    {
+      "type": "line",
+      "points": [
+        86.33974596215562,
+        151.0,
+        79.4115427318801,
+        155.0
+      ],
+      "color": "#A16D2C"
+    },
+    {
+      "type": "line",
+      "points": [
+        85.0,
+        146.0,
+        77.0,
+        146.0
+      ],
+      "color": "#A16D2C"
+    },
+    {
+      "type": "line",
+      "points": [
+        86.3397459621556,
+        141.0,
+        79.4115427318801,
+        137.0
+      ],
+      "color": "#A16D2C"
+    },
+    {
+      "type": "line",
+      "points": [
+        90.0,
+        137.3397459621556,
+        86.0,
+        130.4115427318801
+      ],
+      "color": "#A16D2C"
+    },
+    {
+      "type": "line",
+      "points": [
+        95.0,
+        136.0,
+        95.0,
+        128.0
+      ],
+      "color": "#A16D2C"
+    },
+    {
+      "type": "line",
+      "points": [
+        100.0,
+        137.3397459621556,
+        104.0,
+        130.4115427318801
+      ],
+      "color": "#A16D2C"
+    },
+    {
+      "type": "line",
+      "points": [
+        103.66025403784438,
+        141.0,
+        110.5884572681199,
+        137.0
+      ],
+      "color": "#A16D2C"
+    },
+    {
+      "type": "text",
+      "text": "Một câu chuyện về lòng yêu nước, tình nghĩa và ý chí tự chủ, kể",
+      "x": 32,
+      "baseline_y": 189,
+      "font": "R",
+      "size_pt": 12,
+      "color": "#251E17"
+    },
+    {
+      "type": "text",
+      "text": "bằng tranh theo nguồn truyện và tư liệu lịch sử đối chiếu.",
+      "x": 32,
+      "baseline_y": 195,
+      "font": "R",
+      "size_pt": 12,
+      "color": "#251E17"
+    },
+    {
+      "type": "text",
+      "text": "Dành cho học sinh lớp 8–10",
+      "x": 68.9207263888889,
+      "baseline_y": 214,
+      "font": "B",
+      "size_pt": 11,
+      "color": "#40566E"
+    }
+  ],
+  "rasters": [],
+  "trim_mm": [
+    190,
+    240
+  ],
+  "bleed_mm": [
+    196,
+    246
+  ],
+  "print_ready": false,
+  "user_approved": false,
+  "pdf_sha256": "8000b0cc4f0a1357527b40f2aba3884d51e2d63a2e0257cacdb3ba740f6bfd85"
+}

@@ -1,0 +1,190 @@
+{
+  "name": "FRONT",
+  "version": "v002",
+  "operations": [
+    {
+      "type": "rect",
+      "bbox": [
+        -3,
+        -3,
+        196,
+        246
+      ],
+      "fill": "#D9B775",
+      "stroke": "#D9B775"
+    },
+    {
+      "type": "line",
+      "points": [
+        5,
+        0,
+        5,
+        240
+      ],
+      "color": "#986A2D"
+    },
+    {
+      "type": "line",
+      "points": [
+        185,
+        0,
+        185,
+        240
+      ],
+      "color": "#986A2D"
+    },
+    {
+      "type": "polygon",
+      "points": [
+        [
+          13,
+          12
+        ],
+        [
+          177,
+          12
+        ],
+        [
+          174,
+          17
+        ],
+        [
+          177,
+          22
+        ],
+        [
+          13,
+          22
+        ],
+        [
+          16,
+          17
+        ]
+      ],
+      "fill": "#EFB957",
+      "stroke": "#5F351E"
+    },
+    {
+      "type": "text",
+      "text": "TRUYỆN CỔ TÍCH LỊCH SỬ HÀO HÙNG",
+      "x": 47.80900486111111,
+      "baseline_y": 19,
+      "font": "B",
+      "size_pt": 14.5,
+      "color": "#251E17"
+    },
+    {
+      "type": "text",
+      "text": "TRƯNG NỮ VƯƠNG",
+      "x": 19.204988888888906,
+      "baseline_y": 39,
+      "font": "B",
+      "size_pt": 44,
+      "color": "#B51F20"
+    },
+    {
+      "type": "polygon",
+      "points": [
+        [
+          15,
+          44
+        ],
+        [
+          18,
+          42.5
+        ],
+        [
+          172,
+          42.5
+        ],
+        [
+          176,
+          46
+        ],
+        [
+          175,
+          51.5
+        ],
+        [
+          171,
+          53
+        ],
+        [
+          19,
+          53
+        ],
+        [
+          14,
+          50
+        ]
+      ],
+      "fill": "#FFF3CE",
+      "stroke": "#906139"
+    },
+    {
+      "type": "text",
+      "text": "Máu lửa Chu Diên, lời thề sông Nhị Hà",
+      "x": 61.85696875,
+      "baseline_y": 47,
+      "font": "R",
+      "size_pt": 10.5,
+      "color": "#251E17"
+    },
+    {
+      "type": "text",
+      "text": "và chiến công hiển hách của",
+      "x": 70.51731041666667,
+      "baseline_y": 51,
+      "font": "R",
+      "size_pt": 10.5,
+      "color": "#251E17"
+    },
+    {
+      "type": "text",
+      "text": "HAI BÀ TRƯNG",
+      "x": 68.97205555555556,
+      "baseline_y": 59,
+      "font": "B",
+      "size_pt": 20,
+      "color": "#B51F39"
+    },
+    {
+      "type": "text",
+      "text": "THI SÁCH – THÁNH THIÊN",
+      "x": 59.33557777777778,
+      "baseline_y": 66,
+      "font": "B",
+      "size_pt": 16,
+      "color": "#183E76"
+    }
+  ],
+  "rasters": [
+    {
+      "path": "assets_generated/covers/FRONT_v001.png",
+      "native_size_px": [
+        1086,
+        1448
+      ],
+      "bbox_mm": [
+        0,
+        0,
+        190,
+        240
+      ],
+      "scale_mode": "contain",
+      "effective_dpi": 153.24666666666667,
+      "uniform_scale": true
+    }
+  ],
+  "trim_mm": [
+    190,
+    240
+  ],
+  "bleed_mm": [
+    196,
+    246
+  ],
+  "print_ready": false,
+  "user_approved": false,
+  "pdf_sha256": "e00f98fa2dd2dcff3e4b8769c4c6595fb6d2e0f3beb53fbc5eefd253aa797b2e"
+}

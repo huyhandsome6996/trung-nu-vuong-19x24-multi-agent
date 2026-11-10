@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "reviewer": "Codex coordinator",
+  "summary": "Opened final back PDF/PNG. Full synopsis fits aged-paper panel, clear Vietnamese/embedded Noto fonts and navy readership note. Incense burner/steps/banners unobscured, no ISBN/publisher/logo invented. First historical sentence checked against HIST01; other description explicitly describes the story, not a modern temple reconstruction. Trim190x240/bleed196x246 checked. Native art below300DPI, agent-reviewed reading edition only.",
+  "artifacts": [
+    "final_book_19x24/source/render_ancillary.v001.py",
+    "final_book_19x24/source/BACK_placement.v001.json",
+    "final_book_19x24/proofs/BACK_v001.pdf",
+    "final_book_19x24/proofs/BACK_v001.png",
+    "final_book_19x24/reading/BACK_v001.pdf",
+    "assets_generated/covers/BACK_v001.png",
+    "assets_generated/covers/BACK_v001.json"
+  ],
+  "open_issues": [],
+  "reviewed_at": "2026-11-10T07:24:42.609374+00:00",
+  "task_id": "BACK_LAYOUT",
+  "kind": "layout",
+  "checks": {
+    "vietnamese_fonts": "pass",
+    "red_keywords": "pass",
+    "safe_text": "pass",
+    "bleed_geometry": "pass",
+    "no_overflow": "pass",
+    "speech_placement": "pass"
+  }
+}

@@ -1,0 +1,313 @@
+{
+  "name": "INSIDE_FRONT",
+  "version": "v001",
+  "operations": [
+    {
+      "type": "rect",
+      "bbox": [
+        -3,
+        -3,
+        196,
+        246
+      ],
+      "fill": "#FFF7E5",
+      "stroke": "#FFF7E5"
+    },
+    {
+      "type": "rect",
+      "bbox": [
+        11,
+        10,
+        168,
+        219
+      ],
+      "fill": "#FFF9ED",
+      "stroke": "#BD9C6C"
+    },
+    {
+      "type": "text",
+      "text": "SƠ ĐỒ ĐỊA DANH",
+      "x": 19,
+      "baseline_y": 23,
+      "font": "B",
+      "size_pt": 9,
+      "color": "#9A6D35"
+    },
+    {
+      "type": "text",
+      "text": "Không gian câu chuyện",
+      "x": 19,
+      "baseline_y": 36,
+      "font": "B",
+      "size_pt": 22,
+      "color": "#902923"
+    },
+    {
+      "type": "line",
+      "points": [
+        19,
+        41,
+        171,
+        41
+      ],
+      "color": "#B88A4D"
+    },
+    {
+      "type": "text",
+      "text": "Sơ đồ đọc truyện; không theo tỉ lệ địa lí.",
+      "x": 19,
+      "baseline_y": 52,
+      "font": "R",
+      "size_pt": 10,
+      "color": "#715E48"
+    },
+    {
+      "type": "text",
+      "text": "MÊ LINH",
+      "x": 19,
+      "baseline_y": 64,
+      "font": "B",
+      "size_pt": 10,
+      "color": "#294E79"
+    },
+    {
+      "type": "rect",
+      "bbox": [
+        25,
+        69,
+        62,
+        14
+      ],
+      "fill": "#F8ECD3",
+      "stroke": "#294E79"
+    },
+    {
+      "type": "text",
+      "text": "Mê Linh",
+      "x": 49.01852777777778,
+      "baseline_y": 78,
+      "font": "B",
+      "size_pt": 10,
+      "color": "#294E79"
+    },
+    {
+      "type": "rect",
+      "bbox": [
+        106,
+        69,
+        62,
+        14
+      ],
+      "fill": "#F8ECD3",
+      "stroke": "#294E79"
+    },
+    {
+      "type": "text",
+      "text": "Cổ Lôi",
+      "x": 131.69069444444443,
+      "baseline_y": 78,
+      "font": "B",
+      "size_pt": 10,
+      "color": "#294E79"
+    },
+    {
+      "type": "line",
+      "points": [
+        88,
+        76,
+        105,
+        76
+      ],
+      "color": "#294E79"
+    },
+    {
+      "type": "text",
+      "text": "CHU DIÊN",
+      "x": 19,
+      "baseline_y": 106,
+      "font": "B",
+      "size_pt": 10,
+      "color": "#843D4E"
+    },
+    {
+      "type": "rect",
+      "bbox": [
+        25,
+        111,
+        62,
+        14
+      ],
+      "fill": "#F8ECD3",
+      "stroke": "#843D4E"
+    },
+    {
+      "type": "text",
+      "text": "Chu Diên",
+      "x": 48.09777777777778,
+      "baseline_y": 120,
+      "font": "B",
+      "size_pt": 10,
+      "color": "#843D4E"
+    },
+    {
+      "type": "rect",
+      "bbox": [
+        106,
+        111,
+        62,
+        14
+      ],
+      "fill": "#F8ECD3",
+      "stroke": "#843D4E"
+    },
+    {
+      "type": "text",
+      "text": "Luy Lâu",
+      "x": 130.21255555555555,
+      "baseline_y": 120,
+      "font": "B",
+      "size_pt": 10,
+      "color": "#843D4E"
+    },
+    {
+      "type": "line",
+      "points": [
+        88,
+        118,
+        105,
+        118
+      ],
+      "color": "#843D4E"
+    },
+    {
+      "type": "text",
+      "text": "HÁT MÔN",
+      "x": 19,
+      "baseline_y": 148,
+      "font": "B",
+      "size_pt": 10,
+      "color": "#2E6875"
+    },
+    {
+      "type": "rect",
+      "bbox": [
+        25,
+        153,
+        62,
+        14
+      ],
+      "fill": "#F8ECD3",
+      "stroke": "#2E6875"
+    },
+    {
+      "type": "text",
+      "text": "Hát Môn",
+      "x": 48.45761111111111,
+      "baseline_y": 162,
+      "font": "B",
+      "size_pt": 10,
+      "color": "#2E6875"
+    },
+    {
+      "type": "rect",
+      "bbox": [
+        106,
+        153,
+        62,
+        14
+      ],
+      "fill": "#F8ECD3",
+      "stroke": "#2E6875"
+    },
+    {
+      "type": "text",
+      "text": "Sông Nhị Hà",
+      "x": 126.23322222222222,
+      "baseline_y": 162,
+      "font": "B",
+      "size_pt": 10,
+      "color": "#2E6875"
+    },
+    {
+      "type": "line",
+      "points": [
+        88,
+        160,
+        105,
+        160
+      ],
+      "color": "#2E6875"
+    },
+    {
+      "type": "text",
+      "text": "PHƯỢNG HOÀNG",
+      "x": 19,
+      "baseline_y": 190,
+      "font": "B",
+      "size_pt": 10,
+      "color": "#356644"
+    },
+    {
+      "type": "rect",
+      "bbox": [
+        25,
+        195,
+        62,
+        14
+      ],
+      "fill": "#F8ECD3",
+      "stroke": "#356644"
+    },
+    {
+      "type": "text",
+      "text": "Núi Phượng Hoàng",
+      "x": 39.16544444444445,
+      "baseline_y": 204,
+      "font": "B",
+      "size_pt": 10,
+      "color": "#356644"
+    },
+    {
+      "type": "rect",
+      "bbox": [
+        106,
+        195,
+        62,
+        14
+      ],
+      "fill": "#F8ECD3",
+      "stroke": "#356644"
+    },
+    {
+      "type": "text",
+      "text": "Lục Đầu Giang",
+      "x": 124.42347222222223,
+      "baseline_y": 204,
+      "font": "B",
+      "size_pt": 10,
+      "color": "#356644"
+    },
+    {
+      "type": "line",
+      "points": [
+        88,
+        202,
+        105,
+        202
+      ],
+      "color": "#356644"
+    }
+  ],
+  "rasters": [],
+  "trim_mm": [
+    190,
+    240
+  ],
+  "bleed_mm": [
+    196,
+    246
+  ],
+  "print_ready": false,
+  "user_approved": false,
+  "pdf_sha256": "0914c06425689852bec81378005fb659ffcd961cdc0f53a1951c195cee5efbfc"
+}

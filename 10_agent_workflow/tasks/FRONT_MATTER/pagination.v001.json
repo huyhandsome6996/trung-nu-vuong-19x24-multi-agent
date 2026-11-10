@@ -1,0 +1,249 @@
+{
+  "edition": "reading",
+  "interior_count": 32,
+  "cover_count": 4,
+  "story_count": 28,
+  "reader_sequence": [
+    {
+      "label": "Bìa trước",
+      "role": "cover",
+      "path": "final_book_19x24/reading/FRONT_v002.pdf"
+    },
+    {
+      "label": "Bìa trong trước",
+      "role": "cover",
+      "path": "final_book_19x24/reading/INSIDE_FRONT_v001.pdf"
+    },
+    {
+      "label": "Trang tựa i",
+      "role": "interior",
+      "interior_index": 1,
+      "path": "final_book_19x24/reading/MATTER_I_v001.pdf"
+    },
+    {
+      "label": "Dẫn nhập ii",
+      "role": "interior",
+      "interior_index": 2,
+      "path": "final_book_19x24/reading/MATTER_II_v001.pdf"
+    },
+    {
+      "label": "Trang truyện 01",
+      "role": "interior",
+      "interior_index": 3,
+      "story_page": 1,
+      "qa_task_id": "PAGE01_QA"
+    },
+    {
+      "label": "Trang truyện 02",
+      "role": "interior",
+      "interior_index": 4,
+      "story_page": 2,
+      "qa_task_id": "PAGE02_QA"
+    },
+    {
+      "label": "Trang truyện 03",
+      "role": "interior",
+      "interior_index": 5,
+      "story_page": 3,
+      "qa_task_id": "PAGE03_QA"
+    },
+    {
+      "label": "Trang truyện 04",
+      "role": "interior",
+      "interior_index": 6,
+      "story_page": 4,
+      "qa_task_id": "PAGE04_QA"
+    },
+    {
+      "label": "Trang truyện 05",
+      "role": "interior",
+      "interior_index": 7,
+      "story_page": 5,
+      "qa_task_id": "PAGE05_QA"
+    },
+    {
+      "label": "Trang truyện 06",
+      "role": "interior",
+      "interior_index": 8,
+      "story_page": 6,
+      "qa_task_id": "PAGE06_QA"
+    },
+    {
+      "label": "Trang truyện 07",
+      "role": "interior",
+      "interior_index": 9,
+      "story_page": 7,
+      "qa_task_id": "PAGE07_QA"
+    },
+    {
+      "label": "Trang truyện 08",
+      "role": "interior",
+      "interior_index": 10,
+      "story_page": 8,
+      "qa_task_id": "PAGE08_QA"
+    },
+    {
+      "label": "Trang truyện 09",
+      "role": "interior",
+      "interior_index": 11,
+      "story_page": 9,
+      "qa_task_id": "PAGE09_QA"
+    },
+    {
+      "label": "Trang truyện 10",
+      "role": "interior",
+      "interior_index": 12,
+      "story_page": 10,
+      "qa_task_id": "PAGE10_QA"
+    },
+    {
+      "label": "Trang truyện 11",
+      "role": "interior",
+      "interior_index": 13,
+      "story_page": 11,
+      "qa_task_id": "PAGE11_QA"
+    },
+    {
+      "label": "Trang truyện 12",
+      "role": "interior",
+      "interior_index": 14,
+      "story_page": 12,
+      "qa_task_id": "PAGE12_QA"
+    },
+    {
+      "label": "Trang truyện 13",
+      "role": "interior",
+      "interior_index": 15,
+      "story_page": 13,
+      "qa_task_id": "PAGE13_QA"
+    },
+    {
+      "label": "Trang truyện 14",
+      "role": "interior",
+      "interior_index": 16,
+      "story_page": 14,
+      "qa_task_id": "PAGE14_QA"
+    },
+    {
+      "label": "Trang truyện 15",
+      "role": "interior",
+      "interior_index": 17,
+      "story_page": 15,
+      "qa_task_id": "PAGE15_QA"
+    },
+    {
+      "label": "Trang truyện 16",
+      "role": "interior",
+      "interior_index": 18,
+      "story_page": 16,
+      "qa_task_id": "PAGE16_QA"
+    },
+    {
+      "label": "Trang truyện 17",
+      "role": "interior",
+      "interior_index": 19,
+      "story_page": 17,
+      "qa_task_id": "PAGE17_QA"
+    },
+    {
+      "label": "Trang truyện 18",
+      "role": "interior",
+      "interior_index": 20,
+      "story_page": 18,
+      "qa_task_id": "PAGE18_QA"
+    },
+    {
+      "label": "Trang truyện 19",
+      "role": "interior",
+      "interior_index": 21,
+      "story_page": 19,
+      "qa_task_id": "PAGE19_QA"
+    },
+    {
+      "label": "Trang truyện 20",
+      "role": "interior",
+      "interior_index": 22,
+      "story_page": 20,
+      "qa_task_id": "PAGE20_QA"
+    },
+    {
+      "label": "Trang truyện 21",
+      "role": "interior",
+      "interior_index": 23,
+      "story_page": 21,
+      "qa_task_id": "PAGE21_QA"
+    },
+    {
+      "label": "Trang truyện 22",
+      "role": "interior",
+      "interior_index": 24,
+      "story_page": 22,
+      "qa_task_id": "PAGE22_QA"
+    },
+    {
+      "label": "Trang truyện 23",
+      "role": "interior",
+      "interior_index": 25,
+      "story_page": 23,
+      "qa_task_id": "PAGE23_QA"
+    },
+    {
+      "label": "Trang truyện 24",
+      "role": "interior",
+      "interior_index": 26,
+      "story_page": 24,
+      "qa_task_id": "PAGE24_QA"
+    },
+    {
+      "label": "Trang truyện 25",
+      "role": "interior",
+      "interior_index": 27,
+      "story_page": 25,
+      "qa_task_id": "PAGE25_QA"
+    },
+    {
+      "label": "Trang truyện 26",
+      "role": "interior",
+      "interior_index": 28,
+      "story_page": 26,
+      "qa_task_id": "PAGE26_QA"
+    },
+    {
+      "label": "Trang truyện 27",
+      "role": "interior",
+      "interior_index": 29,
+      "story_page": 27,
+      "qa_task_id": "PAGE27_QA"
+    },
+    {
+      "label": "Trang truyện 28",
+      "role": "interior",
+      "interior_index": 30,
+      "story_page": 28,
+      "qa_task_id": "PAGE28_QA"
+    },
+    {
+      "label": "Phụ lục iii",
+      "role": "interior",
+      "interior_index": 31,
+      "path": "final_book_19x24/reading/MATTER_III_v001.pdf"
+    },
+    {
+      "label": "Phụ lục iv",
+      "role": "interior",
+      "interior_index": 32,
+      "path": "final_book_19x24/reading/MATTER_IV_v001.pdf"
+    },
+    {
+      "label": "Bìa trong sau",
+      "role": "cover",
+      "path": "final_book_19x24/reading/INSIDE_BACK_v002.pdf"
+    },
+    {
+      "label": "Bìa sau",
+      "role": "cover",
+      "path": "final_book_19x24/reading/BACK_v001.pdf"
+    }
+  ],
+  "note": "Story PDFs are resolved from current verified QA evidence after lane integration. PRINT_SPEC remains independent and unresolved."
+}

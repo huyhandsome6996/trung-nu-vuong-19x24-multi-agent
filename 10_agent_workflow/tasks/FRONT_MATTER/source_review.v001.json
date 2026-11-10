@@ -1,0 +1,35 @@
+{
+  "reviewed_at": "2026-11-10T07:29:06.844902+00:00",
+  "sources_reopened": [
+    {
+      "id": "HIST01",
+      "url": "https://baotanglichsu.vn/vi/Articles/3098/13485/cuoc-khoi-nghia-hai-ba-trung-nam-40-43-sau-cong-nguyen.html",
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "HERITAGE01",
+      "url": "https://dsvh.gov.vn/di-tich-lich-su-den-hai-ba-trung-2970",
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "HERITAGE02",
+      "url": "https://dsvh.gov.vn/di-tich-lich-su-den-hat-mon-2971",
+      "accessed": "2026-11-10"
+    }
+  ],
+  "historical_claims": [
+    "Khởi nghĩa năm40 tại cửa sông Hát",
+    "Nghĩa quân tiến đánh Luy Lâu",
+    "Trưng Trắc xưng vương, đóng đô Mê Linh",
+    "Đền Hạ Lôi và đền Hát Môn là hai di tích riêng"
+  ],
+  "story_relationships_source": "02_historical_fairy_tale_adaptation/CHARACTER_BIBLE_AND_FACTIONS.md",
+  "geography": "Inside front is explicitly a story-place schematic without geographical scale; not a surveyed map or marching route.",
+  "rights_review": {
+    "font_license": "Noto SIL OFL1.1 present and read",
+    "no_invented_publication_metadata": true,
+    "isbn_publisher_author_license_number": "omitted; none supplied",
+    "publication_rights_cleared": false,
+    "commercial_print_clearance": "PRINT_SPEC remains blocked; no rights approval claimed"
+  }
+}

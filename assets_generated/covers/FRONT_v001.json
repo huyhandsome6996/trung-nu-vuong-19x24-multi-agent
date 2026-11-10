@@ -1,0 +1,52 @@
+{
+  "id": "FRONT",
+  "version": "v001",
+  "generator": "image_gen.imagegen",
+  "transparent_background": false,
+  "actual_reference_paths": [
+    "/workspace/scratch/9c77cb6cc5ef/trung-nu-vuong-19x24-multi-agent/assets_generated/characters/CHAR_01_Trung_Trac_v001.png",
+    "/workspace/scratch/9c77cb6cc5ef/trung-nu-vuong-19x24-multi-agent/assets_generated/design_system/CHAR02_v001.png",
+    "/workspace/scratch/9c77cb6cc5ef/trung-nu-vuong-19x24-multi-agent/assets_generated/design_system/CHAR03_v001.png",
+    "/workspace/scratch/9c77cb6cc5ef/trung-nu-vuong-19x24-multi-agent/assets_generated/design_system/CHAR04_v001.png",
+    "/workspace/scratch/9c77cb6cc5ef/trung-nu-vuong-19x24-multi-agent/assets_generated/design_system/ENV03_v001.png"
+  ],
+  "prompt": "Use case: illustration-story. Create a polished text-free FRONT COVER illustration for Vietnamese historical illustrated fiction TRUNG NU VUONG, portrait 19:24 ratio. Match the five supplied active reference sheets exactly in facial identities, armor construction, cultural motifs and crosshatched black ink/watercolor colored-pencil style. Reference1: ONLY right-hand crimson bronze-armored Trung Trac; ref2 navy Trung Nhi; ref3 purple tiger-emblem Thi Sach; ref4 green-armored Thanh Thien with long braid, white mourning headband and spotted leather boots; ref5 ONLY middle panel Hat Mon river altar for background. Keep TOP32PERCENT quiet pale golden sunrise sky/clouds, absolutely free of heads, weapons, flags, lettering, framing or ornaments for later four-tier title. Below that, epic layered symbolic montage: foreground center Trung Trac in crimson armor raises bronze sword diagonally but blade entirely below32percent; beside her navy Trung Nhi holds paired bronze swords safely separated, right Thanh Thien green/whiteheadband with resolute face holding sword low. Keep their distinct faces, normal hands/fivefingers and connected weapon grips. They stand firmly, complete boots inside image at95percent. Left midground smaller memorial vignette Thi Sach in purple tiger-emblem robes with tiger-skin spear, not implying his survival at HatMon. Right distant midground Hat Mon oath altar and broad blue river, five-color banners and distant gray white-tusked elephants. Bottom foreground layered ranks of Lac Viet standard-bearers and a Dong Son bronze drum, not covering main figures. Heroic but composed expressions, rich crimson/bronze/navy/forestgreen, morning light from upperleft, three-dimensional composition, clean silhouettes and calm title space. No blood, no casualties, no lettering, symbols resembling writing, captions, speech clouds, logo, watermark or border. All scene elements below top32percent. Native high-detail portrait.",
+  "image": "assets_generated/covers/FRONT_v001.png",
+  "sha256": "cd41a77036724db8a6b198b0040bacf8e6fb49208866eff0f3ec21ec7d64a1df",
+  "native_size_px": [
+    1086,
+    1448
+  ],
+  "mode": "RGB",
+  "text_free": true,
+  "print_ready": false,
+  "user_approved": false,
+  "review_notes": "Four distinct identities/garments, connected swords and natural hands. No text. Highest feather at approx27.5percent, less than requested32percent: typography must end at64mm. Symbolic montage, not simultaneous historical event. Distant elephant row is illustrative, not a count reconstruction.",
+  "actual_references": [
+    {
+      "path": "assets_generated/characters/CHAR_01_Trung_Trac_v001.png",
+      "tool_path": "/workspace/scratch/9c77cb6cc5ef/trung-nu-vuong-19x24-multi-agent/assets_generated/characters/CHAR_01_Trung_Trac_v001.png",
+      "sha256": "3387a36a801705d08b9eac3dd778aca3533fced07300db8188cd71439eeec3c3"
+    },
+    {
+      "path": "assets_generated/design_system/CHAR02_v001.png",
+      "tool_path": "/workspace/scratch/9c77cb6cc5ef/trung-nu-vuong-19x24-multi-agent/assets_generated/design_system/CHAR02_v001.png",
+      "sha256": "f4075fc661a51398efee50470805fca95a86a76ee66ec00909ba1058818ff4c7"
+    },
+    {
+      "path": "assets_generated/design_system/CHAR03_v001.png",
+      "tool_path": "/workspace/scratch/9c77cb6cc5ef/trung-nu-vuong-19x24-multi-agent/assets_generated/design_system/CHAR03_v001.png",
+      "sha256": "f88b4c023f780bfa4d836bc82506607ad95ae44dfd79ffc3eebb1e6b2a5b56f8"
+    },
+    {
+      "path": "assets_generated/design_system/CHAR04_v001.png",
+      "tool_path": "/workspace/scratch/9c77cb6cc5ef/trung-nu-vuong-19x24-multi-agent/assets_generated/design_system/CHAR04_v001.png",
+      "sha256": "9f8a680e8c7fbb9c5b79bb8bbfe5802459342af9255f28c75de512c31126d5cb"
+    },
+    {
+      "path": "assets_generated/design_system/ENV03_v001.png",
+      "tool_path": "/workspace/scratch/9c77cb6cc5ef/trung-nu-vuong-19x24-multi-agent/assets_generated/design_system/ENV03_v001.png",
+      "sha256": "fd58bd1e71c22e4bec7a0f54bb9ec6cec0b15ab0da5e0c8979c26e95bad6b929"
+    }
+  ]
+}

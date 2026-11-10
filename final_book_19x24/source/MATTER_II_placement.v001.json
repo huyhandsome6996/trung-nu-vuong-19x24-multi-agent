@@ -1,0 +1,274 @@
+{
+  "name": "MATTER_II",
+  "version": "v001",
+  "operations": [
+    {
+      "type": "rect",
+      "bbox": [
+        -3,
+        -3,
+        196,
+        246
+      ],
+      "fill": "#FFF7E5",
+      "stroke": "#FFF7E5"
+    },
+    {
+      "type": "rect",
+      "bbox": [
+        11,
+        10,
+        168,
+        219
+      ],
+      "fill": "#FFF9ED",
+      "stroke": "#BD9C6C"
+    },
+    {
+      "type": "text",
+      "text": "LỜI DẪN NHẬP",
+      "x": 19,
+      "baseline_y": 23,
+      "font": "B",
+      "size_pt": 9,
+      "color": "#9A6D35"
+    },
+    {
+      "type": "text",
+      "text": "Trước khi mở truyện",
+      "x": 19,
+      "baseline_y": 36,
+      "font": "B",
+      "size_pt": 22,
+      "color": "#902923"
+    },
+    {
+      "type": "line",
+      "points": [
+        19,
+        41,
+        171,
+        41
+      ],
+      "color": "#B88A4D"
+    },
+    {
+      "type": "text",
+      "text": "ii",
+      "x": 168.89038888888888,
+      "baseline_y": 222,
+      "font": "B",
+      "size_pt": 10,
+      "color": "#9A6D35"
+    },
+    {
+      "type": "text",
+      "text": "Năm 40 sau Công nguyên, Trưng Trắc và Trưng Nhị phát động khởi nghĩa ở",
+      "x": 19,
+      "baseline_y": 53.0,
+      "font": "R",
+      "size_pt": 11.7,
+      "color": "#251E17"
+    },
+    {
+      "type": "text",
+      "text": "cửa sông Hát. Nghĩa quân tiến đánh Luy Lâu; Trưng Trắc được suy tôn làm",
+      "x": 19,
+      "baseline_y": 58.8,
+      "font": "R",
+      "size_pt": 11.7,
+      "color": "#251E17"
+    },
+    {
+      "type": "text",
+      "text": "vua, đóng đô tại Mê Linh. [1]",
+      "x": 19,
+      "baseline_y": 64.6,
+      "font": "R",
+      "size_pt": 11.7,
+      "color": "#251E17"
+    },
+    {
+      "type": "text",
+      "text": "Cuốn truyện theo chân những con người gắn với Mê Linh, Chu Diên và núi",
+      "x": 19,
+      "baseline_y": 75.4,
+      "font": "R",
+      "size_pt": 11.5,
+      "color": "#251E17"
+    },
+    {
+      "type": "text",
+      "text": "Phượng Hoàng. Lời thoại, huyền tích, trang phục và nhiều cảnh chiến đấu là",
+      "x": 19,
+      "baseline_y": 81.10000000000001,
+      "font": "R",
+      "size_pt": 11.5,
+      "color": "#251E17"
+    },
+    {
+      "type": "text",
+      "text": "cách kể của truyện; hãy đọc phân biệt với sự kiện lịch sử đã được đối chiếu.",
+      "x": 19,
+      "baseline_y": 86.80000000000001,
+      "font": "R",
+      "size_pt": 11.5,
+      "color": "#251E17"
+    },
+    {
+      "type": "text",
+      "text": "Bốn gương mặt dẫn đường",
+      "x": 19,
+      "baseline_y": 119,
+      "font": "B",
+      "size_pt": 15,
+      "color": "#8F3028"
+    },
+    {
+      "type": "rect",
+      "bbox": [
+        19,
+        126,
+        151,
+        15
+      ],
+      "fill": "#F8EDD5",
+      "stroke": "#DFCCAA"
+    },
+    {
+      "type": "text",
+      "text": "Trưng Trắc",
+      "x": 23,
+      "baseline_y": 131,
+      "font": "B",
+      "size_pt": 11.5,
+      "color": "#A62A2A"
+    },
+    {
+      "type": "text",
+      "text": "Người đứng đầu nghĩa quân; từ nỗi đau đến lời thề.",
+      "x": 23,
+      "baseline_y": 137,
+      "font": "R",
+      "size_pt": 10,
+      "color": "#251E17"
+    },
+    {
+      "type": "rect",
+      "bbox": [
+        19,
+        143,
+        151,
+        15
+      ],
+      "fill": "#F8EDD5",
+      "stroke": "#DFCCAA"
+    },
+    {
+      "type": "text",
+      "text": "Trưng Nhị",
+      "x": 23,
+      "baseline_y": 148,
+      "font": "B",
+      "size_pt": 11.5,
+      "color": "#234577"
+    },
+    {
+      "type": "text",
+      "text": "Người em luôn sát cánh cùng chị.",
+      "x": 23,
+      "baseline_y": 154,
+      "font": "R",
+      "size_pt": 10,
+      "color": "#251E17"
+    },
+    {
+      "type": "rect",
+      "bbox": [
+        19,
+        160,
+        151,
+        15
+      ],
+      "fill": "#F8EDD5",
+      "stroke": "#DFCCAA"
+    },
+    {
+      "type": "text",
+      "text": "Thi Sách",
+      "x": 23,
+      "baseline_y": 165,
+      "font": "B",
+      "size_pt": 11.5,
+      "color": "#6D386D"
+    },
+    {
+      "type": "text",
+      "text": "Nhân vật trung tâm của mạch truyện Chu Diên.",
+      "x": 23,
+      "baseline_y": 171,
+      "font": "R",
+      "size_pt": 10,
+      "color": "#251E17"
+    },
+    {
+      "type": "rect",
+      "bbox": [
+        19,
+        177,
+        151,
+        15
+      ],
+      "fill": "#F8EDD5",
+      "stroke": "#DFCCAA"
+    },
+    {
+      "type": "text",
+      "text": "Thánh Thiên",
+      "x": 23,
+      "baseline_y": 182,
+      "font": "B",
+      "size_pt": 11.5,
+      "color": "#28613E"
+    },
+    {
+      "type": "text",
+      "text": "Nữ tướng của mạch truyện núi Phượng Hoàng.",
+      "x": 23,
+      "baseline_y": 188,
+      "font": "R",
+      "size_pt": 10,
+      "color": "#251E17"
+    },
+    {
+      "type": "text",
+      "text": "Gợi ý: đọc liền mạch để cảm nhận câu chuyện, rồi trở lại hai trang phụ lục để đối chiếu",
+      "x": 19,
+      "baseline_y": 204,
+      "font": "R",
+      "size_pt": 10.5,
+      "color": "#251E17"
+    },
+    {
+      "type": "text",
+      "text": "nguồn và trao đổi cùng bạn.",
+      "x": 19,
+      "baseline_y": 209,
+      "font": "R",
+      "size_pt": 10.5,
+      "color": "#251E17"
+    }
+  ],
+  "rasters": [],
+  "trim_mm": [
+    190,
+    240
+  ],
+  "bleed_mm": [
+    196,
+    246
+  ],
+  "print_ready": false,
+  "user_approved": false,
+  "pdf_sha256": "96d32c50013177665554deb7dc3be1dc42d70c0dbb9933c635ab6002366c8d2a"
+}

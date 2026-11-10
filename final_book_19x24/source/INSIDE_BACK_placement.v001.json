@@ -1,0 +1,338 @@
+{
+  "name": "INSIDE_BACK",
+  "version": "v001",
+  "operations": [
+    {
+      "type": "rect",
+      "bbox": [
+        -3,
+        -3,
+        196,
+        246
+      ],
+      "fill": "#FFF7E5",
+      "stroke": "#FFF7E5"
+    },
+    {
+      "type": "rect",
+      "bbox": [
+        11,
+        10,
+        168,
+        219
+      ],
+      "fill": "#FFF9ED",
+      "stroke": "#BD9C6C"
+    },
+    {
+      "type": "text",
+      "text": "HỒ SƠ NHÂN VẬT",
+      "x": 19,
+      "baseline_y": 23,
+      "font": "B",
+      "size_pt": 9,
+      "color": "#9A6D35"
+    },
+    {
+      "type": "text",
+      "text": "Những mối dây nghĩa tình",
+      "x": 19,
+      "baseline_y": 36,
+      "font": "B",
+      "size_pt": 22,
+      "color": "#902923"
+    },
+    {
+      "type": "line",
+      "points": [
+        19,
+        41,
+        171,
+        41
+      ],
+      "color": "#B88A4D"
+    },
+    {
+      "type": "text",
+      "text": "Quan hệ theo nguồn truyện, không phải gia phả khảo chứng.",
+      "x": 19,
+      "baseline_y": 52,
+      "font": "R",
+      "size_pt": 9.5,
+      "color": "#715E48"
+    },
+    {
+      "type": "rect",
+      "bbox": [
+        22,
+        66,
+        67,
+        14
+      ],
+      "fill": "#F9EDD3",
+      "stroke": "#274D77"
+    },
+    {
+      "type": "text",
+      "text": "Trưng Định",
+      "x": 44.529669444444444,
+      "baseline_y": 75,
+      "font": "B",
+      "size_pt": 11,
+      "color": "#274D77"
+    },
+    {
+      "type": "rect",
+      "bbox": [
+        111,
+        66,
+        60,
+        14
+      ],
+      "fill": "#F9EDD3",
+      "stroke": "#274D77"
+    },
+    {
+      "type": "text",
+      "text": "Nguyễn Huyền",
+      "x": 127.28347083333334,
+      "baseline_y": 75,
+      "font": "B",
+      "size_pt": 10.5,
+      "color": "#274D77"
+    },
+    {
+      "type": "line",
+      "points": [
+        55.5,
+        80,
+        55.5,
+        91
+      ],
+      "color": "#A48254"
+    },
+    {
+      "type": "line",
+      "points": [
+        141,
+        80,
+        141,
+        104
+      ],
+      "color": "#A48254"
+    },
+    {
+      "type": "text",
+      "text": "cha – con",
+      "x": 134.43004305555556,
+      "baseline_y": 97,
+      "font": "R",
+      "size_pt": 8.5,
+      "color": "#715E48"
+    },
+    {
+      "type": "line",
+      "points": [
+        35,
+        91,
+        77,
+        91
+      ],
+      "color": "#A48254"
+    },
+    {
+      "type": "line",
+      "points": [
+        35,
+        91,
+        35,
+        104
+      ],
+      "color": "#A48254"
+    },
+    {
+      "type": "line",
+      "points": [
+        77,
+        91,
+        77,
+        104
+      ],
+      "color": "#A48254"
+    },
+    {
+      "type": "rect",
+      "bbox": [
+        15,
+        104,
+        40,
+        14
+      ],
+      "fill": "#F9EDD3",
+      "stroke": "#274D77"
+    },
+    {
+      "type": "text",
+      "text": "Trưng Trắc",
+      "x": 25.076608055555557,
+      "baseline_y": 113,
+      "font": "B",
+      "size_pt": 10.3,
+      "color": "#274D77"
+    },
+    {
+      "type": "rect",
+      "bbox": [
+        61,
+        104,
+        40,
+        14
+      ],
+      "fill": "#F9EDD3",
+      "stroke": "#274D77"
+    },
+    {
+      "type": "text",
+      "text": "Trưng Nhị",
+      "x": 71.76154375,
+      "baseline_y": 113,
+      "font": "B",
+      "size_pt": 10.3,
+      "color": "#274D77"
+    },
+    {
+      "type": "rect",
+      "bbox": [
+        111,
+        104,
+        60,
+        14
+      ],
+      "fill": "#F9EDD3",
+      "stroke": "#326544"
+    },
+    {
+      "type": "text",
+      "text": "Thánh Thiên",
+      "x": 129.59301875,
+      "baseline_y": 113,
+      "font": "B",
+      "size_pt": 10.5,
+      "color": "#326544"
+    },
+    {
+      "type": "line",
+      "points": [
+        35,
+        118,
+        35,
+        139
+      ],
+      "color": "#A48254"
+    },
+    {
+      "type": "text",
+      "text": "vợ – chồng",
+      "x": 36,
+      "baseline_y": 130,
+      "font": "R",
+      "size_pt": 8.5,
+      "color": "#251E17"
+    },
+    {
+      "type": "rect",
+      "bbox": [
+        15,
+        139,
+        56,
+        14
+      ],
+      "fill": "#F9EDD3",
+      "stroke": "#7D3D68"
+    },
+    {
+      "type": "text",
+      "text": "Thi Sách",
+      "x": 35.04098055555556,
+      "baseline_y": 148,
+      "font": "B",
+      "size_pt": 11,
+      "color": "#7D3D68"
+    },
+    {
+      "type": "text",
+      "text": "Các lực lượng trong mạch truyện",
+      "x": 19,
+      "baseline_y": 174,
+      "font": "B",
+      "size_pt": 13,
+      "color": "#91362B"
+    },
+    {
+      "type": "text",
+      "text": "Mê Linh",
+      "x": 19,
+      "baseline_y": 187,
+      "font": "B",
+      "size_pt": 10.5,
+      "color": "#274D77"
+    },
+    {
+      "type": "text",
+      "text": "Hai Bà Trưng và các tộc trưởng.",
+      "x": 57,
+      "baseline_y": 187,
+      "font": "R",
+      "size_pt": 9.5,
+      "color": "#251E17"
+    },
+    {
+      "type": "text",
+      "text": "Chu Diên",
+      "x": 19,
+      "baseline_y": 200,
+      "font": "B",
+      "size_pt": 10.5,
+      "color": "#7D3D68"
+    },
+    {
+      "type": "text",
+      "text": "Thi Sách, Đinh Lương, Phùng Thị Chính.",
+      "x": 57,
+      "baseline_y": 200,
+      "font": "R",
+      "size_pt": 9.5,
+      "color": "#251E17"
+    },
+    {
+      "type": "text",
+      "text": "Phượng Hoàng",
+      "x": 19,
+      "baseline_y": 213,
+      "font": "B",
+      "size_pt": 10.5,
+      "color": "#326544"
+    },
+    {
+      "type": "text",
+      "text": "Thánh Thiên và bảy bộ tộc.",
+      "x": 57,
+      "baseline_y": 213,
+      "font": "R",
+      "size_pt": 9.5,
+      "color": "#251E17"
+    }
+  ],
+  "rasters": [],
+  "trim_mm": [
+    190,
+    240
+  ],
+  "bleed_mm": [
+    196,
+    246
+  ],
+  "print_ready": false,
+  "user_approved": false,
+  "pdf_sha256": "8562b174bdb9ff58c1d49f6582a57c3c320e30112e0d96c0890cc120120f8db3"
+}

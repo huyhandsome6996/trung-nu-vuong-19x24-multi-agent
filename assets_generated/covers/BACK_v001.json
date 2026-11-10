@@ -1,0 +1,34 @@
+{
+  "id": "BACK",
+  "version": "v001",
+  "generator": "image_gen.imagegen",
+  "transparent_background": false,
+  "actual_reference_paths": [
+    "/workspace/scratch/9c77cb6cc5ef/trung-nu-vuong-19x24-multi-agent/assets_generated/design_system/ENV03_v001.png",
+    "/workspace/scratch/9c77cb6cc5ef/trung-nu-vuong-19x24-multi-agent/assets_generated/covers/FRONT_v001.png"
+  ],
+  "prompt": "Create one text-free BACK COVER illustration for a Vietnamese historical illustrated story, portrait19:24. Reference1 ONLY middle panel provides HatMon river altar, flags and bronze ritual objects. Reference2 is the finished front cover: match its detailed black ink crosshatching, rich watercolor colored-pencil texture, pale golden sunrise, crimson/bronze/riverblue palette and paper feel. No people or character montage on back. Main illustration in UPPER58PERCENT: a large elegant ancient bronze incense burner with two handles and three stable feet on stone steps of a river oath altar; subtle DongSon motifs, incense smoke drifting upward; beyond it broad blue river and green mountains, groups of five-colored ceremonial banners in early spring sunlight. Monumental but serene, clean perspective and credible object anatomy. LOWER42PERCENT must be quiet pale ivory stone/misty paper with very low contrast and no important objects, for a later synopsis panel and readership note. No typography, readable markings, letters, labels, logo, barcode, ISBN, speech bubbles, frames, watermark or border. No 3Drender. Not a reconstruction of a modern temple; symbolic historical-story altar setting.",
+  "image": "assets_generated/covers/BACK_v001.png",
+  "sha256": "c331aa6e3d83291947ac8ee6f64eb3ca409ae2e80f55de47c0009241ade42470",
+  "native_size_px": [
+    1115,
+    1410
+  ],
+  "mode": "RGB",
+  "text_free": true,
+  "print_ready": false,
+  "user_approved": false,
+  "review_notes": "Opened native image: stable three-footed bronze incense burner, two handles, connected steps and symbolic river altar. No lettering/barcode/people. Quiet lower40percent for synopsis; upper illustration retains full burner and flags.",
+  "actual_references": [
+    {
+      "path": "assets_generated/design_system/ENV03_v001.png",
+      "tool_path": "/workspace/scratch/9c77cb6cc5ef/trung-nu-vuong-19x24-multi-agent/assets_generated/design_system/ENV03_v001.png",
+      "sha256": "fd58bd1e71c22e4bec7a0f54bb9ec6cec0b15ab0da5e0c8979c26e95bad6b929"
+    },
+    {
+      "path": "assets_generated/covers/FRONT_v001.png",
+      "tool_path": "/workspace/scratch/9c77cb6cc5ef/trung-nu-vuong-19x24-multi-agent/assets_generated/covers/FRONT_v001.png",
+      "sha256": "cd41a77036724db8a6b198b0040bacf8e6fb49208866eff0f3ec21ec7d64a1df"
+    }
+  ]
+}

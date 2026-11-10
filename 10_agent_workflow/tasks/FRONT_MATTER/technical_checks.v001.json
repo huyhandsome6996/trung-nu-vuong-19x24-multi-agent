@@ -1,0 +1,130 @@
+[
+  {
+    "page": "FRONT",
+    "version": "v002",
+    "trim_mm": [
+      190,
+      240
+    ],
+    "bleed_mm": [
+      196,
+      246
+    ],
+    "pdf_reopened": true,
+    "embedded_fonts": true,
+    "png_decoded": true,
+    "sha256": "e00f98fa2dd2dcff3e4b8769c4c6595fb6d2e0f3beb53fbc5eefd253aa797b2e"
+  },
+  {
+    "page": "INSIDE_FRONT",
+    "version": "v001",
+    "trim_mm": [
+      190,
+      240
+    ],
+    "bleed_mm": [
+      196,
+      246
+    ],
+    "pdf_reopened": true,
+    "embedded_fonts": true,
+    "png_decoded": true,
+    "sha256": "0914c06425689852bec81378005fb659ffcd961cdc0f53a1951c195cee5efbfc"
+  },
+  {
+    "page": "MATTER_I",
+    "version": "v001",
+    "trim_mm": [
+      190,
+      240
+    ],
+    "bleed_mm": [
+      196,
+      246
+    ],
+    "pdf_reopened": true,
+    "embedded_fonts": true,
+    "png_decoded": true,
+    "sha256": "8000b0cc4f0a1357527b40f2aba3884d51e2d63a2e0257cacdb3ba740f6bfd85"
+  },
+  {
+    "page": "MATTER_II",
+    "version": "v001",
+    "trim_mm": [
+      190,
+      240
+    ],
+    "bleed_mm": [
+      196,
+      246
+    ],
+    "pdf_reopened": true,
+    "embedded_fonts": true,
+    "png_decoded": true,
+    "sha256": "96d32c50013177665554deb7dc3be1dc42d70c0dbb9933c635ab6002366c8d2a"
+  },
+  {
+    "page": "MATTER_III",
+    "version": "v001",
+    "trim_mm": [
+      190,
+      240
+    ],
+    "bleed_mm": [
+      196,
+      246
+    ],
+    "pdf_reopened": true,
+    "embedded_fonts": true,
+    "png_decoded": true,
+    "sha256": "e8fb9d5cfbd8e49a808f6771d591c6d52a895b9135f5eee5a96f34d3f9578654"
+  },
+  {
+    "page": "MATTER_IV",
+    "version": "v001",
+    "trim_mm": [
+      190,
+      240
+    ],
+    "bleed_mm": [
+      196,
+      246
+    ],
+    "pdf_reopened": true,
+    "embedded_fonts": true,
+    "png_decoded": true,
+    "sha256": "6c42c48766d50ffac89f0b75d2d7e682af7e85f0deb46a5ef121c65331e0f157"
+  },
+  {
+    "page": "INSIDE_BACK",
+    "version": "v002",
+    "trim_mm": [
+      190,
+      240
+    ],
+    "bleed_mm": [
+      196,
+      246
+    ],
+    "pdf_reopened": true,
+    "embedded_fonts": true,
+    "png_decoded": true,
+    "sha256": "6d9f54991bf1771484d3cbca9d8e6e809ef904f764be2b0ab61e2cc15cbfbf3a"
+  },
+  {
+    "page": "BACK",
+    "version": "v001",
+    "trim_mm": [
+      190,
+      240
+    ],
+    "bleed_mm": [
+      196,
+      246
+    ],
+    "pdf_reopened": true,
+    "embedded_fonts": true,
+    "png_decoded": true,
+    "sha256": "a4eef2a1787a01c8a87dc799de87e6ad4d57ecb4c5b79f2f0256af06902927ca"
+  }
+]

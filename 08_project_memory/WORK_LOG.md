@@ -195,3 +195,11 @@ timezone: "Asia/Ho_Chi_Minh"
 
 - Completed coordinator speech09/layoutQAv004,10/layoutQAv004,11/layoutQAv003 after native letter reading and final Poppler review. Kept placement trials; revised09/10 tails to approach from side rather than crossing eyes. PAGE03 remains original tool moderation blocker; not retried or marked complete.
 - Remote fetch revealed AgentB has begun21. Rebase preserved B changes; two coordinator commits remain local. Second push explicitly rejected by automatic approval review requiring user authorization of exact remote mutation. No further push attempts; finish unaffected work and request authorization with concrete result.
+
+## 2026-11-10 — Coordinator covers, ancillary and reading assembly checkpoint
+
+- Front montage generated from five actual active references; exact request/hash/native1086x1448 saved. FrontLAYOUT/QAv002 uses measured clear sky, four title tiers and intentional bronze edging to preserve full boots without duplicated image side strips.
+- Back actual native1114x1410 illustration saved with reference/prompt hashes; synopsisLAYOUT/QAv001 visually verified. No invented publisher/ISBN/rights approval.
+- FRONT_MATTER done: four ancillary pages, inside-cover non-scaled place schematic and story relationship diagram; corrected relation label inINSIDE_BACKv002. Opened all eight cover/ancillary faces; technical checks fonts/boxes/nonemptyPDF/PNG decode pass. Reopened all three official historical/heritage sources for brief factual notes; story genealogies explicitly labeled per fiction.
+- Reading pagination is32interior+4covers=36faces. Added coordinator-only reading assembler gated by currentQA and immutable evidence; actual preflight refuses03QA and14–28QA. PRINT_SPEC remains separate/blocked; no print-ready claim.
+- COVERS_AND_MATTER_REVIEWv001 is eight-face review only. Seventeen tests/check_repo/workflowcheck pass. No further push after second auto-review rejection; all session work remains local pending user authorization. See coordinatorHANDOFFv001 for continuation.

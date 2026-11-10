@@ -1,0 +1,11 @@
+{
+  "id": "BACK",
+  "version": "v001",
+  "generator": "image_gen.imagegen",
+  "transparent_background": false,
+  "actual_reference_paths": [
+    "/workspace/scratch/9c77cb6cc5ef/trung-nu-vuong-19x24-multi-agent/assets_generated/design_system/ENV03_v001.png",
+    "/workspace/scratch/9c77cb6cc5ef/trung-nu-vuong-19x24-multi-agent/assets_generated/covers/FRONT_v001.png"
+  ],
+  "prompt": "Create one text-free BACK COVER illustration for a Vietnamese historical illustrated story, portrait19:24. Reference1 ONLY middle panel provides HatMon river altar, flags and bronze ritual objects. Reference2 is the finished front cover: match its detailed black ink crosshatching, rich watercolor colored-pencil texture, pale golden sunrise, crimson/bronze/riverblue palette and paper feel. No people or character montage on back. Main illustration in UPPER58PERCENT: a large elegant ancient bronze incense burner with two handles and three stable feet on stone steps of a river oath altar; subtle DongSon motifs, incense smoke drifting upward; beyond it broad blue river and green mountains, groups of five-colored ceremonial banners in early spring sunlight. Monumental but serene, clean perspective and credible object anatomy. LOWER42PERCENT must be quiet pale ivory stone/misty paper with very low contrast and no important objects, for a later synopsis panel and readership note. No typography, readable markings, letters, labels, logo, barcode, ISBN, speech bubbles, frames, watermark or border. No 3Drender. Not a reconstruction of a modern temple; symbolic historical-story altar setting."
+}

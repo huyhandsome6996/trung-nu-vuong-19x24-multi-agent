@@ -1,0 +1,40 @@
+{
+  "purpose": "Eight cover/ancillary reading review; NOT full book",
+  "complete_book": false,
+  "print_ready": false,
+  "selection": [
+    [
+      "FRONT",
+      "v002"
+    ],
+    [
+      "INSIDE_FRONT",
+      "v001"
+    ],
+    [
+      "MATTER_I",
+      "v001"
+    ],
+    [
+      "MATTER_II",
+      "v001"
+    ],
+    [
+      "MATTER_III",
+      "v001"
+    ],
+    [
+      "MATTER_IV",
+      "v001"
+    ],
+    [
+      "INSIDE_BACK",
+      "v002"
+    ],
+    [
+      "BACK",
+      "v001"
+    ]
+  ],
+  "sha256": "5672acd21ccf35dee50d5ee87d5f15e2e91a304a4fb46ad964d12f768cc87d63"
+}

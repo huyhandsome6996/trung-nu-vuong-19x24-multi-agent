@@ -1,0 +1,231 @@
+{
+  "name": "MATTER_IV",
+  "version": "v001",
+  "operations": [
+    {
+      "type": "rect",
+      "bbox": [
+        -3,
+        -3,
+        196,
+        246
+      ],
+      "fill": "#FFF7E5",
+      "stroke": "#FFF7E5"
+    },
+    {
+      "type": "rect",
+      "bbox": [
+        11,
+        10,
+        168,
+        219
+      ],
+      "fill": "#FFF9ED",
+      "stroke": "#BD9C6C"
+    },
+    {
+      "type": "text",
+      "text": "PHỤ LỤC ĐỌC HIỂU",
+      "x": 19,
+      "baseline_y": 23,
+      "font": "B",
+      "size_pt": 9,
+      "color": "#9A6D35"
+    },
+    {
+      "type": "text",
+      "text": "Cùng suy ngẫm",
+      "x": 19,
+      "baseline_y": 36,
+      "font": "B",
+      "size_pt": 22,
+      "color": "#902923"
+    },
+    {
+      "type": "line",
+      "points": [
+        19,
+        41,
+        171,
+        41
+      ],
+      "color": "#B88A4D"
+    },
+    {
+      "type": "text",
+      "text": "iv",
+      "x": 167.93083333333334,
+      "baseline_y": 222,
+      "font": "B",
+      "size_pt": 10,
+      "color": "#9A6D35"
+    },
+    {
+      "type": "text",
+      "text": "Tiên phát chế nhân",
+      "x": 19,
+      "baseline_y": 53,
+      "font": "B",
+      "size_pt": 11.5,
+      "color": "#91382C"
+    },
+    {
+      "type": "text",
+      "text": "Chủ động ra tay trước để giành lợi thế; hiểu theo bối cảnh nhân vật sử dụng trong",
+      "x": 19,
+      "baseline_y": 59.0,
+      "font": "R",
+      "size_pt": 10.5,
+      "color": "#251E17"
+    },
+    {
+      "type": "text",
+      "text": "truyện.",
+      "x": 19,
+      "baseline_y": 64.1,
+      "font": "R",
+      "size_pt": 10.5,
+      "color": "#251E17"
+    },
+    {
+      "type": "text",
+      "text": "Lời thề Hát Môn",
+      "x": 19,
+      "baseline_y": 76.2,
+      "font": "B",
+      "size_pt": 11.5,
+      "color": "#91382C"
+    },
+    {
+      "type": "text",
+      "text": "Biểu tượng cho sự đồng lòng và quyết tâm giành quyền tự chủ.",
+      "x": 19,
+      "baseline_y": 82.2,
+      "font": "R",
+      "size_pt": 10.5,
+      "color": "#251E17"
+    },
+    {
+      "type": "text",
+      "text": "Thánh Thiên",
+      "x": 19,
+      "baseline_y": 94.3,
+      "font": "B",
+      "size_pt": 11.5,
+      "color": "#91382C"
+    },
+    {
+      "type": "text",
+      "text": "Nữ tướng trong mạch truyện Phượng Hoàng; chi tiết huyết sâm thuộc lớp huyền tích.",
+      "x": 19,
+      "baseline_y": 100.3,
+      "font": "R",
+      "size_pt": 10.5,
+      "color": "#251E17"
+    },
+    {
+      "type": "line",
+      "points": [
+        19,
+        114,
+        171,
+        114
+      ],
+      "color": "#A48254"
+    },
+    {
+      "type": "text",
+      "text": "1. Chi tiết nào cho thấy tình nghĩa gắn với trách nhiệm đối với cộng đồng?",
+      "x": 19,
+      "baseline_y": 124.0,
+      "font": "R",
+      "size_pt": 11,
+      "color": "#251E17"
+    },
+    {
+      "type": "text",
+      "text": "2. Chọn một cảnh: đâu là sự kiện đối chiếu, đâu là yếu tố chuyển thể?",
+      "x": 19,
+      "baseline_y": 142.0,
+      "font": "R",
+      "size_pt": 11,
+      "color": "#251E17"
+    },
+    {
+      "type": "text",
+      "text": "3. Bạn học được điều gì từ quyết tâm và sự đoàn kết của các nhân vật?",
+      "x": 19,
+      "baseline_y": 160.0,
+      "font": "R",
+      "size_pt": 11,
+      "color": "#251E17"
+    },
+    {
+      "type": "text",
+      "text": "Nguồn đọc thêm",
+      "x": 19,
+      "baseline_y": 182,
+      "font": "B",
+      "size_pt": 12,
+      "color": "#234577"
+    },
+    {
+      "type": "text",
+      "text": "[1] Bảo tàng Lịch sử Quốc gia: Khởi nghĩa Hai Bà Trưng.",
+      "x": 19,
+      "baseline_y": 191,
+      "font": "R",
+      "size_pt": 8.7,
+      "color": "#234577"
+    },
+    {
+      "type": "text",
+      "text": "[2] Cục Di sản văn hóa: Đền Hai Bà Trưng (Hạ Lôi).",
+      "x": 19,
+      "baseline_y": 197,
+      "font": "R",
+      "size_pt": 8.7,
+      "color": "#234577"
+    },
+    {
+      "type": "text",
+      "text": "[3] Cục Di sản văn hóa: Đền Hát Môn.",
+      "x": 19,
+      "baseline_y": 203,
+      "font": "R",
+      "size_pt": 8.7,
+      "color": "#234577"
+    },
+    {
+      "type": "text",
+      "text": "Tư liệu truyện: trích Hồi 7–8 trong hồ sơ dự án.",
+      "x": 19,
+      "baseline_y": 213,
+      "font": "R",
+      "size_pt": 8.5,
+      "color": "#251E17"
+    },
+    {
+      "type": "text",
+      "text": "Tranh minh họa được tạo bằng AI.",
+      "x": 19,
+      "baseline_y": 218,
+      "font": "R",
+      "size_pt": 8.5,
+      "color": "#251E17"
+    }
+  ],
+  "rasters": [],
+  "trim_mm": [
+    190,
+    240
+  ],
+  "bleed_mm": [
+    196,
+    246
+  ],
+  "print_ready": false,
+  "user_approved": false,
+  "pdf_sha256": "6c42c48766d50ffac89f0b75d2d7e682af7e85f0deb46a5ef121c65331e0f157"
+}

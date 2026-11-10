@@ -1,0 +1,231 @@
+{
+  "name": "MATTER_III",
+  "version": "v001",
+  "operations": [
+    {
+      "type": "rect",
+      "bbox": [
+        -3,
+        -3,
+        196,
+        246
+      ],
+      "fill": "#FFF7E5",
+      "stroke": "#FFF7E5"
+    },
+    {
+      "type": "rect",
+      "bbox": [
+        11,
+        10,
+        168,
+        219
+      ],
+      "fill": "#FFF9ED",
+      "stroke": "#BD9C6C"
+    },
+    {
+      "type": "text",
+      "text": "PHỤ LỤC ĐỌC HIỂU",
+      "x": 19,
+      "baseline_y": 23,
+      "font": "B",
+      "size_pt": 9,
+      "color": "#9A6D35"
+    },
+    {
+      "type": "text",
+      "text": "Lịch sử và huyền tích",
+      "x": 19,
+      "baseline_y": 36,
+      "font": "B",
+      "size_pt": 22,
+      "color": "#902923"
+    },
+    {
+      "type": "line",
+      "points": [
+        19,
+        41,
+        171,
+        41
+      ],
+      "color": "#B88A4D"
+    },
+    {
+      "type": "text",
+      "text": "iii",
+      "x": 167.83558333333335,
+      "baseline_y": 222,
+      "font": "B",
+      "size_pt": 10,
+      "color": "#9A6D35"
+    },
+    {
+      "type": "text",
+      "text": "Những điểm lịch sử đã đối chiếu [1]",
+      "x": 19,
+      "baseline_y": 54,
+      "font": "B",
+      "size_pt": 13,
+      "color": "#234577"
+    },
+    {
+      "type": "text",
+      "text": "NĂM 40",
+      "x": 19,
+      "baseline_y": 67,
+      "font": "B",
+      "size_pt": 11,
+      "color": "#9A332B"
+    },
+    {
+      "type": "text",
+      "text": "Hai Bà Trưng khởi nghĩa ở cửa sông Hát.",
+      "x": 55,
+      "baseline_y": 67.0,
+      "font": "R",
+      "size_pt": 11,
+      "color": "#251E17"
+    },
+    {
+      "type": "text",
+      "text": "LUY LÂU",
+      "x": 19,
+      "baseline_y": 89,
+      "font": "B",
+      "size_pt": 11,
+      "color": "#9A332B"
+    },
+    {
+      "type": "text",
+      "text": "Nghĩa quân đánh đổ chính quyền đô hộ tại đây.",
+      "x": 55,
+      "baseline_y": 89.0,
+      "font": "R",
+      "size_pt": 11,
+      "color": "#251E17"
+    },
+    {
+      "type": "text",
+      "text": "MÊ LINH",
+      "x": 19,
+      "baseline_y": 111,
+      "font": "B",
+      "size_pt": 11,
+      "color": "#9A332B"
+    },
+    {
+      "type": "text",
+      "text": "Trưng Trắc được suy tôn làm vua và đóng đô ở Mê Linh.",
+      "x": 55,
+      "baseline_y": 111.0,
+      "font": "R",
+      "size_pt": 11,
+      "color": "#251E17"
+    },
+    {
+      "type": "line",
+      "points": [
+        19,
+        125,
+        171,
+        125
+      ],
+      "color": "#A48254"
+    },
+    {
+      "type": "text",
+      "text": "Đọc truyện với hai lớp thông tin",
+      "x": 19,
+      "baseline_y": 138,
+      "font": "B",
+      "size_pt": 14,
+      "color": "#9A332B"
+    },
+    {
+      "type": "text",
+      "text": "Lịch sử: những sự kiện được đối chiếu với tư liệu, như mốc khởi nghĩa năm 40",
+      "x": 19,
+      "baseline_y": 150.0,
+      "font": "R",
+      "size_pt": 11.5,
+      "color": "#251E17"
+    },
+    {
+      "type": "text",
+      "text": "và việc Trưng Trắc xưng vương.",
+      "x": 19,
+      "baseline_y": 155.7,
+      "font": "R",
+      "size_pt": 11.5,
+      "color": "#251E17"
+    },
+    {
+      "type": "text",
+      "text": "Huyền tích và chuyển thể: khổng tước, huyết sâm, các lời thoại và nhiều chi tiết",
+      "x": 19,
+      "baseline_y": 166.4,
+      "font": "R",
+      "size_pt": 11.5,
+      "color": "#251E17"
+    },
+    {
+      "type": "text",
+      "text": "chiến trận giúp câu chuyện sinh động; chúng không tự trở thành chứng cứ lịch",
+      "x": 19,
+      "baseline_y": 172.1,
+      "font": "R",
+      "size_pt": 11.5,
+      "color": "#251E17"
+    },
+    {
+      "type": "text",
+      "text": "sử.",
+      "x": 19,
+      "baseline_y": 177.8,
+      "font": "R",
+      "size_pt": 11.5,
+      "color": "#251E17"
+    },
+    {
+      "type": "text",
+      "text": "Hai di tích, hai địa điểm [2][3]",
+      "x": 19,
+      "baseline_y": 191,
+      "font": "B",
+      "size_pt": 12,
+      "color": "#234577"
+    },
+    {
+      "type": "text",
+      "text": "Đền Hai Bà Trưng ở Hạ Lôi (Mê Linh) và đền Hát Môn là hai di tích khác nhau. Tranh",
+      "x": 19,
+      "baseline_y": 201.0,
+      "font": "R",
+      "size_pt": 10.5,
+      "color": "#251E17"
+    },
+    {
+      "type": "text",
+      "text": "tưởng niệm trong truyện là hình tượng minh họa.",
+      "x": 19,
+      "baseline_y": 206.2,
+      "font": "R",
+      "size_pt": 10.5,
+      "color": "#251E17"
+    }
+  ],
+  "rasters": [],
+  "trim_mm": [
+    190,
+    240
+  ],
+  "bleed_mm": [
+    196,
+    246
+  ],
+  "print_ready": false,
+  "user_approved": false,
+  "pdf_sha256": "e8fb9d5cfbd8e49a808f6771d591c6d52a895b9135f5eee5a96f34d3f9578654"
+}

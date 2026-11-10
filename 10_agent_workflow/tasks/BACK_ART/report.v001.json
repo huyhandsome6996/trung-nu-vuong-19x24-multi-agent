@@ -1,0 +1,21 @@
+{
+  "task_id": "BACK_ART",
+  "kind": "art",
+  "status": "passed",
+  "reviewer": "Codex coordinator",
+  "summary": "Opened native image: stable three-footed bronze incense burner, two handles, connected steps and symbolic river altar. No lettering/barcode/people. Quiet lower40percent for synopsis; upper illustration retains full burner and flags. Active references viewed before actual call; native pixels measured, not print-ready.",
+  "checks": {
+    "actual_refs": "pass",
+    "character_consistency": "pass",
+    "no_text": "pass",
+    "top_clearance": "pass",
+    "anatomy": "pass"
+  },
+  "artifacts": [
+    "assets_generated/covers/BACK_v001.png",
+    "assets_generated/covers/BACK_v001.json",
+    "10_agent_workflow/tasks/BACK_ART/request.v001.json"
+  ],
+  "open_issues": [],
+  "reviewed_at": "2026-11-10T07:17:55.721143+00:00"
+}

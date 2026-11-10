@@ -1,0 +1,155 @@
+{
+  "name": "BACK",
+  "version": "v001",
+  "operations": [
+    {
+      "type": "polygon",
+      "points": [
+        [
+          14,
+          148
+        ],
+        [
+          18,
+          146
+        ],
+        [
+          173,
+          147
+        ],
+        [
+          177,
+          151
+        ],
+        [
+          176,
+          202
+        ],
+        [
+          171,
+          205
+        ],
+        [
+          16,
+          203
+        ],
+        [
+          13,
+          199
+        ]
+      ],
+      "fill": "#FFF4D8",
+      "stroke": "#775332"
+    },
+    {
+      "type": "text",
+      "text": "MỘT LỜI THỀ, MUÔN TẤM LÒNG",
+      "x": 58.382195833333334,
+      "baseline_y": 155,
+      "font": "B",
+      "size_pt": 13,
+      "color": "#922F26"
+    },
+    {
+      "type": "text",
+      "text": "Mùa xuân năm 40, tiếng gọi đứng lên chống ách đô hộ vang dậy từ cửa sông",
+      "x": 21,
+      "baseline_y": 164.0,
+      "font": "R",
+      "size_pt": 11.3,
+      "color": "#251E17"
+    },
+    {
+      "type": "text",
+      "text": "Hát.",
+      "x": 21,
+      "baseline_y": 169.6,
+      "font": "R",
+      "size_pt": 11.3,
+      "color": "#251E17"
+    },
+    {
+      "type": "text",
+      "text": "Qua cuộc chiến bi tráng ở Chu Diên, lời thề Hát Môn và chiến công núi Phượng",
+      "x": 21,
+      "baseline_y": 177.2,
+      "font": "R",
+      "size_pt": 11.3,
+      "color": "#251E17"
+    },
+    {
+      "type": "text",
+      "text": "Hoàng, truyện khắc họa lòng yêu nước, tình nghĩa và ý chí tự chủ của những",
+      "x": 21,
+      "baseline_y": 182.79999999999998,
+      "font": "R",
+      "size_pt": 11.3,
+      "color": "#251E17"
+    },
+    {
+      "type": "text",
+      "text": "người con đất Việt.",
+      "x": 21,
+      "baseline_y": 188.39999999999998,
+      "font": "R",
+      "size_pt": 11.3,
+      "color": "#251E17"
+    },
+    {
+      "type": "text",
+      "text": "Truyện chuyển thể kết hợp lịch sử và huyền tích.",
+      "x": 58.28140722222223,
+      "baseline_y": 199,
+      "font": "R",
+      "size_pt": 9.2,
+      "color": "#6D5037"
+    },
+    {
+      "type": "text",
+      "text": "Dành cho học sinh lớp 8–10",
+      "x": 66.54988333333334,
+      "baseline_y": 216,
+      "font": "B",
+      "size_pt": 12,
+      "color": "#223F61"
+    },
+    {
+      "type": "text",
+      "text": "19 × 24 cm",
+      "x": 86.08354166666666,
+      "baseline_y": 223,
+      "font": "R",
+      "size_pt": 10,
+      "color": "#6D5037"
+    }
+  ],
+  "rasters": [
+    {
+      "path": "assets_generated/covers/BACK_v001.png",
+      "native_size_px": [
+        1115,
+        1410
+      ],
+      "bbox_mm": [
+        -3,
+        -3,
+        196,
+        246
+      ],
+      "scale_mode": "cover",
+      "effective_dpi": 144.49489795918365,
+      "uniform_scale": true
+    }
+  ],
+  "trim_mm": [
+    190,
+    240
+  ],
+  "bleed_mm": [
+    196,
+    246
+  ],
+  "print_ready": false,
+  "user_approved": false,
+  "pdf_sha256": "a4eef2a1787a01c8a87dc799de87e6ad4d57ecb4c5b79f2f0256af06902927ca"
+}
