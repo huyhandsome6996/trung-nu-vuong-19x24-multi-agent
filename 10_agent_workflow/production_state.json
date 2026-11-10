@@ -2041,17 +2041,17 @@
       "id": "PAGE13_ART",
       "kind": "art",
       "title": "Trang13: tạo và kiểm tranh nền",
-      "status": "blocked",
+      "status": "in_progress",
       "depends_on": [
         "PAGE13_TEXT"
       ],
       "instructions": "Lấy text đã khóa từ evidence bước TEXT. Xem các sheet liên quan; soạn prompt cuối theo cảnh, ghi actual_references và hash. Tạo ảnh bằng công cụ sinh ảnh, nền không chữ, không bóng thoại, chừa20% đỉnh; dùng đúng A/B/C. Kiểm mặt, phục trang, tay/chân/vũ khí và hành động. Lưu PNG native có phiên bản và metadata theo templates/RAW_IMAGE_METADATA.json. Không resize rồi khai native300DPI.",
       "evidence": [],
-      "last_note": "Image request pending, independent layouts continue",
+      "last_note": "Fresh v002 request, all five baseline images viewed",
       "page": 13,
       "owner": "Codex",
-      "updated_at": "2026-11-09T14:15:05+00:00",
-      "block_reason": "Image request pending, independent layouts continue"
+      "updated_at": "2026-11-10T02:07:25+00:00",
+      "block_reason": ""
     },
     {
       "id": "PAGE13_LAYOUT",
@@ -4531,6 +4531,18 @@
       "task": "PAGE12_QA",
       "action": "finish",
       "note": "Opened revised full render: triangular tail now reaches PhạmDanhHương mouth rather than horizontal line toward nose. Three panels, distinct LêĐạo blackhawk, ĐàoChiêuHiển spear, Phạm whitewhisk. Six red keyword spans, four narration lines, full three-line quote. No face/grip overlap; no overflow, Vietnamese fonts/standard boxes verified."
+    },
+    {
+      "at": "2026-11-10T02:07:25+00:00",
+      "task": "PAGE13_ART",
+      "action": "unblock",
+      "note": "Previous session job no longer running; restart from saved request and actual baseline refs"
+    },
+    {
+      "at": "2026-11-10T02:07:25+00:00",
+      "task": "PAGE13_ART",
+      "action": "start",
+      "note": "Fresh v002 request, all five baseline images viewed"
     }
   ]
 }

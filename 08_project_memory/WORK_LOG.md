@@ -146,3 +146,9 @@ timezone: "Asia/Ho_Chi_Minh"
 - Twelve-page reading checkpoint created with source SVG, raw PNG, placement JSON, proofs/reports. Native raster remains below300DPI; not print-ready/user-approved.
 - TEXT13–18 locked against scans32–42. Corrected unsupported superlative14, chronology15 (>10days), and16: source says morethan100boats;16is oars perboat, not160boats. No storyboard-file mutation that would invalidate earlier locks.
 - Six exact requests13–18 saved, baseline pixels viewed; image calls pending. Continue returned outputs and complete layouts; do not mark timeout as success without actual file/pixel review.
+
+## 2026-11-10 — Resume from verified remote dc5b152
+
+- Re-cloned main after environment reset. Verified remote retains12completed pages and TEXT01–18. Later local-only work/commit from the interrupted session was not pushed; do not count it as delivered.
+- Generated-image cache and available saved files did not contain the later13–24 outputs. Retain committed requests, restart image generation with explicit new versions. No pending background generation is assumed alive.
+- Source27–28 remains verified; their TEXT tasks still need finishing in queue. Continue PAGE13_ART first, push each completed page.

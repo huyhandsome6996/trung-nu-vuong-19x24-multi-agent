@@ -2,7 +2,7 @@
 
 Tệp được tạo lại bởi workflow.py; không sửa trực tiếp brief này.
 
-Loại: `art`. Trạng thái: `todo`. Phụ thuộc: PAGE13_TEXT.
+Loại: `art`. Trạng thái: `blocked`. Phụ thuộc: PAGE13_TEXT.
 
 Đọc START_HERE.md, 10_agent_workflow/WORKFLOW_A_TO_Z.md, 09_design_system/SOURCE_DECISIONS.md.
 
