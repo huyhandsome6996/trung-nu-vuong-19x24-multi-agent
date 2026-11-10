@@ -102,27 +102,40 @@
       "id": "PAGE21_TEXT",
       "kind": "text",
       "title": "Trang21: đối chiếu và khóa chữ",
-      "status": "todo",
+      "status": "done",
       "depends_on": [
         "DESIGN_BASELINE"
       ],
       "instructions": "Đọc nguyên cảnh và nguồn scan; sửa các câu cường điệu/không có căn cứ, giữ giọng hào hùng 13–16 tuổi. Đếm thật 35–65 tiếng theo khoảng trắng, không dùng số từ ghi trong tiêu đề làm chứng cứ. Chép đủ thoại vào text.v001.json, giữ **từ khóa**; ghi nguồn, template và hash storyboard. Khóa chữ sau khi kiểm. Nếu sửa toàn file storyboard về sau, rà lại các text đã khóa theo hash mới.",
-      "evidence": [],
-      "last_note": "",
-      "page": 21
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/PAGE21_TEXT/report.v001.json",
+          "sha256": "29b89ac0f50a62aad8636633a90db22bbd74e7a5cbb9bd74c6cd477c130265f4"
+        },
+        {
+          "path": "10_agent_workflow/tasks/PAGE21_TEXT/text.v001.json",
+          "sha256": "962f9835d5ebc070c47752de133cfff167eb9c22ac8380b6249550a1363d2893"
+        }
+      ],
+      "last_note": "Nguồn và chữ kế hoạch đã kiểm.",
+      "page": 21,
+      "owner": "agent_b",
+      "updated_at": "2026-11-10T06:48:42+00:00"
     },
     {
       "id": "PAGE21_ART",
       "kind": "art",
       "title": "Trang21: tạo và kiểm tranh nền",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "PAGE21_TEXT"
       ],
       "instructions": "Lấy text đã khóa từ evidence bước TEXT. Xem các sheet liên quan; soạn prompt cuối theo cảnh, ghi actual_references và hash. Tạo ảnh bằng công cụ sinh ảnh, nền không chữ, không bóng thoại, chừa20% đỉnh; dùng đúng A/B/C. Kiểm mặt, phục trang, tay/chân/vũ khí và hành động. Lưu PNG native có phiên bản và metadata theo templates/RAW_IMAGE_METADATA.json. Không resize rồi khai native300DPI.",
       "evidence": [],
-      "last_note": "",
-      "page": 21
+      "last_note": "Đã xem CHAR04/CHAR15/ENV04; tạo tranh TemplateC sa bàn và2khung nhận lệnh.",
+      "page": 21,
+      "owner": "agent_b",
+      "updated_at": "2026-11-10T06:48:42+00:00"
     },
     {
       "id": "PAGE21_LAYOUT",
@@ -525,5 +538,30 @@
       "block_reason": ""
     }
   ],
-  "history": []
+  "history": [
+    {
+      "at": "2026-11-10T06:48:13+00:00",
+      "task": "PAGE21_TEXT",
+      "action": "start",
+      "note": "Đã đọc scan47–49 và storyboard; khóa lời dẫn và đủ thoại kế hoạch."
+    },
+    {
+      "at": "2026-11-10T06:48:42+00:00",
+      "task": "PAGE21_TEXT",
+      "action": "checkpoint",
+      "note": "text.v001.json: 57 tiếng, 8cụm đỏ, đủ thoại; đã đối chiếu scan kế hoạch."
+    },
+    {
+      "at": "2026-11-10T06:48:42+00:00",
+      "task": "PAGE21_TEXT",
+      "action": "finish",
+      "note": "Nguồn và chữ kế hoạch đã kiểm."
+    },
+    {
+      "at": "2026-11-10T06:48:42+00:00",
+      "task": "PAGE21_ART",
+      "action": "start",
+      "note": "Đã xem CHAR04/CHAR15/ENV04; tạo tranh TemplateC sa bàn và2khung nhận lệnh."
+    }
+  ]
 }

@@ -1,0 +1,17 @@
+{
+  "page": 21,
+  "template": "C",
+  "status": "locked",
+  "narration": "**Đại tổng quản Tào Quyền** và **Lục Hiến** dẫn **ba mươi chiến thuyền**, **sáu trăm quân tinh nhuệ** tới **Lục Đầu Giang**. **Thánh Thiên** cho đắp **sa bàn đất dẻo**, bày kế **giả thua nhử địch vào khe Mãng Xà**. Nàng phân công phường săn mai phục, thủy quân đoạt thuyền.",
+  "dialogues": [
+    {
+      "speaker": "Thánh Thiên",
+      "text": "Ta sẽ đích thân dẫn dụ Tào Quyền vào khe Mãng Xà giữa lưng chừng núi, đồng thời đánh chiếm toàn bộ ba mươi chiến thuyền của chúng dưới bến sông!"
+    }
+  ],
+  "dialogues_status": "locked",
+  "storyboard_path": "03_storyboards_and_scripts/STORYBOARD_PART_2_HOI_8_HAT_MON_PHUONG_HOANG.md",
+  "storyboard_sha256": "51b2b09b8cf339ee46f55c7b018dc65d2d90cbd1934d0263a42719e909c7aaeb",
+  "source_notes": "Đã mở pixel contact sheets PDF43–48 và49–54: PDF47–50/sách258–261. Sa bàn đất dẻo, kế dụ họ Tào, bốn phường săn và hai đô tướng Khúc–Hoàng được nêu trong tiểu thuyết. Đây là kế hoạch, không khẳng định Tào Quyền thực sự vào khe; diễn biến PDF53–55 cho thấy họ Tào và họ Lục ở nhà gỗ. Sáu trăm là tổng quân viễn chinh. Thoại chuyển thể giữ nguyên storyboard, không gọi là phát ngôn lịch sử xác thực.",
+  "note": "Agent B khóa sau kiểm scan; toàn bộ cụm keyword gốc được giữ. Không sửa storyboard chung."
+}

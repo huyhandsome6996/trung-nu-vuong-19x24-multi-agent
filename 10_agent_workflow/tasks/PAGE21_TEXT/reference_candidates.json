@@ -1,0 +1,113 @@
+{
+  "page": 21,
+  "matrix": {
+    "page": 21,
+    "template": "C",
+    "characters": [
+      "NV04",
+      "NV31",
+      "NV32",
+      "NV33"
+    ],
+    "environments": [
+      "E10"
+    ],
+    "props": [
+      "P28",
+      "P32"
+    ],
+    "note": "Sa bàn; chưa phải bản đồ địa lý thật",
+    "status": "NOT_GENERATED"
+  },
+  "identities": [
+    {
+      "id": "NV04",
+      "name": "Thánh Thiên",
+      "board": "CHAR04",
+      "positions": "Trái: đứng; phải: chỉ huy; giữa: mặt"
+    },
+    {
+      "id": "NV31",
+      "name": "Lão Bạch Kẻ Từ",
+      "board": "CHAR15",
+      "positions": "Từ trái NV30,NV31,NV32,NV33"
+    },
+    {
+      "id": "NV32",
+      "name": "Đô tướng họ Khúc",
+      "board": "CHAR15",
+      "positions": "Từ trái NV30,NV31,NV32,NV33"
+    },
+    {
+      "id": "NV33",
+      "name": "Đô tướng họ Hoàng",
+      "board": "CHAR15",
+      "positions": "Từ trái NV30,NV31,NV32,NV33"
+    },
+    {
+      "id": "E10",
+      "name": "Nhà gỗ Nguyễn Huyền / Phượng Hoàng",
+      "board": "ENV04",
+      "positions": "Từ trên xuống: E10,E11,E12"
+    },
+    {
+      "id": "P28",
+      "name": "Nỏ ngắn phường săn",
+      "board": "PROP01",
+      "positions": "4x3 cells, left-to-right row-major; see mapping in catalog"
+    },
+    {
+      "id": "P32",
+      "name": "Sa bàn đất dẻo",
+      "board": "PROP03",
+      "positions": "4x3 cells, left-to-right row-major"
+    }
+  ],
+  "candidates": [
+    {
+      "board": "CHAR01",
+      "path": "assets_generated/characters/CHAR_01_Trung_Trac_v001.png",
+      "sha256": "3387a36a801705d08b9eac3dd778aca3533fced07300db8188cd71439eeec3c3"
+    },
+    {
+      "board": "CHAR04",
+      "path": "assets_generated/design_system/CHAR04_v001.png",
+      "sha256": "9f8a680e8c7fbb9c5b79bb8bbfe5802459342af9255f28c75de512c31126d5cb"
+    },
+    {
+      "board": "CHAR15",
+      "path": "assets_generated/design_system/CHAR15_v001.png",
+      "sha256": "f170321ae13b2772bb71b09d9c483ebcafeb08fc13792d300b4e6a3d9aedc18e"
+    },
+    {
+      "board": "ENV04",
+      "path": "assets_generated/design_system/ENV04_v001.png",
+      "sha256": "171b30f9e661b6febf962b0f71eaee858967a37f84784db1544b1fdc54d3017a"
+    },
+    {
+      "board": "PROP01",
+      "path": "assets_generated/design_system/PROP01_v001.png",
+      "sha256": "8ac9a5f41d435726a72baf456d67dd3612cb3cd466e5f9b4f8f3794ee14f5a55"
+    },
+    {
+      "board": "PROP03",
+      "path": "assets_generated/design_system/PROP03_v002.png",
+      "sha256": "bbe1fda90f147b08edfcffb67ddb2b263e0c3cda760b72d194432a312265200a"
+    },
+    {
+      "board": "ANIMAL01",
+      "path": "assets_generated/design_system/ANIMAL01_v001.png",
+      "sha256": "7dd2569d6c8bc3a6b78f11a588f82d2a26f7032b141fa702f9965240f6e28cf6"
+    },
+    {
+      "board": "ARMY01",
+      "path": "assets_generated/design_system/ARMY01_v001.png",
+      "sha256": "4f6b76dea97ac82cefce9338f51faaa00ee2501b3e63cb7197fb0ec4ef903ff7"
+    },
+    {
+      "board": "CHIEFS01",
+      "path": "assets_generated/design_system/CHIEFS01_v001.png",
+      "sha256": "11cfde4cac7fc720bacefc2ac66b390eceeff13a15362f0d4696a8e915ef1f05"
+    }
+  ]
+}

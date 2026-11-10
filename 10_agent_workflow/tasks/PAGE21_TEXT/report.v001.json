@@ -1,0 +1,20 @@
+{
+  "task_id": "PAGE21_TEXT",
+  "kind": "text",
+  "status": "passed",
+  "reviewer": "agent_b",
+  "summary": "Khóa trang21 sau đọc scan47–50; phân biệt kế hoạch và diễn biến, giữ8cụm đỏ và nguyên thoại.",
+  "checks": {
+    "source_alignment": "pass",
+    "narration_35_65": "pass",
+    "keywords_preserved": "pass",
+    "dialogue_locked": "pass",
+    "template_locked": "pass"
+  },
+  "artifacts": [
+    "10_agent_workflow/tasks/PAGE21_TEXT/text.v001.json"
+  ],
+  "open_issues": [],
+  "reviewed_at": "2026-11-10T06:48:42.017649+00:00",
+  "narration_tokens": 51
+}
