@@ -167,3 +167,5 @@ timezone: "Asia/Ho_Chi_Minh"
 - Reopened LAYOUT/QA03,04,06,07,09,10,11 for the newly requested illustrated lettering. Old12-page PDF is a historical draft; PAGE12v003 is the corrected sample. PAGE13_ART paused before generation while user feedback/handoff was handled; no background image job is claimed.
 
 - PAGE13 actual fresh rawv002 saved1122×1402 with submitted prompt/5ref hashes. Figure identities/anatomy reviewed; top sword enters caption zone, so ART remains in_progress. Exact composition editv003 prepared, no success claimed before returned file.
+
+- PAGE13_ART v003 actual recompose returned and visually passed: sword fully below30percent, caption area clear, white mourning/normal hands and full boots. Saved native1122×1402, exact submitted prompt/refs/hash; began drawn-lettering LAYOUT with full locked quote.

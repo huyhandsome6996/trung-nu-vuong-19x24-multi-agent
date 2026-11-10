@@ -1,0 +1,18 @@
+{
+  "page": 13,
+  "speaker": "Trưng Trắc",
+  "text": "Cây muốn lặng mà gió chẳng dừng! Đất Mê Linh, Chu Diên này là cơ nghiệp ngàn năm của dòng giống Hồng Bàng, Hùng Vương!",
+  "prompt": "Use case: lettering / ink-watercolor historical comic speech cloud. Create ONE isolated RGBA speech cloud WITH ALL Vietnamese lettering already drawn inside, transparent outside. Match the reference PAGE13 scene: mature delicate brown-black hand-inked contours, quiet pale warm ivory matching the wooden hall daylight, subtle paper grain, very restrained watercolor shading. No white UI card, no rounded rectangle, no thick yellow glow, no 3D shadow. Organic softly scalloped oval body with a slightly firmer expressive contour for a resolute proclamation. Native canvas landscape16:9, aim2048x1152. Cloud main body occupies x15–98percent,y3–77percent; lowerLEFT short gently curved tapering tail from body nearx23percent,y68percent to endpointx3percent,y97percent, so it points DOWN-LEFT to speaker. Tail and body continuous same fill; all exterior transparent. Lettering is dark near-black humanist serif comic lettering, elegant restrained brush variation, fully legible Vietnamese tone marks, centered with generous safe margins, no decoration or missing letters. Exact text, no substitutions: Cây muốn lặng mà gió chẳng dừng! Đất Mê Linh, Chu Diên này là cơ nghiệp ngàn năm của dòng giống Hồng Bàng, Hùng Vương! Typeset as FOUR lines exactly:\nCây muốn lặng mà gió chẳng dừng!\nĐất Mê Linh, Chu Diên này là\ncơ nghiệp ngàn năm của dòng giống\nHồng Bàng, Hùng Vương!\nLetters must be visibly DRAWN into this cloud artwork, not a blank cloud. No other text, no people, no scene, no caption, no signature/watermark. The supplied scene is a style/lighting reference only; do not reproduce people or background into this alpha asset.",
+  "generator": "image_gen.imagegen",
+  "transparent_background": true,
+  "actual_reference_paths": [
+    "/workspace/scratch/9c77cb6cc5ef/trung-nu-vuong-19x24-multi-agent/assets_generated/raw_pages/PAGE13_v003.png"
+  ],
+  "actual_references": [
+    {
+      "path": "assets_generated/raw_pages/PAGE13_v003.png",
+      "tool_path": "/workspace/scratch/9c77cb6cc5ef/trung-nu-vuong-19x24-multi-agent/assets_generated/raw_pages/PAGE13_v003.png",
+      "sha256": "fbfa7e4e36c661040f5ef08b231a59d1fe725a7c8397854fd1945e5e271d4924"
+    }
+  ]
+}

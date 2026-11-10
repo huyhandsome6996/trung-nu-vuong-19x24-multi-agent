@@ -2191,30 +2191,53 @@
       "id": "PAGE13_ART",
       "kind": "art",
       "title": "Trang13: tạo và kiểm tranh nền",
-      "status": "in_progress",
+      "status": "done",
       "depends_on": [
         "PAGE13_TEXT"
       ],
       "instructions": "Lấy text đã khóa từ evidence bước TEXT. Xem các sheet liên quan; soạn prompt cuối theo cảnh, ghi actual_references và hash. Tạo ảnh bằng công cụ sinh ảnh, nền không chữ, không bóng thoại, chừa20% đỉnh; dùng đúng A/B/C. Kiểm mặt, phục trang, tay/chân/vũ khí và hành động. Lưu PNG native có phiên bản và metadata theo templates/RAW_IMAGE_METADATA.json. Không resize rồi khai native300DPI.",
-      "evidence": [],
-      "last_note": "Raw13v002 actual1122x1402 saved with full prompt/hash; needs revision: sword enters top caption zone; exact edit requestv003 ready",
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/PAGE13_ART/report.v003.json",
+          "sha256": "588659b3b0c1eedc79c4cf80396ea3959f8186d49bddba799124e40cfb8b4e4b"
+        },
+        {
+          "path": "assets_generated/raw_pages/PAGE13_v003.png",
+          "sha256": "fbfa7e4e36c661040f5ef08b231a59d1fe725a7c8397854fd1945e5e271d4924"
+        },
+        {
+          "path": "assets_generated/raw_pages/PAGE13_v003.json",
+          "sha256": "117a8086edf9f1d6b57875797753c74150cbcb216f770b86e28c72e3a96a1028"
+        },
+        {
+          "path": "assets_generated/raw_pages/PAGE13_v003.prompt.txt",
+          "sha256": "27c6d9494c545422eab4e011b578da2d403476ed29409a8b8b854954cb237ddf"
+        },
+        {
+          "path": "10_agent_workflow/tasks/PAGE13_ART/VISUAL_REVIEW.v003.md",
+          "sha256": "835efbd12c869dad97cd2b2e7959ed49d089930c55d604b2efc1fd24b2fee34d"
+        }
+      ],
+      "last_note": "Opened actual output; sword clear of narration; full refs/hash/native recorded",
       "page": 13,
       "owner": "coordinator",
-      "updated_at": "2026-11-10T02:42:49+00:00",
+      "updated_at": "2026-11-10T02:46:43+00:00",
       "block_reason": ""
     },
     {
       "id": "PAGE13_LAYOUT",
       "kind": "layout",
       "title": "Trang13: ghép chữ và bố cục",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "PAGE13_ART"
       ],
       "instructions": "Dùng nguyên text đã khóa và tranh đã kiểm. Ghép khung giấy cổ, tô đỏ #C81E1E cho **...**, đặt đủ thoại/đuôi bóng đúng người. Khổ196×246/trim190×240. Dùng layout_tokens, đo tràn chữ bằng renderer thật; xuất bản xem PNG/PDF và nguồn có thể sửa. scripts/typeset_preview.py là trợ giúp HTML; không coi HTML/PDF xem trước là file in đã duyệt.",
       "evidence": [],
-      "last_note": "",
-      "page": 13
+      "last_note": "Draw quote and cloud as one scene-matched asset",
+      "page": 13,
+      "owner": "coordinator",
+      "updated_at": "2026-11-10T02:46:43+00:00"
     },
     {
       "id": "PAGE13_QA",
@@ -4843,6 +4866,18 @@
       "task": "PAGE13_ART",
       "action": "checkpoint",
       "note": "Raw13v002 actual1122x1402 saved with full prompt/hash; needs revision: sword enters top caption zone; exact edit requestv003 ready"
+    },
+    {
+      "at": "2026-11-10T02:46:43+00:00",
+      "task": "PAGE13_ART",
+      "action": "finish",
+      "note": "Opened actual output; sword clear of narration; full refs/hash/native recorded"
+    },
+    {
+      "at": "2026-11-10T02:46:43+00:00",
+      "task": "PAGE13_LAYOUT",
+      "action": "start",
+      "note": "Draw quote and cloud as one scene-matched asset"
     }
   ]
 }
