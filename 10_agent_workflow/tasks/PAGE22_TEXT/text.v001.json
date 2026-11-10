@@ -1,0 +1,13 @@
+{
+  "page": 22,
+  "template": "A",
+  "status": "locked",
+  "narration": "Mờ sáng, sương phủ **Lục Đầu Giang**. **Đại tổng quản Tào Quyền** cùng **Lục Hiến** dẫn **ba mươi khinh thuyền** cập bến chân núi Phượng Hoàng. Khinh thường nghĩa quân sơn cước, Tào Quyền thúc **sáu trăm binh tướng** lên bờ, chỉ để đám phu thuyền ở lại. Cả đoàn tiến về khu nhà gỗ của thần y.",
+  "dialogues": [],
+  "dialogues_status": "locked",
+  "storyboard_path": "03_storyboards_and_scripts/STORYBOARD_PART_2_HOI_8_HAT_MON_PHUONG_HOANG.md",
+  "storyboard_sha256": "51b2b09b8cf339ee46f55c7b018dc65d2d90cbd1934d0263a42719e909c7aaeb",
+  "source_notes": "Đã mở scanPDF46–47/50–51 (sách257–258/261–262):30khinh thuyền,600binh tướng tổng và phu thuyền ở lại. Sương tan dần khi vào nhánh sông. Thoại chuyển thể giữ nguyên, không phát ngôn chính sử. Tranh chọn thời điểm đoàn vào bến, không khẳng định mọi thuyền cùng thấy được.",
+  "note": "Agent B: source-checked adaptation; storyboard shared file preserved.",
+  "narration_tokens": 58
+}

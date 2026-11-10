@@ -11,3 +11,6 @@ Owned pages: 21, 22, 23, 24, 25, 26, 27, 28. Only this agent appends here.
 - ART21v001 native1122×1402 đã trả thật và mở kiểm:3khung, đúng người/màu, tay/que chỉ/sa bàn, đỉnh trống; lưu raw/prompt/request/meta/hash. Chưa dàn trang.
 
 - Trang21 hoàn thành4bước: layoutv001 SVG/proofPDF/readingPDF/PNG150+300+detail, thoại native1983×793 đã đọc5dòng. Font nhúng/box/overflow kiểm bằng PDF mở lại. AGENT_QA, chưa user-approved/print-ready, raw144.76DPI.
+
+- TEXT22v002:58tiếng/1thoại. Parser lanev001 bỏ sót dấu hai chấm trong nhãn italic; đã reopen đúngchuỗi và giữtext/reportv001, helperv002 sửa chép đủthoại trước ART.
+- Publish sau layout21 lầnđầu bị rebase từchối vì đã khởiđộng22 khi wrapper cònchạy; commit21 local đượcgiữ. Chưa báo đồngbộ lầnđó; hoàn tất checkpoint22 và chạy wrapper lại trên trạngthái sạch sau stage.

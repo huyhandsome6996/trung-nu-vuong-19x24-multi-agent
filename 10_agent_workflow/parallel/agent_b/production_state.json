@@ -266,27 +266,54 @@
       "id": "PAGE22_TEXT",
       "kind": "text",
       "title": "Trang22: đối chiếu và khóa chữ",
-      "status": "todo",
+      "status": "done",
       "depends_on": [
         "DESIGN_BASELINE"
       ],
       "instructions": "Đọc nguyên cảnh và nguồn scan; sửa các câu cường điệu/không có căn cứ, giữ giọng hào hùng 13–16 tuổi. Đếm thật 35–65 tiếng theo khoảng trắng, không dùng số từ ghi trong tiêu đề làm chứng cứ. Chép đủ thoại vào text.v001.json, giữ **từ khóa**; ghi nguồn, template và hash storyboard. Khóa chữ sau khi kiểm. Nếu sửa toàn file storyboard về sau, rà lại các text đã khóa theo hash mới.",
-      "evidence": [],
-      "last_note": "",
-      "page": 22
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/PAGE22_TEXT/report.v002.json",
+          "sha256": "647135b5682293fd00ab8c6156ba179cedc738766032fea6cf992d592038a7e9"
+        },
+        {
+          "path": "10_agent_workflow/tasks/PAGE22_TEXT/text.v002.json",
+          "sha256": "2bc6f01f65ea1c58783bcc5910292b796f4e57bfe005f10adb72b00960aa42a3"
+        }
+      ],
+      "last_note": "Đã chép đủ1thoại,58tiếng; giữv001 không dùng.",
+      "page": 22,
+      "owner": "agent_b",
+      "updated_at": "2026-11-10T06:58:43+00:00",
+      "previous_evidence": [
+        [
+          {
+            "path": "10_agent_workflow/tasks/PAGE22_TEXT/report.v001.json",
+            "sha256": "25c2656df30a0cb6c3fd1a53fb4e8a4fb3d2a7a58868dff667d607a4ec4ffdc9"
+          },
+          {
+            "path": "10_agent_workflow/tasks/PAGE22_TEXT/text.v001.json",
+            "sha256": "8470774c66c282eab88a8afb4d9ed00b49b5618eaeb1f8ccc5f63a356fb86ca7"
+          }
+        ]
+      ],
+      "block_reason": ""
     },
     {
       "id": "PAGE22_ART",
       "kind": "art",
       "title": "Trang22: tạo và kiểm tranh nền",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "PAGE22_TEXT"
       ],
       "instructions": "Lấy text đã khóa từ evidence bước TEXT. Xem các sheet liên quan; soạn prompt cuối theo cảnh, ghi actual_references và hash. Tạo ảnh bằng công cụ sinh ảnh, nền không chữ, không bóng thoại, chừa20% đỉnh; dùng đúng A/B/C. Kiểm mặt, phục trang, tay/chân/vũ khí và hành động. Lưu PNG native có phiên bản và metadata theo templates/RAW_IMAGE_METADATA.json. Không resize rồi khai native300DPI.",
       "evidence": [],
-      "last_note": "",
-      "page": 22
+      "last_note": "Dùng textv002 có đủ1thoại.",
+      "page": 22,
+      "owner": "agent_b",
+      "updated_at": "2026-11-10T06:58:44+00:00",
+      "block_reason": ""
     },
     {
       "id": "PAGE22_LAYOUT",
@@ -298,8 +325,9 @@
       ],
       "instructions": "Dùng nguyên text đã khóa và tranh đã kiểm. Ghép khung giấy cổ, tô đỏ #C81E1E cho **...**, đặt đủ thoại/đuôi bóng đúng người. Khổ196×246/trim190×240. Dùng layout_tokens, đo tràn chữ bằng renderer thật; xuất bản xem PNG/PDF và nguồn có thể sửa. scripts/typeset_preview.py là trợ giúp HTML; không coi HTML/PDF xem trước là file in đã duyệt.",
       "evidence": [],
-      "last_note": "",
-      "page": 22
+      "last_note": "Reopen: Bộ chép thoại lane nhận sai vị trí dấu hai chấm; mở lại trước khi ART, giữ v001.",
+      "page": 22,
+      "block_reason": ""
     },
     {
       "id": "PAGE22_QA",
@@ -311,8 +339,9 @@
       ],
       "instructions": "Mở ảnh render ở kích thước đọc thật và zoom100%; so với scan, sheet, text đã khóa. Kiểm bốn lớp historical/art/language/print_geometry. Ghi lỗi cụ thể và sửa về đúng bước. Báo cáo pass chỉ khi có artifact thực và không còn lỗi trong phạm vi; đây là QA của agent, không phải chủ dự án duyệt.",
       "evidence": [],
-      "last_note": "",
-      "page": 22
+      "last_note": "Reopen: Bộ chép thoại lane nhận sai vị trí dấu hai chấm; mở lại trước khi ART, giữ v001.",
+      "page": 22,
+      "block_reason": ""
     },
     {
       "id": "PAGE23_TEXT",
@@ -703,6 +732,48 @@
       "task": "PAGE21_QA",
       "action": "finish",
       "note": "4lớp đã kiểm thật, không issue bảnđọc."
+    },
+    {
+      "at": "2026-11-10T06:57:09+00:00",
+      "task": "PAGE22_TEXT",
+      "action": "start",
+      "note": "Đọc scan46–47/50–51; khóa cảnh đoàn30thuyền/600quân tổng."
+    },
+    {
+      "at": "2026-11-10T06:58:23+00:00",
+      "task": "PAGE22_TEXT",
+      "action": "finish",
+      "note": "Scan và đủ thoại đã kiểm;600là tổng đoàn."
+    },
+    {
+      "at": "2026-11-10T06:58:23+00:00",
+      "task": "PAGE22_ART",
+      "action": "start",
+      "note": "Đã mở CHAR10giữa/CHAR11phải/ENV04/PROP04; tạo đoàn thuyền trong sương."
+    },
+    {
+      "at": "2026-11-10T06:58:43+00:00",
+      "task": "PAGE22_TEXT",
+      "action": "reopen",
+      "note": "Bộ chép thoại lane nhận sai vị trí dấu hai chấm; mở lại trước khi ART, giữ v001."
+    },
+    {
+      "at": "2026-11-10T06:58:43+00:00",
+      "task": "PAGE22_TEXT",
+      "action": "start",
+      "note": "Chép đủ1thoại trước khi khóa v002."
+    },
+    {
+      "at": "2026-11-10T06:58:43+00:00",
+      "task": "PAGE22_TEXT",
+      "action": "finish",
+      "note": "Đã chép đủ1thoại,58tiếng; giữv001 không dùng."
+    },
+    {
+      "at": "2026-11-10T06:58:44+00:00",
+      "task": "PAGE22_ART",
+      "action": "start",
+      "note": "Dùng textv002 có đủ1thoại."
     }
   ]
 }
