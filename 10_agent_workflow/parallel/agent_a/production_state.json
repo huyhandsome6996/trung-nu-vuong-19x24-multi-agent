@@ -572,16 +572,16 @@
       "id": "PAGE17_ART",
       "kind": "art",
       "title": "Trang17: tạo và kiểm tranh nền",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "PAGE17_TEXT"
       ],
       "instructions": "Lấy text đã khóa từ evidence bước TEXT. Xem các sheet liên quan; soạn prompt cuối theo cảnh, ghi actual_references và hash. Tạo ảnh bằng công cụ sinh ảnh, nền không chữ, không bóng thoại, chừa20% đỉnh; dùng đúng A/B/C. Kiểm mặt, phục trang, tay/chân/vũ khí và hành động. Lưu PNG native có phiên bản và metadata theo templates/RAW_IMAGE_METADATA.json. Không resize rồi khai native300DPI.",
       "evidence": [],
-      "last_note": "Transferred to dedicated lane; previous interrupted image job is not assumed alive",
+      "last_note": "Image call for requestv002 interrupted/cancelled by user; wait cell unavailable; inspected generated_images and no PAGE17 output exists. No background job claimed. Resume from exact request and5refs; do not finish ART.",
       "page": 17,
-      "owner": "Codex",
-      "updated_at": "2026-11-09T14:15:06+00:00",
+      "owner": "agent_a",
+      "updated_at": "2026-11-10T07:23:23+00:00",
       "block_reason": ""
     },
     {
@@ -935,6 +935,18 @@
       "task": "PAGE16_QA",
       "action": "finish",
       "note": "AGENT_QA complete; not user or print approval"
+    },
+    {
+      "at": "2026-11-10T07:18:42+00:00",
+      "task": "PAGE17_ART",
+      "action": "start",
+      "note": "Source40–41 read; all5refs pixels opened; draw blank3tablets then sisters with correct armor/mourning bands"
+    },
+    {
+      "at": "2026-11-10T07:23:23+00:00",
+      "task": "PAGE17_ART",
+      "action": "checkpoint",
+      "note": "Image call for requestv002 interrupted/cancelled by user; wait cell unavailable; inspected generated_images and no PAGE17 output exists. No background job claimed. Resume from exact request and5refs; do not finish ART."
     }
   ]
 }

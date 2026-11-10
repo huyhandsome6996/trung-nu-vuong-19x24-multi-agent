@@ -1,0 +1,1061 @@
+{
+  "lane": "agent_a",
+  "created_at": "2026-11-10T07:23:23.808919+00:00",
+  "completion": "14of28steps;3of7pages complete; image generation17interrupted by user",
+  "pages": [
+    {
+      "page": 14,
+      "tasks": [
+        {
+          "task_id": "PAGE14_TEXT",
+          "status": "done",
+          "evidence": [
+            {
+              "path": "10_agent_workflow/tasks/PAGE14_TEXT/report.v001.json",
+              "sha256": "cb874203bd3c9cb0a828b4d115528b2ffcfc91f9a92e5c74d1d50a8774f864f0"
+            },
+            {
+              "path": "10_agent_workflow/tasks/PAGE14_TEXT/text.v001.json",
+              "sha256": "e39929f576409304afc7261a0c9abfd2f6807e7c4cbd9c4086ea4d2d0c6e3e12"
+            },
+            {
+              "path": "10_agent_workflow/tasks/PAGE14_TEXT/SOURCE_REVIEW.v001.md",
+              "sha256": "649f9a8d4a5d47c1c9bb62c48e4b37ccbc6b7fe6d40274890dbdd7869c346b02"
+            }
+          ],
+          "note": "Opened source33–34/book244–245: collective shout exactly corresponding to storyboard. Editorial correction: remove unsupported absolute superlative vĩ đại nhất lịch sử from final keyword, retain cuộc tổng khởi nghĩa in red. Storyboard file remains immutable to preserve earlier lock hashes. Collective art may show only part of17chiefs/17drums/30elephants; no claim of complete visual count."
+        },
+        {
+          "task_id": "PAGE14_ART",
+          "status": "done",
+          "evidence": [
+            {
+              "path": "10_agent_workflow/tasks/PAGE14_ART/report.v002.json",
+              "sha256": "8c70785a9fb09b8e885bd41d0f8a31ac3e1936755610f9be635c6b2afdc12048"
+            },
+            {
+              "path": "assets_generated/raw_pages/PAGE14_v002.png",
+              "sha256": "c9aaa98a8277e51d04adc59da20d628b1a894c4072589937b3c8ad4261f50b33"
+            },
+            {
+              "path": "assets_generated/raw_pages/PAGE14_v002.json",
+              "sha256": "1188a178f947fec0719bdb083f773ffb2498728abc9a9baa718debf6d6e70b46"
+            },
+            {
+              "path": "10_agent_workflow/tasks/PAGE14_ART/VISUAL_REVIEW.v002.md",
+              "sha256": "1b34cfdfabff80efc80412617ac39eb12d9a1ffa751625318108a2f0bff51364"
+            },
+            {
+              "path": "10_agent_workflow/tasks/PAGE14_ART/generation_request.v002.json",
+              "sha256": "5544e645bbb164342b3d516f9136cbb95ddad7ade0e1c103909b4e28a2215a27"
+            }
+          ],
+          "note": "Opened native actual output; references/anatomy/clearance/textfree passed"
+        },
+        {
+          "task_id": "PAGE14_LAYOUT",
+          "status": "done",
+          "evidence": [
+            {
+              "path": "10_agent_workflow/tasks/PAGE14_LAYOUT/report.v001.json",
+              "sha256": "b13723f66269e1b3ae07e54e25a3ffecdb46e966cfef011c9a60476910332ea5"
+            },
+            {
+              "path": "final_book_19x24/source/PAGE14_v001.svg",
+              "sha256": "d3c01f5e33ebc5f6987f0ba488d5a64f74937dde6fcdf366c4386675c192474b"
+            },
+            {
+              "path": "final_book_19x24/source/PAGE14_placement.v001.json",
+              "sha256": "26025f7d42f225d524827d4f60a04ebfc9d2c86ce29999caa1eaa017d8a2daa9"
+            },
+            {
+              "path": "final_book_19x24/proofs/PAGE14_v001.pdf",
+              "sha256": "4e0a9d49eaefd53ca9216d476c477dcc1327e1d89889a46c24e4f249ea3b410f"
+            },
+            {
+              "path": "final_book_19x24/proofs/PAGE14_v001.png",
+              "sha256": "0775b7527c514d8d054289819d672e5662543bbed617fa8dea377a50e4d7be45"
+            },
+            {
+              "path": "final_book_19x24/proofs/PAGE14_v001.json",
+              "sha256": "494c7bb0e5eedbd42adfebeded09d30f6a97361a7cd519396d098a6fe2317785"
+            },
+            {
+              "path": "final_book_19x24/reading/PAGE14_v001.pdf",
+              "sha256": "49723c9301621140b3f01342ee42e7d1d231808e70c95fd064b56f1dc1652bb7"
+            },
+            {
+              "path": "assets_generated/speech_clouds/PAGE14_SPEECH01_v001.png",
+              "sha256": "4e3d5dd555824636b5fd5517b1c92819a5debb8a9f03b591a91f2212ee61db04"
+            },
+            {
+              "path": "assets_generated/speech_clouds/PAGE14_SPEECH01_v001.json",
+              "sha256": "7756e211ffc7d908f677bffe653fa48e622a1c58139f373ef614fcf7d4d196f0"
+            },
+            {
+              "path": "assets_generated/speech_clouds/PAGE14_SPEECH01_request.v001.json",
+              "sha256": "89754b79b6a96bc9b013a26b0c65b93f1a6aff36059c104a161829d8be81315e"
+            },
+            {
+              "path": "10_agent_workflow/parallel/agent_a/render_page.v001.py",
+              "sha256": "314b628a5cc0595ee6e38165862b78866c3ada9008ecce9e05cecf07fe135108"
+            }
+          ],
+          "note": "All layout checks passed actual render"
+        },
+        {
+          "task_id": "PAGE14_QA",
+          "status": "done",
+          "evidence": [
+            {
+              "path": "10_agent_workflow/tasks/PAGE14_QA/report.v001.json",
+              "sha256": "b7f9c6cff15f6796395620cafb1d96d6d4c80c96f77aa4b63b43b2cf0dc36b4d"
+            },
+            {
+              "path": "10_agent_workflow/tasks/PAGE14_LAYOUT/report.v001.json",
+              "sha256": "b13723f66269e1b3ae07e54e25a3ffecdb46e966cfef011c9a60476910332ea5"
+            },
+            {
+              "path": "10_agent_workflow/tasks/PAGE14_ART/VISUAL_REVIEW.v002.md",
+              "sha256": "1b34cfdfabff80efc80412617ac39eb12d9a1ffa751625318108a2f0bff51364"
+            },
+            {
+              "path": "final_book_19x24/proofs/PAGE14_v001.png",
+              "sha256": "0775b7527c514d8d054289819d672e5662543bbed617fa8dea377a50e4d7be45"
+            },
+            {
+              "path": "final_book_19x24/proofs/PAGE14_v001.json",
+              "sha256": "494c7bb0e5eedbd42adfebeded09d30f6a97361a7cd519396d098a6fe2317785"
+            },
+            {
+              "path": "final_book_19x24/reading/PAGE14_v001.pdf",
+              "sha256": "49723c9301621140b3f01342ee42e7d1d231808e70c95fd064b56f1dc1652bb7"
+            },
+            {
+              "path": "assets_generated/parallel/agent_a/PAGE14_review300_v001.png",
+              "sha256": "51a89d9dcb83242f652c695822c8a8a236d308a78481fb3c38061d7383884a38"
+            },
+            {
+              "path": "assets_generated/parallel/agent_a/PAGE14_text_detail_v001.png",
+              "sha256": "6ea93b19b9360d7cc83a3b35843001fb9914f1de8d12cbf3b91c8d2e733fca7a"
+            }
+          ],
+          "note": "4steps done, agentQA only"
+        }
+      ],
+      "approval": "AGENT_QA only",
+      "user_approved": false,
+      "print_ready": false,
+      "layout_version": "v001",
+      "native_size_px": [
+        1122,
+        1402
+      ],
+      "art_effective_dpi": [
+        144.75934959349595,
+        144.75934959349593
+      ],
+      "speech_assets": [
+        {
+          "index": 0,
+          "speaker": "Toàn thể tướng sĩ và tộc trưởng",
+          "asset": "assets_generated/speech_clouds/PAGE14_SPEECH01_v001.png",
+          "sha256": "4e3d5dd555824636b5fd5517b1c92819a5debb8a9f03b591a91f2212ee61db04",
+          "bbox_mm": [
+            17,
+            51,
+            156,
+            52.0
+          ],
+          "native_size_px": [
+            2172,
+            724
+          ],
+          "effective_dpi": 353.6461538461538,
+          "visible_text_manually_verified": true,
+          "text": "QUYẾT ĐÁNH GIẶC TÔ ĐỊNH! QUYẾT ĐÁNH ĐUỔI LOÀI ÁC TẶC PHƯƠNG BẮC!"
+        }
+      ],
+      "source": "final_book_19x24/source/PAGE14_v001.svg",
+      "placement": "final_book_19x24/source/PAGE14_placement.v001.json",
+      "proof_pdf": "final_book_19x24/proofs/PAGE14_v001.pdf",
+      "reading_pdf": "final_book_19x24/reading/PAGE14_v001.pdf",
+      "render_png": "final_book_19x24/proofs/PAGE14_v001.png"
+    },
+    {
+      "page": 15,
+      "tasks": [
+        {
+          "task_id": "PAGE15_TEXT",
+          "status": "done",
+          "evidence": [
+            {
+              "path": "10_agent_workflow/tasks/PAGE15_TEXT/report.v001.json",
+              "sha256": "1606c486698f64eace7562d5aa5b240e4576d460cc3fd26dbddf615fe4594a4a"
+            },
+            {
+              "path": "10_agent_workflow/tasks/PAGE15_TEXT/text.v001.json",
+              "sha256": "9343f4f79409eca1171911c247f45e398b2d9a28c3c7a8f50d98f91426b28db5"
+            },
+            {
+              "path": "10_agent_workflow/tasks/PAGE15_TEXT/SOURCE_REVIEW.v001.md",
+              "sha256": "2eeef93a502996a81d31f40f66cf836d7ef87d7d3711af4e74db3c6619c9fbbf"
+            }
+          ],
+          "note": "Opened source35–38/book246–249, plus39 completing discussion. Timeline is more than10days AFTER executions, not a second execution. TàoQuyền volunteers600 withLụcHiến; main hall contains TôĐịnh and officers. Full adapted quote retained. Capitalization of keyword Trống follows sentence position."
+        },
+        {
+          "task_id": "PAGE15_ART",
+          "status": "done",
+          "evidence": [
+            {
+              "path": "10_agent_workflow/tasks/PAGE15_ART/report.v003.json",
+              "sha256": "ada1c5c13a0790b851b20d4dac33ed8f09d6361fc8c850164741e1f84bdb2377"
+            },
+            {
+              "path": "assets_generated/raw_pages/PAGE15_v003.png",
+              "sha256": "0f3bf4b3100be463748809dc67a0f9a73fa9df5aa11c005196a51dcc62b52dad"
+            },
+            {
+              "path": "assets_generated/raw_pages/PAGE15_v003.json",
+              "sha256": "758746747bfa429f5ef3525e7f8f4ec082e9dc8c759ddf3607d78bf80076e007"
+            },
+            {
+              "path": "10_agent_workflow/tasks/PAGE15_ART/generation_request.v003.json",
+              "sha256": "4ad3cce5c06e72b76ac34648b25a98a551a219ad52b241861d71d14cba1f7ac4"
+            },
+            {
+              "path": "10_agent_workflow/tasks/PAGE15_ART/VISUAL_REVIEW.v003.md",
+              "sha256": "b4bdb6e1789490cfcb7d20999e03bb05e4092cf3bd66e22ef49239b0f87736f6"
+            }
+          ],
+          "note": "Composition corrected and real native reviewed"
+        },
+        {
+          "task_id": "PAGE15_LAYOUT",
+          "status": "done",
+          "evidence": [
+            {
+              "path": "10_agent_workflow/tasks/PAGE15_LAYOUT/report.v001.json",
+              "sha256": "32521913015d3c8def03426ed62e61619e6156975b0a7b71380c7513269ba87b"
+            },
+            {
+              "path": "final_book_19x24/source/PAGE15_v001.svg",
+              "sha256": "09691f08133c1e38d4f2eac464ca14824fdec34439e355580f1357f6c4e9f274"
+            },
+            {
+              "path": "final_book_19x24/source/PAGE15_placement.v001.json",
+              "sha256": "89b5e1944faf3d598aaf50683ad4ad39b5670b20f2cd8438ae6ada3cc36c0899"
+            },
+            {
+              "path": "final_book_19x24/proofs/PAGE15_v001.pdf",
+              "sha256": "4026536f5eaf5d15c1b5ddc3046c48c0db519618a7e9278759202f1d60a091a4"
+            },
+            {
+              "path": "final_book_19x24/reading/PAGE15_v001.pdf",
+              "sha256": "1fdf7a2062806d6ee51253c152a227727954f582e4310e80388f5c5179cd845e"
+            },
+            {
+              "path": "final_book_19x24/proofs/PAGE15_v001.png",
+              "sha256": "c59f3039bed7bd39cf97aaeeb02a31930f6f19f5e2f524c64d42e89680ecf574"
+            },
+            {
+              "path": "final_book_19x24/proofs/PAGE15_v001.json",
+              "sha256": "4b12efc5116051dbfd0d24aea5cc79e137bc5ae11638468ddde9a134fda98a2a"
+            },
+            {
+              "path": "10_agent_workflow/parallel/agent_a/PAGE15_technical.v001.json",
+              "sha256": "2963277e542ecf0c14a85acebbc923ecc52f24239c1061550f315c4e8f84ef35"
+            },
+            {
+              "path": "10_agent_workflow/parallel/agent_a/render_page.v001.py",
+              "sha256": "314b628a5cc0595ee6e38165862b78866c3ada9008ecce9e05cecf07fe135108"
+            },
+            {
+              "path": "assets_generated/speech_clouds/PAGE15_SPEECH01_v001.png",
+              "sha256": "4d4eca8c9bd219240de7ed7eb8f0ee8191368ee4eb4e37777ef0b2df26510d12"
+            },
+            {
+              "path": "assets_generated/speech_clouds/PAGE15_SPEECH01_v001.json",
+              "sha256": "68333f974f058bb7212f9e5e82c63e0d76928b084dbc5ce3a484d055ac7873da"
+            }
+          ],
+          "note": "Actual visual and technical checks passed"
+        },
+        {
+          "task_id": "PAGE15_QA",
+          "status": "done",
+          "evidence": [
+            {
+              "path": "10_agent_workflow/tasks/PAGE15_QA/report.v001.json",
+              "sha256": "8823243f99dea7d3817eff53a403829c3fce27c25b8db2794b1c965d6b255a2c"
+            },
+            {
+              "path": "10_agent_workflow/tasks/PAGE15_LAYOUT/report.v001.json",
+              "sha256": "32521913015d3c8def03426ed62e61619e6156975b0a7b71380c7513269ba87b"
+            },
+            {
+              "path": "10_agent_workflow/parallel/agent_a/PAGE15_technical.v001.json",
+              "sha256": "2963277e542ecf0c14a85acebbc923ecc52f24239c1061550f315c4e8f84ef35"
+            },
+            {
+              "path": "final_book_19x24/proofs/PAGE15_v001.png",
+              "sha256": "c59f3039bed7bd39cf97aaeeb02a31930f6f19f5e2f524c64d42e89680ecf574"
+            },
+            {
+              "path": "final_book_19x24/reading/PAGE15_v001.pdf",
+              "sha256": "1fdf7a2062806d6ee51253c152a227727954f582e4310e80388f5c5179cd845e"
+            },
+            {
+              "path": "final_book_19x24/proofs/PAGE15_v001.json",
+              "sha256": "4b12efc5116051dbfd0d24aea5cc79e137bc5ae11638468ddde9a134fda98a2a"
+            },
+            {
+              "path": "assets_generated/parallel/agent_a/PAGE15_review300_v001.png",
+              "sha256": "890730f8abbb53beb71061e23057c6dc494d534096d4adb55bc9360648e8ae02"
+            },
+            {
+              "path": "assets_generated/parallel/agent_a/PAGE15_detail_v001.png",
+              "sha256": "ba55894faa2da0a3a96b8988863add01695d259e42db680a75445d78dd037020"
+            }
+          ],
+          "note": "AGENT_QA complete; not user or print approval"
+        }
+      ],
+      "approval": "AGENT_QA only",
+      "user_approved": false,
+      "print_ready": false,
+      "layout_version": "v001",
+      "native_size_px": [
+        1122,
+        1402
+      ],
+      "art_effective_dpi": [
+        144.75934959349595,
+        144.75934959349593
+      ],
+      "speech_assets": [
+        {
+          "index": 0,
+          "speaker": "Tào Quyền",
+          "asset": "assets_generated/speech_clouds/PAGE15_SPEECH01_v001.png",
+          "sha256": "4d4eca8c9bd219240de7ed7eb8f0ee8191368ee4eb4e37777ef0b2df26510d12",
+          "bbox_mm": [
+            17,
+            126,
+            156,
+            52
+          ],
+          "native_size_px": [
+            2172,
+            724
+          ],
+          "effective_dpi": 353.6461538461538,
+          "visible_text_manually_verified": true,
+          "text": "Xin đại nhân cho hạ quan dẫn sáu trăm quân tinh nhuệ cùng Lục Hiến đi san phẳng núi Phượng Hoàng của con bé Thánh Thiên trước!"
+        }
+      ],
+      "source": "final_book_19x24/source/PAGE15_v001.svg",
+      "placement": "final_book_19x24/source/PAGE15_placement.v001.json",
+      "proof_pdf": "final_book_19x24/proofs/PAGE15_v001.pdf",
+      "reading_pdf": "final_book_19x24/reading/PAGE15_v001.pdf",
+      "render_png": "final_book_19x24/proofs/PAGE15_v001.png"
+    },
+    {
+      "page": 16,
+      "tasks": [
+        {
+          "task_id": "PAGE16_TEXT",
+          "status": "done",
+          "evidence": [
+            {
+              "path": "10_agent_workflow/tasks/PAGE16_TEXT/report.v001.json",
+              "sha256": "1e66bf7c32f1043e19861c8a22b1fbfb8eb0684f2ad688f504f9c794fd8e0e4d"
+            },
+            {
+              "path": "10_agent_workflow/tasks/PAGE16_TEXT/text.v001.json",
+              "sha256": "1e49946193e9ffda47a5be013e09c34949bb268b76619bf320bf7e960e4ba31a"
+            },
+            {
+              "path": "10_agent_workflow/tasks/PAGE16_TEXT/SOURCE_REVIEW.v001.md",
+              "sha256": "97ce7f12e755963bb01eb8af0891ef447011c3c61aa5c7f91c3340d03ee6d74a"
+            }
+          ],
+          "note": "Opened source39–40/book250–251: altar>2trượng,99flags,8male elephants with white tusks. IMPORTANT source correction to storyboard:16 refers to oars per boat; fleet is hơn trăm chiếc, NOT160boats. Replace final red keyword một trăm sáu mươi chiến thuyền with hơn một trăm chiến thuyền. Keep eight elephants count visible in art; fleet and flags may extend beyond frame. No dialogue."
+        },
+        {
+          "task_id": "PAGE16_ART",
+          "status": "done",
+          "evidence": [
+            {
+              "path": "10_agent_workflow/tasks/PAGE16_ART/report.v002.json",
+              "sha256": "83196eba3bf309612f58e128c757a2787ab89c000f56535b3fce9c8d9b8f0b66"
+            },
+            {
+              "path": "assets_generated/raw_pages/PAGE16_v002.png",
+              "sha256": "077e0ac02b4eec24ff35c8f6335d9272c6de4ee8be9c5227b9b459c656283152"
+            },
+            {
+              "path": "assets_generated/raw_pages/PAGE16_v002.json",
+              "sha256": "50e4d4a7bdb3da8ea46f575dba5dedaab71bcc4f1dbe59bc73077f9cf4110c91"
+            },
+            {
+              "path": "10_agent_workflow/tasks/PAGE16_ART/generation_request.v002.json",
+              "sha256": "941fd0779d7a936069f54f5e769577f5562ab04122cff827a8dedf92e1d7476e"
+            },
+            {
+              "path": "10_agent_workflow/tasks/PAGE16_ART/VISUAL_REVIEW.v002.md",
+              "sha256": "da92aa08fc05b6e85877c019994bc3f1a95e525880132b806eb87e27ea386043"
+            }
+          ],
+          "note": "Count and source/art checks passed"
+        },
+        {
+          "task_id": "PAGE16_LAYOUT",
+          "status": "done",
+          "evidence": [
+            {
+              "path": "10_agent_workflow/tasks/PAGE16_LAYOUT/report.v001.json",
+              "sha256": "e8b63c7a79e99aef738d14931ed395bd6f62e3e0995098aa07680a08bf390922"
+            },
+            {
+              "path": "final_book_19x24/source/PAGE16_v001.svg",
+              "sha256": "805ddeac9d5b363f11ce66cdd10c94196ac1eb1d6939d7324961a71e8d5371e3"
+            },
+            {
+              "path": "final_book_19x24/source/PAGE16_placement.v001.json",
+              "sha256": "4640d03ccdd88eb13496a99c28538309837cb512272c59d24233bc0c3672a951"
+            },
+            {
+              "path": "final_book_19x24/proofs/PAGE16_v001.pdf",
+              "sha256": "0cfb9e9cef60f9a8d4fd57a69437bb1705bbc1f4d2939917f91bc09b0a1ad6d4"
+            },
+            {
+              "path": "final_book_19x24/reading/PAGE16_v001.pdf",
+              "sha256": "a39f55cde923db0cf995ebdb54519e9838b9d3574f3f8ce849ec7ad6bfb19144"
+            },
+            {
+              "path": "final_book_19x24/proofs/PAGE16_v001.png",
+              "sha256": "cac33b219c8595a9edce023a36c45f4d729bf3eaf0b7181334548052f11e32be"
+            },
+            {
+              "path": "final_book_19x24/proofs/PAGE16_v001.json",
+              "sha256": "800bdd121c388b14f173a70a5ee988ce62a50b4d17d2100b2c4fcc25efb4ebfa"
+            },
+            {
+              "path": "10_agent_workflow/parallel/agent_a/PAGE16_technical.v001.json",
+              "sha256": "71e99df6c909f3dedffe4362c223c978b9be4331c7bf807221580ed7762ae600"
+            },
+            {
+              "path": "10_agent_workflow/parallel/agent_a/render_page.v001.py",
+              "sha256": "314b628a5cc0595ee6e38165862b78866c3ada9008ecce9e05cecf07fe135108"
+            }
+          ],
+          "note": "Actual visual and technical checks passed"
+        },
+        {
+          "task_id": "PAGE16_QA",
+          "status": "done",
+          "evidence": [
+            {
+              "path": "10_agent_workflow/tasks/PAGE16_QA/report.v001.json",
+              "sha256": "4d7cab80c071b95b9d52bbddcaf888c4106ee0dd5092232012b65a7634f6f926"
+            },
+            {
+              "path": "10_agent_workflow/tasks/PAGE16_LAYOUT/report.v001.json",
+              "sha256": "e8b63c7a79e99aef738d14931ed395bd6f62e3e0995098aa07680a08bf390922"
+            },
+            {
+              "path": "10_agent_workflow/parallel/agent_a/PAGE16_technical.v001.json",
+              "sha256": "71e99df6c909f3dedffe4362c223c978b9be4331c7bf807221580ed7762ae600"
+            },
+            {
+              "path": "final_book_19x24/proofs/PAGE16_v001.png",
+              "sha256": "cac33b219c8595a9edce023a36c45f4d729bf3eaf0b7181334548052f11e32be"
+            },
+            {
+              "path": "final_book_19x24/reading/PAGE16_v001.pdf",
+              "sha256": "a39f55cde923db0cf995ebdb54519e9838b9d3574f3f8ce849ec7ad6bfb19144"
+            },
+            {
+              "path": "final_book_19x24/proofs/PAGE16_v001.json",
+              "sha256": "800bdd121c388b14f173a70a5ee988ce62a50b4d17d2100b2c4fcc25efb4ebfa"
+            },
+            {
+              "path": "assets_generated/parallel/agent_a/PAGE16_review300_v001.png",
+              "sha256": "e2506054fceca61c986c9ac757199ff19da59304bd462a2424ead9bd623cb368"
+            },
+            {
+              "path": "assets_generated/parallel/agent_a/PAGE16_detail_v001.png",
+              "sha256": "6196710da80c94e927b0b7285465fb3a2ead22c87699d22a8240e5b1b56db9af"
+            }
+          ],
+          "note": "AGENT_QA complete; not user or print approval"
+        }
+      ],
+      "approval": "AGENT_QA only",
+      "user_approved": false,
+      "print_ready": false,
+      "layout_version": "v001",
+      "native_size_px": [
+        1122,
+        1402
+      ],
+      "art_effective_dpi": [
+        144.75934959349595,
+        144.75934959349593
+      ],
+      "speech_assets": [],
+      "source": "final_book_19x24/source/PAGE16_v001.svg",
+      "placement": "final_book_19x24/source/PAGE16_placement.v001.json",
+      "proof_pdf": "final_book_19x24/proofs/PAGE16_v001.pdf",
+      "reading_pdf": "final_book_19x24/reading/PAGE16_v001.pdf",
+      "render_png": "final_book_19x24/proofs/PAGE16_v001.png"
+    },
+    {
+      "page": 17,
+      "tasks": [
+        {
+          "task_id": "PAGE17_TEXT",
+          "status": "done",
+          "evidence": [
+            {
+              "path": "10_agent_workflow/tasks/PAGE17_TEXT/report.v001.json",
+              "sha256": "002f5741e46e144286582d9431da2156171958334848a4df6303e0478eef8fe1"
+            },
+            {
+              "path": "10_agent_workflow/tasks/PAGE17_TEXT/text.v001.json",
+              "sha256": "2838fc9f0fbbd9133503a4454e653c9c16908a9802b4405e446a3a00239b1d13"
+            },
+            {
+              "path": "10_agent_workflow/tasks/PAGE17_TEXT/SOURCE_REVIEW.v001.md",
+              "sha256": "4f8bb0ca2799e75d4118548306c33a900ca3a7e4194507b2997c06debb7a9af1"
+            }
+          ],
+          "note": "Opened source40–41/book251–252:3tablets,ceremonial censer,sisters with2teachers/3magistrates/17chiefs,Trắc supremecommander. Labels will be separately typeset in layout; raw tablets blank. Trắc red/bronze,Nhị navy/bronze, both white mourning bands. No dialogue."
+        },
+        {
+          "task_id": "PAGE17_ART",
+          "status": "in_progress",
+          "evidence": [],
+          "note": "Image call for requestv002 interrupted/cancelled by user; wait cell unavailable; inspected generated_images and no PAGE17 output exists. No background job claimed. Resume from exact request and5refs; do not finish ART."
+        },
+        {
+          "task_id": "PAGE17_LAYOUT",
+          "status": "todo",
+          "evidence": [],
+          "note": ""
+        },
+        {
+          "task_id": "PAGE17_QA",
+          "status": "todo",
+          "evidence": [],
+          "note": ""
+        }
+      ],
+      "approval": "incomplete",
+      "user_approved": false,
+      "print_ready": false
+    },
+    {
+      "page": 18,
+      "tasks": [
+        {
+          "task_id": "PAGE18_TEXT",
+          "status": "done",
+          "evidence": [
+            {
+              "path": "10_agent_workflow/tasks/PAGE18_TEXT/report.v001.json",
+              "sha256": "1c4152e9d02179f131e99eebfbf00d1381604ab730e6620fca59ee8a0d67257f"
+            },
+            {
+              "path": "10_agent_workflow/tasks/PAGE18_TEXT/text.v001.json",
+              "sha256": "9e2f7570a24a4a593ea0b8b018eff74d4d69b01b541b42ded2827bb7bc5bee79"
+            },
+            {
+              "path": "10_agent_workflow/tasks/PAGE18_TEXT/SOURCE_REVIEW.v001.md",
+              "sha256": "91ae2ac20e80415b5f398b2ebfce7fd7c3cd80f8ec95c70a0f2233a2aff8ba94"
+            }
+          ],
+          "note": "Opened source41–42/book252–253: ceremonial proclamation quoted inside novel; source footnote theo ThiênNamvănlục. Storyboard dialogue is condensed/adapted, NOT verbatim entire ancient proclamation despite old heading. Preserve all adapted dialogue exactly and record distinction here. Four red keywords retained. No claim of actual historical transcript."
+        },
+        {
+          "task_id": "PAGE18_ART",
+          "status": "todo",
+          "evidence": [],
+          "note": "Transferred to dedicated lane; previous interrupted image job is not assumed alive"
+        },
+        {
+          "task_id": "PAGE18_LAYOUT",
+          "status": "todo",
+          "evidence": [],
+          "note": ""
+        },
+        {
+          "task_id": "PAGE18_QA",
+          "status": "todo",
+          "evidence": [],
+          "note": ""
+        }
+      ],
+      "approval": "incomplete",
+      "user_approved": false,
+      "print_ready": false
+    },
+    {
+      "page": 19,
+      "tasks": [
+        {
+          "task_id": "PAGE19_TEXT",
+          "status": "todo",
+          "evidence": [],
+          "note": ""
+        },
+        {
+          "task_id": "PAGE19_ART",
+          "status": "todo",
+          "evidence": [],
+          "note": ""
+        },
+        {
+          "task_id": "PAGE19_LAYOUT",
+          "status": "todo",
+          "evidence": [],
+          "note": ""
+        },
+        {
+          "task_id": "PAGE19_QA",
+          "status": "todo",
+          "evidence": [],
+          "note": ""
+        }
+      ],
+      "approval": "incomplete",
+      "user_approved": false,
+      "print_ready": false
+    },
+    {
+      "page": 20,
+      "tasks": [
+        {
+          "task_id": "PAGE20_TEXT",
+          "status": "todo",
+          "evidence": [],
+          "note": ""
+        },
+        {
+          "task_id": "PAGE20_ART",
+          "status": "todo",
+          "evidence": [],
+          "note": ""
+        },
+        {
+          "task_id": "PAGE20_LAYOUT",
+          "status": "todo",
+          "evidence": [],
+          "note": ""
+        },
+        {
+          "task_id": "PAGE20_QA",
+          "status": "todo",
+          "evidence": [],
+          "note": ""
+        }
+      ],
+      "approval": "incomplete",
+      "user_approved": false,
+      "print_ready": false
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "assets_generated/raw_pages/PAGE14_v002.json",
+      "sha256": "1188a178f947fec0719bdb083f773ffb2498728abc9a9baa718debf6d6e70b46",
+      "bytes": 2847
+    },
+    {
+      "path": "assets_generated/raw_pages/PAGE14_v002.png",
+      "sha256": "c9aaa98a8277e51d04adc59da20d628b1a894c4072589937b3c8ad4261f50b33",
+      "bytes": 3891141
+    },
+    {
+      "path": "assets_generated/raw_pages/PAGE15_v002.json",
+      "sha256": "95226a0887e7a9640ba7d7096b70e63f449dfb3850c0ec87a42d0786c914d8b2",
+      "bytes": 2952
+    },
+    {
+      "path": "assets_generated/raw_pages/PAGE15_v002.png",
+      "sha256": "aa514dc109dfed99d58dfa3f28aac50d9c9296b469c453fc0eeb236a95fe6d52",
+      "bytes": 3478033
+    },
+    {
+      "path": "assets_generated/raw_pages/PAGE15_v003.json",
+      "sha256": "758746747bfa429f5ef3525e7f8f4ec082e9dc8c759ddf3607d78bf80076e007",
+      "bytes": 2504
+    },
+    {
+      "path": "assets_generated/raw_pages/PAGE15_v003.png",
+      "sha256": "0f3bf4b3100be463748809dc67a0f9a73fa9df5aa11c005196a51dcc62b52dad",
+      "bytes": 3270531
+    },
+    {
+      "path": "assets_generated/raw_pages/PAGE16_v002.json",
+      "sha256": "50e4d4a7bdb3da8ea46f575dba5dedaab71bcc4f1dbe59bc73077f9cf4110c91",
+      "bytes": 3115
+    },
+    {
+      "path": "assets_generated/raw_pages/PAGE16_v002.png",
+      "sha256": "077e0ac02b4eec24ff35c8f6335d9272c6de4ee8be9c5227b9b459c656283152",
+      "bytes": 3916620
+    },
+    {
+      "path": "assets_generated/speech_clouds/PAGE14_SPEECH01_request.v001.json",
+      "sha256": "89754b79b6a96bc9b013a26b0c65b93f1a6aff36059c104a161829d8be81315e",
+      "bytes": 1456
+    },
+    {
+      "path": "assets_generated/speech_clouds/PAGE14_SPEECH01_v001.json",
+      "sha256": "7756e211ffc7d908f677bffe653fa48e622a1c58139f373ef614fcf7d4d196f0",
+      "bytes": 1935
+    },
+    {
+      "path": "assets_generated/speech_clouds/PAGE14_SPEECH01_v001.png",
+      "sha256": "4e3d5dd555824636b5fd5517b1c92819a5debb8a9f03b591a91f2212ee61db04",
+      "bytes": 2431624
+    },
+    {
+      "path": "assets_generated/speech_clouds/PAGE15_SPEECH01_request.v001.json",
+      "sha256": "cbcae05d8055384c006359a25ef93253365b438b83ef16514afc3bf2b4ab6e11",
+      "bytes": 1406
+    },
+    {
+      "path": "assets_generated/speech_clouds/PAGE15_SPEECH01_v001.json",
+      "sha256": "68333f974f058bb7212f9e5e82c63e0d76928b084dbc5ce3a484d055ac7873da",
+      "bytes": 1912
+    },
+    {
+      "path": "assets_generated/speech_clouds/PAGE15_SPEECH01_v001.png",
+      "sha256": "4d4eca8c9bd219240de7ed7eb8f0ee8191368ee4eb4e37777ef0b2df26510d12",
+      "bytes": 2766078
+    },
+    {
+      "path": "final_book_19x24/source/PAGE14_placement.v001.json",
+      "sha256": "26025f7d42f225d524827d4f60a04ebfc9d2c86ce29999caa1eaa017d8a2daa9",
+      "bytes": 197
+    },
+    {
+      "path": "final_book_19x24/source/PAGE14_v001.svg",
+      "sha256": "d3c01f5e33ebc5f6987f0ba488d5a64f74937dde6fcdf366c4386675c192474b",
+      "bytes": 8443325
+    },
+    {
+      "path": "final_book_19x24/source/PAGE15_placement.v001.json",
+      "sha256": "89b5e1944faf3d598aaf50683ad4ad39b5670b20f2cd8438ae6ada3cc36c0899",
+      "bytes": 235
+    },
+    {
+      "path": "final_book_19x24/source/PAGE15_v001.svg",
+      "sha256": "09691f08133c1e38d4f2eac464ca14824fdec34439e355580f1357f6c4e9f274",
+      "bytes": 8062361
+    },
+    {
+      "path": "final_book_19x24/source/PAGE16_placement.v001.json",
+      "sha256": "4640d03ccdd88eb13496a99c28538309837cb512272c59d24233bc0c3672a951",
+      "bytes": 22
+    },
+    {
+      "path": "final_book_19x24/source/PAGE16_v001.svg",
+      "sha256": "805ddeac9d5b363f11ce66cdd10c94196ac1eb1d6939d7324961a71e8d5371e3",
+      "bytes": 5235302
+    },
+    {
+      "path": "final_book_19x24/proofs/PAGE14_v001.json",
+      "sha256": "494c7bb0e5eedbd42adfebeded09d30f6a97361a7cd519396d098a6fe2317785",
+      "bytes": 1547
+    },
+    {
+      "path": "final_book_19x24/proofs/PAGE14_v001.pdf",
+      "sha256": "4e0a9d49eaefd53ca9216d476c477dcc1327e1d89889a46c24e4f249ea3b410f",
+      "bytes": 8342645
+    },
+    {
+      "path": "final_book_19x24/proofs/PAGE14_v001.png",
+      "sha256": "0775b7527c514d8d054289819d672e5662543bbed617fa8dea377a50e4d7be45",
+      "bytes": 3150347
+    },
+    {
+      "path": "final_book_19x24/proofs/PAGE15_v001.json",
+      "sha256": "4b12efc5116051dbfd0d24aea5cc79e137bc5ae11638468ddde9a134fda98a2a",
+      "bytes": 1586
+    },
+    {
+      "path": "final_book_19x24/proofs/PAGE15_v001.pdf",
+      "sha256": "4026536f5eaf5d15c1b5ddc3046c48c0db519618a7e9278759202f1d60a091a4",
+      "bytes": 8323472
+    },
+    {
+      "path": "final_book_19x24/proofs/PAGE15_v001.png",
+      "sha256": "c59f3039bed7bd39cf97aaeeb02a31930f6f19f5e2f524c64d42e89680ecf574",
+      "bytes": 2692323
+    },
+    {
+      "path": "final_book_19x24/proofs/PAGE16_v001.json",
+      "sha256": "800bdd121c388b14f173a70a5ee988ce62a50b4d17d2100b2c4fcc25efb4ebfa",
+      "bytes": 936
+    },
+    {
+      "path": "final_book_19x24/proofs/PAGE16_v001.pdf",
+      "sha256": "0cfb9e9cef60f9a8d4fd57a69437bb1705bbc1f4d2939917f91bc09b0a1ad6d4",
+      "bytes": 5216703
+    },
+    {
+      "path": "final_book_19x24/proofs/PAGE16_v001.png",
+      "sha256": "cac33b219c8595a9edce023a36c45f4d729bf3eaf0b7181334548052f11e32be",
+      "bytes": 3109236
+    },
+    {
+      "path": "final_book_19x24/reading/PAGE14_v001.pdf",
+      "sha256": "49723c9301621140b3f01342ee42e7d1d231808e70c95fd064b56f1dc1652bb7",
+      "bytes": 8342702
+    },
+    {
+      "path": "final_book_19x24/reading/PAGE15_v001.pdf",
+      "sha256": "1fdf7a2062806d6ee51253c152a227727954f582e4310e80388f5c5179cd845e",
+      "bytes": 8323529
+    },
+    {
+      "path": "final_book_19x24/reading/PAGE16_v001.pdf",
+      "sha256": "a39f55cde923db0cf995ebdb54519e9838b9d3574f3f8ce849ec7ad6bfb19144",
+      "bytes": 5216760
+    },
+    {
+      "path": "assets_generated/parallel/agent_a/PAGE14_review300_v001.png",
+      "sha256": "51a89d9dcb83242f652c695822c8a8a236d308a78481fb3c38061d7383884a38",
+      "bytes": 10103113
+    },
+    {
+      "path": "assets_generated/parallel/agent_a/PAGE14_text_detail_v001.png",
+      "sha256": "6ea93b19b9360d7cc83a3b35843001fb9914f1de8d12cbf3b91c8d2e733fca7a",
+      "bytes": 2181585
+    },
+    {
+      "path": "assets_generated/parallel/agent_a/PAGE15_detail_v001.png",
+      "sha256": "ba55894faa2da0a3a96b8988863add01695d259e42db680a75445d78dd037020",
+      "bytes": 3372225
+    },
+    {
+      "path": "assets_generated/parallel/agent_a/PAGE15_review300_v001.png",
+      "sha256": "890730f8abbb53beb71061e23057c6dc494d534096d4adb55bc9360648e8ae02",
+      "bytes": 8329194
+    },
+    {
+      "path": "assets_generated/parallel/agent_a/PAGE16_detail_v001.png",
+      "sha256": "6196710da80c94e927b0b7285465fb3a2ead22c87699d22a8240e5b1b56db9af",
+      "bytes": 205236
+    },
+    {
+      "path": "assets_generated/parallel/agent_a/PAGE16_review300_v001.png",
+      "sha256": "e2506054fceca61c986c9ac757199ff19da59304bd462a2424ead9bd623cb368",
+      "bytes": 9636679
+    },
+    {
+      "path": "10_agent_workflow/tasks/PAGE14_TEXT/SOURCE_REVIEW.v001.md",
+      "sha256": "649f9a8d4a5d47c1c9bb62c48e4b37ccbc6b7fe6d40274890dbdd7869c346b02",
+      "bytes": 461
+    },
+    {
+      "path": "10_agent_workflow/tasks/PAGE14_TEXT/report.v001.json",
+      "sha256": "cb874203bd3c9cb0a828b4d115528b2ffcfc91f9a92e5c74d1d50a8774f864f0",
+      "bytes": 918
+    },
+    {
+      "path": "10_agent_workflow/tasks/PAGE14_TEXT/text.v001.json",
+      "sha256": "e39929f576409304afc7261a0c9abfd2f6807e7c4cbd9c4086ea4d2d0c6e3e12",
+      "bytes": 1402
+    },
+    {
+      "path": "10_agent_workflow/tasks/PAGE14_ART/VISUAL_REVIEW.v002.md",
+      "sha256": "1b34cfdfabff80efc80412617ac39eb12d9a1ffa751625318108a2f0bff51364",
+      "bytes": 766
+    },
+    {
+      "path": "10_agent_workflow/tasks/PAGE14_ART/generation_request.v001.json",
+      "sha256": "311b25415d1c2d8ebfaf09a587ab91e6ab9ffee217c613caa0bec5713f506dc0",
+      "bytes": 2967
+    },
+    {
+      "path": "10_agent_workflow/tasks/PAGE14_ART/generation_request.v002.json",
+      "sha256": "5544e645bbb164342b3d516f9136cbb95ddad7ade0e1c103909b4e28a2215a27",
+      "bytes": 3820
+    },
+    {
+      "path": "10_agent_workflow/tasks/PAGE14_ART/report.v002.json",
+      "sha256": "8c70785a9fb09b8e885bd41d0f8a31ac3e1936755610f9be635c6b2afdc12048",
+      "bytes": 737
+    },
+    {
+      "path": "10_agent_workflow/tasks/PAGE14_LAYOUT/report.v001.json",
+      "sha256": "b13723f66269e1b3ae07e54e25a3ffecdb46e966cfef011c9a60476910332ea5",
+      "bytes": 1374
+    },
+    {
+      "path": "10_agent_workflow/tasks/PAGE14_QA/report.v001.json",
+      "sha256": "b7f9c6cff15f6796395620cafb1d96d6d4c80c96f77aa4b63b43b2cf0dc36b4d",
+      "bytes": 1209
+    },
+    {
+      "path": "10_agent_workflow/tasks/PAGE15_TEXT/SOURCE_REVIEW.v001.md",
+      "sha256": "2eeef93a502996a81d31f40f66cf836d7ef87d7d3711af4e74db3c6619c9fbbf",
+      "bytes": 361
+    },
+    {
+      "path": "10_agent_workflow/tasks/PAGE15_TEXT/report.v001.json",
+      "sha256": "1606c486698f64eace7562d5aa5b240e4576d460cc3fd26dbddf615fe4594a4a",
+      "bytes": 818
+    },
+    {
+      "path": "10_agent_workflow/tasks/PAGE15_TEXT/text.v001.json",
+      "sha256": "9343f4f79409eca1171911c247f45e398b2d9a28c3c7a8f50d98f91426b28db5",
+      "bytes": 1351
+    },
+    {
+      "path": "10_agent_workflow/tasks/PAGE15_ART/VISUAL_REVIEW.v002.md",
+      "sha256": "c6bd3dad723ace9cb8c38dad9fc6d679a58e2daf83ce8e801b1402f5e86af47c",
+      "bytes": 351
+    },
+    {
+      "path": "10_agent_workflow/tasks/PAGE15_ART/VISUAL_REVIEW.v003.md",
+      "sha256": "b4bdb6e1789490cfcb7d20999e03bb05e4092cf3bd66e22ef49239b0f87736f6",
+      "bytes": 434
+    },
+    {
+      "path": "10_agent_workflow/tasks/PAGE15_ART/generation_request.v001.json",
+      "sha256": "35dab2637845569b2a6a85f73f6d99f471b8cd72bb3ebcf436ffd8b586d4ba08",
+      "bytes": 3177
+    },
+    {
+      "path": "10_agent_workflow/tasks/PAGE15_ART/generation_request.v002.json",
+      "sha256": "567b1f7043a6f0e8dcb95e6442daceda8d5f382483b7882ef9b427279ad8d527",
+      "bytes": 4026
+    },
+    {
+      "path": "10_agent_workflow/tasks/PAGE15_ART/generation_request.v003.json",
+      "sha256": "4ad3cce5c06e72b76ac34648b25a98a551a219ad52b241861d71d14cba1f7ac4",
+      "bytes": 2410
+    },
+    {
+      "path": "10_agent_workflow/tasks/PAGE15_ART/report.v003.json",
+      "sha256": "ada1c5c13a0790b851b20d4dac33ed8f09d6361fc8c850164741e1f84bdb2377",
+      "bytes": 868
+    },
+    {
+      "path": "10_agent_workflow/tasks/PAGE15_LAYOUT/report.v001.json",
+      "sha256": "32521913015d3c8def03426ed62e61619e6156975b0a7b71380c7513269ba87b",
+      "bytes": 1437
+    },
+    {
+      "path": "10_agent_workflow/tasks/PAGE15_QA/report.v001.json",
+      "sha256": "8823243f99dea7d3817eff53a403829c3fce27c25b8db2794b1c965d6b255a2c",
+      "bytes": 1206
+    },
+    {
+      "path": "10_agent_workflow/tasks/PAGE16_TEXT/SOURCE_REVIEW.v001.md",
+      "sha256": "97ce7f12e755963bb01eb8af0891ef447011c3c61aa5c7f91c3340d03ee6d74a",
+      "bytes": 459
+    },
+    {
+      "path": "10_agent_workflow/tasks/PAGE16_TEXT/report.v001.json",
+      "sha256": "1e66bf7c32f1043e19861c8a22b1fbfb8eb0684f2ad688f504f9c794fd8e0e4d",
+      "bytes": 916
+    },
+    {
+      "path": "10_agent_workflow/tasks/PAGE16_TEXT/text.v001.json",
+      "sha256": "1e49946193e9ffda47a5be013e09c34949bb268b76619bf320bf7e960e4ba31a",
+      "bytes": 1207
+    },
+    {
+      "path": "10_agent_workflow/tasks/PAGE16_ART/VISUAL_REVIEW.v002.md",
+      "sha256": "da92aa08fc05b6e85877c019994bc3f1a95e525880132b806eb87e27ea386043",
+      "bytes": 508
+    },
+    {
+      "path": "10_agent_workflow/tasks/PAGE16_ART/generation_request.v001.json",
+      "sha256": "931aa9674aa7827bb3b3c8a84f57b51ca429594da4b964f65d97fc7de7589769",
+      "bytes": 3503
+    },
+    {
+      "path": "10_agent_workflow/tasks/PAGE16_ART/generation_request.v002.json",
+      "sha256": "941fd0779d7a936069f54f5e769577f5562ab04122cff827a8dedf92e1d7476e",
+      "bytes": 4354
+    },
+    {
+      "path": "10_agent_workflow/tasks/PAGE16_ART/report.v002.json",
+      "sha256": "83196eba3bf309612f58e128c757a2787ab89c000f56535b3fce9c8d9b8f0b66",
+      "bytes": 896
+    },
+    {
+      "path": "10_agent_workflow/tasks/PAGE16_LAYOUT/report.v001.json",
+      "sha256": "e8b63c7a79e99aef738d14931ed395bd6f62e3e0995098aa07680a08bf390922",
+      "bytes": 1275
+    },
+    {
+      "path": "10_agent_workflow/tasks/PAGE16_QA/report.v001.json",
+      "sha256": "4d7cab80c071b95b9d52bbddcaf888c4106ee0dd5092232012b65a7634f6f926",
+      "bytes": 1171
+    },
+    {
+      "path": "10_agent_workflow/tasks/PAGE17_TEXT/SOURCE_REVIEW.v001.md",
+      "sha256": "4f8bb0ca2799e75d4118548306c33a900ca3a7e4194507b2997c06debb7a9af1",
+      "bytes": 320
+    },
+    {
+      "path": "10_agent_workflow/tasks/PAGE17_TEXT/report.v001.json",
+      "sha256": "002f5741e46e144286582d9431da2156171958334848a4df6303e0478eef8fe1",
+      "bytes": 777
+    },
+    {
+      "path": "10_agent_workflow/tasks/PAGE17_TEXT/text.v001.json",
+      "sha256": "2838fc9f0fbbd9133503a4454e653c9c16908a9802b4405e446a3a00239b1d13",
+      "bytes": 1079
+    },
+    {
+      "path": "10_agent_workflow/tasks/PAGE17_ART/generation_request.v001.json",
+      "sha256": "4e1ff967ff20dc7cfde3e2033aa7b7ba18d20e486556a6785064437015dfb02b",
+      "bytes": 3447
+    },
+    {
+      "path": "10_agent_workflow/tasks/PAGE17_ART/generation_request.v002.json",
+      "sha256": "deffaa982e2155566b5d478dc3508190d914ff4bfa9ebd4faf29446f31a90135",
+      "bytes": 4305
+    },
+    {
+      "path": "10_agent_workflow/tasks/PAGE18_TEXT/SOURCE_REVIEW.v001.md",
+      "sha256": "91ae2ac20e80415b5f398b2ebfce7fd7c3cd80f8ec95c70a0f2233a2aff8ba94",
+      "bytes": 411
+    },
+    {
+      "path": "10_agent_workflow/tasks/PAGE18_TEXT/report.v001.json",
+      "sha256": "1c4152e9d02179f131e99eebfbf00d1381604ab730e6620fca59ee8a0d67257f",
+      "bytes": 868
+    },
+    {
+      "path": "10_agent_workflow/tasks/PAGE18_TEXT/text.v001.json",
+      "sha256": "9e2f7570a24a4a593ea0b8b018eff74d4d69b01b541b42ded2827bb7bc5bee79",
+      "bytes": 1564
+    },
+    {
+      "path": "10_agent_workflow/tasks/PAGE18_ART/generation_request.v001.json",
+      "sha256": "351830e657d67ca134c5cec36f8bb8cc0179bd8c110439396609f5eebe8fdfb4",
+      "bytes": 3283
+    }
+  ],
+  "pending": [
+    "PAGE17_ART output absent; resume exact request.v002 with5refs",
+    "PAGE17_LAYOUT editable tabletlabels then QA",
+    "PAGE18_ART/LAYOUT/QA full locked proclamation",
+    "PAGE19_TEXT/ART/LAYOUT/QA",
+    "PAGE20_TEXT/ART/LAYOUT/QA"
+  ],
+  "last_verified_publication_before_handoff": "f538ac2c97329716f6f3c9ffdcafbc0f876e2f43",
+  "no_background_image_job_claimed": true
+}
