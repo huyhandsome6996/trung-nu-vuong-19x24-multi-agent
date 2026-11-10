@@ -1,0 +1,63 @@
+{
+  "page": 14,
+  "version": "v001",
+  "print_ready": false,
+  "user_approved": false,
+  "renderer": "ReportLab / vector text; PDF rendered separately with Poppler",
+  "native_size_px": [
+    1122,
+    1402
+  ],
+  "art_effective_dpi": [
+    144.75934959349595,
+    144.75934959349593
+  ],
+  "crop_mm": [
+    0.4350927246790235,
+    0.0
+  ],
+  "missing_glyphs": [],
+  "boxes": [
+    {
+      "kind": "narration",
+      "bbox_mm": [
+        18,
+        14,
+        154,
+        29
+      ],
+      "font_pt": 12.8,
+      "lines": 4,
+      "text_height_mm": 25.64835555555555,
+      "max_width_mm": 145.0757688888889,
+      "overflow": false
+    }
+  ],
+  "speech_assets": [
+    {
+      "index": 0,
+      "speaker": "Toàn thể tướng sĩ và tộc trưởng",
+      "asset": "assets_generated/speech_clouds/PAGE14_SPEECH01_v001.png",
+      "sha256": "4e3d5dd555824636b5fd5517b1c92819a5debb8a9f03b591a91f2212ee61db04",
+      "bbox_mm": [
+        17,
+        51,
+        156,
+        52.0
+      ],
+      "native_size_px": [
+        2172,
+        724
+      ],
+      "effective_dpi": 353.6461538461538,
+      "visible_text_manually_verified": true,
+      "text": "QUYẾT ĐÁNH GIẶC TÔ ĐỊNH! QUYẾT ĐÁNH ĐUỔI LOÀI ÁC TẶC PHƯƠNG BẮC!"
+    }
+  ],
+  "pdf_text_matches": true,
+  "hashes": {
+    "svg": "d3c01f5e33ebc5f6987f0ba488d5a64f74937dde6fcdf366c4386675c192474b",
+    "pdf": "4e0a9d49eaefd53ca9216d476c477dcc1327e1d89889a46c24e4f249ea3b410f",
+    "reading": "49723c9301621140b3f01342ee42e7d1d231808e70c95fd064b56f1dc1652bb7"
+  }
+}

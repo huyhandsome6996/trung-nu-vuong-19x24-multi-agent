@@ -1,0 +1,77 @@
+{
+  "page": 14,
+  "matrix": {
+    "page": 14,
+    "template": "A",
+    "characters": [
+      "NV01"
+    ],
+    "environments": [
+      "E07"
+    ],
+    "props": [
+      "P30",
+      "P31"
+    ],
+    "note": "Sấm dậy, đám đông không che chủ thể",
+    "status": "NOT_GENERATED"
+  },
+  "identities": [
+    {
+      "id": "NV01",
+      "name": "Trưng Trắc",
+      "board": "CHAR01",
+      "positions": "Xem IMAGE_CATALOG.md"
+    },
+    {
+      "id": "E07",
+      "name": "Cổ Lôi sơn trang",
+      "board": "ENV03",
+      "positions": "Từ trên xuống: E07,E08,E09"
+    },
+    {
+      "id": "P30",
+      "name": "Trống đồng",
+      "board": "PROP02",
+      "positions": "4x3 cells, left-to-right row-major"
+    },
+    {
+      "id": "P31",
+      "name": "Cờ ngũ sắc / lọng",
+      "board": "PROP02",
+      "positions": "4x3 cells, left-to-right row-major"
+    }
+  ],
+  "candidates": [
+    {
+      "board": "CHAR01",
+      "path": "assets_generated/characters/CHAR_01_Trung_Trac_v001.png",
+      "sha256": "3387a36a801705d08b9eac3dd778aca3533fced07300db8188cd71439eeec3c3"
+    },
+    {
+      "board": "ENV03",
+      "path": "assets_generated/design_system/ENV03_v001.png",
+      "sha256": "fd58bd1e71c22e4bec7a0f54bb9ec6cec0b15ab0da5e0c8979c26e95bad6b929"
+    },
+    {
+      "board": "PROP02",
+      "path": "assets_generated/design_system/PROP02_v001.png",
+      "sha256": "66b704990f77eed1b67406f057324078b87c2556b2f5d5cbd433b9997ea0d9e0"
+    },
+    {
+      "board": "ANIMAL01",
+      "path": "assets_generated/design_system/ANIMAL01_v001.png",
+      "sha256": "7dd2569d6c8bc3a6b78f11a588f82d2a26f7032b141fa702f9965240f6e28cf6"
+    },
+    {
+      "board": "ARMY01",
+      "path": "assets_generated/design_system/ARMY01_v001.png",
+      "sha256": "4f6b76dea97ac82cefce9338f51faaa00ee2501b3e63cb7197fb0ec4ef903ff7"
+    },
+    {
+      "board": "CHIEFS01",
+      "path": "assets_generated/design_system/CHIEFS01_v001.png",
+      "sha256": "11cfde4cac7fc720bacefc2ac66b390eceeff13a15362f0d4696a8e915ef1f05"
+    }
+  ]
+}

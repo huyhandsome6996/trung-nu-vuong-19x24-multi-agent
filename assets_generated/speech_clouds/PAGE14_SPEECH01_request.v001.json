@@ -1,0 +1,13 @@
+{
+  "text": "QUYẾT ĐÁNH GIẶC TÔ ĐỊNH! QUYẾT ĐÁNH ĐUỔI LOÀI ÁC TẶC PHƯƠNG BẮC!",
+  "speaker": "Toàn thể tướng sĩ và tộc trưởng",
+  "prompt": "Use case: illustration-story. Create a standalone historical Vietnamese comic speech balloon ASSET: draw BOTH the organic hand-inked cloud frame AND all Vietnamese lettering inside in one image. Transparent RGBA outside, no scene/people. Match supplied PAGE14 dawn ink-hatching/watercolor illustration: pale cool ivory-gray paper with very subtle peach reflected dawn edge, dark uneven ink contours, not yellow, not white UI box, no drop shadow. Wide cloud body ~3.7:1; complete asset including tail ~3:1. Strong but readable humanist serif comic lettering, uppercase, dark ink, all accents exact, generous padding. One short curved tail emerges lower center toward collective crowd below, tail only ~12% total height, no long triangle. Text verbatim, exactly three centered lines:\nQUYẾT ĐÁNH GIẶC TÔ ĐỊNH!\nQUYẾT ĐÁNH ĐUỔI LOÀI ÁC TẶC\nPHƯƠNG BẮC!\nNo extra text, no quotation marks. This is a historical-legend book scene of collective oath, no depicted violence. Preserve wording exactly.",
+  "actual_references": [
+    {
+      "path": "assets_generated/raw_pages/PAGE14_v002.png",
+      "sha256": "c9aaa98a8277e51d04adc59da20d628b1a894c4072589937b3c8ad4261f50b33"
+    }
+  ],
+  "generator": "image_gen.imagegen",
+  "transparent_background": true
+}

@@ -1,0 +1,32 @@
+{
+  "task_id": "PAGE14_LAYOUT",
+  "kind": "layout",
+  "status": "passed",
+  "reviewer": "agent_a / Codex",
+  "summary": "Opened full reading render and300DPI text detail; exact narration and all3speech lines read manually.4narrator lines/redkeywords, safe placement, no covered faces/hands/sword; collective tail points down toward group. Embedded Noto regular/bold; PDF reopened1page, correct196x246/190x240boxes. Raw144.76DPI, speech353.65DPI.",
+  "checks": {
+    "vietnamese_fonts": "pass",
+    "red_keywords": "pass",
+    "safe_text": "pass",
+    "bleed_geometry": "pass",
+    "no_overflow": "pass",
+    "speech_placement": "pass"
+  },
+  "artifacts": [
+    "final_book_19x24/source/PAGE14_v001.svg",
+    "final_book_19x24/source/PAGE14_placement.v001.json",
+    "final_book_19x24/proofs/PAGE14_v001.pdf",
+    "final_book_19x24/proofs/PAGE14_v001.png",
+    "final_book_19x24/proofs/PAGE14_v001.json",
+    "final_book_19x24/reading/PAGE14_v001.pdf",
+    "assets_generated/speech_clouds/PAGE14_SPEECH01_v001.png",
+    "assets_generated/speech_clouds/PAGE14_SPEECH01_v001.json",
+    "assets_generated/speech_clouds/PAGE14_SPEECH01_request.v001.json",
+    "10_agent_workflow/parallel/agent_a/render_page.v001.py"
+  ],
+  "open_issues": [],
+  "reviewed_at": "2026-11-10T06:57:08.413552+00:00",
+  "approval_level": "AGENT_QA",
+  "user_approved": false,
+  "print_ready": false
+}

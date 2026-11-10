@@ -98,27 +98,109 @@
       "id": "PAGE14_LAYOUT",
       "kind": "layout",
       "title": "Trang14: ghép chữ và bố cục",
-      "status": "todo",
+      "status": "done",
       "depends_on": [
         "PAGE14_ART"
       ],
       "instructions": "Dùng nguyên text đã khóa và tranh đã kiểm. Ghép khung giấy cổ, tô đỏ #C81E1E cho **...**, đặt đủ thoại/đuôi bóng đúng người. Khổ196×246/trim190×240. Dùng layout_tokens, đo tràn chữ bằng renderer thật; xuất bản xem PNG/PDF và nguồn có thể sửa. scripts/typeset_preview.py là trợ giúp HTML; không coi HTML/PDF xem trước là file in đã duyệt.",
-      "evidence": [],
-      "last_note": "",
-      "page": 14
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/PAGE14_LAYOUT/report.v001.json",
+          "sha256": "b13723f66269e1b3ae07e54e25a3ffecdb46e966cfef011c9a60476910332ea5"
+        },
+        {
+          "path": "final_book_19x24/source/PAGE14_v001.svg",
+          "sha256": "d3c01f5e33ebc5f6987f0ba488d5a64f74937dde6fcdf366c4386675c192474b"
+        },
+        {
+          "path": "final_book_19x24/source/PAGE14_placement.v001.json",
+          "sha256": "26025f7d42f225d524827d4f60a04ebfc9d2c86ce29999caa1eaa017d8a2daa9"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE14_v001.pdf",
+          "sha256": "4e0a9d49eaefd53ca9216d476c477dcc1327e1d89889a46c24e4f249ea3b410f"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE14_v001.png",
+          "sha256": "0775b7527c514d8d054289819d672e5662543bbed617fa8dea377a50e4d7be45"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE14_v001.json",
+          "sha256": "494c7bb0e5eedbd42adfebeded09d30f6a97361a7cd519396d098a6fe2317785"
+        },
+        {
+          "path": "final_book_19x24/reading/PAGE14_v001.pdf",
+          "sha256": "49723c9301621140b3f01342ee42e7d1d231808e70c95fd064b56f1dc1652bb7"
+        },
+        {
+          "path": "assets_generated/speech_clouds/PAGE14_SPEECH01_v001.png",
+          "sha256": "4e3d5dd555824636b5fd5517b1c92819a5debb8a9f03b591a91f2212ee61db04"
+        },
+        {
+          "path": "assets_generated/speech_clouds/PAGE14_SPEECH01_v001.json",
+          "sha256": "7756e211ffc7d908f677bffe653fa48e622a1c58139f373ef614fcf7d4d196f0"
+        },
+        {
+          "path": "assets_generated/speech_clouds/PAGE14_SPEECH01_request.v001.json",
+          "sha256": "89754b79b6a96bc9b013a26b0c65b93f1a6aff36059c104a161829d8be81315e"
+        },
+        {
+          "path": "10_agent_workflow/parallel/agent_a/render_page.v001.py",
+          "sha256": "314b628a5cc0595ee6e38165862b78866c3ada9008ecce9e05cecf07fe135108"
+        }
+      ],
+      "last_note": "All layout checks passed actual render",
+      "page": 14,
+      "owner": "agent_a",
+      "updated_at": "2026-11-10T06:57:08+00:00"
     },
     {
       "id": "PAGE14_QA",
       "kind": "qa",
       "title": "Trang14: kiểm nguồn/mỹ thuật/chữ/khổ",
-      "status": "todo",
+      "status": "done",
       "depends_on": [
         "PAGE14_LAYOUT"
       ],
       "instructions": "Mở ảnh render ở kích thước đọc thật và zoom100%; so với scan, sheet, text đã khóa. Kiểm bốn lớp historical/art/language/print_geometry. Ghi lỗi cụ thể và sửa về đúng bước. Báo cáo pass chỉ khi có artifact thực và không còn lỗi trong phạm vi; đây là QA của agent, không phải chủ dự án duyệt.",
-      "evidence": [],
-      "last_note": "",
-      "page": 14
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/PAGE14_QA/report.v001.json",
+          "sha256": "b7f9c6cff15f6796395620cafb1d96d6d4c80c96f77aa4b63b43b2cf0dc36b4d"
+        },
+        {
+          "path": "10_agent_workflow/tasks/PAGE14_LAYOUT/report.v001.json",
+          "sha256": "b13723f66269e1b3ae07e54e25a3ffecdb46e966cfef011c9a60476910332ea5"
+        },
+        {
+          "path": "10_agent_workflow/tasks/PAGE14_ART/VISUAL_REVIEW.v002.md",
+          "sha256": "1b34cfdfabff80efc80412617ac39eb12d9a1ffa751625318108a2f0bff51364"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE14_v001.png",
+          "sha256": "0775b7527c514d8d054289819d672e5662543bbed617fa8dea377a50e4d7be45"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE14_v001.json",
+          "sha256": "494c7bb0e5eedbd42adfebeded09d30f6a97361a7cd519396d098a6fe2317785"
+        },
+        {
+          "path": "final_book_19x24/reading/PAGE14_v001.pdf",
+          "sha256": "49723c9301621140b3f01342ee42e7d1d231808e70c95fd064b56f1dc1652bb7"
+        },
+        {
+          "path": "assets_generated/parallel/agent_a/PAGE14_review300_v001.png",
+          "sha256": "51a89d9dcb83242f652c695822c8a8a236d308a78481fb3c38061d7383884a38"
+        },
+        {
+          "path": "assets_generated/parallel/agent_a/PAGE14_text_detail_v001.png",
+          "sha256": "6ea93b19b9360d7cc83a3b35843001fb9914f1de8d12cbf3b91c8d2e733fca7a"
+        }
+      ],
+      "last_note": "4steps done, agentQA only",
+      "page": 14,
+      "owner": "agent_a",
+      "updated_at": "2026-11-10T06:57:09+00:00"
     },
     {
       "id": "PAGE15_TEXT",
@@ -523,6 +605,36 @@
       "task": "PAGE14_ART",
       "action": "finish",
       "note": "Opened native actual output; references/anatomy/clearance/textfree passed"
+    },
+    {
+      "at": "2026-11-10T06:53:15+00:00",
+      "task": "PAGE14_LAYOUT",
+      "action": "start",
+      "note": "ARTv002 accepted; drawing exact full collective quote as scene-matched organic artwork"
+    },
+    {
+      "at": "2026-11-10T06:57:08+00:00",
+      "task": "PAGE14_LAYOUT",
+      "action": "checkpoint",
+      "note": "SVG/PDF/PNG et speech native créés et ouverts; all exact Vietnamese text verified"
+    },
+    {
+      "at": "2026-11-10T06:57:08+00:00",
+      "task": "PAGE14_LAYOUT",
+      "action": "finish",
+      "note": "All layout checks passed actual render"
+    },
+    {
+      "at": "2026-11-10T06:57:08+00:00",
+      "task": "PAGE14_QA",
+      "action": "start",
+      "note": "Review native and final full page plus300DPI detail, fonts/PDFboxes/source"
+    },
+    {
+      "at": "2026-11-10T06:57:09+00:00",
+      "task": "PAGE14_QA",
+      "action": "finish",
+      "note": "4steps done, agentQA only"
     }
   ]
 }
