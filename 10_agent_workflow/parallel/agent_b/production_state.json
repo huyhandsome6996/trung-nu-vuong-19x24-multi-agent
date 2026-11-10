@@ -664,16 +664,17 @@
       "id": "PAGE24_ART",
       "kind": "art",
       "title": "Trang24: tạo và kiểm tranh nền",
-      "status": "in_progress",
+      "status": "blocked",
       "depends_on": [
         "PAGE24_TEXT"
       ],
       "instructions": "Lấy text đã khóa từ evidence bước TEXT. Xem các sheet liên quan; soạn prompt cuối theo cảnh, ghi actual_references và hash. Tạo ảnh bằng công cụ sinh ảnh, nền không chữ, không bóng thoại, chừa20% đỉnh; dùng đúng A/B/C. Kiểm mặt, phục trang, tay/chân/vũ khí và hành động. Lưu PNG native có phiên bản và metadata theo templates/RAW_IMAGE_METADATA.json. Không resize rồi khai native300DPI.",
       "evidence": [],
-      "last_note": "Tạo2cảnh mai phục vàchiếmthuyền, khôngvẽTào/Lụctrongkhe.",
+      "last_note": "Lệnh sinh ảnh bị người dùng ngắt sau79giây, không trả ảnh. Cần unblock và gửi requestv002, kiểm pixel thật. TEXT24 đã done; TEXT25–28 vẫn todo độc lập, chưa làm do phiên bị ngắt.",
       "page": 24,
       "owner": "agent_b",
-      "updated_at": "2026-11-10T07:16:59+00:00"
+      "updated_at": "2026-11-10T07:22:16+00:00",
+      "block_reason": "Lệnh sinh ảnh bị người dùng ngắt sau79giây, không trả ảnh. Cần unblock và gửi requestv002, kiểm pixel thật. TEXT24 đã done; TEXT25–28 vẫn todo độc lập, chưa làm do phiên bị ngắt."
     },
     {
       "id": "PAGE24_LAYOUT",
@@ -1172,6 +1173,18 @@
       "task": "PAGE24_ART",
       "action": "start",
       "note": "Tạo2cảnh mai phục vàchiếmthuyền, khôngvẽTào/Lụctrongkhe."
+    },
+    {
+      "at": "2026-11-10T07:22:16+00:00",
+      "task": "PAGE24_ART",
+      "action": "checkpoint",
+      "note": "Lệnh image_gen bị người dùng ngắt sau79giây; không có file trả. Promptv001 đã lưu; không có job nền được xác nhận."
+    },
+    {
+      "at": "2026-11-10T07:22:16+00:00",
+      "task": "PAGE24_ART",
+      "action": "block",
+      "note": "Lệnh sinh ảnh bị người dùng ngắt sau79giây, không trả ảnh. Cần unblock và gửi requestv002, kiểm pixel thật. TEXT24 đã done; TEXT25–28 vẫn todo độc lập, chưa làm do phiên bị ngắt."
     }
   ]
 }
