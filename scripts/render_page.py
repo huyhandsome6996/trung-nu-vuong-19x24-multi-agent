@@ -125,6 +125,20 @@ def run(text_path, raw_path, version, placement_path=None):
     if len(placements)!=len(data['dialogues']):raise ValueError('Speech placement count mismatch')
     safe=tokens['safe_odd_mm' if page%2 else 'safe_even_mm'];sx,sy,sw,sh=safe
     for i,(dialogue,placement) in enumerate(zip(data['dialogues'],placements)):
+        if placement.get('lettered_asset'):
+            # The cloud and its visible Vietnamese lettering were drawn together.
+            asset=w.local(placement['lettered_asset']);meta=w.read(str(asset.with_suffix('.json').relative_to(w.ROOT)))
+            if meta.get('text')!=dialogue['text'] or meta.get('status')!='visual_text_verified':
+                raise ValueError('Lettered speech needs exact locked text and manual visible-letter review')
+            if meta.get('sha256')!=w.digest(placement['lettered_asset']):raise ValueError('Speech asset hash changed')
+            bx,by,bw,bh=placement['bbox_mm'];swp,shp=Image.open(asset).size
+            if abs((bw/bh)/(swp/shp)-1)>.005:raise ValueError('Do not stretch lettered speech art')
+            if not(sx<=bx and sy<=by and bx+bw<=sx+sw and by+bh<=sy+sh):raise ValueError('Speech art outside safe zone')
+            c.drawImage(str(asset),(bx+3)*mm,(height-by-bh-3)*mm,width=bw*mm,height=bh*mm,mask='auto')
+            encoded=base64.b64encode(asset.read_bytes()).decode()
+            svg.append(f'<image x="{bx+3}" y="{by+3}" width="{bw}" height="{bh}" href="data:image/png;base64,{encoded}"/>')
+            metrics.setdefault('speech_assets',[]).append({'index':i,'speaker':dialogue['speaker'],'asset':placement['lettered_asset'],'sha256':meta['sha256'],'bbox_mm':[bx,by,bw,bh],'native_size_px':[swp,shp],'effective_dpi':swp/(bw/25.4),'visible_text_manually_verified':True,'text':dialogue['text']})
+            continue
         bx,by,bw,bh=placement['bbox_mm'];tx,ty=placement['tail_mm']
         if not(sx<=bx and sy<=by and bx+bw<=sx+sw and by+bh<=sy+sh):raise ValueError('Speech outside safe zone')
         cx=bx+bw/2;cy=by+bh/2

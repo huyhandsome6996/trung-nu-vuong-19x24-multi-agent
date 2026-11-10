@@ -1,0 +1,28 @@
+{
+  "image": "assets_generated/speech_clouds/PAGE12_SPEECH01_v001.png",
+  "version": "v001",
+  "speaker": "Phạm Danh Hương",
+  "text": "Lão hủ xem tinh tượng biết khí vận nước Nam đã tới, xin dâng toàn bộ binh lương theo chủ công khởi nghĩa!",
+  "actual_reference_paths": [
+    "assets_generated/raw_pages/PAGE12_v001.png"
+  ],
+  "transparent_background": true,
+  "prompt": "Use case: illustration-story. Create ONE standalone illustrated SPEECH CLOUD with INTEGRATED VIETNAMESE LETTERING, on TRANSPARENT BACKGROUND, wide horizontal3:1 composition, high native detail, ideally1536x512 or larger. Reference image is ONLY for warm ink-and-watercolor color/line style: use the lower wooden-room scene around the elderly gray-robed white-bearded Phạm Danh Hương. Do NOT reproduce any figure, room, comic page, caption, frame or narration. Output only the speech cloud, its tail, and the exact text INSIDE it, with clean transparency outside. Cloud is an organic, hand-drawn softly scalloped oval, varied understated ink-brown contour, warm pale IVORY paper fill with very subtle watercolor grain and warm reflected ochre at loweredge; mature Vietnamese historical comic, not childish puffy clipart. No geometric rounded rectangle, no purewhite UI card, no black straight triangular pointer, no drop shadow. Cloud body occupies left85percent; ONE SHORT gently curved tapered speech tail emerges from upper-right edge and ends near far-right at about45percentcanvasheight, so it can point naturally to speaker at right. Text fits fully INSIDE main body, generously padded, centered, crisp black-brown hand-lettered humanist SERIF with subtle pen stroke variation, fully legible Vietnamese accents, restrained book-comic lettering rather than modern sans-serif UI font or ornate unreadable calligraphy. Write EXACTLY the following, without quotation marks, missing words or additions, in THREE balanced lines: Line1: Lão hủ xem tinh tượng biết khí vận / Line2: nước Nam đã tới, xin dâng toàn bộ / Line3: binh lương theo chủ công khởi nghĩa! All three lines fully inside cloud, no word on tail, no word touches outline. No other lettering, logos, watermark, signature or background. This single asset must look drawn and lettered together as part of the historical scene.",
+  "native_size_px": [
+    2172,
+    724
+  ],
+  "sha256": "465b5198bb396321826125cdec9e91413af2e3f8d6cacc7466c9ed7ed3317180",
+  "mode": "RGBA",
+  "generator": "image_gen.imagegen (model not exposed)",
+  "status": "visual_text_verified",
+  "user_approved": false,
+  "print_ready": false,
+  "actual_references": [
+    {
+      "path": "assets_generated/raw_pages/PAGE12_v001.png",
+      "sha256": "d60efbadf9633e9ff381eb23e54050f3b5eb016f30f5843f79ab2be27174e837"
+    }
+  ],
+  "visual_review": "Opened generated RGBA artwork: all three lines checked character by character against locked PhạmDanhHương quote, including hủ/tượng/vận/đã/tới/dâng/bộ/lương/chủ/khởi/nghĩa. Text is entirely inside drawn ivory cloud, short curved tail at right. No figures/background. User has not yet approved."
+}

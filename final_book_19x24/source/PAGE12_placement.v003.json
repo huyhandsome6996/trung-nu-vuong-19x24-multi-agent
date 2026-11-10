@@ -1,0 +1,16 @@
+{
+  "page": 12,
+  "dialogues": [
+    {
+      "speaker": "Phạm Danh Hương",
+      "bbox_mm": [
+        18,
+        170,
+        97,
+        32.333333333333336
+      ],
+      "lettered_asset": "assets_generated/speech_clouds/PAGE12_SPEECH01_v001.png",
+      "style": "illustrated_lettered_cloud"
+    }
+  ]
+}

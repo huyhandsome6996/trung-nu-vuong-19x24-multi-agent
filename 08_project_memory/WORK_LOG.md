@@ -152,3 +152,9 @@ timezone: "Asia/Ho_Chi_Minh"
 - Re-cloned main after environment reset. Verified remote retains12completed pages and TEXT01–18. Later local-only work/commit from the interrupted session was not pushed; do not count it as delivered.
 - Generated-image cache and available saved files did not contain the later13–24 outputs. Retain committed requests, restart image generation with explicit new versions. No pending background generation is assumed alive.
 - Source27–28 remains verified; their TEXT tasks still need finishing in queue. Continue PAGE13_ART first, push each completed page.
+
+## 2026-11-10 — User-requested illustrated speech, page12v003
+
+- User rejects modern white rounded rectangles and straight tails. Created actual RGBA lettered-cloud artwork with image_gen:2172×724px, matching warm ink/watercolor scene. Exact3-line Vietnamese quote manually verified.
+- NewPAGE12_LAYOUT/QA v003 use separate editable-placement SVG and native cloud with lettering already drawn inside; raw illustration remains textfree. Oldv002 retained. Caption unchanged, tail onmouthcorner and faces/hands unobscured. Not user-approved/print-ready.
+- Parallel handoff being prepared under new user authorization: coordinator01–13/covers/matter/assembly, A14–20, B21–28. Per-lane progress/logs and staged-path gate will prevent shared-file editing.

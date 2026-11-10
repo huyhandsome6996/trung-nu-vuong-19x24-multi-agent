@@ -1940,38 +1940,83 @@
       "instructions": "Dùng nguyên text đã khóa và tranh đã kiểm. Ghép khung giấy cổ, tô đỏ #C81E1E cho **...**, đặt đủ thoại/đuôi bóng đúng người. Khổ196×246/trim190×240. Dùng layout_tokens, đo tràn chữ bằng renderer thật; xuất bản xem PNG/PDF và nguồn có thể sửa. scripts/typeset_preview.py là trợ giúp HTML; không coi HTML/PDF xem trước là file in đã duyệt.",
       "evidence": [
         {
-          "path": "10_agent_workflow/tasks/PAGE12_LAYOUT/report.v002.json",
-          "sha256": "b5e86993ece5b4c2096039a1c9529b03519d14b90f39568e19ccb1982cbf8fd5"
+          "path": "10_agent_workflow/tasks/PAGE12_LAYOUT/report.v003.json",
+          "sha256": "7c0b9ca1fe379fd9b013d33031879694d4f082e7a1e45f8d2376b370834fc428"
         },
         {
-          "path": "final_book_19x24/source/PAGE12_v002.svg",
-          "sha256": "7183406d44f02203cc620fbf6f732955a4968a29b18eae539b45bfa64f9fb990"
+          "path": "final_book_19x24/source/PAGE12_v003.svg",
+          "sha256": "456223a3dd7cd8fec2683abbc7d2a8259c787dbd91f720d53f65a900e2d1dd4b"
         },
         {
-          "path": "final_book_19x24/proofs/PAGE12_v002.pdf",
-          "sha256": "31d068fd99d8618beaedb68c36123572072d7a67d0527fa84898fd2878529b2a"
+          "path": "final_book_19x24/source/PAGE12_placement.v003.json",
+          "sha256": "39969c5f8565d7e982d01bf34aa8e6c47e17d9dfd3849f7bc5253ddb8f3c1ea9"
         },
         {
-          "path": "final_book_19x24/proofs/PAGE12_v002.png",
-          "sha256": "93ba27990bd2f773f01728a325bb4d18d81b6185e163ed7a3b5618c1a2ac0d7d"
+          "path": "final_book_19x24/proofs/PAGE12_v003.pdf",
+          "sha256": "927e1efc2caa4f19b4612b77ac68ce39d6262578fe34434382a140cfede291b6"
         },
         {
-          "path": "final_book_19x24/proofs/PAGE12_v002.json",
-          "sha256": "e542bef92aaee1a4470346b67b8bb4108ae07bd3438be37ebefe1524c15dcc8f"
+          "path": "final_book_19x24/proofs/PAGE12_v003.png",
+          "sha256": "5ccf04c5999cee7219af263d827575e5d5ba57c9362026670ccc953b69d2ac1a"
         },
         {
-          "path": "final_book_19x24/reading/PAGE12_v002.pdf",
-          "sha256": "091e24152d6ae3a87359d5cb5586410550ef4d50422a58e899d85abcc025682e"
+          "path": "final_book_19x24/proofs/PAGE12_v003.json",
+          "sha256": "b64b28d03475473e93da34a192ce2aebc653d842ea14f775ee881d79eff7f8ab"
         },
         {
-          "path": "final_book_19x24/source/PAGE12_placement.v002.json",
-          "sha256": "eb9b68af84eccdf18ddbdf7cc38dcef5c6a5c0cce57311b5cd5230194bcffccd"
+          "path": "final_book_19x24/reading/PAGE12_v003.pdf",
+          "sha256": "68dffd9ae52e264d2f87793b4ab86601696ec665cb2c7f03ab7bb2850fe2e19b"
+        },
+        {
+          "path": "assets_generated/speech_clouds/PAGE12_SPEECH01_v001.png",
+          "sha256": "465b5198bb396321826125cdec9e91413af2e3f8d6cacc7466c9ed7ed3317180"
+        },
+        {
+          "path": "assets_generated/speech_clouds/PAGE12_SPEECH01_v001.json",
+          "sha256": "1e5e6c96eea20ef404521a8140d077afbbf7001a4b68e410d612768690f88376"
+        },
+        {
+          "path": "assets_generated/speech_clouds/PAGE12_SPEECH01_v001.request.json",
+          "sha256": "53455b1f0736a352446c90b08393166c96c87fd24256a281585bcab46786adf4"
         }
       ],
-      "last_note": "Opened revised full render: triangular tail now reaches PhạmDanhHương mouth rather than horizontal line toward nose. Three panels, distinct LêĐạo blackhawk, ĐàoChiêuHiển spear, Phạm whitewhisk. Six red keyword spans, four narration lines, full three-line quote. No face/grip overlap; no overflow, Vietnamese fonts/standard boxes verified.",
+      "last_note": "Opened full renderv003 and native lettered-cloud PNG. Exact PhạmDanhHương quote checked visibly including every Vietnamese accent;3lines entirely within organic ink/ivory cloud. Short curved tail reaches mouth corner, eyes/hand/whisk clear. Warm pigment matches lower wooden room. Narration remains vector4lines/6redspans; geometry and safe zone pass. Visible dialogue is image lettering; text extraction is not evidence for its spelling. Exact editable source text/prompt and separate movable cloud retained. User approval absent, not print-ready.",
       "page": 12,
       "owner": "Codex",
-      "updated_at": "2026-11-09T14:23:58+00:00"
+      "updated_at": "2026-11-10T02:23:30+00:00",
+      "previous_evidence": [
+        [
+          {
+            "path": "10_agent_workflow/tasks/PAGE12_LAYOUT/report.v002.json",
+            "sha256": "b5e86993ece5b4c2096039a1c9529b03519d14b90f39568e19ccb1982cbf8fd5"
+          },
+          {
+            "path": "final_book_19x24/source/PAGE12_v002.svg",
+            "sha256": "7183406d44f02203cc620fbf6f732955a4968a29b18eae539b45bfa64f9fb990"
+          },
+          {
+            "path": "final_book_19x24/proofs/PAGE12_v002.pdf",
+            "sha256": "31d068fd99d8618beaedb68c36123572072d7a67d0527fa84898fd2878529b2a"
+          },
+          {
+            "path": "final_book_19x24/proofs/PAGE12_v002.png",
+            "sha256": "93ba27990bd2f773f01728a325bb4d18d81b6185e163ed7a3b5618c1a2ac0d7d"
+          },
+          {
+            "path": "final_book_19x24/proofs/PAGE12_v002.json",
+            "sha256": "e542bef92aaee1a4470346b67b8bb4108ae07bd3438be37ebefe1524c15dcc8f"
+          },
+          {
+            "path": "final_book_19x24/reading/PAGE12_v002.pdf",
+            "sha256": "091e24152d6ae3a87359d5cb5586410550ef4d50422a58e899d85abcc025682e"
+          },
+          {
+            "path": "final_book_19x24/source/PAGE12_placement.v002.json",
+            "sha256": "eb9b68af84eccdf18ddbdf7cc38dcef5c6a5c0cce57311b5cd5230194bcffccd"
+          }
+        ]
+      ],
+      "block_reason": ""
     },
     {
       "id": "PAGE12_QA",
@@ -1984,30 +2029,79 @@
       "instructions": "Mở ảnh render ở kích thước đọc thật và zoom100%; so với scan, sheet, text đã khóa. Kiểm bốn lớp historical/art/language/print_geometry. Ghi lỗi cụ thể và sửa về đúng bước. Báo cáo pass chỉ khi có artifact thực và không còn lỗi trong phạm vi; đây là QA của agent, không phải chủ dự án duyệt.",
       "evidence": [
         {
-          "path": "10_agent_workflow/tasks/PAGE12_QA/report.v002.json",
-          "sha256": "cec7cc1294edc001265fce3e4c0ec0cf6352d960edbdf046b7cf74c6c302cc95"
+          "path": "10_agent_workflow/tasks/PAGE12_QA/report.v003.json",
+          "sha256": "6446862e6a4d8fbef31a7d7848fc84a3896affe8da43df4916094de78af8d009"
         },
         {
-          "path": "10_agent_workflow/tasks/PAGE12_QA/QA.v002.md",
-          "sha256": "7f2199867f91ba1d61449dfc0d9e84dc804563a86c3b1dde7b7c2513112667d2"
+          "path": "10_agent_workflow/tasks/PAGE12_QA/QA.v003.md",
+          "sha256": "0d2563f8b40c698a80f1d72ca54eda5efa5fb2e7d4159f3df819af69b61ec81f"
         },
         {
-          "path": "final_book_19x24/proofs/PAGE12_v002.pdf",
-          "sha256": "31d068fd99d8618beaedb68c36123572072d7a67d0527fa84898fd2878529b2a"
+          "path": "final_book_19x24/source/PAGE12_v003.svg",
+          "sha256": "456223a3dd7cd8fec2683abbc7d2a8259c787dbd91f720d53f65a900e2d1dd4b"
         },
         {
-          "path": "final_book_19x24/proofs/PAGE12_v002.png",
-          "sha256": "93ba27990bd2f773f01728a325bb4d18d81b6185e163ed7a3b5618c1a2ac0d7d"
+          "path": "final_book_19x24/source/PAGE12_placement.v003.json",
+          "sha256": "39969c5f8565d7e982d01bf34aa8e6c47e17d9dfd3849f7bc5253ddb8f3c1ea9"
         },
         {
-          "path": "final_book_19x24/proofs/PAGE12_v002.json",
-          "sha256": "e542bef92aaee1a4470346b67b8bb4108ae07bd3438be37ebefe1524c15dcc8f"
+          "path": "final_book_19x24/proofs/PAGE12_v003.pdf",
+          "sha256": "927e1efc2caa4f19b4612b77ac68ce39d6262578fe34434382a140cfede291b6"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE12_v003.png",
+          "sha256": "5ccf04c5999cee7219af263d827575e5d5ba57c9362026670ccc953b69d2ac1a"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE12_v003.json",
+          "sha256": "b64b28d03475473e93da34a192ce2aebc653d842ea14f775ee881d79eff7f8ab"
+        },
+        {
+          "path": "final_book_19x24/reading/PAGE12_v003.pdf",
+          "sha256": "68dffd9ae52e264d2f87793b4ab86601696ec665cb2c7f03ab7bb2850fe2e19b"
+        },
+        {
+          "path": "assets_generated/speech_clouds/PAGE12_SPEECH01_v001.png",
+          "sha256": "465b5198bb396321826125cdec9e91413af2e3f8d6cacc7466c9ed7ed3317180"
+        },
+        {
+          "path": "assets_generated/speech_clouds/PAGE12_SPEECH01_v001.json",
+          "sha256": "1e5e6c96eea20ef404521a8140d077afbbf7001a4b68e410d612768690f88376"
+        },
+        {
+          "path": "assets_generated/speech_clouds/PAGE12_SPEECH01_v001.request.json",
+          "sha256": "53455b1f0736a352446c90b08393166c96c87fd24256a281585bcab46786adf4"
         }
       ],
-      "last_note": "Opened revised full render: triangular tail now reaches PhạmDanhHương mouth rather than horizontal line toward nose. Three panels, distinct LêĐạo blackhawk, ĐàoChiêuHiển spear, Phạm whitewhisk. Six red keyword spans, four narration lines, full three-line quote. No face/grip overlap; no overflow, Vietnamese fonts/standard boxes verified.",
+      "last_note": "Opened full renderv003 and native lettered-cloud PNG. Exact PhạmDanhHương quote checked visibly including every Vietnamese accent;3lines entirely within organic ink/ivory cloud. Short curved tail reaches mouth corner, eyes/hand/whisk clear. Warm pigment matches lower wooden room. Narration remains vector4lines/6redspans; geometry and safe zone pass. Visible dialogue is image lettering; text extraction is not evidence for its spelling. Exact editable source text/prompt and separate movable cloud retained. User approval absent, not print-ready.",
       "page": 12,
       "owner": "Codex",
-      "updated_at": "2026-11-09T14:23:58+00:00"
+      "updated_at": "2026-11-10T02:23:31+00:00",
+      "previous_evidence": [
+        [
+          {
+            "path": "10_agent_workflow/tasks/PAGE12_QA/report.v002.json",
+            "sha256": "cec7cc1294edc001265fce3e4c0ec0cf6352d960edbdf046b7cf74c6c302cc95"
+          },
+          {
+            "path": "10_agent_workflow/tasks/PAGE12_QA/QA.v002.md",
+            "sha256": "7f2199867f91ba1d61449dfc0d9e84dc804563a86c3b1dde7b7c2513112667d2"
+          },
+          {
+            "path": "final_book_19x24/proofs/PAGE12_v002.pdf",
+            "sha256": "31d068fd99d8618beaedb68c36123572072d7a67d0527fa84898fd2878529b2a"
+          },
+          {
+            "path": "final_book_19x24/proofs/PAGE12_v002.png",
+            "sha256": "93ba27990bd2f773f01728a325bb4d18d81b6185e163ed7a3b5618c1a2ac0d7d"
+          },
+          {
+            "path": "final_book_19x24/proofs/PAGE12_v002.json",
+            "sha256": "e542bef92aaee1a4470346b67b8bb4108ae07bd3438be37ebefe1524c15dcc8f"
+          }
+        ]
+      ],
+      "block_reason": ""
     },
     {
       "id": "PAGE13_TEXT",
@@ -2041,17 +2135,17 @@
       "id": "PAGE13_ART",
       "kind": "art",
       "title": "Trang13: tạo và kiểm tranh nền",
-      "status": "in_progress",
+      "status": "blocked",
       "depends_on": [
         "PAGE13_TEXT"
       ],
       "instructions": "Lấy text đã khóa từ evidence bước TEXT. Xem các sheet liên quan; soạn prompt cuối theo cảnh, ghi actual_references và hash. Tạo ảnh bằng công cụ sinh ảnh, nền không chữ, không bóng thoại, chừa20% đỉnh; dùng đúng A/B/C. Kiểm mặt, phục trang, tay/chân/vũ khí và hành động. Lưu PNG native có phiên bản và metadata theo templates/RAW_IMAGE_METADATA.json. Không resize rồi khai native300DPI.",
       "evidence": [],
-      "last_note": "Fresh v002 request, all five baseline images viewed",
+      "last_note": "Paused before generation: user prioritizes hand-drawn lettered speech clouds and two parallel-agent handoffs",
       "page": 13,
       "owner": "Codex",
-      "updated_at": "2026-11-10T02:07:25+00:00",
-      "block_reason": ""
+      "updated_at": "2026-11-10T02:16:17+00:00",
+      "block_reason": "Paused before generation: user prioritizes hand-drawn lettered speech clouds and two parallel-agent handoffs"
     },
     {
       "id": "PAGE13_LAYOUT",
@@ -3098,7 +3192,7 @@
       ],
       "instructions": "Dùng pagination.json và print_profile đã chốt. Xuất riêng reading.pdf và print.pdf; file ruột32trang, bìa trải theo gáy thực tế. Kiểm PDF Media/Trim/BleedBox, nhúng font, độ phân giải hiệu dụng và ICC theo nhà in; tạo delivery_manifest.json chứa hash mọi file. Không tự đặt PRINT_READY khi mới gắnDPI.",
       "evidence": [],
-      "last_note": "Reopen: Sửa metadata prompt bị ghi placeholder khi jobchưa trả; giữ ảnh/layout thực khôngđổi, tạo hồsơv003 đúngprompt",
+      "last_note": "Reopen: User rejects modern white rounded box; create illustrated lettered cloud matching warm ink-watercolor scene",
       "block_reason": ""
     },
     {
@@ -3111,7 +3205,7 @@
       ],
       "instructions": "Chạy check --release sau khi các bước khác xong (trước RELEASE sẽ báo chưa hoàn tất là đúng). Mở toàn bộ32 trang ruột và4 mặt bìa; kiểm lỗi, file sửa được, manifesthash, nguồn/quyền, QA và hướng dẫn nhà in. Hoàn tất report RELEASE rồi chạy check --release phải đạt. Push main và đối chiếu SHA remote. Chỉ phát hành đúng phạm vi người dùng giao, không tự xuất bản thương mại.",
       "evidence": [],
-      "last_note": "Reopen: Sửa metadata prompt bị ghi placeholder khi jobchưa trả; giữ ảnh/layout thực khôngđổi, tạo hồsơv003 đúngprompt",
+      "last_note": "Reopen: User rejects modern white rounded box; create illustrated lettered cloud matching warm ink-watercolor scene",
       "block_reason": ""
     }
   ],
@@ -4543,6 +4637,54 @@
       "task": "PAGE13_ART",
       "action": "start",
       "note": "Fresh v002 request, all five baseline images viewed"
+    },
+    {
+      "at": "2026-11-10T02:16:17+00:00",
+      "task": "PAGE13_ART",
+      "action": "block",
+      "note": "Paused before generation: user prioritizes hand-drawn lettered speech clouds and two parallel-agent handoffs"
+    },
+    {
+      "at": "2026-11-10T02:16:17+00:00",
+      "task": "PAGE12_LAYOUT",
+      "action": "reopen",
+      "note": "User rejects modern white rounded box; create illustrated lettered cloud matching warm ink-watercolor scene"
+    },
+    {
+      "at": "2026-11-10T02:16:17+00:00",
+      "task": "PAGE12_LAYOUT",
+      "action": "start",
+      "note": "New illustrated speech cloud and integrated Vietnamese lettering per user review"
+    },
+    {
+      "at": "2026-11-10T02:23:30+00:00",
+      "task": "PAGE12_LAYOUT",
+      "action": "checkpoint",
+      "note": "Opened full renderv003 and native lettered-cloud PNG. Exact PhạmDanhHương quote checked visibly including every Vietnamese accent;3lines entirely within organic ink/ivory cloud. Short curved tail reaches mouth corner, eyes/hand/whisk clear. Warm pigment matches lower wooden room. Narration remains vector4lines/6redspans; geometry and safe zone pass. Visible dialogue is image lettering; text extraction is not evidence for its spelling. Exact editable source text/prompt and separate movable cloud retained. User approval absent, not print-ready."
+    },
+    {
+      "at": "2026-11-10T02:23:30+00:00",
+      "task": "PAGE12_LAYOUT",
+      "action": "finish",
+      "note": "Opened full renderv003 and native lettered-cloud PNG. Exact PhạmDanhHương quote checked visibly including every Vietnamese accent;3lines entirely within organic ink/ivory cloud. Short curved tail reaches mouth corner, eyes/hand/whisk clear. Warm pigment matches lower wooden room. Narration remains vector4lines/6redspans; geometry and safe zone pass. Visible dialogue is image lettering; text extraction is not evidence for its spelling. Exact editable source text/prompt and separate movable cloud retained. User approval absent, not print-ready."
+    },
+    {
+      "at": "2026-11-10T02:23:31+00:00",
+      "task": "PAGE12_QA",
+      "action": "start",
+      "note": "Review user-requested illustrated dialogue style"
+    },
+    {
+      "at": "2026-11-10T02:23:31+00:00",
+      "task": "PAGE12_QA",
+      "action": "checkpoint",
+      "note": "Opened full renderv003 and native lettered-cloud PNG. Exact PhạmDanhHương quote checked visibly including every Vietnamese accent;3lines entirely within organic ink/ivory cloud. Short curved tail reaches mouth corner, eyes/hand/whisk clear. Warm pigment matches lower wooden room. Narration remains vector4lines/6redspans; geometry and safe zone pass. Visible dialogue is image lettering; text extraction is not evidence for its spelling. Exact editable source text/prompt and separate movable cloud retained. User approval absent, not print-ready."
+    },
+    {
+      "at": "2026-11-10T02:23:31+00:00",
+      "task": "PAGE12_QA",
+      "action": "finish",
+      "note": "Opened full renderv003 and native lettered-cloud PNG. Exact PhạmDanhHương quote checked visibly including every Vietnamese accent;3lines entirely within organic ink/ivory cloud. Short curved tail reaches mouth corner, eyes/hand/whisk clear. Warm pigment matches lower wooden room. Narration remains vector4lines/6redspans; geometry and safe zone pass. Visible dialogue is image lettering; text extraction is not evidence for its spelling. Exact editable source text/prompt and separate movable cloud retained. User approval absent, not print-ready."
     }
   ]
 }

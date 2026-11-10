@@ -111,3 +111,5 @@ Kiểm riêng dây cung phải nối hai đầu cung với nock ở ngón kéo, 
 
 - Speech-tail roots need manual placement near a suitable box edge. A center-root triangle may cross a face; equal root/tip y collapses to a line. Review the final render and create a new placement version.
 - Read units in scans: source HátMôn fleet has morethan100sixteen-oared boats, not160boats. Record correction in text review while preserving storyboard hashes for completed locks.
+
+- User review10Nov2026: modern white UI-like speech boxes clash with historical ink/watercolor. Draw the cloud and Vietnamese lettering together, choose pigment/outline for the scene, then place the artwork as one movable asset. Verify visible letters; PDF text extraction cannot validate image lettering.

@@ -1,0 +1,63 @@
+{
+  "page": 12,
+  "version": "v003",
+  "print_ready": false,
+  "user_approved": false,
+  "renderer": "ReportLab / vector text; PDF rendered separately with Poppler",
+  "native_size_px": [
+    1122,
+    1402
+  ],
+  "art_effective_dpi": [
+    144.75934959349595,
+    144.75934959349593
+  ],
+  "crop_mm": [
+    0.4350927246790235,
+    0.0
+  ],
+  "missing_glyphs": [],
+  "boxes": [
+    {
+      "kind": "narration",
+      "bbox_mm": [
+        18,
+        14,
+        154,
+        29
+      ],
+      "font_pt": 12.8,
+      "lines": 4,
+      "text_height_mm": 25.64835555555555,
+      "max_width_mm": 150.98211555555554,
+      "overflow": false
+    }
+  ],
+  "speech_assets": [
+    {
+      "index": 0,
+      "speaker": "Phạm Danh Hương",
+      "asset": "assets_generated/speech_clouds/PAGE12_SPEECH01_v001.png",
+      "sha256": "465b5198bb396321826125cdec9e91413af2e3f8d6cacc7466c9ed7ed3317180",
+      "bbox_mm": [
+        18,
+        170,
+        97,
+        32.333333333333336
+      ],
+      "native_size_px": [
+        2172,
+        724
+      ],
+      "effective_dpi": 568.7505154639175,
+      "visible_text_manually_verified": true,
+      "text": "Lão hủ xem tinh tượng biết khí vận nước Nam đã tới, xin dâng toàn bộ binh lương theo chủ công khởi nghĩa!"
+    }
+  ],
+  "pdf_text_matches": true,
+  "hashes": {
+    "svg": "456223a3dd7cd8fec2683abbc7d2a8259c787dbd91f720d53f65a900e2d1dd4b",
+    "pdf": "927e1efc2caa4f19b4612b77ac68ce39d6262578fe34434382a140cfede291b6",
+    "reading": "68dffd9ae52e264d2f87793b4ab86601696ec665cb2c7f03ab7bb2850fe2e19b"
+  }
+}
