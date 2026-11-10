@@ -162,29 +162,105 @@
       "id": "PAGE21_LAYOUT",
       "kind": "layout",
       "title": "Trang21: ghép chữ và bố cục",
-      "status": "in_progress",
+      "status": "done",
       "depends_on": [
         "PAGE21_ART"
       ],
       "instructions": "Dùng nguyên text đã khóa và tranh đã kiểm. Ghép khung giấy cổ, tô đỏ #C81E1E cho **...**, đặt đủ thoại/đuôi bóng đúng người. Khổ196×246/trim190×240. Dùng layout_tokens, đo tràn chữ bằng renderer thật; xuất bản xem PNG/PDF và nguồn có thể sửa. scripts/typeset_preview.py là trợ giúp HTML; không coi HTML/PDF xem trước là file in đã duyệt.",
-      "evidence": [],
-      "last_note": "Tạo asset organic kèm đủ chữ, rồi placement/PDF/SVG.",
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/PAGE21_LAYOUT/report.v001.json",
+          "sha256": "9f1e7f3023327f41bfa6b0be77eceea0f72615e6d8253016cc657645fe4749a4"
+        },
+        {
+          "path": "final_book_19x24/source/PAGE21_v001.svg",
+          "sha256": "4c0d32572de79c3e37c7ac8140347fb3a5e483bcd6848f6c5fe46b746b48229e"
+        },
+        {
+          "path": "final_book_19x24/source/PAGE21_v001.placement.json",
+          "sha256": "eaeb5e114b135ac80399c9c80512530607f6630fdf951b858b22ff5c363ef638"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE21_v001.pdf",
+          "sha256": "68e830c45d0925cc09c02e62c3d8cb6cee78bf92980ed1a3928fefed6966a4b5"
+        },
+        {
+          "path": "final_book_19x24/reading/PAGE21_v001.pdf",
+          "sha256": "e81d610508ecfbe1be5c6b9be150ebe630d95c0f09663d1a7616cfd2ff2786d9"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE21_v001.png",
+          "sha256": "c81bb0c5d56e684ba1c45eb6f02ab6dbb64051c811443ec7ec80b7b797d143b9"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE21_v001.json",
+          "sha256": "4d1112031949f0d3515bb67794e44881d556cd8cd32c053cb412739690d8cdd0"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE21_v001_300dpi.png",
+          "sha256": "b1cddd7f511505246ff264ef270dacfb850bb5702be4fb13e0d9098bae322596"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE21_v001_detail.png",
+          "sha256": "e41a276286f93eb8a5a573681d598d4897807da69eec298af9255f040a4003cf"
+        },
+        {
+          "path": "assets_generated/speech_clouds/PAGE21_SPEECH01_v001.png",
+          "sha256": "313b0a793c4657a59a3b19acf847ec88d0a3d3dbf5812d8ecee73b5a4e3a748e"
+        },
+        {
+          "path": "assets_generated/speech_clouds/PAGE21_SPEECH01_v001.json",
+          "sha256": "10cf3556c5b77d101c7c357edec5cfe6f1229b2c6128c2db0e6c7c74c75eaf6b"
+        },
+        {
+          "path": "assets_generated/speech_clouds/PAGE21_SPEECH01_v001.prompt.txt",
+          "sha256": "6466ff7057f71dee91b35ee8d40c86bb11d6feb3f7f3d03d1d0ed6b886df8a91"
+        },
+        {
+          "path": "10_agent_workflow/parallel/agent_b/render_page.snapshot.v001.py",
+          "sha256": "314b628a5cc0595ee6e38165862b78866c3ada9008ecce9e05cecf07fe135108"
+        }
+      ],
+      "last_note": "Mở render150 và detail300; chữ/đuôi/safe/box đạt.",
       "page": 21,
       "owner": "agent_b",
-      "updated_at": "2026-11-10T06:53:33+00:00"
+      "updated_at": "2026-11-10T06:56:40+00:00"
     },
     {
       "id": "PAGE21_QA",
       "kind": "qa",
       "title": "Trang21: kiểm nguồn/mỹ thuật/chữ/khổ",
-      "status": "todo",
+      "status": "done",
       "depends_on": [
         "PAGE21_LAYOUT"
       ],
       "instructions": "Mở ảnh render ở kích thước đọc thật và zoom100%; so với scan, sheet, text đã khóa. Kiểm bốn lớp historical/art/language/print_geometry. Ghi lỗi cụ thể và sửa về đúng bước. Báo cáo pass chỉ khi có artifact thực và không còn lỗi trong phạm vi; đây là QA của agent, không phải chủ dự án duyệt.",
-      "evidence": [],
-      "last_note": "",
-      "page": 21
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/PAGE21_QA/report.v001.json",
+          "sha256": "ca7d76af7229fd5fa60ec0cb79c45446842d79e3fbe7b6dcfdb003d911f7152e"
+        },
+        {
+          "path": "10_agent_workflow/tasks/PAGE21_LAYOUT/report.v001.json",
+          "sha256": "9f1e7f3023327f41bfa6b0be77eceea0f72615e6d8253016cc657645fe4749a4"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE21_v001.png",
+          "sha256": "c81bb0c5d56e684ba1c45eb6f02ab6dbb64051c811443ec7ec80b7b797d143b9"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE21_v001_detail.png",
+          "sha256": "e41a276286f93eb8a5a573681d598d4897807da69eec298af9255f040a4003cf"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE21_v001.json",
+          "sha256": "4d1112031949f0d3515bb67794e44881d556cd8cd32c053cb412739690d8cdd0"
+        }
+      ],
+      "last_note": "4lớp đã kiểm thật, không issue bảnđọc.",
+      "page": 21,
+      "owner": "agent_b",
+      "updated_at": "2026-11-10T06:56:41+00:00"
     },
     {
       "id": "PAGE22_TEXT",
@@ -603,6 +679,30 @@
       "task": "PAGE21_LAYOUT",
       "action": "start",
       "note": "Tạo asset organic kèm đủ chữ, rồi placement/PDF/SVG."
+    },
+    {
+      "at": "2026-11-10T06:56:40+00:00",
+      "task": "PAGE21_LAYOUT",
+      "action": "checkpoint",
+      "note": "SVG/PDF/PNG và thoại5dòng native đã mở kiểm;4dòng dẫn/8keyword, font/box đạt."
+    },
+    {
+      "at": "2026-11-10T06:56:40+00:00",
+      "task": "PAGE21_LAYOUT",
+      "action": "finish",
+      "note": "Mở render150 và detail300; chữ/đuôi/safe/box đạt."
+    },
+    {
+      "at": "2026-11-10T06:56:41+00:00",
+      "task": "PAGE21_QA",
+      "action": "start",
+      "note": "Kiểm4lớp trên toàntrang và detail300DPI đã mở."
+    },
+    {
+      "at": "2026-11-10T06:56:41+00:00",
+      "task": "PAGE21_QA",
+      "action": "finish",
+      "note": "4lớp đã kiểm thật, không issue bảnđọc."
     }
   ]
 }

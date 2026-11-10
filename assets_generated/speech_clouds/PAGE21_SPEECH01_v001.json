@@ -1,0 +1,26 @@
+{
+  "text": "Ta sẽ đích thân dẫn dụ Tào Quyền vào khe Mãng Xà giữa lưng chừng núi, đồng thời đánh chiếm toàn bộ ba mươi chiến thuyền của chúng dưới bến sông!",
+  "speaker": "Thánh Thiên",
+  "status": "visual_text_verified",
+  "image": "assets_generated/speech_clouds/PAGE21_SPEECH01_v001.png",
+  "sha256": "313b0a793c4657a59a3b19acf847ec88d0a3d3dbf5812d8ecee73b5a4e3a748e",
+  "native_size_px": [
+    1983,
+    793
+  ],
+  "generator": "image_gen.imagegen built-in; model not exposed",
+  "prompt": "Create a transparent RGBA lettered speech asset for the supplied Vietnamese historical comic scene PAGE21. Draw BOTH the organic ink outline/cloud AND all the Vietnamese words together in one finished image. Reference1 is target raw scene for matching warm timber, forest-green and soft ivory reflected light; reference2 is style sample ONLY, do not copy its wording. Asset only, no characters or scenery outside bubble. Wide horizontal 2.5:1 canvas, about1800x720px. Cloud occupies left88percent, a SHORT curved tapering tail emerges from upper-right edge and ends at rightmost edge at about38percent height, pointing RIGHT toward the woman's mouth. Body slightly irregular softly scalloped oval, warm grey-ivory parchment (much less yellow than sample), subtle ink hatch edge, delicate paper grain, dark brown almost black readable humanist SERIF lettering, regular book/comic lettering, no ornate calligraphy, no modern UI rounded rectangle or drop shadow. Leave transparent outside. Keep generous internal margin, tail contains no words. Fit the entire exact Vietnamese quote in SIX balanced readable lines. Verbatim text, retain every accent and punctuation, do not add quotation marks or title: Ta sẽ đích thân dẫn dụ Tào Quyền vào khe Mãng Xà giữa lưng chừng núi, đồng thời đánh chiếm toàn bộ ba mươi chiến thuyền của chúng dưới bến sông! Suggested line breaks: 'Ta sẽ đích thân dẫn dụ Tào Quyền' / 'vào khe Mãng Xà giữa lưng chừng núi,' / 'đồng thời đánh chiếm toàn bộ' / 'ba mươi chiến thuyền của chúng' / 'dưới bến sông!' You may use5lines as suggested, do not alter any words. No other text or watermark.",
+  "actual_references": [
+    {
+      "path": "assets_generated/raw_pages/PAGE21_v001.png",
+      "sha256": "ec133fa570405697938aa8d45247f775df67c98e7799598580f5c2e930864f53"
+    },
+    {
+      "path": "final_book_19x24/proofs/PAGE12_v003.png",
+      "sha256": "5ccf04c5999cee7219af263d827575e5d5ba57c9362026670ccc953b69d2ac1a"
+    }
+  ],
+  "visual_review": "Read all5lines and accents from returned native image; exact quote. Organic ivory/grey paper and curved right tail; alpha preserved.",
+  "user_approved": false,
+  "print_ready": false
+}

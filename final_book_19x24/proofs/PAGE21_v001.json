@@ -1,0 +1,63 @@
+{
+  "page": 21,
+  "version": "v001",
+  "print_ready": false,
+  "user_approved": false,
+  "renderer": "ReportLab / vector text; PDF rendered separately with Poppler",
+  "native_size_px": [
+    1122,
+    1402
+  ],
+  "art_effective_dpi": [
+    144.75934959349595,
+    144.75934959349593
+  ],
+  "crop_mm": [
+    0.4350927246790235,
+    0.0
+  ],
+  "missing_glyphs": [],
+  "boxes": [
+    {
+      "kind": "narration",
+      "bbox_mm": [
+        18,
+        14,
+        154,
+        29
+      ],
+      "font_pt": 12.8,
+      "lines": 4,
+      "text_height_mm": 25.64835555555555,
+      "max_width_mm": 153.8314311111111,
+      "overflow": false
+    }
+  ],
+  "speech_assets": [
+    {
+      "index": 0,
+      "speaker": "Thánh Thiên",
+      "asset": "assets_generated/speech_clouds/PAGE21_SPEECH01_v001.png",
+      "sha256": "313b0a793c4657a59a3b19acf847ec88d0a3d3dbf5812d8ecee73b5a4e3a748e",
+      "bbox_mm": [
+        18,
+        51,
+        117,
+        46.78819969742814
+      ],
+      "native_size_px": [
+        1983,
+        793
+      ],
+      "effective_dpi": 430.4974358974358,
+      "visible_text_manually_verified": true,
+      "text": "Ta sẽ đích thân dẫn dụ Tào Quyền vào khe Mãng Xà giữa lưng chừng núi, đồng thời đánh chiếm toàn bộ ba mươi chiến thuyền của chúng dưới bến sông!"
+    }
+  ],
+  "pdf_text_matches": true,
+  "hashes": {
+    "svg": "4c0d32572de79c3e37c7ac8140347fb3a5e483bcd6848f6c5fe46b746b48229e",
+    "pdf": "68e830c45d0925cc09c02e62c3d8cb6cee78bf92980ed1a3928fefed6966a4b5",
+    "reading": "e81d610508ecfbe1be5c6b9be150ebe630d95c0f09663d1a7616cfd2ff2786d9"
+  }
+}

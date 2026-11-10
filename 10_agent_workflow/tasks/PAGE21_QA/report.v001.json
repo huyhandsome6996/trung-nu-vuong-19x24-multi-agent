@@ -1,0 +1,21 @@
+{
+  "task_id": "PAGE21_QA",
+  "kind": "qa",
+  "status": "passed",
+  "reviewer": "agent_b",
+  "summary": "AGENT_QA: nguồn kế hoạch scan47–50,4nhân vật đúng nhận diện, tay/chân/que chỉ hợp lý. Đã đọc từng tiếng/dấu ở native/150DPI/detail300DPI; thoại nguyên văn,8cụm đỏ; font Việt nhúng, trim190×240/bleed196×246. Tranh native144.76DPI, asset thoại430.50DPI; không user-approved/print-ready.",
+  "checks": {
+    "historical": "pass",
+    "art": "pass",
+    "language": "pass",
+    "print_geometry": "pass"
+  },
+  "artifacts": [
+    "10_agent_workflow/tasks/PAGE21_LAYOUT/report.v001.json",
+    "final_book_19x24/proofs/PAGE21_v001.png",
+    "final_book_19x24/proofs/PAGE21_v001_detail.png",
+    "final_book_19x24/proofs/PAGE21_v001.json"
+  ],
+  "open_issues": [],
+  "reviewed_at": "2026-11-10T06:56:41.284147+00:00"
+}
