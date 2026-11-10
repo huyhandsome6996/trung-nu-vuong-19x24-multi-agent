@@ -1,0 +1,1 @@
+Actual output opened: correct redTrắc/navyNhị and two teachers,3blankfronttablets and censer. DRAFT: tallesttablet begins in narrator area, Trắc forward boot meets bottom edge. Needs composition repair before acceptance; no ARTpass.

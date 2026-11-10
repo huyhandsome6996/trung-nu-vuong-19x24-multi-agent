@@ -1,0 +1,38 @@
+{
+  "image": "assets_generated/raw_pages/PAGE17_v003.png",
+  "version": "v003",
+  "native_size_px": [
+    1122,
+    1402
+  ],
+  "sha256": "e2096f1fa7f8810577b86e08df49035e43b6eb9e20b551b69d0afffe50a381e5",
+  "prompt": "Use case: historical-scene / illustration-story. Text-free Vietnamese historical-legend illustrated book for ages13–16. Portrait4:5 page, high native detail, sharp ink hatching and rich luminous controlled watercolor, mature heroic emotional storytelling matching the supplied design sheets. Keep exact facial structure, body type and costume colors from named reference positions. TOP20%canvas must be quiet pale atmosphere with NO heads, hands, weapons or important roofs; later Vietnamese parchment narration is typeset separately. Absolutely NO writing/letters anywhere, no captions, no speech balloons, no watermark/signature. Natural attached hands, normal limbs, mechanically connected weapons. No modern objects, no gore. Keep important faces/feet inside 8–92%width and belowy28% but above94%height. PAGE17 Template B two horizontal scenes separated near53%. Upper y22–53%: solemn CLOSEUP of ancient open bronze ceremonial censer with incense and THREE upright BLANK redgold memorial tablets: one taller CENTER, two smaller left/right. Tablets broad blank surfaces, all three completely visible, no inscriptions. Bronze censer belongs to ritual, not teapot; no glass. Lower y55–100%: TrưngTrắc atleftcenter in ref1 RIGHT RED/bronze armor, feathered golddiadem and WHITE mourning band; TrưngNhị at rightcenter in ref2 NAVY/bronze armor, golddiadem+WHITE mourning band. Both climb altar stone/wooden steps upright at HátMôn, feet fully visible. Ref5 two teachers male longbeardnavy and olderwomanpurple follow fartherback; distant officials/chiefs not crowding foreground. Lowangle warm spring sun, joyous solemn ceremony. Heads of lower women aroundy68%, weapons sheathed to avoid upperpanel. Center altar tablet faces must remain blank for later typeset names. All three tablet name faces must be front-facing parallel to the image plane, broad enough for legible Vietnamese names later, not hidden by censer/incense. Keep small side tablets at least12percent canvas width each and center tablet at least16percent wide. No lettering now.",
+  "actual_references": [
+    {
+      "path": "assets_generated/characters/CHAR_01_Trung_Trac_v001.png",
+      "sha256": "3387a36a801705d08b9eac3dd778aca3533fced07300db8188cd71439eeec3c3"
+    },
+    {
+      "path": "assets_generated/design_system/CHAR02_v001.png",
+      "sha256": "f4075fc661a51398efee50470805fca95a86a76ee66ec00909ba1058818ff4c7"
+    },
+    {
+      "path": "assets_generated/design_system/PROP02_v001.png",
+      "sha256": "66b704990f77eed1b67406f057324078b87c2556b2f5d5cbd433b9997ea0d9e0"
+    },
+    {
+      "path": "assets_generated/design_system/ENV03_v001.png",
+      "sha256": "fd58bd1e71c22e4bec7a0f54bb9ec6cec0b15ab0da5e0c8979c26e95bad6b929"
+    },
+    {
+      "path": "assets_generated/design_system/CHAR07_v001.png",
+      "sha256": "2cd6a715af4eb27b42d6e597802431805b690c2f0c93cd31f788c10d3b3dadc3"
+    }
+  ],
+  "generator": "image_gen.imagegen (model not exposed)",
+  "text_free": true,
+  "top_clearance_checked": true,
+  "visual_qa_report": "10_agent_workflow/tasks/PAGE17_ART/VISUAL_REVIEW.v003.md",
+  "user_approved": false,
+  "print_ready": false
+}

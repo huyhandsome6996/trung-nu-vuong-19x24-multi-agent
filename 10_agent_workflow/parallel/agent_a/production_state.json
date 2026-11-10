@@ -578,10 +578,10 @@
       ],
       "instructions": "Lấy text đã khóa từ evidence bước TEXT. Xem các sheet liên quan; soạn prompt cuối theo cảnh, ghi actual_references và hash. Tạo ảnh bằng công cụ sinh ảnh, nền không chữ, không bóng thoại, chừa20% đỉnh; dùng đúng A/B/C. Kiểm mặt, phục trang, tay/chân/vũ khí và hành động. Lưu PNG native có phiên bản và metadata theo templates/RAW_IMAGE_METADATA.json. Không resize rồi khai native300DPI.",
       "evidence": [],
-      "last_note": "Image call for requestv002 interrupted/cancelled by user; wait cell unavailable; inspected generated_images and no PAGE17 output exists. No background job claimed. Resume from exact request and5refs; do not finish ART.",
+      "last_note": "Rawv003 saved1122x1402;3blanktablets/correctcast. Draft: center crest overlaps narrator and forwardboot atbottom; recompose before ARTpass",
       "page": 17,
       "owner": "agent_a",
-      "updated_at": "2026-11-10T07:23:23+00:00",
+      "updated_at": "2026-11-10T08:14:11+00:00",
       "block_reason": ""
     },
     {
@@ -947,6 +947,12 @@
       "task": "PAGE17_ART",
       "action": "checkpoint",
       "note": "Image call for requestv002 interrupted/cancelled by user; wait cell unavailable; inspected generated_images and no PAGE17 output exists. No background job claimed. Resume from exact request and5refs; do not finish ART."
+    },
+    {
+      "at": "2026-11-10T08:14:11+00:00",
+      "task": "PAGE17_ART",
+      "action": "checkpoint",
+      "note": "Rawv003 saved1122x1402;3blanktablets/correctcast. Draft: center crest overlaps narrator and forwardboot atbottom; recompose before ARTpass"
     }
   ]
 }

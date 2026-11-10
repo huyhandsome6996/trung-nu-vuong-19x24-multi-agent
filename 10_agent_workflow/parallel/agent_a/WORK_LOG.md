@@ -24,3 +24,6 @@ Files: final_book_19x24/source/PAGE16_v001.svg, final_book_19x24/proofs/PAGE16_v
 
 ## Interrupted PAGE17 generation and partial handoff
 Actual call requestv002 was interrupted/cancelled by user. No returned image, wait cell unavailable; filesystem checked, no17output. Saved HANDOFF.md and MANIFEST.v001.json:14/28steps done, pages14–16complete,17ARTin_progress, rest unfinished. No background job claimed.
+
+## Resume PAGE17 with new credential,10November2026
+Pulled latest main; scoped evidence passes. Actual requestv003 returned native1122×1402. Saved raw/prompt/hash/ref evidence immediately. Correct4cast/3blanktablets, but center crest in narrator zone and forwardboot touches bottom. Keep draft and request composition correction; no ARTcompletion claim.
