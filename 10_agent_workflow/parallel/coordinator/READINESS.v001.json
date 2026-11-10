@@ -1,0 +1,33 @@
+{
+  "observed_at": "2026-11-10T07:33:38.020738+00:00",
+  "remote_main": "dc5ec27",
+  "local_checkpoint_before_this_note": "1d50611",
+  "publication": "not_pushed_auto_review_rejected",
+  "agent_a": {
+    "completed_pages": [
+      14,
+      15,
+      16
+    ],
+    "lane_complete": false,
+    "next": "PAGE17_ART",
+    "reported_interruption": "image wait cancelled; no returned page17 artifact"
+  },
+  "agent_b": {
+    "completed_pages": [
+      21,
+      22,
+      23
+    ],
+    "lane_complete": false,
+    "next": "PAGE24_ART or PAGE25_TEXT",
+    "reported_interruption": "page24 image call interrupted; no returned artifact"
+  },
+  "coordinator_remaining": [
+    "PAGE03 illustrated speech rejected by image tool; unchanged blocker",
+    "Verify both complete lane handoffs and integrate only when user reports completion",
+    "Final reading PDF36faces after all current QA"
+  ],
+  "shared_code_requests": "No REQUESTS files on fetched main; AgentA explicitly reports no shared-code repair needed",
+  "note": "A/B statuses read from their committed HANDOFFs, not independent visual approval. No incomplete lane imported. No background job assumed."
+}
