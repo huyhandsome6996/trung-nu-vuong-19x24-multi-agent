@@ -8,6 +8,12 @@ import workflow
 
 ROOT = Path(__file__).resolve().parents[1]
 errors = workflow.check(workflow.load())
+if (ROOT / '10_agent_workflow/parallel/assignments.json').exists():
+    import parallel_workflow
+    try:
+        parallel_workflow.validate_all()
+    except (ValueError, OSError, KeyError) as error:
+        errors.append('Parallel lanes: ' + str(error))
 for path in ROOT.rglob('*.md'):
     if '.git' in path.parts:
         continue

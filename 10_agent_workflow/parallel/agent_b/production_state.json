@@ -1,0 +1,529 @@
+{
+  "lane": "agent_b",
+  "base_commit": "0c6557ea9cc25c016e98d6239f85acf00cc0f0fb",
+  "base_global_state_sha256": "792cf9cfd3907978ec52b3d3f1a17ae1591736597e496f9f9b440acd7c8c107a",
+  "tasks": [
+    {
+      "id": "ONBOARDING",
+      "kind": "baseline",
+      "title": "Đã đọc/kiểm kê tư liệu gốc",
+      "status": "done",
+      "depends_on": [],
+      "instructions": "Đã có báo cáo onboarding và bảng hash nguồn. Không đọc lại 59 file chỉ để đếm.",
+      "evidence": [],
+      "last_note": "",
+      "baseline": true,
+      "read_only_prerequisite": true
+    },
+    {
+      "id": "DESIGN_BASELINE",
+      "kind": "baseline",
+      "title": "Bộ thiết kế30 bảng/41 hồ sơ",
+      "status": "done",
+      "depends_on": [
+        "ONBOARDING"
+      ],
+      "instructions": "Dùng ảnh thật, registry và bản sửa nguồn hiện hành.",
+      "evidence": [],
+      "last_note": "",
+      "baseline": true,
+      "read_only_prerequisite": true
+    },
+    {
+      "id": "SOURCE_EPILOGUE",
+      "kind": "source",
+      "title": "Đối chiếu nguồn phần kết trang27–28",
+      "status": "done",
+      "depends_on": [
+        "ONBOARDING"
+      ],
+      "instructions": "Tìm nguồn chính thống hỗ trợ từng mệnh đề trang27–28, ghi URL/tên tài liệu/ngày truy cập/đoạn hỗ trợ. Nếu cần thay đoạn kết, cập nhật storyboard và SOURCE_DECISIONS, không biến cảnh tưởng tượng thành ngôi đền có thật. Không hỏi lại chủ dự án để làm nghiên cứu đọc công khai.",
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/SOURCE_EPILOGUE/report.v002.json",
+          "sha256": "cede8f6f580bff7a9e6bbfdb649d4d4c0f9731d7e615730aed5f9fb0bc7ee3f1"
+        },
+        {
+          "path": "10_agent_workflow/tasks/SOURCE_EPILOGUE/sources.v001.json",
+          "sha256": "4de0132681d6969c0716a4b4013f905f06c76c824fff60b5c673499c0b257d8d"
+        },
+        {
+          "path": "10_agent_workflow/tasks/SOURCE_EPILOGUE/COMPARISON.v001.md",
+          "sha256": "a973fdd366e2f1df3de088411b125106e8fd988cde1b45220fbe14d97e6a7d9d"
+        },
+        {
+          "path": "10_agent_workflow/tasks/SOURCE_EPILOGUE/STORYBOARD_PART2.before.v001.md",
+          "sha256": "a2b2e66322ac1f6a09fd94054878e09630b08987dc75b74e1b3c21515634fd2e"
+        },
+        {
+          "path": "03_storyboards_and_scripts/STORYBOARD_PART_2_HOI_8_HAT_MON_PHUONG_HOANG.md",
+          "sha256": "51b2b09b8cf339ee46f55c7b018dc65d2d90cbd1934d0263a42719e909c7aaeb"
+        },
+        {
+          "path": "09_design_system/SOURCE_DECISIONS.md",
+          "sha256": "41a5a074119e041d7f72494aba4be1ead130f6d26667269600c7faf4679f773d"
+        }
+      ],
+      "last_note": "Nguồn27–28 đã kiểm và lưu; chữ riêng từngtrang tiếp tục theoqueue",
+      "block_reason": "",
+      "updated_at": "2026-11-09T12:09:17+00:00",
+      "owner": "Codex",
+      "previous_evidence": [
+        [
+          {
+            "path": "10_agent_workflow/tasks/SOURCE_EPILOGUE/report.v001.json",
+            "sha256": "acbf2c19c9b51eac32d9c18d5bd29a6edcdabe4c8907f037f99927a1153d5b02"
+          },
+          {
+            "path": "10_agent_workflow/tasks/SOURCE_EPILOGUE/sources.v001.json",
+            "sha256": "4de0132681d6969c0716a4b4013f905f06c76c824fff60b5c673499c0b257d8d"
+          },
+          {
+            "path": "10_agent_workflow/tasks/SOURCE_EPILOGUE/COMPARISON.v001.md",
+            "sha256": "a973fdd366e2f1df3de088411b125106e8fd988cde1b45220fbe14d97e6a7d9d"
+          },
+          {
+            "path": "10_agent_workflow/tasks/SOURCE_EPILOGUE/STORYBOARD_PART2.before.v001.md",
+            "sha256": "a2b2e66322ac1f6a09fd94054878e09630b08987dc75b74e1b3c21515634fd2e"
+          },
+          {
+            "path": "03_storyboards_and_scripts/STORYBOARD_PART_2_HOI_8_HAT_MON_PHUONG_HOANG.md",
+            "sha256": "407e74c13d276aa1967b6669438f874177ac5805f86f3df00c7cdbc16918d52f"
+          },
+          {
+            "path": "09_design_system/SOURCE_DECISIONS.md",
+            "sha256": "bf6b75d419654ac3b44416f626406104b0cb8cbf7e1c8df8334f25cc0295634a"
+          }
+        ]
+      ],
+      "read_only_prerequisite": true
+    },
+    {
+      "id": "PAGE21_TEXT",
+      "kind": "text",
+      "title": "Trang21: đối chiếu và khóa chữ",
+      "status": "todo",
+      "depends_on": [
+        "DESIGN_BASELINE"
+      ],
+      "instructions": "Đọc nguyên cảnh và nguồn scan; sửa các câu cường điệu/không có căn cứ, giữ giọng hào hùng 13–16 tuổi. Đếm thật 35–65 tiếng theo khoảng trắng, không dùng số từ ghi trong tiêu đề làm chứng cứ. Chép đủ thoại vào text.v001.json, giữ **từ khóa**; ghi nguồn, template và hash storyboard. Khóa chữ sau khi kiểm. Nếu sửa toàn file storyboard về sau, rà lại các text đã khóa theo hash mới.",
+      "evidence": [],
+      "last_note": "",
+      "page": 21
+    },
+    {
+      "id": "PAGE21_ART",
+      "kind": "art",
+      "title": "Trang21: tạo và kiểm tranh nền",
+      "status": "todo",
+      "depends_on": [
+        "PAGE21_TEXT"
+      ],
+      "instructions": "Lấy text đã khóa từ evidence bước TEXT. Xem các sheet liên quan; soạn prompt cuối theo cảnh, ghi actual_references và hash. Tạo ảnh bằng công cụ sinh ảnh, nền không chữ, không bóng thoại, chừa20% đỉnh; dùng đúng A/B/C. Kiểm mặt, phục trang, tay/chân/vũ khí và hành động. Lưu PNG native có phiên bản và metadata theo templates/RAW_IMAGE_METADATA.json. Không resize rồi khai native300DPI.",
+      "evidence": [],
+      "last_note": "",
+      "page": 21
+    },
+    {
+      "id": "PAGE21_LAYOUT",
+      "kind": "layout",
+      "title": "Trang21: ghép chữ và bố cục",
+      "status": "todo",
+      "depends_on": [
+        "PAGE21_ART"
+      ],
+      "instructions": "Dùng nguyên text đã khóa và tranh đã kiểm. Ghép khung giấy cổ, tô đỏ #C81E1E cho **...**, đặt đủ thoại/đuôi bóng đúng người. Khổ196×246/trim190×240. Dùng layout_tokens, đo tràn chữ bằng renderer thật; xuất bản xem PNG/PDF và nguồn có thể sửa. scripts/typeset_preview.py là trợ giúp HTML; không coi HTML/PDF xem trước là file in đã duyệt.",
+      "evidence": [],
+      "last_note": "",
+      "page": 21
+    },
+    {
+      "id": "PAGE21_QA",
+      "kind": "qa",
+      "title": "Trang21: kiểm nguồn/mỹ thuật/chữ/khổ",
+      "status": "todo",
+      "depends_on": [
+        "PAGE21_LAYOUT"
+      ],
+      "instructions": "Mở ảnh render ở kích thước đọc thật và zoom100%; so với scan, sheet, text đã khóa. Kiểm bốn lớp historical/art/language/print_geometry. Ghi lỗi cụ thể và sửa về đúng bước. Báo cáo pass chỉ khi có artifact thực và không còn lỗi trong phạm vi; đây là QA của agent, không phải chủ dự án duyệt.",
+      "evidence": [],
+      "last_note": "",
+      "page": 21
+    },
+    {
+      "id": "PAGE22_TEXT",
+      "kind": "text",
+      "title": "Trang22: đối chiếu và khóa chữ",
+      "status": "todo",
+      "depends_on": [
+        "DESIGN_BASELINE"
+      ],
+      "instructions": "Đọc nguyên cảnh và nguồn scan; sửa các câu cường điệu/không có căn cứ, giữ giọng hào hùng 13–16 tuổi. Đếm thật 35–65 tiếng theo khoảng trắng, không dùng số từ ghi trong tiêu đề làm chứng cứ. Chép đủ thoại vào text.v001.json, giữ **từ khóa**; ghi nguồn, template và hash storyboard. Khóa chữ sau khi kiểm. Nếu sửa toàn file storyboard về sau, rà lại các text đã khóa theo hash mới.",
+      "evidence": [],
+      "last_note": "",
+      "page": 22
+    },
+    {
+      "id": "PAGE22_ART",
+      "kind": "art",
+      "title": "Trang22: tạo và kiểm tranh nền",
+      "status": "todo",
+      "depends_on": [
+        "PAGE22_TEXT"
+      ],
+      "instructions": "Lấy text đã khóa từ evidence bước TEXT. Xem các sheet liên quan; soạn prompt cuối theo cảnh, ghi actual_references và hash. Tạo ảnh bằng công cụ sinh ảnh, nền không chữ, không bóng thoại, chừa20% đỉnh; dùng đúng A/B/C. Kiểm mặt, phục trang, tay/chân/vũ khí và hành động. Lưu PNG native có phiên bản và metadata theo templates/RAW_IMAGE_METADATA.json. Không resize rồi khai native300DPI.",
+      "evidence": [],
+      "last_note": "",
+      "page": 22
+    },
+    {
+      "id": "PAGE22_LAYOUT",
+      "kind": "layout",
+      "title": "Trang22: ghép chữ và bố cục",
+      "status": "todo",
+      "depends_on": [
+        "PAGE22_ART"
+      ],
+      "instructions": "Dùng nguyên text đã khóa và tranh đã kiểm. Ghép khung giấy cổ, tô đỏ #C81E1E cho **...**, đặt đủ thoại/đuôi bóng đúng người. Khổ196×246/trim190×240. Dùng layout_tokens, đo tràn chữ bằng renderer thật; xuất bản xem PNG/PDF và nguồn có thể sửa. scripts/typeset_preview.py là trợ giúp HTML; không coi HTML/PDF xem trước là file in đã duyệt.",
+      "evidence": [],
+      "last_note": "",
+      "page": 22
+    },
+    {
+      "id": "PAGE22_QA",
+      "kind": "qa",
+      "title": "Trang22: kiểm nguồn/mỹ thuật/chữ/khổ",
+      "status": "todo",
+      "depends_on": [
+        "PAGE22_LAYOUT"
+      ],
+      "instructions": "Mở ảnh render ở kích thước đọc thật và zoom100%; so với scan, sheet, text đã khóa. Kiểm bốn lớp historical/art/language/print_geometry. Ghi lỗi cụ thể và sửa về đúng bước. Báo cáo pass chỉ khi có artifact thực và không còn lỗi trong phạm vi; đây là QA của agent, không phải chủ dự án duyệt.",
+      "evidence": [],
+      "last_note": "",
+      "page": 22
+    },
+    {
+      "id": "PAGE23_TEXT",
+      "kind": "text",
+      "title": "Trang23: đối chiếu và khóa chữ",
+      "status": "todo",
+      "depends_on": [
+        "DESIGN_BASELINE"
+      ],
+      "instructions": "Đọc nguyên cảnh và nguồn scan; sửa các câu cường điệu/không có căn cứ, giữ giọng hào hùng 13–16 tuổi. Đếm thật 35–65 tiếng theo khoảng trắng, không dùng số từ ghi trong tiêu đề làm chứng cứ. Chép đủ thoại vào text.v001.json, giữ **từ khóa**; ghi nguồn, template và hash storyboard. Khóa chữ sau khi kiểm. Nếu sửa toàn file storyboard về sau, rà lại các text đã khóa theo hash mới.",
+      "evidence": [],
+      "last_note": "",
+      "page": 23
+    },
+    {
+      "id": "PAGE23_ART",
+      "kind": "art",
+      "title": "Trang23: tạo và kiểm tranh nền",
+      "status": "todo",
+      "depends_on": [
+        "PAGE23_TEXT"
+      ],
+      "instructions": "Lấy text đã khóa từ evidence bước TEXT. Xem các sheet liên quan; soạn prompt cuối theo cảnh, ghi actual_references và hash. Tạo ảnh bằng công cụ sinh ảnh, nền không chữ, không bóng thoại, chừa20% đỉnh; dùng đúng A/B/C. Kiểm mặt, phục trang, tay/chân/vũ khí và hành động. Lưu PNG native có phiên bản và metadata theo templates/RAW_IMAGE_METADATA.json. Không resize rồi khai native300DPI.",
+      "evidence": [],
+      "last_note": "",
+      "page": 23
+    },
+    {
+      "id": "PAGE23_LAYOUT",
+      "kind": "layout",
+      "title": "Trang23: ghép chữ và bố cục",
+      "status": "todo",
+      "depends_on": [
+        "PAGE23_ART"
+      ],
+      "instructions": "Dùng nguyên text đã khóa và tranh đã kiểm. Ghép khung giấy cổ, tô đỏ #C81E1E cho **...**, đặt đủ thoại/đuôi bóng đúng người. Khổ196×246/trim190×240. Dùng layout_tokens, đo tràn chữ bằng renderer thật; xuất bản xem PNG/PDF và nguồn có thể sửa. scripts/typeset_preview.py là trợ giúp HTML; không coi HTML/PDF xem trước là file in đã duyệt.",
+      "evidence": [],
+      "last_note": "",
+      "page": 23
+    },
+    {
+      "id": "PAGE23_QA",
+      "kind": "qa",
+      "title": "Trang23: kiểm nguồn/mỹ thuật/chữ/khổ",
+      "status": "todo",
+      "depends_on": [
+        "PAGE23_LAYOUT"
+      ],
+      "instructions": "Mở ảnh render ở kích thước đọc thật và zoom100%; so với scan, sheet, text đã khóa. Kiểm bốn lớp historical/art/language/print_geometry. Ghi lỗi cụ thể và sửa về đúng bước. Báo cáo pass chỉ khi có artifact thực và không còn lỗi trong phạm vi; đây là QA của agent, không phải chủ dự án duyệt.",
+      "evidence": [],
+      "last_note": "",
+      "page": 23
+    },
+    {
+      "id": "PAGE24_TEXT",
+      "kind": "text",
+      "title": "Trang24: đối chiếu và khóa chữ",
+      "status": "todo",
+      "depends_on": [
+        "DESIGN_BASELINE"
+      ],
+      "instructions": "Đọc nguyên cảnh và nguồn scan; sửa các câu cường điệu/không có căn cứ, giữ giọng hào hùng 13–16 tuổi. Đếm thật 35–65 tiếng theo khoảng trắng, không dùng số từ ghi trong tiêu đề làm chứng cứ. Chép đủ thoại vào text.v001.json, giữ **từ khóa**; ghi nguồn, template và hash storyboard. Khóa chữ sau khi kiểm. Nếu sửa toàn file storyboard về sau, rà lại các text đã khóa theo hash mới.",
+      "evidence": [],
+      "last_note": "",
+      "page": 24
+    },
+    {
+      "id": "PAGE24_ART",
+      "kind": "art",
+      "title": "Trang24: tạo và kiểm tranh nền",
+      "status": "todo",
+      "depends_on": [
+        "PAGE24_TEXT"
+      ],
+      "instructions": "Lấy text đã khóa từ evidence bước TEXT. Xem các sheet liên quan; soạn prompt cuối theo cảnh, ghi actual_references và hash. Tạo ảnh bằng công cụ sinh ảnh, nền không chữ, không bóng thoại, chừa20% đỉnh; dùng đúng A/B/C. Kiểm mặt, phục trang, tay/chân/vũ khí và hành động. Lưu PNG native có phiên bản và metadata theo templates/RAW_IMAGE_METADATA.json. Không resize rồi khai native300DPI.",
+      "evidence": [],
+      "last_note": "",
+      "page": 24
+    },
+    {
+      "id": "PAGE24_LAYOUT",
+      "kind": "layout",
+      "title": "Trang24: ghép chữ và bố cục",
+      "status": "todo",
+      "depends_on": [
+        "PAGE24_ART"
+      ],
+      "instructions": "Dùng nguyên text đã khóa và tranh đã kiểm. Ghép khung giấy cổ, tô đỏ #C81E1E cho **...**, đặt đủ thoại/đuôi bóng đúng người. Khổ196×246/trim190×240. Dùng layout_tokens, đo tràn chữ bằng renderer thật; xuất bản xem PNG/PDF và nguồn có thể sửa. scripts/typeset_preview.py là trợ giúp HTML; không coi HTML/PDF xem trước là file in đã duyệt.",
+      "evidence": [],
+      "last_note": "",
+      "page": 24
+    },
+    {
+      "id": "PAGE24_QA",
+      "kind": "qa",
+      "title": "Trang24: kiểm nguồn/mỹ thuật/chữ/khổ",
+      "status": "todo",
+      "depends_on": [
+        "PAGE24_LAYOUT"
+      ],
+      "instructions": "Mở ảnh render ở kích thước đọc thật và zoom100%; so với scan, sheet, text đã khóa. Kiểm bốn lớp historical/art/language/print_geometry. Ghi lỗi cụ thể và sửa về đúng bước. Báo cáo pass chỉ khi có artifact thực và không còn lỗi trong phạm vi; đây là QA của agent, không phải chủ dự án duyệt.",
+      "evidence": [],
+      "last_note": "",
+      "page": 24
+    },
+    {
+      "id": "PAGE25_TEXT",
+      "kind": "text",
+      "title": "Trang25: đối chiếu và khóa chữ",
+      "status": "todo",
+      "depends_on": [
+        "DESIGN_BASELINE"
+      ],
+      "instructions": "Đọc nguyên cảnh và nguồn scan; sửa các câu cường điệu/không có căn cứ, giữ giọng hào hùng 13–16 tuổi. Đếm thật 35–65 tiếng theo khoảng trắng, không dùng số từ ghi trong tiêu đề làm chứng cứ. Chép đủ thoại vào text.v001.json, giữ **từ khóa**; ghi nguồn, template và hash storyboard. Khóa chữ sau khi kiểm. Nếu sửa toàn file storyboard về sau, rà lại các text đã khóa theo hash mới.",
+      "evidence": [],
+      "last_note": "",
+      "page": 25
+    },
+    {
+      "id": "PAGE25_ART",
+      "kind": "art",
+      "title": "Trang25: tạo và kiểm tranh nền",
+      "status": "todo",
+      "depends_on": [
+        "PAGE25_TEXT"
+      ],
+      "instructions": "Lấy text đã khóa từ evidence bước TEXT. Xem các sheet liên quan; soạn prompt cuối theo cảnh, ghi actual_references và hash. Tạo ảnh bằng công cụ sinh ảnh, nền không chữ, không bóng thoại, chừa20% đỉnh; dùng đúng A/B/C. Kiểm mặt, phục trang, tay/chân/vũ khí và hành động. Lưu PNG native có phiên bản và metadata theo templates/RAW_IMAGE_METADATA.json. Không resize rồi khai native300DPI.",
+      "evidence": [],
+      "last_note": "",
+      "page": 25
+    },
+    {
+      "id": "PAGE25_LAYOUT",
+      "kind": "layout",
+      "title": "Trang25: ghép chữ và bố cục",
+      "status": "todo",
+      "depends_on": [
+        "PAGE25_ART"
+      ],
+      "instructions": "Dùng nguyên text đã khóa và tranh đã kiểm. Ghép khung giấy cổ, tô đỏ #C81E1E cho **...**, đặt đủ thoại/đuôi bóng đúng người. Khổ196×246/trim190×240. Dùng layout_tokens, đo tràn chữ bằng renderer thật; xuất bản xem PNG/PDF và nguồn có thể sửa. scripts/typeset_preview.py là trợ giúp HTML; không coi HTML/PDF xem trước là file in đã duyệt.",
+      "evidence": [],
+      "last_note": "",
+      "page": 25
+    },
+    {
+      "id": "PAGE25_QA",
+      "kind": "qa",
+      "title": "Trang25: kiểm nguồn/mỹ thuật/chữ/khổ",
+      "status": "todo",
+      "depends_on": [
+        "PAGE25_LAYOUT"
+      ],
+      "instructions": "Mở ảnh render ở kích thước đọc thật và zoom100%; so với scan, sheet, text đã khóa. Kiểm bốn lớp historical/art/language/print_geometry. Ghi lỗi cụ thể và sửa về đúng bước. Báo cáo pass chỉ khi có artifact thực và không còn lỗi trong phạm vi; đây là QA của agent, không phải chủ dự án duyệt.",
+      "evidence": [],
+      "last_note": "",
+      "page": 25
+    },
+    {
+      "id": "PAGE26_TEXT",
+      "kind": "text",
+      "title": "Trang26: đối chiếu và khóa chữ",
+      "status": "todo",
+      "depends_on": [
+        "DESIGN_BASELINE"
+      ],
+      "instructions": "Đọc nguyên cảnh và nguồn scan; sửa các câu cường điệu/không có căn cứ, giữ giọng hào hùng 13–16 tuổi. Đếm thật 35–65 tiếng theo khoảng trắng, không dùng số từ ghi trong tiêu đề làm chứng cứ. Chép đủ thoại vào text.v001.json, giữ **từ khóa**; ghi nguồn, template và hash storyboard. Khóa chữ sau khi kiểm. Nếu sửa toàn file storyboard về sau, rà lại các text đã khóa theo hash mới.",
+      "evidence": [],
+      "last_note": "",
+      "page": 26
+    },
+    {
+      "id": "PAGE26_ART",
+      "kind": "art",
+      "title": "Trang26: tạo và kiểm tranh nền",
+      "status": "todo",
+      "depends_on": [
+        "PAGE26_TEXT"
+      ],
+      "instructions": "Lấy text đã khóa từ evidence bước TEXT. Xem các sheet liên quan; soạn prompt cuối theo cảnh, ghi actual_references và hash. Tạo ảnh bằng công cụ sinh ảnh, nền không chữ, không bóng thoại, chừa20% đỉnh; dùng đúng A/B/C. Kiểm mặt, phục trang, tay/chân/vũ khí và hành động. Lưu PNG native có phiên bản và metadata theo templates/RAW_IMAGE_METADATA.json. Không resize rồi khai native300DPI.",
+      "evidence": [],
+      "last_note": "",
+      "page": 26
+    },
+    {
+      "id": "PAGE26_LAYOUT",
+      "kind": "layout",
+      "title": "Trang26: ghép chữ và bố cục",
+      "status": "todo",
+      "depends_on": [
+        "PAGE26_ART"
+      ],
+      "instructions": "Dùng nguyên text đã khóa và tranh đã kiểm. Ghép khung giấy cổ, tô đỏ #C81E1E cho **...**, đặt đủ thoại/đuôi bóng đúng người. Khổ196×246/trim190×240. Dùng layout_tokens, đo tràn chữ bằng renderer thật; xuất bản xem PNG/PDF và nguồn có thể sửa. scripts/typeset_preview.py là trợ giúp HTML; không coi HTML/PDF xem trước là file in đã duyệt.",
+      "evidence": [],
+      "last_note": "",
+      "page": 26
+    },
+    {
+      "id": "PAGE26_QA",
+      "kind": "qa",
+      "title": "Trang26: kiểm nguồn/mỹ thuật/chữ/khổ",
+      "status": "todo",
+      "depends_on": [
+        "PAGE26_LAYOUT"
+      ],
+      "instructions": "Mở ảnh render ở kích thước đọc thật và zoom100%; so với scan, sheet, text đã khóa. Kiểm bốn lớp historical/art/language/print_geometry. Ghi lỗi cụ thể và sửa về đúng bước. Báo cáo pass chỉ khi có artifact thực và không còn lỗi trong phạm vi; đây là QA của agent, không phải chủ dự án duyệt.",
+      "evidence": [],
+      "last_note": "",
+      "page": 26
+    },
+    {
+      "id": "PAGE27_TEXT",
+      "kind": "text",
+      "title": "Trang27: đối chiếu và khóa chữ",
+      "status": "todo",
+      "depends_on": [
+        "DESIGN_BASELINE",
+        "SOURCE_EPILOGUE"
+      ],
+      "instructions": "Đọc nguyên cảnh và nguồn scan; sửa các câu cường điệu/không có căn cứ, giữ giọng hào hùng 13–16 tuổi. Đếm thật 35–65 tiếng theo khoảng trắng, không dùng số từ ghi trong tiêu đề làm chứng cứ. Chép đủ thoại vào text.v001.json, giữ **từ khóa**; ghi nguồn, template và hash storyboard. Khóa chữ sau khi kiểm. Nếu sửa toàn file storyboard về sau, rà lại các text đã khóa theo hash mới.",
+      "evidence": [],
+      "last_note": "Reopen: Sửa khoảngtrắng cuối storyboard và lỗiđánhmáy trước push; giữ evidencev001",
+      "page": 27,
+      "block_reason": ""
+    },
+    {
+      "id": "PAGE27_ART",
+      "kind": "art",
+      "title": "Trang27: tạo và kiểm tranh nền",
+      "status": "todo",
+      "depends_on": [
+        "PAGE27_TEXT"
+      ],
+      "instructions": "Lấy text đã khóa từ evidence bước TEXT. Xem các sheet liên quan; soạn prompt cuối theo cảnh, ghi actual_references và hash. Tạo ảnh bằng công cụ sinh ảnh, nền không chữ, không bóng thoại, chừa20% đỉnh; dùng đúng A/B/C. Kiểm mặt, phục trang, tay/chân/vũ khí và hành động. Lưu PNG native có phiên bản và metadata theo templates/RAW_IMAGE_METADATA.json. Không resize rồi khai native300DPI.",
+      "evidence": [],
+      "last_note": "Reopen: Sửa khoảngtrắng cuối storyboard và lỗiđánhmáy trước push; giữ evidencev001",
+      "page": 27,
+      "block_reason": ""
+    },
+    {
+      "id": "PAGE27_LAYOUT",
+      "kind": "layout",
+      "title": "Trang27: ghép chữ và bố cục",
+      "status": "todo",
+      "depends_on": [
+        "PAGE27_ART"
+      ],
+      "instructions": "Dùng nguyên text đã khóa và tranh đã kiểm. Ghép khung giấy cổ, tô đỏ #C81E1E cho **...**, đặt đủ thoại/đuôi bóng đúng người. Khổ196×246/trim190×240. Dùng layout_tokens, đo tràn chữ bằng renderer thật; xuất bản xem PNG/PDF và nguồn có thể sửa. scripts/typeset_preview.py là trợ giúp HTML; không coi HTML/PDF xem trước là file in đã duyệt.",
+      "evidence": [],
+      "last_note": "Reopen: Sửa khoảngtrắng cuối storyboard và lỗiđánhmáy trước push; giữ evidencev001",
+      "page": 27,
+      "block_reason": ""
+    },
+    {
+      "id": "PAGE27_QA",
+      "kind": "qa",
+      "title": "Trang27: kiểm nguồn/mỹ thuật/chữ/khổ",
+      "status": "todo",
+      "depends_on": [
+        "PAGE27_LAYOUT"
+      ],
+      "instructions": "Mở ảnh render ở kích thước đọc thật và zoom100%; so với scan, sheet, text đã khóa. Kiểm bốn lớp historical/art/language/print_geometry. Ghi lỗi cụ thể và sửa về đúng bước. Báo cáo pass chỉ khi có artifact thực và không còn lỗi trong phạm vi; đây là QA của agent, không phải chủ dự án duyệt.",
+      "evidence": [],
+      "last_note": "Reopen: Sửa khoảngtrắng cuối storyboard và lỗiđánhmáy trước push; giữ evidencev001",
+      "page": 27,
+      "block_reason": ""
+    },
+    {
+      "id": "PAGE28_TEXT",
+      "kind": "text",
+      "title": "Trang28: đối chiếu và khóa chữ",
+      "status": "todo",
+      "depends_on": [
+        "DESIGN_BASELINE",
+        "SOURCE_EPILOGUE"
+      ],
+      "instructions": "Đọc nguyên cảnh và nguồn scan; sửa các câu cường điệu/không có căn cứ, giữ giọng hào hùng 13–16 tuổi. Đếm thật 35–65 tiếng theo khoảng trắng, không dùng số từ ghi trong tiêu đề làm chứng cứ. Chép đủ thoại vào text.v001.json, giữ **từ khóa**; ghi nguồn, template và hash storyboard. Khóa chữ sau khi kiểm. Nếu sửa toàn file storyboard về sau, rà lại các text đã khóa theo hash mới.",
+      "evidence": [],
+      "last_note": "Reopen: Sửa khoảngtrắng cuối storyboard và lỗiđánhmáy trước push; giữ evidencev001",
+      "page": 28,
+      "block_reason": ""
+    },
+    {
+      "id": "PAGE28_ART",
+      "kind": "art",
+      "title": "Trang28: tạo và kiểm tranh nền",
+      "status": "todo",
+      "depends_on": [
+        "PAGE28_TEXT"
+      ],
+      "instructions": "Lấy text đã khóa từ evidence bước TEXT. Xem các sheet liên quan; soạn prompt cuối theo cảnh, ghi actual_references và hash. Tạo ảnh bằng công cụ sinh ảnh, nền không chữ, không bóng thoại, chừa20% đỉnh; dùng đúng A/B/C. Kiểm mặt, phục trang, tay/chân/vũ khí và hành động. Lưu PNG native có phiên bản và metadata theo templates/RAW_IMAGE_METADATA.json. Không resize rồi khai native300DPI.",
+      "evidence": [],
+      "last_note": "Reopen: Sửa khoảngtrắng cuối storyboard và lỗiđánhmáy trước push; giữ evidencev001",
+      "page": 28,
+      "block_reason": ""
+    },
+    {
+      "id": "PAGE28_LAYOUT",
+      "kind": "layout",
+      "title": "Trang28: ghép chữ và bố cục",
+      "status": "todo",
+      "depends_on": [
+        "PAGE28_ART"
+      ],
+      "instructions": "Dùng nguyên text đã khóa và tranh đã kiểm. Ghép khung giấy cổ, tô đỏ #C81E1E cho **...**, đặt đủ thoại/đuôi bóng đúng người. Khổ196×246/trim190×240. Dùng layout_tokens, đo tràn chữ bằng renderer thật; xuất bản xem PNG/PDF và nguồn có thể sửa. scripts/typeset_preview.py là trợ giúp HTML; không coi HTML/PDF xem trước là file in đã duyệt.",
+      "evidence": [],
+      "last_note": "Reopen: Sửa khoảngtrắng cuối storyboard và lỗiđánhmáy trước push; giữ evidencev001",
+      "page": 28,
+      "block_reason": ""
+    },
+    {
+      "id": "PAGE28_QA",
+      "kind": "qa",
+      "title": "Trang28: kiểm nguồn/mỹ thuật/chữ/khổ",
+      "status": "todo",
+      "depends_on": [
+        "PAGE28_LAYOUT"
+      ],
+      "instructions": "Mở ảnh render ở kích thước đọc thật và zoom100%; so với scan, sheet, text đã khóa. Kiểm bốn lớp historical/art/language/print_geometry. Ghi lỗi cụ thể và sửa về đúng bước. Báo cáo pass chỉ khi có artifact thực và không còn lỗi trong phạm vi; đây là QA của agent, không phải chủ dự án duyệt.",
+      "evidence": [],
+      "last_note": "Reopen: Sửa khoảngtrắng cuối storyboard và lỗiđánhmáy trước push; giữ evidencev001",
+      "page": 28,
+      "block_reason": ""
+    }
+  ],
+  "history": []
+}

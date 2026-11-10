@@ -640,81 +640,89 @@
       "id": "PAGE03_LAYOUT",
       "kind": "layout",
       "title": "Trang03: ghép chữ và bố cục",
-      "status": "done",
+      "status": "todo",
       "depends_on": [
         "PAGE03_ART"
       ],
       "instructions": "Dùng nguyên text đã khóa và tranh đã kiểm. Ghép khung giấy cổ, tô đỏ #C81E1E cho **...**, đặt đủ thoại/đuôi bóng đúng người. Khổ196×246/trim190×240. Dùng layout_tokens, đo tràn chữ bằng renderer thật; xuất bản xem PNG/PDF và nguồn có thể sửa. scripts/typeset_preview.py là trợ giúp HTML; không coi HTML/PDF xem trước là file in đã duyệt.",
-      "evidence": [
-        {
-          "path": "10_agent_workflow/tasks/PAGE03_LAYOUT/report.v001.json",
-          "sha256": "dae816f750d610456e8b1aabe26d10cded4dae4c532097ec741b636c77fc666e"
-        },
-        {
-          "path": "final_book_19x24/source/PAGE03_v001.svg",
-          "sha256": "35df354cb65fc879232dd52c2911c6bea0fb3fb8d2ef9273579a9ea70068fee0"
-        },
-        {
-          "path": "final_book_19x24/source/PAGE03_placement.v001.json",
-          "sha256": "60091ccb221afbcbc8010ac6910028c92d78e75aff010703dc6cb5f2f4346581"
-        },
-        {
-          "path": "final_book_19x24/proofs/PAGE03_v001.pdf",
-          "sha256": "2c244cb90db02691be5081a98e699cb8c3b38ad83c18cff1bfad50c1d39bc046"
-        },
-        {
-          "path": "final_book_19x24/proofs/PAGE03_v001.png",
-          "sha256": "625f014e36920c9364aac80d62a57c5799f31a7d3a916266f912c00c2c110dd9"
-        },
-        {
-          "path": "final_book_19x24/proofs/PAGE03_v001.json",
-          "sha256": "0bcdd7eb49737a4a154091a91b6e73993147183a59f18ed47cc69eb5d10a4c64"
-        },
-        {
-          "path": "final_book_19x24/reading/PAGE03_v001.pdf",
-          "sha256": "ae2b070993322f70f741cdb3f092ca91e0071a398f8704c5b19cfe1ee6d62882"
-        }
-      ],
-      "last_note": "Đủthoại, khôngtràn, giữgươngmặt vàtaytraohổphù",
+      "evidence": [],
+      "last_note": "User10Nov rejects white UI speech; coordinator must draw cloud+lettering together, preserve old layout, verify and finish new version.",
       "page": 3,
       "owner": "Codex",
-      "updated_at": "2026-11-09T12:26:46+00:00"
+      "updated_at": "2026-11-10T02:39:21+00:00",
+      "previous_evidence": [
+        [
+          {
+            "path": "10_agent_workflow/tasks/PAGE03_LAYOUT/report.v001.json",
+            "sha256": "dae816f750d610456e8b1aabe26d10cded4dae4c532097ec741b636c77fc666e"
+          },
+          {
+            "path": "final_book_19x24/source/PAGE03_v001.svg",
+            "sha256": "35df354cb65fc879232dd52c2911c6bea0fb3fb8d2ef9273579a9ea70068fee0"
+          },
+          {
+            "path": "final_book_19x24/source/PAGE03_placement.v001.json",
+            "sha256": "60091ccb221afbcbc8010ac6910028c92d78e75aff010703dc6cb5f2f4346581"
+          },
+          {
+            "path": "final_book_19x24/proofs/PAGE03_v001.pdf",
+            "sha256": "2c244cb90db02691be5081a98e699cb8c3b38ad83c18cff1bfad50c1d39bc046"
+          },
+          {
+            "path": "final_book_19x24/proofs/PAGE03_v001.png",
+            "sha256": "625f014e36920c9364aac80d62a57c5799f31a7d3a916266f912c00c2c110dd9"
+          },
+          {
+            "path": "final_book_19x24/proofs/PAGE03_v001.json",
+            "sha256": "0bcdd7eb49737a4a154091a91b6e73993147183a59f18ed47cc69eb5d10a4c64"
+          },
+          {
+            "path": "final_book_19x24/reading/PAGE03_v001.pdf",
+            "sha256": "ae2b070993322f70f741cdb3f092ca91e0071a398f8704c5b19cfe1ee6d62882"
+          }
+        ]
+      ],
+      "block_reason": ""
     },
     {
       "id": "PAGE03_QA",
       "kind": "qa",
       "title": "Trang03: kiểm nguồn/mỹ thuật/chữ/khổ",
-      "status": "done",
+      "status": "todo",
       "depends_on": [
         "PAGE03_LAYOUT"
       ],
       "instructions": "Mở ảnh render ở kích thước đọc thật và zoom100%; so với scan, sheet, text đã khóa. Kiểm bốn lớp historical/art/language/print_geometry. Ghi lỗi cụ thể và sửa về đúng bước. Báo cáo pass chỉ khi có artifact thực và không còn lỗi trong phạm vi; đây là QA của agent, không phải chủ dự án duyệt.",
-      "evidence": [
-        {
-          "path": "10_agent_workflow/tasks/PAGE03_QA/report.v001.json",
-          "sha256": "766f85b915a1e3a93df993a563d980672fbb6c0b6179df1df1ac70914f33caf5"
-        },
-        {
-          "path": "10_agent_workflow/tasks/PAGE03_QA/QA.v001.md",
-          "sha256": "fa045bac7822642f50073067a4b6d76d07c180ae65a9bef8a7d2ecaa2d5ec9dc"
-        },
-        {
-          "path": "final_book_19x24/proofs/PAGE03_v001.pdf",
-          "sha256": "2c244cb90db02691be5081a98e699cb8c3b38ad83c18cff1bfad50c1d39bc046"
-        },
-        {
-          "path": "final_book_19x24/proofs/PAGE03_v001.png",
-          "sha256": "625f014e36920c9364aac80d62a57c5799f31a7d3a916266f912c00c2c110dd9"
-        },
-        {
-          "path": "final_book_19x24/proofs/PAGE03_v001.json",
-          "sha256": "0bcdd7eb49737a4a154091a91b6e73993147183a59f18ed47cc69eb5d10a4c64"
-        }
-      ],
-      "last_note": "Chuỗi03 hoàn tất bảnđọc; lưu đủ lời dẫn vàthoại",
+      "evidence": [],
+      "last_note": "Reopen: User10Nov rejects white UI speech; coordinator must draw cloud+lettering together, preserve old layout, verify and finish new version.",
       "page": 3,
       "owner": "Codex",
-      "updated_at": "2026-11-09T12:26:47+00:00"
+      "updated_at": "2026-11-09T12:26:47+00:00",
+      "previous_evidence": [
+        [
+          {
+            "path": "10_agent_workflow/tasks/PAGE03_QA/report.v001.json",
+            "sha256": "766f85b915a1e3a93df993a563d980672fbb6c0b6179df1df1ac70914f33caf5"
+          },
+          {
+            "path": "10_agent_workflow/tasks/PAGE03_QA/QA.v001.md",
+            "sha256": "fa045bac7822642f50073067a4b6d76d07c180ae65a9bef8a7d2ecaa2d5ec9dc"
+          },
+          {
+            "path": "final_book_19x24/proofs/PAGE03_v001.pdf",
+            "sha256": "2c244cb90db02691be5081a98e699cb8c3b38ad83c18cff1bfad50c1d39bc046"
+          },
+          {
+            "path": "final_book_19x24/proofs/PAGE03_v001.png",
+            "sha256": "625f014e36920c9364aac80d62a57c5799f31a7d3a916266f912c00c2c110dd9"
+          },
+          {
+            "path": "final_book_19x24/proofs/PAGE03_v001.json",
+            "sha256": "0bcdd7eb49737a4a154091a91b6e73993147183a59f18ed47cc69eb5d10a4c64"
+          }
+        ]
+      ],
+      "block_reason": ""
     },
     {
       "id": "PAGE04_TEXT",
@@ -785,81 +793,89 @@
       "id": "PAGE04_LAYOUT",
       "kind": "layout",
       "title": "Trang04: ghép chữ và bố cục",
-      "status": "done",
+      "status": "todo",
       "depends_on": [
         "PAGE04_ART"
       ],
       "instructions": "Dùng nguyên text đã khóa và tranh đã kiểm. Ghép khung giấy cổ, tô đỏ #C81E1E cho **...**, đặt đủ thoại/đuôi bóng đúng người. Khổ196×246/trim190×240. Dùng layout_tokens, đo tràn chữ bằng renderer thật; xuất bản xem PNG/PDF và nguồn có thể sửa. scripts/typeset_preview.py là trợ giúp HTML; không coi HTML/PDF xem trước là file in đã duyệt.",
-      "evidence": [
-        {
-          "path": "10_agent_workflow/tasks/PAGE04_LAYOUT/report.v002.json",
-          "sha256": "963543ecb9974ac9f051de29ed00618323e989ac26e9cac822fee4d13bc1acf8"
-        },
-        {
-          "path": "final_book_19x24/source/PAGE04_v002.svg",
-          "sha256": "edfdead2ca9295d424571311227b0b1919fb254260d67f2a7ab450e2dcde3bee"
-        },
-        {
-          "path": "final_book_19x24/source/PAGE04_placement.v002.json",
-          "sha256": "1042a169bd98ee5fb41656eb318ab2215306475ee7398f668b0aeb6c8d181d1f"
-        },
-        {
-          "path": "final_book_19x24/proofs/PAGE04_v002.pdf",
-          "sha256": "ab619cd529d27e1a98280b1f4d2ac10ddcc1d765a1c493a12ab0d5c255168b67"
-        },
-        {
-          "path": "final_book_19x24/proofs/PAGE04_v002.png",
-          "sha256": "46dc7a767e5625f876b7397ed21deae626d1ddef8eec36f7aae231a163221677"
-        },
-        {
-          "path": "final_book_19x24/proofs/PAGE04_v002.json",
-          "sha256": "c312fd6d0f043ce1270a9e6d6c749a658848b5fd0a28bd9b11bbd60a0900b88f"
-        },
-        {
-          "path": "final_book_19x24/reading/PAGE04_v002.pdf",
-          "sha256": "2d4a4dcc3d14e899dafe0833940427f3311473500dd703b77625112dfca20c06"
-        }
-      ],
-      "last_note": "ChốtLAYOUTv002 sau sửađuôithoại; v001giữđểđốichiếu",
+      "evidence": [],
+      "last_note": "User10Nov rejects white UI speech; coordinator must draw cloud+lettering together, preserve old layout, verify and finish new version.",
       "page": 4,
       "owner": "Codex",
-      "updated_at": "2026-11-09T12:30:25+00:00"
+      "updated_at": "2026-11-10T02:39:21+00:00",
+      "previous_evidence": [
+        [
+          {
+            "path": "10_agent_workflow/tasks/PAGE04_LAYOUT/report.v002.json",
+            "sha256": "963543ecb9974ac9f051de29ed00618323e989ac26e9cac822fee4d13bc1acf8"
+          },
+          {
+            "path": "final_book_19x24/source/PAGE04_v002.svg",
+            "sha256": "edfdead2ca9295d424571311227b0b1919fb254260d67f2a7ab450e2dcde3bee"
+          },
+          {
+            "path": "final_book_19x24/source/PAGE04_placement.v002.json",
+            "sha256": "1042a169bd98ee5fb41656eb318ab2215306475ee7398f668b0aeb6c8d181d1f"
+          },
+          {
+            "path": "final_book_19x24/proofs/PAGE04_v002.pdf",
+            "sha256": "ab619cd529d27e1a98280b1f4d2ac10ddcc1d765a1c493a12ab0d5c255168b67"
+          },
+          {
+            "path": "final_book_19x24/proofs/PAGE04_v002.png",
+            "sha256": "46dc7a767e5625f876b7397ed21deae626d1ddef8eec36f7aae231a163221677"
+          },
+          {
+            "path": "final_book_19x24/proofs/PAGE04_v002.json",
+            "sha256": "c312fd6d0f043ce1270a9e6d6c749a658848b5fd0a28bd9b11bbd60a0900b88f"
+          },
+          {
+            "path": "final_book_19x24/reading/PAGE04_v002.pdf",
+            "sha256": "2d4a4dcc3d14e899dafe0833940427f3311473500dd703b77625112dfca20c06"
+          }
+        ]
+      ],
+      "block_reason": ""
     },
     {
       "id": "PAGE04_QA",
       "kind": "qa",
       "title": "Trang04: kiểm nguồn/mỹ thuật/chữ/khổ",
-      "status": "done",
+      "status": "todo",
       "depends_on": [
         "PAGE04_LAYOUT"
       ],
       "instructions": "Mở ảnh render ở kích thước đọc thật và zoom100%; so với scan, sheet, text đã khóa. Kiểm bốn lớp historical/art/language/print_geometry. Ghi lỗi cụ thể và sửa về đúng bước. Báo cáo pass chỉ khi có artifact thực và không còn lỗi trong phạm vi; đây là QA của agent, không phải chủ dự án duyệt.",
-      "evidence": [
-        {
-          "path": "10_agent_workflow/tasks/PAGE04_QA/report.v001.json",
-          "sha256": "35fb5fa33ac06fa21498b8de657f6900fc94bba0a942e2d6344ec398f873d240"
-        },
-        {
-          "path": "10_agent_workflow/tasks/PAGE04_QA/QA.v001.md",
-          "sha256": "cf3ea63f038592a0505dce076328e6a35da9773e343f67c2e73e075777d87c1e"
-        },
-        {
-          "path": "final_book_19x24/proofs/PAGE04_v002.pdf",
-          "sha256": "ab619cd529d27e1a98280b1f4d2ac10ddcc1d765a1c493a12ab0d5c255168b67"
-        },
-        {
-          "path": "final_book_19x24/proofs/PAGE04_v002.png",
-          "sha256": "46dc7a767e5625f876b7397ed21deae626d1ddef8eec36f7aae231a163221677"
-        },
-        {
-          "path": "final_book_19x24/proofs/PAGE04_v002.json",
-          "sha256": "c312fd6d0f043ce1270a9e6d6c749a658848b5fd0a28bd9b11bbd60a0900b88f"
-        }
-      ],
-      "last_note": "Trang04 hoànthànhbảnđọc; giữbảnsửa vàphânbiệtqa/in",
+      "evidence": [],
+      "last_note": "Reopen: User10Nov rejects white UI speech; coordinator must draw cloud+lettering together, preserve old layout, verify and finish new version.",
       "page": 4,
       "owner": "Codex",
-      "updated_at": "2026-11-09T12:30:25+00:00"
+      "updated_at": "2026-11-09T12:30:25+00:00",
+      "previous_evidence": [
+        [
+          {
+            "path": "10_agent_workflow/tasks/PAGE04_QA/report.v001.json",
+            "sha256": "35fb5fa33ac06fa21498b8de657f6900fc94bba0a942e2d6344ec398f873d240"
+          },
+          {
+            "path": "10_agent_workflow/tasks/PAGE04_QA/QA.v001.md",
+            "sha256": "cf3ea63f038592a0505dce076328e6a35da9773e343f67c2e73e075777d87c1e"
+          },
+          {
+            "path": "final_book_19x24/proofs/PAGE04_v002.pdf",
+            "sha256": "ab619cd529d27e1a98280b1f4d2ac10ddcc1d765a1c493a12ab0d5c255168b67"
+          },
+          {
+            "path": "final_book_19x24/proofs/PAGE04_v002.png",
+            "sha256": "46dc7a767e5625f876b7397ed21deae626d1ddef8eec36f7aae231a163221677"
+          },
+          {
+            "path": "final_book_19x24/proofs/PAGE04_v002.json",
+            "sha256": "c312fd6d0f043ce1270a9e6d6c749a658848b5fd0a28bd9b11bbd60a0900b88f"
+          }
+        ]
+      ],
+      "block_reason": ""
     },
     {
       "id": "PAGE05_TEXT",
@@ -1067,81 +1083,89 @@
       "id": "PAGE06_LAYOUT",
       "kind": "layout",
       "title": "Trang06: ghép chữ và bố cục",
-      "status": "done",
+      "status": "todo",
       "depends_on": [
         "PAGE06_ART"
       ],
       "instructions": "Dùng nguyên text đã khóa và tranh đã kiểm. Ghép khung giấy cổ, tô đỏ #C81E1E cho **...**, đặt đủ thoại/đuôi bóng đúng người. Khổ196×246/trim190×240. Dùng layout_tokens, đo tràn chữ bằng renderer thật; xuất bản xem PNG/PDF và nguồn có thể sửa. scripts/typeset_preview.py là trợ giúp HTML; không coi HTML/PDF xem trước là file in đã duyệt.",
-      "evidence": [
-        {
-          "path": "10_agent_workflow/tasks/PAGE06_LAYOUT/report.v001.json",
-          "sha256": "e1a83b05467d00456c71b1b2569654611c6109065dcd09b84e8730501f7a9436"
-        },
-        {
-          "path": "final_book_19x24/source/PAGE06_v001.svg",
-          "sha256": "df51c81a30cd5c4365c1ce08d8a8c7e166bc15dcc8784a67789b54dff46593fa"
-        },
-        {
-          "path": "final_book_19x24/source/PAGE06_placement.v001.json",
-          "sha256": "1c109e1476c0f5db75d0a8bce6986217af86fc15d7d66ee8d12fb055f98059e8"
-        },
-        {
-          "path": "final_book_19x24/proofs/PAGE06_v001.pdf",
-          "sha256": "54f8781eea6c98409022bb0a24606caa02c33f67dbf7d98adf4d1cdf709ec2ad"
-        },
-        {
-          "path": "final_book_19x24/proofs/PAGE06_v001.png",
-          "sha256": "0148bca61d09b0cf8a59ac155e93f0857b7c36fd24de4c82a07e21aef3a4fe14"
-        },
-        {
-          "path": "final_book_19x24/proofs/PAGE06_v001.json",
-          "sha256": "e0a408a25a8cc496269e81487f04a8b628db0f93cf126a7070fccf9e1d3c2733"
-        },
-        {
-          "path": "final_book_19x24/reading/PAGE06_v001.pdf",
-          "sha256": "b44999315fd1f1193046656cdbe480d04a1b47c50701a71ef398797520dbfaf7"
-        }
-      ],
-      "last_note": "Ghép06đãkiểm, giữtrọnủngtrongtrim; khôngtràn",
+      "evidence": [],
+      "last_note": "User10Nov rejects white UI speech; coordinator must draw cloud+lettering together, preserve old layout, verify and finish new version.",
       "page": 6,
       "owner": "Codex",
-      "updated_at": "2026-11-09T12:46:45+00:00"
+      "updated_at": "2026-11-10T02:39:21+00:00",
+      "previous_evidence": [
+        [
+          {
+            "path": "10_agent_workflow/tasks/PAGE06_LAYOUT/report.v001.json",
+            "sha256": "e1a83b05467d00456c71b1b2569654611c6109065dcd09b84e8730501f7a9436"
+          },
+          {
+            "path": "final_book_19x24/source/PAGE06_v001.svg",
+            "sha256": "df51c81a30cd5c4365c1ce08d8a8c7e166bc15dcc8784a67789b54dff46593fa"
+          },
+          {
+            "path": "final_book_19x24/source/PAGE06_placement.v001.json",
+            "sha256": "1c109e1476c0f5db75d0a8bce6986217af86fc15d7d66ee8d12fb055f98059e8"
+          },
+          {
+            "path": "final_book_19x24/proofs/PAGE06_v001.pdf",
+            "sha256": "54f8781eea6c98409022bb0a24606caa02c33f67dbf7d98adf4d1cdf709ec2ad"
+          },
+          {
+            "path": "final_book_19x24/proofs/PAGE06_v001.png",
+            "sha256": "0148bca61d09b0cf8a59ac155e93f0857b7c36fd24de4c82a07e21aef3a4fe14"
+          },
+          {
+            "path": "final_book_19x24/proofs/PAGE06_v001.json",
+            "sha256": "e0a408a25a8cc496269e81487f04a8b628db0f93cf126a7070fccf9e1d3c2733"
+          },
+          {
+            "path": "final_book_19x24/reading/PAGE06_v001.pdf",
+            "sha256": "b44999315fd1f1193046656cdbe480d04a1b47c50701a71ef398797520dbfaf7"
+          }
+        ]
+      ],
+      "block_reason": ""
     },
     {
       "id": "PAGE06_QA",
       "kind": "qa",
       "title": "Trang06: kiểm nguồn/mỹ thuật/chữ/khổ",
-      "status": "done",
+      "status": "todo",
       "depends_on": [
         "PAGE06_LAYOUT"
       ],
       "instructions": "Mở ảnh render ở kích thước đọc thật và zoom100%; so với scan, sheet, text đã khóa. Kiểm bốn lớp historical/art/language/print_geometry. Ghi lỗi cụ thể và sửa về đúng bước. Báo cáo pass chỉ khi có artifact thực và không còn lỗi trong phạm vi; đây là QA của agent, không phải chủ dự án duyệt.",
-      "evidence": [
-        {
-          "path": "10_agent_workflow/tasks/PAGE06_QA/report.v001.json",
-          "sha256": "82a6949978ad4f6bd894dd616c70539255d2cd4eeae62437deb34122de96cfe9"
-        },
-        {
-          "path": "10_agent_workflow/tasks/PAGE06_QA/QA.v001.md",
-          "sha256": "100d5407983c15070749a98514c7e0be7385633d2b033c0b069a06950d90cdef"
-        },
-        {
-          "path": "final_book_19x24/proofs/PAGE06_v001.pdf",
-          "sha256": "54f8781eea6c98409022bb0a24606caa02c33f67dbf7d98adf4d1cdf709ec2ad"
-        },
-        {
-          "path": "final_book_19x24/proofs/PAGE06_v001.png",
-          "sha256": "0148bca61d09b0cf8a59ac155e93f0857b7c36fd24de4c82a07e21aef3a4fe14"
-        },
-        {
-          "path": "final_book_19x24/proofs/PAGE06_v001.json",
-          "sha256": "e0a408a25a8cc496269e81487f04a8b628db0f93cf126a7070fccf9e1d3c2733"
-        }
-      ],
-      "last_note": "Chuỗi06hoànthành cho bảnđọc",
+      "evidence": [],
+      "last_note": "Reopen: User10Nov rejects white UI speech; coordinator must draw cloud+lettering together, preserve old layout, verify and finish new version.",
       "page": 6,
       "owner": "Codex",
-      "updated_at": "2026-11-09T12:46:45+00:00"
+      "updated_at": "2026-11-09T12:46:45+00:00",
+      "previous_evidence": [
+        [
+          {
+            "path": "10_agent_workflow/tasks/PAGE06_QA/report.v001.json",
+            "sha256": "82a6949978ad4f6bd894dd616c70539255d2cd4eeae62437deb34122de96cfe9"
+          },
+          {
+            "path": "10_agent_workflow/tasks/PAGE06_QA/QA.v001.md",
+            "sha256": "100d5407983c15070749a98514c7e0be7385633d2b033c0b069a06950d90cdef"
+          },
+          {
+            "path": "final_book_19x24/proofs/PAGE06_v001.pdf",
+            "sha256": "54f8781eea6c98409022bb0a24606caa02c33f67dbf7d98adf4d1cdf709ec2ad"
+          },
+          {
+            "path": "final_book_19x24/proofs/PAGE06_v001.png",
+            "sha256": "0148bca61d09b0cf8a59ac155e93f0857b7c36fd24de4c82a07e21aef3a4fe14"
+          },
+          {
+            "path": "final_book_19x24/proofs/PAGE06_v001.json",
+            "sha256": "e0a408a25a8cc496269e81487f04a8b628db0f93cf126a7070fccf9e1d3c2733"
+          }
+        ]
+      ],
+      "block_reason": ""
     },
     {
       "id": "PAGE07_TEXT",
@@ -1212,81 +1236,89 @@
       "id": "PAGE07_LAYOUT",
       "kind": "layout",
       "title": "Trang07: ghép chữ và bố cục",
-      "status": "done",
+      "status": "todo",
       "depends_on": [
         "PAGE07_ART"
       ],
       "instructions": "Dùng nguyên text đã khóa và tranh đã kiểm. Ghép khung giấy cổ, tô đỏ #C81E1E cho **...**, đặt đủ thoại/đuôi bóng đúng người. Khổ196×246/trim190×240. Dùng layout_tokens, đo tràn chữ bằng renderer thật; xuất bản xem PNG/PDF và nguồn có thể sửa. scripts/typeset_preview.py là trợ giúp HTML; không coi HTML/PDF xem trước là file in đã duyệt.",
-      "evidence": [
-        {
-          "path": "10_agent_workflow/tasks/PAGE07_LAYOUT/report.v002.json",
-          "sha256": "2bd3ca8c0612349360cda423922c73112469cb6e7d008d6a4e7383653cd2fe71"
-        },
-        {
-          "path": "final_book_19x24/source/PAGE07_v002.svg",
-          "sha256": "30629b4459d739b8bc874646b0f1542be57f97c029c9ec386dee350cd3c0ed76"
-        },
-        {
-          "path": "final_book_19x24/proofs/PAGE07_v002.pdf",
-          "sha256": "c18e5d7acfabe8ec4a61ef0d8fa20fbfcaccf3bb1adf872019ee022c418abea2"
-        },
-        {
-          "path": "final_book_19x24/proofs/PAGE07_v002.png",
-          "sha256": "0dc9e69d96fb72742a6e6681e3be505fc0e6f27432cabf1cfca819c959b49a5e"
-        },
-        {
-          "path": "final_book_19x24/proofs/PAGE07_v002.json",
-          "sha256": "e19b8084a714c21b62b45fd4cabc106b96931f418bdc42eadfe45efb953e9a85"
-        },
-        {
-          "path": "final_book_19x24/reading/PAGE07_v002.pdf",
-          "sha256": "ed5c3fd00c388fc6dc791b6e59626f7b4e9b0374d3dcdb3cef1c31be27d7ffc5"
-        },
-        {
-          "path": "final_book_19x24/source/PAGE07_placement.v002.json",
-          "sha256": "c9c12573a5164ca768a93733f141387666be1a2378908bd42c20f220042d5256"
-        }
-      ],
-      "last_note": "Opened 150DPI full render and verified full quote against extracted PDF. Four narration lines, five red keywords, safe text, embedded Noto fonts, correct mouth tail and folio on helmet/armor rather than face. Raw bow mechanics reviewed separately; box overlays background/part lower bow limb, no hands/faces. Template B reviewed variant 161.5mm seam, no image stretching. Trim190×240 / bleed196×246 proof.",
+      "evidence": [],
+      "last_note": "User10Nov rejects white UI speech; coordinator must draw cloud+lettering together, preserve old layout, verify and finish new version.",
       "page": 7,
       "owner": "Codex",
-      "updated_at": "2026-11-09T14:01:58+00:00"
+      "updated_at": "2026-11-10T02:39:21+00:00",
+      "previous_evidence": [
+        [
+          {
+            "path": "10_agent_workflow/tasks/PAGE07_LAYOUT/report.v002.json",
+            "sha256": "2bd3ca8c0612349360cda423922c73112469cb6e7d008d6a4e7383653cd2fe71"
+          },
+          {
+            "path": "final_book_19x24/source/PAGE07_v002.svg",
+            "sha256": "30629b4459d739b8bc874646b0f1542be57f97c029c9ec386dee350cd3c0ed76"
+          },
+          {
+            "path": "final_book_19x24/proofs/PAGE07_v002.pdf",
+            "sha256": "c18e5d7acfabe8ec4a61ef0d8fa20fbfcaccf3bb1adf872019ee022c418abea2"
+          },
+          {
+            "path": "final_book_19x24/proofs/PAGE07_v002.png",
+            "sha256": "0dc9e69d96fb72742a6e6681e3be505fc0e6f27432cabf1cfca819c959b49a5e"
+          },
+          {
+            "path": "final_book_19x24/proofs/PAGE07_v002.json",
+            "sha256": "e19b8084a714c21b62b45fd4cabc106b96931f418bdc42eadfe45efb953e9a85"
+          },
+          {
+            "path": "final_book_19x24/reading/PAGE07_v002.pdf",
+            "sha256": "ed5c3fd00c388fc6dc791b6e59626f7b4e9b0374d3dcdb3cef1c31be27d7ffc5"
+          },
+          {
+            "path": "final_book_19x24/source/PAGE07_placement.v002.json",
+            "sha256": "c9c12573a5164ca768a93733f141387666be1a2378908bd42c20f220042d5256"
+          }
+        ]
+      ],
+      "block_reason": ""
     },
     {
       "id": "PAGE07_QA",
       "kind": "qa",
       "title": "Trang07: kiểm nguồn/mỹ thuật/chữ/khổ",
-      "status": "done",
+      "status": "todo",
       "depends_on": [
         "PAGE07_LAYOUT"
       ],
       "instructions": "Mở ảnh render ở kích thước đọc thật và zoom100%; so với scan, sheet, text đã khóa. Kiểm bốn lớp historical/art/language/print_geometry. Ghi lỗi cụ thể và sửa về đúng bước. Báo cáo pass chỉ khi có artifact thực và không còn lỗi trong phạm vi; đây là QA của agent, không phải chủ dự án duyệt.",
-      "evidence": [
-        {
-          "path": "10_agent_workflow/tasks/PAGE07_QA/report.v002.json",
-          "sha256": "e4860c2f2a5372be3759a5941233e6073f709ad200994ce932bbec268cc1793a"
-        },
-        {
-          "path": "10_agent_workflow/tasks/PAGE07_QA/QA.v002.md",
-          "sha256": "c4eeef4df8899482e1f58acaf62db4ca95f4119cbe0e528e3b314929ee03b770"
-        },
-        {
-          "path": "final_book_19x24/proofs/PAGE07_v002.pdf",
-          "sha256": "c18e5d7acfabe8ec4a61ef0d8fa20fbfcaccf3bb1adf872019ee022c418abea2"
-        },
-        {
-          "path": "final_book_19x24/proofs/PAGE07_v002.png",
-          "sha256": "0dc9e69d96fb72742a6e6681e3be505fc0e6f27432cabf1cfca819c959b49a5e"
-        },
-        {
-          "path": "final_book_19x24/proofs/PAGE07_v002.json",
-          "sha256": "e19b8084a714c21b62b45fd4cabc106b96931f418bdc42eadfe45efb953e9a85"
-        }
-      ],
-      "last_note": "Opened 150DPI full render and verified full quote against extracted PDF. Four narration lines, five red keywords, safe text, embedded Noto fonts, correct mouth tail and folio on helmet/armor rather than face. Raw bow mechanics reviewed separately; box overlays background/part lower bow limb, no hands/faces. Template B reviewed variant 161.5mm seam, no image stretching. Trim190×240 / bleed196×246 proof.",
+      "evidence": [],
+      "last_note": "Reopen: User10Nov rejects white UI speech; coordinator must draw cloud+lettering together, preserve old layout, verify and finish new version.",
       "page": 7,
       "owner": "Codex",
-      "updated_at": "2026-11-09T14:01:59+00:00"
+      "updated_at": "2026-11-09T14:01:59+00:00",
+      "previous_evidence": [
+        [
+          {
+            "path": "10_agent_workflow/tasks/PAGE07_QA/report.v002.json",
+            "sha256": "e4860c2f2a5372be3759a5941233e6073f709ad200994ce932bbec268cc1793a"
+          },
+          {
+            "path": "10_agent_workflow/tasks/PAGE07_QA/QA.v002.md",
+            "sha256": "c4eeef4df8899482e1f58acaf62db4ca95f4119cbe0e528e3b314929ee03b770"
+          },
+          {
+            "path": "final_book_19x24/proofs/PAGE07_v002.pdf",
+            "sha256": "c18e5d7acfabe8ec4a61ef0d8fa20fbfcaccf3bb1adf872019ee022c418abea2"
+          },
+          {
+            "path": "final_book_19x24/proofs/PAGE07_v002.png",
+            "sha256": "0dc9e69d96fb72742a6e6681e3be505fc0e6f27432cabf1cfca819c959b49a5e"
+          },
+          {
+            "path": "final_book_19x24/proofs/PAGE07_v002.json",
+            "sha256": "e19b8084a714c21b62b45fd4cabc106b96931f418bdc42eadfe45efb953e9a85"
+          }
+        ]
+      ],
+      "block_reason": ""
     },
     {
       "id": "PAGE08_TEXT",
@@ -1498,81 +1530,89 @@
       "id": "PAGE09_LAYOUT",
       "kind": "layout",
       "title": "Trang09: ghép chữ và bố cục",
-      "status": "done",
+      "status": "todo",
       "depends_on": [
         "PAGE09_ART"
       ],
       "instructions": "Dùng nguyên text đã khóa và tranh đã kiểm. Ghép khung giấy cổ, tô đỏ #C81E1E cho **...**, đặt đủ thoại/đuôi bóng đúng người. Khổ196×246/trim190×240. Dùng layout_tokens, đo tràn chữ bằng renderer thật; xuất bản xem PNG/PDF và nguồn có thể sửa. scripts/typeset_preview.py là trợ giúp HTML; không coi HTML/PDF xem trước là file in đã duyệt.",
-      "evidence": [
-        {
-          "path": "10_agent_workflow/tasks/PAGE09_LAYOUT/report.v002.json",
-          "sha256": "6528a8d4bd0aa0226006dcd5d43f794a2412e94a4dd8b6de04c4f478d46c5466"
-        },
-        {
-          "path": "final_book_19x24/source/PAGE09_v002.svg",
-          "sha256": "ec3b955ab422f505f27981bb61041e7e22c311e247dfb1fe989bcca428144b51"
-        },
-        {
-          "path": "final_book_19x24/proofs/PAGE09_v002.pdf",
-          "sha256": "93192fa5978fb2d0be8fc39c94ef9fbd44e14cede41c75a12c193eb6b1ed5d97"
-        },
-        {
-          "path": "final_book_19x24/proofs/PAGE09_v002.png",
-          "sha256": "0d18ca4515f775acec211aa15c09db5245897e66f56f8ae54612efd9cddbc512"
-        },
-        {
-          "path": "final_book_19x24/proofs/PAGE09_v002.json",
-          "sha256": "574099a18849d32d85b6cd62c3ed8a39c869a70c3a99b26d8db9148babb66804"
-        },
-        {
-          "path": "final_book_19x24/reading/PAGE09_v002.pdf",
-          "sha256": "9346ab64314f3eaee1b32a7c7cd05e3ca66c06e4bfc2c02b77c058679179cf37"
-        },
-        {
-          "path": "final_book_19x24/source/PAGE09_placement.v002.json",
-          "sha256": "fd6e3b934584395918e2f80aca03cd6fc16cb119d4f2e20e0c6b9fcdd80fd46c"
-        }
-      ],
-      "last_note": "Opened revised full render: compact two-line complete ĐinhLương quote, tail reaches his mouth and leaves both faces/crowns/grips visible; five red keywords, four narration lines, correct scene order and no gore. Caption/scenes independently uniformly placed, bleed/safe boxes match tokens. Compared all dialogue to PDF extraction. v001 retained as rejected larger balloon.",
+      "evidence": [],
+      "last_note": "User10Nov rejects white UI speech; coordinator must draw cloud+lettering together, preserve old layout, verify and finish new version.",
       "page": 9,
       "owner": "Codex",
-      "updated_at": "2026-11-09T14:15:04+00:00"
+      "updated_at": "2026-11-10T02:39:21+00:00",
+      "previous_evidence": [
+        [
+          {
+            "path": "10_agent_workflow/tasks/PAGE09_LAYOUT/report.v002.json",
+            "sha256": "6528a8d4bd0aa0226006dcd5d43f794a2412e94a4dd8b6de04c4f478d46c5466"
+          },
+          {
+            "path": "final_book_19x24/source/PAGE09_v002.svg",
+            "sha256": "ec3b955ab422f505f27981bb61041e7e22c311e247dfb1fe989bcca428144b51"
+          },
+          {
+            "path": "final_book_19x24/proofs/PAGE09_v002.pdf",
+            "sha256": "93192fa5978fb2d0be8fc39c94ef9fbd44e14cede41c75a12c193eb6b1ed5d97"
+          },
+          {
+            "path": "final_book_19x24/proofs/PAGE09_v002.png",
+            "sha256": "0d18ca4515f775acec211aa15c09db5245897e66f56f8ae54612efd9cddbc512"
+          },
+          {
+            "path": "final_book_19x24/proofs/PAGE09_v002.json",
+            "sha256": "574099a18849d32d85b6cd62c3ed8a39c869a70c3a99b26d8db9148babb66804"
+          },
+          {
+            "path": "final_book_19x24/reading/PAGE09_v002.pdf",
+            "sha256": "9346ab64314f3eaee1b32a7c7cd05e3ca66c06e4bfc2c02b77c058679179cf37"
+          },
+          {
+            "path": "final_book_19x24/source/PAGE09_placement.v002.json",
+            "sha256": "fd6e3b934584395918e2f80aca03cd6fc16cb119d4f2e20e0c6b9fcdd80fd46c"
+          }
+        ]
+      ],
+      "block_reason": ""
     },
     {
       "id": "PAGE09_QA",
       "kind": "qa",
       "title": "Trang09: kiểm nguồn/mỹ thuật/chữ/khổ",
-      "status": "done",
+      "status": "todo",
       "depends_on": [
         "PAGE09_LAYOUT"
       ],
       "instructions": "Mở ảnh render ở kích thước đọc thật và zoom100%; so với scan, sheet, text đã khóa. Kiểm bốn lớp historical/art/language/print_geometry. Ghi lỗi cụ thể và sửa về đúng bước. Báo cáo pass chỉ khi có artifact thực và không còn lỗi trong phạm vi; đây là QA của agent, không phải chủ dự án duyệt.",
-      "evidence": [
-        {
-          "path": "10_agent_workflow/tasks/PAGE09_QA/report.v002.json",
-          "sha256": "e00abf107fe9c683e989d1528ba722176039b7e404f8cd8946a8a05f15b3aa0a"
-        },
-        {
-          "path": "10_agent_workflow/tasks/PAGE09_QA/QA.v002.md",
-          "sha256": "2828804ea310361dc80787f2c83f32625b73a0f993e7a10c4583cdb9a52895a8"
-        },
-        {
-          "path": "final_book_19x24/proofs/PAGE09_v002.pdf",
-          "sha256": "93192fa5978fb2d0be8fc39c94ef9fbd44e14cede41c75a12c193eb6b1ed5d97"
-        },
-        {
-          "path": "final_book_19x24/proofs/PAGE09_v002.png",
-          "sha256": "0d18ca4515f775acec211aa15c09db5245897e66f56f8ae54612efd9cddbc512"
-        },
-        {
-          "path": "final_book_19x24/proofs/PAGE09_v002.json",
-          "sha256": "574099a18849d32d85b6cd62c3ed8a39c869a70c3a99b26d8db9148babb66804"
-        }
-      ],
-      "last_note": "Opened revised full render: compact two-line complete ĐinhLương quote, tail reaches his mouth and leaves both faces/crowns/grips visible; five red keywords, four narration lines, correct scene order and no gore. Caption/scenes independently uniformly placed, bleed/safe boxes match tokens. Compared all dialogue to PDF extraction. v001 retained as rejected larger balloon.",
+      "evidence": [],
+      "last_note": "Reopen: User10Nov rejects white UI speech; coordinator must draw cloud+lettering together, preserve old layout, verify and finish new version.",
       "page": 9,
       "owner": "Codex",
-      "updated_at": "2026-11-09T14:15:04+00:00"
+      "updated_at": "2026-11-09T14:15:04+00:00",
+      "previous_evidence": [
+        [
+          {
+            "path": "10_agent_workflow/tasks/PAGE09_QA/report.v002.json",
+            "sha256": "e00abf107fe9c683e989d1528ba722176039b7e404f8cd8946a8a05f15b3aa0a"
+          },
+          {
+            "path": "10_agent_workflow/tasks/PAGE09_QA/QA.v002.md",
+            "sha256": "2828804ea310361dc80787f2c83f32625b73a0f993e7a10c4583cdb9a52895a8"
+          },
+          {
+            "path": "final_book_19x24/proofs/PAGE09_v002.pdf",
+            "sha256": "93192fa5978fb2d0be8fc39c94ef9fbd44e14cede41c75a12c193eb6b1ed5d97"
+          },
+          {
+            "path": "final_book_19x24/proofs/PAGE09_v002.png",
+            "sha256": "0d18ca4515f775acec211aa15c09db5245897e66f56f8ae54612efd9cddbc512"
+          },
+          {
+            "path": "final_book_19x24/proofs/PAGE09_v002.json",
+            "sha256": "574099a18849d32d85b6cd62c3ed8a39c869a70c3a99b26d8db9148babb66804"
+          }
+        ]
+      ],
+      "block_reason": ""
     },
     {
       "id": "PAGE10_TEXT",
@@ -1643,81 +1683,89 @@
       "id": "PAGE10_LAYOUT",
       "kind": "layout",
       "title": "Trang10: ghép chữ và bố cục",
-      "status": "done",
+      "status": "todo",
       "depends_on": [
         "PAGE10_ART"
       ],
       "instructions": "Dùng nguyên text đã khóa và tranh đã kiểm. Ghép khung giấy cổ, tô đỏ #C81E1E cho **...**, đặt đủ thoại/đuôi bóng đúng người. Khổ196×246/trim190×240. Dùng layout_tokens, đo tràn chữ bằng renderer thật; xuất bản xem PNG/PDF và nguồn có thể sửa. scripts/typeset_preview.py là trợ giúp HTML; không coi HTML/PDF xem trước là file in đã duyệt.",
-      "evidence": [
-        {
-          "path": "10_agent_workflow/tasks/PAGE10_LAYOUT/report.v001.json",
-          "sha256": "b36cf732b0ba6802f2ac2ae2cfb02f1ea5b3c1e2d3bcf93752ffadac0f3f9ee1"
-        },
-        {
-          "path": "final_book_19x24/source/PAGE10_v001.svg",
-          "sha256": "6e1a7269e88d6974e32673b6d9c9d22203aa9c0ccb857613c719d47002ff3212"
-        },
-        {
-          "path": "final_book_19x24/proofs/PAGE10_v001.pdf",
-          "sha256": "bc0bf59a0e97061b6781dc704a0ffcc0cd678293edd70cdeec9592580f40b513"
-        },
-        {
-          "path": "final_book_19x24/proofs/PAGE10_v001.png",
-          "sha256": "24b37628b0f5906000643004abd9fd89ad539bdcc6a468a16b6ca4852a60ddd2"
-        },
-        {
-          "path": "final_book_19x24/proofs/PAGE10_v001.json",
-          "sha256": "f0a9ec2fe191df256feb93448377fa7a2edb91846763e789effa6e81af47183b"
-        },
-        {
-          "path": "final_book_19x24/reading/PAGE10_v001.pdf",
-          "sha256": "4138a5a3b747af1fe281fa5ed01609dc8a051388d8c96dc210796cf04b107b30"
-        },
-        {
-          "path": "final_book_19x24/source/PAGE10_placement.v001.json",
-          "sha256": "71863a29cba7c41b9f5b05439ebc1c6de9dbd88750400ea359d2cb8f1662ebb5"
-        }
-      ],
-      "last_note": "Opened full final render: correct four identities, tears only here, Trắc speech tail to right cheek; both sisters clasp hands without text overlap. Four narration lines/six red keyword spans, full quote, no overflow; native details retained, geometric tokens valid.",
+      "evidence": [],
+      "last_note": "User10Nov rejects white UI speech; coordinator must draw cloud+lettering together, preserve old layout, verify and finish new version.",
       "page": 10,
       "owner": "Codex",
-      "updated_at": "2026-11-09T14:17:57+00:00"
+      "updated_at": "2026-11-10T02:39:21+00:00",
+      "previous_evidence": [
+        [
+          {
+            "path": "10_agent_workflow/tasks/PAGE10_LAYOUT/report.v001.json",
+            "sha256": "b36cf732b0ba6802f2ac2ae2cfb02f1ea5b3c1e2d3bcf93752ffadac0f3f9ee1"
+          },
+          {
+            "path": "final_book_19x24/source/PAGE10_v001.svg",
+            "sha256": "6e1a7269e88d6974e32673b6d9c9d22203aa9c0ccb857613c719d47002ff3212"
+          },
+          {
+            "path": "final_book_19x24/proofs/PAGE10_v001.pdf",
+            "sha256": "bc0bf59a0e97061b6781dc704a0ffcc0cd678293edd70cdeec9592580f40b513"
+          },
+          {
+            "path": "final_book_19x24/proofs/PAGE10_v001.png",
+            "sha256": "24b37628b0f5906000643004abd9fd89ad539bdcc6a468a16b6ca4852a60ddd2"
+          },
+          {
+            "path": "final_book_19x24/proofs/PAGE10_v001.json",
+            "sha256": "f0a9ec2fe191df256feb93448377fa7a2edb91846763e789effa6e81af47183b"
+          },
+          {
+            "path": "final_book_19x24/reading/PAGE10_v001.pdf",
+            "sha256": "4138a5a3b747af1fe281fa5ed01609dc8a051388d8c96dc210796cf04b107b30"
+          },
+          {
+            "path": "final_book_19x24/source/PAGE10_placement.v001.json",
+            "sha256": "71863a29cba7c41b9f5b05439ebc1c6de9dbd88750400ea359d2cb8f1662ebb5"
+          }
+        ]
+      ],
+      "block_reason": ""
     },
     {
       "id": "PAGE10_QA",
       "kind": "qa",
       "title": "Trang10: kiểm nguồn/mỹ thuật/chữ/khổ",
-      "status": "done",
+      "status": "todo",
       "depends_on": [
         "PAGE10_LAYOUT"
       ],
       "instructions": "Mở ảnh render ở kích thước đọc thật và zoom100%; so với scan, sheet, text đã khóa. Kiểm bốn lớp historical/art/language/print_geometry. Ghi lỗi cụ thể và sửa về đúng bước. Báo cáo pass chỉ khi có artifact thực và không còn lỗi trong phạm vi; đây là QA của agent, không phải chủ dự án duyệt.",
-      "evidence": [
-        {
-          "path": "10_agent_workflow/tasks/PAGE10_QA/report.v001.json",
-          "sha256": "1da0b0d82adb67f7c3e44380c13c9eb14bacbf62d7ffe22e807e517dc325a85f"
-        },
-        {
-          "path": "10_agent_workflow/tasks/PAGE10_QA/QA.v001.md",
-          "sha256": "265c5f9e4c99e4c2dd6cd5d9524e28d0fe2fad6925530504afc195ffe3ba481b"
-        },
-        {
-          "path": "final_book_19x24/proofs/PAGE10_v001.pdf",
-          "sha256": "bc0bf59a0e97061b6781dc704a0ffcc0cd678293edd70cdeec9592580f40b513"
-        },
-        {
-          "path": "final_book_19x24/proofs/PAGE10_v001.png",
-          "sha256": "24b37628b0f5906000643004abd9fd89ad539bdcc6a468a16b6ca4852a60ddd2"
-        },
-        {
-          "path": "final_book_19x24/proofs/PAGE10_v001.json",
-          "sha256": "f0a9ec2fe191df256feb93448377fa7a2edb91846763e789effa6e81af47183b"
-        }
-      ],
-      "last_note": "Opened full final render: correct four identities, tears only here, Trắc speech tail to right cheek; both sisters clasp hands without text overlap. Four narration lines/six red keyword spans, full quote, no overflow; native details retained, geometric tokens valid.",
+      "evidence": [],
+      "last_note": "Reopen: User10Nov rejects white UI speech; coordinator must draw cloud+lettering together, preserve old layout, verify and finish new version.",
       "page": 10,
       "owner": "Codex",
-      "updated_at": "2026-11-09T14:17:57+00:00"
+      "updated_at": "2026-11-09T14:17:57+00:00",
+      "previous_evidence": [
+        [
+          {
+            "path": "10_agent_workflow/tasks/PAGE10_QA/report.v001.json",
+            "sha256": "1da0b0d82adb67f7c3e44380c13c9eb14bacbf62d7ffe22e807e517dc325a85f"
+          },
+          {
+            "path": "10_agent_workflow/tasks/PAGE10_QA/QA.v001.md",
+            "sha256": "265c5f9e4c99e4c2dd6cd5d9524e28d0fe2fad6925530504afc195ffe3ba481b"
+          },
+          {
+            "path": "final_book_19x24/proofs/PAGE10_v001.pdf",
+            "sha256": "bc0bf59a0e97061b6781dc704a0ffcc0cd678293edd70cdeec9592580f40b513"
+          },
+          {
+            "path": "final_book_19x24/proofs/PAGE10_v001.png",
+            "sha256": "24b37628b0f5906000643004abd9fd89ad539bdcc6a468a16b6ca4852a60ddd2"
+          },
+          {
+            "path": "final_book_19x24/proofs/PAGE10_v001.json",
+            "sha256": "f0a9ec2fe191df256feb93448377fa7a2edb91846763e789effa6e81af47183b"
+          }
+        ]
+      ],
+      "block_reason": ""
     },
     {
       "id": "PAGE11_TEXT",
@@ -1788,81 +1836,89 @@
       "id": "PAGE11_LAYOUT",
       "kind": "layout",
       "title": "Trang11: ghép chữ và bố cục",
-      "status": "done",
+      "status": "todo",
       "depends_on": [
         "PAGE11_ART"
       ],
       "instructions": "Dùng nguyên text đã khóa và tranh đã kiểm. Ghép khung giấy cổ, tô đỏ #C81E1E cho **...**, đặt đủ thoại/đuôi bóng đúng người. Khổ196×246/trim190×240. Dùng layout_tokens, đo tràn chữ bằng renderer thật; xuất bản xem PNG/PDF và nguồn có thể sửa. scripts/typeset_preview.py là trợ giúp HTML; không coi HTML/PDF xem trước là file in đã duyệt.",
-      "evidence": [
-        {
-          "path": "10_agent_workflow/tasks/PAGE11_LAYOUT/report.v002.json",
-          "sha256": "4f820d77582e8d61eee9536b7ed52a8be607642a8740c42d65994ea07814ae86"
-        },
-        {
-          "path": "final_book_19x24/source/PAGE11_v002.svg",
-          "sha256": "c4e4f9859e5263202ffdd12b4ce970050d48efd42eed35eb237c0a5aefc2d09c"
-        },
-        {
-          "path": "final_book_19x24/proofs/PAGE11_v002.pdf",
-          "sha256": "5fe20e6384b03498e8afd7de3ce4b403155cc61935b4566d8e1e3d06fb663223"
-        },
-        {
-          "path": "final_book_19x24/proofs/PAGE11_v002.png",
-          "sha256": "2b0a358523893cccccb30e98a6392a8fae3ee5ad060e00a6b31d4098cc42d6f3"
-        },
-        {
-          "path": "final_book_19x24/proofs/PAGE11_v002.json",
-          "sha256": "e47ef77dec74816c3919732e0fe43726d7778d1461d511f0cb0e8d03a9665c73"
-        },
-        {
-          "path": "final_book_19x24/reading/PAGE11_v002.pdf",
-          "sha256": "f134639ac6ac749232f4ddd30d7a72bd4cf5c7561aeef4415c536b1213de11e2"
-        },
-        {
-          "path": "final_book_19x24/source/PAGE11_placement.v002.json",
-          "sha256": "c71179ba76237a27b2c02c46c1898e0313a5152ea48b061cb73797a479a7fb6a"
-        }
-      ],
-      "last_note": "Opened both versions and corrected tails: anchors now approach mouth corners from outside, leaving eyes readable; exact two full quotes, correct speaker sides. Five red narration spans, four lines; no gore, no overflow; embedded Vietnamese fonts and standard PDF boxes. v001 tails rejected and retained.",
+      "evidence": [],
+      "last_note": "User10Nov rejects white UI speech; coordinator must draw cloud+lettering together, preserve old layout, verify and finish new version.",
       "page": 11,
       "owner": "Codex",
-      "updated_at": "2026-11-09T14:19:30+00:00"
+      "updated_at": "2026-11-10T02:39:21+00:00",
+      "previous_evidence": [
+        [
+          {
+            "path": "10_agent_workflow/tasks/PAGE11_LAYOUT/report.v002.json",
+            "sha256": "4f820d77582e8d61eee9536b7ed52a8be607642a8740c42d65994ea07814ae86"
+          },
+          {
+            "path": "final_book_19x24/source/PAGE11_v002.svg",
+            "sha256": "c4e4f9859e5263202ffdd12b4ce970050d48efd42eed35eb237c0a5aefc2d09c"
+          },
+          {
+            "path": "final_book_19x24/proofs/PAGE11_v002.pdf",
+            "sha256": "5fe20e6384b03498e8afd7de3ce4b403155cc61935b4566d8e1e3d06fb663223"
+          },
+          {
+            "path": "final_book_19x24/proofs/PAGE11_v002.png",
+            "sha256": "2b0a358523893cccccb30e98a6392a8fae3ee5ad060e00a6b31d4098cc42d6f3"
+          },
+          {
+            "path": "final_book_19x24/proofs/PAGE11_v002.json",
+            "sha256": "e47ef77dec74816c3919732e0fe43726d7778d1461d511f0cb0e8d03a9665c73"
+          },
+          {
+            "path": "final_book_19x24/reading/PAGE11_v002.pdf",
+            "sha256": "f134639ac6ac749232f4ddd30d7a72bd4cf5c7561aeef4415c536b1213de11e2"
+          },
+          {
+            "path": "final_book_19x24/source/PAGE11_placement.v002.json",
+            "sha256": "c71179ba76237a27b2c02c46c1898e0313a5152ea48b061cb73797a479a7fb6a"
+          }
+        ]
+      ],
+      "block_reason": ""
     },
     {
       "id": "PAGE11_QA",
       "kind": "qa",
       "title": "Trang11: kiểm nguồn/mỹ thuật/chữ/khổ",
-      "status": "done",
+      "status": "todo",
       "depends_on": [
         "PAGE11_LAYOUT"
       ],
       "instructions": "Mở ảnh render ở kích thước đọc thật và zoom100%; so với scan, sheet, text đã khóa. Kiểm bốn lớp historical/art/language/print_geometry. Ghi lỗi cụ thể và sửa về đúng bước. Báo cáo pass chỉ khi có artifact thực và không còn lỗi trong phạm vi; đây là QA của agent, không phải chủ dự án duyệt.",
-      "evidence": [
-        {
-          "path": "10_agent_workflow/tasks/PAGE11_QA/report.v002.json",
-          "sha256": "bebbdd7defd6cf7d5c5ed38b7cb0d8839089e1629af3b7c2e2fe3ee3aa7aebaa"
-        },
-        {
-          "path": "10_agent_workflow/tasks/PAGE11_QA/QA.v002.md",
-          "sha256": "b9e2fdb22f0bb3bdff8c4c5181efea5e96943d205e79282d062f3af1195d61c4"
-        },
-        {
-          "path": "final_book_19x24/proofs/PAGE11_v002.pdf",
-          "sha256": "5fe20e6384b03498e8afd7de3ce4b403155cc61935b4566d8e1e3d06fb663223"
-        },
-        {
-          "path": "final_book_19x24/proofs/PAGE11_v002.png",
-          "sha256": "2b0a358523893cccccb30e98a6392a8fae3ee5ad060e00a6b31d4098cc42d6f3"
-        },
-        {
-          "path": "final_book_19x24/proofs/PAGE11_v002.json",
-          "sha256": "e47ef77dec74816c3919732e0fe43726d7778d1461d511f0cb0e8d03a9665c73"
-        }
-      ],
-      "last_note": "Opened both versions and corrected tails: anchors now approach mouth corners from outside, leaving eyes readable; exact two full quotes, correct speaker sides. Five red narration spans, four lines; no gore, no overflow; embedded Vietnamese fonts and standard PDF boxes. v001 tails rejected and retained.",
+      "evidence": [],
+      "last_note": "Reopen: User10Nov rejects white UI speech; coordinator must draw cloud+lettering together, preserve old layout, verify and finish new version.",
       "page": 11,
       "owner": "Codex",
-      "updated_at": "2026-11-09T14:19:30+00:00"
+      "updated_at": "2026-11-09T14:19:30+00:00",
+      "previous_evidence": [
+        [
+          {
+            "path": "10_agent_workflow/tasks/PAGE11_QA/report.v002.json",
+            "sha256": "bebbdd7defd6cf7d5c5ed38b7cb0d8839089e1629af3b7c2e2fe3ee3aa7aebaa"
+          },
+          {
+            "path": "10_agent_workflow/tasks/PAGE11_QA/QA.v002.md",
+            "sha256": "b9e2fdb22f0bb3bdff8c4c5181efea5e96943d205e79282d062f3af1195d61c4"
+          },
+          {
+            "path": "final_book_19x24/proofs/PAGE11_v002.pdf",
+            "sha256": "5fe20e6384b03498e8afd7de3ce4b403155cc61935b4566d8e1e3d06fb663223"
+          },
+          {
+            "path": "final_book_19x24/proofs/PAGE11_v002.png",
+            "sha256": "2b0a358523893cccccb30e98a6392a8fae3ee5ad060e00a6b31d4098cc42d6f3"
+          },
+          {
+            "path": "final_book_19x24/proofs/PAGE11_v002.json",
+            "sha256": "e47ef77dec74816c3919732e0fe43726d7778d1461d511f0cb0e8d03a9665c73"
+          }
+        ]
+      ],
+      "block_reason": ""
     },
     {
       "id": "PAGE12_TEXT",
@@ -2211,37 +2267,39 @@
       ],
       "instructions": "Lấy text đã khóa từ evidence bước TEXT. Xem các sheet liên quan; soạn prompt cuối theo cảnh, ghi actual_references và hash. Tạo ảnh bằng công cụ sinh ảnh, nền không chữ, không bóng thoại, chừa20% đỉnh; dùng đúng A/B/C. Kiểm mặt, phục trang, tay/chân/vũ khí và hành động. Lưu PNG native có phiên bản và metadata theo templates/RAW_IMAGE_METADATA.json. Không resize rồi khai native300DPI.",
       "evidence": [],
-      "last_note": "Image request pending, independent layouts continue",
+      "last_note": "Coordinator does not execute agent_a tasks",
       "page": 14,
       "owner": "Codex",
       "updated_at": "2026-11-09T14:15:05+00:00",
-      "block_reason": "Image request pending, independent layouts continue"
+      "block_reason": "Delegated to agent_a; authoritative queue:10_agent_workflow/parallel/agent_a/production_state.json"
     },
     {
       "id": "PAGE14_LAYOUT",
       "kind": "layout",
       "title": "Trang14: ghép chữ và bố cục",
-      "status": "todo",
+      "status": "blocked",
       "depends_on": [
         "PAGE14_ART"
       ],
       "instructions": "Dùng nguyên text đã khóa và tranh đã kiểm. Ghép khung giấy cổ, tô đỏ #C81E1E cho **...**, đặt đủ thoại/đuôi bóng đúng người. Khổ196×246/trim190×240. Dùng layout_tokens, đo tràn chữ bằng renderer thật; xuất bản xem PNG/PDF và nguồn có thể sửa. scripts/typeset_preview.py là trợ giúp HTML; không coi HTML/PDF xem trước là file in đã duyệt.",
       "evidence": [],
-      "last_note": "",
-      "page": 14
+      "last_note": "Coordinator does not execute agent_a tasks",
+      "page": 14,
+      "block_reason": "Delegated to agent_a; authoritative queue:10_agent_workflow/parallel/agent_a/production_state.json"
     },
     {
       "id": "PAGE14_QA",
       "kind": "qa",
       "title": "Trang14: kiểm nguồn/mỹ thuật/chữ/khổ",
-      "status": "todo",
+      "status": "blocked",
       "depends_on": [
         "PAGE14_LAYOUT"
       ],
       "instructions": "Mở ảnh render ở kích thước đọc thật và zoom100%; so với scan, sheet, text đã khóa. Kiểm bốn lớp historical/art/language/print_geometry. Ghi lỗi cụ thể và sửa về đúng bước. Báo cáo pass chỉ khi có artifact thực và không còn lỗi trong phạm vi; đây là QA của agent, không phải chủ dự án duyệt.",
       "evidence": [],
-      "last_note": "",
-      "page": 14
+      "last_note": "Coordinator does not execute agent_a tasks",
+      "page": 14,
+      "block_reason": "Delegated to agent_a; authoritative queue:10_agent_workflow/parallel/agent_a/production_state.json"
     },
     {
       "id": "PAGE15_TEXT",
@@ -2281,37 +2339,39 @@
       ],
       "instructions": "Lấy text đã khóa từ evidence bước TEXT. Xem các sheet liên quan; soạn prompt cuối theo cảnh, ghi actual_references và hash. Tạo ảnh bằng công cụ sinh ảnh, nền không chữ, không bóng thoại, chừa20% đỉnh; dùng đúng A/B/C. Kiểm mặt, phục trang, tay/chân/vũ khí và hành động. Lưu PNG native có phiên bản và metadata theo templates/RAW_IMAGE_METADATA.json. Không resize rồi khai native300DPI.",
       "evidence": [],
-      "last_note": "Image request pending, independent layouts continue",
+      "last_note": "Coordinator does not execute agent_a tasks",
       "page": 15,
       "owner": "Codex",
       "updated_at": "2026-11-09T14:15:05+00:00",
-      "block_reason": "Image request pending, independent layouts continue"
+      "block_reason": "Delegated to agent_a; authoritative queue:10_agent_workflow/parallel/agent_a/production_state.json"
     },
     {
       "id": "PAGE15_LAYOUT",
       "kind": "layout",
       "title": "Trang15: ghép chữ và bố cục",
-      "status": "todo",
+      "status": "blocked",
       "depends_on": [
         "PAGE15_ART"
       ],
       "instructions": "Dùng nguyên text đã khóa và tranh đã kiểm. Ghép khung giấy cổ, tô đỏ #C81E1E cho **...**, đặt đủ thoại/đuôi bóng đúng người. Khổ196×246/trim190×240. Dùng layout_tokens, đo tràn chữ bằng renderer thật; xuất bản xem PNG/PDF và nguồn có thể sửa. scripts/typeset_preview.py là trợ giúp HTML; không coi HTML/PDF xem trước là file in đã duyệt.",
       "evidence": [],
-      "last_note": "",
-      "page": 15
+      "last_note": "Coordinator does not execute agent_a tasks",
+      "page": 15,
+      "block_reason": "Delegated to agent_a; authoritative queue:10_agent_workflow/parallel/agent_a/production_state.json"
     },
     {
       "id": "PAGE15_QA",
       "kind": "qa",
       "title": "Trang15: kiểm nguồn/mỹ thuật/chữ/khổ",
-      "status": "todo",
+      "status": "blocked",
       "depends_on": [
         "PAGE15_LAYOUT"
       ],
       "instructions": "Mở ảnh render ở kích thước đọc thật và zoom100%; so với scan, sheet, text đã khóa. Kiểm bốn lớp historical/art/language/print_geometry. Ghi lỗi cụ thể và sửa về đúng bước. Báo cáo pass chỉ khi có artifact thực và không còn lỗi trong phạm vi; đây là QA của agent, không phải chủ dự án duyệt.",
       "evidence": [],
-      "last_note": "",
-      "page": 15
+      "last_note": "Coordinator does not execute agent_a tasks",
+      "page": 15,
+      "block_reason": "Delegated to agent_a; authoritative queue:10_agent_workflow/parallel/agent_a/production_state.json"
     },
     {
       "id": "PAGE16_TEXT",
@@ -2351,37 +2411,39 @@
       ],
       "instructions": "Lấy text đã khóa từ evidence bước TEXT. Xem các sheet liên quan; soạn prompt cuối theo cảnh, ghi actual_references và hash. Tạo ảnh bằng công cụ sinh ảnh, nền không chữ, không bóng thoại, chừa20% đỉnh; dùng đúng A/B/C. Kiểm mặt, phục trang, tay/chân/vũ khí và hành động. Lưu PNG native có phiên bản và metadata theo templates/RAW_IMAGE_METADATA.json. Không resize rồi khai native300DPI.",
       "evidence": [],
-      "last_note": "Image request pending, independent layouts continue",
+      "last_note": "Coordinator does not execute agent_a tasks",
       "page": 16,
       "owner": "Codex",
       "updated_at": "2026-11-09T14:15:05+00:00",
-      "block_reason": "Image request pending, independent layouts continue"
+      "block_reason": "Delegated to agent_a; authoritative queue:10_agent_workflow/parallel/agent_a/production_state.json"
     },
     {
       "id": "PAGE16_LAYOUT",
       "kind": "layout",
       "title": "Trang16: ghép chữ và bố cục",
-      "status": "todo",
+      "status": "blocked",
       "depends_on": [
         "PAGE16_ART"
       ],
       "instructions": "Dùng nguyên text đã khóa và tranh đã kiểm. Ghép khung giấy cổ, tô đỏ #C81E1E cho **...**, đặt đủ thoại/đuôi bóng đúng người. Khổ196×246/trim190×240. Dùng layout_tokens, đo tràn chữ bằng renderer thật; xuất bản xem PNG/PDF và nguồn có thể sửa. scripts/typeset_preview.py là trợ giúp HTML; không coi HTML/PDF xem trước là file in đã duyệt.",
       "evidence": [],
-      "last_note": "",
-      "page": 16
+      "last_note": "Coordinator does not execute agent_a tasks",
+      "page": 16,
+      "block_reason": "Delegated to agent_a; authoritative queue:10_agent_workflow/parallel/agent_a/production_state.json"
     },
     {
       "id": "PAGE16_QA",
       "kind": "qa",
       "title": "Trang16: kiểm nguồn/mỹ thuật/chữ/khổ",
-      "status": "todo",
+      "status": "blocked",
       "depends_on": [
         "PAGE16_LAYOUT"
       ],
       "instructions": "Mở ảnh render ở kích thước đọc thật và zoom100%; so với scan, sheet, text đã khóa. Kiểm bốn lớp historical/art/language/print_geometry. Ghi lỗi cụ thể và sửa về đúng bước. Báo cáo pass chỉ khi có artifact thực và không còn lỗi trong phạm vi; đây là QA của agent, không phải chủ dự án duyệt.",
       "evidence": [],
-      "last_note": "",
-      "page": 16
+      "last_note": "Coordinator does not execute agent_a tasks",
+      "page": 16,
+      "block_reason": "Delegated to agent_a; authoritative queue:10_agent_workflow/parallel/agent_a/production_state.json"
     },
     {
       "id": "PAGE17_TEXT",
@@ -2421,37 +2483,39 @@
       ],
       "instructions": "Lấy text đã khóa từ evidence bước TEXT. Xem các sheet liên quan; soạn prompt cuối theo cảnh, ghi actual_references và hash. Tạo ảnh bằng công cụ sinh ảnh, nền không chữ, không bóng thoại, chừa20% đỉnh; dùng đúng A/B/C. Kiểm mặt, phục trang, tay/chân/vũ khí và hành động. Lưu PNG native có phiên bản và metadata theo templates/RAW_IMAGE_METADATA.json. Không resize rồi khai native300DPI.",
       "evidence": [],
-      "last_note": "Image request pending, independent layouts continue",
+      "last_note": "Coordinator does not execute agent_a tasks",
       "page": 17,
       "owner": "Codex",
       "updated_at": "2026-11-09T14:15:06+00:00",
-      "block_reason": "Image request pending, independent layouts continue"
+      "block_reason": "Delegated to agent_a; authoritative queue:10_agent_workflow/parallel/agent_a/production_state.json"
     },
     {
       "id": "PAGE17_LAYOUT",
       "kind": "layout",
       "title": "Trang17: ghép chữ và bố cục",
-      "status": "todo",
+      "status": "blocked",
       "depends_on": [
         "PAGE17_ART"
       ],
       "instructions": "Dùng nguyên text đã khóa và tranh đã kiểm. Ghép khung giấy cổ, tô đỏ #C81E1E cho **...**, đặt đủ thoại/đuôi bóng đúng người. Khổ196×246/trim190×240. Dùng layout_tokens, đo tràn chữ bằng renderer thật; xuất bản xem PNG/PDF và nguồn có thể sửa. scripts/typeset_preview.py là trợ giúp HTML; không coi HTML/PDF xem trước là file in đã duyệt.",
       "evidence": [],
-      "last_note": "",
-      "page": 17
+      "last_note": "Coordinator does not execute agent_a tasks",
+      "page": 17,
+      "block_reason": "Delegated to agent_a; authoritative queue:10_agent_workflow/parallel/agent_a/production_state.json"
     },
     {
       "id": "PAGE17_QA",
       "kind": "qa",
       "title": "Trang17: kiểm nguồn/mỹ thuật/chữ/khổ",
-      "status": "todo",
+      "status": "blocked",
       "depends_on": [
         "PAGE17_LAYOUT"
       ],
       "instructions": "Mở ảnh render ở kích thước đọc thật và zoom100%; so với scan, sheet, text đã khóa. Kiểm bốn lớp historical/art/language/print_geometry. Ghi lỗi cụ thể và sửa về đúng bước. Báo cáo pass chỉ khi có artifact thực và không còn lỗi trong phạm vi; đây là QA của agent, không phải chủ dự án duyệt.",
       "evidence": [],
-      "last_note": "",
-      "page": 17
+      "last_note": "Coordinator does not execute agent_a tasks",
+      "page": 17,
+      "block_reason": "Delegated to agent_a; authoritative queue:10_agent_workflow/parallel/agent_a/production_state.json"
     },
     {
       "id": "PAGE18_TEXT",
@@ -2491,567 +2555,601 @@
       ],
       "instructions": "Lấy text đã khóa từ evidence bước TEXT. Xem các sheet liên quan; soạn prompt cuối theo cảnh, ghi actual_references và hash. Tạo ảnh bằng công cụ sinh ảnh, nền không chữ, không bóng thoại, chừa20% đỉnh; dùng đúng A/B/C. Kiểm mặt, phục trang, tay/chân/vũ khí và hành động. Lưu PNG native có phiên bản và metadata theo templates/RAW_IMAGE_METADATA.json. Không resize rồi khai native300DPI.",
       "evidence": [],
-      "last_note": "Image request pending, independent layouts continue",
+      "last_note": "Coordinator does not execute agent_a tasks",
       "page": 18,
       "owner": "Codex",
       "updated_at": "2026-11-09T14:15:06+00:00",
-      "block_reason": "Image request pending, independent layouts continue"
+      "block_reason": "Delegated to agent_a; authoritative queue:10_agent_workflow/parallel/agent_a/production_state.json"
     },
     {
       "id": "PAGE18_LAYOUT",
       "kind": "layout",
       "title": "Trang18: ghép chữ và bố cục",
-      "status": "todo",
+      "status": "blocked",
       "depends_on": [
         "PAGE18_ART"
       ],
       "instructions": "Dùng nguyên text đã khóa và tranh đã kiểm. Ghép khung giấy cổ, tô đỏ #C81E1E cho **...**, đặt đủ thoại/đuôi bóng đúng người. Khổ196×246/trim190×240. Dùng layout_tokens, đo tràn chữ bằng renderer thật; xuất bản xem PNG/PDF và nguồn có thể sửa. scripts/typeset_preview.py là trợ giúp HTML; không coi HTML/PDF xem trước là file in đã duyệt.",
       "evidence": [],
-      "last_note": "",
-      "page": 18
+      "last_note": "Coordinator does not execute agent_a tasks",
+      "page": 18,
+      "block_reason": "Delegated to agent_a; authoritative queue:10_agent_workflow/parallel/agent_a/production_state.json"
     },
     {
       "id": "PAGE18_QA",
       "kind": "qa",
       "title": "Trang18: kiểm nguồn/mỹ thuật/chữ/khổ",
-      "status": "todo",
+      "status": "blocked",
       "depends_on": [
         "PAGE18_LAYOUT"
       ],
       "instructions": "Mở ảnh render ở kích thước đọc thật và zoom100%; so với scan, sheet, text đã khóa. Kiểm bốn lớp historical/art/language/print_geometry. Ghi lỗi cụ thể và sửa về đúng bước. Báo cáo pass chỉ khi có artifact thực và không còn lỗi trong phạm vi; đây là QA của agent, không phải chủ dự án duyệt.",
       "evidence": [],
-      "last_note": "",
-      "page": 18
+      "last_note": "Coordinator does not execute agent_a tasks",
+      "page": 18,
+      "block_reason": "Delegated to agent_a; authoritative queue:10_agent_workflow/parallel/agent_a/production_state.json"
     },
     {
       "id": "PAGE19_TEXT",
       "kind": "text",
       "title": "Trang19: đối chiếu và khóa chữ",
-      "status": "todo",
+      "status": "blocked",
       "depends_on": [
         "DESIGN_BASELINE"
       ],
       "instructions": "Đọc nguyên cảnh và nguồn scan; sửa các câu cường điệu/không có căn cứ, giữ giọng hào hùng 13–16 tuổi. Đếm thật 35–65 tiếng theo khoảng trắng, không dùng số từ ghi trong tiêu đề làm chứng cứ. Chép đủ thoại vào text.v001.json, giữ **từ khóa**; ghi nguồn, template và hash storyboard. Khóa chữ sau khi kiểm. Nếu sửa toàn file storyboard về sau, rà lại các text đã khóa theo hash mới.",
       "evidence": [],
-      "last_note": "",
-      "page": 19
+      "last_note": "Coordinator does not execute agent_a tasks",
+      "page": 19,
+      "block_reason": "Delegated to agent_a; authoritative queue:10_agent_workflow/parallel/agent_a/production_state.json"
     },
     {
       "id": "PAGE19_ART",
       "kind": "art",
       "title": "Trang19: tạo và kiểm tranh nền",
-      "status": "todo",
+      "status": "blocked",
       "depends_on": [
         "PAGE19_TEXT"
       ],
       "instructions": "Lấy text đã khóa từ evidence bước TEXT. Xem các sheet liên quan; soạn prompt cuối theo cảnh, ghi actual_references và hash. Tạo ảnh bằng công cụ sinh ảnh, nền không chữ, không bóng thoại, chừa20% đỉnh; dùng đúng A/B/C. Kiểm mặt, phục trang, tay/chân/vũ khí và hành động. Lưu PNG native có phiên bản và metadata theo templates/RAW_IMAGE_METADATA.json. Không resize rồi khai native300DPI.",
       "evidence": [],
-      "last_note": "",
-      "page": 19
+      "last_note": "Coordinator does not execute agent_a tasks",
+      "page": 19,
+      "block_reason": "Delegated to agent_a; authoritative queue:10_agent_workflow/parallel/agent_a/production_state.json"
     },
     {
       "id": "PAGE19_LAYOUT",
       "kind": "layout",
       "title": "Trang19: ghép chữ và bố cục",
-      "status": "todo",
+      "status": "blocked",
       "depends_on": [
         "PAGE19_ART"
       ],
       "instructions": "Dùng nguyên text đã khóa và tranh đã kiểm. Ghép khung giấy cổ, tô đỏ #C81E1E cho **...**, đặt đủ thoại/đuôi bóng đúng người. Khổ196×246/trim190×240. Dùng layout_tokens, đo tràn chữ bằng renderer thật; xuất bản xem PNG/PDF và nguồn có thể sửa. scripts/typeset_preview.py là trợ giúp HTML; không coi HTML/PDF xem trước là file in đã duyệt.",
       "evidence": [],
-      "last_note": "",
-      "page": 19
+      "last_note": "Coordinator does not execute agent_a tasks",
+      "page": 19,
+      "block_reason": "Delegated to agent_a; authoritative queue:10_agent_workflow/parallel/agent_a/production_state.json"
     },
     {
       "id": "PAGE19_QA",
       "kind": "qa",
       "title": "Trang19: kiểm nguồn/mỹ thuật/chữ/khổ",
-      "status": "todo",
+      "status": "blocked",
       "depends_on": [
         "PAGE19_LAYOUT"
       ],
       "instructions": "Mở ảnh render ở kích thước đọc thật và zoom100%; so với scan, sheet, text đã khóa. Kiểm bốn lớp historical/art/language/print_geometry. Ghi lỗi cụ thể và sửa về đúng bước. Báo cáo pass chỉ khi có artifact thực và không còn lỗi trong phạm vi; đây là QA của agent, không phải chủ dự án duyệt.",
       "evidence": [],
-      "last_note": "",
-      "page": 19
+      "last_note": "Coordinator does not execute agent_a tasks",
+      "page": 19,
+      "block_reason": "Delegated to agent_a; authoritative queue:10_agent_workflow/parallel/agent_a/production_state.json"
     },
     {
       "id": "PAGE20_TEXT",
       "kind": "text",
       "title": "Trang20: đối chiếu và khóa chữ",
-      "status": "todo",
+      "status": "blocked",
       "depends_on": [
         "DESIGN_BASELINE"
       ],
       "instructions": "Đọc nguyên cảnh và nguồn scan; sửa các câu cường điệu/không có căn cứ, giữ giọng hào hùng 13–16 tuổi. Đếm thật 35–65 tiếng theo khoảng trắng, không dùng số từ ghi trong tiêu đề làm chứng cứ. Chép đủ thoại vào text.v001.json, giữ **từ khóa**; ghi nguồn, template và hash storyboard. Khóa chữ sau khi kiểm. Nếu sửa toàn file storyboard về sau, rà lại các text đã khóa theo hash mới.",
       "evidence": [],
-      "last_note": "",
-      "page": 20
+      "last_note": "Coordinator does not execute agent_a tasks",
+      "page": 20,
+      "block_reason": "Delegated to agent_a; authoritative queue:10_agent_workflow/parallel/agent_a/production_state.json"
     },
     {
       "id": "PAGE20_ART",
       "kind": "art",
       "title": "Trang20: tạo và kiểm tranh nền",
-      "status": "todo",
+      "status": "blocked",
       "depends_on": [
         "PAGE20_TEXT"
       ],
       "instructions": "Lấy text đã khóa từ evidence bước TEXT. Xem các sheet liên quan; soạn prompt cuối theo cảnh, ghi actual_references và hash. Tạo ảnh bằng công cụ sinh ảnh, nền không chữ, không bóng thoại, chừa20% đỉnh; dùng đúng A/B/C. Kiểm mặt, phục trang, tay/chân/vũ khí và hành động. Lưu PNG native có phiên bản và metadata theo templates/RAW_IMAGE_METADATA.json. Không resize rồi khai native300DPI.",
       "evidence": [],
-      "last_note": "",
-      "page": 20
+      "last_note": "Coordinator does not execute agent_a tasks",
+      "page": 20,
+      "block_reason": "Delegated to agent_a; authoritative queue:10_agent_workflow/parallel/agent_a/production_state.json"
     },
     {
       "id": "PAGE20_LAYOUT",
       "kind": "layout",
       "title": "Trang20: ghép chữ và bố cục",
-      "status": "todo",
+      "status": "blocked",
       "depends_on": [
         "PAGE20_ART"
       ],
       "instructions": "Dùng nguyên text đã khóa và tranh đã kiểm. Ghép khung giấy cổ, tô đỏ #C81E1E cho **...**, đặt đủ thoại/đuôi bóng đúng người. Khổ196×246/trim190×240. Dùng layout_tokens, đo tràn chữ bằng renderer thật; xuất bản xem PNG/PDF và nguồn có thể sửa. scripts/typeset_preview.py là trợ giúp HTML; không coi HTML/PDF xem trước là file in đã duyệt.",
       "evidence": [],
-      "last_note": "",
-      "page": 20
+      "last_note": "Coordinator does not execute agent_a tasks",
+      "page": 20,
+      "block_reason": "Delegated to agent_a; authoritative queue:10_agent_workflow/parallel/agent_a/production_state.json"
     },
     {
       "id": "PAGE20_QA",
       "kind": "qa",
       "title": "Trang20: kiểm nguồn/mỹ thuật/chữ/khổ",
-      "status": "todo",
+      "status": "blocked",
       "depends_on": [
         "PAGE20_LAYOUT"
       ],
       "instructions": "Mở ảnh render ở kích thước đọc thật và zoom100%; so với scan, sheet, text đã khóa. Kiểm bốn lớp historical/art/language/print_geometry. Ghi lỗi cụ thể và sửa về đúng bước. Báo cáo pass chỉ khi có artifact thực và không còn lỗi trong phạm vi; đây là QA của agent, không phải chủ dự án duyệt.",
       "evidence": [],
-      "last_note": "",
-      "page": 20
+      "last_note": "Coordinator does not execute agent_a tasks",
+      "page": 20,
+      "block_reason": "Delegated to agent_a; authoritative queue:10_agent_workflow/parallel/agent_a/production_state.json"
     },
     {
       "id": "PAGE21_TEXT",
       "kind": "text",
       "title": "Trang21: đối chiếu và khóa chữ",
-      "status": "todo",
+      "status": "blocked",
       "depends_on": [
         "DESIGN_BASELINE"
       ],
       "instructions": "Đọc nguyên cảnh và nguồn scan; sửa các câu cường điệu/không có căn cứ, giữ giọng hào hùng 13–16 tuổi. Đếm thật 35–65 tiếng theo khoảng trắng, không dùng số từ ghi trong tiêu đề làm chứng cứ. Chép đủ thoại vào text.v001.json, giữ **từ khóa**; ghi nguồn, template và hash storyboard. Khóa chữ sau khi kiểm. Nếu sửa toàn file storyboard về sau, rà lại các text đã khóa theo hash mới.",
       "evidence": [],
-      "last_note": "",
-      "page": 21
+      "last_note": "Coordinator does not execute agent_b tasks",
+      "page": 21,
+      "block_reason": "Delegated to agent_b; authoritative queue:10_agent_workflow/parallel/agent_b/production_state.json"
     },
     {
       "id": "PAGE21_ART",
       "kind": "art",
       "title": "Trang21: tạo và kiểm tranh nền",
-      "status": "todo",
+      "status": "blocked",
       "depends_on": [
         "PAGE21_TEXT"
       ],
       "instructions": "Lấy text đã khóa từ evidence bước TEXT. Xem các sheet liên quan; soạn prompt cuối theo cảnh, ghi actual_references và hash. Tạo ảnh bằng công cụ sinh ảnh, nền không chữ, không bóng thoại, chừa20% đỉnh; dùng đúng A/B/C. Kiểm mặt, phục trang, tay/chân/vũ khí và hành động. Lưu PNG native có phiên bản và metadata theo templates/RAW_IMAGE_METADATA.json. Không resize rồi khai native300DPI.",
       "evidence": [],
-      "last_note": "",
-      "page": 21
+      "last_note": "Coordinator does not execute agent_b tasks",
+      "page": 21,
+      "block_reason": "Delegated to agent_b; authoritative queue:10_agent_workflow/parallel/agent_b/production_state.json"
     },
     {
       "id": "PAGE21_LAYOUT",
       "kind": "layout",
       "title": "Trang21: ghép chữ và bố cục",
-      "status": "todo",
+      "status": "blocked",
       "depends_on": [
         "PAGE21_ART"
       ],
       "instructions": "Dùng nguyên text đã khóa và tranh đã kiểm. Ghép khung giấy cổ, tô đỏ #C81E1E cho **...**, đặt đủ thoại/đuôi bóng đúng người. Khổ196×246/trim190×240. Dùng layout_tokens, đo tràn chữ bằng renderer thật; xuất bản xem PNG/PDF và nguồn có thể sửa. scripts/typeset_preview.py là trợ giúp HTML; không coi HTML/PDF xem trước là file in đã duyệt.",
       "evidence": [],
-      "last_note": "",
-      "page": 21
+      "last_note": "Coordinator does not execute agent_b tasks",
+      "page": 21,
+      "block_reason": "Delegated to agent_b; authoritative queue:10_agent_workflow/parallel/agent_b/production_state.json"
     },
     {
       "id": "PAGE21_QA",
       "kind": "qa",
       "title": "Trang21: kiểm nguồn/mỹ thuật/chữ/khổ",
-      "status": "todo",
+      "status": "blocked",
       "depends_on": [
         "PAGE21_LAYOUT"
       ],
       "instructions": "Mở ảnh render ở kích thước đọc thật và zoom100%; so với scan, sheet, text đã khóa. Kiểm bốn lớp historical/art/language/print_geometry. Ghi lỗi cụ thể và sửa về đúng bước. Báo cáo pass chỉ khi có artifact thực và không còn lỗi trong phạm vi; đây là QA của agent, không phải chủ dự án duyệt.",
       "evidence": [],
-      "last_note": "",
-      "page": 21
+      "last_note": "Coordinator does not execute agent_b tasks",
+      "page": 21,
+      "block_reason": "Delegated to agent_b; authoritative queue:10_agent_workflow/parallel/agent_b/production_state.json"
     },
     {
       "id": "PAGE22_TEXT",
       "kind": "text",
       "title": "Trang22: đối chiếu và khóa chữ",
-      "status": "todo",
+      "status": "blocked",
       "depends_on": [
         "DESIGN_BASELINE"
       ],
       "instructions": "Đọc nguyên cảnh và nguồn scan; sửa các câu cường điệu/không có căn cứ, giữ giọng hào hùng 13–16 tuổi. Đếm thật 35–65 tiếng theo khoảng trắng, không dùng số từ ghi trong tiêu đề làm chứng cứ. Chép đủ thoại vào text.v001.json, giữ **từ khóa**; ghi nguồn, template và hash storyboard. Khóa chữ sau khi kiểm. Nếu sửa toàn file storyboard về sau, rà lại các text đã khóa theo hash mới.",
       "evidence": [],
-      "last_note": "",
-      "page": 22
+      "last_note": "Coordinator does not execute agent_b tasks",
+      "page": 22,
+      "block_reason": "Delegated to agent_b; authoritative queue:10_agent_workflow/parallel/agent_b/production_state.json"
     },
     {
       "id": "PAGE22_ART",
       "kind": "art",
       "title": "Trang22: tạo và kiểm tranh nền",
-      "status": "todo",
+      "status": "blocked",
       "depends_on": [
         "PAGE22_TEXT"
       ],
       "instructions": "Lấy text đã khóa từ evidence bước TEXT. Xem các sheet liên quan; soạn prompt cuối theo cảnh, ghi actual_references và hash. Tạo ảnh bằng công cụ sinh ảnh, nền không chữ, không bóng thoại, chừa20% đỉnh; dùng đúng A/B/C. Kiểm mặt, phục trang, tay/chân/vũ khí và hành động. Lưu PNG native có phiên bản và metadata theo templates/RAW_IMAGE_METADATA.json. Không resize rồi khai native300DPI.",
       "evidence": [],
-      "last_note": "",
-      "page": 22
+      "last_note": "Coordinator does not execute agent_b tasks",
+      "page": 22,
+      "block_reason": "Delegated to agent_b; authoritative queue:10_agent_workflow/parallel/agent_b/production_state.json"
     },
     {
       "id": "PAGE22_LAYOUT",
       "kind": "layout",
       "title": "Trang22: ghép chữ và bố cục",
-      "status": "todo",
+      "status": "blocked",
       "depends_on": [
         "PAGE22_ART"
       ],
       "instructions": "Dùng nguyên text đã khóa và tranh đã kiểm. Ghép khung giấy cổ, tô đỏ #C81E1E cho **...**, đặt đủ thoại/đuôi bóng đúng người. Khổ196×246/trim190×240. Dùng layout_tokens, đo tràn chữ bằng renderer thật; xuất bản xem PNG/PDF và nguồn có thể sửa. scripts/typeset_preview.py là trợ giúp HTML; không coi HTML/PDF xem trước là file in đã duyệt.",
       "evidence": [],
-      "last_note": "",
-      "page": 22
+      "last_note": "Coordinator does not execute agent_b tasks",
+      "page": 22,
+      "block_reason": "Delegated to agent_b; authoritative queue:10_agent_workflow/parallel/agent_b/production_state.json"
     },
     {
       "id": "PAGE22_QA",
       "kind": "qa",
       "title": "Trang22: kiểm nguồn/mỹ thuật/chữ/khổ",
-      "status": "todo",
+      "status": "blocked",
       "depends_on": [
         "PAGE22_LAYOUT"
       ],
       "instructions": "Mở ảnh render ở kích thước đọc thật và zoom100%; so với scan, sheet, text đã khóa. Kiểm bốn lớp historical/art/language/print_geometry. Ghi lỗi cụ thể và sửa về đúng bước. Báo cáo pass chỉ khi có artifact thực và không còn lỗi trong phạm vi; đây là QA của agent, không phải chủ dự án duyệt.",
       "evidence": [],
-      "last_note": "",
-      "page": 22
+      "last_note": "Coordinator does not execute agent_b tasks",
+      "page": 22,
+      "block_reason": "Delegated to agent_b; authoritative queue:10_agent_workflow/parallel/agent_b/production_state.json"
     },
     {
       "id": "PAGE23_TEXT",
       "kind": "text",
       "title": "Trang23: đối chiếu và khóa chữ",
-      "status": "todo",
+      "status": "blocked",
       "depends_on": [
         "DESIGN_BASELINE"
       ],
       "instructions": "Đọc nguyên cảnh và nguồn scan; sửa các câu cường điệu/không có căn cứ, giữ giọng hào hùng 13–16 tuổi. Đếm thật 35–65 tiếng theo khoảng trắng, không dùng số từ ghi trong tiêu đề làm chứng cứ. Chép đủ thoại vào text.v001.json, giữ **từ khóa**; ghi nguồn, template và hash storyboard. Khóa chữ sau khi kiểm. Nếu sửa toàn file storyboard về sau, rà lại các text đã khóa theo hash mới.",
       "evidence": [],
-      "last_note": "",
-      "page": 23
+      "last_note": "Coordinator does not execute agent_b tasks",
+      "page": 23,
+      "block_reason": "Delegated to agent_b; authoritative queue:10_agent_workflow/parallel/agent_b/production_state.json"
     },
     {
       "id": "PAGE23_ART",
       "kind": "art",
       "title": "Trang23: tạo và kiểm tranh nền",
-      "status": "todo",
+      "status": "blocked",
       "depends_on": [
         "PAGE23_TEXT"
       ],
       "instructions": "Lấy text đã khóa từ evidence bước TEXT. Xem các sheet liên quan; soạn prompt cuối theo cảnh, ghi actual_references và hash. Tạo ảnh bằng công cụ sinh ảnh, nền không chữ, không bóng thoại, chừa20% đỉnh; dùng đúng A/B/C. Kiểm mặt, phục trang, tay/chân/vũ khí và hành động. Lưu PNG native có phiên bản và metadata theo templates/RAW_IMAGE_METADATA.json. Không resize rồi khai native300DPI.",
       "evidence": [],
-      "last_note": "",
-      "page": 23
+      "last_note": "Coordinator does not execute agent_b tasks",
+      "page": 23,
+      "block_reason": "Delegated to agent_b; authoritative queue:10_agent_workflow/parallel/agent_b/production_state.json"
     },
     {
       "id": "PAGE23_LAYOUT",
       "kind": "layout",
       "title": "Trang23: ghép chữ và bố cục",
-      "status": "todo",
+      "status": "blocked",
       "depends_on": [
         "PAGE23_ART"
       ],
       "instructions": "Dùng nguyên text đã khóa và tranh đã kiểm. Ghép khung giấy cổ, tô đỏ #C81E1E cho **...**, đặt đủ thoại/đuôi bóng đúng người. Khổ196×246/trim190×240. Dùng layout_tokens, đo tràn chữ bằng renderer thật; xuất bản xem PNG/PDF và nguồn có thể sửa. scripts/typeset_preview.py là trợ giúp HTML; không coi HTML/PDF xem trước là file in đã duyệt.",
       "evidence": [],
-      "last_note": "",
-      "page": 23
+      "last_note": "Coordinator does not execute agent_b tasks",
+      "page": 23,
+      "block_reason": "Delegated to agent_b; authoritative queue:10_agent_workflow/parallel/agent_b/production_state.json"
     },
     {
       "id": "PAGE23_QA",
       "kind": "qa",
       "title": "Trang23: kiểm nguồn/mỹ thuật/chữ/khổ",
-      "status": "todo",
+      "status": "blocked",
       "depends_on": [
         "PAGE23_LAYOUT"
       ],
       "instructions": "Mở ảnh render ở kích thước đọc thật và zoom100%; so với scan, sheet, text đã khóa. Kiểm bốn lớp historical/art/language/print_geometry. Ghi lỗi cụ thể và sửa về đúng bước. Báo cáo pass chỉ khi có artifact thực và không còn lỗi trong phạm vi; đây là QA của agent, không phải chủ dự án duyệt.",
       "evidence": [],
-      "last_note": "",
-      "page": 23
+      "last_note": "Coordinator does not execute agent_b tasks",
+      "page": 23,
+      "block_reason": "Delegated to agent_b; authoritative queue:10_agent_workflow/parallel/agent_b/production_state.json"
     },
     {
       "id": "PAGE24_TEXT",
       "kind": "text",
       "title": "Trang24: đối chiếu và khóa chữ",
-      "status": "todo",
+      "status": "blocked",
       "depends_on": [
         "DESIGN_BASELINE"
       ],
       "instructions": "Đọc nguyên cảnh và nguồn scan; sửa các câu cường điệu/không có căn cứ, giữ giọng hào hùng 13–16 tuổi. Đếm thật 35–65 tiếng theo khoảng trắng, không dùng số từ ghi trong tiêu đề làm chứng cứ. Chép đủ thoại vào text.v001.json, giữ **từ khóa**; ghi nguồn, template và hash storyboard. Khóa chữ sau khi kiểm. Nếu sửa toàn file storyboard về sau, rà lại các text đã khóa theo hash mới.",
       "evidence": [],
-      "last_note": "",
-      "page": 24
+      "last_note": "Coordinator does not execute agent_b tasks",
+      "page": 24,
+      "block_reason": "Delegated to agent_b; authoritative queue:10_agent_workflow/parallel/agent_b/production_state.json"
     },
     {
       "id": "PAGE24_ART",
       "kind": "art",
       "title": "Trang24: tạo và kiểm tranh nền",
-      "status": "todo",
+      "status": "blocked",
       "depends_on": [
         "PAGE24_TEXT"
       ],
       "instructions": "Lấy text đã khóa từ evidence bước TEXT. Xem các sheet liên quan; soạn prompt cuối theo cảnh, ghi actual_references và hash. Tạo ảnh bằng công cụ sinh ảnh, nền không chữ, không bóng thoại, chừa20% đỉnh; dùng đúng A/B/C. Kiểm mặt, phục trang, tay/chân/vũ khí và hành động. Lưu PNG native có phiên bản và metadata theo templates/RAW_IMAGE_METADATA.json. Không resize rồi khai native300DPI.",
       "evidence": [],
-      "last_note": "",
-      "page": 24
+      "last_note": "Coordinator does not execute agent_b tasks",
+      "page": 24,
+      "block_reason": "Delegated to agent_b; authoritative queue:10_agent_workflow/parallel/agent_b/production_state.json"
     },
     {
       "id": "PAGE24_LAYOUT",
       "kind": "layout",
       "title": "Trang24: ghép chữ và bố cục",
-      "status": "todo",
+      "status": "blocked",
       "depends_on": [
         "PAGE24_ART"
       ],
       "instructions": "Dùng nguyên text đã khóa và tranh đã kiểm. Ghép khung giấy cổ, tô đỏ #C81E1E cho **...**, đặt đủ thoại/đuôi bóng đúng người. Khổ196×246/trim190×240. Dùng layout_tokens, đo tràn chữ bằng renderer thật; xuất bản xem PNG/PDF và nguồn có thể sửa. scripts/typeset_preview.py là trợ giúp HTML; không coi HTML/PDF xem trước là file in đã duyệt.",
       "evidence": [],
-      "last_note": "",
-      "page": 24
+      "last_note": "Coordinator does not execute agent_b tasks",
+      "page": 24,
+      "block_reason": "Delegated to agent_b; authoritative queue:10_agent_workflow/parallel/agent_b/production_state.json"
     },
     {
       "id": "PAGE24_QA",
       "kind": "qa",
       "title": "Trang24: kiểm nguồn/mỹ thuật/chữ/khổ",
-      "status": "todo",
+      "status": "blocked",
       "depends_on": [
         "PAGE24_LAYOUT"
       ],
       "instructions": "Mở ảnh render ở kích thước đọc thật và zoom100%; so với scan, sheet, text đã khóa. Kiểm bốn lớp historical/art/language/print_geometry. Ghi lỗi cụ thể và sửa về đúng bước. Báo cáo pass chỉ khi có artifact thực và không còn lỗi trong phạm vi; đây là QA của agent, không phải chủ dự án duyệt.",
       "evidence": [],
-      "last_note": "",
-      "page": 24
+      "last_note": "Coordinator does not execute agent_b tasks",
+      "page": 24,
+      "block_reason": "Delegated to agent_b; authoritative queue:10_agent_workflow/parallel/agent_b/production_state.json"
     },
     {
       "id": "PAGE25_TEXT",
       "kind": "text",
       "title": "Trang25: đối chiếu và khóa chữ",
-      "status": "todo",
+      "status": "blocked",
       "depends_on": [
         "DESIGN_BASELINE"
       ],
       "instructions": "Đọc nguyên cảnh và nguồn scan; sửa các câu cường điệu/không có căn cứ, giữ giọng hào hùng 13–16 tuổi. Đếm thật 35–65 tiếng theo khoảng trắng, không dùng số từ ghi trong tiêu đề làm chứng cứ. Chép đủ thoại vào text.v001.json, giữ **từ khóa**; ghi nguồn, template và hash storyboard. Khóa chữ sau khi kiểm. Nếu sửa toàn file storyboard về sau, rà lại các text đã khóa theo hash mới.",
       "evidence": [],
-      "last_note": "",
-      "page": 25
+      "last_note": "Coordinator does not execute agent_b tasks",
+      "page": 25,
+      "block_reason": "Delegated to agent_b; authoritative queue:10_agent_workflow/parallel/agent_b/production_state.json"
     },
     {
       "id": "PAGE25_ART",
       "kind": "art",
       "title": "Trang25: tạo và kiểm tranh nền",
-      "status": "todo",
+      "status": "blocked",
       "depends_on": [
         "PAGE25_TEXT"
       ],
       "instructions": "Lấy text đã khóa từ evidence bước TEXT. Xem các sheet liên quan; soạn prompt cuối theo cảnh, ghi actual_references và hash. Tạo ảnh bằng công cụ sinh ảnh, nền không chữ, không bóng thoại, chừa20% đỉnh; dùng đúng A/B/C. Kiểm mặt, phục trang, tay/chân/vũ khí và hành động. Lưu PNG native có phiên bản và metadata theo templates/RAW_IMAGE_METADATA.json. Không resize rồi khai native300DPI.",
       "evidence": [],
-      "last_note": "",
-      "page": 25
+      "last_note": "Coordinator does not execute agent_b tasks",
+      "page": 25,
+      "block_reason": "Delegated to agent_b; authoritative queue:10_agent_workflow/parallel/agent_b/production_state.json"
     },
     {
       "id": "PAGE25_LAYOUT",
       "kind": "layout",
       "title": "Trang25: ghép chữ và bố cục",
-      "status": "todo",
+      "status": "blocked",
       "depends_on": [
         "PAGE25_ART"
       ],
       "instructions": "Dùng nguyên text đã khóa và tranh đã kiểm. Ghép khung giấy cổ, tô đỏ #C81E1E cho **...**, đặt đủ thoại/đuôi bóng đúng người. Khổ196×246/trim190×240. Dùng layout_tokens, đo tràn chữ bằng renderer thật; xuất bản xem PNG/PDF và nguồn có thể sửa. scripts/typeset_preview.py là trợ giúp HTML; không coi HTML/PDF xem trước là file in đã duyệt.",
       "evidence": [],
-      "last_note": "",
-      "page": 25
+      "last_note": "Coordinator does not execute agent_b tasks",
+      "page": 25,
+      "block_reason": "Delegated to agent_b; authoritative queue:10_agent_workflow/parallel/agent_b/production_state.json"
     },
     {
       "id": "PAGE25_QA",
       "kind": "qa",
       "title": "Trang25: kiểm nguồn/mỹ thuật/chữ/khổ",
-      "status": "todo",
+      "status": "blocked",
       "depends_on": [
         "PAGE25_LAYOUT"
       ],
       "instructions": "Mở ảnh render ở kích thước đọc thật và zoom100%; so với scan, sheet, text đã khóa. Kiểm bốn lớp historical/art/language/print_geometry. Ghi lỗi cụ thể và sửa về đúng bước. Báo cáo pass chỉ khi có artifact thực và không còn lỗi trong phạm vi; đây là QA của agent, không phải chủ dự án duyệt.",
       "evidence": [],
-      "last_note": "",
-      "page": 25
+      "last_note": "Coordinator does not execute agent_b tasks",
+      "page": 25,
+      "block_reason": "Delegated to agent_b; authoritative queue:10_agent_workflow/parallel/agent_b/production_state.json"
     },
     {
       "id": "PAGE26_TEXT",
       "kind": "text",
       "title": "Trang26: đối chiếu và khóa chữ",
-      "status": "todo",
+      "status": "blocked",
       "depends_on": [
         "DESIGN_BASELINE"
       ],
       "instructions": "Đọc nguyên cảnh và nguồn scan; sửa các câu cường điệu/không có căn cứ, giữ giọng hào hùng 13–16 tuổi. Đếm thật 35–65 tiếng theo khoảng trắng, không dùng số từ ghi trong tiêu đề làm chứng cứ. Chép đủ thoại vào text.v001.json, giữ **từ khóa**; ghi nguồn, template và hash storyboard. Khóa chữ sau khi kiểm. Nếu sửa toàn file storyboard về sau, rà lại các text đã khóa theo hash mới.",
       "evidence": [],
-      "last_note": "",
-      "page": 26
+      "last_note": "Coordinator does not execute agent_b tasks",
+      "page": 26,
+      "block_reason": "Delegated to agent_b; authoritative queue:10_agent_workflow/parallel/agent_b/production_state.json"
     },
     {
       "id": "PAGE26_ART",
       "kind": "art",
       "title": "Trang26: tạo và kiểm tranh nền",
-      "status": "todo",
+      "status": "blocked",
       "depends_on": [
         "PAGE26_TEXT"
       ],
       "instructions": "Lấy text đã khóa từ evidence bước TEXT. Xem các sheet liên quan; soạn prompt cuối theo cảnh, ghi actual_references và hash. Tạo ảnh bằng công cụ sinh ảnh, nền không chữ, không bóng thoại, chừa20% đỉnh; dùng đúng A/B/C. Kiểm mặt, phục trang, tay/chân/vũ khí và hành động. Lưu PNG native có phiên bản và metadata theo templates/RAW_IMAGE_METADATA.json. Không resize rồi khai native300DPI.",
       "evidence": [],
-      "last_note": "",
-      "page": 26
+      "last_note": "Coordinator does not execute agent_b tasks",
+      "page": 26,
+      "block_reason": "Delegated to agent_b; authoritative queue:10_agent_workflow/parallel/agent_b/production_state.json"
     },
     {
       "id": "PAGE26_LAYOUT",
       "kind": "layout",
       "title": "Trang26: ghép chữ và bố cục",
-      "status": "todo",
+      "status": "blocked",
       "depends_on": [
         "PAGE26_ART"
       ],
       "instructions": "Dùng nguyên text đã khóa và tranh đã kiểm. Ghép khung giấy cổ, tô đỏ #C81E1E cho **...**, đặt đủ thoại/đuôi bóng đúng người. Khổ196×246/trim190×240. Dùng layout_tokens, đo tràn chữ bằng renderer thật; xuất bản xem PNG/PDF và nguồn có thể sửa. scripts/typeset_preview.py là trợ giúp HTML; không coi HTML/PDF xem trước là file in đã duyệt.",
       "evidence": [],
-      "last_note": "",
-      "page": 26
+      "last_note": "Coordinator does not execute agent_b tasks",
+      "page": 26,
+      "block_reason": "Delegated to agent_b; authoritative queue:10_agent_workflow/parallel/agent_b/production_state.json"
     },
     {
       "id": "PAGE26_QA",
       "kind": "qa",
       "title": "Trang26: kiểm nguồn/mỹ thuật/chữ/khổ",
-      "status": "todo",
+      "status": "blocked",
       "depends_on": [
         "PAGE26_LAYOUT"
       ],
       "instructions": "Mở ảnh render ở kích thước đọc thật và zoom100%; so với scan, sheet, text đã khóa. Kiểm bốn lớp historical/art/language/print_geometry. Ghi lỗi cụ thể và sửa về đúng bước. Báo cáo pass chỉ khi có artifact thực và không còn lỗi trong phạm vi; đây là QA của agent, không phải chủ dự án duyệt.",
       "evidence": [],
-      "last_note": "",
-      "page": 26
+      "last_note": "Coordinator does not execute agent_b tasks",
+      "page": 26,
+      "block_reason": "Delegated to agent_b; authoritative queue:10_agent_workflow/parallel/agent_b/production_state.json"
     },
     {
       "id": "PAGE27_TEXT",
       "kind": "text",
       "title": "Trang27: đối chiếu và khóa chữ",
-      "status": "todo",
+      "status": "blocked",
       "depends_on": [
         "DESIGN_BASELINE",
         "SOURCE_EPILOGUE"
       ],
       "instructions": "Đọc nguyên cảnh và nguồn scan; sửa các câu cường điệu/không có căn cứ, giữ giọng hào hùng 13–16 tuổi. Đếm thật 35–65 tiếng theo khoảng trắng, không dùng số từ ghi trong tiêu đề làm chứng cứ. Chép đủ thoại vào text.v001.json, giữ **từ khóa**; ghi nguồn, template và hash storyboard. Khóa chữ sau khi kiểm. Nếu sửa toàn file storyboard về sau, rà lại các text đã khóa theo hash mới.",
       "evidence": [],
-      "last_note": "Reopen: Sửa khoảngtrắng cuối storyboard và lỗiđánhmáy trước push; giữ evidencev001",
+      "last_note": "Coordinator does not execute agent_b tasks",
       "page": 27,
-      "block_reason": ""
+      "block_reason": "Delegated to agent_b; authoritative queue:10_agent_workflow/parallel/agent_b/production_state.json"
     },
     {
       "id": "PAGE27_ART",
       "kind": "art",
       "title": "Trang27: tạo và kiểm tranh nền",
-      "status": "todo",
+      "status": "blocked",
       "depends_on": [
         "PAGE27_TEXT"
       ],
       "instructions": "Lấy text đã khóa từ evidence bước TEXT. Xem các sheet liên quan; soạn prompt cuối theo cảnh, ghi actual_references và hash. Tạo ảnh bằng công cụ sinh ảnh, nền không chữ, không bóng thoại, chừa20% đỉnh; dùng đúng A/B/C. Kiểm mặt, phục trang, tay/chân/vũ khí và hành động. Lưu PNG native có phiên bản và metadata theo templates/RAW_IMAGE_METADATA.json. Không resize rồi khai native300DPI.",
       "evidence": [],
-      "last_note": "Reopen: Sửa khoảngtrắng cuối storyboard và lỗiđánhmáy trước push; giữ evidencev001",
+      "last_note": "Coordinator does not execute agent_b tasks",
       "page": 27,
-      "block_reason": ""
+      "block_reason": "Delegated to agent_b; authoritative queue:10_agent_workflow/parallel/agent_b/production_state.json"
     },
     {
       "id": "PAGE27_LAYOUT",
       "kind": "layout",
       "title": "Trang27: ghép chữ và bố cục",
-      "status": "todo",
+      "status": "blocked",
       "depends_on": [
         "PAGE27_ART"
       ],
       "instructions": "Dùng nguyên text đã khóa và tranh đã kiểm. Ghép khung giấy cổ, tô đỏ #C81E1E cho **...**, đặt đủ thoại/đuôi bóng đúng người. Khổ196×246/trim190×240. Dùng layout_tokens, đo tràn chữ bằng renderer thật; xuất bản xem PNG/PDF và nguồn có thể sửa. scripts/typeset_preview.py là trợ giúp HTML; không coi HTML/PDF xem trước là file in đã duyệt.",
       "evidence": [],
-      "last_note": "Reopen: Sửa khoảngtrắng cuối storyboard và lỗiđánhmáy trước push; giữ evidencev001",
+      "last_note": "Coordinator does not execute agent_b tasks",
       "page": 27,
-      "block_reason": ""
+      "block_reason": "Delegated to agent_b; authoritative queue:10_agent_workflow/parallel/agent_b/production_state.json"
     },
     {
       "id": "PAGE27_QA",
       "kind": "qa",
       "title": "Trang27: kiểm nguồn/mỹ thuật/chữ/khổ",
-      "status": "todo",
+      "status": "blocked",
       "depends_on": [
         "PAGE27_LAYOUT"
       ],
       "instructions": "Mở ảnh render ở kích thước đọc thật và zoom100%; so với scan, sheet, text đã khóa. Kiểm bốn lớp historical/art/language/print_geometry. Ghi lỗi cụ thể và sửa về đúng bước. Báo cáo pass chỉ khi có artifact thực và không còn lỗi trong phạm vi; đây là QA của agent, không phải chủ dự án duyệt.",
       "evidence": [],
-      "last_note": "Reopen: Sửa khoảngtrắng cuối storyboard và lỗiđánhmáy trước push; giữ evidencev001",
+      "last_note": "Coordinator does not execute agent_b tasks",
       "page": 27,
-      "block_reason": ""
+      "block_reason": "Delegated to agent_b; authoritative queue:10_agent_workflow/parallel/agent_b/production_state.json"
     },
     {
       "id": "PAGE28_TEXT",
       "kind": "text",
       "title": "Trang28: đối chiếu và khóa chữ",
-      "status": "todo",
+      "status": "blocked",
       "depends_on": [
         "DESIGN_BASELINE",
         "SOURCE_EPILOGUE"
       ],
       "instructions": "Đọc nguyên cảnh và nguồn scan; sửa các câu cường điệu/không có căn cứ, giữ giọng hào hùng 13–16 tuổi. Đếm thật 35–65 tiếng theo khoảng trắng, không dùng số từ ghi trong tiêu đề làm chứng cứ. Chép đủ thoại vào text.v001.json, giữ **từ khóa**; ghi nguồn, template và hash storyboard. Khóa chữ sau khi kiểm. Nếu sửa toàn file storyboard về sau, rà lại các text đã khóa theo hash mới.",
       "evidence": [],
-      "last_note": "Reopen: Sửa khoảngtrắng cuối storyboard và lỗiđánhmáy trước push; giữ evidencev001",
+      "last_note": "Coordinator does not execute agent_b tasks",
       "page": 28,
-      "block_reason": ""
+      "block_reason": "Delegated to agent_b; authoritative queue:10_agent_workflow/parallel/agent_b/production_state.json"
     },
     {
       "id": "PAGE28_ART",
       "kind": "art",
       "title": "Trang28: tạo và kiểm tranh nền",
-      "status": "todo",
+      "status": "blocked",
       "depends_on": [
         "PAGE28_TEXT"
       ],
       "instructions": "Lấy text đã khóa từ evidence bước TEXT. Xem các sheet liên quan; soạn prompt cuối theo cảnh, ghi actual_references và hash. Tạo ảnh bằng công cụ sinh ảnh, nền không chữ, không bóng thoại, chừa20% đỉnh; dùng đúng A/B/C. Kiểm mặt, phục trang, tay/chân/vũ khí và hành động. Lưu PNG native có phiên bản và metadata theo templates/RAW_IMAGE_METADATA.json. Không resize rồi khai native300DPI.",
       "evidence": [],
-      "last_note": "Reopen: Sửa khoảngtrắng cuối storyboard và lỗiđánhmáy trước push; giữ evidencev001",
+      "last_note": "Coordinator does not execute agent_b tasks",
       "page": 28,
-      "block_reason": ""
+      "block_reason": "Delegated to agent_b; authoritative queue:10_agent_workflow/parallel/agent_b/production_state.json"
     },
     {
       "id": "PAGE28_LAYOUT",
       "kind": "layout",
       "title": "Trang28: ghép chữ và bố cục",
-      "status": "todo",
+      "status": "blocked",
       "depends_on": [
         "PAGE28_ART"
       ],
       "instructions": "Dùng nguyên text đã khóa và tranh đã kiểm. Ghép khung giấy cổ, tô đỏ #C81E1E cho **...**, đặt đủ thoại/đuôi bóng đúng người. Khổ196×246/trim190×240. Dùng layout_tokens, đo tràn chữ bằng renderer thật; xuất bản xem PNG/PDF và nguồn có thể sửa. scripts/typeset_preview.py là trợ giúp HTML; không coi HTML/PDF xem trước là file in đã duyệt.",
       "evidence": [],
-      "last_note": "Reopen: Sửa khoảngtrắng cuối storyboard và lỗiđánhmáy trước push; giữ evidencev001",
+      "last_note": "Coordinator does not execute agent_b tasks",
       "page": 28,
-      "block_reason": ""
+      "block_reason": "Delegated to agent_b; authoritative queue:10_agent_workflow/parallel/agent_b/production_state.json"
     },
     {
       "id": "PAGE28_QA",
       "kind": "qa",
       "title": "Trang28: kiểm nguồn/mỹ thuật/chữ/khổ",
-      "status": "todo",
+      "status": "blocked",
       "depends_on": [
         "PAGE28_LAYOUT"
       ],
       "instructions": "Mở ảnh render ở kích thước đọc thật và zoom100%; so với scan, sheet, text đã khóa. Kiểm bốn lớp historical/art/language/print_geometry. Ghi lỗi cụ thể và sửa về đúng bước. Báo cáo pass chỉ khi có artifact thực và không còn lỗi trong phạm vi; đây là QA của agent, không phải chủ dự án duyệt.",
       "evidence": [],
-      "last_note": "Reopen: Sửa khoảngtrắng cuối storyboard và lỗiđánhmáy trước push; giữ evidencev001",
+      "last_note": "Coordinator does not execute agent_b tasks",
       "page": 28,
-      "block_reason": ""
+      "block_reason": "Delegated to agent_b; authoritative queue:10_agent_workflow/parallel/agent_b/production_state.json"
     },
     {
       "id": "FRONT_ART",
@@ -3192,7 +3290,7 @@
       ],
       "instructions": "Dùng pagination.json và print_profile đã chốt. Xuất riêng reading.pdf và print.pdf; file ruột32trang, bìa trải theo gáy thực tế. Kiểm PDF Media/Trim/BleedBox, nhúng font, độ phân giải hiệu dụng và ICC theo nhà in; tạo delivery_manifest.json chứa hash mọi file. Không tự đặt PRINT_READY khi mới gắnDPI.",
       "evidence": [],
-      "last_note": "Reopen: User rejects modern white rounded box; create illustrated lettered cloud matching warm ink-watercolor scene",
+      "last_note": "Reopen: User10Nov rejects white UI speech; coordinator must draw cloud+lettering together, preserve old layout, verify and finish new version.",
       "block_reason": ""
     },
     {
@@ -3205,7 +3303,7 @@
       ],
       "instructions": "Chạy check --release sau khi các bước khác xong (trước RELEASE sẽ báo chưa hoàn tất là đúng). Mở toàn bộ32 trang ruột và4 mặt bìa; kiểm lỗi, file sửa được, manifesthash, nguồn/quyền, QA và hướng dẫn nhà in. Hoàn tất report RELEASE rồi chạy check --release phải đạt. Push main và đối chiếu SHA remote. Chỉ phát hành đúng phạm vi người dùng giao, không tự xuất bản thương mại.",
       "evidence": [],
-      "last_note": "Reopen: User rejects modern white rounded box; create illustrated lettered cloud matching warm ink-watercolor scene",
+      "last_note": "Reopen: User10Nov rejects white UI speech; coordinator must draw cloud+lettering together, preserve old layout, verify and finish new version.",
       "block_reason": ""
     }
   ],
@@ -4685,6 +4783,48 @@
       "task": "PAGE12_QA",
       "action": "finish",
       "note": "Opened full renderv003 and native lettered-cloud PNG. Exact PhạmDanhHương quote checked visibly including every Vietnamese accent;3lines entirely within organic ink/ivory cloud. Short curved tail reaches mouth corner, eyes/hand/whisk clear. Warm pigment matches lower wooden room. Narration remains vector4lines/6redspans; geometry and safe zone pass. Visible dialogue is image lettering; text extraction is not evidence for its spelling. Exact editable source text/prompt and separate movable cloud retained. User approval absent, not print-ready."
+    },
+    {
+      "at": "2026-11-10T02:39:21+00:00",
+      "task": "PAGE03_LAYOUT",
+      "action": "reopen",
+      "note": "User10Nov rejects white UI speech; coordinator must draw cloud+lettering together, preserve old layout, verify and finish new version."
+    },
+    {
+      "at": "2026-11-10T02:39:21+00:00",
+      "task": "PAGE04_LAYOUT",
+      "action": "reopen",
+      "note": "User10Nov rejects white UI speech; coordinator must draw cloud+lettering together, preserve old layout, verify and finish new version."
+    },
+    {
+      "at": "2026-11-10T02:39:21+00:00",
+      "task": "PAGE06_LAYOUT",
+      "action": "reopen",
+      "note": "User10Nov rejects white UI speech; coordinator must draw cloud+lettering together, preserve old layout, verify and finish new version."
+    },
+    {
+      "at": "2026-11-10T02:39:21+00:00",
+      "task": "PAGE07_LAYOUT",
+      "action": "reopen",
+      "note": "User10Nov rejects white UI speech; coordinator must draw cloud+lettering together, preserve old layout, verify and finish new version."
+    },
+    {
+      "at": "2026-11-10T02:39:21+00:00",
+      "task": "PAGE09_LAYOUT",
+      "action": "reopen",
+      "note": "User10Nov rejects white UI speech; coordinator must draw cloud+lettering together, preserve old layout, verify and finish new version."
+    },
+    {
+      "at": "2026-11-10T02:39:21+00:00",
+      "task": "PAGE10_LAYOUT",
+      "action": "reopen",
+      "note": "User10Nov rejects white UI speech; coordinator must draw cloud+lettering together, preserve old layout, verify and finish new version."
+    },
+    {
+      "at": "2026-11-10T02:39:21+00:00",
+      "task": "PAGE11_LAYOUT",
+      "action": "reopen",
+      "note": "User10Nov rejects white UI speech; coordinator must draw cloud+lettering together, preserve old layout, verify and finish new version."
     }
   ]
 }

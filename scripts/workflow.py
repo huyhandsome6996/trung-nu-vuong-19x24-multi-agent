@@ -66,9 +66,20 @@ def ready(state, task):
     return all(task_by_id(state, d)['status'] == 'done' for d in task['depends_on'])
 
 
+def delegated_lane(task):
+    if STATE != '10_agent_workflow/production_state.json':
+        return None
+    manifest = ROOT / '10_agent_workflow/parallel/assignments.json'
+    if manifest.exists():
+        for lane, data in json.loads(manifest.read_text())['lanes'].items():
+            if task.get('page') in data['pages']:
+                return lane
+    return None
+
+
 def choose(state):
-    active = [t for t in state['tasks'] if t['status'] == 'in_progress']
-    return (active or [t for t in state['tasks'] if t['status'] == 'todo' and ready(state, t)] or [None])[0]
+    active = [t for t in state['tasks'] if t['status'] == 'in_progress' and not delegated_lane(t)]
+    return (active or [t for t in state['tasks'] if t['status'] == 'todo' and not delegated_lane(t) and ready(state, t)] or [None])[0]
 
 
 def story(page):
@@ -137,7 +148,7 @@ def packet(state, task):
             rel = os.path.relpath(ROOT / ref['path'], out)
             text += f"- [{ref['board']}]({rel}): `{ref['path']}`\n"
         text += '\nreference_candidates.json là danh sách ứng viên, không phải tuyên bố mọi ảnh đã truyền cho công cụ. Ghi lại ảnh thực dùng trong metadata. Mở từng ảnh để kiểm mặt/vị trí trước khi tạo.\n'
-        text += '\nCác tệp của bước trước nằm trong evidence của dependencies tại production_state.json. Không tạo lại chữ/ảnh đã khóa.\n'
+        text += f'\nCác tệp của bước trước nằm trong evidence của dependencies tại `{STATE}`. Không tạo lại chữ/ảnh đã khóa.\n'
     text += '\n## Tiêu chí bàn giao\n\n'
     text += '\n'.join('- ' + k + ': kiểm thật và ghi pass khi có bằng chứng.' for k in REQUIRED.get(task['kind'], []))
     text += '\n\nCopy report.template.json thành report.v001.json, điền reviewer, summary, reviewed_at, artifacts (đường dẫn từ gốc repo), checks và open_issues. Không sửa template thành báo cáo pass.\n'
@@ -258,6 +269,8 @@ def check(state):
 
 def mutate(state, task, args):
     command = args.command
+    if delegated_lane(task):
+        raise ValueError('Delegated task: use scripts/parallel_workflow.py --lane ' + delegated_lane(task))
     if command == 'start':
         if task['status'] != 'todo' or not ready(state, task):
             raise ValueError('Task must be todo with all dependencies done')
@@ -349,6 +362,8 @@ def main():
     task = task_by_id(state, args.task) if args.task else choose(state)
     if task is None:
         raise ValueError('Unknown task or no executable task')
+    if delegated_lane(task):
+        raise ValueError('Delegated task: use scripts/parallel_workflow.py --lane ' + delegated_lane(task))
     if args.command == 'packet':
         packet(state, task)
     else:

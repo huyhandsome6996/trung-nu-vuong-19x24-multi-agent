@@ -1,0 +1,74 @@
+{
+  "version": 1,
+  "authorization": "User explicitly requested two additional ChatGPT agents on10Nov2026; updated speech style applies to all dialogue.",
+  "repository": "https://github.com/huyhandsome6996/trung-nu-vuong-19x24-multi-agent",
+  "branch": "main",
+  "coordinator": {
+    "pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "other_scope": [
+      "legacy speech restyle01–12",
+      "four cover faces",
+      "four ancillary pages",
+      "common tools/design",
+      "global state/logs",
+      "integration and final assembly"
+    ]
+  },
+  "lanes": {
+    "agent_a": {
+      "pages": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "label": "Agent A — pages14–20"
+    },
+    "agent_b": {
+      "pages": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28
+      ],
+      "label": "Agent B — pages21–28"
+    }
+  },
+  "shared_files_read_only_for_lanes": [
+    "AGENTS.md",
+    "START_HERE.md",
+    "scripts/",
+    "03_storyboards_and_scripts/",
+    "07_reference_assets/",
+    "09_design_system/",
+    "08_project_memory/",
+    "10_agent_workflow/production_state.json",
+    "10_agent_workflow/parallel/assignments.json",
+    "final_book_19x24/source/fonts/"
+  ],
+  "no_branches_or_prs": true,
+  "no_force_push": true,
+  "preserve_old_versions": true,
+  "source_and_design_change_requests": "Write a request in own lane folder; continue independent work. Do not mutate shared files."
+}

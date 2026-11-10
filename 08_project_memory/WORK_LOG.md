@@ -158,3 +158,10 @@ timezone: "Asia/Ho_Chi_Minh"
 - User rejects modern white rounded rectangles and straight tails. Created actual RGBA lettered-cloud artwork with image_gen:2172×724px, matching warm ink/watercolor scene. Exact3-line Vietnamese quote manually verified.
 - NewPAGE12_LAYOUT/QA v003 use separate editable-placement SVG and native cloud with lettering already drawn inside; raw illustration remains textfree. Oldv002 retained. Caption unchanged, tail onmouthcorner and faces/hands unobscured. Not user-approved/print-ready.
 - Parallel handoff being prepared under new user authorization: coordinator01–13/covers/matter/assembly, A14–20, B21–28. Per-lane progress/logs and staged-path gate will prevent shared-file editing.
+
+## 2026-11-10 — Two external agents, disjoint main-only publication
+
+- Saved exact handoff prompts: AgentA14–20, AgentB21–28. Coordinator retains01–13, legacy speech restyle, covers/matter/assembly and shared files. Delegated unfinished global tasks are blocked with lane pointers; each lane has its own queue, logs and immutable prerequisite evidence.
+- Added file-scope guard, guarded staging, main-only fetch/rebase/push retry and matching-head verification. Shared source/design/registry/fonts/tools are read-only to lanes. Agents cannot mutate global tasks through the standard queue. Coordinator imports only a completed, verified lane.
+- Ran15 tests successfully, including a real bare Git remote and two independent clones publishing commits from the same base; both results survived the rebase and only main existed. Scope/deletion/foreign-file and full dependency-graph checks passed. check_repo and both lane evidence checks passed. This does not replace content/visual QA or protect against an agent deliberately bypassing the workflow.
+- Reopened LAYOUT/QA03,04,06,07,09,10,11 for the newly requested illustrated lettering. Old12-page PDF is a historical draft; PAGE12v003 is the corrected sample. PAGE13_ART paused before generation while user feedback/handoff was handled; no background image job is claimed.

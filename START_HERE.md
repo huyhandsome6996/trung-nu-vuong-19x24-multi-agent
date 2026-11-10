@@ -1,5 +1,7 @@
 # Bắt đầu ở đây — một repo, một nhánh main
 
+> Đợt song song10/11/2026: AgentA/B đọc `10_agent_workflow/parallel/README.md` và `PROMPT.md` trong lane trước khi chạy lệnh. Dùng `scripts/parallel_workflow.py --lane agent_a|agent_b`; state/log chung dành cho coordinator.
+
 Đây là lối vào hiện hành cho mọi agent. Người dùng yêu cầu ngày 09/11/2026 gộp toàn bộ công việc vào **main**, tiếp quản bằng file và làm từ A–Z. Một agent có thể lần lượt đảm nhiệm sáu vai trò; không bắt buộc khởi tạo sáu agent.
 
 ## Clone rồi chạy

@@ -1,0 +1,47 @@
+Bạn là AGENT_A của dự án truyện minh họa TRƯNG NỮ VƯƠNG19×24cm, dành cho lớp8–10. Tôi giao bạn hoàn thành RIÊNG trang14–20; bắt đầu sản xuất ngay. Coordinator giữ01–13, sửa thoại cũ, bìa, trang phụ và ghép sách; agent còn lại có phạm vi khác. Không tự mở rộng việc.
+
+Repository: https://github.com/huyhandsome6996/trung-nu-vuong-19x24-multi-agent
+Làm trực tiếp trên main, không nhánh/PR. PAT tôi cung cấp riêng chỉ dùng trong tiến trình Git, không lưu vào repo, URL hay nhật ký.
+
+Đọc AGENTS.md → START_HERE.md → 10_agent_workflow/parallel/README.md → assignments.json → PROMPT.md của lane → WORKFLOW_A_TO_Z.md → WORK_LOG riêng → SOURCE_DECISIONS.md → SPEECH_STYLE_V2.md. Quy trình lane là phân công hiện hành được chủ dự án cho phép; không dùng queue/global log cũ để nhận việc của người khác.
+
+Tạo clone RIÊNG theo tên bên dưới; không dùng clone/index của coordinator hay agent kia. Cài requirements, chạy doctor, check_repo, status, next và packet bằng CLI lane. Tiếp tục việc đủ điều kiện trong phạm vi đến khi hết lô, không dừng ở kế hoạch, không chờ duyệt từng trang.
+
+Sản xuất TEXT→ART→LAYOUT→QA. Chữ đã done có evidence thì dùng lại; chữ chưa khóa phải đối chiếu scan,35–65tiếng lời dẫn, giữ keyword và đủ nguyên văn thoại. Xem trực tiếp pixel ảnh baseline và hồ sơ nhân vật trước khi sinh; dùng công cụ ảnh thật, lưu prompt thực/actual_references+SHA và native pixels, không bịa kết quả.
+
+YÊU CẦU MỸ THUẬT MỚI: bóng thoại và chữ Việt phải được VẼ CÙNG NHAU, hợp nét mực/màu nước và ánh sáng bối cảnh; hình mây/oval organic, đuôi ngắn cong đến đúng góc miệng, chữ rõ đủ dấu nằm gọn bên trong. Xem mẫu PAGE12_v003 và SPEECH_STYLE_V2.md. Không dùng hộp trắng bo góc kiểu UI, không đặt chữ sans-serif máy móc lên hình trắng. Có thể sinh asset RGBA chứa cả khung+chữ, đặt như một thành phần trong SVG/PDF; kiểm từng chữ/dấu trên ảnh. Tranh thô giữ riêng sạch chữ; lời dẫn giấy cổ, chữ đen và keyword đỏ#C81E1E theo layout_tokens. Không che mặt/tay/vũ khí, không kéo méo ảnh. Trim190×240mm,bleed196×246mm; không gọi ảnh145DPI thành300DPI.
+
+CHỐNG ĐỤNG FILE: chỉ ghi task/art/proof/source/reading của đúng trang được giao và thư mục lane riêng theo README. Nhật ký và kinh nghiệm ghi vào WORK_LOG.md/LESSONS_LEARNED.md của lane. Không sửa production_state/WORK_LOG/LESSONS chung, storyboard, scan, registry, design, font, script chung, assignments hay trang người khác. Cần thay công cụ/nguồn dùng chung thì ghi yêu cầu trong lane và tiếp tục việc độc lập. Giữ bản cũ, tạo version mới. Thiếu công cụ thì block đúng task, không giả QA.
+
+Sau MỖI kết quả nhỏ, checkpoint kèm file/lỗi/bước tiếp; stage/publish bằng lệnh dưới. Không git add .; không force-push/reset --hard, không tự giải conflict bằng ours/theirs. Publish đã có gate quyền file và fetch/rebase/retry, tự đối chiếu SHA local/remote. Truyền PAT qua biến môi trường tiến trình TNV_GIT_TOKEN nếu môi trường chưa có credential; tuyệt đối không ghi token vào file. Nếu conflict thật ngoài dự kiến, giữ commit và báo trong lane; không sửa file người khác.
+
+Chỉ ghi agent đã QA, không tự ghi USER_APPROVED/PRINT_READY. Khi hoàn tất lô: ghi HANDOFF.md trong lane, liệt kê từng trang/version/file/SHA, kết quả QA và blocker; lane check phải pass. Không ghép sách toàn bộ và không nhập state chung, coordinator sẽ kiểm rồi tích hợp.
+
+Lưu ý nguồn: trang14 bỏ khẳng định tuyệt đối vĩ đại nhất; trang15 diễn ra sau hơn10ngày, không xử tử lại; trang16 scan ghi hơn100thuyền16mái chèo, KHÔNG160thuyền, đúng8voi đực da xám/ngà trắng; ĐôNăngTế là nam có râu, Nhị lam sẫm. Trang17 bài vị phải được ghép chữ đọc được riêng; trang18 giữ đủ toàn bộ lời hịch đã khóa. Trang19 là huyền tích27củ huyết sâm, không khẳng định trẻ dùng hết27củ; trang20 có7bộ tộc PhượngHoàng, không dùng17tộc MêLinh.
+
+Lệnh khởi động (chạy từ gốc clone sau khi cd):
+
+```bash
+git clone --branch main --single-branch https://github.com/huyhandsome6996/trung-nu-vuong-19x24-multi-agent.git tnv-agent-a
+cd tnv-agent-a
+python -m pip install -r requirements.txt
+python scripts/parallel_workflow.py --lane agent_a doctor
+python scripts/check_repo.py
+python scripts/parallel_workflow.py --lane agent_a status
+python scripts/parallel_workflow.py --lane agent_a next
+python scripts/parallel_workflow.py --lane agent_a packet PAGE14_ART
+```
+
+Mỗi bước dùng start/checkpoint/finish qua CLI này; thay TASK_ID và đường dẫn evidence bằng file thật:
+
+```bash
+python scripts/parallel_workflow.py --lane agent_a start TASK_ID --owner agent_a --note "Nguồn và đầu ra cần làm"
+python scripts/parallel_workflow.py --lane agent_a checkpoint TASK_ID --note "Đã có file nào; lỗi còn lại; bước tiếp"
+python scripts/parallel_workflow.py --lane agent_a finish TASK_ID --evidence PATH_TO_REPORT --note "Đã kiểm thật"
+python scripts/parallel_workflow.py --lane agent_a check
+python scripts/parallel_workflow.py --lane agent_a guard
+python scripts/parallel_workflow.py --lane agent_a stage
+python scripts/parallel_workflow.py --lane agent_a publish --message "agent_a: checkpoint trang được giao"
+```
+
+Đầu ra cuối của bạn: toàn bộ trang14–20 đã qua4bước, đủ raw/speech art/meta/prompt/source SVG/PDF/preview/QA và HANDOFF.md, đã push main/đối chiếu SHA. Tiếp tục việc đang dở của chính lane nếu đổi phiên; không tạo lại phần done hợp lệ.
