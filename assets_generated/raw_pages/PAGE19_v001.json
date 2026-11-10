@@ -1,0 +1,38 @@
+{
+  "image": "assets_generated/raw_pages/PAGE19_v001.png",
+  "version": "v001",
+  "native_size_px": [
+    1122,
+    1402
+  ],
+  "sha256": "6abcc711261b826979724c831e8caf50401e9d41f61d2658322eb4d13ec1da6d",
+  "prompt": "Use case: historical-scene / illustration-story. Production PAGE19 Vietnamese historical-legend illustrated book age13–16, portrait4:5, mature sharp ink outlines/crosshatching with luminous restrainedwatercolor, match reference faces and materials. TWO horizontal panels, slim white seam y55%. TOP22% entire canvas quiet misty pale sky without people/objects/importantcliffs, for narrator typeset later. No lettering, balloons, captions, watermark, modern objects or gore.\nUPPER panel y24–54%: explicit legendary flashback at stormy ĐằngGiang coast. NguyễnHuyền ref2LEFT long thin kind face, beard, beige healer robe/graygreen outerlayer and herbal satchel, appears somewhat younger than present without changing identity. He braces both boots on wide secure rock ledges, one hand grips rock, other gathers a few clearly RED ginseng roots from lush cliff crack, surf and distant lightning below. No perilous floating body or dangling feet; natural attached limbs. Roots shape/color match ref4TOProwthirdcell. Only representative roots visible, not claiming all27 counted. No baby and no ingestion.\nLOWER panel y57–100%:17yearold ThánhThiên ref1 exact shortovalface/straightbrows/braid but BEFORE father'sdeath, plain darkGREEN practical tunic/brown belt, modest ivory underlayer and boots; NO mourningband, NO heavy commandarmor. Rides a BLACK horse ref5TOPLEFT with simple historical saddle at a steady trot, horse fullbody ALL4legs/hooves visible inside x10–90%,y65–94%, girl headbelowy60%. She practices archery toward an empty strawtarget at far right; one arrow only, bow held left hand, right hand draws nock near cheek, one continuous bowstring from upperbowtip through arrow nock to lowerbowtip, mechanically correct, no arrow through fingers. Keep hands/bow large enough to inspect. Forest foothills PhượngHoàng, herbal basket/cloth pouches on rock near lowerleft recall healing household, no additional scene split. Dynamic but grounded natural anatomy, show complete horse and girl with margins. Ref3BOTTOM coast applies upper, green woods lower. Wholepage no text or speechcloud.",
+  "actual_references": [
+    {
+      "path": "assets_generated/design_system/CHAR04_v001.png",
+      "sha256": "9f8a680e8c7fbb9c5b79bb8bbfe5802459342af9255f28c75de512c31126d5cb"
+    },
+    {
+      "path": "assets_generated/design_system/CHAR06_v001.png",
+      "sha256": "076798401ff1f15f935f7b0a3e67258d340f5949a32e26154976e442e8ce7976"
+    },
+    {
+      "path": "assets_generated/design_system/ENV03_v001.png",
+      "sha256": "fd58bd1e71c22e4bec7a0f54bb9ec6cec0b15ab0da5e0c8979c26e95bad6b929"
+    },
+    {
+      "path": "assets_generated/design_system/PROP03_v002.png",
+      "sha256": "bbe1fda90f147b08edfcffb67ddb2b263e0c3cda760b72d194432a312265200a"
+    },
+    {
+      "path": "assets_generated/design_system/ANIMAL01_v001.png",
+      "sha256": "7dd2569d6c8bc3a6b78f11a588f82d2a26f7032b141fa702f9965240f6e28cf6"
+    }
+  ],
+  "generator": "image_gen.imagegen (model not exposed)",
+  "text_free": true,
+  "top_clearance_checked": true,
+  "visual_qa_report": "10_agent_workflow/tasks/PAGE19_ART/VISUAL_REVIEW.v001.md",
+  "user_approved": false,
+  "print_ready": false
+}

@@ -1,0 +1,39 @@
+{
+  "renderer_snapshot": "10_agent_workflow/parallel/agent_a/render_page.v002.py",
+  "base_art": true,
+  "gutter_mm": [
+    137.6,
+    2.5
+  ],
+  "art_panels": [
+    {
+      "source_crop_px": [
+        0,
+        280,
+        1122,
+        790
+      ],
+      "bbox_mm": [
+        -3,
+        48.5,
+        196,
+        89.0909090909091
+      ]
+    },
+    {
+      "source_crop_px": [
+        0,
+        795,
+        1122,
+        1402
+      ],
+      "bbox_mm": [
+        -3,
+        140.1,
+        196,
+        106.03565062388591
+      ]
+    }
+  ],
+  "dialogues": []
+}

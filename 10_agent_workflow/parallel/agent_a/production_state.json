@@ -910,55 +910,156 @@
       "id": "PAGE19_ART",
       "kind": "art",
       "title": "Trang19: tạo và kiểm tranh nền",
-      "status": "in_progress",
+      "status": "done",
       "depends_on": [
         "PAGE19_TEXT"
       ],
       "instructions": "Lấy text đã khóa từ evidence bước TEXT. Xem các sheet liên quan; soạn prompt cuối theo cảnh, ghi actual_references và hash. Tạo ảnh bằng công cụ sinh ảnh, nền không chữ, không bóng thoại, chừa20% đỉnh; dùng đúng A/B/C. Kiểm mặt, phục trang, tay/chân/vũ khí và hành động. Lưu PNG native có phiên bản và metadata theo templates/RAW_IMAGE_METADATA.json. Không resize rồi khai native300DPI.",
-      "evidence": [],
-      "last_note": "Textlocked; activeCHAR04/06,ENV03,PROP03,ANIMAL01pixelsopened; create2flashbackpanels",
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/PAGE19_ART/report.v001.json",
+          "sha256": "b5b59aa68281af36a108164ceb2c22b95e50b4fd5ef533ecad1f20c75413e47c"
+        },
+        {
+          "path": "assets_generated/raw_pages/PAGE19_v001.png",
+          "sha256": "6abcc711261b826979724c831e8caf50401e9d41f61d2658322eb4d13ec1da6d"
+        },
+        {
+          "path": "assets_generated/raw_pages/PAGE19_v001.json",
+          "sha256": "6ad09a74d13d970c5ff97cec379cced7fbeb4249870ff02204c08c573276b56a"
+        },
+        {
+          "path": "10_agent_workflow/tasks/PAGE19_ART/generation_request.v001.json",
+          "sha256": "f2b46f43c0546113bce0e8dc57e268dba419b60503e7426122087a2d90d63abe"
+        },
+        {
+          "path": "10_agent_workflow/tasks/PAGE19_ART/VISUAL_REVIEW.v001.md",
+          "sha256": "221229873c63f5f9caa7ebcc68ee8f92471d3c844c5c8f798b108f831c1de817"
+        }
+      ],
+      "last_note": "References/source/anatomy checked actualpixels",
       "page": 19,
       "owner": "agent_a",
-      "updated_at": "2026-11-10T08:38:23+00:00"
+      "updated_at": "2026-11-10T08:43:20+00:00"
     },
     {
       "id": "PAGE19_LAYOUT",
       "kind": "layout",
       "title": "Trang19: ghép chữ và bố cục",
-      "status": "todo",
+      "status": "done",
       "depends_on": [
         "PAGE19_ART"
       ],
       "instructions": "Dùng nguyên text đã khóa và tranh đã kiểm. Ghép khung giấy cổ, tô đỏ #C81E1E cho **...**, đặt đủ thoại/đuôi bóng đúng người. Khổ196×246/trim190×240. Dùng layout_tokens, đo tràn chữ bằng renderer thật; xuất bản xem PNG/PDF và nguồn có thể sửa. scripts/typeset_preview.py là trợ giúp HTML; không coi HTML/PDF xem trước là file in đã duyệt.",
-      "evidence": [],
-      "last_note": "",
-      "page": 19
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/PAGE19_LAYOUT/report.v001.json",
+          "sha256": "633df06250e0ea75c199339c80c145faa9379a860bbecdbdc59a6e0f8832a8dc"
+        },
+        {
+          "path": "final_book_19x24/source/PAGE19_v001.svg",
+          "sha256": "8417c23cc086c00154a93da8c0f25446b3ee1a52bcd2d60f05fc05528c514194"
+        },
+        {
+          "path": "final_book_19x24/source/PAGE19_placement.v001.json",
+          "sha256": "b3c016026fc6c9847e0b625879f7a1fd21b836eae985eb3d645f5e527a2d94dc"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE19_v001.pdf",
+          "sha256": "bb50218de1035fc991a446e3d9bda31cdfeadb06bc545e4b79ad4934ac84e088"
+        },
+        {
+          "path": "final_book_19x24/reading/PAGE19_v001.pdf",
+          "sha256": "3eddc1495d7dc3fba770d8747ef0a7927665ff945db6db884cf0e85936c0b828"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE19_v001.png",
+          "sha256": "8ab40dd775f1ce79d4f0567e25aa90d025d3e7c9033b437d491d59f27d6ef949"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE19_v001.json",
+          "sha256": "ecf8fe35f87ea2a2870a212732b82b61b9b88792f33f12c749030c9ca01658e2"
+        },
+        {
+          "path": "10_agent_workflow/parallel/agent_a/PAGE19_technical.v001.json",
+          "sha256": "3ce0383f09dca95d68109268cf5b268a2c3cc2d41dc076fe4b6755ff69ffc911"
+        },
+        {
+          "path": "10_agent_workflow/parallel/agent_a/render_page.v002.py",
+          "sha256": "ba6c49cd50171c7ae743cc28bd7a919c27aa58082279bea51cd08ff75ff00b85"
+        }
+      ],
+      "last_note": "Actual visual and technical checks passed",
+      "page": 19,
+      "owner": "agent_a",
+      "updated_at": "2026-11-10T08:44:05+00:00"
     },
     {
       "id": "PAGE19_QA",
       "kind": "qa",
       "title": "Trang19: kiểm nguồn/mỹ thuật/chữ/khổ",
-      "status": "todo",
+      "status": "done",
       "depends_on": [
         "PAGE19_LAYOUT"
       ],
       "instructions": "Mở ảnh render ở kích thước đọc thật và zoom100%; so với scan, sheet, text đã khóa. Kiểm bốn lớp historical/art/language/print_geometry. Ghi lỗi cụ thể và sửa về đúng bước. Báo cáo pass chỉ khi có artifact thực và không còn lỗi trong phạm vi; đây là QA của agent, không phải chủ dự án duyệt.",
-      "evidence": [],
-      "last_note": "",
-      "page": 19
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/PAGE19_QA/report.v001.json",
+          "sha256": "3f028280cacc1c6e2154e5e7b9366cb559dbd7dfecfe542d62750cfd6ddd3c2d"
+        },
+        {
+          "path": "10_agent_workflow/tasks/PAGE19_LAYOUT/report.v001.json",
+          "sha256": "633df06250e0ea75c199339c80c145faa9379a860bbecdbdc59a6e0f8832a8dc"
+        },
+        {
+          "path": "10_agent_workflow/parallel/agent_a/PAGE19_technical.v001.json",
+          "sha256": "3ce0383f09dca95d68109268cf5b268a2c3cc2d41dc076fe4b6755ff69ffc911"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE19_v001.png",
+          "sha256": "8ab40dd775f1ce79d4f0567e25aa90d025d3e7c9033b437d491d59f27d6ef949"
+        },
+        {
+          "path": "final_book_19x24/reading/PAGE19_v001.pdf",
+          "sha256": "3eddc1495d7dc3fba770d8747ef0a7927665ff945db6db884cf0e85936c0b828"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE19_v001.json",
+          "sha256": "ecf8fe35f87ea2a2870a212732b82b61b9b88792f33f12c749030c9ca01658e2"
+        },
+        {
+          "path": "assets_generated/parallel/agent_a/PAGE19_text_detail_v001.png",
+          "sha256": "6ddda980a2fbfc0430b6c31edbeb3b7f3a1cad41d23e8b79a71fe1dc715959e8"
+        },
+        {
+          "path": "assets_generated/parallel/agent_a/PAGE19_review300_v001.png",
+          "sha256": "7117e439f12e93a90addface62b46ccc333193657effd925cbe16fc10dfd8a1a"
+        },
+        {
+          "path": "assets_generated/parallel/agent_a/PAGE19_bow_detail_v001.png",
+          "sha256": "86bd71ea44b93bf0b526768b14d466fb4878b242b84062b06483353537ecc88d"
+        }
+      ],
+      "last_note": "AGENT_QA complete; not user or print approval",
+      "page": 19,
+      "owner": "agent_a",
+      "updated_at": "2026-11-10T08:44:07+00:00"
     },
     {
       "id": "PAGE20_TEXT",
       "kind": "text",
       "title": "Trang20: đối chiếu và khóa chữ",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "DESIGN_BASELINE"
       ],
       "instructions": "Đọc nguyên cảnh và nguồn scan; sửa các câu cường điệu/không có căn cứ, giữ giọng hào hùng 13–16 tuổi. Đếm thật 35–65 tiếng theo khoảng trắng, không dùng số từ ghi trong tiêu đề làm chứng cứ. Chép đủ thoại vào text.v001.json, giữ **từ khóa**; ghi nguồn, template và hash storyboard. Khóa chữ sau khi kiểm. Nếu sửa toàn file storyboard về sau, rà lại các text đã khóa theo hash mới.",
       "evidence": [],
-      "last_note": "",
-      "page": 20
+      "last_note": "Read actual44–45/book255–256;7PhượngHoàngclans and>4000fighters, preservefulladaptedPH03dialogue",
+      "page": 20,
+      "owner": "agent_a",
+      "updated_at": "2026-11-10T08:44:08+00:00"
     },
     {
       "id": "PAGE20_ART",
@@ -1288,6 +1389,54 @@
       "task": "PAGE19_ART",
       "action": "start",
       "note": "Textlocked; activeCHAR04/06,ENV03,PROP03,ANIMAL01pixelsopened; create2flashbackpanels"
+    },
+    {
+      "at": "2026-11-10T08:43:19+00:00",
+      "task": "PAGE19_ART",
+      "action": "checkpoint",
+      "note": "Actualnativev001 saved, bowstring/arrow/4hooves andlegenddetailsreviewed"
+    },
+    {
+      "at": "2026-11-10T08:43:20+00:00",
+      "task": "PAGE19_ART",
+      "action": "finish",
+      "note": "References/source/anatomy checked actualpixels"
+    },
+    {
+      "at": "2026-11-10T08:43:21+00:00",
+      "task": "PAGE19_LAYOUT",
+      "action": "start",
+      "note": "Apply2uniformpanelplacements andlocked52tokennarration, no dialogue"
+    },
+    {
+      "at": "2026-11-10T08:44:04+00:00",
+      "task": "PAGE19_LAYOUT",
+      "action": "checkpoint",
+      "note": "Actual source/PDF/PNG saved; full page and native lettering visually read; technical checks pass"
+    },
+    {
+      "at": "2026-11-10T08:44:05+00:00",
+      "task": "PAGE19_LAYOUT",
+      "action": "finish",
+      "note": "Actual visual and technical checks passed"
+    },
+    {
+      "at": "2026-11-10T08:44:06+00:00",
+      "task": "PAGE19_QA",
+      "action": "start",
+      "note": "Source/identity/anatomy/Vietnamese and PDF geometry reviewed"
+    },
+    {
+      "at": "2026-11-10T08:44:07+00:00",
+      "task": "PAGE19_QA",
+      "action": "finish",
+      "note": "AGENT_QA complete; not user or print approval"
+    },
+    {
+      "at": "2026-11-10T08:44:08+00:00",
+      "task": "PAGE20_TEXT",
+      "action": "start",
+      "note": "Read actual44–45/book255–256;7PhượngHoàngclans and>4000fighters, preservefulladaptedPH03dialogue"
     }
   ]
 }
