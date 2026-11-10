@@ -13,3 +13,7 @@ Actual1122×1402 output archived. Cast/colors/hands correct; seam too low leaves
 
 ### PAGE15 art v003 accepted
 Actual composition edit returned1122×1402; lower wall now sufficient, identities/hands/source chronology correct. Exact5refs include v002 target. ART passed, LAYOUT started. Next illustrated lettering and matched seam placement.
+
+### PAGE15 LAYOUT/QA v001 complete
+Opened actual fullpage and300DPI detail; all4speech lines and narrator accents read. Source35–39 chronology after10days preserved; correct5cast faces/colors and normal hands; tail indicates right TàoQuyền without crossing others. Narrator4lines,5redphrases, exact fullquote; no overlap. Embedded Noto regular/bold and correct boxes checked; raw144.76DPI/speech353.65DPI. Agent QA only.
+Files: final_book_19x24/source/PAGE15_v001.svg, final_book_19x24/proofs/PAGE15_v001.pdf, final_book_19x24/reading/PAGE15_v001.pdf, final_book_19x24/proofs/PAGE15_v001.png, final_book_19x24/source/PAGE15_placement.v001.json, 10_agent_workflow/tasks/PAGE15_QA/report.v001.json. Next queue task.

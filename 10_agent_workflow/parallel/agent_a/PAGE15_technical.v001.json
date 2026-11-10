@@ -1,0 +1,71 @@
+{
+  "pdf_boxes": "196x246media/bleed;190x240trim",
+  "fonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+NotoSans-Regular              TrueType          WinAnsi          yes yes yes      7  0\nAAAAAA+NotoSans-Bold                 TrueType          WinAnsi          yes yes yes     11  0\n",
+  "png_decoded": true,
+  "metrics": {
+    "page": 15,
+    "version": "v001",
+    "print_ready": false,
+    "user_approved": false,
+    "renderer": "ReportLab / vector text; PDF rendered separately with Poppler",
+    "native_size_px": [
+      1122,
+      1402
+    ],
+    "art_effective_dpi": [
+      144.75934959349595,
+      144.75934959349593
+    ],
+    "crop_mm": [
+      0.4350927246790235,
+      0.0
+    ],
+    "missing_glyphs": [],
+    "boxes": [
+      {
+        "kind": "narration",
+        "bbox_mm": [
+          18,
+          14,
+          154,
+          29
+        ],
+        "font_pt": 12.8,
+        "lines": 4,
+        "text_height_mm": 25.64835555555555,
+        "max_width_mm": 146.84586666666667,
+        "overflow": false
+      }
+    ],
+    "speech_assets": [
+      {
+        "index": 0,
+        "speaker": "Tào Quyền",
+        "asset": "assets_generated/speech_clouds/PAGE15_SPEECH01_v001.png",
+        "sha256": "4d4eca8c9bd219240de7ed7eb8f0ee8191368ee4eb4e37777ef0b2df26510d12",
+        "bbox_mm": [
+          17,
+          126,
+          156,
+          52
+        ],
+        "native_size_px": [
+          2172,
+          724
+        ],
+        "effective_dpi": 353.6461538461538,
+        "visible_text_manually_verified": true,
+        "text": "Xin đại nhân cho hạ quan dẫn sáu trăm quân tinh nhuệ cùng Lục Hiến đi san phẳng núi Phượng Hoàng của con bé Thánh Thiên trước!"
+      }
+    ],
+    "pdf_text_matches": true,
+    "hashes": {
+      "svg": "09691f08133c1e38d4f2eac464ca14824fdec34439e355580f1357f6c4e9f274",
+      "pdf": "4026536f5eaf5d15c1b5ddc3046c48c0db519618a7e9278759202f1d60a091a4",
+      "reading": "1fdf7a2062806d6ee51253c152a227727954f582e4310e80388f5c5179cd845e"
+    }
+  },
+  "visual_review": "Opened actual fullpage and300DPI detail; all4speech lines and narrator accents read. Source35–39 chronology after10days preserved; correct5cast faces/colors and normal hands; tail indicates right TàoQuyền without crossing others. Narrator4lines,5redphrases, exact fullquote; no overlap. Embedded Noto regular/bold and correct boxes checked; raw144.76DPI/speech353.65DPI. Agent QA only.",
+  "user_approved": false,
+  "print_ready": false
+}

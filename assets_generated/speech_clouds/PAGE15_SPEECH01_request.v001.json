@@ -1,0 +1,13 @@
+{
+  "speaker": "Tào Quyền",
+  "text": "Xin đại nhân cho hạ quan dẫn sáu trăm quân tinh nhuệ cùng Lục Hiến đi san phẳng núi Phượng Hoàng của con bé Thánh Thiên trước!",
+  "prompt": "Use case: illustration-story. Draw a standalone organic historical-comic speech cloud WITH ALL LETTERING ALREADY INSIDE, on transparent RGBA background. Reference is actual PAGE15 hall; do not redraw scene. Warm muted clay-ivory paper, soft tan edge, charcoal ink hatching consistent with dark wooden hall. No pure-white UI rectangle, no shiny shadow. Readable humanist serif lettering in dark ink, clear accents, no calligraphy. Wide asset ratio3:1 including short tail. Body takes84%height; ONE short curved tail emerges bottom at x83% and ends below/ slightlyleft toward Tào Quyền, no long triangle. Text EXACTLY,4centered lines, generous innerpadding:\nXin đại nhân cho hạ quan dẫn sáu trăm\nquân tinh nhuệ cùng Lục Hiến đi san phẳng\nnúi Phượng Hoàng của con bé Thánh Thiên\ntrước!\nNo extra text, no quotation marks. Entire locked fictional dialogue must be present with exact accents.",
+  "actual_references": [
+    {
+      "path": "assets_generated/raw_pages/PAGE15_v003.png",
+      "sha256": "0f3bf4b3100be463748809dc67a0f9a73fa9df5aa11c005196a51dcc62b52dad"
+    }
+  ],
+  "generator": "image_gen.imagegen",
+  "transparent_background": true
+}

@@ -271,29 +271,109 @@
       "id": "PAGE15_LAYOUT",
       "kind": "layout",
       "title": "Trang15: ghép chữ và bố cục",
-      "status": "in_progress",
+      "status": "done",
       "depends_on": [
         "PAGE15_ART"
       ],
       "instructions": "Dùng nguyên text đã khóa và tranh đã kiểm. Ghép khung giấy cổ, tô đỏ #C81E1E cho **...**, đặt đủ thoại/đuôi bóng đúng người. Khổ196×246/trim190×240. Dùng layout_tokens, đo tràn chữ bằng renderer thật; xuất bản xem PNG/PDF và nguồn có thể sửa. scripts/typeset_preview.py là trợ giúp HTML; không coi HTML/PDF xem trước là file in đã duyệt.",
-      "evidence": [],
-      "last_note": "ARTv003 accepted; draw full TàoQuyền quote",
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/PAGE15_LAYOUT/report.v001.json",
+          "sha256": "32521913015d3c8def03426ed62e61619e6156975b0a7b71380c7513269ba87b"
+        },
+        {
+          "path": "final_book_19x24/source/PAGE15_v001.svg",
+          "sha256": "09691f08133c1e38d4f2eac464ca14824fdec34439e355580f1357f6c4e9f274"
+        },
+        {
+          "path": "final_book_19x24/source/PAGE15_placement.v001.json",
+          "sha256": "89b5e1944faf3d598aaf50683ad4ad39b5670b20f2cd8438ae6ada3cc36c0899"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE15_v001.pdf",
+          "sha256": "4026536f5eaf5d15c1b5ddc3046c48c0db519618a7e9278759202f1d60a091a4"
+        },
+        {
+          "path": "final_book_19x24/reading/PAGE15_v001.pdf",
+          "sha256": "1fdf7a2062806d6ee51253c152a227727954f582e4310e80388f5c5179cd845e"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE15_v001.png",
+          "sha256": "c59f3039bed7bd39cf97aaeeb02a31930f6f19f5e2f524c64d42e89680ecf574"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE15_v001.json",
+          "sha256": "4b12efc5116051dbfd0d24aea5cc79e137bc5ae11638468ddde9a134fda98a2a"
+        },
+        {
+          "path": "10_agent_workflow/parallel/agent_a/PAGE15_technical.v001.json",
+          "sha256": "2963277e542ecf0c14a85acebbc923ecc52f24239c1061550f315c4e8f84ef35"
+        },
+        {
+          "path": "10_agent_workflow/parallel/agent_a/render_page.v001.py",
+          "sha256": "314b628a5cc0595ee6e38165862b78866c3ada9008ecce9e05cecf07fe135108"
+        },
+        {
+          "path": "assets_generated/speech_clouds/PAGE15_SPEECH01_v001.png",
+          "sha256": "4d4eca8c9bd219240de7ed7eb8f0ee8191368ee4eb4e37777ef0b2df26510d12"
+        },
+        {
+          "path": "assets_generated/speech_clouds/PAGE15_SPEECH01_v001.json",
+          "sha256": "68333f974f058bb7212f9e5e82c63e0d76928b084dbc5ce3a484d055ac7873da"
+        }
+      ],
+      "last_note": "Actual visual and technical checks passed",
       "page": 15,
       "owner": "agent_a",
-      "updated_at": "2026-11-10T07:07:53+00:00"
+      "updated_at": "2026-11-10T07:11:54+00:00"
     },
     {
       "id": "PAGE15_QA",
       "kind": "qa",
       "title": "Trang15: kiểm nguồn/mỹ thuật/chữ/khổ",
-      "status": "todo",
+      "status": "done",
       "depends_on": [
         "PAGE15_LAYOUT"
       ],
       "instructions": "Mở ảnh render ở kích thước đọc thật và zoom100%; so với scan, sheet, text đã khóa. Kiểm bốn lớp historical/art/language/print_geometry. Ghi lỗi cụ thể và sửa về đúng bước. Báo cáo pass chỉ khi có artifact thực và không còn lỗi trong phạm vi; đây là QA của agent, không phải chủ dự án duyệt.",
-      "evidence": [],
-      "last_note": "",
-      "page": 15
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/PAGE15_QA/report.v001.json",
+          "sha256": "8823243f99dea7d3817eff53a403829c3fce27c25b8db2794b1c965d6b255a2c"
+        },
+        {
+          "path": "10_agent_workflow/tasks/PAGE15_LAYOUT/report.v001.json",
+          "sha256": "32521913015d3c8def03426ed62e61619e6156975b0a7b71380c7513269ba87b"
+        },
+        {
+          "path": "10_agent_workflow/parallel/agent_a/PAGE15_technical.v001.json",
+          "sha256": "2963277e542ecf0c14a85acebbc923ecc52f24239c1061550f315c4e8f84ef35"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE15_v001.png",
+          "sha256": "c59f3039bed7bd39cf97aaeeb02a31930f6f19f5e2f524c64d42e89680ecf574"
+        },
+        {
+          "path": "final_book_19x24/reading/PAGE15_v001.pdf",
+          "sha256": "1fdf7a2062806d6ee51253c152a227727954f582e4310e80388f5c5179cd845e"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE15_v001.json",
+          "sha256": "4b12efc5116051dbfd0d24aea5cc79e137bc5ae11638468ddde9a134fda98a2a"
+        },
+        {
+          "path": "assets_generated/parallel/agent_a/PAGE15_review300_v001.png",
+          "sha256": "890730f8abbb53beb71061e23057c6dc494d534096d4adb55bc9360648e8ae02"
+        },
+        {
+          "path": "assets_generated/parallel/agent_a/PAGE15_detail_v001.png",
+          "sha256": "ba55894faa2da0a3a96b8988863add01695d259e42db680a75445d78dd037020"
+        }
+      ],
+      "last_note": "AGENT_QA complete; not user or print approval",
+      "page": 15,
+      "owner": "agent_a",
+      "updated_at": "2026-11-10T07:11:55+00:00"
     },
     {
       "id": "PAGE16_TEXT",
@@ -688,6 +768,30 @@
       "task": "PAGE15_LAYOUT",
       "action": "start",
       "note": "ARTv003 accepted; draw full TàoQuyền quote"
+    },
+    {
+      "at": "2026-11-10T07:11:54+00:00",
+      "task": "PAGE15_LAYOUT",
+      "action": "checkpoint",
+      "note": "Actual source/PDF/PNG saved; full page and native lettering visually read; technical checks pass"
+    },
+    {
+      "at": "2026-11-10T07:11:54+00:00",
+      "task": "PAGE15_LAYOUT",
+      "action": "finish",
+      "note": "Actual visual and technical checks passed"
+    },
+    {
+      "at": "2026-11-10T07:11:55+00:00",
+      "task": "PAGE15_QA",
+      "action": "start",
+      "note": "Source/identity/anatomy/Vietnamese and PDF geometry reviewed"
+    },
+    {
+      "at": "2026-11-10T07:11:55+00:00",
+      "task": "PAGE15_QA",
+      "action": "finish",
+      "note": "AGENT_QA complete; not user or print approval"
     }
   ]
 }

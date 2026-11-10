@@ -1,0 +1,120 @@
+{
+  "page": 15,
+  "matrix": {
+    "page": 15,
+    "template": "B",
+    "characters": [
+      "NV16",
+      "NV17",
+      "NV19",
+      "NV27",
+      "NV28",
+      "NV29"
+    ],
+    "environments": [
+      "E04"
+    ],
+    "props": [
+      "P22"
+    ],
+    "note": "Hoảng loạn, họp chia quân",
+    "status": "NOT_GENERATED"
+  },
+  "identities": [
+    {
+      "id": "NV16",
+      "name": "Tô Định",
+      "board": "CHAR10",
+      "positions": "Trái NV16; giữa NV17; phải NV18"
+    },
+    {
+      "id": "NV17",
+      "name": "Tào Quyền",
+      "board": "CHAR10",
+      "positions": "Trái NV16; giữa NV17; phải NV18"
+    },
+    {
+      "id": "NV19",
+      "name": "Mã Tắc",
+      "board": "CHAR11",
+      "positions": "Trái NV19; phải NV20"
+    },
+    {
+      "id": "NV27",
+      "name": "Sầm Lân",
+      "board": "CHAR14",
+      "positions": "Trái NV27; giữa NV28; phải NV29"
+    },
+    {
+      "id": "NV28",
+      "name": "Sầm Bá",
+      "board": "CHAR14",
+      "positions": "Trái NV27; giữa NV28; phải NV29"
+    },
+    {
+      "id": "NV29",
+      "name": "Độc Cô Tấn",
+      "board": "CHAR14",
+      "positions": "Trái NV27; giữa NV28; phải NV29"
+    },
+    {
+      "id": "E04",
+      "name": "Phủ Tô Định / Luy Lâu",
+      "board": "ENV02",
+      "positions": "Từ trên xuống: E04,E05,E06"
+    },
+    {
+      "id": "P22",
+      "name": "Hổ phù điều binh Tô Định",
+      "board": "PROP02",
+      "positions": "4x3 cells, left-to-right row-major"
+    }
+  ],
+  "candidates": [
+    {
+      "board": "CHAR01",
+      "path": "assets_generated/characters/CHAR_01_Trung_Trac_v001.png",
+      "sha256": "3387a36a801705d08b9eac3dd778aca3533fced07300db8188cd71439eeec3c3"
+    },
+    {
+      "board": "CHAR10",
+      "path": "assets_generated/design_system/CHAR10_v001.png",
+      "sha256": "364e060dc0ed6ec5c5c23dbf7b162301c55f459f62784489f0f07c9b3eb20bfd"
+    },
+    {
+      "board": "CHAR11",
+      "path": "assets_generated/design_system/CHAR11_v001.png",
+      "sha256": "ff898f586e0b7e5b2f12b0dcc0423ee623a5819c154c7b8ca6152eb80d3bb098"
+    },
+    {
+      "board": "CHAR14",
+      "path": "assets_generated/design_system/CHAR14_v001.png",
+      "sha256": "3469610f02f0a5e6de62d638a8ce612daff988cfb343ec5e1a2d66261c5ea68f"
+    },
+    {
+      "board": "ENV02",
+      "path": "assets_generated/design_system/ENV02_v001.png",
+      "sha256": "5395688c5ccad71ee13d9099a003d82fc7cbabee31d761454c7d58c6e05fbd63"
+    },
+    {
+      "board": "PROP02",
+      "path": "assets_generated/design_system/PROP02_v001.png",
+      "sha256": "66b704990f77eed1b67406f057324078b87c2556b2f5d5cbd433b9997ea0d9e0"
+    },
+    {
+      "board": "ANIMAL01",
+      "path": "assets_generated/design_system/ANIMAL01_v001.png",
+      "sha256": "7dd2569d6c8bc3a6b78f11a588f82d2a26f7032b141fa702f9965240f6e28cf6"
+    },
+    {
+      "board": "ARMY01",
+      "path": "assets_generated/design_system/ARMY01_v001.png",
+      "sha256": "4f6b76dea97ac82cefce9338f51faaa00ee2501b3e63cb7197fb0ec4ef903ff7"
+    },
+    {
+      "board": "CHIEFS01",
+      "path": "assets_generated/design_system/CHIEFS01_v001.png",
+      "sha256": "11cfde4cac7fc720bacefc2ac66b390eceeff13a15362f0d4696a8e915ef1f05"
+    }
+  ]
+}

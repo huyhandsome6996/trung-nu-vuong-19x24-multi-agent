@@ -1,0 +1,17 @@
+{
+  "gutter_mm": [
+    115,
+    2.5
+  ],
+  "dialogues": [
+    {
+      "lettered_asset": "assets_generated/speech_clouds/PAGE15_SPEECH01_v001.png",
+      "bbox_mm": [
+        17,
+        126,
+        156,
+        52
+      ]
+    }
+  ]
+}
