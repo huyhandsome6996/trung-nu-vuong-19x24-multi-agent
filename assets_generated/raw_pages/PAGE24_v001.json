@@ -1,0 +1,39 @@
+{
+  "image": "assets_generated/raw_pages/PAGE24_v001.png",
+  "version": "v001",
+  "native_size_px": [
+    1137,
+    1383
+  ],
+  "sha256": "6d9bd4797968a681b87c1de77a5e178f97a090660345e5b74f6923b8807a9703",
+  "prompt": "Use case: illustration-story. PAGE24 clean portrait historical comic196:246, Template B TWO horizontal scenes. Match ink crosshatching/watercolor reference style. Reference1 CHAR15: second man fromleft=Bạch elder shortwhitebeard olive/brown bandana; third=Khúc young clean-shaven teal navy/brown bandana; fourth=Hoàng smallmustache slate-blue/mustard bandana. Do not use firstarcher BạchUy. Ref2 ENV04 middlepanel narrow S-shaped forest rockgorge for TOPscene, bottompanel riverreedbank for BOTTOMscene. Ref3 PROP04 top-left ancient wooden oared craft. Ref4 ARMY01 top-third woodland hunters, topfourth blue rowing men, bottomsecond dark iron Han soldiers. Ref5 PROP01 only compact wooden crossbow design, not oversized bows. Top20percent calm pale forest mist/rock with NO people or weapon tips for caption. TOP panel from20percent to54percent: high angle view into narrow Mãng Xà gorge, a small GROUP of pursuing iron-armored Han soldiers halt and raise empty hands, weapons lowered, trapped by woodland fighters watching from TWO rockledges. Elder Bạch at leftledge with short wooden crossbow HELD LOWERED, stock/barrel/arms/string connected correctly, one hand atstock other supports front; a few hunters with lowered bows/crossbows occupy ledges in green/brown leaf camouflage. All faces distinct. No arrows piercing people, no injuries, no corpses, no invented nets or rockfall in progress. Do NOT depict Tào Quyền, Lục Hiến or Thánh Thiên in gorge, and do NOT depict all600men; only a pursuit detachment. This is a respectful non-graphic illustrative reconstruction of ambush, not a sourced tactical map. Narrow white gutter at54percentheight. BOTTOM scene55–100percent: Khúc atLEFT and Hoàng atRIGHT lead blue-clothed river fighters boarding seized oared boats at reed bank. Both full main faces/hands readable, boatmen surrender unharmed, no wounds. Several boatprows recede outof frame/behind reeds, narration states total30taken, do not cram30near boats or claim everyvessel visible. Captains keep blades sheathed orpointeddown, clear grip. Greenforest/coldgrayrock top, coolriverblue withwarmwood below. No lettering, numbers, captions, speech balloons, cloud shapes or watermark. Mainheads/hands/feet uncut; coherent anatomy/boats/oars.",
+  "actual_references": [
+    {
+      "path": "assets_generated/design_system/CHAR15_v001.png",
+      "sha256": "f170321ae13b2772bb71b09d9c483ebcafeb08fc13792d300b4e6a3d9aedc18e"
+    },
+    {
+      "path": "assets_generated/design_system/ENV04_v001.png",
+      "sha256": "171b30f9e661b6febf962b0f71eaee858967a37f84784db1544b1fdc54d3017a"
+    },
+    {
+      "path": "assets_generated/design_system/PROP04_v002.png",
+      "sha256": "e8eb31e7c6948bb21dc56d43f6d858cce2ba4a99ecf1172f0dec232ffd2441e4"
+    },
+    {
+      "path": "assets_generated/design_system/ARMY01_v001.png",
+      "sha256": "4f6b76dea97ac82cefce9338f51faaa00ee2501b3e63cb7197fb0ec4ef903ff7"
+    },
+    {
+      "path": "assets_generated/design_system/PROP01_v001.png",
+      "sha256": "8ac9a5f41d435726a72baf456d67dd3612cb3cd466e5f9b4f8f3794ee14f5a55"
+    }
+  ],
+  "generator": "image_gen.imagegen built-in; model not exposed",
+  "text_free": true,
+  "top_clearance_checked": false,
+  "status": "draft_needs_top_clearance",
+  "user_approved": false,
+  "print_ready": false,
+  "note": "Actual result saved. Top calm strip about12percent, first hunter head risks caption; retain and edit, no ART pass."
+}

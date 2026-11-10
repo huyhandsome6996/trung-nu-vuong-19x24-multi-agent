@@ -1,0 +1,27 @@
+{
+  "status": "prepared",
+  "prompt_path": "10_agent_workflow/tasks/PAGE24_ART/prompt.v002.txt",
+  "references": [
+    {
+      "path": "assets_generated/design_system/CHAR15_v001.png",
+      "sha256": "f170321ae13b2772bb71b09d9c483ebcafeb08fc13792d300b4e6a3d9aedc18e"
+    },
+    {
+      "path": "assets_generated/design_system/ENV04_v001.png",
+      "sha256": "171b30f9e661b6febf962b0f71eaee858967a37f84784db1544b1fdc54d3017a"
+    },
+    {
+      "path": "assets_generated/design_system/PROP04_v002.png",
+      "sha256": "e8eb31e7c6948bb21dc56d43f6d858cce2ba4a99ecf1172f0dec232ffd2441e4"
+    },
+    {
+      "path": "assets_generated/design_system/ARMY01_v001.png",
+      "sha256": "4f6b76dea97ac82cefce9338f51faaa00ee2501b3e63cb7197fb0ec4ef903ff7"
+    },
+    {
+      "path": "assets_generated/design_system/PROP01_v001.png",
+      "sha256": "8ac9a5f41d435726a72baf456d67dd3612cb3cd466e5f9b4f8f3794ee14f5a55"
+    }
+  ],
+  "note": "New call after previous request interrupted; no output claimed yet."
+}
