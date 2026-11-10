@@ -1,0 +1,80 @@
+{
+  "boxes_mm": {
+    "media": [
+      196,
+      246
+    ],
+    "trim": [
+      190,
+      240
+    ],
+    "bleed": [
+      196,
+      246
+    ]
+  },
+  "fonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+NotoSans-Bold                 TrueType          WinAnsi          yes yes yes      7  0\nAAAAAA+NotoSans-Regular              TrueType          WinAnsi          yes yes yes     11  0\n",
+  "metrics": {
+    "page": 23,
+    "version": "v001",
+    "print_ready": false,
+    "user_approved": false,
+    "renderer": "ReportLab / vector text; PDF rendered separately with Poppler",
+    "native_size_px": [
+      1122,
+      1402
+    ],
+    "art_effective_dpi": [
+      144.75934959349595,
+      144.75934959349593
+    ],
+    "crop_mm": [
+      0.4350927246790235,
+      0.0
+    ],
+    "missing_glyphs": [],
+    "boxes": [
+      {
+        "kind": "narration",
+        "bbox_mm": [
+          18,
+          14,
+          154,
+          29
+        ],
+        "font_pt": 12.8,
+        "lines": 4,
+        "text_height_mm": 25.64835555555555,
+        "max_width_mm": 149.30684444444444,
+        "overflow": false
+      }
+    ],
+    "speech_assets": [
+      {
+        "index": 0,
+        "speaker": "Thánh Thiên",
+        "asset": "assets_generated/speech_clouds/PAGE23_SPEECH01_v001.png",
+        "sha256": "2e3150f021257504954d72c7cb66843c58a454185b461f21fe40724662e1521f",
+        "bbox_mm": [
+          51,
+          50,
+          120,
+          40.0
+        ],
+        "native_size_px": [
+          2172,
+          724
+        ],
+        "effective_dpi": 459.73999999999995,
+        "visible_text_manually_verified": true,
+        "text": "Tào tặc! Ngươi vô cớ sát hại cha ta, hôm nay tự dẫn xác đến đây chính là ý trời! Có giỏi thì đuổi theo ta!"
+      }
+    ],
+    "pdf_text_matches": true,
+    "hashes": {
+      "svg": "07d6c0444e93be4493985afcb27e31f6e5d3fc307f86c38d78044ebc5a315a86",
+      "pdf": "d80d1ef3df04502c41fd89dc2d16041751e6d3cfe7f22f3b6ca6a19edf1fe278",
+      "reading": "8271b80c00c5b73522804ef601abf1b47405a80f3c53584cf4d00f972d9e20a1"
+    }
+  }
+}

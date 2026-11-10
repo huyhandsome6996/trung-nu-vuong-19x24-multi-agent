@@ -1,0 +1,13 @@
+{
+  "page": 24,
+  "template": "B",
+  "status": "locked",
+  "narration": "Một bộ phận trong **sáu trăm quân Hán** đuổi theo nghĩa quân lên **khe Mãng Xà**, nơi **bốn đội phường săn đất Kẻ Từ** mai phục. Tào Quyền và Lục Hiến vẫn chờ tại nhà gỗ. Trong khi ấy, dưới bến Lục Đầu Giang, **ba mươi chiến thuyền giặc** bị nghĩa quân chiếm trọn.",
+  "dialogues": [],
+  "dialogues_status": "locked",
+  "storyboard_path": "03_storyboards_and_scripts/STORYBOARD_PART_2_HOI_8_HAT_MON_PHUONG_HOANG.md",
+  "storyboard_sha256": "51b2b09b8cf339ee46f55c7b018dc65d2d90cbd1934d0263a42719e909c7aaeb",
+  "source_notes": "Đã mởscanPDF53–56/sách264–267: bộphận đuổibắt lênnúi, Tào/Lục/hơnhai chụcgiápsĩ ởnhàgỗ; nguồn thuật lại quânđãbịbắt/giết,30thuyền/phuthuyền bịbắt; khôngnóitấtcả600vàokhe. Kếbốnphườngsăn ởPDF49–50. Khôngbịa lướimây/gỗđánghẽnkhe hoặcmưatên nhưsựkiệnđãxácminh; hìnhlà táihiệnkếmai phục. Bỏgiáptrắng sai nhậndiện, giữ4cụmkeywordgốc.",
+  "note": "Agent B: source-checked adaptation; storyboard shared file preserved.",
+  "narration_tokens": 54
+}

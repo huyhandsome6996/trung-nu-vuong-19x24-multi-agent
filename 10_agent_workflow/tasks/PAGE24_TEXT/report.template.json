@@ -1,0 +1,17 @@
+{
+  "task_id": "PAGE24_TEXT",
+  "kind": "text",
+  "status": "draft",
+  "reviewer": "",
+  "summary": "",
+  "checks": {
+    "source_alignment": "not_checked",
+    "narration_35_65": "not_checked",
+    "keywords_preserved": "not_checked",
+    "dialogue_locked": "not_checked",
+    "template_locked": "not_checked"
+  },
+  "artifacts": [],
+  "open_issues": [],
+  "reviewed_at": ""
+}

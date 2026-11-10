@@ -16,3 +16,5 @@ Owned pages: 21, 22, 23, 24, 25, 26, 27, 28. Only this agent appends here.
 - Publish sau layout21 lầnđầu bị rebase từchối vì đã khởiđộng22 khi wrapper cònchạy; commit21 local đượcgiữ. Chưa báo đồngbộ lầnđó; hoàn tất checkpoint22 và chạy wrapper lại trên trạngthái sạch sau stage.
 
 - Trang22 hoànthành4bước:TEXTv00342tiếng/1thoại; rawv0011119×1405 (số1120trongnoteART là làmtròn, metadata đo1119); speechv0021983×793; layoutv007/placementv006. Giữ mọi bảnnháp. Font/box/narration/keyword đạt, raw145.01DPI; đã mởtoàntrang vàdetail300.
+
+- Trang23 hoànthành4bước:TEXTv001 **46tiếng** (noteCLI50là ghi nhầm),1thoại; raw/speech/layoutv001, mở150/detail300, font/box/safe đạt. Đuôi tới gócmiệng, kiếm/tay/chân rõ.

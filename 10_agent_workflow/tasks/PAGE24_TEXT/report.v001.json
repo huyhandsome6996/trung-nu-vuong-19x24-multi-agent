@@ -1,0 +1,19 @@
+{
+  "task_id": "PAGE24_TEXT",
+  "kind": "text",
+  "status": "passed",
+  "reviewer": "agent_b",
+  "summary": "Đã đọc nguồn; khóa 54tiếng và 0thoại đầy đủ. Đã mởscanPDF53–56/sách264–267: bộphận đuổibắt lênnúi, Tào/Lục/hơnhai chụcgiápsĩ ởnhàgỗ; nguồn thuật lại quânđãbịbắt/giết,30thuyền/phuthuyền bịbắt; khôngnóitấtcả600vàokhe. Kếbốnphườngsăn ởPDF49–50. Khôngbịa lướimây/gỗđánghẽnkhe hoặcmưatên nhưsựkiệnđãxácminh; hìnhlà táihiệnkếmai phục. Bỏgiáptrắng sai nhậndiện, giữ4cụmkeywordgốc.",
+  "checks": {
+    "source_alignment": "pass",
+    "narration_35_65": "pass",
+    "keywords_preserved": "pass",
+    "dialogue_locked": "pass",
+    "template_locked": "pass"
+  },
+  "artifacts": [
+    "10_agent_workflow/tasks/PAGE24_TEXT/text.v001.json"
+  ],
+  "open_issues": [],
+  "reviewed_at": "2026-11-10T07:16:57.995575+00:00"
+}

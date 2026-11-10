@@ -1,0 +1,22 @@
+{
+  "text": "Tào tặc! Ngươi vô cớ sát hại cha ta, hôm nay tự dẫn xác đến đây chính là ý trời! Có giỏi thì đuổi theo ta!",
+  "speaker": "Thánh Thiên",
+  "status": "visual_text_verified",
+  "image": "assets_generated/speech_clouds/PAGE23_SPEECH01_v001.png",
+  "sha256": "2e3150f021257504954d72c7cb66843c58a454185b461f21fe40724662e1521f",
+  "native_size_px": [
+    2172,
+    724
+  ],
+  "generator": "image_gen.imagegen built-in; model not exposed",
+  "prompt": "Create transparent RGBA lettered speech asset for the supplied PAGE23 Vietnamese historical comic confrontation. BOTH cloud and exact Vietnamese words must be DRAWN together. Wide 3:1 horizontal canvas, about2100x700. Warm ivory parchment with subtle muted tan/olive reflection, dark warm ink irregular oval slightly emphatic organic edge; match the timber/green/bronze ink-watercolor scene, not a bright yellow universal bubble, no modern UI rectangle. Body RIGHT88percent of canvas. Short curved tail exits LOWER-LEFT of body at roughly(18percent width,65percent height), ends at LEFT edge(1percent width,94percent height), pointing LEFT-DOWN toward young woman's mouth. Everything outside organic cloud/tail transparent; no people or scene. Draw all exact text inside cloud body in FOUR comfortably readable centered lines, dark clear humanist serif comic lettering with fully correct accents, no calligraphy. Exact quote: Tào tặc! Ngươi vô cớ sát hại cha ta, hôm nay tự dẫn xác đến đây chính là ý trời! Có giỏi thì đuổi theo ta! Suggested breaks: Tào tặc! Ngươi vô cớ sát hại cha ta, / hôm nay tự dẫn xác đến đây / chính là ý trời! Có giỏi / thì đuổi theo ta! Do not alter any words/punctuation. No added quotes, title, label or watermark. Tail should be gentle short curve rather than long triangle, no shadow.",
+  "actual_references": [
+    {
+      "path": "assets_generated/raw_pages/PAGE23_v001.png",
+      "sha256": "de79a3a77ecbfc7b9d4d7a1b5658ed28e06d40d598d6051ba9baf72e0501c491"
+    }
+  ],
+  "visual_review": "Manual reading of all visible words and accents in returned native pixels: exact locked quote. Alpha retained. Final placement reviewed separately.",
+  "user_approved": false,
+  "print_ready": false
+}
