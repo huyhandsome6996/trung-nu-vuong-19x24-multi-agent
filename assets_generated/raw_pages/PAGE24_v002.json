@@ -1,0 +1,23 @@
+{
+  "image": "assets_generated/raw_pages/PAGE24_v002.png",
+  "version": "v002",
+  "native_size_px": [
+    1137,
+    1383
+  ],
+  "sha256": "a347d0aae6b757be69cf630a5667188f2a826a2049be56268858fea111711943",
+  "prompt": "Edit only the UPPER scene composition of this historical comic page24; keep exact same ink/watercolor style, identities/colors, all boats and people in LOWER scene unchanged. Keep TWO main story panels, upper gorge and lower river; no third inset or text. Critical fix: expand empty mist/forest landscape at TOP to a full22percent of page height, no people, faces, hands, weapons or crossbows anywhere above y25percent. The current top blankstrip is too short. Recompose the gorge panel into y23–54percent, keeping elder white-bearded Bạch at LEFT and all hunters' heads BELOWy27percent; camera can pull back slightly, but keep his face/hands/compact wooden crossbow clear. Hunters on two rocky ledges, small Han pursuit detachment with handsraised in narrow Sgorge; no Tào/Lục/ThánhThiên. Preserve natural crossbow mechanics/strings and fingers. Keep seam at54percentheight and the lower boat-seizure scene from55percent to100percent exactly as it is: Khúc teal/brown bandana atleft, Hoàng slate-blue/mustard bandana atright, surrendering boatmen and blue river fighters, full boots uncut. Do not stretch bodies. Top22percent must read as quiet pale forest mist and distant rock only, ready for a later caption overlay. No lettering, captions, bubbles, labels, watermark, gore or injury. Portrait196:246.",
+  "actual_references": [
+    {
+      "path": "assets_generated/raw_pages/PAGE24_v001.png",
+      "sha256": "6d9bd4797968a681b87c1de77a5e178f97a090660345e5b74f6923b8807a9703"
+    }
+  ],
+  "generator": "image_gen.imagegen built-in; model not exposed",
+  "text_free": true,
+  "top_clearance_checked": true,
+  "visual_qa_report": "10_agent_workflow/tasks/PAGE24_ART/report.v001.json",
+  "user_approved": false,
+  "print_ready": false,
+  "note": "Viewed actualv002: upper24percent landscape clear; elderBạch secondCHAR15, Khúc/Hoàngthird/fourth preserved via actualv001 input. Small pursuit detachment, not entire600; Tào/Lục absent. Fingers/crossbows/boats/oars checked; no wounds. Upper blank landscape is caption zone, two story scenes below."
+}

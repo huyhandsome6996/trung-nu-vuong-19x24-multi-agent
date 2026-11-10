@@ -1,0 +1,21 @@
+{
+  "task_id": "PAGE24_QA",
+  "kind": "qa",
+  "status": "passed",
+  "reviewer": "agent_b",
+  "summary": "Đốichiếuscan49–56:600làtổng, chỉbộphận đuổibắtvàokhe; Tào/Lục khôngởkhe. ĐúngBạch/Khúc/Hoàng, nỏ/tay/chân/thuyền;0thươngtích. Đọc từngtiếng/dấu4dòng,4keywordđỏ; fontnhúng/PDF/box/safe kiểmđạt. AGENT_QA only, not USER_APPROVED/PRINT_READY. Native/effective DPI measured in metrics; no upscaling claims.",
+  "checks": {
+    "historical": "pass",
+    "art": "pass",
+    "language": "pass",
+    "print_geometry": "pass"
+  },
+  "artifacts": [
+    "10_agent_workflow/tasks/PAGE24_LAYOUT/report.v001.json",
+    "final_book_19x24/proofs/PAGE24_v001.png",
+    "final_book_19x24/proofs/PAGE24_v001_detail.png",
+    "10_agent_workflow/tasks/PAGE24_LAYOUT/technical.v001.json"
+  ],
+  "open_issues": [],
+  "reviewed_at": "2026-11-10T08:17:12.789181+00:00"
+}

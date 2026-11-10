@@ -20,3 +20,9 @@ Owned pages: 21, 22, 23, 24, 25, 26, 27, 28. Only this agent appends here.
 - Trang23 hoànthành4bước:TEXTv001 **46tiếng** (noteCLI50là ghi nhầm),1thoại; raw/speech/layoutv001, mở150/detail300, font/box/safe đạt. Đuôi tới gócmiệng, kiếm/tay/chân rõ.
 
 - Phiên tạoART24 bị người dùng ngắt sau79giây, kiểm cache khôngcóoutput24. Đãcheckpoint/blockđúngtask, lưuattemptv001/refhash/prompt, khônggiảjobnền. Bàn giao partial13/32bước:21–23đủ4bước,24TEXTdone,25–28todo. Manifestv001/hash vàPDF3trang đãtạo/mởkiểm3trang.
+
+## 2026-11-10 — Tiếp tục với xác thực mới
+
+- Pullmainmớinhất, queueB13done/1blocked/18todo; khônglàmtrùng21–23. UnblockART24vàgọilạitool, rawv001đỉnhthiếuđượcgiữ. Ảnhsửav002đãtrả/mởkiểmđỉnh24%thoáng,2cảnhđúngnguồn.
+- Trang24hoànthành4bước:TEXTv00154tiếng/0thoại/4keyword; rawv002; layoutv001SVG/proof/reading/PNG150+300+detail. Font/box/safe/nỏ/tay/chânđãkiểm.
+- Xácthựcmớidùngtạmtrongtiếntrình; wrapperđãpushcheckpointthật, khônglưutoken.

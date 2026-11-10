@@ -664,69 +664,169 @@
       "id": "PAGE24_ART",
       "kind": "art",
       "title": "Trang24: tạo và kiểm tranh nền",
-      "status": "in_progress",
+      "status": "done",
       "depends_on": [
         "PAGE24_TEXT"
       ],
       "instructions": "Lấy text đã khóa từ evidence bước TEXT. Xem các sheet liên quan; soạn prompt cuối theo cảnh, ghi actual_references và hash. Tạo ảnh bằng công cụ sinh ảnh, nền không chữ, không bóng thoại, chừa20% đỉnh; dùng đúng A/B/C. Kiểm mặt, phục trang, tay/chân/vũ khí và hành động. Lưu PNG native có phiên bản và metadata theo templates/RAW_IMAGE_METADATA.json. Không resize rồi khai native300DPI.",
-      "evidence": [],
-      "last_note": "Rawv001 thật1138×1383đãlưu, sai khoảngtrốngđỉnh; chỉnhảnhv002, chưa finish.",
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/PAGE24_ART/report.v001.json",
+          "sha256": "01e3e61c301cee3d7dac2ca21d9ff562255ee811b867990af5ca18fc8203a86f"
+        },
+        {
+          "path": "assets_generated/raw_pages/PAGE24_v002.png",
+          "sha256": "a347d0aae6b757be69cf630a5667188f2a826a2049be56268858fea111711943"
+        },
+        {
+          "path": "assets_generated/raw_pages/PAGE24_v002.json",
+          "sha256": "b2e4bbb5e410a19625d8d876e3068a8740ed809aaf643ff7ff079d927d3a5802"
+        },
+        {
+          "path": "10_agent_workflow/tasks/PAGE24_ART/prompt.v003.txt",
+          "sha256": "a886642182a263f9806b22936e5a394c64b0197e9e9fb1f952c8875155dba9e7"
+        }
+      ],
+      "last_note": "Ảnhv002đãkiểmđạt.",
       "page": 24,
       "owner": "agent_b",
-      "updated_at": "2026-11-10T08:14:23+00:00",
+      "updated_at": "2026-11-10T08:16:26+00:00",
       "block_reason": ""
     },
     {
       "id": "PAGE24_LAYOUT",
       "kind": "layout",
       "title": "Trang24: ghép chữ và bố cục",
-      "status": "todo",
+      "status": "done",
       "depends_on": [
         "PAGE24_ART"
       ],
       "instructions": "Dùng nguyên text đã khóa và tranh đã kiểm. Ghép khung giấy cổ, tô đỏ #C81E1E cho **...**, đặt đủ thoại/đuôi bóng đúng người. Khổ196×246/trim190×240. Dùng layout_tokens, đo tràn chữ bằng renderer thật; xuất bản xem PNG/PDF và nguồn có thể sửa. scripts/typeset_preview.py là trợ giúp HTML; không coi HTML/PDF xem trước là file in đã duyệt.",
-      "evidence": [],
-      "last_note": "",
-      "page": 24
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/PAGE24_LAYOUT/report.v001.json",
+          "sha256": "5d586034782afa818449fd9bc7423fa80e3ecea0dc59198e8823582ce4bc5f4d"
+        },
+        {
+          "path": "final_book_19x24/source/PAGE24_v001.svg",
+          "sha256": "90c7139ee821679f38a959da811d22bf260c5a792e224b7d67d780e0b38002a7"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE24_v001.pdf",
+          "sha256": "891519020898f9a508649e5ac514cf68ed382eff03ace2c8455f2669aa9ddd65"
+        },
+        {
+          "path": "final_book_19x24/reading/PAGE24_v001.pdf",
+          "sha256": "32eede607f74fb666d49eae864ad8dc6ecbd814aa0a0cae899e0f52b67f09c67"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE24_v001.png",
+          "sha256": "0a278ce723e7e65e3aede295a8ace25f5df543ac3406c509a80465021e2d87c8"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE24_v001.json",
+          "sha256": "0b7dc9c9d3d9fa89e40f3a568885c50a93ca55809b602a74f7dd8186baa91bc3"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE24_v001_300dpi.png",
+          "sha256": "3f1e8c4e83398a482917dacb83dbb59705bd2e31c0f5927fe9c6d76266901bd3"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE24_v001_detail.png",
+          "sha256": "4a9a0fd263b536f7b3656f6103d714d68c604ea5848abfff74ee79d8745f6aa6"
+        },
+        {
+          "path": "final_book_19x24/source/PAGE24_v001.placement.json",
+          "sha256": "6874153ceb630572c920139a6477a9f4e1c8ce1e69734b5b9212cfd9e2c09589"
+        },
+        {
+          "path": "10_agent_workflow/tasks/PAGE24_LAYOUT/technical.v001.json",
+          "sha256": "baec568d0af83a152380536f0d57f7b595a56aa5853325adf3ad52b7ee99f30d"
+        },
+        {
+          "path": "10_agent_workflow/parallel/agent_b/render_page.snapshot.v001.py",
+          "sha256": "314b628a5cc0595ee6e38165862b78866c3ada9008ecce9e05cecf07fe135108"
+        }
+      ],
+      "last_note": "PDF/PNGđãmở,4dòng/0thoại, font/box/safeđạt.",
+      "page": 24,
+      "owner": "agent_b",
+      "updated_at": "2026-11-10T08:17:11+00:00"
     },
     {
       "id": "PAGE24_QA",
       "kind": "qa",
       "title": "Trang24: kiểm nguồn/mỹ thuật/chữ/khổ",
-      "status": "todo",
+      "status": "done",
       "depends_on": [
         "PAGE24_LAYOUT"
       ],
       "instructions": "Mở ảnh render ở kích thước đọc thật và zoom100%; so với scan, sheet, text đã khóa. Kiểm bốn lớp historical/art/language/print_geometry. Ghi lỗi cụ thể và sửa về đúng bước. Báo cáo pass chỉ khi có artifact thực và không còn lỗi trong phạm vi; đây là QA của agent, không phải chủ dự án duyệt.",
-      "evidence": [],
-      "last_note": "",
-      "page": 24
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/PAGE24_QA/report.v001.json",
+          "sha256": "82b9ded7bc99f296abe8cf1ceeaa52aa85364304af567beefc7f87b197d43b99"
+        },
+        {
+          "path": "10_agent_workflow/tasks/PAGE24_LAYOUT/report.v001.json",
+          "sha256": "5d586034782afa818449fd9bc7423fa80e3ecea0dc59198e8823582ce4bc5f4d"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE24_v001.png",
+          "sha256": "0a278ce723e7e65e3aede295a8ace25f5df543ac3406c509a80465021e2d87c8"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE24_v001_detail.png",
+          "sha256": "4a9a0fd263b536f7b3656f6103d714d68c604ea5848abfff74ee79d8745f6aa6"
+        },
+        {
+          "path": "10_agent_workflow/tasks/PAGE24_LAYOUT/technical.v001.json",
+          "sha256": "baec568d0af83a152380536f0d57f7b595a56aa5853325adf3ad52b7ee99f30d"
+        }
+      ],
+      "last_note": "4lớpđãkiểm, bảnđọcđạt.",
+      "page": 24,
+      "owner": "agent_b",
+      "updated_at": "2026-11-10T08:17:13+00:00"
     },
     {
       "id": "PAGE25_TEXT",
       "kind": "text",
       "title": "Trang25: đối chiếu và khóa chữ",
-      "status": "todo",
+      "status": "done",
       "depends_on": [
         "DESIGN_BASELINE"
       ],
       "instructions": "Đọc nguyên cảnh và nguồn scan; sửa các câu cường điệu/không có căn cứ, giữ giọng hào hùng 13–16 tuổi. Đếm thật 35–65 tiếng theo khoảng trắng, không dùng số từ ghi trong tiêu đề làm chứng cứ. Chép đủ thoại vào text.v001.json, giữ **từ khóa**; ghi nguồn, template và hash storyboard. Khóa chữ sau khi kiểm. Nếu sửa toàn file storyboard về sau, rà lại các text đã khóa theo hash mới.",
-      "evidence": [],
-      "last_note": "",
-      "page": 25
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/PAGE25_TEXT/report.v001.json",
+          "sha256": "4f249f8badaf6065ef3e086433d142757542ec7d9a189a9c1997beb626fcb34d"
+        },
+        {
+          "path": "10_agent_workflow/tasks/PAGE25_TEXT/text.v001.json",
+          "sha256": "78b30c4bc73e8f4be7927b17dd7a016381baa66c28b773f050123b7201f43e63"
+        }
+      ],
+      "last_note": "Khóachữv001 và1thoạinguyênvănđủdấu.",
+      "page": 25,
+      "owner": "agent_b",
+      "updated_at": "2026-11-10T08:18:13+00:00"
     },
     {
       "id": "PAGE25_ART",
       "kind": "art",
       "title": "Trang25: tạo và kiểm tranh nền",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "PAGE25_TEXT"
       ],
       "instructions": "Lấy text đã khóa từ evidence bước TEXT. Xem các sheet liên quan; soạn prompt cuối theo cảnh, ghi actual_references và hash. Tạo ảnh bằng công cụ sinh ảnh, nền không chữ, không bóng thoại, chừa20% đỉnh; dùng đúng A/B/C. Kiểm mặt, phục trang, tay/chân/vũ khí và hành động. Lưu PNG native có phiên bản và metadata theo templates/RAW_IMAGE_METADATA.json. Không resize rồi khai native300DPI.",
       "evidence": [],
-      "last_note": "",
-      "page": 25
+      "last_note": "TemplateB:vâynhàgỗ/quởtráchvàThánhThiêncưỡingựaxuống; refsđãxem.",
+      "page": 25,
+      "owner": "agent_b",
+      "updated_at": "2026-11-10T08:18:14+00:00"
     },
     {
       "id": "PAGE25_LAYOUT",
@@ -1203,6 +1303,60 @@
       "task": "PAGE24_ART",
       "action": "checkpoint",
       "note": "Rawv001 thật1138×1383đãlưu, sai khoảngtrốngđỉnh; chỉnhảnhv002, chưa finish."
+    },
+    {
+      "at": "2026-11-10T08:16:25+00:00",
+      "task": "PAGE24_ART",
+      "action": "checkpoint",
+      "note": "V002đãtrả/mởkiểm, đỉnh24%thoáng, đầyđủmetadata/refthực."
+    },
+    {
+      "at": "2026-11-10T08:16:26+00:00",
+      "task": "PAGE24_ART",
+      "action": "finish",
+      "note": "Ảnhv002đãkiểmđạt."
+    },
+    {
+      "at": "2026-11-10T08:16:26+00:00",
+      "task": "PAGE24_LAYOUT",
+      "action": "start",
+      "note": "Ghép0thoại,4keywordđỏ, templateB."
+    },
+    {
+      "at": "2026-11-10T08:17:11+00:00",
+      "task": "PAGE24_LAYOUT",
+      "action": "finish",
+      "note": "PDF/PNGđãmở,4dòng/0thoại, font/box/safeđạt."
+    },
+    {
+      "at": "2026-11-10T08:17:12+00:00",
+      "task": "PAGE24_QA",
+      "action": "start",
+      "note": "Kiểm4lớpnguồn/nhậndiện/chữ/khổ trênv001."
+    },
+    {
+      "at": "2026-11-10T08:17:13+00:00",
+      "task": "PAGE24_QA",
+      "action": "finish",
+      "note": "4lớpđãkiểm, bảnđọcđạt."
+    },
+    {
+      "at": "2026-11-10T08:17:14+00:00",
+      "task": "PAGE25_TEXT",
+      "action": "start",
+      "note": "Đọcscan54–57, Tào/Lụcởnhàgỗ, hơn300ngườivây; khóathoạiđầyđủ."
+    },
+    {
+      "at": "2026-11-10T08:18:13+00:00",
+      "task": "PAGE25_TEXT",
+      "action": "finish",
+      "note": "Khóachữv001 và1thoạinguyênvănđủdấu."
+    },
+    {
+      "at": "2026-11-10T08:18:14+00:00",
+      "task": "PAGE25_ART",
+      "action": "start",
+      "note": "TemplateB:vâynhàgỗ/quởtráchvàThánhThiêncưỡingựaxuống; refsđãxem."
     }
   ]
 }

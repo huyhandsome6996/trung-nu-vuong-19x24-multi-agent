@@ -1,0 +1,19 @@
+{
+  "task_id": "PAGE25_TEXT",
+  "kind": "text",
+  "status": "passed",
+  "reviewer": "agent_b",
+  "summary": "Đã đọc nguồn; khóa 50tiếng và 1thoại đầy đủ. Đã mởscanPDF54–57/sách265–268: Tào/Lục chờtrêntầngnhàgỗ, hơn300ngườivà2đôtướngvây, mộtđôtướngquởtráchLục; ThánhThiêncưỡingựadẫnquânxuống. Số300làmốc tối thiểucóhơn, tranhchỉvẽmộtphầnđámđông. Giữ6cụmkeyword/1thoạichuyểnthể, khônggiảlàlờinóichínhsử.",
+  "checks": {
+    "source_alignment": "pass",
+    "narration_35_65": "pass",
+    "keywords_preserved": "pass",
+    "dialogue_locked": "pass",
+    "template_locked": "pass"
+  },
+  "artifacts": [
+    "10_agent_workflow/tasks/PAGE25_TEXT/text.v001.json"
+  ],
+  "open_issues": [],
+  "reviewed_at": "2026-11-10T08:18:13.461129+00:00"
+}

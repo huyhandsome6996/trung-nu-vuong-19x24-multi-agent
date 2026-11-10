@@ -1,0 +1,18 @@
+{
+  "task_id": "PAGE24_LAYOUT",
+  "kind": "layout",
+  "status": "draft",
+  "reviewer": "",
+  "summary": "",
+  "checks": {
+    "vietnamese_fonts": "not_checked",
+    "red_keywords": "not_checked",
+    "safe_text": "not_checked",
+    "bleed_geometry": "not_checked",
+    "no_overflow": "not_checked",
+    "speech_placement": "not_checked"
+  },
+  "artifacts": [],
+  "open_issues": [],
+  "reviewed_at": ""
+}

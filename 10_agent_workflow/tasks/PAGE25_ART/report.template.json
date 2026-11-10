@@ -1,0 +1,17 @@
+{
+  "task_id": "PAGE25_ART",
+  "kind": "art",
+  "status": "draft",
+  "reviewer": "",
+  "summary": "",
+  "checks": {
+    "actual_refs": "not_checked",
+    "character_consistency": "not_checked",
+    "no_text": "not_checked",
+    "top_clearance": "not_checked",
+    "anatomy": "not_checked"
+  },
+  "artifacts": [],
+  "open_issues": [],
+  "reviewed_at": ""
+}

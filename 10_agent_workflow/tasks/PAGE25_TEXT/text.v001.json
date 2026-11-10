@@ -1,0 +1,18 @@
+{
+  "page": 25,
+  "template": "B",
+  "status": "locked",
+  "narration": "**Tào Quyền** và **Lục Hiến** nhận ra đã **trúng kế điệu hổ ly sơn**. Hơn **ba trăm tráng đinh** mang **nỏ ngắn và quắc mã tấu** vây kín nhà gỗ. Một đô tướng quở trách Lục Hiến; **Nữ tướng Thánh Thiên** cưỡi ngựa dẫn nghĩa quân từ núi kéo xuống.",
+  "dialogues": [
+    {
+      "speaker": "Đô tướng nghĩa quân (chỉ mặt Lục Hiến)",
+      "text": "Lục Hiến! Ngươi ăn lộc đất Nam mà dẫn giặc về hại Thần y và đồng bào, còn mặt mũi nào nhìn hương thân phụ lão đất Phượng Hoàng!"
+    }
+  ],
+  "dialogues_status": "locked",
+  "storyboard_path": "03_storyboards_and_scripts/STORYBOARD_PART_2_HOI_8_HAT_MON_PHUONG_HOANG.md",
+  "storyboard_sha256": "51b2b09b8cf339ee46f55c7b018dc65d2d90cbd1934d0263a42719e909c7aaeb",
+  "source_notes": "Đã mởscanPDF54–57/sách265–268: Tào/Lục chờtrêntầngnhàgỗ, hơn300ngườivà2đôtướngvây, mộtđôtướngquởtráchLục; ThánhThiêncưỡingựadẫnquânxuống. Số300làmốc tối thiểucóhơn, tranhchỉvẽmộtphầnđámđông. Giữ6cụmkeyword/1thoạichuyểnthể, khônggiảlàlờinóichínhsử.",
+  "note": "Agent B: source-checked adaptation; storyboard shared file preserved.",
+  "narration_tokens": 50
+}
