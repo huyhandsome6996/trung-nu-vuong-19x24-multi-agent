@@ -1,0 +1,41 @@
+{
+  "page": 13,
+  "version": "v003",
+  "generator": "image_gen.imagegen",
+  "status": "ready_to_submit",
+  "prompt": "Use case: identity-preserve / precise historical page composition edit. EDIT first supplied image PAGE13. Preserve named identities, face anatomy, white mourning Trưng Trắc with dry resolute eyes raising sword, navy Trưng Nhị, male gray-bearded navy Đô Năng Tế, older purple Cẩm Nương, chiefs crowd and warm ink/watercolor style. Correct ONLY page composition: REDUCE the entire figure group, sword and dais to approximately80percent original size and MOVE DOWN, adding genuinely quiet pale cream wall/air above. TOP26PERCENT across the entire width must contain NO sword tip, face, hands, banner medallion or important architecture. New sword tip must be nearx30percent,y28percent; her gripping hand nearx27percent,y40percent; her face nearx44percent,y46percent. Keep both her boots visible near85percentheight. The four principal people remain recognizable and anatomically attached, not cutouts. Leave blank warm wall x56–92percent,y28–42percent for a later quote, no box drawn. Extend hall naturally at top, pale shadowy timber at far edges only, no second sword. Existing front chiefs can occupy bottom22percent. Ref2LEFT white Trắc, ref3navy Nhị, ref4male Đô/olderpurple Cẩm, ref5first17 MêLinhchiefs. Native portrait4:5, crisp rich ink/watercolor. Absolutely NO text/letters, captions, speech balloons, watermark. Do not change clothes or add tears. Normal human limbs and exact sword grip. Important weapons fully below26percent; all principal boots inside90percentheight.",
+  "actual_reference_paths": [
+    "/workspace/scratch/9c77cb6cc5ef/trung-nu-vuong-19x24-multi-agent/assets_generated/raw_pages/PAGE13_v002.png",
+    "/workspace/scratch/9c77cb6cc5ef/trung-nu-vuong-19x24-multi-agent/assets_generated/characters/CHAR_01_Trung_Trac_v001.png",
+    "/workspace/scratch/9c77cb6cc5ef/trung-nu-vuong-19x24-multi-agent/assets_generated/design_system/CHAR02_v001.png",
+    "/workspace/scratch/9c77cb6cc5ef/trung-nu-vuong-19x24-multi-agent/assets_generated/design_system/CHAR07_v001.png",
+    "/workspace/scratch/9c77cb6cc5ef/trung-nu-vuong-19x24-multi-agent/assets_generated/design_system/CHIEFS01_v001.png"
+  ],
+  "actual_references": [
+    {
+      "path": "assets_generated/raw_pages/PAGE13_v002.png",
+      "tool_path": "/workspace/scratch/9c77cb6cc5ef/trung-nu-vuong-19x24-multi-agent/assets_generated/raw_pages/PAGE13_v002.png",
+      "sha256": "3faac97dc15f3cf8fe5d84bb6254b509c46f5a13cc6f31a7ad1ff3300565e653"
+    },
+    {
+      "path": "assets_generated/characters/CHAR_01_Trung_Trac_v001.png",
+      "tool_path": "/workspace/scratch/9c77cb6cc5ef/trung-nu-vuong-19x24-multi-agent/assets_generated/characters/CHAR_01_Trung_Trac_v001.png",
+      "sha256": "3387a36a801705d08b9eac3dd778aca3533fced07300db8188cd71439eeec3c3"
+    },
+    {
+      "path": "assets_generated/design_system/CHAR02_v001.png",
+      "tool_path": "/workspace/scratch/9c77cb6cc5ef/trung-nu-vuong-19x24-multi-agent/assets_generated/design_system/CHAR02_v001.png",
+      "sha256": "f4075fc661a51398efee50470805fca95a86a76ee66ec00909ba1058818ff4c7"
+    },
+    {
+      "path": "assets_generated/design_system/CHAR07_v001.png",
+      "tool_path": "/workspace/scratch/9c77cb6cc5ef/trung-nu-vuong-19x24-multi-agent/assets_generated/design_system/CHAR07_v001.png",
+      "sha256": "2cd6a715af4eb27b42d6e597802431805b690c2f0c93cd31f788c10d3b3dadc3"
+    },
+    {
+      "path": "assets_generated/design_system/CHIEFS01_v001.png",
+      "tool_path": "/workspace/scratch/9c77cb6cc5ef/trung-nu-vuong-19x24-multi-agent/assets_generated/design_system/CHIEFS01_v001.png",
+      "sha256": "11cfde4cac7fc720bacefc2ac66b390eceeff13a15362f0d4696a8e915ef1f05"
+    }
+  ]
+}

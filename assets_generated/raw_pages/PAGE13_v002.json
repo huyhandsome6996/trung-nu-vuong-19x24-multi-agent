@@ -1,0 +1,43 @@
+{
+  "image": "assets_generated/raw_pages/PAGE13_v002.png",
+  "version": "v002",
+  "native_size_px": [
+    1122,
+    1402
+  ],
+  "sha256": "3faac97dc15f3cf8fe5d84bb6254b509c46f5a13cc6f31a7ad1ff3300565e653",
+  "prompt": "Use case: historical-scene / illustration-story. Text-free Vietnamese historical-legend illustrated book for ages13–16. Portrait4:5 page, high native detail, sharp ink hatching and rich luminous controlled watercolor, mature heroic emotional storytelling matching the supplied design sheets. Keep exact facial structure, body type and costume colors from named reference positions. TOP20%canvas must be quiet pale atmosphere with NO heads, hands, weapons or important roofs; later Vietnamese parchment narration is typeset separately. Absolutely NO writing/letters anywhere, no captions, no speech balloons, no watermark/signature. Natural attached hands, normal limbs, mechanically connected weapons. No modern objects, no gore. Keep important faces/feet inside 8–92%width and belowy28% but above94%height. PAGE13 Template A single full-page scene in Cổ Lôi wooden council hall, interior opens to pale morning outside above. Ref1 LEFT white mourning TrưngTrắc central dominant, oval face, WHITE robe and WHITE forehead mourning band, resolute dry eyes and NO tears. She stands on low dais declaring revolt, sword raised but tip belowy27%; face nearx52%,y52%. Ref2 younger TrưngNhị navy, mourning band, leftbehind. Ref3 male longbeard/navy ĐôNăngTế and olderpurple female CẩmNương stand to right, not two women teachers. Ref4 TOPcamp wooden architecture; ref5 use17MêLinh chiefs ML01–17 as crowd (not all24), a few clear faces plus varied silhouettes. Composition leave natural blank wall/air fullwidth y23–39% for later long quote, do not draw box. Warm torchlight vs daylight, lowcamera heroic but believable weight. No fire on hero. Restarted from committed baseline because the previous session output was not preserved on main. COMPOSITION: upper23percent quiet pale wall/sky, no roofbeams; heroine raised sword on left side, clear wall on right x55–92percent,y23–40percent for later quote. Both boots above93percent. Aim for native2320x2912pixels with genuine detailed ink rendering; do not add lettering.",
+  "actual_references": [
+    {
+      "path": "assets_generated/characters/CHAR_01_Trung_Trac_v001.png",
+      "tool_path": "/workspace/scratch/9c77cb6cc5ef/trung-nu-vuong-19x24-multi-agent/assets_generated/characters/CHAR_01_Trung_Trac_v001.png",
+      "sha256": "3387a36a801705d08b9eac3dd778aca3533fced07300db8188cd71439eeec3c3"
+    },
+    {
+      "path": "assets_generated/design_system/CHAR02_v001.png",
+      "tool_path": "/workspace/scratch/9c77cb6cc5ef/trung-nu-vuong-19x24-multi-agent/assets_generated/design_system/CHAR02_v001.png",
+      "sha256": "f4075fc661a51398efee50470805fca95a86a76ee66ec00909ba1058818ff4c7"
+    },
+    {
+      "path": "assets_generated/design_system/CHAR07_v001.png",
+      "tool_path": "/workspace/scratch/9c77cb6cc5ef/trung-nu-vuong-19x24-multi-agent/assets_generated/design_system/CHAR07_v001.png",
+      "sha256": "2cd6a715af4eb27b42d6e597802431805b690c2f0c93cd31f788c10d3b3dadc3"
+    },
+    {
+      "path": "assets_generated/design_system/ENV03_v001.png",
+      "tool_path": "/workspace/scratch/9c77cb6cc5ef/trung-nu-vuong-19x24-multi-agent/assets_generated/design_system/ENV03_v001.png",
+      "sha256": "fd58bd1e71c22e4bec7a0f54bb9ec6cec0b15ab0da5e0c8979c26e95bad6b929"
+    },
+    {
+      "path": "assets_generated/design_system/CHIEFS01_v001.png",
+      "tool_path": "/workspace/scratch/9c77cb6cc5ef/trung-nu-vuong-19x24-multi-agent/assets_generated/design_system/CHIEFS01_v001.png",
+      "sha256": "11cfde4cac7fc720bacefc2ac66b390eceeff13a15362f0d4696a8e915ef1f05"
+    }
+  ],
+  "generator": "image_gen.imagegen (model not exposed)",
+  "text_free": true,
+  "top_clearance_checked": false,
+  "visual_qa_status": "needs_revision_sword_in_caption_zone",
+  "user_approved": false,
+  "print_ready": false
+}

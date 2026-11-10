@@ -2191,17 +2191,17 @@
       "id": "PAGE13_ART",
       "kind": "art",
       "title": "Trang13: tạo và kiểm tranh nền",
-      "status": "blocked",
+      "status": "in_progress",
       "depends_on": [
         "PAGE13_TEXT"
       ],
       "instructions": "Lấy text đã khóa từ evidence bước TEXT. Xem các sheet liên quan; soạn prompt cuối theo cảnh, ghi actual_references và hash. Tạo ảnh bằng công cụ sinh ảnh, nền không chữ, không bóng thoại, chừa20% đỉnh; dùng đúng A/B/C. Kiểm mặt, phục trang, tay/chân/vũ khí và hành động. Lưu PNG native có phiên bản và metadata theo templates/RAW_IMAGE_METADATA.json. Không resize rồi khai native300DPI.",
       "evidence": [],
-      "last_note": "Paused before generation: user prioritizes hand-drawn lettered speech clouds and two parallel-agent handoffs",
+      "last_note": "Raw13v002 actual1122x1402 saved with full prompt/hash; needs revision: sword enters top caption zone; exact edit requestv003 ready",
       "page": 13,
-      "owner": "Codex",
-      "updated_at": "2026-11-10T02:16:17+00:00",
-      "block_reason": "Paused before generation: user prioritizes hand-drawn lettered speech clouds and two parallel-agent handoffs"
+      "owner": "coordinator",
+      "updated_at": "2026-11-10T02:42:49+00:00",
+      "block_reason": ""
     },
     {
       "id": "PAGE13_LAYOUT",
@@ -4825,6 +4825,24 @@
       "task": "PAGE11_LAYOUT",
       "action": "reopen",
       "note": "User10Nov rejects white UI speech; coordinator must draw cloud+lettering together, preserve old layout, verify and finish new version."
+    },
+    {
+      "at": "2026-11-10T02:40:27+00:00",
+      "task": "PAGE13_ART",
+      "action": "unblock",
+      "note": "Handoff main saved5c032b5; resume actual generation with viewed baseline refs"
+    },
+    {
+      "at": "2026-11-10T02:40:27+00:00",
+      "task": "PAGE13_ART",
+      "action": "start",
+      "note": "Fresh raw art13; new illustrated speech next"
+    },
+    {
+      "at": "2026-11-10T02:42:49+00:00",
+      "task": "PAGE13_ART",
+      "action": "checkpoint",
+      "note": "Raw13v002 actual1122x1402 saved with full prompt/hash; needs revision: sword enters top caption zone; exact edit requestv003 ready"
     }
   ]
 }
