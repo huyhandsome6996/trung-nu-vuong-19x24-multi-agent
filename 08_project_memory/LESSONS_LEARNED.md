@@ -118,3 +118,5 @@ Kiểm riêng dây cung phải nối hai đầu cung với nock ở ngón kéo, 
 - Filtering delegated tasks out of a queue must not discard their records from dependency lookup: filter candidates while retaining the full DAG for prerequisite checks.
 
 - A lettered cloud can have correct spelling but unsuitable body/tail proportions for placement. Preserve that asset, create a revised proportion, and review the full page; do not force a tail through another figure or stretch the lettering. If the image tool rejects required locked wording, record the actual rejection and block that task while continuing independent pages.
+
+- A clean working tree does not prove unpublished commits respect page ownership. Validate each local-only commit after fetching origin/main and after rebase. Test the actual window between fetch and push by making the other clone push first; retry must preserve both lanes without force.

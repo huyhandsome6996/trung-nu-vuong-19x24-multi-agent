@@ -177,3 +177,10 @@ timezone: "Asia/Ho_Chi_Minh"
 - Fetched remote: still6aeb79f, no newer A/B commits visible. Started PAGE03 speech restyle. Actual image call rejected HTTP400 moderation_blocked/violence (output stage); no output. Preserved exact locked quote and request/error, blocked layout, continuing independent PAGE04. No running image job remains from the rejected request.
 
 - PAGE04_LAYOUT/QA v003 completed with actual illustrated cloud+letteringv002, exact3line quote and RGBA/nativeprompt/hash. Opened final render: all three faces/hands clear, tail reaches Phùng. PDF geometry/fonts/narration checked. PAGE03 remains toolblocked; independent06/07/09/10/11 restyle remains.
+
+## 2026-11-10 — Expanded two-agent prompts before launch
+
+- User explicitly confirms neither external agent has been sent the assignment yet. Verified remote production checkpoint18d65f4 and queues: A has TEXT14–18 done/23steps todo; B has32steps todo; SOURCE_EPILOGUE done. Coordinator retains01–13/covers/matter/assembly; no page ownership changes.
+- Preserved old promptsv001 and saved full standalone promptsv002/currentPROMPT.md for each lane: exact startup/read order, allowed/forbidden paths, private queues/logs, source pitfalls, drawn-lettering standard, evidence/QA, timeout/rejection handling, guarded publication, final manifest and integration boundary.
+- Hardened publish to inspect every unpublished local commit as well as staged/unstaged/untracked paths; an already-committed foreign edit in a clean tree is rejected before rebase/push. Added real-Git regression tests for that case and for A pushing between B fetch/push, causing a real non-fast-forward rejection followed by successful retry.17tests pass; both results survive and main-only history remains.
+- No new illustration or full-book completion is claimed in this handoff preparation. PAGE03 image rejection stays a coordinator blocker; independent speech06/07/09/10/11 and all covers/matter remain coordinator work.

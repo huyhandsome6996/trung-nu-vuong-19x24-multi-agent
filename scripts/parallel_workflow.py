@@ -93,6 +93,18 @@ def guard(lane):
     return paths
 
 
+def guard_unpublished_commits(lane):
+    """Check committed work as well as the index; a clean tree alone is insufficient."""
+    commits = git('rev-list', '--reverse', 'origin/main..HEAD').stdout.splitlines()
+    for commit in commits:
+        paths = names('diff-tree', '--root', '--no-commit-id', '--name-only',
+                      '--no-renames', '-r', '-z', commit)
+        deleted = names('diff-tree', '--root', '--no-commit-id', '--name-only',
+                        '--no-renames', '--diff-filter=D', '-r', '-z', commit)
+        guard_paths(lane, paths, deleted)
+    return commits
+
+
 def check_lane(lane):
     state = json.loads((ROOT / state_path(lane)).read_text(encoding='utf-8'))
     owned = owned_tasks(lane)
@@ -130,10 +142,12 @@ def publish(lane, message, retries=8):
     published = git('rev-parse', 'HEAD').stdout.strip()
     for attempt in range(retries):
         git('fetch', 'origin', 'main')
+        guard_unpublished_commits(lane)
         rebased = git('rebase', 'origin/main', check=False)
         if rebased.returncode:
             git('rebase', '--abort', check=False)
             raise ValueError('Unexpected overlap; rebase aborted and own commit preserved. Do not overwrite another lane.')
+        guard_unpublished_commits(lane)
         check_lane(lane)
         common_checks()
         pushed = git('push', 'origin', 'main', check=False)

@@ -347,7 +347,7 @@ def main():
         print(f"PASS workflow: {len(state['tasks'])} tasks, DAG, 28 storyboards, evidence and source hashes")
         return
     if args.command == 'status':
-        print('Main-only; one active writer. Design baseline exists; final book is not produced.')
+        print('Main-only; one active task per queue. Coordinator and delegated lanes have separate writers. Final book is not produced.')
         print(dict(collections.Counter(t['status'] for t in state['tasks'])))
         for t in state['tasks']:
             if t['status'] in ['blocked', 'in_progress']:

@@ -19,6 +19,10 @@ Nguồn thẩm quyền phân công: `assignments.json`. Mỗi agent clone vào t
 
 `guard` kiểm toàn bộ staged/unstaged/untracked; chặn file ngoài phạm vi và xóa/rename bản cũ. Đây là kiểm phạm vi file, không thay QA nội dung. Không dùng `git add .`, force-push, reset --hard hoặc checkout file của người khác.
 
+`publish` còn kiểm từng commit local chưa có trên `origin/main`, kể cả khi working tree đã sạch. Một file chung bị commit nhầm không được lọt qua bằng cách làm sạch index. Kiểm này chạy sau fetch và sau rebase; chỉ các commit của chính lane chưa được đẩy mới được xét, không chặn commit hợp lệ của lane khác đã có trên remote.
+
+Hai bản giao việc đầy đủ hiện hành là `agent_a/PROMPT.md` và `agent_b/PROMPT.md`, đồng thời được lưu bất biến ở `PROMPT.v002.md`; bản ngắn cũ được giữ ở `PROMPT.v001.md`. Chủ dự án xác nhận hai agent chưa khởi động tại mốc sản xuất18d65f4. Không checkout về mốc đó: clone main mới nhất để nhận công cụ và hướng dẫn cập nhật.
+
 ## Queue riêng, không tranh một production_state.json
 
 Chạy từ gốc clone của mình; thay `agent_a` thành `agent_b` khi tương ứng:

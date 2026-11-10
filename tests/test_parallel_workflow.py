@@ -124,6 +124,47 @@ class ParallelTests(unittest.TestCase):
             p.stage('agent_a')
         self.assertEqual(self.run_git(a, 'diff', '--cached', '--name-only'), '')
 
+    def test_publish_rejects_foreign_file_already_committed_in_clean_tree(self):
+        _, a, _ = self.fixture_clones()
+        previous = self.run_git(a, 'rev-parse', 'origin/main')
+        (a / 'AGENTS.md').write_text('Accidental committed shared change')
+        self.run_git(a, 'add', '--', 'AGENTS.md')
+        self.run_git(a, 'commit', '-m', 'must remain local')
+        own_head = self.run_git(a, 'rev-parse', 'HEAD')
+        p.ROOT = a
+        with mock.patch.object(p, 'check_lane', return_value={}), mock.patch.object(p, 'common_checks'):
+            with self.assertRaisesRegex(ValueError, 'outside agent_a'):
+                p.publish('agent_a', 'must reject')
+        self.assertEqual(self.run_git(a, 'rev-parse', 'HEAD'), own_head)
+        self.assertEqual(self.run_git(a, 'ls-remote', 'origin', 'refs/heads/main').split()[0], previous)
+
+    def test_push_race_retries_after_remote_changes_between_fetch_and_push(self):
+        remote, a, b = self.fixture_clones()
+        file_a = '10_agent_workflow/parallel/agent_a/WORK_LOG.md'
+        file_b = '10_agent_workflow/parallel/agent_b/WORK_LOG.md'
+        for root, filename, content in [(a, file_a, 'A race saved'), (b, file_b, 'B race saved')]:
+            path = root / filename;path.parent.mkdir(parents=True, exist_ok=True);path.write_text(content)
+            self.run_git(root, 'add', '--', filename)
+            self.run_git(root, 'commit', '-m', content)
+        original_git = p.git
+        pushes = []
+
+        def interleave(*args, **kwargs):
+            if args == ('push', 'origin', 'main'):
+                pushes.append(args)
+                if len(pushes) == 1:
+                    self.run_git(a, 'push', 'origin', 'main')
+            return original_git(*args, **kwargs)
+
+        p.ROOT = b
+        with mock.patch.object(p, 'check_lane', return_value={}), mock.patch.object(p, 'common_checks'), \
+                mock.patch.object(p, 'git', side_effect=interleave), contextlib.redirect_stdout(io.StringIO()):
+            head = p.publish('agent_b', 'B race checkpoint')
+        self.assertEqual(len(pushes), 2)
+        self.assertEqual(self.run_git(b, 'ls-remote', 'origin', 'refs/heads/main').split()[0], head)
+        self.assertEqual(self.run_git(self.root, '--git-dir=' + str(remote), 'show', 'main:' + file_a), 'A race saved')
+        self.assertEqual(self.run_git(self.root, '--git-dir=' + str(remote), 'show', 'main:' + file_b), 'B race saved')
+
 
 if __name__ == '__main__':
     unittest.main()
