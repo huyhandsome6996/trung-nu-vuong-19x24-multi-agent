@@ -1,0 +1,3 @@
+# PAGE13 final reviewv002
+
+Opened final Poppler renderv002 and actual RGBA speech asset. Read exact4-line quote/diacritics; cloud ink/ivory blends with hall, short curved tail ends at mouth corner after1mmleft/5mmdown adjustment. Trắc white mourning/dryeyes, Nhịnavy, maleĐô and purpleCẩm; sword, hands and boots unobscured. Narration51tokens,5redphrases,4lines. EmbeddedNotoRegular/Bold, no missing glyphs/overflow, safe box and trim/bleed verified. Native background144.76DPI, speech461.62DPI; notprintready/userapproved. Novel-adapted proclamation, not an authenticated verbatim historical speech. Image lettering checked visually; extraction verifies narration only.

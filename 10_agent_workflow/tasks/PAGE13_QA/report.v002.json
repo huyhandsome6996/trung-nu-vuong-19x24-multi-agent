@@ -1,0 +1,28 @@
+{
+  "task_id": "PAGE13_QA",
+  "kind": "qa",
+  "status": "passed",
+  "reviewer": "Codex",
+  "summary": "Opened final Poppler renderv002 and actual RGBA speech asset. Read exact4-line quote/diacritics; cloud ink/ivory blends with hall, short curved tail ends at mouth corner after1mmleft/5mmdown adjustment. Trắc white mourning/dryeyes, Nhịnavy, maleĐô and purpleCẩm; sword, hands and boots unobscured. Narration51tokens,5redphrases,4lines. EmbeddedNotoRegular/Bold, no missing glyphs/overflow, safe box and trim/bleed verified. Native background144.76DPI, speech461.62DPI; notprintready/userapproved. Novel-adapted proclamation, not an authenticated verbatim historical speech. Image lettering checked visually; extraction verifies narration only.",
+  "checks": {
+    "historical": "pass",
+    "art": "pass",
+    "language": "pass",
+    "print_geometry": "pass"
+  },
+  "artifacts": [
+    "10_agent_workflow/tasks/PAGE13_QA/QA.v002.md",
+    "final_book_19x24/source/PAGE13_v002.svg",
+    "final_book_19x24/source/PAGE13_placement.v002.json",
+    "final_book_19x24/source/render_page.v004.py",
+    "final_book_19x24/proofs/PAGE13_v002.pdf",
+    "final_book_19x24/proofs/PAGE13_v002.png",
+    "final_book_19x24/proofs/PAGE13_v002.json",
+    "final_book_19x24/reading/PAGE13_v002.pdf",
+    "assets_generated/speech_clouds/PAGE13_SPEECH01_v001.png",
+    "assets_generated/speech_clouds/PAGE13_SPEECH01_v001.json",
+    "assets_generated/speech_clouds/PAGE13_SPEECH01_v001.request.json"
+  ],
+  "open_issues": [],
+  "reviewed_at": "2026-11-10T02:50:52.309587+00:00"
+}

@@ -2228,29 +2228,125 @@
       "id": "PAGE13_LAYOUT",
       "kind": "layout",
       "title": "Trang13: ghép chữ và bố cục",
-      "status": "in_progress",
+      "status": "done",
       "depends_on": [
         "PAGE13_ART"
       ],
       "instructions": "Dùng nguyên text đã khóa và tranh đã kiểm. Ghép khung giấy cổ, tô đỏ #C81E1E cho **...**, đặt đủ thoại/đuôi bóng đúng người. Khổ196×246/trim190×240. Dùng layout_tokens, đo tràn chữ bằng renderer thật; xuất bản xem PNG/PDF và nguồn có thể sửa. scripts/typeset_preview.py là trợ giúp HTML; không coi HTML/PDF xem trước là file in đã duyệt.",
-      "evidence": [],
-      "last_note": "Draw quote and cloud as one scene-matched asset",
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/PAGE13_LAYOUT/report.v002.json",
+          "sha256": "dad092fffbdcde87df82d7cd1f0d031c7f18c0859c8ba36114c1301a8b5511d2"
+        },
+        {
+          "path": "final_book_19x24/source/PAGE13_v002.svg",
+          "sha256": "b83a1adc26065440090d3b0c5fe58c0869050888df4c176f8cb2d24ed60329da"
+        },
+        {
+          "path": "final_book_19x24/source/PAGE13_placement.v002.json",
+          "sha256": "94803a038f42ccadf7a1e2788ae826bae02e4fce9f3ffc2f7ebffde07e72cd8b"
+        },
+        {
+          "path": "final_book_19x24/source/render_page.v004.py",
+          "sha256": "314b628a5cc0595ee6e38165862b78866c3ada9008ecce9e05cecf07fe135108"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE13_v002.pdf",
+          "sha256": "a0e85eb45073122e7faec394d63184c7271a927428556ab55453466de6712a0a"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE13_v002.png",
+          "sha256": "29e2ead0ada963f0a355445daf471c13d6be247763f8ee0eccbf5d086b3f3f39"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE13_v002.json",
+          "sha256": "d0be1aa85257dece6824167d9ccafc9784c1910c889399d5202062b6f6fcfb49"
+        },
+        {
+          "path": "final_book_19x24/reading/PAGE13_v002.pdf",
+          "sha256": "f491d16ff95674fc387e40d29e8230a707fa5b9c4450118a7832f8411f805d95"
+        },
+        {
+          "path": "assets_generated/speech_clouds/PAGE13_SPEECH01_v001.png",
+          "sha256": "9852cbafd6e76ba9f023d285250419fe1b71e7f102b24c1f2a15f3b9b682d0d1"
+        },
+        {
+          "path": "assets_generated/speech_clouds/PAGE13_SPEECH01_v001.json",
+          "sha256": "46f93a325ddf3ef510feec7c40696055a50f948f224bc34ec2fd6aa52f8f6201"
+        },
+        {
+          "path": "assets_generated/speech_clouds/PAGE13_SPEECH01_v001.request.json",
+          "sha256": "c8b859828b07516a2cf76a163439912ad362c92055d4da85add7e21d0962c906"
+        }
+      ],
+      "last_note": "Full visible quote/organic cloud verified; tail at mouth; PDF/PNG reopened",
       "page": 13,
       "owner": "coordinator",
-      "updated_at": "2026-11-10T02:46:43+00:00"
+      "updated_at": "2026-11-10T02:50:52+00:00"
     },
     {
       "id": "PAGE13_QA",
       "kind": "qa",
       "title": "Trang13: kiểm nguồn/mỹ thuật/chữ/khổ",
-      "status": "todo",
+      "status": "done",
       "depends_on": [
         "PAGE13_LAYOUT"
       ],
       "instructions": "Mở ảnh render ở kích thước đọc thật và zoom100%; so với scan, sheet, text đã khóa. Kiểm bốn lớp historical/art/language/print_geometry. Ghi lỗi cụ thể và sửa về đúng bước. Báo cáo pass chỉ khi có artifact thực và không còn lỗi trong phạm vi; đây là QA của agent, không phải chủ dự án duyệt.",
-      "evidence": [],
-      "last_note": "",
-      "page": 13
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/PAGE13_QA/report.v002.json",
+          "sha256": "bbbf6e6ef5e243169779e4b8156546b6571c868efcb4709f4795b9fb5ff9f0ec"
+        },
+        {
+          "path": "10_agent_workflow/tasks/PAGE13_QA/QA.v002.md",
+          "sha256": "4915259665cee9792be59119322c567000c22a73ef6f895a4cbd87e9e2ae55d2"
+        },
+        {
+          "path": "final_book_19x24/source/PAGE13_v002.svg",
+          "sha256": "b83a1adc26065440090d3b0c5fe58c0869050888df4c176f8cb2d24ed60329da"
+        },
+        {
+          "path": "final_book_19x24/source/PAGE13_placement.v002.json",
+          "sha256": "94803a038f42ccadf7a1e2788ae826bae02e4fce9f3ffc2f7ebffde07e72cd8b"
+        },
+        {
+          "path": "final_book_19x24/source/render_page.v004.py",
+          "sha256": "314b628a5cc0595ee6e38165862b78866c3ada9008ecce9e05cecf07fe135108"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE13_v002.pdf",
+          "sha256": "a0e85eb45073122e7faec394d63184c7271a927428556ab55453466de6712a0a"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE13_v002.png",
+          "sha256": "29e2ead0ada963f0a355445daf471c13d6be247763f8ee0eccbf5d086b3f3f39"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE13_v002.json",
+          "sha256": "d0be1aa85257dece6824167d9ccafc9784c1910c889399d5202062b6f6fcfb49"
+        },
+        {
+          "path": "final_book_19x24/reading/PAGE13_v002.pdf",
+          "sha256": "f491d16ff95674fc387e40d29e8230a707fa5b9c4450118a7832f8411f805d95"
+        },
+        {
+          "path": "assets_generated/speech_clouds/PAGE13_SPEECH01_v001.png",
+          "sha256": "9852cbafd6e76ba9f023d285250419fe1b71e7f102b24c1f2a15f3b9b682d0d1"
+        },
+        {
+          "path": "assets_generated/speech_clouds/PAGE13_SPEECH01_v001.json",
+          "sha256": "46f93a325ddf3ef510feec7c40696055a50f948f224bc34ec2fd6aa52f8f6201"
+        },
+        {
+          "path": "assets_generated/speech_clouds/PAGE13_SPEECH01_v001.request.json",
+          "sha256": "c8b859828b07516a2cf76a163439912ad362c92055d4da85add7e21d0962c906"
+        }
+      ],
+      "last_note": "Source/adaptation/art/language/proofgeometry checked; not userapproved or printready",
+      "page": 13,
+      "owner": "coordinator",
+      "updated_at": "2026-11-10T02:50:52+00:00"
     },
     {
       "id": "PAGE14_TEXT",
@@ -4878,6 +4974,24 @@
       "task": "PAGE13_LAYOUT",
       "action": "start",
       "note": "Draw quote and cloud as one scene-matched asset"
+    },
+    {
+      "at": "2026-11-10T02:50:52+00:00",
+      "task": "PAGE13_LAYOUT",
+      "action": "finish",
+      "note": "Full visible quote/organic cloud verified; tail at mouth; PDF/PNG reopened"
+    },
+    {
+      "at": "2026-11-10T02:50:52+00:00",
+      "task": "PAGE13_QA",
+      "action": "start",
+      "note": "Manual final render + actual PDF geometry/font check"
+    },
+    {
+      "at": "2026-11-10T02:50:52+00:00",
+      "task": "PAGE13_QA",
+      "action": "finish",
+      "note": "Source/adaptation/art/language/proofgeometry checked; not userapproved or printready"
     }
   ]
 }

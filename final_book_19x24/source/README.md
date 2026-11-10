@@ -27,3 +27,9 @@ ProofPDF: Media/Bleed196×246mm, Trim190×240mm cách3mm. ReadingPDF: CropBox �
 |06|v001|v001|v001|
 
 Bản đọc ghép6trang đầu là checkpoint, chưa đủ sách. Trang04LAYOUTv001 bị thay vì đuôi thoại đi ngang tóc; trang05proofv001 không dùng vì lỗi xuất (tệp rỗng đã loại, nguồn/bảnđọc cũ còn). Chỉ dùng phiên bản trong bảng vàevidence state để ghép sách. Snapshotrendererv003 thêm clip thủ công từng khung, trích thư khôngđuôi, vàghiPDF bằng tệp tạm rồi thay nguyên tử.
+
+## User lettering revision10Nov2026
+
+Latest accepted illustrated-speech samples: PAGE12LAYOUTv003/ARTv001; PAGE13LAYOUTv002/ARTv003. Both contain actual lettered-cloud PNG artwork placed without distortion; original locked quote and exact generation request are retained. Render snapshotv004 supports these assets. PDF extraction validates narration only; visible dialogue requires manual review.
+
+Old layouts03,04,06,07,09,10,11 are retained as historical drafts and reopened for the new speech style. Do not assemble them as fully revised/approved pages. Pages01,02,05,08 have no ordinary speech clouds requiring this restyle. PAGE12v003 and PAGE13v002 are agent-reviewed proofs, not user approval or print release. Use current task evidence for the remaining version selections; the six-page table above is historical.

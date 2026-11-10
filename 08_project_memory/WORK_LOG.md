@@ -169,3 +169,5 @@ timezone: "Asia/Ho_Chi_Minh"
 - PAGE13 actual fresh rawv002 saved1122×1402 with submitted prompt/5ref hashes. Figure identities/anatomy reviewed; top sword enters caption zone, so ART remains in_progress. Exact composition editv003 prepared, no success claimed before returned file.
 
 - PAGE13_ART v003 actual recompose returned and visually passed: sword fully below30percent, caption area clear, white mourning/normal hands and full boots. Saved native1122×1402, exact submitted prompt/refs/hash; began drawn-lettering LAYOUT with full locked quote.
+
+- PAGE13_LAYOUT/QA v002 finished after reopening real PDF/PNG: complete4line illustrated quote, warm organic cloud with full lettering drawn inside, tail adjusted to mouth corner. Noto narrator4lines/5redphrases, exact51tokens; bleed196×246/trim190×240 and embeddedfonts checked. Raw144.76DPI/speech461.62DPI; agent-reviewed only. Seven legacy speech pages still reopened; no full-book completion claimed. Saved editableSVG/placement/exactprompt/raw/meta/QA and immutable renderv004 snapshot.
