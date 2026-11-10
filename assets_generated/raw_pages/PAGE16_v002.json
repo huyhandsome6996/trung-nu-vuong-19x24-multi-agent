@@ -1,0 +1,38 @@
+{
+  "image": "assets_generated/raw_pages/PAGE16_v002.png",
+  "version": "v002",
+  "native_size_px": [
+    1122,
+    1402
+  ],
+  "sha256": "077e0ac02b4eec24ff35c8f6335d9272c6de4ee8be9c5227b9b459c656283152",
+  "prompt": "Use case: historical-scene / illustration-story. Text-free Vietnamese historical-legend illustrated book for ages13–16. Portrait4:5 page, high native detail, sharp ink hatching and rich luminous controlled watercolor, mature heroic emotional storytelling matching the supplied design sheets. Keep exact facial structure, body type and costume colors from named reference positions. TOP20%canvas must be quiet pale atmosphere with NO heads, hands, weapons or important roofs; later Vietnamese parchment narration is typeset separately. Absolutely NO writing/letters anywhere, no captions, no speech balloons, no watermark/signature. Natural attached hands, normal limbs, mechanically connected weapons. No modern objects, no gore. Keep important faces/feet inside 8–92%width and belowy28% but above94%height. PAGE16 Template A majestic wide-angle panoramic view of HátMôn oath altar where HátRiver meets NhịHà. Reference ENV03 MIDDLEscene only, 3tier earthen/wooden altar atcenter, facing river, large bronze drums and MANY fivecolored blankflags in ranks extending beyond crop (source99, do not draw numericallabels). EXACTLY EIGHT visible adult MALE GRAY ELEPHANTS with WHITE TUSKS, arranged four clearly separated onLEFT and four clearly separated onRIGHT of altar in foreground/middleground, no extra elephants, no white elephant bodies. Countable8 elephants is crucial. Cavalry toleft, archers toright, large fleet of morethan100 slender wooden warboats indicated in depth on river (not160;16 refers to oars). RefPROP04 TOPLEFT open warboats, MIDDLEright howdah ifneeded. View entirebody of each eight elephants with plausible legs/trunks, no riders necessary. No individual named heroine closeup. Top20%emptygolden sky. Strong spatial order and festive spring light, redyellow accents, no battleviolence.",
+  "actual_references": [
+    {
+      "path": "assets_generated/design_system/ENV03_v001.png",
+      "sha256": "fd58bd1e71c22e4bec7a0f54bb9ec6cec0b15ab0da5e0c8979c26e95bad6b929"
+    },
+    {
+      "path": "assets_generated/design_system/PROP02_v001.png",
+      "sha256": "66b704990f77eed1b67406f057324078b87c2556b2f5d5cbd433b9997ea0d9e0"
+    },
+    {
+      "path": "assets_generated/design_system/PROP04_v002.png",
+      "sha256": "e8eb31e7c6948bb21dc56d43f6d858cce2ba4a99ecf1172f0dec232ffd2441e4"
+    },
+    {
+      "path": "assets_generated/design_system/ANIMAL01_v001.png",
+      "sha256": "7dd2569d6c8bc3a6b78f11a588f82d2a26f7032b141fa702f9965240f6e28cf6"
+    },
+    {
+      "path": "assets_generated/design_system/ARMY01_v001.png",
+      "sha256": "4f6b76dea97ac82cefce9338f51faaa00ee2501b3e63cb7197fb0ec4ef903ff7"
+    }
+  ],
+  "generator": "image_gen.imagegen (model not exposed)",
+  "text_free": true,
+  "top_clearance_checked": true,
+  "visual_qa_report": "10_agent_workflow/tasks/PAGE16_ART/VISUAL_REVIEW.v002.md",
+  "user_approved": false,
+  "print_ready": false
+}

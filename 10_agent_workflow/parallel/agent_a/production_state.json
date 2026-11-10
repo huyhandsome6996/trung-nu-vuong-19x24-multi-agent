@@ -407,43 +407,138 @@
       "id": "PAGE16_ART",
       "kind": "art",
       "title": "Trang16: tạo và kiểm tranh nền",
-      "status": "todo",
+      "status": "done",
       "depends_on": [
         "PAGE16_TEXT"
       ],
       "instructions": "Lấy text đã khóa từ evidence bước TEXT. Xem các sheet liên quan; soạn prompt cuối theo cảnh, ghi actual_references và hash. Tạo ảnh bằng công cụ sinh ảnh, nền không chữ, không bóng thoại, chừa20% đỉnh; dùng đúng A/B/C. Kiểm mặt, phục trang, tay/chân/vũ khí và hành động. Lưu PNG native có phiên bản và metadata theo templates/RAW_IMAGE_METADATA.json. Không resize rồi khai native300DPI.",
-      "evidence": [],
-      "last_note": "Transferred to dedicated lane; previous interrupted image job is not assumed alive",
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/PAGE16_ART/report.v002.json",
+          "sha256": "83196eba3bf309612f58e128c757a2787ab89c000f56535b3fce9c8d9b8f0b66"
+        },
+        {
+          "path": "assets_generated/raw_pages/PAGE16_v002.png",
+          "sha256": "077e0ac02b4eec24ff35c8f6335d9272c6de4ee8be9c5227b9b459c656283152"
+        },
+        {
+          "path": "assets_generated/raw_pages/PAGE16_v002.json",
+          "sha256": "50e4d4a7bdb3da8ea46f575dba5dedaab71bcc4f1dbe59bc73077f9cf4110c91"
+        },
+        {
+          "path": "10_agent_workflow/tasks/PAGE16_ART/generation_request.v002.json",
+          "sha256": "941fd0779d7a936069f54f5e769577f5562ab04122cff827a8dedf92e1d7476e"
+        },
+        {
+          "path": "10_agent_workflow/tasks/PAGE16_ART/VISUAL_REVIEW.v002.md",
+          "sha256": "da92aa08fc05b6e85877c019994bc3f1a95e525880132b806eb87e27ea386043"
+        }
+      ],
+      "last_note": "Count and source/art checks passed",
       "page": 16,
-      "owner": "Codex",
-      "updated_at": "2026-11-09T14:15:05+00:00",
+      "owner": "agent_a",
+      "updated_at": "2026-11-10T07:17:04+00:00",
       "block_reason": ""
     },
     {
       "id": "PAGE16_LAYOUT",
       "kind": "layout",
       "title": "Trang16: ghép chữ và bố cục",
-      "status": "todo",
+      "status": "done",
       "depends_on": [
         "PAGE16_ART"
       ],
       "instructions": "Dùng nguyên text đã khóa và tranh đã kiểm. Ghép khung giấy cổ, tô đỏ #C81E1E cho **...**, đặt đủ thoại/đuôi bóng đúng người. Khổ196×246/trim190×240. Dùng layout_tokens, đo tràn chữ bằng renderer thật; xuất bản xem PNG/PDF và nguồn có thể sửa. scripts/typeset_preview.py là trợ giúp HTML; không coi HTML/PDF xem trước là file in đã duyệt.",
-      "evidence": [],
-      "last_note": "",
-      "page": 16
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/PAGE16_LAYOUT/report.v001.json",
+          "sha256": "e8b63c7a79e99aef738d14931ed395bd6f62e3e0995098aa07680a08bf390922"
+        },
+        {
+          "path": "final_book_19x24/source/PAGE16_v001.svg",
+          "sha256": "805ddeac9d5b363f11ce66cdd10c94196ac1eb1d6939d7324961a71e8d5371e3"
+        },
+        {
+          "path": "final_book_19x24/source/PAGE16_placement.v001.json",
+          "sha256": "4640d03ccdd88eb13496a99c28538309837cb512272c59d24233bc0c3672a951"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE16_v001.pdf",
+          "sha256": "0cfb9e9cef60f9a8d4fd57a69437bb1705bbc1f4d2939917f91bc09b0a1ad6d4"
+        },
+        {
+          "path": "final_book_19x24/reading/PAGE16_v001.pdf",
+          "sha256": "a39f55cde923db0cf995ebdb54519e9838b9d3574f3f8ce849ec7ad6bfb19144"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE16_v001.png",
+          "sha256": "cac33b219c8595a9edce023a36c45f4d729bf3eaf0b7181334548052f11e32be"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE16_v001.json",
+          "sha256": "800bdd121c388b14f173a70a5ee988ce62a50b4d17d2100b2c4fcc25efb4ebfa"
+        },
+        {
+          "path": "10_agent_workflow/parallel/agent_a/PAGE16_technical.v001.json",
+          "sha256": "71e99df6c909f3dedffe4362c223c978b9be4331c7bf807221580ed7762ae600"
+        },
+        {
+          "path": "10_agent_workflow/parallel/agent_a/render_page.v001.py",
+          "sha256": "314b628a5cc0595ee6e38165862b78866c3ada9008ecce9e05cecf07fe135108"
+        }
+      ],
+      "last_note": "Actual visual and technical checks passed",
+      "page": 16,
+      "owner": "agent_a",
+      "updated_at": "2026-11-10T07:17:32+00:00"
     },
     {
       "id": "PAGE16_QA",
       "kind": "qa",
       "title": "Trang16: kiểm nguồn/mỹ thuật/chữ/khổ",
-      "status": "todo",
+      "status": "done",
       "depends_on": [
         "PAGE16_LAYOUT"
       ],
       "instructions": "Mở ảnh render ở kích thước đọc thật và zoom100%; so với scan, sheet, text đã khóa. Kiểm bốn lớp historical/art/language/print_geometry. Ghi lỗi cụ thể và sửa về đúng bước. Báo cáo pass chỉ khi có artifact thực và không còn lỗi trong phạm vi; đây là QA của agent, không phải chủ dự án duyệt.",
-      "evidence": [],
-      "last_note": "",
-      "page": 16
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/PAGE16_QA/report.v001.json",
+          "sha256": "4d7cab80c071b95b9d52bbddcaf888c4106ee0dd5092232012b65a7634f6f926"
+        },
+        {
+          "path": "10_agent_workflow/tasks/PAGE16_LAYOUT/report.v001.json",
+          "sha256": "e8b63c7a79e99aef738d14931ed395bd6f62e3e0995098aa07680a08bf390922"
+        },
+        {
+          "path": "10_agent_workflow/parallel/agent_a/PAGE16_technical.v001.json",
+          "sha256": "71e99df6c909f3dedffe4362c223c978b9be4331c7bf807221580ed7762ae600"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE16_v001.png",
+          "sha256": "cac33b219c8595a9edce023a36c45f4d729bf3eaf0b7181334548052f11e32be"
+        },
+        {
+          "path": "final_book_19x24/reading/PAGE16_v001.pdf",
+          "sha256": "a39f55cde923db0cf995ebdb54519e9838b9d3574f3f8ce849ec7ad6bfb19144"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE16_v001.json",
+          "sha256": "800bdd121c388b14f173a70a5ee988ce62a50b4d17d2100b2c4fcc25efb4ebfa"
+        },
+        {
+          "path": "assets_generated/parallel/agent_a/PAGE16_review300_v001.png",
+          "sha256": "e2506054fceca61c986c9ac757199ff19da59304bd462a2424ead9bd623cb368"
+        },
+        {
+          "path": "assets_generated/parallel/agent_a/PAGE16_detail_v001.png",
+          "sha256": "6196710da80c94e927b0b7285465fb3a2ead22c87699d22a8240e5b1b56db9af"
+        }
+      ],
+      "last_note": "AGENT_QA complete; not user or print approval",
+      "page": 16,
+      "owner": "agent_a",
+      "updated_at": "2026-11-10T07:17:33+00:00"
     },
     {
       "id": "PAGE17_TEXT",
@@ -790,6 +885,54 @@
     {
       "at": "2026-11-10T07:11:55+00:00",
       "task": "PAGE15_QA",
+      "action": "finish",
+      "note": "AGENT_QA complete; not user or print approval"
+    },
+    {
+      "at": "2026-11-10T07:13:08+00:00",
+      "task": "PAGE16_ART",
+      "action": "start",
+      "note": "Source39–40,8graymaleelephants and morethan100boats checked;5active refs opened"
+    },
+    {
+      "at": "2026-11-10T07:17:04+00:00",
+      "task": "PAGE16_ART",
+      "action": "checkpoint",
+      "note": "Actual rawv002 saved,8elephants counted4+4 and native checked"
+    },
+    {
+      "at": "2026-11-10T07:17:04+00:00",
+      "task": "PAGE16_ART",
+      "action": "finish",
+      "note": "Count and source/art checks passed"
+    },
+    {
+      "at": "2026-11-10T07:17:05+00:00",
+      "task": "PAGE16_LAYOUT",
+      "action": "start",
+      "note": "No dialogue; retain locked narration6keywords"
+    },
+    {
+      "at": "2026-11-10T07:17:31+00:00",
+      "task": "PAGE16_LAYOUT",
+      "action": "checkpoint",
+      "note": "Actual source/PDF/PNG saved; full page and native lettering visually read; technical checks pass"
+    },
+    {
+      "at": "2026-11-10T07:17:32+00:00",
+      "task": "PAGE16_LAYOUT",
+      "action": "finish",
+      "note": "Actual visual and technical checks passed"
+    },
+    {
+      "at": "2026-11-10T07:17:32+00:00",
+      "task": "PAGE16_QA",
+      "action": "start",
+      "note": "Source/identity/anatomy/Vietnamese and PDF geometry reviewed"
+    },
+    {
+      "at": "2026-11-10T07:17:33+00:00",
+      "task": "PAGE16_QA",
       "action": "finish",
       "note": "AGENT_QA complete; not user or print approval"
     }
