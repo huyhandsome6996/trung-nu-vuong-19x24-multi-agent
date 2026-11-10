@@ -1,0 +1,32 @@
+{
+  "task_id": "PAGE22_LAYOUT",
+  "kind": "layout",
+  "status": "passed",
+  "reviewer": "agent_b",
+  "summary": "Mở PDF và render150/detail300DPI:4dòng dẫn/5keywordđỏ, đủ4dòng thoại vẽ nguyênvăn. Đuôi hướng Tào, dừng ngoài viền mặt, khôngcắt mắt/tay. Noto nhúng, safe/trim/bleed/overflow kiểmđạt. Các layoutv001–v006 chỉ là nháp giữ đối chiếu.",
+  "checks": {
+    "vietnamese_fonts": "pass",
+    "red_keywords": "pass",
+    "safe_text": "pass",
+    "bleed_geometry": "pass",
+    "no_overflow": "pass",
+    "speech_placement": "pass"
+  },
+  "artifacts": [
+    "final_book_19x24/source/PAGE22_v007.svg",
+    "final_book_19x24/proofs/PAGE22_v007.pdf",
+    "final_book_19x24/reading/PAGE22_v007.pdf",
+    "final_book_19x24/proofs/PAGE22_v007.png",
+    "final_book_19x24/proofs/PAGE22_v007.json",
+    "final_book_19x24/proofs/PAGE22_v007_300dpi.png",
+    "final_book_19x24/proofs/PAGE22_v007_detail.png",
+    "final_book_19x24/source/PAGE22_v006.placement.json",
+    "assets_generated/speech_clouds/PAGE22_SPEECH01_v002.png",
+    "assets_generated/speech_clouds/PAGE22_SPEECH01_v002.json",
+    "assets_generated/speech_clouds/PAGE22_SPEECH01_v002.prompt.txt",
+    "10_agent_workflow/tasks/PAGE22_LAYOUT/technical.v001.json",
+    "10_agent_workflow/parallel/agent_b/render_page.snapshot.v001.py"
+  ],
+  "open_issues": [],
+  "reviewed_at": "2026-11-10T07:09:51.902719+00:00"
+}

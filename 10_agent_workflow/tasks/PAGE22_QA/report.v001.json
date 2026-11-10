@@ -1,0 +1,21 @@
+{
+  "task_id": "PAGE22_QA",
+  "kind": "qa",
+  "status": "passed",
+  "reviewer": "agent_b",
+  "summary": "AGENT_QA:scan46–51, nhận diệnTào/Lục và đoànthuyền, tay/chân/máichèo kiểmđạt. Đã đọc chữ/dấu trên native vàv007150/detail300. Thoại đủ4dòng,5keywordđỏ. Font/box/safe kiểmđạt. Raw1119×1405=145.01DPI, speech524.67DPI; khôngprintready/userapproved.",
+  "checks": {
+    "historical": "pass",
+    "art": "pass",
+    "language": "pass",
+    "print_geometry": "pass"
+  },
+  "artifacts": [
+    "10_agent_workflow/tasks/PAGE22_LAYOUT/report.v001.json",
+    "final_book_19x24/proofs/PAGE22_v007.png",
+    "final_book_19x24/proofs/PAGE22_v007_detail.png",
+    "10_agent_workflow/tasks/PAGE22_LAYOUT/technical.v001.json"
+  ],
+  "open_issues": [],
+  "reviewed_at": "2026-11-10T07:09:52.829615+00:00"
+}

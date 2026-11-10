@@ -1,0 +1,26 @@
+{
+  "text": "Bọn dân sơn cước cùng con bé miệng còn hôi sữa kia làm sao cản nổi đại quân của bản tổng quản!",
+  "speaker": "Tào Quyền (cười ngạo mạn trên mũi thuyền)",
+  "status": "visual_text_verified",
+  "image": "assets_generated/speech_clouds/PAGE22_SPEECH01_v002.png",
+  "sha256": "8ee5f5c9ca7f1d757b89ebfd2db47265741ac305cefee508c13d10c11a1631bf",
+  "native_size_px": [
+    1983,
+    793
+  ],
+  "generator": "image_gen.imagegen built-in; model not exposed",
+  "prompt": "Edit supplied speech asset for PAGE22. Reference1 is existing exact Vietnamese lettered cloud; Reference2 is target river scene. Preserve every Vietnamese word/accent and the cool mist-grey paper/charcoal serif lettering. Recompose cloud and tail for placement: transparent RGBA canvas ratio2.5:1. Compact cloud BODY only LEFT78percent of canvas width and TOP80percent of canvas height. All four lines of text entirely in this body, comfortably readable. From body's LOWER-RIGHT corner at roughly(74percent width,67percent height), draw a slim gently curved tail that goes RIGHT-DOWN through otherwise transparent space and ends at(98percent width,96percent height). Tail itself thin, no text. This leaves the upper-right24percent and lower-right20percent of canvas transparent, so it can point to the man's mouth without overlaying his head/hair and without covering his pointing hand. Do not draw man or scene. Exact text in FOUR lines: Bọn dân sơn cước cùng con bé / miệng còn hôi sữa kia làm sao / cản nổi đại quân của / bản tổng quản! Slash indicates line break only, do not print slashes. No words omitted/changed. No modern UI card, no added title, watermark or drop shadow. Retain soft organic irregular outline, blue-grey reflected light and subtle paper grain.",
+  "actual_references": [
+    {
+      "path": "assets_generated/speech_clouds/PAGE22_SPEECH01_v001.png",
+      "sha256": "b3b74203a3a9aeebf7702798d4f8c0dea8e952ad95e2a119df6a5797efbd13e4"
+    },
+    {
+      "path": "assets_generated/raw_pages/PAGE22_v001.png",
+      "sha256": "ce66a2c6a6eb3edae998130a602e8f2ccc5eeabfd19a0a96f88ebbb677447195"
+    }
+  ],
+  "visual_review": "Manual reading of all visible words and accents in returned native pixels: exact locked quote. Alpha retained. Final placement reviewed separately.",
+  "user_approved": false,
+  "print_ready": false
+}

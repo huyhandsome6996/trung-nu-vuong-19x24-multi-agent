@@ -1,0 +1,19 @@
+{
+  "task_id": "PAGE22_TEXT",
+  "kind": "text",
+  "status": "passed",
+  "reviewer": "agent_b",
+  "summary": "Đã đọc nguồn; khóa 42tiếng và 1thoại đầy đủ. Đã mở scanPDF46–47/50–51 (sách257–258/261–262):30khinh thuyền,600binh tướng tổng và phu thuyền ở lại. Sương tan dần khi vào nhánh sông. Thoại chuyển thể giữ nguyên, không phát ngôn chính sử. Tranh chọn thời điểm đoàn vào bến, không khẳng định mọi thuyền cùng thấy được. Rút câu nối sau đo renderer; giữfont12.8pt,5cụmđỏ và nguyênthoại.",
+  "checks": {
+    "source_alignment": "pass",
+    "narration_35_65": "pass",
+    "keywords_preserved": "pass",
+    "dialogue_locked": "pass",
+    "template_locked": "pass"
+  },
+  "artifacts": [
+    "10_agent_workflow/tasks/PAGE22_TEXT/text.v003.json"
+  ],
+  "open_issues": [],
+  "reviewed_at": "2026-11-10T07:04:00.874752+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "page": 22,
+  "template": "A",
+  "status": "locked",
+  "narration": "Sương sớm phủ **Lục Đầu Giang**. **Đại tổng quản Tào Quyền** cùng **Lục Hiến** dẫn **ba mươi khinh thuyền** tới bến Phượng Hoàng. Khinh thường nghĩa quân, Tào Quyền thúc **sáu trăm binh tướng** lên bờ, chỉ để phu thuyền ở lại.",
+  "dialogues": [
+    {
+      "speaker": "Tào Quyền (cười ngạo mạn trên mũi thuyền)",
+      "text": "Bọn dân sơn cước cùng con bé miệng còn hôi sữa kia làm sao cản nổi đại quân của bản tổng quản!"
+    }
+  ],
+  "dialogues_status": "locked",
+  "storyboard_path": "03_storyboards_and_scripts/STORYBOARD_PART_2_HOI_8_HAT_MON_PHUONG_HOANG.md",
+  "storyboard_sha256": "51b2b09b8cf339ee46f55c7b018dc65d2d90cbd1934d0263a42719e909c7aaeb",
+  "source_notes": "Đã mở scanPDF46–47/50–51 (sách257–258/261–262):30khinh thuyền,600binh tướng tổng và phu thuyền ở lại. Sương tan dần khi vào nhánh sông. Thoại chuyển thể giữ nguyên, không phát ngôn chính sử. Tranh chọn thời điểm đoàn vào bến, không khẳng định mọi thuyền cùng thấy được. Rút câu nối sau đo renderer; giữfont12.8pt,5cụmđỏ và nguyênthoại.",
+  "note": "Agent B: source-checked adaptation; storyboard shared file preserved.",
+  "narration_tokens": 42
+}

@@ -1,0 +1,22 @@
+{
+  "text": "Bọn dân sơn cước cùng con bé miệng còn hôi sữa kia làm sao cản nổi đại quân của bản tổng quản!",
+  "speaker": "Tào Quyền (cười ngạo mạn trên mũi thuyền)",
+  "status": "visual_text_verified",
+  "image": "assets_generated/speech_clouds/PAGE22_SPEECH01_v001.png",
+  "sha256": "b3b74203a3a9aeebf7702798d4f8c0dea8e952ad95e2a119df6a5797efbd13e4",
+  "native_size_px": [
+    1983,
+    793
+  ],
+  "generator": "image_gen.imagegen built-in; model not exposed",
+  "prompt": "Create a transparent RGBA speech artwork for PAGE22 historical comic. Draw organic ink cloud outline AND ALL Vietnamese lettering together. Target scene supplied as reference for cold blue-grey river mist; retain a cool ivory/grey lightly textured paper body and dark charcoal thin ink edge with slight blue reflected light, not yellow. No other scenery/characters. Wide horizontal canvas ratio2.5:1 about1800x720. Body LEFT85percent, softly irregular oval/cloud; a short naturally curved tail from LOWER-right edge curves right-down to rightmost edge at90percent canvas height, aimed toward the speaker mouth at bottom-right; no long spike. Text dark highly readable humanist serif, clear Vietnamese accents, comic book lettering, no ornate calligraphy. Entire exact quote in four centered balanced lines with internal margins. Verbatim text: Bọn dân sơn cước cùng con bé miệng còn hôi sữa kia làm sao cản nổi đại quân của bản tổng quản! Suggested breaks: Bọn dân sơn cước cùng con bé / miệng còn hôi sữa kia làm sao / cản nổi đại quân của / bản tổng quản! Do not alter words or punctuation, no added quotes/title/watermark. Transparent outside, no pure white modern UI box or 3D shadow.",
+  "actual_references": [
+    {
+      "path": "assets_generated/raw_pages/PAGE22_v001.png",
+      "sha256": "ce66a2c6a6eb3edae998130a602e8f2ccc5eeabfd19a0a96f88ebbb677447195"
+    }
+  ],
+  "visual_review": "Read all4lines and Vietnamese accents from returned native pixels; exact locked quote. Cool grey-ivory body/ink, alpha preserved.",
+  "user_approved": false,
+  "print_ready": false
+}

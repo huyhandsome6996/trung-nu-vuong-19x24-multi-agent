@@ -1,0 +1,16 @@
+{
+  "task_id": "PAGE22_QA",
+  "kind": "qa",
+  "status": "draft",
+  "reviewer": "",
+  "summary": "",
+  "checks": {
+    "historical": "not_checked",
+    "art": "not_checked",
+    "language": "not_checked",
+    "print_geometry": "not_checked"
+  },
+  "artifacts": [],
+  "open_issues": [],
+  "reviewed_at": ""
+}

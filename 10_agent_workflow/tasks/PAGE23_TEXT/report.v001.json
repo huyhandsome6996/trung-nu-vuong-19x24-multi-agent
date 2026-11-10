@@ -1,0 +1,19 @@
+{
+  "task_id": "PAGE23_TEXT",
+  "kind": "text",
+  "status": "passed",
+  "reviewer": "agent_b",
+  "summary": "Đã đọc nguồn; khóa 46tiếng và 1thoại đầy đủ. Đã mở scanPDF51–53/sách262–264: cửa mở, đoản giáp/khăn tang/giày da báo/trườngkiếm; nàng mắng rồi lui vào nhà, nhóm nghĩaquân dẫn dụ lên núi. Màu lục theoCHAR04, không suy bóng áotrắng PDF53 là giáptrắng. Scan không xác nhậnTào cưỡingựa trong sân nên vẽ đứng. Thoại chuyển thể giữnguyên, không nguyênvăn sử.",
+  "checks": {
+    "source_alignment": "pass",
+    "narration_35_65": "pass",
+    "keywords_preserved": "pass",
+    "dialogue_locked": "pass",
+    "template_locked": "pass"
+  },
+  "artifacts": [
+    "10_agent_workflow/tasks/PAGE23_TEXT/text.v001.json"
+  ],
+  "open_issues": [],
+  "reviewed_at": "2026-11-10T07:10:51.501510+00:00"
+}

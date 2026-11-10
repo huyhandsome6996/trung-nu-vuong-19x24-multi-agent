@@ -1,0 +1,18 @@
+{
+  "page": 23,
+  "template": "A",
+  "status": "locked",
+  "narration": "**Nữ động chủ Thánh Thiên** bước ra từ cửa nhà gỗ, mặc **bộ giáp ngắn**, đầu **chít khăn tang trắng**, chân đi **giày da báo**. Nàng rút kiếm, **vạch mặt tội ác của Tào Quyền** rồi lui vào nhà, chuẩn bị nhử quân địch lên núi.",
+  "dialogues": [
+    {
+      "speaker": "Thánh Thiên",
+      "text": "Tào tặc! Ngươi vô cớ sát hại cha ta, hôm nay tự dẫn xác đến đây chính là ý trời! Có giỏi thì đuổi theo ta!"
+    }
+  ],
+  "dialogues_status": "locked",
+  "storyboard_path": "03_storyboards_and_scripts/STORYBOARD_PART_2_HOI_8_HAT_MON_PHUONG_HOANG.md",
+  "storyboard_sha256": "51b2b09b8cf339ee46f55c7b018dc65d2d90cbd1934d0263a42719e909c7aaeb",
+  "source_notes": "Đã mở scanPDF51–53/sách262–264: cửa mở, đoản giáp/khăn tang/giày da báo/trườngkiếm; nàng mắng rồi lui vào nhà, nhóm nghĩaquân dẫn dụ lên núi. Màu lục theoCHAR04, không suy bóng áotrắng PDF53 là giáptrắng. Scan không xác nhậnTào cưỡingựa trong sân nên vẽ đứng. Thoại chuyển thể giữnguyên, không nguyênvăn sử.",
+  "note": "Agent B: source-checked adaptation; storyboard shared file preserved.",
+  "narration_tokens": 46
+}

@@ -273,18 +273,18 @@
       "instructions": "Đọc nguyên cảnh và nguồn scan; sửa các câu cường điệu/không có căn cứ, giữ giọng hào hùng 13–16 tuổi. Đếm thật 35–65 tiếng theo khoảng trắng, không dùng số từ ghi trong tiêu đề làm chứng cứ. Chép đủ thoại vào text.v001.json, giữ **từ khóa**; ghi nguồn, template và hash storyboard. Khóa chữ sau khi kiểm. Nếu sửa toàn file storyboard về sau, rà lại các text đã khóa theo hash mới.",
       "evidence": [
         {
-          "path": "10_agent_workflow/tasks/PAGE22_TEXT/report.v002.json",
-          "sha256": "647135b5682293fd00ab8c6156ba179cedc738766032fea6cf992d592038a7e9"
+          "path": "10_agent_workflow/tasks/PAGE22_TEXT/report.v003.json",
+          "sha256": "9347565222fe42671f417b5b90df53bfa47f91495073911397a8d9ecdfa2382b"
         },
         {
-          "path": "10_agent_workflow/tasks/PAGE22_TEXT/text.v002.json",
-          "sha256": "2bc6f01f65ea1c58783bcc5910292b796f4e57bfe005f10adb72b00960aa42a3"
+          "path": "10_agent_workflow/tasks/PAGE22_TEXT/text.v003.json",
+          "sha256": "38bb1da43c6927853d68a7ca8aa2fe2d0c26734caa3d77dea0c8be6dc4e75513"
         }
       ],
-      "last_note": "Đã chép đủ1thoại,58tiếng; giữv001 không dùng.",
+      "last_note": "Lời dẫn gọn giữkeyword/thoại, v003.",
       "page": 22,
       "owner": "agent_b",
-      "updated_at": "2026-11-10T06:58:43+00:00",
+      "updated_at": "2026-11-10T07:04:01+00:00",
       "previous_evidence": [
         [
           {
@@ -294,6 +294,16 @@
           {
             "path": "10_agent_workflow/tasks/PAGE22_TEXT/text.v001.json",
             "sha256": "8470774c66c282eab88a8afb4d9ed00b49b5618eaeb1f8ccc5f63a356fb86ca7"
+          }
+        ],
+        [
+          {
+            "path": "10_agent_workflow/tasks/PAGE22_TEXT/report.v002.json",
+            "sha256": "647135b5682293fd00ab8c6156ba179cedc738766032fea6cf992d592038a7e9"
+          },
+          {
+            "path": "10_agent_workflow/tasks/PAGE22_TEXT/text.v002.json",
+            "sha256": "2bc6f01f65ea1c58783bcc5910292b796f4e57bfe005f10adb72b00960aa42a3"
           }
         ]
       ],
@@ -326,67 +336,180 @@
           "sha256": "79abc997a5f81ce7e5e937d452de0c4d57b062b5b39a8b5646c92b2c4a8a5c94"
         }
       ],
-      "last_note": "Tranh đoàn thuyền đã kiểm, nhìn một phần qua sương.",
+      "last_note": "Raw/hashes khôngđổi, kiểm lại nhận diện đạt.",
       "page": 22,
       "owner": "agent_b",
-      "updated_at": "2026-11-10T07:02:02+00:00",
-      "block_reason": ""
+      "updated_at": "2026-11-10T07:04:01+00:00",
+      "block_reason": "",
+      "previous_evidence": [
+        [
+          {
+            "path": "10_agent_workflow/tasks/PAGE22_ART/report.v001.json",
+            "sha256": "b493dc0ebf17ad12f634ced9cfc69680f89f61b560c72217b69f0491e0a3a534"
+          },
+          {
+            "path": "assets_generated/raw_pages/PAGE22_v001.png",
+            "sha256": "ce66a2c6a6eb3edae998130a602e8f2ccc5eeabfd19a0a96f88ebbb677447195"
+          },
+          {
+            "path": "assets_generated/raw_pages/PAGE22_v001.json",
+            "sha256": "910f458e41dbc2e68aabe8d66da1838e72ce0c9bfa823c8ccf96f1997b4fec13"
+          },
+          {
+            "path": "10_agent_workflow/tasks/PAGE22_ART/prompt.v001.txt",
+            "sha256": "79abc997a5f81ce7e5e937d452de0c4d57b062b5b39a8b5646c92b2c4a8a5c94"
+          }
+        ]
+      ]
     },
     {
       "id": "PAGE22_LAYOUT",
       "kind": "layout",
       "title": "Trang22: ghép chữ và bố cục",
-      "status": "in_progress",
+      "status": "done",
       "depends_on": [
         "PAGE22_ART"
       ],
       "instructions": "Dùng nguyên text đã khóa và tranh đã kiểm. Ghép khung giấy cổ, tô đỏ #C81E1E cho **...**, đặt đủ thoại/đuôi bóng đúng người. Khổ196×246/trim190×240. Dùng layout_tokens, đo tràn chữ bằng renderer thật; xuất bản xem PNG/PDF và nguồn có thể sửa. scripts/typeset_preview.py là trợ giúp HTML; không coi HTML/PDF xem trước là file in đã duyệt.",
-      "evidence": [],
-      "last_note": "Tạo thoại với khungxámkem phản sáng lạnh, đuôi cong phải.",
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/PAGE22_LAYOUT/report.v001.json",
+          "sha256": "e153008ea7040d62d7b11d92aff67da4efe6f1786bbad78bdf72187f1bdc3f28"
+        },
+        {
+          "path": "final_book_19x24/source/PAGE22_v007.svg",
+          "sha256": "37ee07e52124875bc123057b3b74dceb225f9bdc5b34ada602b7180773ff4af3"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE22_v007.pdf",
+          "sha256": "d4061d0f1e5815762e9f53a184ab3122a91b7df1e7f33d432effb983a5519225"
+        },
+        {
+          "path": "final_book_19x24/reading/PAGE22_v007.pdf",
+          "sha256": "ff07d4fc6f6c0eeec397c3414b588a9ec21f13c9b79d7225fd982bd9ab1a45a6"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE22_v007.png",
+          "sha256": "494b7ad96bdfa93bb7273f6c2dad67049a1e3475d9abea11fc68f0de573ea57f"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE22_v007.json",
+          "sha256": "a19531e8151a2c26e157551ee130f06aa3c8b1af80b0a6a477329d2e97eca8ab"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE22_v007_300dpi.png",
+          "sha256": "135afbfe41d0f998f4968a83aa35ae0ec66d5957294fcd1a4be3f45ee81381be"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE22_v007_detail.png",
+          "sha256": "818ffe1e24cfaeac2e453acf8e11c1c5c14d49dee7807e96c3bb33f5628e4332"
+        },
+        {
+          "path": "final_book_19x24/source/PAGE22_v006.placement.json",
+          "sha256": "e693d6345461fc7cd4b55f0795aaaa22479bc7271bcf3d40418db44688135bbb"
+        },
+        {
+          "path": "assets_generated/speech_clouds/PAGE22_SPEECH01_v002.png",
+          "sha256": "8ee5f5c9ca7f1d757b89ebfd2db47265741ac305cefee508c13d10c11a1631bf"
+        },
+        {
+          "path": "assets_generated/speech_clouds/PAGE22_SPEECH01_v002.json",
+          "sha256": "d19225aec902a9efe7d3b842221e959f3bafd2350d36e915bbecbb0052cfc4c3"
+        },
+        {
+          "path": "assets_generated/speech_clouds/PAGE22_SPEECH01_v002.prompt.txt",
+          "sha256": "c5202a59240448adb34c24703cff334eb107143ebed2d01b142a7f42af08d25e"
+        },
+        {
+          "path": "10_agent_workflow/tasks/PAGE22_LAYOUT/technical.v001.json",
+          "sha256": "5df8823af02bb2e15169a586c82050e156f9ee820be7d0c193bc6af463f7ba64"
+        },
+        {
+          "path": "10_agent_workflow/parallel/agent_b/render_page.snapshot.v001.py",
+          "sha256": "314b628a5cc0595ee6e38165862b78866c3ada9008ecce9e05cecf07fe135108"
+        }
+      ],
+      "last_note": "Layoutv007 đã mở toàntrang/detail; giữ bảnnháp cũ.",
       "page": 22,
       "block_reason": "",
       "owner": "agent_b",
-      "updated_at": "2026-11-10T07:02:03+00:00"
+      "updated_at": "2026-11-10T07:09:52+00:00"
     },
     {
       "id": "PAGE22_QA",
       "kind": "qa",
       "title": "Trang22: kiểm nguồn/mỹ thuật/chữ/khổ",
-      "status": "todo",
+      "status": "done",
       "depends_on": [
         "PAGE22_LAYOUT"
       ],
       "instructions": "Mở ảnh render ở kích thước đọc thật và zoom100%; so với scan, sheet, text đã khóa. Kiểm bốn lớp historical/art/language/print_geometry. Ghi lỗi cụ thể và sửa về đúng bước. Báo cáo pass chỉ khi có artifact thực và không còn lỗi trong phạm vi; đây là QA của agent, không phải chủ dự án duyệt.",
-      "evidence": [],
-      "last_note": "Reopen: Bộ chép thoại lane nhận sai vị trí dấu hai chấm; mở lại trước khi ART, giữ v001.",
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/PAGE22_QA/report.v001.json",
+          "sha256": "88273f4747cd26a3fd1c4ab013f2097ffa7fa0401c64873dafdc0aeb6f17c016"
+        },
+        {
+          "path": "10_agent_workflow/tasks/PAGE22_LAYOUT/report.v001.json",
+          "sha256": "e153008ea7040d62d7b11d92aff67da4efe6f1786bbad78bdf72187f1bdc3f28"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE22_v007.png",
+          "sha256": "494b7ad96bdfa93bb7273f6c2dad67049a1e3475d9abea11fc68f0de573ea57f"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE22_v007_detail.png",
+          "sha256": "818ffe1e24cfaeac2e453acf8e11c1c5c14d49dee7807e96c3bb33f5628e4332"
+        },
+        {
+          "path": "10_agent_workflow/tasks/PAGE22_LAYOUT/technical.v001.json",
+          "sha256": "5df8823af02bb2e15169a586c82050e156f9ee820be7d0c193bc6af463f7ba64"
+        }
+      ],
+      "last_note": "4lớp đạt bảnđọc, chưa sẵnin.",
       "page": 22,
-      "block_reason": ""
+      "block_reason": "",
+      "owner": "agent_b",
+      "updated_at": "2026-11-10T07:09:53+00:00"
     },
     {
       "id": "PAGE23_TEXT",
       "kind": "text",
       "title": "Trang23: đối chiếu và khóa chữ",
-      "status": "todo",
+      "status": "done",
       "depends_on": [
         "DESIGN_BASELINE"
       ],
       "instructions": "Đọc nguyên cảnh và nguồn scan; sửa các câu cường điệu/không có căn cứ, giữ giọng hào hùng 13–16 tuổi. Đếm thật 35–65 tiếng theo khoảng trắng, không dùng số từ ghi trong tiêu đề làm chứng cứ. Chép đủ thoại vào text.v001.json, giữ **từ khóa**; ghi nguồn, template và hash storyboard. Khóa chữ sau khi kiểm. Nếu sửa toàn file storyboard về sau, rà lại các text đã khóa theo hash mới.",
-      "evidence": [],
-      "last_note": "",
-      "page": 23
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/PAGE23_TEXT/report.v001.json",
+          "sha256": "c8736d4a6d65c10f3d2afeac47305298bd69eb2358fac543bf607808ba945c09"
+        },
+        {
+          "path": "10_agent_workflow/tasks/PAGE23_TEXT/text.v001.json",
+          "sha256": "0154c7c2ddc6764088dce4683a45db7eb3308748786212fe23c1f3351c2b3d92"
+        }
+      ],
+      "last_note": "Khóa50tiếng/1thoại sau đốichiếu scan.",
+      "page": 23,
+      "owner": "agent_b",
+      "updated_at": "2026-11-10T07:10:51+00:00"
     },
     {
       "id": "PAGE23_ART",
       "kind": "art",
       "title": "Trang23: tạo và kiểm tranh nền",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "PAGE23_TEXT"
       ],
       "instructions": "Lấy text đã khóa từ evidence bước TEXT. Xem các sheet liên quan; soạn prompt cuối theo cảnh, ghi actual_references và hash. Tạo ảnh bằng công cụ sinh ảnh, nền không chữ, không bóng thoại, chừa20% đỉnh; dùng đúng A/B/C. Kiểm mặt, phục trang, tay/chân/vũ khí và hành động. Lưu PNG native có phiên bản và metadata theo templates/RAW_IMAGE_METADATA.json. Không resize rồi khai native300DPI.",
       "evidence": [],
-      "last_note": "",
-      "page": 23
+      "last_note": "TạođúngThánhThiên giáp lục trên bậcthềm, Tào đứng sân; chừavùngthoại.",
+      "page": 23,
+      "owner": "agent_b",
+      "updated_at": "2026-11-10T07:10:52+00:00"
     },
     {
       "id": "PAGE23_LAYOUT",
@@ -811,6 +934,78 @@
       "task": "PAGE22_LAYOUT",
       "action": "start",
       "note": "Tạo thoại với khungxámkem phản sáng lạnh, đuôi cong phải."
+    },
+    {
+      "at": "2026-11-10T07:04:00+00:00",
+      "task": "PAGE22_TEXT",
+      "action": "reopen",
+      "note": "Renderer đo lời dẫn5dòng32.06mm vượt hộp29mm; rút câunối, giữ5keyword và đủthoại."
+    },
+    {
+      "at": "2026-11-10T07:04:00+00:00",
+      "task": "PAGE22_TEXT",
+      "action": "start",
+      "note": "Khóa v003 ngắn hơn, khôngđổi font."
+    },
+    {
+      "at": "2026-11-10T07:04:01+00:00",
+      "task": "PAGE22_TEXT",
+      "action": "finish",
+      "note": "Lời dẫn gọn giữkeyword/thoại, v003."
+    },
+    {
+      "at": "2026-11-10T07:04:01+00:00",
+      "task": "PAGE22_ART",
+      "action": "start",
+      "note": "Dùng lại rawv001 và evidence hợp lệ; chữ thoại/scene khôngđổi."
+    },
+    {
+      "at": "2026-11-10T07:04:01+00:00",
+      "task": "PAGE22_ART",
+      "action": "finish",
+      "note": "Raw/hashes khôngđổi, kiểm lại nhận diện đạt."
+    },
+    {
+      "at": "2026-11-10T07:04:01+00:00",
+      "task": "PAGE22_LAYOUT",
+      "action": "start",
+      "note": "Render v002 sau rút câunối."
+    },
+    {
+      "at": "2026-11-10T07:09:52+00:00",
+      "task": "PAGE22_LAYOUT",
+      "action": "finish",
+      "note": "Layoutv007 đã mở toàntrang/detail; giữ bảnnháp cũ."
+    },
+    {
+      "at": "2026-11-10T07:09:52+00:00",
+      "task": "PAGE22_QA",
+      "action": "start",
+      "note": "Kiểm4lớp trên v007 thật."
+    },
+    {
+      "at": "2026-11-10T07:09:53+00:00",
+      "task": "PAGE22_QA",
+      "action": "finish",
+      "note": "4lớp đạt bảnđọc, chưa sẵnin."
+    },
+    {
+      "at": "2026-11-10T07:09:53+00:00",
+      "task": "PAGE23_TEXT",
+      "action": "start",
+      "note": "Đã đọc scan51–53, giữgiáplục/khăntang/giàybáo, khóađủthoại."
+    },
+    {
+      "at": "2026-11-10T07:10:51+00:00",
+      "task": "PAGE23_TEXT",
+      "action": "finish",
+      "note": "Khóa50tiếng/1thoại sau đốichiếu scan."
+    },
+    {
+      "at": "2026-11-10T07:10:52+00:00",
+      "task": "PAGE23_ART",
+      "action": "start",
+      "note": "TạođúngThánhThiên giáp lục trên bậcthềm, Tào đứng sân; chừavùngthoại."
     }
   ]
 }

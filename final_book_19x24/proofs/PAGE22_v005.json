@@ -1,0 +1,63 @@
+{
+  "page": 22,
+  "version": "v005",
+  "print_ready": false,
+  "user_approved": false,
+  "renderer": "ReportLab / vector text; PDF rendered separately with Poppler",
+  "native_size_px": [
+    1119,
+    1405
+  ],
+  "art_effective_dpi": [
+    145.01326530612246,
+    145.01326530612243
+  ],
+  "crop_mm": [
+    -1.4210854715202004e-14,
+    0.047363717604994804
+  ],
+  "missing_glyphs": [],
+  "boxes": [
+    {
+      "kind": "narration",
+      "bbox_mm": [
+        18,
+        14,
+        154,
+        29
+      ],
+      "font_pt": 12.8,
+      "lines": 4,
+      "text_height_mm": 25.64835555555555,
+      "max_width_mm": 152.39096888888886,
+      "overflow": false
+    }
+  ],
+  "speech_assets": [
+    {
+      "index": 0,
+      "speaker": "Tào Quyền (cười ngạo mạn trên mũi thuyền)",
+      "asset": "assets_generated/speech_clouds/PAGE22_SPEECH01_v002.png",
+      "sha256": "8ee5f5c9ca7f1d757b89ebfd2db47265741ac305cefee508c13d10c11a1631bf",
+      "bbox_mm": [
+        28,
+        49,
+        96,
+        38.390317700453856
+      ],
+      "native_size_px": [
+        1983,
+        793
+      ],
+      "effective_dpi": 524.6687499999999,
+      "visible_text_manually_verified": true,
+      "text": "Bọn dân sơn cước cùng con bé miệng còn hôi sữa kia làm sao cản nổi đại quân của bản tổng quản!"
+    }
+  ],
+  "pdf_text_matches": true,
+  "hashes": {
+    "svg": "0cb655ed854179fa523a755bc8aa205ee7ca00cc834df24bc5e3b31f302a9c2a",
+    "pdf": "91be4e2d1caf2141a54f7a5f15921414de26dc29cce340f5c55eba5d436c6939",
+    "reading": "a9e620318ae0f33fb8d020adb03a01039c6b59e794b1c7821fd72962bde99163"
+  }
+}

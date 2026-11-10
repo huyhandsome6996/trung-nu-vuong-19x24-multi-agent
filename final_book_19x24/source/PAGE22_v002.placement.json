@@ -1,0 +1,14 @@
+{
+  "dialogues": [
+    {
+      "lettered_asset": "assets_generated/speech_clouds/PAGE22_SPEECH01_v001.png",
+      "bbox_mm": [
+        27,
+        49.5,
+        96,
+        38.390317700453856
+      ]
+    }
+  ],
+  "note": "v001 placement covered pointing fingertip and tail ended at beard; v002 uniformly smaller and shifted right/up to leave finger clear."
+}
