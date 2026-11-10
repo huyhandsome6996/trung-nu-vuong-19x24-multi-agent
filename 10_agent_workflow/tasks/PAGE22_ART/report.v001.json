@@ -1,0 +1,21 @@
+{
+  "task_id": "PAGE22_ART",
+  "kind": "art",
+  "status": "passed",
+  "reviewer": "agent_b",
+  "summary": "Đã xem pixel native1120×1405: Tào mặt tròn/giáp tối/choàngtím, Lục áoôliu/mũnhỏ, đứng trên boong; tay/ngón và mái chèo gần có điểm tựa. Đỉnh trời thoáng, không chữ. Một phần đoàn thuyền ngoài khung/trong sương, không tuyên bố đã đếm30vật thể.",
+  "checks": {
+    "actual_refs": "pass",
+    "character_consistency": "pass",
+    "no_text": "pass",
+    "top_clearance": "pass",
+    "anatomy": "pass"
+  },
+  "artifacts": [
+    "assets_generated/raw_pages/PAGE22_v001.png",
+    "assets_generated/raw_pages/PAGE22_v001.json",
+    "10_agent_workflow/tasks/PAGE22_ART/prompt.v001.txt"
+  ],
+  "open_issues": [],
+  "reviewed_at": "2026-11-10T07:02:02.178675+00:00"
+}

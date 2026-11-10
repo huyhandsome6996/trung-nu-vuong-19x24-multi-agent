@@ -303,31 +303,50 @@
       "id": "PAGE22_ART",
       "kind": "art",
       "title": "Trang22: tạo và kiểm tranh nền",
-      "status": "in_progress",
+      "status": "done",
       "depends_on": [
         "PAGE22_TEXT"
       ],
       "instructions": "Lấy text đã khóa từ evidence bước TEXT. Xem các sheet liên quan; soạn prompt cuối theo cảnh, ghi actual_references và hash. Tạo ảnh bằng công cụ sinh ảnh, nền không chữ, không bóng thoại, chừa20% đỉnh; dùng đúng A/B/C. Kiểm mặt, phục trang, tay/chân/vũ khí và hành động. Lưu PNG native có phiên bản và metadata theo templates/RAW_IMAGE_METADATA.json. Không resize rồi khai native300DPI.",
-      "evidence": [],
-      "last_note": "Dùng textv002 có đủ1thoại.",
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/PAGE22_ART/report.v001.json",
+          "sha256": "b493dc0ebf17ad12f634ced9cfc69680f89f61b560c72217b69f0491e0a3a534"
+        },
+        {
+          "path": "assets_generated/raw_pages/PAGE22_v001.png",
+          "sha256": "ce66a2c6a6eb3edae998130a602e8f2ccc5eeabfd19a0a96f88ebbb677447195"
+        },
+        {
+          "path": "assets_generated/raw_pages/PAGE22_v001.json",
+          "sha256": "910f458e41dbc2e68aabe8d66da1838e72ce0c9bfa823c8ccf96f1997b4fec13"
+        },
+        {
+          "path": "10_agent_workflow/tasks/PAGE22_ART/prompt.v001.txt",
+          "sha256": "79abc997a5f81ce7e5e937d452de0c4d57b062b5b39a8b5646c92b2c4a8a5c94"
+        }
+      ],
+      "last_note": "Tranh đoàn thuyền đã kiểm, nhìn một phần qua sương.",
       "page": 22,
       "owner": "agent_b",
-      "updated_at": "2026-11-10T06:58:44+00:00",
+      "updated_at": "2026-11-10T07:02:02+00:00",
       "block_reason": ""
     },
     {
       "id": "PAGE22_LAYOUT",
       "kind": "layout",
       "title": "Trang22: ghép chữ và bố cục",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "PAGE22_ART"
       ],
       "instructions": "Dùng nguyên text đã khóa và tranh đã kiểm. Ghép khung giấy cổ, tô đỏ #C81E1E cho **...**, đặt đủ thoại/đuôi bóng đúng người. Khổ196×246/trim190×240. Dùng layout_tokens, đo tràn chữ bằng renderer thật; xuất bản xem PNG/PDF và nguồn có thể sửa. scripts/typeset_preview.py là trợ giúp HTML; không coi HTML/PDF xem trước là file in đã duyệt.",
       "evidence": [],
-      "last_note": "Reopen: Bộ chép thoại lane nhận sai vị trí dấu hai chấm; mở lại trước khi ART, giữ v001.",
+      "last_note": "Tạo thoại với khungxámkem phản sáng lạnh, đuôi cong phải.",
       "page": 22,
-      "block_reason": ""
+      "block_reason": "",
+      "owner": "agent_b",
+      "updated_at": "2026-11-10T07:02:03+00:00"
     },
     {
       "id": "PAGE22_QA",
@@ -774,6 +793,24 @@
       "task": "PAGE22_ART",
       "action": "start",
       "note": "Dùng textv002 có đủ1thoại."
+    },
+    {
+      "at": "2026-11-10T07:02:02+00:00",
+      "task": "PAGE22_ART",
+      "action": "checkpoint",
+      "note": "Raw/prompt/refhashv001 đã lưu, mở kiểm nhận diện/giải phẫu/boong."
+    },
+    {
+      "at": "2026-11-10T07:02:02+00:00",
+      "task": "PAGE22_ART",
+      "action": "finish",
+      "note": "Tranh đoàn thuyền đã kiểm, nhìn một phần qua sương."
+    },
+    {
+      "at": "2026-11-10T07:02:03+00:00",
+      "task": "PAGE22_LAYOUT",
+      "action": "start",
+      "note": "Tạo thoại với khungxámkem phản sáng lạnh, đuôi cong phải."
     }
   ]
 }

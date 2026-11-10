@@ -1,0 +1,87 @@
+{
+  "page": 22,
+  "matrix": {
+    "page": 22,
+    "template": "A",
+    "characters": [
+      "NV17",
+      "NV20"
+    ],
+    "environments": [
+      "E12"
+    ],
+    "props": [
+      "P33"
+    ],
+    "note": "Sương sớm; 30 thuyền địch",
+    "status": "NOT_GENERATED"
+  },
+  "identities": [
+    {
+      "id": "NV17",
+      "name": "Tào Quyền",
+      "board": "CHAR10",
+      "positions": "Trái NV16; giữa NV17; phải NV18"
+    },
+    {
+      "id": "NV20",
+      "name": "Lục Hiến",
+      "board": "CHAR11",
+      "positions": "Trái NV19; phải NV20"
+    },
+    {
+      "id": "E12",
+      "name": "Bến Lục Đầu Giang",
+      "board": "ENV04",
+      "positions": "Từ trên xuống: E10,E11,E12"
+    },
+    {
+      "id": "P33",
+      "name": "Khinh thuyền / thương thuyền",
+      "board": "PROP04",
+      "positions": "2x3 cells, row-major"
+    }
+  ],
+  "candidates": [
+    {
+      "board": "CHAR01",
+      "path": "assets_generated/characters/CHAR_01_Trung_Trac_v001.png",
+      "sha256": "3387a36a801705d08b9eac3dd778aca3533fced07300db8188cd71439eeec3c3"
+    },
+    {
+      "board": "CHAR10",
+      "path": "assets_generated/design_system/CHAR10_v001.png",
+      "sha256": "364e060dc0ed6ec5c5c23dbf7b162301c55f459f62784489f0f07c9b3eb20bfd"
+    },
+    {
+      "board": "CHAR11",
+      "path": "assets_generated/design_system/CHAR11_v001.png",
+      "sha256": "ff898f586e0b7e5b2f12b0dcc0423ee623a5819c154c7b8ca6152eb80d3bb098"
+    },
+    {
+      "board": "ENV04",
+      "path": "assets_generated/design_system/ENV04_v001.png",
+      "sha256": "171b30f9e661b6febf962b0f71eaee858967a37f84784db1544b1fdc54d3017a"
+    },
+    {
+      "board": "PROP04",
+      "path": "assets_generated/design_system/PROP04_v002.png",
+      "sha256": "e8eb31e7c6948bb21dc56d43f6d858cce2ba4a99ecf1172f0dec232ffd2441e4"
+    },
+    {
+      "board": "ANIMAL01",
+      "path": "assets_generated/design_system/ANIMAL01_v001.png",
+      "sha256": "7dd2569d6c8bc3a6b78f11a588f82d2a26f7032b141fa702f9965240f6e28cf6"
+    },
+    {
+      "board": "ARMY01",
+      "path": "assets_generated/design_system/ARMY01_v001.png",
+      "sha256": "4f6b76dea97ac82cefce9338f51faaa00ee2501b3e63cb7197fb0ec4ef903ff7"
+    },
+    {
+      "board": "CHIEFS01",
+      "path": "assets_generated/design_system/CHIEFS01_v001.png",
+      "sha256": "11cfde4cac7fc720bacefc2ac66b390eceeff13a15362f0d4696a8e915ef1f05"
+    }
+  ]
+}

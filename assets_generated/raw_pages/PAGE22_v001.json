@@ -1,0 +1,35 @@
+{
+  "image": "assets_generated/raw_pages/PAGE22_v001.png",
+  "version": "v001",
+  "native_size_px": [
+    1119,
+    1405
+  ],
+  "sha256": "ce66a2c6a6eb3edae998130a602e8f2ccc5eeabfd19a0a96f88ebbb677447195",
+  "prompt": "Use case: historical-scene / illustration-story. Create PAGE22 clean full-page portrait art, ratio196:246, same Vietnamese historical ink cross-hatching/watercolor colored-pencil style as references. Ref1 CHAR10: ONLY center man is Tào Quyền, heavy broad round face, thick neck, short black chin beard, dark scale iron armor and purple cape, NOT the other men. Ref2 CHAR11: ONLY right man is Lục Hiến, small pear-shaped face, thin mustache/goatee, small black official cap, olive-brown robe, anxious. Ref3 ENV04 use ONLY bottom river setting: wide Lục Đầu river at dawn with reeds, forest mountains and fading mist. Ref4 PROP04 use first/top-left ancient oared wooden craft shape, long curving prow and paired oars; military boats dark plain flags. Draw a single atmospheric splash scene: TOP22percent almost empty pale blue-grey morning mist/sky for caption. Main foreground command boat fills lower2thirds with raised prow on RIGHT. Tào Quyền stands boldly ON deck at RIGHT, face about x76percent y49percent, one hand on hilt of sheathed large dao, other hand pointing mountains, balanced full boots on deck and no extra hands. Lục Hiến stands behind him on far-right slightly lower, wary, both distinct. Keep open mist LEFT x10–63percent y27–43percent for future speech asset, draw no bubble. Below and behind: a partial view of expedition flotilla receding through haze, several recognizable oared boats and crew, remainder hidden by mist and frame; total30boats/600men is stated by narration, do not attempt to cram600figures or imply every boat is simultaneously visible. Clear individual near oars with proper attachment and no mechanical engine. Troops dark iron-gray simple armor. Quiet cold blue-green/grey palette, warm reflected morning light on wood, purple cape recognizable. No combat, no casualties, no fantasy ship, no enormous sail. Keep faces/hands entirely below caption region and full major figures visible. NO TEXT, no captions/labels, no speech/cloud shapes, no watermark.",
+  "actual_references": [
+    {
+      "path": "assets_generated/design_system/CHAR10_v001.png",
+      "sha256": "364e060dc0ed6ec5c5c23dbf7b162301c55f459f62784489f0f07c9b3eb20bfd"
+    },
+    {
+      "path": "assets_generated/design_system/CHAR11_v001.png",
+      "sha256": "ff898f586e0b7e5b2f12b0dcc0423ee623a5819c154c7b8ca6152eb80d3bb098"
+    },
+    {
+      "path": "assets_generated/design_system/ENV04_v001.png",
+      "sha256": "171b30f9e661b6febf962b0f71eaee858967a37f84784db1544b1fdc54d3017a"
+    },
+    {
+      "path": "assets_generated/design_system/PROP04_v002.png",
+      "sha256": "e8eb31e7c6948bb21dc56d43f6d858cce2ba4a99ecf1172f0dec232ffd2441e4"
+    }
+  ],
+  "generator": "image_gen.imagegen built-in; model not exposed",
+  "text_free": true,
+  "top_clearance_checked": true,
+  "visual_qa_report": "10_agent_workflow/tasks/PAGE22_ART/report.v001.json",
+  "user_approved": false,
+  "print_ready": false,
+  "note": "Đã xem pixel native1120×1405: Tào mặt tròn/giáp tối/choàngtím, Lục áoôliu/mũnhỏ, đứng trên boong; tay/ngón và mái chèo gần có điểm tựa. Đỉnh trời thoáng, không chữ. Một phần đoàn thuyền ngoài khung/trong sương, không tuyên bố đã đếm30vật thể."
+}
