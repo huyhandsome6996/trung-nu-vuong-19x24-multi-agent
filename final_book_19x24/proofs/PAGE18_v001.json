@@ -1,0 +1,63 @@
+{
+  "page": 18,
+  "version": "v001",
+  "print_ready": false,
+  "user_approved": false,
+  "renderer": "ReportLab / vector text; PDF rendered separately with Poppler",
+  "native_size_px": [
+    1122,
+    1402
+  ],
+  "art_effective_dpi": [
+    144.75934959349595,
+    144.75934959349593
+  ],
+  "crop_mm": [
+    0.4350927246790235,
+    0.0
+  ],
+  "missing_glyphs": [],
+  "boxes": [
+    {
+      "kind": "narration",
+      "bbox_mm": [
+        18,
+        14,
+        154,
+        29
+      ],
+      "font_pt": 12.8,
+      "lines": 4,
+      "text_height_mm": 25.64835555555555,
+      "max_width_mm": 151.65944888888887,
+      "overflow": false
+    }
+  ],
+  "speech_assets": [
+    {
+      "index": 0,
+      "speaker": "Trưng Trắc",
+      "asset": "assets_generated/speech_clouds/PAGE18_SPEECH01_v001.png",
+      "sha256": "fb10a676a14ff68dceaf9e7b4d71749b29f9609a50344b2ff1d357747abd1ec0",
+      "bbox_mm": [
+        17,
+        53,
+        156,
+        78.0
+      ],
+      "native_size_px": [
+        1774,
+        887
+      ],
+      "effective_dpi": 288.8435897435897,
+      "visible_text_manually_verified": true,
+      "text": "Ta vốn dòng dõi hoàng tộc, con cháu Hùng tướng, vì nghĩa trừ hại! Hãy kề vai sát cánh mà giương cây cung mạnh, quét sạch bọn ngoại bang, lấy hết nước sông Thiên Hà mà rửa binh khí! Khôi phục cơ nghiệp Lĩnh Nam, cho muôn dân hưởng thái bình!"
+    }
+  ],
+  "pdf_text_matches": true,
+  "hashes": {
+    "svg": "bc4a1e3b04728f4b1570b292c5eb4d42bd2266e5086a88ead973984aa6987bb9",
+    "pdf": "8fadda2f7e54b9b890e6e2c23a6f45632f71e0438eaed92e0f6adc5dffb0a777",
+    "reading": "6b4e1f73d6bc4a01a167e8a47d0cbc53406819fb7acf276007e75ba2249a4e13"
+  }
+}

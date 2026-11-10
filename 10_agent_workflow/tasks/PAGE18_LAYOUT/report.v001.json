@@ -1,0 +1,32 @@
+{
+  "task_id": "PAGE18_LAYOUT",
+  "kind": "layout",
+  "status": "passed",
+  "reviewer": "agent_a / Codex",
+  "summary": "Opened finalfullpage and300DPI narration/speech detail; all6speechlines and accents manually read against lockedtext, no omissions. Adaptedproclamation is not historicalverbatim.4castcorrect, fullfeet/normalhands/connected sword andblankbamboo; cloud/tail aboveTrắc withoutcrossinganyface/hair/weapon. Narrator4lines/4redphrases, embeddedNoto/correctboxes/nooverflow. Nativeart144.76DPI; actualspeechDPIinmetrics, noresamplingdetailclaim. AGENT_QA only.",
+  "checks": {
+    "vietnamese_fonts": "pass",
+    "red_keywords": "pass",
+    "safe_text": "pass",
+    "bleed_geometry": "pass",
+    "no_overflow": "pass",
+    "speech_placement": "pass"
+  },
+  "artifacts": [
+    "final_book_19x24/source/PAGE18_v001.svg",
+    "final_book_19x24/source/PAGE18_placement.v001.json",
+    "final_book_19x24/proofs/PAGE18_v001.pdf",
+    "final_book_19x24/reading/PAGE18_v001.pdf",
+    "final_book_19x24/proofs/PAGE18_v001.png",
+    "final_book_19x24/proofs/PAGE18_v001.json",
+    "10_agent_workflow/parallel/agent_a/PAGE18_technical.v001.json",
+    "10_agent_workflow/parallel/agent_a/render_page.v001.py",
+    "assets_generated/speech_clouds/PAGE18_SPEECH01_v001.png",
+    "assets_generated/speech_clouds/PAGE18_SPEECH01_v001.json"
+  ],
+  "open_issues": [],
+  "reviewed_at": "2026-11-10T08:36:24.137829+00:00",
+  "approval_level": "AGENT_QA",
+  "user_approved": false,
+  "print_ready": false
+}

@@ -774,42 +774,124 @@
       "id": "PAGE18_LAYOUT",
       "kind": "layout",
       "title": "Trang18: ghép chữ và bố cục",
-      "status": "in_progress",
+      "status": "done",
       "depends_on": [
         "PAGE18_ART"
       ],
       "instructions": "Dùng nguyên text đã khóa và tranh đã kiểm. Ghép khung giấy cổ, tô đỏ #C81E1E cho **...**, đặt đủ thoại/đuôi bóng đúng người. Khổ196×246/trim190×240. Dùng layout_tokens, đo tràn chữ bằng renderer thật; xuất bản xem PNG/PDF và nguồn có thể sửa. scripts/typeset_preview.py là trợ giúp HTML; không coi HTML/PDF xem trước là file in đã duyệt.",
-      "evidence": [],
-      "last_note": "Draw entire locked adapted proclamation into one organic speech asset",
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/PAGE18_LAYOUT/report.v001.json",
+          "sha256": "a969c25409d86d0b11ceddaf83d9fa83bbaee82df1bedb56e5b5589a893d073e"
+        },
+        {
+          "path": "final_book_19x24/source/PAGE18_v001.svg",
+          "sha256": "bc4a1e3b04728f4b1570b292c5eb4d42bd2266e5086a88ead973984aa6987bb9"
+        },
+        {
+          "path": "final_book_19x24/source/PAGE18_placement.v001.json",
+          "sha256": "ac113cafc8222b4948482b085ff307ce71afedca8765d8e159d20bb0f6fbd2b6"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE18_v001.pdf",
+          "sha256": "8fadda2f7e54b9b890e6e2c23a6f45632f71e0438eaed92e0f6adc5dffb0a777"
+        },
+        {
+          "path": "final_book_19x24/reading/PAGE18_v001.pdf",
+          "sha256": "6b4e1f73d6bc4a01a167e8a47d0cbc53406819fb7acf276007e75ba2249a4e13"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE18_v001.png",
+          "sha256": "0bec287a5a218a69c2709012dc60a18ee5010b07c21de67c84a2d2e94eb77628"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE18_v001.json",
+          "sha256": "65aee78026dfa8f82cff552c66a80cbadd26aa45d5a4c078cde651f8bbe8a6e2"
+        },
+        {
+          "path": "10_agent_workflow/parallel/agent_a/PAGE18_technical.v001.json",
+          "sha256": "13e9871dcb46dbf070164fa738c6c2089c7b5e42b2ad61a0117a4d8de3c109f1"
+        },
+        {
+          "path": "10_agent_workflow/parallel/agent_a/render_page.v001.py",
+          "sha256": "314b628a5cc0595ee6e38165862b78866c3ada9008ecce9e05cecf07fe135108"
+        },
+        {
+          "path": "assets_generated/speech_clouds/PAGE18_SPEECH01_v001.png",
+          "sha256": "fb10a676a14ff68dceaf9e7b4d71749b29f9609a50344b2ff1d357747abd1ec0"
+        },
+        {
+          "path": "assets_generated/speech_clouds/PAGE18_SPEECH01_v001.json",
+          "sha256": "0e91f210359dec13b3eaa43a4d5d6bb0db3535f249e6c057441b4c7fa5802928"
+        }
+      ],
+      "last_note": "Actual visual and technical checks passed",
       "page": 18,
       "owner": "agent_a",
-      "updated_at": "2026-11-10T08:31:56+00:00"
+      "updated_at": "2026-11-10T08:36:25+00:00"
     },
     {
       "id": "PAGE18_QA",
       "kind": "qa",
       "title": "Trang18: kiểm nguồn/mỹ thuật/chữ/khổ",
-      "status": "todo",
+      "status": "done",
       "depends_on": [
         "PAGE18_LAYOUT"
       ],
       "instructions": "Mở ảnh render ở kích thước đọc thật và zoom100%; so với scan, sheet, text đã khóa. Kiểm bốn lớp historical/art/language/print_geometry. Ghi lỗi cụ thể và sửa về đúng bước. Báo cáo pass chỉ khi có artifact thực và không còn lỗi trong phạm vi; đây là QA của agent, không phải chủ dự án duyệt.",
-      "evidence": [],
-      "last_note": "",
-      "page": 18
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/PAGE18_QA/report.v001.json",
+          "sha256": "3a3d1f2978f04155c5a407c27417c056cf09196a0d8f59d00a6eae4ed165334e"
+        },
+        {
+          "path": "10_agent_workflow/tasks/PAGE18_LAYOUT/report.v001.json",
+          "sha256": "a969c25409d86d0b11ceddaf83d9fa83bbaee82df1bedb56e5b5589a893d073e"
+        },
+        {
+          "path": "10_agent_workflow/parallel/agent_a/PAGE18_technical.v001.json",
+          "sha256": "13e9871dcb46dbf070164fa738c6c2089c7b5e42b2ad61a0117a4d8de3c109f1"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE18_v001.png",
+          "sha256": "0bec287a5a218a69c2709012dc60a18ee5010b07c21de67c84a2d2e94eb77628"
+        },
+        {
+          "path": "final_book_19x24/reading/PAGE18_v001.pdf",
+          "sha256": "6b4e1f73d6bc4a01a167e8a47d0cbc53406819fb7acf276007e75ba2249a4e13"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE18_v001.json",
+          "sha256": "65aee78026dfa8f82cff552c66a80cbadd26aa45d5a4c078cde651f8bbe8a6e2"
+        },
+        {
+          "path": "assets_generated/parallel/agent_a/PAGE18_review300_v001.png",
+          "sha256": "dce872ee826c37e4518c327ba05c3bc1d367d1fcea9a4b83f3fd18af09b6edff"
+        },
+        {
+          "path": "assets_generated/parallel/agent_a/PAGE18_detail_v001.png",
+          "sha256": "cf2947d3bcf3fdc9998ad79b1095406407a5c67a57f0e7d859e5f17cca37cb0a"
+        }
+      ],
+      "last_note": "AGENT_QA complete; not user or print approval",
+      "page": 18,
+      "owner": "agent_a",
+      "updated_at": "2026-11-10T08:36:26+00:00"
     },
     {
       "id": "PAGE19_TEXT",
       "kind": "text",
       "title": "Trang19: đối chiếu và khóa chữ",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "DESIGN_BASELINE"
       ],
       "instructions": "Đọc nguyên cảnh và nguồn scan; sửa các câu cường điệu/không có căn cứ, giữ giọng hào hùng 13–16 tuổi. Đếm thật 35–65 tiếng theo khoảng trắng, không dùng số từ ghi trong tiêu đề làm chứng cứ. Chép đủ thoại vào text.v001.json, giữ **từ khóa**; ghi nguồn, template và hash storyboard. Khóa chữ sau khi kiểm. Nếu sửa toàn file storyboard về sau, rà lại các text đã khóa theo hash mới.",
       "evidence": [],
-      "last_note": "",
-      "page": 19
+      "last_note": "Opened scans42–43/book253–254; write conciselegendcaption, preserve sixkeyword meanings without infantdosageclaim",
+      "page": 19,
+      "owner": "agent_a",
+      "updated_at": "2026-11-10T08:36:28+00:00"
     },
     {
       "id": "PAGE19_ART",
@@ -1143,6 +1225,36 @@
       "task": "PAGE18_LAYOUT",
       "action": "start",
       "note": "Draw entire locked adapted proclamation into one organic speech asset"
+    },
+    {
+      "at": "2026-11-10T08:36:24+00:00",
+      "task": "PAGE18_LAYOUT",
+      "action": "checkpoint",
+      "note": "Actual source/PDF/PNG saved; full page and native lettering visually read; technical checks pass"
+    },
+    {
+      "at": "2026-11-10T08:36:25+00:00",
+      "task": "PAGE18_LAYOUT",
+      "action": "finish",
+      "note": "Actual visual and technical checks passed"
+    },
+    {
+      "at": "2026-11-10T08:36:26+00:00",
+      "task": "PAGE18_QA",
+      "action": "start",
+      "note": "Source/identity/anatomy/Vietnamese and PDF geometry reviewed"
+    },
+    {
+      "at": "2026-11-10T08:36:26+00:00",
+      "task": "PAGE18_QA",
+      "action": "finish",
+      "note": "AGENT_QA complete; not user or print approval"
+    },
+    {
+      "at": "2026-11-10T08:36:28+00:00",
+      "task": "PAGE19_TEXT",
+      "action": "start",
+      "note": "Opened scans42–43/book253–254; write conciselegendcaption, preserve sixkeyword meanings without infantdosageclaim"
     }
   ]
 }

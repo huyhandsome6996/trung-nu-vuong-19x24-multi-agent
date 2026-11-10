@@ -1,0 +1,27 @@
+{
+  "task_id": "PAGE18_QA",
+  "kind": "qa",
+  "status": "passed",
+  "reviewer": "agent_a / Codex",
+  "summary": "Opened finalfullpage and300DPI narration/speech detail; all6speechlines and accents manually read against lockedtext, no omissions. Adaptedproclamation is not historicalverbatim.4castcorrect, fullfeet/normalhands/connected sword andblankbamboo; cloud/tail aboveTrắc withoutcrossinganyface/hair/weapon. Narrator4lines/4redphrases, embeddedNoto/correctboxes/nooverflow. Nativeart144.76DPI; actualspeechDPIinmetrics, noresamplingdetailclaim. AGENT_QA only.",
+  "checks": {
+    "historical": "pass",
+    "art": "pass",
+    "language": "pass",
+    "print_geometry": "pass"
+  },
+  "artifacts": [
+    "10_agent_workflow/tasks/PAGE18_LAYOUT/report.v001.json",
+    "10_agent_workflow/parallel/agent_a/PAGE18_technical.v001.json",
+    "final_book_19x24/proofs/PAGE18_v001.png",
+    "final_book_19x24/reading/PAGE18_v001.pdf",
+    "final_book_19x24/proofs/PAGE18_v001.json",
+    "assets_generated/parallel/agent_a/PAGE18_review300_v001.png",
+    "assets_generated/parallel/agent_a/PAGE18_detail_v001.png"
+  ],
+  "open_issues": [],
+  "reviewed_at": "2026-11-10T08:36:26.313746+00:00",
+  "approval_level": "AGENT_QA",
+  "user_approved": false,
+  "print_ready": false
+}

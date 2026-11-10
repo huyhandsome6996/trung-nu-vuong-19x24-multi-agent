@@ -1,0 +1,13 @@
+{
+  "speaker": "Trưng Trắc",
+  "text": "Ta vốn dòng dõi hoàng tộc, con cháu Hùng tướng, vì nghĩa trừ hại! Hãy kề vai sát cánh mà giương cây cung mạnh, quét sạch bọn ngoại bang, lấy hết nước sông Thiên Hà mà rửa binh khí! Khôi phục cơ nghiệp Lĩnh Nam, cho muôn dân hưởng thái bình!",
+  "prompt": "Use case: illustration-story. Standalone historical Vietnamese comic speech artwork on actual transparent RGBA outside. Draw the ENTIRE organic ink cloud frame AND ALL Vietnamese words inside together. Reference is PAGE18 dawn river illustration, style/color only; no scene or people in output. Broad cloud with calm but firm handink edges, cool ivory-lavender paper catching pale peach dawnlight, subtle watercolorgrain, charcoal lettering. NO yellow cloud, whiteUIrectangle, drop shadow or calligraphy. Humanist serif comic lettering, strongcontrast and readable fullaccents, generousinnerpadding. Assetaspect about2.1:1 includingtail. Sixcenteredlines inbody; shortcurvedtail onlybottom12percent, emerging atx38% andcurving gentlydown-left towardTrắc. Exact text in SIX lines:\nTa vốn dòng dõi hoàng tộc, con cháu Hùng tướng,\nvì nghĩa trừ hại! Hãy kề vai sát cánh mà giương\ncây cung mạnh, quét sạch bọn ngoại bang,\nlấy hết nước sông Thiên Hà mà rửa binh khí!\nKhôi phục cơ nghiệp Lĩnh Nam,\ncho muôn dân hưởng thái bình!\nNo additional words, no quotationmarks, no omissions. These words are the locked adapted proclamation in a historical-legend book.",
+  "actual_references": [
+    {
+      "path": "assets_generated/raw_pages/PAGE18_v003.png",
+      "sha256": "eb386788ac61b71a4b27ca37a06a43d7d1518a03d1dd91c34221d8b71511f00c"
+    }
+  ],
+  "generator": "image_gen.imagegen",
+  "transparent_background": true
+}
