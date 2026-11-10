@@ -1153,11 +1153,11 @@
       ],
       "instructions": "Lấy text đã khóa từ evidence bước TEXT. Xem các sheet liên quan; soạn prompt cuối theo cảnh, ghi actual_references và hash. Tạo ảnh bằng công cụ sinh ảnh, nền không chữ, không bóng thoại, chừa20% đỉnh; dùng đúng A/B/C. Kiểm mặt, phục trang, tay/chân/vũ khí và hành động. Lưu PNG native có phiên bản và metadata theo templates/RAW_IMAGE_METADATA.json. Không resize rồi khai native300DPI.",
       "evidence": [],
-      "last_note": "Montagebiểutượng4nữtướng/2voi, khôngkhẳngđịnhđộihìnhkhảochứng.",
+      "last_note": "Rawv001thậtđãlưu, cầnlềtrênfeather/dướichân;chưaARTpass.",
       "page": 27,
       "block_reason": "",
       "owner": "agent_b",
-      "updated_at": "2026-11-10T08:36:23+00:00"
+      "updated_at": "2026-11-10T08:41:46+00:00"
     },
     {
       "id": "PAGE27_LAYOUT",
@@ -1695,6 +1695,12 @@
       "task": "PAGE27_ART",
       "action": "start",
       "note": "Montagebiểutượng4nữtướng/2voi, khôngkhẳngđịnhđộihìnhkhảochứng."
+    },
+    {
+      "at": "2026-11-10T08:41:46+00:00",
+      "task": "PAGE27_ART",
+      "action": "checkpoint",
+      "note": "Rawv001thậtđãlưu, cầnlềtrênfeather/dướichân;chưaARTpass."
     }
   ]
 }

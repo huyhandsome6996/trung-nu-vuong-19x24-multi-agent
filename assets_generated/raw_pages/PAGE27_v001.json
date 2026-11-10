@@ -1,0 +1,39 @@
+{
+  "image": "assets_generated/raw_pages/PAGE27_v001.png",
+  "version": "v001",
+  "native_size_px": [
+    1117,
+    1408
+  ],
+  "sha256": "d5bc5cae7b277f691d4d769ea4cbd670f575eb4ae8ab460886c7d1b8521776ba",
+  "prompt": "Use case: illustration-story. PAGE27 clean full-page portrait196:246 historical Vietnamese ink crosshatching/watercolor colored-pencil, Template A EPIC SYMBOLIC MONTAGE, NOT an archaeologicallyverified formation. Reference1 CHAR01 useRIGHTred/bronzearmored TrưngTrắc, ovalface curvedbrows, lowdarkbun, white-goldfeather crown, redcape. Ref2 CHAR02 TrưngNhị distinctnarrowerjaw/straightbrows/highdarkhair, NAVYdarkbluearmor/bronze trim withonlysmallredaccent, twinfeather headband, do not make herred. Ref3 CHAR04 ThánhThiên unique shortovalface/darkbraid/GREENarmor/WHITE mourningband/leopardboots. Ref4 CHAR05 useONLY RIGHTwoman PhùngThịChính, heart-shapedface/thickbrows, onebraid, MUTEDPEACHandbrownleatherarmor, later whiteband; NOTtheman. Ref5 ANIMAL01 bottomRIGHTgreyAsianelephant withwrinkledskin/whitetusks/simplebamboo-woodhowdah/straps, nofantasyarmor; doNOTcopyotheranimalcells. Compose triumphal symbolic entry outside opened LuyLâu fortgate (grey earthen-stone rampart, wooden doubledoors/gatetower, no modernbuildings orChinese signs). TOP23percent luminous pale sky, NO feathers, flags, weapons orheads forcaption. Two clearly separate GREYelephants abreast incenter midground, one carries TrưngTrắc atx40percent, one TrưngNhị atx65percent; both woman's faces belowy35percent. Elephants have distinct intacttrunks,2white tusks each,4natural legs each, simplehowdahs; full mainfeet above95percentheight. ThánhThiên onone normalBROWNhorse atLEFTforeground x18percent, headaroundy59percent, intactreins andleopardboots instirrups; PhùngThịChính standingonfoot atRIGHTforeground x86percent, headaroundy63percent, straightSHEATHEDsword andfullboots. Fourdistinctwomen, no duplicates. Horses/elephants/riders normalproportions; do not crop trunks, heads, hands, boots orhooves. A few layers ofcheering LạcViệt soldiers withplainmulticolorflags behind, no modernflagstar, no injury/combat/corpses; festive red-goldbutnavy/green/peach identities unchanged. High-detailfaces/hands, coherent shadows, heroiccalm ratherthan gorybattle. No labels, lettering, captionboxes, speechclouds orwatermark.",
+  "actual_references": [
+    {
+      "path": "assets_generated/characters/CHAR_01_Trung_Trac_v001.png",
+      "sha256": "3387a36a801705d08b9eac3dd778aca3533fced07300db8188cd71439eeec3c3"
+    },
+    {
+      "path": "assets_generated/design_system/CHAR02_v001.png",
+      "sha256": "f4075fc661a51398efee50470805fca95a86a76ee66ec00909ba1058818ff4c7"
+    },
+    {
+      "path": "assets_generated/design_system/CHAR04_v001.png",
+      "sha256": "9f8a680e8c7fbb9c5b79bb8bbfe5802459342af9255f28c75de512c31126d5cb"
+    },
+    {
+      "path": "assets_generated/design_system/CHAR05_v001.png",
+      "sha256": "a3dcf69bfdd07fea6cb5cd085aadff5427fe52cc01e332352e5d899cc5d02dbb"
+    },
+    {
+      "path": "assets_generated/design_system/ANIMAL01_v001.png",
+      "sha256": "7dd2569d6c8bc3a6b78f11a588f82d2a26f7032b141fa702f9965240f6e28cf6"
+    }
+  ],
+  "generator": "image_gen.imagegen built-in; model not exposed",
+  "status": "draft_needs_trim_margin",
+  "text_free": true,
+  "top_clearance_checked": false,
+  "user_approved": false,
+  "print_ready": false,
+  "note": "Identities and2elephants good, but feather at20percent and horse/Phungboots too close bottom trim. Need pullcamera15percent back, preservev001."
+}
