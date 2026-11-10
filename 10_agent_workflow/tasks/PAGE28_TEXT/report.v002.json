@@ -1,0 +1,19 @@
+{
+  "task_id": "PAGE28_TEXT",
+  "kind": "text",
+  "status": "passed",
+  "reviewer": "agent_b",
+  "summary": "Đã đọc nguồn; khóa 48tiếng và 0thoại đầy đủ. ĐọcSRC-05/SOURCE_EPILOGUEreportv002/sourcesv001/COMPARISON; mởlạiHIST01(baotanglichsu.vn/vi/Articles/3098/13485/cuoc-khoi-nghia-hai-ba-trung-nam-40-43-sau-cong-nguyen.html)10/11/2026:65huyệnthành/TrưngTrắcđượcsuytôn/đóngđôMêLinh. Cáchkểthànhtrìđãcho phépởCOMPARISON. HERITAGE01https://dsvh.gov.vn/di-tich-lich-su-den-hai-ba-trung-2970vàHERITAGE02https://dsvh.gov.vn/di-tich-lich-su-den-hat-mon-2971đãmở10/11:2di tíchriêng. E14hưcấubiểutượng; lễphục/lễđăngvị/chimLạclàhìnhtượng,khôngphụcdựnglễnghi/kiếntrúc. Giữ9cụmkeyword,0thoại.",
+  "checks": {
+    "source_alignment": "pass",
+    "narration_35_65": "pass",
+    "keywords_preserved": "pass",
+    "dialogue_locked": "pass",
+    "template_locked": "pass"
+  },
+  "artifacts": [
+    "10_agent_workflow/tasks/PAGE28_TEXT/text.v002.json"
+  ],
+  "open_issues": [],
+  "reviewed_at": "2026-11-10T08:44:53.432182+00:00"
+}

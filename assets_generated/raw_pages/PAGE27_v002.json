@@ -1,0 +1,23 @@
+{
+  "image": "assets_generated/raw_pages/PAGE27_v002.png",
+  "version": "v002",
+  "native_size_px": [
+    1117,
+    1408
+  ],
+  "sha256": "23dc94e899035850c43a1028c03bd657aa78e815a1965eefbd6a400bf288fc0a",
+  "prompt": "Edit ONLY composition/margins of supplied PAGE27 symbolic historical montage. Preserve exact four women's identities/faces/costumes (TrưngTrắc redbronze/whitegoldfeathers, TrưngNhị NAVY, ThánhThiên GREEN/WHITEband/leopardboots, PhùngThịChính MUTEDPEACH/braid), twoGREYelephants/whitetusks/howdahs, brownhorse, openedgate/crowd, inkcrosshatching/watercolor style. Pull camera BACK15percent on entire main character+animal formation, maintaining proportions and arrangement; do not stretch or crop. Add generous visible foregroundpath BELOW. Everyboot/horsehoof andelephantfoot must be COMPLETE and finish ABOVE94percentheight, leaving6percent groundbelow; Phùng's feet and horseforehoof currently risk trim. All feather/crown tips andall mainheads must start BELOW26percentheight, leaving top23percent calm pale sky forcaption. Preserve distinct faces, natural hands/grips/reins and saddle/howdahstraps,2separatetrunks/two tusksper elephant, horseintactlegs. Do not add/remove characters/animals orchangeclothes/colors. Singlefullpage splash, no panels, labels, text, captionboxes, speechclouds orwatermark. Portrait196:246. Symbolic historicalfiction victory procession, no injury/combat.",
+  "actual_references": [
+    {
+      "path": "assets_generated/raw_pages/PAGE27_v001.png",
+      "sha256": "d5bc5cae7b277f691d4d769ea4cbd670f575eb4ae8ab460886c7d1b8521776ba"
+    }
+  ],
+  "generator": "image_gen.imagegen built-in; model not exposed",
+  "text_free": true,
+  "top_clearance_checked": true,
+  "visual_qa_report": "10_agent_workflow/tasks/PAGE27_ART/report.v002.json",
+  "user_approved": false,
+  "print_ready": false,
+  "note": "Đãmởnativev002:4nữtướngđỏ/lam/lục/đàođúngnhậndiện,2voixám/trắngngàvà1ngựanâu;4chânngựa/trọnmóng/ủng,mũtronglề. Tay/reins/bànhvoi/ngà/vòihợplý,đỉnhthoáng>23%,khôngchữ. Tranhhợpquânbiểutượng,khôngkhảochứngđộihìnhLuyLâu."
+}

@@ -1,0 +1,29 @@
+{
+  "task_id": "PAGE27_LAYOUT",
+  "kind": "layout",
+  "status": "passed",
+  "reviewer": "agent_b",
+  "summary": "Đãmởtoàntrang150/detail300:4dòngdẫn/7keywordđỏ/0thoại. Mũ/voi/ngựa/ủngtronglề, khôngcắtmépcanvas/trim. Chữnăm40vàgiớihạntranhbiểutượngđọcrõ; safe/font/boxđạt. PDF opened nonempty; embedded Noto font/glyphs, boxes, extraction and overflow checked. AGENT_QA only.",
+  "checks": {
+    "vietnamese_fonts": "pass",
+    "red_keywords": "pass",
+    "safe_text": "pass",
+    "bleed_geometry": "pass",
+    "no_overflow": "pass",
+    "speech_placement": "pass"
+  },
+  "artifacts": [
+    "final_book_19x24/source/PAGE27_v001.svg",
+    "final_book_19x24/proofs/PAGE27_v001.pdf",
+    "final_book_19x24/reading/PAGE27_v001.pdf",
+    "final_book_19x24/proofs/PAGE27_v001.png",
+    "final_book_19x24/proofs/PAGE27_v001.json",
+    "final_book_19x24/proofs/PAGE27_v001_300dpi.png",
+    "final_book_19x24/proofs/PAGE27_v001_detail.png",
+    "final_book_19x24/source/PAGE27_v001.placement.json",
+    "10_agent_workflow/tasks/PAGE27_LAYOUT/technical.v001.json",
+    "10_agent_workflow/parallel/agent_b/render_page.snapshot.v001.py"
+  ],
+  "open_issues": [],
+  "reviewed_at": "2026-11-10T08:44:48.823678+00:00"
+}

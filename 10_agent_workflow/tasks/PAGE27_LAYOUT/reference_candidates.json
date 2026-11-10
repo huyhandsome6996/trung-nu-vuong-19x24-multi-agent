@@ -1,0 +1,130 @@
+{
+  "page": 27,
+  "matrix": {
+    "page": 27,
+    "template": "A",
+    "characters": [
+      "NV01",
+      "NV02",
+      "NV04",
+      "NV06",
+      "NV16"
+    ],
+    "environments": [
+      "E04"
+    ],
+    "props": [
+      "P31",
+      "P34"
+    ],
+    "note": "Mở rộng: cần nguồn kết; voi xám",
+    "status": "NOT_GENERATED"
+  },
+  "identities": [
+    {
+      "id": "NV01",
+      "name": "Trưng Trắc",
+      "board": "CHAR01",
+      "positions": "Xem IMAGE_CATALOG.md"
+    },
+    {
+      "id": "NV02",
+      "name": "Trưng Nhị",
+      "board": "CHAR02",
+      "positions": "Trái: đứng; phải: thủ kiếm; giữa: mặt"
+    },
+    {
+      "id": "NV04",
+      "name": "Thánh Thiên",
+      "board": "CHAR04",
+      "positions": "Trái: đứng; phải: chỉ huy; giữa: mặt"
+    },
+    {
+      "id": "NV06",
+      "name": "Phùng Thị Chính",
+      "board": "CHAR05",
+      "positions": "Trái: NV05; phải: NV06; mặt phía trên cùng cột"
+    },
+    {
+      "id": "NV16",
+      "name": "Tô Định",
+      "board": "CHAR10",
+      "positions": "Trái NV16; giữa NV17; phải NV18"
+    },
+    {
+      "id": "E04",
+      "name": "Phủ Tô Định / Luy Lâu",
+      "board": "ENV02",
+      "positions": "Từ trên xuống: E04,E05,E06"
+    },
+    {
+      "id": "P31",
+      "name": "Cờ ngũ sắc / lọng",
+      "board": "PROP02",
+      "positions": "4x3 cells, left-to-right row-major"
+    },
+    {
+      "id": "P34",
+      "name": "Yên ngựa / bành voi",
+      "board": "PROP04",
+      "positions": "2x3 cells, row-major"
+    }
+  ],
+  "candidates": [
+    {
+      "board": "CHAR01",
+      "path": "assets_generated/characters/CHAR_01_Trung_Trac_v001.png",
+      "sha256": "3387a36a801705d08b9eac3dd778aca3533fced07300db8188cd71439eeec3c3"
+    },
+    {
+      "board": "CHAR02",
+      "path": "assets_generated/design_system/CHAR02_v001.png",
+      "sha256": "f4075fc661a51398efee50470805fca95a86a76ee66ec00909ba1058818ff4c7"
+    },
+    {
+      "board": "CHAR04",
+      "path": "assets_generated/design_system/CHAR04_v001.png",
+      "sha256": "9f8a680e8c7fbb9c5b79bb8bbfe5802459342af9255f28c75de512c31126d5cb"
+    },
+    {
+      "board": "CHAR05",
+      "path": "assets_generated/design_system/CHAR05_v001.png",
+      "sha256": "a3dcf69bfdd07fea6cb5cd085aadff5427fe52cc01e332352e5d899cc5d02dbb"
+    },
+    {
+      "board": "CHAR10",
+      "path": "assets_generated/design_system/CHAR10_v001.png",
+      "sha256": "364e060dc0ed6ec5c5c23dbf7b162301c55f459f62784489f0f07c9b3eb20bfd"
+    },
+    {
+      "board": "ENV02",
+      "path": "assets_generated/design_system/ENV02_v001.png",
+      "sha256": "5395688c5ccad71ee13d9099a003d82fc7cbabee31d761454c7d58c6e05fbd63"
+    },
+    {
+      "board": "PROP02",
+      "path": "assets_generated/design_system/PROP02_v001.png",
+      "sha256": "66b704990f77eed1b67406f057324078b87c2556b2f5d5cbd433b9997ea0d9e0"
+    },
+    {
+      "board": "PROP04",
+      "path": "assets_generated/design_system/PROP04_v002.png",
+      "sha256": "e8eb31e7c6948bb21dc56d43f6d858cce2ba4a99ecf1172f0dec232ffd2441e4"
+    },
+    {
+      "board": "ANIMAL01",
+      "path": "assets_generated/design_system/ANIMAL01_v001.png",
+      "sha256": "7dd2569d6c8bc3a6b78f11a588f82d2a26f7032b141fa702f9965240f6e28cf6"
+    },
+    {
+      "board": "ARMY01",
+      "path": "assets_generated/design_system/ARMY01_v001.png",
+      "sha256": "4f6b76dea97ac82cefce9338f51faaa00ee2501b3e63cb7197fb0ec4ef903ff7"
+    },
+    {
+      "board": "CHIEFS01",
+      "path": "assets_generated/design_system/CHIEFS01_v001.png",
+      "sha256": "11cfde4cac7fc720bacefc2ac66b390eceeff13a15362f0d4696a8e915ef1f05"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "accessed": "2026-11-10",
+  "sources": [
+    {
+      "id": "HIST01",
+      "url": "https://baotanglichsu.vn/vi/Articles/3098/13485/cuoc-khoi-nghia-hai-ba-trung-nam-40-43-sau-cong-nguyen.html",
+      "supports": [
+        "65huyệnthành",
+        "TrưngTrắclênngôi",
+        "MêLinh"
+      ]
+    },
+    {
+      "id": "HERITAGE01",
+      "url": "https://dsvh.gov.vn/di-tich-lich-su-den-hai-ba-trung-2970",
+      "supports": [
+        "ĐềnHạLôi/MêLinh"
+      ]
+    },
+    {
+      "id": "HERITAGE02",
+      "url": "https://dsvh.gov.vn/di-tich-lich-su-den-hat-mon-2971",
+      "supports": [
+        "ĐềnHátMônlàditíchriêng"
+      ]
+    }
+  ],
+  "E14": "fictional symbolic memorial, not verified building",
+  "ceremony": "symbolic illustration, not reconstructed ritual"
+}

@@ -30,3 +30,5 @@ Owned pages: 21, 22, 23, 24, 25, 26, 27, 28. Only this agent appends here.
 - Trang25hoànthành4bước:TEXTv00150tiếng/1thoại/6keyword, rawv002sửamóng/vùngthoại, speechv0015dòngđãđọctừngdấu;layoutv001/placementv002gutter142.6theoseam. Mởtoàntrang150/detail300, font/box/safeđạt.
 
 - Trang26hoànthành4bước:TEXTv00148tiếng/1thoại/5keyword, raw/speech/layoutv001. Đãđếm5cọc/5người, khônggán3vôdanhthànhtướngcótên. Thoạivẽ5dòngđủdấuvàcâucuốinguyênvăn; mởtoàntrang/detail300, font/box/safeđạt.
+
+- Trang27hoànthành4bước:TEXTv00247tiếng/7keyword/0thoại, rawv002sửalề, layoutv001. MởlạiHIST01/HERITAGE01/02ngày10/11, giữghi chúmontagebiểutượng. Toàntrang150/detail300mởkiểm, font/box/safeđạt.

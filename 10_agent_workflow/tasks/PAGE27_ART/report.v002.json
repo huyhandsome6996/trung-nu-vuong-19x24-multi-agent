@@ -1,0 +1,21 @@
+{
+  "task_id": "PAGE27_ART",
+  "kind": "art",
+  "status": "passed",
+  "reviewer": "agent_b",
+  "summary": "Đãmởnativev002:4nữtướngđỏ/lam/lục/đàođúngnhậndiện,2voixám/trắngngàvà1ngựanâu;4chânngựa/trọnmóng/ủng,mũtronglề. Tay/reins/bànhvoi/ngà/vòihợplý,đỉnhthoáng>23%,khôngchữ. Tranhhợpquânbiểutượng,khôngkhảochứngđộihìnhLuyLâu.",
+  "checks": {
+    "actual_refs": "pass",
+    "character_consistency": "pass",
+    "no_text": "pass",
+    "top_clearance": "pass",
+    "anatomy": "pass"
+  },
+  "artifacts": [
+    "assets_generated/raw_pages/PAGE27_v002.png",
+    "assets_generated/raw_pages/PAGE27_v002.json",
+    "10_agent_workflow/tasks/PAGE27_ART/prompt.v002.txt"
+  ],
+  "open_issues": [],
+  "reviewed_at": "2026-11-10T08:43:50.250005+00:00"
+}
