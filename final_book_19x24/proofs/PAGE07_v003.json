@@ -1,0 +1,114 @@
+{
+  "page": 7,
+  "version": "v003",
+  "print_ready": false,
+  "user_approved": false,
+  "renderer": "ReportLab / vector text; PDF rendered separately with Poppler",
+  "native_size_px": [
+    1122,
+    1402
+  ],
+  "art_effective_dpi": [
+    114.54901960784314,
+    145.40204081632652,
+    145.40204081632652
+  ],
+  "crop_mm": [
+    0.4350927246790235,
+    0.0
+  ],
+  "missing_glyphs": [],
+  "boxes": [
+    {
+      "kind": "narration",
+      "bbox_mm": [
+        18,
+        14,
+        154,
+        29
+      ],
+      "font_pt": 12.8,
+      "lines": 4,
+      "text_height_mm": 25.64835555555555,
+      "max_width_mm": 152.53546666666665,
+      "overflow": false
+    }
+  ],
+  "manual_panel_placements": [
+    {
+      "source_crop_px": [
+        0,
+        0,
+        1122,
+        230
+      ],
+      "bbox_mm": [
+        -3,
+        -3,
+        196,
+        51
+      ],
+      "effective_dpi": 114.54901960784314,
+      "uniform_scale": true
+    },
+    {
+      "source_crop_px": [
+        0,
+        230,
+        1122,
+        880
+      ],
+      "bbox_mm": [
+        -3,
+        48,
+        196,
+        113.5
+      ],
+      "effective_dpi": 145.40204081632652,
+      "uniform_scale": true
+    },
+    {
+      "source_crop_px": [
+        0,
+        886,
+        1122,
+        1402
+      ],
+      "bbox_mm": [
+        -3,
+        165,
+        196,
+        78
+      ],
+      "effective_dpi": 145.40204081632652,
+      "uniform_scale": true
+    }
+  ],
+  "speech_assets": [
+    {
+      "index": 0,
+      "speaker": "Thi Sách",
+      "asset": "assets_generated/speech_clouds/PAGE07_SPEECH01_v001.png",
+      "sha256": "00dcc93a4352235a7ea8cd2fc91ca1305f422bdeac9196f437e8f7f3f6d43e0a",
+      "bbox_mm": [
+        69,
+        82,
+        107,
+        68.13422391857506
+      ],
+      "native_size_px": [
+        1572,
+        1001
+      ],
+      "effective_dpi": 373.16635514018685,
+      "visible_text_manually_verified": true,
+      "text": "Lữ Thạch! Bọn ngươi miệng nói nhân nghĩa mà đằng sau gươm giáo hại người. Hôm nay đừng hòng toàn mạng trở về!"
+    }
+  ],
+  "pdf_text_matches": true,
+  "hashes": {
+    "svg": "07b8645c6997226fcd1e23c0098c50449ed01614934380d1c05fe957a670f892",
+    "pdf": "063d740396c2881e30c6b421a7a39063073decfd41f3738282c89284fa36a7ab",
+    "reading": "0cc9ead90420e975a76809da7af91677d408bf962c671571b572f7d22775057e"
+  }
+}

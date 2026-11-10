@@ -1,0 +1,30 @@
+{
+  "page": 7,
+  "speaker": "Thi Sách",
+  "text": "Lữ Thạch! Bọn ngươi miệng nói nhân nghĩa mà đằng sau gươm giáo hại người. Hôm nay đừng hòng toàn mạng trở về!",
+  "prompt": "Use case: illustration-story. Create one transparent RGBA illustrated speech cloud for the supplied historical comic reference. Match warm pink sunset watercolor, parchment ivory and expressive sepia ink. Draw organic cloud and ALL Vietnamese lettering together, bold readable humanist serif with correct diacritics. Canvas landscape 110:70. Main cloud occupies x24–98%,y48–96%; remaining upper-left area is transparent except for one narrow curved tail from cloud upper-left x35%,y50% curving left to tip x1%,y1%. No straight triangle. Exact full quote, arranged three lines within cloud:\nLữ Thạch! Bọn ngươi miệng nói nhân nghĩa\nmà đằng sau gươm giáo hại người.\nHôm nay đừng hòng toàn mạng trở về!\nPreserve every word and punctuation. Body ample padding. This is only a speech asset; reference supplies color and ink style, no people or scene elements in output. Fully transparent exterior; no UI rectangle, 3D shadow, watermark or extra words.",
+  "generator": "image_gen.imagegen",
+  "transparent_background": true,
+  "actual_reference_paths": [
+    "/workspace/scratch/9c77cb6cc5ef/trung-nu-vuong-19x24-multi-agent/assets_generated/raw_pages/PAGE07_v004.png"
+  ],
+  "version": "v001",
+  "image": "assets_generated/speech_clouds/PAGE07_SPEECH01_v001.png",
+  "sha256": "00dcc93a4352235a7ea8cd2fc91ca1305f422bdeac9196f437e8f7f3f6d43e0a",
+  "native_size_px": [
+    1572,
+    1001
+  ],
+  "mode": "RGBA",
+  "status": "visual_text_verified",
+  "visible_letter_review": "Read exact three lines and all Vietnamese marks against locked quote. Lữ Thạch/Bọn ngươi/miệng/nhân nghĩa/đằng/gươm giáo/hại/đừng hòng/toàn mạng/trở về correct.",
+  "user_approved": false,
+  "print_ready": false,
+  "actual_references": [
+    {
+      "path": "assets_generated/raw_pages/PAGE07_v004.png",
+      "tool_path": "/workspace/scratch/9c77cb6cc5ef/trung-nu-vuong-19x24-multi-agent/assets_generated/raw_pages/PAGE07_v004.png",
+      "sha256": "ab044c642a0b1c756595f1811d354667cb6b951a3bb0b968559c336cff9a1ede"
+    }
+  ]
+}

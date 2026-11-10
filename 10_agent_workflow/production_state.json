@@ -1420,16 +1420,61 @@
       "id": "PAGE07_LAYOUT",
       "kind": "layout",
       "title": "Trang07: ghép chữ và bố cục",
-      "status": "todo",
+      "status": "done",
       "depends_on": [
         "PAGE07_ART"
       ],
       "instructions": "Dùng nguyên text đã khóa và tranh đã kiểm. Ghép khung giấy cổ, tô đỏ #C81E1E cho **...**, đặt đủ thoại/đuôi bóng đúng người. Khổ196×246/trim190×240. Dùng layout_tokens, đo tràn chữ bằng renderer thật; xuất bản xem PNG/PDF và nguồn có thể sửa. scripts/typeset_preview.py là trợ giúp HTML; không coi HTML/PDF xem trước là file in đã duyệt.",
-      "evidence": [],
-      "last_note": "User10Nov rejects white UI speech; coordinator must draw cloud+lettering together, preserve old layout, verify and finish new version.",
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/PAGE07_LAYOUT/report.v003.json",
+          "sha256": "2e3cf153cea87b8b176dd585034310a6149cee523c4471623524670148186640"
+        },
+        {
+          "path": "final_book_19x24/source/PAGE07_v003.svg",
+          "sha256": "07b8645c6997226fcd1e23c0098c50449ed01614934380d1c05fe957a670f892"
+        },
+        {
+          "path": "final_book_19x24/source/PAGE07_placement.v003.json",
+          "sha256": "b522d6f086b6f7dc452176f436d6b7b9ba3766341f5e3dae24c81e82a1ba2835"
+        },
+        {
+          "path": "final_book_19x24/source/render_page.v004.py",
+          "sha256": "314b628a5cc0595ee6e38165862b78866c3ada9008ecce9e05cecf07fe135108"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE07_v003.pdf",
+          "sha256": "063d740396c2881e30c6b421a7a39063073decfd41f3738282c89284fa36a7ab"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE07_v003.png",
+          "sha256": "87c26fcdaa6b9e41b892efb76400874d522fc6f1aebefbebccb90b25b64d85d3"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE07_v003.json",
+          "sha256": "038212a237b44f431b6a8bf91cf7d60087fe86df3d8668cb4cd2708fec08c764"
+        },
+        {
+          "path": "final_book_19x24/reading/PAGE07_v003.pdf",
+          "sha256": "0cc9ead90420e975a76809da7af91677d408bf962c671571b572f7d22775057e"
+        },
+        {
+          "path": "assets_generated/speech_clouds/PAGE07_SPEECH01_v001.png",
+          "sha256": "00dcc93a4352235a7ea8cd2fc91ca1305f422bdeac9196f437e8f7f3f6d43e0a"
+        },
+        {
+          "path": "assets_generated/speech_clouds/PAGE07_SPEECH01_v001.json",
+          "sha256": "bdd539acd73c2b19ba42a1d4daf24e6afa2b1f0398e15e389883e85678fb7e75"
+        },
+        {
+          "path": "assets_generated/speech_clouds/PAGE07_SPEECH01_v001.request.json",
+          "sha256": "a7da7797c0f7f17961cd847dd6ec6dd186765db08dd4ec570a7363402de984f5"
+        }
+      ],
+      "last_note": "Illustrated cloud with complete quote and curved tail reviewed",
       "page": 7,
-      "owner": "Codex",
-      "updated_at": "2026-11-10T02:39:21+00:00",
+      "owner": "coordinator",
+      "updated_at": "2026-11-10T06:56:00+00:00",
       "previous_evidence": [
         [
           {
@@ -1468,16 +1513,61 @@
       "id": "PAGE07_QA",
       "kind": "qa",
       "title": "Trang07: kiểm nguồn/mỹ thuật/chữ/khổ",
-      "status": "todo",
+      "status": "done",
       "depends_on": [
         "PAGE07_LAYOUT"
       ],
       "instructions": "Mở ảnh render ở kích thước đọc thật và zoom100%; so với scan, sheet, text đã khóa. Kiểm bốn lớp historical/art/language/print_geometry. Ghi lỗi cụ thể và sửa về đúng bước. Báo cáo pass chỉ khi có artifact thực và không còn lỗi trong phạm vi; đây là QA của agent, không phải chủ dự án duyệt.",
-      "evidence": [],
-      "last_note": "Reopen: User10Nov rejects white UI speech; coordinator must draw cloud+lettering together, preserve old layout, verify and finish new version.",
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/PAGE07_QA/report.v003.json",
+          "sha256": "a63f900f7a58758e2d708d8c821d28eb6a2f19c810be3200026bf609d1e0021c"
+        },
+        {
+          "path": "final_book_19x24/source/PAGE07_v003.svg",
+          "sha256": "07b8645c6997226fcd1e23c0098c50449ed01614934380d1c05fe957a670f892"
+        },
+        {
+          "path": "final_book_19x24/source/PAGE07_placement.v003.json",
+          "sha256": "b522d6f086b6f7dc452176f436d6b7b9ba3766341f5e3dae24c81e82a1ba2835"
+        },
+        {
+          "path": "final_book_19x24/source/render_page.v004.py",
+          "sha256": "314b628a5cc0595ee6e38165862b78866c3ada9008ecce9e05cecf07fe135108"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE07_v003.pdf",
+          "sha256": "063d740396c2881e30c6b421a7a39063073decfd41f3738282c89284fa36a7ab"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE07_v003.png",
+          "sha256": "87c26fcdaa6b9e41b892efb76400874d522fc6f1aebefbebccb90b25b64d85d3"
+        },
+        {
+          "path": "final_book_19x24/proofs/PAGE07_v003.json",
+          "sha256": "038212a237b44f431b6a8bf91cf7d60087fe86df3d8668cb4cd2708fec08c764"
+        },
+        {
+          "path": "final_book_19x24/reading/PAGE07_v003.pdf",
+          "sha256": "0cc9ead90420e975a76809da7af91677d408bf962c671571b572f7d22775057e"
+        },
+        {
+          "path": "assets_generated/speech_clouds/PAGE07_SPEECH01_v001.png",
+          "sha256": "00dcc93a4352235a7ea8cd2fc91ca1305f422bdeac9196f437e8f7f3f6d43e0a"
+        },
+        {
+          "path": "assets_generated/speech_clouds/PAGE07_SPEECH01_v001.json",
+          "sha256": "bdd539acd73c2b19ba42a1d4daf24e6afa2b1f0398e15e389883e85678fb7e75"
+        },
+        {
+          "path": "assets_generated/speech_clouds/PAGE07_SPEECH01_v001.request.json",
+          "sha256": "a7da7797c0f7f17961cd847dd6ec6dd186765db08dd4ec570a7363402de984f5"
+        }
+      ],
+      "last_note": "Updated dialogue and unchanged source/art verified",
       "page": 7,
-      "owner": "Codex",
-      "updated_at": "2026-11-09T14:01:59+00:00",
+      "owner": "coordinator",
+      "updated_at": "2026-11-10T06:56:00+00:00",
       "previous_evidence": [
         [
           {
@@ -5242,6 +5332,30 @@
       "task": "PAGE06_QA",
       "action": "finish",
       "note": "Full page and exact lettering verified"
+    },
+    {
+      "at": "2026-11-10T06:53:22+00:00",
+      "task": "PAGE07_LAYOUT",
+      "action": "start",
+      "note": "Create illustrated speech with full locked quote"
+    },
+    {
+      "at": "2026-11-10T06:56:00+00:00",
+      "task": "PAGE07_LAYOUT",
+      "action": "finish",
+      "note": "Illustrated cloud with complete quote and curved tail reviewed"
+    },
+    {
+      "at": "2026-11-10T06:56:00+00:00",
+      "task": "PAGE07_QA",
+      "action": "start",
+      "note": "Review final lettered asset and complete page"
+    },
+    {
+      "at": "2026-11-10T06:56:00+00:00",
+      "task": "PAGE07_QA",
+      "action": "finish",
+      "note": "Updated dialogue and unchanged source/art verified"
     }
   ]
 }

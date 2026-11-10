@@ -1,0 +1,65 @@
+{
+  "page": 7,
+  "gutter_mm": [
+    161.5,
+    3.5
+  ],
+  "variant_reason": "Taller upper panel preserves full bow and full dialogue; narration/safe/bleed unchanged.",
+  "art_panels": [
+    {
+      "source_crop_px": [
+        0,
+        0,
+        1122,
+        230
+      ],
+      "bbox_mm": [
+        -3,
+        -3,
+        196,
+        51
+      ]
+    },
+    {
+      "source_crop_px": [
+        0,
+        230,
+        1122,
+        880
+      ],
+      "bbox_mm": [
+        -3,
+        48,
+        196,
+        113.5
+      ]
+    },
+    {
+      "source_crop_px": [
+        0,
+        886,
+        1122,
+        1402
+      ],
+      "bbox_mm": [
+        -3,
+        165,
+        196,
+        78
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "speaker": "Thi Sách",
+      "bbox_mm": [
+        69,
+        82,
+        107,
+        68.13422391857506
+      ],
+      "lettered_asset": "assets_generated/speech_clouds/PAGE07_SPEECH01_v001.png",
+      "style": "illustrated_lettered_cloud"
+    }
+  ]
+}
