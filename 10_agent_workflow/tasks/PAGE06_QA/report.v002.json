@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "reviewer": "Codex coordinator",
+  "summary": "Opened native two-line RGBA and final Poppler page. Exact locked quote and diacritics read manually. Organic warm cloud matches sunset; curved tail points toward left elders, no faces/hands/weapons obscured. Original artwork/panels and source review unchanged. Narration four lines with seven red phrases; embedded Noto fonts and reopened trim190x240/bleed196x246 checked. Native raw remains below300DPI; agent reviewed, not user-approved or print-ready.",
+  "artifacts": [
+    "final_book_19x24/source/PAGE06_v002.svg",
+    "final_book_19x24/source/PAGE06_placement.v002.json",
+    "final_book_19x24/source/render_page.v004.py",
+    "final_book_19x24/proofs/PAGE06_v002.pdf",
+    "final_book_19x24/proofs/PAGE06_v002.png",
+    "final_book_19x24/proofs/PAGE06_v002.json",
+    "final_book_19x24/reading/PAGE06_v002.pdf",
+    "assets_generated/speech_clouds/PAGE06_SPEECH01_v001.png",
+    "assets_generated/speech_clouds/PAGE06_SPEECH01_v001.json",
+    "assets_generated/speech_clouds/PAGE06_SPEECH01_v001.request.json"
+  ],
+  "open_issues": [],
+  "reviewed_at": "2026-11-10T06:52:50.816485+00:00",
+  "task_id": "PAGE06_QA",
+  "kind": "qa",
+  "checks": {
+    "historical": "pass",
+    "art": "pass",
+    "language": "pass",
+    "print_geometry": "pass"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "page": 6,
+  "art_panels": [
+    {
+      "source_crop_px": [
+        0,
+        0,
+        1122,
+        1402
+      ],
+      "bbox_mm": [
+        -3,
+        -3,
+        196,
+        246
+      ]
+    },
+    {
+      "source_crop_px": [
+        0,
+        0,
+        1122,
+        1402
+      ],
+      "bbox_mm": [
+        0,
+        0,
+        190,
+        240
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "speaker": "Các vị tộc trưởng và tráng đinh Chu Diên",
+      "bbox_mm": [
+        13,
+        85,
+        78,
+        39.0
+      ],
+      "lettered_asset": "assets_generated/speech_clouds/PAGE06_SPEECH01_v001.png",
+      "style": "illustrated_lettered_cloud"
+    }
+  ],
+  "note": "Preserved raw and art panels; collective drawn speech points toward left elders without crossing Thi Sach."
+}

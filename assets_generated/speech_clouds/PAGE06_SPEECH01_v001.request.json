@@ -1,0 +1,12 @@
+{
+  "page": 6,
+  "speaker": "Các vị tộc trưởng và tráng đinh Chu Diên",
+  "text": "Quyết không đội trời chung với quan quân phương Bắc!",
+  "prompt": "Use case: illustration-story. Create ONE isolated transparent RGBA speech cloud for the historical Vietnamese comic shown in the reference, using its warm sunset watercolor and brown ink style. Draw BOTH organic cloud and full Vietnamese lettering together. Landscape canvas 2:1. Main softly irregular pale ivory peach cloud occupies x2–98%, y2–58%; readable dark sepia humanist serif lettering inside, two centered lines: \nQuyết không đội trời chung\nvới quan quân phương Bắc!\nExact complete quote: Quyết không đội trời chung với quan quân phương Bắc!\nAll Vietnamese diacritics must be accurate. Gentle ink irregularity, subtle paper grain, no 3D shadow, no UI rectangle. One slender naturally curved tail from x30%,y52% reaching tip x22%,y98%, directed to an elder below-left. Outside cloud and tail fully transparent. Reference is for scene style and lighting only; do not draw people, weapons, scenery, extra text or watermark. Keep all lettering and cloud within the canvas.",
+  "generator": "image_gen.imagegen",
+  "transparent_background": true,
+  "actual_reference_paths": [
+    "/workspace/scratch/9c77cb6cc5ef/trung-nu-vuong-19x24-multi-agent/assets_generated/raw_pages/PAGE06_v001.png"
+  ],
+  "version": "v001"
+}

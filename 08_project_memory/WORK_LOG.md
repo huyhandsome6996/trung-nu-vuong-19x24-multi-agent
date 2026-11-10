@@ -184,3 +184,8 @@ timezone: "Asia/Ho_Chi_Minh"
 - Preserved old promptsv001 and saved full standalone promptsv002/currentPROMPT.md for each lane: exact startup/read order, allowed/forbidden paths, private queues/logs, source pitfalls, drawn-lettering standard, evidence/QA, timeout/rejection handling, guarded publication, final manifest and integration boundary.
 - Hardened publish to inspect every unpublished local commit as well as staged/unstaged/untracked paths; an already-committed foreign edit in a clean tree is rejected before rebase/push. Added real-Git regression tests for that case and for A pushing between B fetch/push, causing a real non-fast-forward rejection followed by successful retry.17tests pass; both results survive and main-only history remains.
 - No new illustration or full-book completion is claimed in this handoff preparation. PAGE03 image rejection stays a coordinator blocker; independent speech06/07/09/10/11 and all covers/matter remain coordinator work.
+
+## 2026-11-10 — Coordinator resumes while A/B work
+
+- User confirms both lane prompts sent; coordinator continues own scope and assembles only after user reports lane completion. Remote at initial pull74ba908.
+- PAGE06 illustrated speech v001/layoutQA v002 completed after actual image call and native/full-page visual review. Exact two-line quote preserved; sunset cloud points toward elders without covering figures. Locked text/raw/source unchanged; embedded fonts/boxes checked, not print-ready.
