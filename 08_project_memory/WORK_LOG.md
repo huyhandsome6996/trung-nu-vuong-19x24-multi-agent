@@ -205,3 +205,9 @@ timezone: "Asia/Ho_Chi_Minh"
 - COVERS_AND_MATTER_REVIEWv001 is eight-face review only. Seventeen tests/check_repo/workflowcheck pass. No further push after second auto-review rejection; all session work remains local pending user authorization. See coordinatorHANDOFFv001 for continuation.
 
 - Final read-only fetch observed remote dc5ec27. LaneHANDOFFs explicitly partial: A14–16 done, interrupted17; B21–23 done, interrupted24. No shared REQUESTS; no need for coordinator to change their code. User informed both must continue; no incomplete-lane integration. Coordinator local publication still awaiting explicit authorization after automatic rejection.
+
+## 2026-11-10 — Coordinator publication permission resolved
+
+- User supplied a new PAT in direct response to the exact main-push authorization question. Credential accepted only through process stdin/environment; no token persisted to files/config/remote/log.
+- Verified exact origin, main, clean tree, every unpublished commit path within coordinator scope, no deletions. Rebased five commits onto remote dc5ec27 preserving A/B work;17tests/check_repo/evidencecheck pass.
+- Push succeeded; local and remote both0c869b498be9a4124387b5287559b86991926c82. Prior automatic-approval rejection is resolved by this explicit user authorization. Added READINESSv002 and CURRENT continuation note so future sessions do not repeat the old blocker.
