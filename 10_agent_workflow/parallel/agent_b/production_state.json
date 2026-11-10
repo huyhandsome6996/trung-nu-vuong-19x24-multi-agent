@@ -981,29 +981,48 @@
       "id": "PAGE26_ART",
       "kind": "art",
       "title": "Trang26: tạo và kiểm tranh nền",
-      "status": "in_progress",
+      "status": "done",
       "depends_on": [
         "PAGE26_TEXT"
       ],
       "instructions": "Lấy text đã khóa từ evidence bước TEXT. Xem các sheet liên quan; soạn prompt cuối theo cảnh, ghi actual_references và hash. Tạo ảnh bằng công cụ sinh ảnh, nền không chữ, không bóng thoại, chừa20% đỉnh; dùng đúng A/B/C. Kiểm mặt, phục trang, tay/chân/vũ khí và hành động. Lưu PNG native có phiên bản và metadata theo templates/RAW_IMAGE_METADATA.json. Không resize rồi khai native300DPI.",
-      "evidence": [],
-      "last_note": "Tạocảnh5cọc/5người, ThánhThiêngreen/white, khônghànhquyết.",
+      "evidence": [
+        {
+          "path": "10_agent_workflow/tasks/PAGE26_ART/report.v001.json",
+          "sha256": "a6963d1a491e93985cd366eec9783de7ea95be4b8cca3d5d78ab9e2e171475e1"
+        },
+        {
+          "path": "assets_generated/raw_pages/PAGE26_v001.png",
+          "sha256": "dc53b69acbabca9bad3ea7cc0b517a4c00a102387f6621ed11da5f861c33e412"
+        },
+        {
+          "path": "assets_generated/raw_pages/PAGE26_v001.json",
+          "sha256": "8a8767185adb3e37be48d49290cf33e7dcbdada94bf546fd2c736e8e0cf178fd"
+        },
+        {
+          "path": "10_agent_workflow/tasks/PAGE26_ART/prompt.v001.txt",
+          "sha256": "12308a7ac1c01db1b5009cd6945ebe213d9d4e8958a69824ebf7f4b8463790c2"
+        }
+      ],
+      "last_note": "5cọc5người/nhậndiện/anatomyđạt.",
       "page": 26,
       "owner": "agent_b",
-      "updated_at": "2026-11-10T08:27:51+00:00"
+      "updated_at": "2026-11-10T08:32:59+00:00"
     },
     {
       "id": "PAGE26_LAYOUT",
       "kind": "layout",
       "title": "Trang26: ghép chữ và bố cục",
-      "status": "todo",
+      "status": "in_progress",
       "depends_on": [
         "PAGE26_ART"
       ],
       "instructions": "Dùng nguyên text đã khóa và tranh đã kiểm. Ghép khung giấy cổ, tô đỏ #C81E1E cho **...**, đặt đủ thoại/đuôi bóng đúng người. Khổ196×246/trim190×240. Dùng layout_tokens, đo tràn chữ bằng renderer thật; xuất bản xem PNG/PDF và nguồn có thể sửa. scripts/typeset_preview.py là trợ giúp HTML; không coi HTML/PDF xem trước là file in đã duyệt.",
       "evidence": [],
-      "last_note": "",
-      "page": 26
+      "last_note": "Vẽkhungkèmnguyênthoại; kiểmđủdấucảTRẢMTHỦ.",
+      "page": 26,
+      "owner": "agent_b",
+      "updated_at": "2026-11-10T08:33:01+00:00"
     },
     {
       "id": "PAGE26_QA",
@@ -1529,6 +1548,24 @@
       "task": "PAGE26_ART",
       "action": "start",
       "note": "Tạocảnh5cọc/5người, ThánhThiêngreen/white, khônghànhquyết."
+    },
+    {
+      "at": "2026-11-10T08:32:59+00:00",
+      "task": "PAGE26_ART",
+      "action": "checkpoint",
+      "note": "Rawv001đãtrả/mở, đếmđúng5cọc/5người; đủmetadata/prompthash."
+    },
+    {
+      "at": "2026-11-10T08:32:59+00:00",
+      "task": "PAGE26_ART",
+      "action": "finish",
+      "note": "5cọc5người/nhậndiện/anatomyđạt."
+    },
+    {
+      "at": "2026-11-10T08:33:01+00:00",
+      "task": "PAGE26_LAYOUT",
+      "action": "start",
+      "note": "Vẽkhungkèmnguyênthoại; kiểmđủdấucảTRẢMTHỦ."
     }
   ]
 }

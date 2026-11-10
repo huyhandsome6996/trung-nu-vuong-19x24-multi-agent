@@ -1,0 +1,21 @@
+{
+  "task_id": "PAGE26_ART",
+  "kind": "art",
+  "status": "passed",
+  "reviewer": "agent_b",
+  "summary": "Đãđếm5cọc/5ngườimộtngườimộtcọc:tráiTào,tớiLục,rồi3tướngvôdanhmặtkhác. ThánhThiênlục/trắng/bím/giàybáo; kiếm/tay/ngón/chânliềnđúng, đỉnhkhôngcheđầu; khôngmáuthươngtích/hànhquyết. Ngườicầmcờởhậucảnhkhôngphảitùbinh.",
+  "checks": {
+    "actual_refs": "pass",
+    "character_consistency": "pass",
+    "no_text": "pass",
+    "top_clearance": "pass",
+    "anatomy": "pass"
+  },
+  "artifacts": [
+    "assets_generated/raw_pages/PAGE26_v001.png",
+    "assets_generated/raw_pages/PAGE26_v001.json",
+    "10_agent_workflow/tasks/PAGE26_ART/prompt.v001.txt"
+  ],
+  "open_issues": [],
+  "reviewed_at": "2026-11-10T08:32:58.709239+00:00"
+}

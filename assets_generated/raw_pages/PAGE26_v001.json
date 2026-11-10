@@ -1,0 +1,39 @@
+{
+  "image": "assets_generated/raw_pages/PAGE26_v001.png",
+  "version": "v001",
+  "native_size_px": [
+    1119,
+    1406
+  ],
+  "sha256": "dc53b69acbabca9bad3ea7cc0b517a4c00a102387f6621ed11da5f861c33e412",
+  "prompt": "Use case: illustration-story. PAGE26 historical Vietnamese ink/crosshatching watercolor colored-pencil comic, portrait196:246, Template A single dramatic but NON-GRAPHIC courtyard scene. Reference1 CHAR04 ThánhThiên: exact young ovalface/darkbraid, GREEN shortbronze/leatherarmor, WHITE mourningband, leopardboots. Ref2 CHAR10 only CENTERman=TàoQuyền heavyroundface shortblackchinbeard darkiron/purplecape. Ref3 CHAR11 only RIGHTman=LụcHiến smallpearface thinmustache smallblackcap olivebrownrobe. Ref4 ENV04 TOPwoodenhall/courtyard/forestedmountain. Ref5 PROP01 row2col3 straightgreenhandledsword and row2col4 whiteband/leopardboots. TOP23percent quiet pale sky/mountain/upperroof for latercaption, absolutely no people/weapontips. ThánhThiên stands LEFTforeground onground, FULLbody fromhead about y45percent toboots92percent, faceatx26percent; stern solemnvoice, right hand holds straight sword lowered diagonally toRIGHT atwaistlevel, never touching anyone; left hand open naturally. Reserve quiet empty wall/sky x40–91percent y25–43percent for futurespeech, draw NO bubble. Behind her onRIGHT/center atmidground, EXACTLY FIVE separate upright roughwood posts in a clearly countable single slightly diagonal row, with EXACTLY FIVE fullyclothed unharmed adult male prisoners, one perpost, all five heads and posts visibly separated. Arrange lefttoright: 1=TàoQuyền (roundface purple/darkiron), 2=LụcHiến (oliveofficialrobe smallcap), 3,4,5=THREE DISTINCT ANONYMOUS Han officers in simple darkgrey ironarmor and different ordinaryfaces, no named-character markings. Do not use SầmLân/SầmBá/ĐộcCôTấn or moreTào doubles. Posts tops aroundy56percent, prisonerfaces aroundy64percent, boots88percent; ropes looparound torsoandpost, no choking and noexposedinjuries. Fiveposts only, do not add flagpoles to that row. Small symbolic militia and tribalelders fartherbackground atedges, flags wellaway fromfiveposts; not additional prisoners. This is ONLY a verbal sentencing scene before any action, no execution shown, no raised attacking blade, no severedhead, no blood, no injury, no torture. Greenforest/greyrock/warmwood, daylight, matched shadows, clear readable faces, anatomical hands/fingers/feet and continuousweapon grip. No lettering, captions, labels, speechclouds or watermark. Preserve all mainboots/heads/posttops withinframe.",
+  "actual_references": [
+    {
+      "path": "assets_generated/design_system/CHAR04_v001.png",
+      "sha256": "9f8a680e8c7fbb9c5b79bb8bbfe5802459342af9255f28c75de512c31126d5cb"
+    },
+    {
+      "path": "assets_generated/design_system/CHAR10_v001.png",
+      "sha256": "364e060dc0ed6ec5c5c23dbf7b162301c55f459f62784489f0f07c9b3eb20bfd"
+    },
+    {
+      "path": "assets_generated/design_system/CHAR11_v001.png",
+      "sha256": "ff898f586e0b7e5b2f12b0dcc0423ee623a5819c154c7b8ca6152eb80d3bb098"
+    },
+    {
+      "path": "assets_generated/design_system/ENV04_v001.png",
+      "sha256": "171b30f9e661b6febf962b0f71eaee858967a37f84784db1544b1fdc54d3017a"
+    },
+    {
+      "path": "assets_generated/design_system/PROP01_v001.png",
+      "sha256": "8ac9a5f41d435726a72baf456d67dd3612cb3cd466e5f9b4f8f3794ee14f5a55"
+    }
+  ],
+  "generator": "image_gen.imagegen built-in; model not exposed",
+  "text_free": true,
+  "top_clearance_checked": true,
+  "visual_qa_report": "10_agent_workflow/tasks/PAGE26_ART/report.v001.json",
+  "user_approved": false,
+  "print_ready": false,
+  "note": "Đãđếm5cọc/5ngườimộtngườimộtcọc:tráiTào,tớiLục,rồi3tướngvôdanhmặtkhác. ThánhThiênlục/trắng/bím/giàybáo; kiếm/tay/ngón/chânliềnđúng, đỉnhkhôngcheđầu; khôngmáuthươngtích/hànhquyết. Ngườicầmcờởhậucảnhkhôngphảitùbinh."
+}
