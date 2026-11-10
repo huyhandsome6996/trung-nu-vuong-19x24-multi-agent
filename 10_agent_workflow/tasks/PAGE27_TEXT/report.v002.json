@@ -1,0 +1,19 @@
+{
+  "task_id": "PAGE27_TEXT",
+  "kind": "text",
+  "status": "passed",
+  "reviewer": "agent_b",
+  "summary": "Đã đọc nguồn; khóa 47tiếng và 0thoại đầy đủ. ĐọcSRC-05/reportSOURCE_EPILOGUEv002/sourcesv001/COMPARISONv001; mởlạiHIST01ngày2026-11-10 tạihttps://baotanglichsu.vn/vi/Articles/3098/13485/cuoc-khoi-nghia-hai-ba-trung-nam-40-43-sau-cong-nguyen.html:đoạn34/40hỗtrợnăm40/LuyLâu/TôĐịnhrútchạy. SửaNăm40thànhNăm 40trongphiênbảnchữriêng,khôngsửastoryboard. KhôngkhẳngđịnhPHtrựctiếpmởđườngLL. HợpquânThánhThiên/PhùngThịChínhchỉlàbiểutượngchuyểnthể;giữ7cụmkeyword,0thoại.",
+  "checks": {
+    "source_alignment": "pass",
+    "narration_35_65": "pass",
+    "keywords_preserved": "pass",
+    "dialogue_locked": "pass",
+    "template_locked": "pass"
+  },
+  "artifacts": [
+    "10_agent_workflow/tasks/PAGE27_TEXT/text.v002.json"
+  ],
+  "open_issues": [],
+  "reviewed_at": "2026-11-10T08:35:32.470003+00:00"
+}

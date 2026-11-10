@@ -1,0 +1,32 @@
+{
+  "task_id": "PAGE26_LAYOUT",
+  "kind": "layout",
+  "status": "passed",
+  "reviewer": "agent_b",
+  "summary": "Đãmởtoàntrang150/detail300:4dòngdẫn/5cụmđỏ,5dòngthoạiđủdấu/TRẢMTHỦ. TailngắnhướnggócmiệngThánhThiên, khôngchemắttaykiếmhay5cọc. Safe/font/trim/bleedđạt. PDF opened nonempty; embedded Noto font/glyphs, boxes, extraction and overflow checked. AGENT_QA only.",
+  "checks": {
+    "vietnamese_fonts": "pass",
+    "red_keywords": "pass",
+    "safe_text": "pass",
+    "bleed_geometry": "pass",
+    "no_overflow": "pass",
+    "speech_placement": "pass"
+  },
+  "artifacts": [
+    "final_book_19x24/source/PAGE26_v001.svg",
+    "final_book_19x24/proofs/PAGE26_v001.pdf",
+    "final_book_19x24/reading/PAGE26_v001.pdf",
+    "final_book_19x24/proofs/PAGE26_v001.png",
+    "final_book_19x24/proofs/PAGE26_v001.json",
+    "final_book_19x24/proofs/PAGE26_v001_300dpi.png",
+    "final_book_19x24/proofs/PAGE26_v001_detail.png",
+    "final_book_19x24/source/PAGE26_v001.placement.json",
+    "10_agent_workflow/tasks/PAGE26_LAYOUT/technical.v001.json",
+    "10_agent_workflow/parallel/agent_b/render_page.snapshot.v001.py",
+    "assets_generated/speech_clouds/PAGE26_SPEECH01_v001.png",
+    "assets_generated/speech_clouds/PAGE26_SPEECH01_v001.json",
+    "assets_generated/speech_clouds/PAGE26_SPEECH01_v001.prompt.txt"
+  ],
+  "open_issues": [],
+  "reviewed_at": "2026-11-10T08:35:28.474586+00:00"
+}

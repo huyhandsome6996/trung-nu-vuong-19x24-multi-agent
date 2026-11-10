@@ -1,0 +1,21 @@
+{
+  "reviewed_at": "2026-11-10",
+  "sources": [
+    {
+      "id": "HIST01",
+      "url": "https://baotanglichsu.vn/vi/Articles/3098/13485/cuoc-khoi-nghia-hai-ba-trung-nam-40-43-sau-cong-nguyen.html",
+      "accessed": "2026-11-10",
+      "supports": [
+        "khởi nghĩa năm40",
+        "giải phóng Luy Lâu",
+        "Tô Định tháo chạy"
+      ],
+      "does_not_establish": [
+        "tuyếnPhượngHoàng→LuyLâu",
+        "đội hìnhThánhThiên/PhùngThịChính tại cổngLuyLâu"
+      ]
+    }
+  ],
+  "source_epilogue_read": true,
+  "montage_is_symbolic": true
+}

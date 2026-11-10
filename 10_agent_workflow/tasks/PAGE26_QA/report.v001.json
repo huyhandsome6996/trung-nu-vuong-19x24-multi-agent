@@ -1,0 +1,21 @@
+{
+  "task_id": "PAGE26_QA",
+  "kind": "qa",
+  "status": "passed",
+  "reviewer": "agent_b",
+  "summary": "Đãđếm5cọc/5tùbinh:2cótênvà3vôdanhđúngscan57–58. ThánhThiêngiáplục/khăntang/giàybáo, tay/chân/kiếmđạt;0thươngtích. Đọctừngtiếng/dấutrênassetvàdetail300,5keywordđỏ; font/box/safeđạt. AGENT_QA only, not USER_APPROVED/PRINT_READY. Native/effective DPI measured in metrics; no upscaling claims.",
+  "checks": {
+    "historical": "pass",
+    "art": "pass",
+    "language": "pass",
+    "print_geometry": "pass"
+  },
+  "artifacts": [
+    "10_agent_workflow/tasks/PAGE26_LAYOUT/report.v001.json",
+    "final_book_19x24/proofs/PAGE26_v001.png",
+    "final_book_19x24/proofs/PAGE26_v001_detail.png",
+    "10_agent_workflow/tasks/PAGE26_LAYOUT/technical.v001.json"
+  ],
+  "open_issues": [],
+  "reviewed_at": "2026-11-10T08:35:30.465006+00:00"
+}

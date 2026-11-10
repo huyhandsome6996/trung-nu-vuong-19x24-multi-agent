@@ -1,0 +1,63 @@
+{
+  "page": 26,
+  "version": "v001",
+  "print_ready": false,
+  "user_approved": false,
+  "renderer": "ReportLab / vector text; PDF rendered separately with Poppler",
+  "native_size_px": [
+    1119,
+    1406
+  ],
+  "art_effective_dpi": [
+    145.01326530612246,
+    145.01326530612243
+  ],
+  "crop_mm": [
+    -1.4210854715202004e-14,
+    0.13494191242179454
+  ],
+  "missing_glyphs": [],
+  "boxes": [
+    {
+      "kind": "narration",
+      "bbox_mm": [
+        18,
+        14,
+        154,
+        29
+      ],
+      "font_pt": 12.8,
+      "lines": 4,
+      "text_height_mm": 25.64835555555555,
+      "max_width_mm": 150.44024888888887,
+      "overflow": false
+    }
+  ],
+  "speech_assets": [
+    {
+      "index": 0,
+      "speaker": "Thánh Thiên (uy phong lẫm liệt)",
+      "asset": "assets_generated/speech_clouds/PAGE26_SPEECH01_v001.png",
+      "sha256": "444b728bf10b42c2ac4373014e1ca8e4e936df1b80880f0503f1696d6612a1df",
+      "bbox_mm": [
+        44,
+        53,
+        128,
+        42.666666666666664
+      ],
+      "native_size_px": [
+        2172,
+        724
+      ],
+      "effective_dpi": 431.00625,
+      "visible_text_manually_verified": true,
+      "text": "Tào tặc! Ngươi vô cớ sát hại cha ta, tàn hại dòng giống Lạc Việt ta. Hôm nay ta thay mặt trời đất Giao Chỉ tuyên án: TRẢM THỦ!"
+    }
+  ],
+  "pdf_text_matches": true,
+  "hashes": {
+    "svg": "dfca844cd2d667e3edcb218d9d03809e7a7100c44135ad2a544a68285e209f96",
+    "pdf": "643cbf03f8a81f635225a49dee55358b398d6b943eb1e1d7c15e13450bdf2837",
+    "reading": "1b657a5f015e0a14be77218f4b5eb160b28f39a2733480f0207f6c0630f929dd"
+  }
+}

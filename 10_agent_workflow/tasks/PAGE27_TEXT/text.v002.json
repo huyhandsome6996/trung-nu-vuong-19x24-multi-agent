@@ -1,0 +1,13 @@
+{
+  "page": 27,
+  "template": "A",
+  "status": "locked",
+  "narration": "Khép lại chuyện ở **núi Phượng Hoàng** và **Lục Đầu Giang**. Năm 40, khởi nghĩa **Hát Môn** do **Hai Bà Trưng** lãnh đạo **đánh chiếm thành Luy Lâu**, buộc **Tô Định** tháo chạy. Tranh hợp quân có **Thánh Thiên, Phùng Thị Chính** là hình tượng của truyện.",
+  "dialogues": [],
+  "dialogues_status": "locked",
+  "storyboard_path": "03_storyboards_and_scripts/STORYBOARD_PART_2_HOI_8_HAT_MON_PHUONG_HOANG.md",
+  "storyboard_sha256": "51b2b09b8cf339ee46f55c7b018dc65d2d90cbd1934d0263a42719e909c7aaeb",
+  "source_notes": "ĐọcSRC-05/reportSOURCE_EPILOGUEv002/sourcesv001/COMPARISONv001; mởlạiHIST01ngày2026-11-10 tạihttps://baotanglichsu.vn/vi/Articles/3098/13485/cuoc-khoi-nghia-hai-ba-trung-nam-40-43-sau-cong-nguyen.html:đoạn34/40hỗtrợnăm40/LuyLâu/TôĐịnhrútchạy. SửaNăm40thànhNăm 40trongphiênbảnchữriêng,khôngsửastoryboard. KhôngkhẳngđịnhPHtrựctiếpmởđườngLL. HợpquânThánhThiên/PhùngThịChínhchỉlàbiểutượngchuyểnthể;giữ7cụmkeyword,0thoại.",
+  "note": "Agent B: source-checked adaptation; storyboard shared file preserved.",
+  "narration_tokens": 47
+}
