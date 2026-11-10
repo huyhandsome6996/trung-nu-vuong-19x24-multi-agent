@@ -1,0 +1,85 @@
+{
+  "base_art": true,
+  "gutter_mm": [
+    139,
+    3
+  ],
+  "art_panels": [
+    {
+      "source_crop_px": [
+        0,
+        0,
+        1122,
+        760
+      ],
+      "bbox_mm": [
+        0,
+        10,
+        190,
+        129
+      ]
+    },
+    {
+      "source_crop_px": [
+        0,
+        775,
+        1122,
+        1402
+      ],
+      "bbox_mm": [
+        0,
+        142,
+        190,
+        98
+      ]
+    }
+  ],
+  "dialogues": [],
+  "tablet_labels": [
+    {
+      "name": "Hùng Vương Quốc Chủ",
+      "lines": [
+        "HÙNG",
+        "VƯƠNG",
+        "QUỐC",
+        "CHỦ"
+      ],
+      "bbox_mm": [
+        86,
+        64,
+        18,
+        27
+      ],
+      "font_pt": 8.5,
+      "leading_pt": 10.8
+    },
+    {
+      "name": "Trưng Định",
+      "lines": [
+        "TRƯNG",
+        "ĐỊNH"
+      ],
+      "bbox_mm": [
+        52,
+        75,
+        16,
+        17
+      ],
+      "font_pt": 8.5
+    },
+    {
+      "name": "Thi Sách",
+      "lines": [
+        "THI",
+        "SÁCH"
+      ],
+      "bbox_mm": [
+        120,
+        75,
+        16,
+        17
+      ],
+      "font_pt": 8.5
+    }
+  ]
+}

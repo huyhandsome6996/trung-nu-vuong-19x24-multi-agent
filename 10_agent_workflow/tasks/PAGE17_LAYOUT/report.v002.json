@@ -1,0 +1,30 @@
+{
+  "task_id": "PAGE17_LAYOUT",
+  "kind": "layout",
+  "status": "passed",
+  "reviewer": "agent_a / Codex",
+  "summary": "Opened actual finalfullpage and300DPI caption/tablet detail. All narrator words/accents and5keywords read; three editable labels HÙNG VƯƠNG QUỐC CHỦ / TRƯNG ĐỊNH / THI SÁCH exact to40–41. Complete censer and4cast with allfeetvisible; Trắc red,Nhịnavy,bothwhitebands,malegraybeardnavy/olderwomanpurple. Uniform recordedcrop/scale keeps crest belowcaption and feetinsidepage; no stretching. Noto embedded, correctPDFboxes,nooverflow; native144.76DPI/panels145.4DPIapprox, belowprinttarget. AGENT_QA only.",
+  "checks": {
+    "vietnamese_fonts": "pass",
+    "red_keywords": "pass",
+    "safe_text": "pass",
+    "bleed_geometry": "pass",
+    "no_overflow": "pass",
+    "speech_placement": "pass"
+  },
+  "artifacts": [
+    "final_book_19x24/source/PAGE17_v002.svg",
+    "final_book_19x24/source/PAGE17_placement.v002.json",
+    "final_book_19x24/proofs/PAGE17_v002.pdf",
+    "final_book_19x24/reading/PAGE17_v002.pdf",
+    "final_book_19x24/proofs/PAGE17_v002.png",
+    "final_book_19x24/proofs/PAGE17_v002.json",
+    "10_agent_workflow/parallel/agent_a/PAGE17_technical.v002.json",
+    "10_agent_workflow/parallel/agent_a/render_page.v002.py"
+  ],
+  "open_issues": [],
+  "reviewed_at": "2026-11-10T08:21:48.317381+00:00",
+  "approval_level": "AGENT_QA",
+  "user_approved": false,
+  "print_ready": false
+}

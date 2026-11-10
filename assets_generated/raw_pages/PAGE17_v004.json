@@ -1,0 +1,38 @@
+{
+  "image": "assets_generated/raw_pages/PAGE17_v004.png",
+  "version": "v004",
+  "native_size_px": [
+    1122,
+    1402
+  ],
+  "sha256": "6ee5981bbdfa716896d5c8d8751b4ac00995ca51acb65d32f954bd6ebbcec158",
+  "prompt": "Edit target image1 PAGE17 v003. Preserve all identities, clothing colors, ink hatching/watercolor style, solemn spring ceremony. Correct composition only. Two horizontal panels, seam exactly y55% fullcanvas. UPPER panel must have quiet pale sky for entire TOP24% with NO tablet, roof, flags, smoke, ornament. Move and scale complete altar arrangement so tallest center tablet crest begins y29%, side tablet crests begin y34%, censer bottom y52%; three blank red tablet faces frontparallel and wide enough for later lettering. Center tablet label face x44–56%,y33–44%; left x26–36%,y36–46%; right x64–74%,y36–46%. Bronze censer lowercenter, do not block name faces. Keep all three tablets and censer complete. LOWER panel y56–100%: scale down all four people enough that both women's boots and both teachers' feet are FULLY visible ABOVEy94%, with several steps below. TrưngTrắc leftcenter red/bronze armor and golden feather crown+white mourningband; TrưngNhị rightcenter NAVY/bronze+white mourningband. Teachers behind: malegraybeardnavy/olderwomanpurple. Headcrests belowy60%, normal hands and natural climb posture. DO NOT cut toes, boots, head feathers. No lettering, no speech balloon, no watermark. Images2–5 identity/prop references only. Native portrait4:5.",
+  "actual_references": [
+    {
+      "path": "assets_generated/raw_pages/PAGE17_v003.png",
+      "sha256": "e2096f1fa7f8810577b86e08df49035e43b6eb9e20b551b69d0afffe50a381e5"
+    },
+    {
+      "path": "assets_generated/characters/CHAR_01_Trung_Trac_v001.png",
+      "sha256": "3387a36a801705d08b9eac3dd778aca3533fced07300db8188cd71439eeec3c3"
+    },
+    {
+      "path": "assets_generated/design_system/CHAR02_v001.png",
+      "sha256": "f4075fc661a51398efee50470805fca95a86a76ee66ec00909ba1058818ff4c7"
+    },
+    {
+      "path": "assets_generated/design_system/PROP02_v001.png",
+      "sha256": "66b704990f77eed1b67406f057324078b87c2556b2f5d5cbd433b9997ea0d9e0"
+    },
+    {
+      "path": "assets_generated/design_system/CHAR07_v001.png",
+      "sha256": "2cd6a715af4eb27b42d6e597802431805b690c2f0c93cd31f788c10d3b3dadc3"
+    }
+  ],
+  "generator": "image_gen.imagegen (model not exposed)",
+  "text_free": true,
+  "top_clearance_checked": true,
+  "visual_qa_report": "10_agent_workflow/tasks/PAGE17_ART/VISUAL_REVIEW.v004.md",
+  "user_approved": false,
+  "print_ready": false
+}

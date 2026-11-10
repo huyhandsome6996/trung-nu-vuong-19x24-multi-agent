@@ -27,3 +27,7 @@ Actual call requestv002 was interrupted/cancelled by user. No returned image, wa
 
 ## Resume PAGE17 with new credential,10November2026
 Pulled latest main; scoped evidence passes. Actual requestv003 returned native1122×1402. Saved raw/prompt/hash/ref evidence immediately. Correct4cast/3blanktablets, but center crest in narrator zone and forwardboot touches bottom. Keep draft and request composition correction; no ARTcompletion claim.
+
+### PAGE17 LAYOUT/QA v002 complete
+Opened actual finalfullpage and300DPI caption/tablet detail. All narrator words/accents and5keywords read; three editable labels HÙNG VƯƠNG QUỐC CHỦ / TRƯNG ĐỊNH / THI SÁCH exact to40–41. Complete censer and4cast with allfeetvisible; Trắc red,Nhịnavy,bothwhitebands,malegraybeardnavy/olderwomanpurple. Uniform recordedcrop/scale keeps crest belowcaption and feetinsidepage; no stretching. Noto embedded, correctPDFboxes,nooverflow; native144.76DPI/panels145.4DPIapprox, belowprinttarget. AGENT_QA only.
+Files: final_book_19x24/source/PAGE17_v002.svg, final_book_19x24/proofs/PAGE17_v002.pdf, final_book_19x24/reading/PAGE17_v002.pdf, final_book_19x24/proofs/PAGE17_v002.png, final_book_19x24/source/PAGE17_placement.v002.json, 10_agent_workflow/tasks/PAGE17_QA/report.v002.json. Next queue task.
