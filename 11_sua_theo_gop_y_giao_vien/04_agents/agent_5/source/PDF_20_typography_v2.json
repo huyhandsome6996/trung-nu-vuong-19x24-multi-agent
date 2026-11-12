@@ -1,0 +1,31 @@
+{
+  "narration": "Giữa sân rộng chân núi Phượng Hoàng, Tào Quyền, Lục Hiến và ba tướng giặc bị trói chặt vào cọc gỗ. Nữ động chủ Thánh Thiên oai phong tuốt gươm tuyên án tội ác sát hại thân phụ và tàn hại bách tính Giao Chỉ. Trước sự ngoan cố của tên giặc họ Tào, nàng vung kiếm dõng dạc hạ lệnh: “Trảm thủ!”",
+  "dialogue": [],
+  "changes": [
+    "Giữ nguyên cụm “Trảm thủ!” cùng dòng bằng khoảng trắng không ngắt; không thêm cảnh chém.",
+    "Thay mọi cờ, cả mép trái/phải và cờ tiền cảnh, thành vải chữ nhật đỏ đất trơn.",
+    "Đồng bộ Thánh Thiên với reference lane4: mặt hơi góc, búi thấp, khăn tang trắng, áo lục/giáp ngắn; bỏ mũ vàng/lông lớn.",
+    "Sửa trang phục nghĩa quân, giữ áo tù binh và số nhân vật có sẵn trong hình Gemini; thu ô vàng.",
+    "Theo góp ý mới: chữ lời dẫn thống nhất21,5px và thoại18px, chỉnh ngắt dòng/khoảng đệm theo từng khung; giữ nguyên nội dung và tranh."
+  ],
+  "pdf_page": 20,
+  "footnote": null,
+  "adaptation_note": "Lời thoại bổ sung là lời chuyển thể biên tập, không phải trích dẫn lịch sử.",
+  "layout_blocks": [
+    {
+      "box": [
+        98,
+        99,
+        696,
+        155
+      ],
+      "text": "Giữa sân rộng chân núi Phượng Hoàng, Tào Quyền, Lục Hiến và ba tướng giặc bị trói chặt vào cọc gỗ. Nữ động chủ Thánh Thiên oai phong tuốt gươm tuyên án tội ác sát hại thân phụ và tàn hại bách tính Giao Chỉ. Trước sự ngoan cố của tên giặc họ Tào, nàng vung kiếm dõng dạc hạ lệnh: “Trảm thủ!”",
+      "size": 21.5,
+      "red": [
+        "Tào Quyền, Lục Hiến và ba tướng giặc",
+        "“Trảm thủ!”"
+      ],
+      "leading_ratio": 1.18
+    }
+  ]
+}

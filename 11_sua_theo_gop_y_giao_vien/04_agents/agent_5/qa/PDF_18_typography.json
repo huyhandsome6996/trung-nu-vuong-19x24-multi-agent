@@ -1,68 +1,76 @@
 [
   {
-    "font_size_px": 21.5,
-    "requested_size_px": 21.5,
-    "line_count": 5,
-    "leading_px": 25.369999999999997,
+    "font_size_px": 30,
+    "requested_size_px": 30,
+    "line_count": 7,
+    "leading_px": 34.5,
     "line_widths_px": [
-      673.552,
-      676.519,
-      679.142,
-      668.027,
-      486.567
+      674.7,
+      686.16,
+      671.91,
+      701.88,
+      699.9,
+      670.14,
+      322.23
     ],
     "lines": [
-      "Sáu trăm quân Hán hùng hổ xông vào khu tư dinh bày đầy nhà",
-      "gỗ của Nguyễn thần y. Bỗng pháo đại nổ đì đùng, tên nỏ bắn ra",
-      "như mưa, Thánh Thiên bước ra chỉ mặt mắng Tào Quyền. Nàng",
-      "giả vờ yếu thế rút chạy lên núi, nhử toàn bộ quân Hán hăm hở",
-      "đuổi theo vào bẫy phục kích tại khe Mãng Xà!"
+      "Sáu trăm quân Hán hùng hổ xông vào khu tư",
+      "dinh bày đầy nhà gỗ của Nguyễn thần y. Bỗng",
+      "pháo đại nổ đì đùng, tên nỏ bắn ra như mưa,",
+      "Thánh Thiên bước ra chỉ mặt mắng Tào Quyền.",
+      "Nàng giả vờ yếu thế rút chạy lên núi, nhử toàn",
+      "bộ quân Hán hăm hở đuổi theo vào bẫy phục",
+      "kích tại khe Mãng Xà!"
     ],
     "box": [
-      98,
-      99,
-      696,
-      155
+      77,
+      46,
+      740,
+      251
     ]
   },
   {
-    "font_size_px": 18,
-    "requested_size_px": 18,
-    "line_count": 2,
-    "leading_px": 19.8,
+    "font_size_px": 26,
+    "requested_size_px": 26,
+    "line_count": 3,
+    "leading_px": 29.9,
     "line_widths_px": [
-      135.684,
-      99.738
+      101.4,
+      130.884,
+      101.01
     ],
     "lines": [
-      "Tào tặc! Có giỏi",
-      "thì theo ta!"
+      "Tào tặc!",
+      "Có giỏi thì",
+      "theo ta!"
     ],
     "box": [
-      149,
-      748,
-      155,
-      75
+      88,
+      728,
+      240,
+      110
     ]
   },
   {
-    "font_size_px": 18,
-    "requested_size_px": 18,
-    "line_count": 2,
-    "leading_px": 19.8,
+    "font_size_px": 26,
+    "requested_size_px": 26,
+    "line_count": 3,
+    "leading_px": 29.9,
     "line_widths_px": [
-      105.21,
-      127.656
+      84.266,
+      110.968,
+      134.368
     ],
     "lines": [
-      "Chúng chạy",
-      "rồi! Đuổi theo!"
+      "Chúng",
+      "chạy rồi!",
+      "Đuổi theo!"
     ],
     "box": [
-      556,
-      692,
-      141,
-      70
+      491,
+      674,
+      201,
+      128
     ]
   }
 ]

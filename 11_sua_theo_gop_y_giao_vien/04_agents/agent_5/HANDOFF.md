@@ -1,3 +1,11 @@
+# Bản hiện hành V3: chữ lớn dễ đọc — PDF18–21
+
+Đây là bản mới sau phản hồi chữ vẫn bé: lời dẫn30px, thoại26px trên cả4trang, tăng39,5%/44,4% so bản V2. Khung/bóng thoại đã dàn lại để giữ cỡ chữ lớn; không rút nội dung, không thu chữ tự động. Đã mở đủ PNG/render và kiểm thêm ở độ rộng546px như màn hình đọc của người dùng. Xem qa/TYPOGRAPHY_REVISION_V3.json và PUBLICATION.json để biết bản phát hành/trạng thái push mới nhất.
+
+Các phần bên dưới ghi lịch sử bàn giao; mọi số cỡ chữ21,5/18px ở phần lịch sử là bản trước, không phải bản hiện hành.
+
+---
+
 # Bàn giao Agent5: PDF18–21
 
 Trạng thái: READY_FOR_COORDINATOR. Đây là4trang PDF vật lý18–21 trong bản Gemini21trang; không phải bộ28trang. Không nhận đã được giáo viên duyệt.

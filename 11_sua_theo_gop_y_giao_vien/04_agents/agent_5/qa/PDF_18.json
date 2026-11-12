@@ -21,7 +21,7 @@
     {
       "requirement_index": 2,
       "status": "PASS",
-      "note": "Đối chiếu mặt hơi góc, mày ngang, búi thấp/khăn tang trắng, áo lục/giáp ngắn với reference lane4. Nghĩa quân áo ngắn/khăn vấn, giữ giáp quân Hán; trang không có cờ. Ô vàng thu và cân chữ5 dòng."
+      "note": "Đối chiếu mặt hơi góc, mày ngang, búi thấp/khăn tang trắng, áo lục/giáp ngắn với reference lane4. Nghĩa quân áo ngắn/khăn vấn, giữ giáp quân Hán; trang không có cờ. Ô vàng dàn theo chữ lớn30px, cân chữ5 dòng."
     }
   ],
   "visual_review": {
@@ -29,9 +29,11 @@
     "reviewer": "agent_5",
     "evidence": [
       "output/PDF_18.png",
-      "qa/PDF_18_render.png"
+      "qa/PDF_18_render.png",
+      "qa/PDF_18_reader_546.png",
+      "qa/THANH_THIEN_CROSS_LANE.png"
     ],
-    "notes": "Đã mở PNG/render PDF tái tạo cuối. Giữ hai khung xiên, cảnh phục kích, động tác chỉ tay; chữ đủ dấu không đè mặt/tay, không trùng chữ cũ. Đuôi trái hướng Thánh Thiên, phải hướng quan giặc.\nLượt tăng chữ: đã mở PNG/render PDF mới; lời dẫn21,5px, thoại18px nhất quán. Giữ nguyên câu chữ, chữ đỏ, tên/cụm cố định; không tràn khung/bóng thoại hoặc lẻ một từ cuối dòng. PDF19 nới ngang2bóng thoại để có khoảng đệm."
+    "notes": "Đã mở PNG, render PDF và ảnh PDF ở độ rộng546px tương đương khung đọc user chụp. Chữ lớn rõ rệt: lời dẫn30px, thoại26px, bố trí lại ô/bóng thoại đủ chỗ. Không tràn viền, không che mặt/tay/vũ khí/hành động chính, giữ câu chữ/số trang; tên và “Trảm thủ!” không vỡ cụm. Rà cờ/nhận diện và khung tranh toàn trang."
   },
   "cross_lane_identity": "PASS",
   "source_files": [
@@ -56,5 +58,5 @@
     "Nguồn Gemini 896×1200; không chứng nhận in300DPI.",
     "Chỉ kiểm lô18–21 và khóa Thánh Thiên lane4; chưa nghiệm thu toàn bộ21 trang."
   ],
-  "typography_revision": "PASS: narration21.5px, dialogue18px, geometry and manual PNG/PDF review"
+  "typography_revision": "V3 PASS: narration30px, dialogue26px; no automatic font shrinking."
 }

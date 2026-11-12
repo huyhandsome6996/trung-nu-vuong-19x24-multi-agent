@@ -16,7 +16,7 @@
     {
       "requirement_index": 1,
       "status": "PASS",
-      "note": "“Trảm thủ!” khóa bằng NBSP trong layout; typography evidence và ảnh render cho thấy toàn cụm đỏ trên cùng dòng5, không còn “thủ!” lẻ dòng."
+      "note": "“Trảm thủ!” khóa bằng NBSP trong layout; typography evidence và ảnh render cho thấy toàn cụm đỏ trên cùng dòng7, không còn “thủ!” lẻ dòng."
     },
     {
       "requirement_index": 2,
@@ -35,9 +35,10 @@
     "evidence": [
       "output/PDF_20.png",
       "qa/PDF_20_render.png",
+      "qa/PDF_20_reader_546.png",
       "qa/THANH_THIEN_CROSS_LANE.png"
     ],
-    "notes": "Đã mở PNG/render PDF cuối, xem đủ cờ nhỏ/viền trang, chữ và ảnh đối chiếu mặt lane4. Lời dẫn5dòng, “Trảm thủ!” cùng dòng, không trùng chữ cũ; giữ bố cục đơn/trạng thái tù binh Gemini.\nLượt tăng chữ: đã mở PNG/render PDF mới; lời dẫn21,5px, thoại18px nhất quán. Giữ nguyên câu chữ, chữ đỏ, tên/cụm cố định; không tràn khung/bóng thoại hoặc lẻ một từ cuối dòng. PDF19 nới ngang2bóng thoại để có khoảng đệm."
+    "notes": "Đã mở PNG, render PDF và ảnh PDF ở độ rộng546px tương đương khung đọc user chụp. Chữ lớn rõ rệt: lời dẫn30px, thoại26px, bố trí lại ô/bóng thoại đủ chỗ. Không tràn viền, không che mặt/tay/vũ khí/hành động chính, giữ câu chữ/số trang; tên và “Trảm thủ!” không vỡ cụm. Rà cờ/nhận diện và khung tranh toàn trang."
   },
   "cross_lane_identity": "PASS",
   "source_files": [
@@ -62,5 +63,5 @@
     "Nguồn Gemini896×1200; không chứng nhận in300DPI.",
     "Giữ số tù binh hiện trong hình Gemini (3); lời dẫn nguyên bản nhắc Tào Quyền/Lục Hiến và3tướng (5người). Đây là chênh lệch có sẵn, không tự mở rộng phạm vi sửa số người."
   ],
-  "typography_revision": "PASS: narration21.5px, dialogue18px, geometry and manual PNG/PDF review"
+  "typography_revision": "V3 PASS: narration30px, dialogue26px; no automatic font shrinking."
 }

@@ -39,3 +39,10 @@ Sau mỗi trang: ghi file đã có, kiểm thực tế, lỗi còn lại, bướ
 - Đã push bản tăng chữ 068afe447d68f2a5b14f6466767665321a572610 lên đúng nhánh sửa. Fetch lại và merge-base --is-ancestor PASS.
 - Chỉ thay lane5; không force push; không lưu credential vào repo/URL/file.
 - PDF tải về đã cập nhật cùng bản tăng chữ.
+
+## V3: chữ lớn rõ rệt cả4trang —12/11/2026
+- User phản hồi bản trước vẫn bé; tăng lời dẫn21,5→30px (+39,5%) và thoại18→26px (+44,4%) trên TẤT CẢ PDF18–21.
+- Dàn lại ô dẫn và bóng thoại bằng image_gen tham chiếu ảnh hiện hành; giữ cảnh/số khung/thứ tự/người nói/câu chữ. Lưu bản trước + prompt thật + hash.
+- Tắt tự thu nhỏ cỡ chữ trong build; không vừa phải sửa bố trí/khung.
+- Mở đủ4PNG/4render PDF và4ảnh đọc ở546px như khung user chụp; chữ đủ lớn, không tràn, không che hành động/mặt/tay.
+- Kiểm cỡ chữ đúng30/26, dòng trong box, không lẻ từ cuối, khổ430,08×576pt, bản gộp4trang giống PDF riêng. PASS.

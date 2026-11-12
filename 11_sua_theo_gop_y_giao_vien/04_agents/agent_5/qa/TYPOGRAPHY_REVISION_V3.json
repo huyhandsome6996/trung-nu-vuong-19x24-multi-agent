@@ -1,0 +1,147 @@
+{
+  "revision": "V3 visibly larger type across all agent_5 pages",
+  "pages": [
+    18,
+    19,
+    20,
+    21
+  ],
+  "narration_size_px": 30,
+  "dialogue_size_px": 26,
+  "physical_font_sizes_pt": {
+    "narration": 14.4,
+    "dialogue": 12.48
+  },
+  "changes": [
+    {
+      "page": 18,
+      "block": 0,
+      "old_size_px": 21.5,
+      "new_size_px": 30,
+      "increase_percent": 39.5,
+      "box": [
+        77,
+        46,
+        740,
+        251
+      ]
+    },
+    {
+      "page": 18,
+      "block": 1,
+      "old_size_px": 18,
+      "new_size_px": 26,
+      "increase_percent": 44.4,
+      "box": [
+        88,
+        728,
+        240,
+        110
+      ]
+    },
+    {
+      "page": 18,
+      "block": 2,
+      "old_size_px": 18,
+      "new_size_px": 26,
+      "increase_percent": 44.4,
+      "box": [
+        491,
+        674,
+        201,
+        128
+      ]
+    },
+    {
+      "page": 19,
+      "block": 0,
+      "old_size_px": 21.5,
+      "new_size_px": 30,
+      "increase_percent": 39.5,
+      "box": [
+        77,
+        66,
+        740,
+        258
+      ]
+    },
+    {
+      "page": 19,
+      "block": 1,
+      "old_size_px": 18,
+      "new_size_px": 26,
+      "increase_percent": 44.4,
+      "box": [
+        96,
+        801,
+        220,
+        125
+      ]
+    },
+    {
+      "page": 19,
+      "block": 2,
+      "old_size_px": 18,
+      "new_size_px": 26,
+      "increase_percent": 44.4,
+      "box": [
+        548,
+        832,
+        194,
+        85
+      ]
+    },
+    {
+      "page": 19,
+      "block": 3,
+      "old_size_px": 18,
+      "new_size_px": 26,
+      "increase_percent": 44.4,
+      "box": [
+        351,
+        856,
+        160,
+        98
+      ]
+    },
+    {
+      "page": 20,
+      "block": 0,
+      "old_size_px": 21.5,
+      "new_size_px": 30,
+      "increase_percent": 39.5,
+      "box": [
+        65,
+        57,
+        760,
+        283
+      ]
+    },
+    {
+      "page": 21,
+      "block": 0,
+      "old_size_px": 21.5,
+      "new_size_px": 30,
+      "increase_percent": 39.5,
+      "box": [
+        65,
+        50,
+        760,
+        272
+      ]
+    }
+  ],
+  "reader_preview_width_px": 546,
+  "reviewed": true,
+  "reviewer": "agent_5",
+  "checks": {
+    "fixed_target_sizes_no_auto_shrink": "PASS",
+    "safe_line_widths_and_heights": "PASS",
+    "no_single_word_final_line": "PASS",
+    "narration_and_dialogue_unchanged": "PASS",
+    "all_png_and_pdf_renders_reviewed": "PASS",
+    "all_four_pages_reviewed_at_reader_width": "PASS",
+    "page_sizes_and_combined_pdf_render_match": "PASS"
+  },
+  "checked_at": "2026-11-12T09:43:36.049489+00:00"
+}

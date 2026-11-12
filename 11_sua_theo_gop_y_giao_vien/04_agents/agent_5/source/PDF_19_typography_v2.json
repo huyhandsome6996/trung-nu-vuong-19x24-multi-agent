@@ -1,0 +1,102 @@
+{
+  "narration": "Trong lúc Tào Quyền và Lục Hiến đắc ý trên nhà gỗ, hơn 300 kỵ binh nghĩa quân bất ngờ ập tới bao vây! Toàn bộ quân Hán trên khe Mãng Xà và 30 khinh thuyền ngoài bến sông đều đã bị bắt giết sạch. Tào Quyền và Lục Hiến khiếp đảm chui xuống gầm phản thuốc nhưng bị nghĩa quân dùng câu liêm lôi cổ ra!",
+  "dialogue": [
+    {
+      "speaker": "Nghĩa quân cầm câu liêm bên trái",
+      "panel": 2,
+      "order": 1,
+      "text": "Quân trên núi bị bắt, thuyền bị đoạt! Hết đường chạy!"
+    },
+    {
+      "speaker": "Tào Quyền",
+      "panel": 2,
+      "order": 2,
+      "text": "Tìm đường xuống thuyền!"
+    },
+    {
+      "speaker": "Lục Hiến",
+      "panel": 2,
+      "order": 3,
+      "text": "Bị vây rồi... Trốn đâu bây giờ?"
+    }
+  ],
+  "changes": [
+    "Giữ hai khung bao vây/bắt giặc và hành động câu liêm, không tăng tính hài.",
+    "Thêm ba câu thoại chuyển thể ở khung dưới: Tào Quyền tìm đường rút, Lục Hiến sợ hãi, nghĩa quân nêu thế vây kín.",
+    "Sửa quân phục kỵ binh và lính bắt giặc thành áo ngắn/vạt trái, khăn vấn, đai vải; giữ áo của hai tên giặc.",
+    "Thu gọn ô vàng; chuẩn hóa Tào Quyền theo chú giải nguồn trang sách247–269.",
+    "Lượt rà cuối loại các lá cờ do bản chỉnh đầu sinh thêm; khôi phục cảnh không cờ như Gemini.",
+    "Theo góp ý mới: chữ lời dẫn thống nhất21,5px và thoại18px, chỉnh ngắt dòng/khoảng đệm theo từng khung; giữ nguyên nội dung và tranh.",
+    "Nới nhẹ chiều ngang2bóng thoại khung dưới bằng chỉnh ảnh có tham chiếu để đủ khoảng đệm cho chữ18px, giữ người nói/đuôi thoại."
+  ],
+  "pdf_page": 19,
+  "footnote": null,
+  "adaptation_note": "Lời thoại bổ sung là lời chuyển thể biên tập, không phải trích dẫn lịch sử.",
+  "layout_blocks": [
+    {
+      "box": [
+        94,
+        85,
+        717,
+        123
+      ],
+      "text": "Trong lúc Tào Quyền và Lục Hiến đắc ý trên nhà gỗ, hơn 300 kỵ binh nghĩa quân bất ngờ ập tới bao vây! Toàn bộ quân Hán trên khe Mãng Xà và 30 khinh thuyền ngoài bến sông đều đã bị bắt giết sạch. Tào Quyền và Lục Hiến khiếp đảm chui xuống gầm phản thuốc nhưng bị nghĩa quân dùng câu liêm lôi cổ ra!",
+      "size": 21.5,
+      "red": [
+        "hơn 300 kỵ binh nghĩa quân",
+        "chui xuống gầm phản thuốc"
+      ],
+      "leading_ratio": 1.12
+    },
+    {
+      "box": [
+        145,
+        841,
+        190,
+        64
+      ],
+      "text": "Quân trên núi bị bắt, thuyền bị đoạt! Hết đường chạy!",
+      "size": 18,
+      "font": "NotoSansBold",
+      "leading_ratio": 1.1,
+      "lines": [
+        "Quân trên núi bị",
+        "bắt, thuyền bị đoạt!",
+        "Hết đường chạy!"
+      ]
+    },
+    {
+      "box": [
+        551,
+        885,
+        132,
+        66
+      ],
+      "text": "Tìm đường xuống thuyền!",
+      "size": 18,
+      "font": "NotoSansBold",
+      "leading_ratio": 1.1,
+      "lines": [
+        "Tìm đường",
+        "xuống thuyền!"
+      ]
+    },
+    {
+      "box": [
+        328,
+        908,
+        125,
+        73
+      ],
+      "text": "Bị vây rồi... Trốn đâu bây giờ?",
+      "size": 18,
+      "font": "NotoSansBold",
+      "leading_ratio": 1.1,
+      "lines": [
+        "Bị vây rồi...",
+        "Trốn đâu",
+        "bây giờ?"
+      ]
+    }
+  ]
+}
