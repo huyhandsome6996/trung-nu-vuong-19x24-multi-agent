@@ -1,6 +1,6 @@
 {
   "agent": "agent_3",
-  "status": "READY_FOR_COORDINATOR",
+  "status": "IN_PROGRESS",
   "pages": [
     10,
     11,
