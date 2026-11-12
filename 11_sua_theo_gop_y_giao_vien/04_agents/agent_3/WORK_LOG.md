@@ -46,3 +46,7 @@ Clone riêng đúng nhánh, chỉ ghi lane agent_3. Đã mở trực tiếp 5 JP
 - Hai lời khấn ở khung dưới hướng tổ tiên/cứu dân/quyết chí, đuôi đúng Trưng Trắc trái/Trưng Nhị phải; ghi rõ chuyển thể trong changes.md.
 - Giữ đàn tế, sông, hai khung, lư hương, tay chắp và tang phục; quân Lĩnh Nam khăn vấn áo nâu/chàm, Trưng Nhị phân biệt bằng áo trong chàm.
 - Đã mở output/PDF_14.png và qa/PDF_14_render.png, QA PASS trong trang; kiểm liên lane PENDING.
+
+## Bàn giao lô
+
+Đủ5trang, ghép LO_TRANG.pdf,5trang render khớp PDF riêng và chữ trích xuất khớp JSON. READY_FOR_COORDINATOR, cross-lane PENDING; không có BLOCKED_ART. Đã lưu HANDOFF/nguồn tái xuất/font/recipe/hash.

@@ -1,0 +1,27 @@
+[
+  {
+    "page": 10,
+    "merged_render_matches_individual": true,
+    "narration_and_all_dialogue_extract_correctly": true
+  },
+  {
+    "page": 11,
+    "merged_render_matches_individual": true,
+    "narration_and_all_dialogue_extract_correctly": true
+  },
+  {
+    "page": 12,
+    "merged_render_matches_individual": true,
+    "narration_and_all_dialogue_extract_correctly": true
+  },
+  {
+    "page": 13,
+    "merged_render_matches_individual": true,
+    "narration_and_all_dialogue_extract_correctly": true
+  },
+  {
+    "page": 14,
+    "merged_render_matches_individual": true,
+    "narration_and_all_dialogue_extract_correctly": true
+  }
+]

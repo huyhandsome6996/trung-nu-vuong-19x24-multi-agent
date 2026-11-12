@@ -1,6 +1,6 @@
 {
   "agent": "agent_3",
-  "status": "IN_PROGRESS",
+  "status": "READY_FOR_COORDINATOR",
   "pages": [
     10,
     11,
@@ -16,26 +16,28 @@
     14
   ],
   "blocked_pages": [],
-  "last_checkpoint": "PDF14: chữ/tranh/PNG/PDF/render đã kiểm trực tiếp, QA PASS; checkpoint theo trang.",
+  "last_checkpoint": "Đủ5trang; PNG/PDF/render đã mở trực tiếp, ghép LO_TRANG5trang và kiểm render khớp từng trang; chờ coordinator rà liên trang.",
   "cross_lane_review": "PENDING",
   "artifacts": [
+    "HANDOFF.md",
+    "output/LO_TRANG.pdf",
     "output/PDF_10.pdf",
     "output/PDF_10.png",
-    "qa/PDF_10.json",
-    "output/PDF_10.pdf",
-    "output/PDF_10.png",
-    "qa/PDF_10.json",
     "output/PDF_11.pdf",
     "output/PDF_11.png",
-    "qa/PDF_11.json",
     "output/PDF_12.pdf",
     "output/PDF_12.png",
-    "qa/PDF_12.json",
     "output/PDF_13.pdf",
     "output/PDF_13.png",
-    "qa/PDF_13.json",
     "output/PDF_14.pdf",
     "output/PDF_14.png",
-    "qa/PDF_14.json"
+    "qa/LO_TRANG_checks.json",
+    "qa/PDF_10.json",
+    "qa/PDF_11.json",
+    "qa/PDF_12.json",
+    "qa/PDF_13.json",
+    "qa/PDF_14.json",
+    "source/assemble_lane.py",
+    "source/build_pages.py"
   ]
 }
