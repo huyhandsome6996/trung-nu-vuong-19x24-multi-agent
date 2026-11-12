@@ -49,17 +49,31 @@ def draw_text(c, block):
         size-=0.25
         if size<12: raise ValueError('Text too small: '+block['text'])
     baseline=y+(h-len(lines)*leading)/2+size
-    red=set()
+    red_ranges=[]
+    normalized=block['text'].replace('\u00a0',' ')
     for phrase in block.get('red',[]):
-        red.update(phrase.replace('\u00a0',' ').split())
+        phrase=phrase.replace('\u00a0',' ')
+        start=normalized.find(phrase)
+        if start<0: raise ValueError('Red phrase not found: '+phrase)
+        red_ranges.append((start,start+len(phrase)))
     c.setFont(font,size)
+    cursor=0
     for line in lines:
         start=x+(w-width(line,font,size))/2
-        for token in re.findall(r'\S+|\s+',line):
-            color=(.67,.16,.12) if token.strip() in red else (.10,.09,.07)
+        line_offset=block['text'].find(line,cursor)
+        if line_offset<0: raise ValueError('Unable to map wrapped line')
+        segments=[]
+        for i,ch in enumerate(line):
+            is_red=any(a<=line_offset+i<b for a,b in red_ranges)
+            if segments and segments[-1][0]==is_red:
+                segments[-1][1]+=ch
+            else:segments.append([is_red,ch])
+        for is_red,token in segments:
+            color=(.67,.16,.12) if is_red else (.10,.09,.07)
             c.setFillColorRGB(*color)
             c.drawString(start,H-baseline,token)
             start+=width(token,font,size)
+        cursor=line_offset+len(line)
         baseline+=leading
     return {'font_size_px':size,'line_count':len(lines),'lines':lines,'box':block['box']}
 
@@ -80,6 +94,13 @@ def build(page):
         pix=pdf[0].get_pixmap(matrix=fitz.Matrix(W/PW,H/PH),alpha=False)
         pix.save(LANE/'output'/f'{stem}.png')
         pdf[0].get_pixmap(matrix=fitz.Matrix(2,2),alpha=False).save(LANE/'qa'/f'{stem}_render.png')
+        if page==16:
+            # Direct crop of the retained final edited art, without typography.
+            clip=fitz.Rect(310*PW/W,790*PH/H,610*PW/W,1195*PH/H)
+            with fitz.open() as reference:
+                rp=reference.new_page(width=PW,height=PH)
+                rp.insert_image(rp.rect,filename=str(art),keep_proportion=False)
+                rp.get_pixmap(matrix=fitz.Matrix(3,3),clip=clip,alpha=False).save(LANE/'source/THANH_THIEN_REFERENCE.png')
     (LANE/'qa'/f'{stem}_typography.json').write_text(json.dumps(metrics,ensure_ascii=False,indent=2)+'\n')
     print(stem, 'built', out)
 

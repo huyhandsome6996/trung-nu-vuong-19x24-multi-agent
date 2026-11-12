@@ -1,0 +1,34 @@
+[
+  {
+    "font_size_px": 17,
+    "line_count": 4,
+    "lines": [
+      "Ở chân núi Phượng Hoàng, trưởng nữ của thần y Nguyễn Huyền là nữ tướng",
+      "Thánh Thiên văn võ siêu quần. Từ nhỏ nàng đã giúp cha bốc thuốc cứu người và dẫn",
+      "dắt các phường săn chế ngự hổ dữ. Khi cha bị giặc sát hại, bảy thị tộc cùng hơn 4.000",
+      "tráng đinh đồng lòng suy tôn nàng làm Thánh Thiên động chủ!"
+    ],
+    "box": [
+      81,
+      72,
+      734,
+      123
+    ]
+  },
+  {
+    "font_size_px": 17,
+    "line_count": 4,
+    "lines": [
+      "Ta quyết báo thù cho cha,",
+      "cứu dân khỏi lầm than.",
+      "Cùng các bộ tộc, ta sẽ",
+      "đứng lên đánh giặc!"
+    ],
+    "box": [
+      548,
+      714,
+      226,
+      108
+    ]
+  }
+]

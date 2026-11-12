@@ -1,0 +1,45 @@
+{
+  "pdf_page": 16,
+  "narration": "Ở chân núi Phượng Hoàng, trưởng nữ của thần y Nguyễn Huyền là nữ tướng Thánh Thiên văn võ siêu quần. Từ nhỏ nàng đã giúp cha bốc thuốc cứu người và dẫn dắt các phường săn chế ngự hổ dữ. Khi cha bị giặc sát hại, bảy thị tộc cùng hơn 4.000 tráng đinh đồng lòng suy tôn nàng làm Thánh Thiên động chủ!",
+  "footnote": null,
+  "dialogue": [
+    {
+      "speaker": "Thánh Thiên",
+      "panel": 2,
+      "order": 1,
+      "text": "Ta quyết báo thù cho cha, cứu dân khỏi lầm than. Cùng các bộ tộc, ta sẽ đứng lên đánh giặc!"
+    }
+  ],
+  "changes": [
+    "Thu gọn ô vàng; giữ lý lịch và số lượng theo nguồn.",
+    "Hai hình Thánh Thiên cùng mặt bầu hơi góc, mày ngang, khăn tang trắng, tóc búi thấp, áo lục trầm và giáp ngắn; khác Trưng Trắc.",
+    "Thêm lời thoại chuyển thể ở khung dưới; giữ cảnh bắn cung khung trên.",
+    "Rà trang phục cả cung thủ phía xa và các tộc trưởng."
+  ],
+  "layout_blocks": [
+    {
+      "text": "Ở chân núi Phượng Hoàng, trưởng nữ của thần y Nguyễn Huyền là nữ tướng Thánh Thiên văn võ siêu quần. Từ nhỏ nàng đã giúp cha bốc thuốc cứu người và dẫn dắt các phường săn chế ngự hổ dữ. Khi cha bị giặc sát hại, bảy thị tộc cùng hơn 4.000 tráng đinh đồng lòng suy tôn nàng làm Thánh Thiên động chủ!",
+      "box": [
+        81,
+        72,
+        734,
+        123
+      ],
+      "size": 17,
+      "red": [
+        "nữ tướng Thánh Thiên",
+        "bảy thị tộc cùng hơn 4.000 tráng đinh"
+      ]
+    },
+    {
+      "text": "Ta quyết báo thù cho cha, cứu dân khỏi lầm than. Cùng các bộ tộc, ta sẽ đứng lên đánh giặc!",
+      "box": [
+        548,
+        714,
+        226,
+        108
+      ],
+      "size": 17
+    }
+  ]
+}
