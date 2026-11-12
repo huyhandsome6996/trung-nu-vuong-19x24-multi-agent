@@ -33,5 +33,5 @@
   "prompt": "edit_prompt.md",
   "reproduction": "Archived edited raster is the deterministic layout input. Image generation itself is non-deterministic; rerunning the prompt need not reproduce identical pixels.",
   "compositing": "Only white mask regions use the archived imagegen edit; black retains immutable JPEG pixels. No flags/costumes are drawn with code.",
-  "art_for_layout_sha256": "6f38d71cd9db47a72b27196d0908266a884c4798f861abbcd0dcff7ee5169d55"
+  "art_for_layout_sha256": "9932fa9d10edbdec1d352651397e9be6c2eb8c9e81f93d982c7a553725899d54"
 }

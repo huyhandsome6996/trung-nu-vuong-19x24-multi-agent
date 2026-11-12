@@ -16,7 +16,7 @@
     5
   ],
   "blocked_pages": [],
-  "last_checkpoint": "Đủ 5 trang, đã mở PNG và render Poppler, chữ PDF02–05 khớp JSON; bàn giao coordinator kiểm liên trang.",
+  "last_checkpoint": "Đủ 5 trang; đã sửa lỗi mask/ghép hình PDF01/03/04/05, dựng lại qua build_pages.py --combine, kiểm PNG, Poppler render và trích xuất chữ, LO_TRANG.pdf SHA256 0de454ca3de1404969cb7587b74535f3b0727d8571cc9f81f5764a561d37a049.",
   "cross_lane_review": "PENDING",
   "artifacts": [
     "HANDOFF.md",
@@ -90,5 +90,5 @@
     "text/changes.md"
   ],
   "publication": "PUBLISHED",
-  "publication_note": "Đã push và kiểm commit nội dung 7280294e974c89010e0b50d2fe7ad421907d3092 là tổ tiên của đầu nhánh remote."
+  "publication_note": "Đang xuất bản bản cập nhật sửa lỗi hình ảnh PDF01/03/04/05 và LO_TRANG.pdf (SHA256 0de454ca3de1404969cb7587b74535f3b0727d8571cc9f81f5764a561d37a049) lên nhánh sua-theo-gop-y-giao-vien."
 }

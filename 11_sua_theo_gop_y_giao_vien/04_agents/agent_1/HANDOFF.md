@@ -41,4 +41,12 @@ Nguồn tranh 896 × 1200 px, khoảng 150 ppi ở khổ PDF này; không tuyên
 
 Người dùng đã trực tiếp cho phép push. Commit nội dung `7280294e974c89010e0b50d2fe7ad421907d3092` đã có trên nhánh `sua-theo-gop-y-giao-vien`; đã fetch và kiểm tổ tiên thành công. Chi tiết ở `qa/PUBLISH.json`.
 
-Clone tạm cũ đã mất khi môi trường làm mới; 77 tệp lane được khôi phục nguyên byte từ ZIP bàn giao và ghi bằng commit mới. PDF lô giữ SHA256 `69839cdf7ca4e19aef78eab00114bc7b26c30c80795cd4af2cd160f884ddc36c`. Giữ nguyên công việc agent_4 trên remote. Các đối tượng commit cũ không có trong ZIP, SHA cũ chỉ dùng truy nguyên lịch sử.
+Clone tạm cũ đã mất khi môi trường làm mới; 77 tệp lane được khôi phục nguyên byte từ ZIP bàn giao và ghi bằng commit mới. Giữ nguyên công việc agent_4 trên remote. Các đối tượng commit cũ không có trong ZIP, SHA cũ chỉ dùng truy nguyên lịch sử.
+
+## Cập nhật sửa lỗi hình ảnh (12/11/2026)
+
+- **PDF 01**: Bỏ `protect_polygons` trong `source/build_pages.py` (`REGIONS[1]`) để tay Trưng Trắc và tay cầm giáo lính bên trái lấy trực tiếp từ `source/PDF_01/art_edit_raw.png`, loại bỏ vết khuyết mask.
+- **PDF 03**: Ghép lại áo chàm vai trái Phùng Thị Chính trong `source/PDF_03/art_edit_raw.png` và bỏ `protect_polygons[1]` ở `REGIONS[3]` để loại bỏ tam giác áo nâu cũ và phần ngón tay lệch; cổ áo nối tự nhiên.
+- **PDF 04**: Khôi phục vòng tay/cổ tay sạch trong `source/PDF_04/art_edit_raw.png` và bỏ `protect_polygons[1]` ở `REGIONS[4]` để loại bỏ vết chồng hai vòng tay/giáp tay cũ.
+- **PDF 05**: Mở rộng `REGIONS[5]['polygons'][0]` trong `source/build_pages.py` để cán cờ lớn nối liền mạch xuống sau trán/tai ngựa, không bị đứt trắng.
+- Đã chạy lại `source/build_pages.py --combine`, kiểm tra ảnh `output/PDF_01.png`…`05.png`, ảnh render Poppler `qa/PDF_01_render.png`…`05_render.png`, và khớp toàn bộ chữ PDF02–05 với `text/PDF_XX.json`. SHA256 `output/LO_TRANG.pdf`: `0de454ca3de1404969cb7587b74535f3b0727d8571cc9f81f5764a561d37a049` (thay thế bản cũ `69839cdf7ca4e19aef78eab00114bc7b26c30c80795cd4af2cd160f884ddc36c` của commit `7280294e974c89010e0b50d2fe7ad421907d3092`).
