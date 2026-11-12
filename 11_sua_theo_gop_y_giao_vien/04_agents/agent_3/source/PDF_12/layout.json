@@ -1,0 +1,35 @@
+{
+  "narration": {
+    "font_px": 19.2,
+    "leading_px": 24,
+    "rect_px": [
+      116,
+      65,
+      794,
+      212
+    ],
+    "lines": [
+      {
+        "text": "Ba vị huyện lệnh Lê Đạo, Đào Chiêu Hiển và Phạm Danh Hương bỏ",
+        "baseline_y": 97.6
+      },
+      {
+        "text": "quan tìm đến Mê Linh tụ nghĩa. Nghe tin cha đã hy sinh, Trưng Trắc",
+        "baseline_y": 121.6
+      },
+      {
+        "text": "khoác tang phục trắng, hiên ngang tuyên thệ trước ba quân. Cả sảnh",
+        "baseline_y": 145.6
+      },
+      {
+        "text": "đường rút gươm hô vang dậy đất: “Quyết đánh đuổi loài ác tặc",
+        "baseline_y": 169.6
+      },
+      {
+        "text": "Tô Định phương Bắc, giành lại giang sơn Hùng Vương!”",
+        "baseline_y": 193.6
+      }
+    ]
+  },
+  "dialogue": []
+}

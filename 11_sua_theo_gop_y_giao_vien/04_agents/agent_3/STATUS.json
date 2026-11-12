@@ -10,10 +10,11 @@
   ],
   "completed_pages": [
     10,
-    11
+    11,
+    12
   ],
   "blocked_pages": [],
-  "last_checkpoint": "PDF11: chữ/tranh/PNG/PDF/render đã kiểm trực tiếp, QA PASS; checkpoint theo trang.",
+  "last_checkpoint": "PDF12: chữ/tranh/PNG/PDF/render đã kiểm trực tiếp, QA PASS; checkpoint theo trang.",
   "cross_lane_review": "PENDING",
   "artifacts": [
     "output/PDF_10.pdf",
@@ -24,6 +25,9 @@
     "qa/PDF_10.json",
     "output/PDF_11.pdf",
     "output/PDF_11.png",
-    "qa/PDF_11.json"
+    "qa/PDF_11.json",
+    "output/PDF_12.pdf",
+    "output/PDF_12.png",
+    "qa/PDF_12.json"
   ]
 }

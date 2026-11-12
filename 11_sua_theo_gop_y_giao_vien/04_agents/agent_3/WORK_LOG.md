@@ -25,3 +25,9 @@ Clone riêng đúng nhánh, chỉ ghi lane agent_3. Đã mở trực tiếp 5 JP
 - Ô dẫn giảm từ khoảng310 xuống178px; hai khoảng vàng dư đã thu, chữ5dòng 19,2px có đệm rõ, toàn bộ nội dung giữ nguyên.
 - Đây là quân Hán ở pháp trường: giữ giáp/mũ Hán, các cờ gần/xa xám than trơn; giữ cổng thành, hai tù nhân và hành hình, không thay thành đồng quê.
 - Đã mở output/PDF_11.png và qa/PDF_11_render.png, QA PASS trong trang; kiểm liên lane PENDING.
+
+## PDF12 — checkpoint đã kiểm
+
+- Đã xem nhóm lính sau Trưng Trắc cả tiền/hậu cảnh: khăn vấn, áo ngắn vạt chéo, đai vải, giáp ngắn; khung trên đã rà cùng quy ước.
+- Hai lá cờ trái/phải khung dưới đỏ đất trơn; ô dẫn khoảng187px, chữ5dòng, giữ tang phục trắng và hai khung.
+- Đã mở output/PDF_12.png và qa/PDF_12_render.png, QA PASS trong trang; kiểm liên lane PENDING.
