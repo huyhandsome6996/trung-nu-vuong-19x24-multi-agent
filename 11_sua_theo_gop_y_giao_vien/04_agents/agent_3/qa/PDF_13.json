@@ -16,7 +16,7 @@
     {
       "requirement_index": 1,
       "status": "PASS",
-      "note": "Cụm Phượng Hoàng nằm nguyên trên dòng cuối, không còn Hoàng đơn lẻ; font23px,6dòng với đệm vừa."
+      "note": "Dàn lại 5 dòng đầy đều (font 22,5px, leading 29px); cụm “núi Phượng Hoàng.” nằm gọn ở cuối dòng 5, bỏ được dòng 6 lẻ cụm và cân đệm trên/dưới."
     },
     {
       "requirement_index": 2,
@@ -41,7 +41,7 @@
       "output/PDF_13.png",
       "qa/PDF_13_render.png"
     ],
-    "notes": "Đã mở bằng view_image ảnh PNG cuối và ảnh render PDF riêng; đối chiếu JPEG gốc/ảnh khoanh. Chữ thật font Việt, không tràn/hộp kép; giữ số khung và hành động chính."
+    "notes": "Đã mở ảnh gốc PDF_13.jpg, zoom khung trên phải art_master.png (lính đánh trống/giáo/tượng binh sạch nét), output/PDF_13.png và qa/PDF_13_render.png. Ô dẫn 5 dòng đầy, chữ thật font Việt, 3 bóng thoại đúng nhân vật và thứ tự trái-sang-phải; giữ số khung và hành động chính."
   },
   "cross_lane_identity": "PENDING",
   "source_files": [

@@ -8,3 +8,4 @@
 - Cờ và trang phục là quy ước minh họa theo tham khảo người dùng, không tuyên bố phục dựng khảo cổ.
 - Nguồn ảnh 896×1200px; không tuyên bố 300 DPI. PDF giữ MediaBox430,08×576pt.
 - Đợt rà sửa PDF12: khung trên của `PDF_12.jpg` gốc đã đúng quy ước Lĩnh Nam (khăn vấn đính lông, áo vạt chéo, đai vải, giáp mảnh, áo choàng lông), không có chi tiết Trung Quốc; khôi phục nguyên bản khung trên (ghép mềm đa giác từ `y=286` đến mép đường chéo khung) và giữ nguyên khung dưới đã sửa lính và cờ đỏ đất trơn.
+- Đợt rà sửa PDF13: kiểm tra zoom khung trên phải `art_master.png` đạt chuẩn Lĩnh Nam và sạch nét; điều chỉnh dàn trang ô dẫn (`font 22,5px`, `leading 29px`) thành 5 dòng đầy đều để “núi Phượng Hoàng.” nằm gọn cuối dòng 5, xóa tình trạng rớt 2 chữ sang dòng 6.

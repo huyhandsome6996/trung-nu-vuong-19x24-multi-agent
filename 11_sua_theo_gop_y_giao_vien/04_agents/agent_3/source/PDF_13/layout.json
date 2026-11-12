@@ -1,37 +1,33 @@
 {
   "narration": {
-    "font_px": 23,
+    "font_px": 22.5,
     "leading_px": 29,
     "rect_px": [
       80,
-      76,
+      65,
       821,
-      249
+      259
     ],
     "lines": [
       {
         "text": "Khắp cõi Giao Chỉ đêm đêm lửa trại cháy rực, tiếng trống đồng,",
-        "baseline_y": 98.51
+        "baseline_y": 112.33
       },
       {
         "text": "tiếng voi gầm vang vọng. Trong thành Luy Lâu, Thái thú Tô Định",
-        "baseline_y": 127.51
+        "baseline_y": 141.32
       },
       {
-        "text": "hoang mang lo sợ mất ăn mất ngủ. Đại tổng quản Tào Quyền",
-        "baseline_y": 156.51
+        "text": "hoang mang lo sợ mất ăn mất ngủ. Đại tổng quản Tào Quyền hiến",
+        "baseline_y": 170.32
       },
       {
-        "text": "hiến độc kế chia binh: sai Mã Tắc đánh Hát Môn, còn đích thân y",
-        "baseline_y": 185.51
+        "text": "độc kế chia binh: sai Mã Tắc đánh Hát Môn, còn đích thân y đem",
+        "baseline_y": 199.32
       },
       {
-        "text": "đem 600 tinh binh và 30 khinh thuyền đánh úp núi",
-        "baseline_y": 214.51
-      },
-      {
-        "text": "Phượng Hoàng.",
-        "baseline_y": 243.51
+        "text": "600 tinh binh và 30 khinh thuyền đánh úp núi Phượng Hoàng.",
+        "baseline_y": 228.32
       }
     ]
   },
