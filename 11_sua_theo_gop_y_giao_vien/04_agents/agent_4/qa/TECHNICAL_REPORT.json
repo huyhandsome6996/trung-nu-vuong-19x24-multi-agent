@@ -1,0 +1,61 @@
+{
+  "pages": [
+    {
+      "page": 15,
+      "pdf_pages": 1,
+      "mediabox_pt": [
+        430.0799865722656,
+        576.0
+      ],
+      "png_px": [
+        896,
+        1200
+      ],
+      "editable_text_matches_json": true,
+      "art_px": [
+        1084,
+        1451
+      ]
+    },
+    {
+      "page": 16,
+      "pdf_pages": 1,
+      "mediabox_pt": [
+        430.0799865722656,
+        576.0
+      ],
+      "png_px": [
+        896,
+        1200
+      ],
+      "editable_text_matches_json": true,
+      "art_px": [
+        1084,
+        1451
+      ]
+    },
+    {
+      "page": 17,
+      "pdf_pages": 1,
+      "mediabox_pt": [
+        430.0799865722656,
+        576.0
+      ],
+      "png_px": [
+        896,
+        1200
+      ],
+      "editable_text_matches_json": true,
+      "art_px": [
+        1084,
+        1451
+      ]
+    }
+  ],
+  "combined_page_order": [
+    15,
+    16,
+    17
+  ],
+  "limits": "Raster source originally 896x1200; generated edited art is retained; no 300 DPI print claim."
+}

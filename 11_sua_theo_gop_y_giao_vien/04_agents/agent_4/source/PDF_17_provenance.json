@@ -1,0 +1,29 @@
+{
+  "pdf_page": 17,
+  "mode": "built-in image_gen referenced-image edit, followed by real Vietnamese font typesetting",
+  "actual_references": [
+    {
+      "path": "../../01_nguon_bat_bien/pages/PDF_17.jpg",
+      "sha256": "20cfa8e762a9e49f35d697649b560c721ac54ff7bc500a58f374457268e3e362"
+    },
+    {
+      "path": "source/PDF_17_REFERENCE_INPUT.png",
+      "original_path_at_edit_time": "source/THANH_THIEN_REFERENCE.png",
+      "sha256": "bcc4b5daed58f1e1a9c64772f5ecf121618ad597c7e7a987dff685c72cae9a0a",
+      "note": "Exact retained art crop used at edit time; final shared crop was rebuilt with aspect preservation after this edit."
+    },
+    {
+      "path": "source/PDF_16_art.png",
+      "sha256": "97af2cb9b54c61008840507240e862d6f502ee8586887d6eb64b0a2887c50cf5"
+    }
+  ],
+  "retained_edited_art": "source/PDF_17_art.png",
+  "layout_source": "source/build_pages.py",
+  "text_source": "text/PDF_17.json",
+  "rebuild_command": "python3 source/build_pages.py",
+  "source_raster_px": [
+    896,
+    1200
+  ],
+  "print_claim": "No 300 DPI or historical reconstruction claim"
+}

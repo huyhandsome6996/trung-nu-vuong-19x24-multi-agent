@@ -1,6 +1,6 @@
 {
   "agent": "agent_4",
-  "status": "IN_PROGRESS",
+  "status": "READY_FOR_COORDINATOR",
   "pages": [
     15,
     16,
@@ -12,18 +12,19 @@
     17
   ],
   "blocked_pages": [],
-  "last_checkpoint": "PDF15-17 đã kiểm nội trang và khóa mặt PDF16-17. Chuẩn bị ghép lô, kiểm cuối và HANDOFF; liên lane còn PENDING.",
+  "last_checkpoint": "Cả PDF15-17 có tranh sửa, chữ font Việt, PNG/PDF một trang; đã xem lại PNG và PDF render cuối. Ghép LO_TRANG.pdf đúng thứ tự, đối chiếu text PDF chính xác JSON; xuất reference Thánh Thiên. Chờ coordinator rà liên lane 18-21.",
   "cross_lane_review": "PENDING",
   "artifacts": [
     "output/PDF_15.png",
     "output/PDF_15.pdf",
-    "qa/PDF_15.json",
     "output/PDF_16.png",
     "output/PDF_16.pdf",
-    "qa/PDF_16.json",
-    "source/THANH_THIEN_REFERENCE.png",
     "output/PDF_17.png",
     "output/PDF_17.pdf",
-    "qa/PDF_17.json"
+    "output/LO_TRANG.pdf",
+    "source/THANH_THIEN_REFERENCE.png",
+    "source/build_pages.py",
+    "qa/TECHNICAL_REPORT.json",
+    "HANDOFF.md"
   ]
 }

@@ -37,7 +37,7 @@
       "qa/PDF_17_render.png",
       "source/THANH_THIEN_REFERENCE.png"
     ],
-    "notes": "Mở PNG và PDF render: lời Thánh Thiên ở bóng cao bên phải đọc trước; tướng đáp ở bóng thấp bên trái. Đuôi hướng đúng người, không che mặt/que chỉ/tay/sa bàn. Ô vàng 3 dòng gọn, không lẻ dòng; tên địa danh được khóa. Không có cờ. Quân Hán giữ áo tím/nâu, nghĩa quân giữ khăn và giáp ngắn."
+    "notes": "Mở PNG và PDF render: lời Thánh Thiên ở bóng cao bên phải đọc trước; tướng đáp ở bóng thấp bên trái. Đuôi hướng đúng người, không che mặt/que chỉ/tay/sa bàn. Ô vàng 3 dòng gọn, không lẻ dòng; tên địa danh được khóa. Không có cờ. Quân Hán giữ áo tím/nâu, nghĩa quân giữ khăn và giáp ngắn. Đã mở lại cả PNG và PDF render cuối sau khi bật giữ nguyên tỉ lệ ảnh; lớp chữ PDF đối chiếu chính xác JSON."
   },
   "cross_lane_identity": "PENDING",
   "source_files": [

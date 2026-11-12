@@ -36,7 +36,7 @@
       "output/PDF_15.png",
       "qa/PDF_15_render.png"
     ],
-    "notes": "Mở trực tiếp cả PNG 896x1200 và bản render PDF. Chữ Việt rõ, không tràn bóng, không che mặt/tay/kiếm/cuộn hịch. Ô vàng đã thu gọn; vùng tranh được nối bằng công cụ ảnh. Giữ một khung."
+    "notes": "Mở trực tiếp cả PNG 896x1200 và bản render PDF. Chữ Việt rõ, không tràn bóng, không che mặt/tay/kiếm/cuộn hịch. Ô vàng đã thu gọn; vùng tranh được nối bằng công cụ ảnh. Giữ một khung. Đã mở lại cả PNG và PDF render cuối sau khi bật giữ nguyên tỉ lệ ảnh; lớp chữ PDF đối chiếu chính xác JSON."
   },
   "cross_lane_identity": "PENDING",
   "source_files": [

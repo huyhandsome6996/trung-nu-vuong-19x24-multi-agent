@@ -1,0 +1,36 @@
+{
+  "pdf_page": 16,
+  "mode": "built-in image_gen referenced-image edit, followed by real Vietnamese font typesetting",
+  "actual_references": [
+    {
+      "path": "../../01_nguon_bat_bien/pages/PDF_16.jpg",
+      "sha256": "863b5682d3230515ce23666307b6134858417e49efeaa17e6571a49cfd8df78f"
+    },
+    {
+      "path": "../../01_nguon_bat_bien/pages/PDF_15.jpg",
+      "sha256": "4a7af67f280c5dbcedcda2e33b3a4ecdffc701a8a28e3ea27f53fcee0a5c5bb9"
+    },
+    {
+      "path": "../../01_nguon_bat_bien/tham_khao_trang_phuc/giap_tham_khao.png",
+      "sha256": "2551db9c97ae522c5025551468e939133f14be23b02980eff70211c9599b942b"
+    },
+    {
+      "path": "../../01_nguon_bat_bien/tham_khao_trang_phuc/ao_vat_trai_tham_khao.png",
+      "sha256": "6d9ad68c3f3d08c2e013aa45966465232b4b075c9ba260e5825fd1c343deeee0"
+    }
+  ],
+  "retained_edited_art": "source/PDF_16_art.png",
+  "layout_source": "source/build_pages.py",
+  "text_source": "text/PDF_16.json",
+  "rebuild_command": "python3 source/build_pages.py",
+  "source_raster_px": [
+    896,
+    1200
+  ],
+  "print_claim": "No 300 DPI or historical reconstruction claim",
+  "refinement": {
+    "target": "source/PDF_16_art_v1.png",
+    "sha256": "70acaf3e0d3b38cdf4ee33a3912c3f52533208991f053193ca887cfdc3adba63",
+    "prompt": "source/PDF_16_refine_prompt.txt"
+  }
+}

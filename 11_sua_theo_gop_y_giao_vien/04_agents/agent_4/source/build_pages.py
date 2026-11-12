@@ -105,4 +105,13 @@ def build(page):
     print(stem, 'built', out)
 
 if __name__=='__main__':
-    for page in map(int,sys.argv[1:]):build(page)
+    for page in map(int,sys.argv[1:] or ['15','16','17']):build(page)
+    paths=[LANE/'output'/f'PDF_{p:02}.pdf' for p in [15,16,17]]
+    if all(p.exists() for p in paths):
+        with fitz.open() as batch:
+            for path in paths:
+                with fitz.open(path) as page:batch.insert_pdf(page)
+            batch.set_metadata({'title':'Trưng Nữ Vương - lô sửa PDF15-17 - Agent 4',
+                                'author':'Agent 4','subject':'Bản sửa góp ý giáo viên; chờ coordinator rà liên trang'})
+            batch.save(LANE/'output/LO_TRANG.pdf',garbage=4,deflate=True)
+        print('LO_TRANG.pdf assembled in order 15,16,17')

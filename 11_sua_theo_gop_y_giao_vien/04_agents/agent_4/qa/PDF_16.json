@@ -37,7 +37,7 @@
       "qa/PDF_16_render.png",
       "source/THANH_THIEN_REFERENCE.png"
     ],
-    "notes": "Đã mở PNG và bản PDF render sau lần sửa chữ cuối. Giữ đường chia chéo, mặt/tay/cung/mũi tên và vũ khí chính không bị chữ che. Ô vàng thu từ khoảng 220 xuống 155 px, đủ đệm. Không có cờ trong trang để thay. Khăn tang trắng, giáp ngắn lục thống nhất."
+    "notes": "Đã mở PNG và bản PDF render sau lần sửa chữ cuối. Giữ đường chia chéo, mặt/tay/cung/mũi tên và vũ khí chính không bị chữ che. Ô vàng thu từ khoảng 220 xuống 155 px, đủ đệm. Không có cờ trong trang để thay. Khăn tang trắng, giáp ngắn lục thống nhất. Đã mở lại cả PNG và PDF render cuối sau khi bật giữ nguyên tỉ lệ ảnh; lớp chữ PDF đối chiếu chính xác JSON."
   },
   "cross_lane_identity": "PENDING",
   "source_files": [
