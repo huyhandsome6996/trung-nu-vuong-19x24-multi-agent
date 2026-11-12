@@ -14,7 +14,7 @@
     21
   ],
   "blocked_pages": [],
-  "last_checkpoint": "Chữ đã tăng đồng bộ, QA PASS; đã push và xác minh commit thuộc nhánh remote sua-theo-gop-y-giao-vien.",
+  "last_checkpoint": "PDF21 nhấn Hai Bà trên2voi ở tiền cảnh; Thánh Thiên nhỏ phía sau, câu kết nhấn Hai Bà. Cỡ chữ khôi phục giữ nguyên. PDF18–20 byte/render không đổi. QA PASS.",
   "cross_lane_review": "PASS_REFERENCE_LANE4_COORDINATOR_BOOK_REVIEW_PENDING",
   "artifacts": [
     "HANDOFF.md",
@@ -38,6 +38,7 @@
     "qa/PDF_20_render.png",
     "qa/PDF_20_typography.json",
     "qa/PDF_21.json",
+    "qa/PDF_21_hai_ba_reader.png",
     "qa/PDF_21_render.png",
     "qa/PDF_21_typography.json",
     "qa/TEMPLATE.json",
@@ -59,8 +60,11 @@
     "source/PDF_20_edit_spec.txt",
     "source/PDF_20_provenance.json",
     "source/PDF_21_art.png",
+    "source/PDF_21_before_hai_ba_focus.png",
     "source/PDF_21_edit_spec.txt",
+    "source/PDF_21_hai_ba_focus_prompt.txt",
     "source/PDF_21_provenance.json",
+    "source/PDF_21_text_before_hai_ba_focus.json",
     "source/build_pages.py",
     "source/fonts/LICENSE.txt",
     "source/fonts/NotoSans-Bold.ttf",
@@ -71,6 +75,6 @@
     "text/PDF_21.json",
     "text/changes.md"
   ],
-  "publication_status": "PUSHED",
+  "publication_status": "READY_TO_PUSH",
   "release_commit": "068afe447d68f2a5b14f6466767665321a572610"
 }

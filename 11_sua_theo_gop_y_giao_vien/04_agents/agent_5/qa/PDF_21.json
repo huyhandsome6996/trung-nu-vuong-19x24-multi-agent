@@ -16,17 +16,17 @@
     {
       "requirement_index": 1,
       "status": "PASS",
-      "note": "Đã rà cờ lớn tiền cảnh/trái/phải và các lá nhỏ xa theo cột quân mép trái: tất cả đỏ đất trơn, không sao/mặt trời/chữ; đồng bộ với6cờ PDF20."
+      "note": "Rà toàn bộ cờ trong cột quân sau/trái, các lá gần Hai Bà và phía xa: chữ nhật đỏ đất trơn, không sao/chữ/biểu tượng."
     },
     {
       "requirement_index": 2,
       "status": "PASS",
-      "note": "Giữ đúng2voi, ngựa/kỵ tướng, đoàn quân/trống, sông/bình minh và bố cục kết. Hai Bà áo ngắn/giáp gọn, Trưng Nhị chàm; lính khăn vấn/áo vạt trái. Kỵ tướng Thánh Thiên theo khóa khăn tang trắng/búi thấp/mặt hơi góc/áo lục, đã xem cạnh reference lane4."
+      "note": "Theo chỉ thị mới, Hai Bà trên đúng2voi là hai chủ thể tiền cảnh lớn nhất; Thánh Thiên khăn trắng/áo lục nhỏ ở hàng quân sau bên trái. Giữ sông/bình minh/đoàn quân/trống và một ngựa hỗ trợ, không thêm nữ chỉ huy ngang vai Hai Bà."
     },
     {
       "requirement_index": 3,
       "status": "PASS",
-      "note": "Ô vàng gọn hơn gốc, lời kết đủ6dòng cân, giữ các cụm đỏ và dấu tiếng Việt. Không thêm trang; LO_TRANG chỉ4trang18–21 theo thứ tự."
+      "note": "Giữ cỡ chữ21,5px của bản khôi phục, chữ trong ô; câu cuối nhấn dưới ngọn cờ Hai Bà Trưng. Đủ4trang lô18–21, không thêm trang;18–20 giữ nguyên byte/render."
     }
   ],
   "visual_review": {
@@ -35,9 +35,9 @@
     "evidence": [
       "output/PDF_21.png",
       "qa/PDF_21_render.png",
-      "qa/THANH_THIEN_CROSS_LANE.png"
+      "qa/PDF_21_hai_ba_reader.png"
     ],
-    "notes": "Đã mở PNG và render PDF cuối, nhìn cờ nhỏ ở mép trái, hai voi/Hai Bà/đoàn quân, lời kết, nhân vật khăn tang trên ngựa. Không che mặt/tay/voi, không rơi tiếng cuối dòng hay trùng chữ cũ. Đối chiếu mặt với lane4 trong ảnh ghép.\nLượt tăng chữ: đã mở PNG/render PDF mới; lời dẫn21,5px, thoại18px nhất quán. Giữ nguyên câu chữ, chữ đỏ, tên/cụm cố định; không tràn khung/bóng thoại hoặc lẻ một từ cuối dòng. PDF19 nới ngang2bóng thoại để có khoảng đệm."
+    "notes": "Đã mở PNG/render PDF sau sửa. Hai Bà với hai voi lớn ở giữa/tiền cảnh, khuôn mặt và tư thế Hai Bà là trọng tâm; kỵ tướng nữ nhỏ lẫn đoàn quân phía sau trái, không còn ở tiền cảnh phải. Chữ đủ dấu, không tràn/đè mặt hay vũ khí, caption/cỡ chữ bản khôi phục. Giữ màu đất/chàm phân biệt Hai Bà."
   },
   "cross_lane_identity": "PASS",
   "source_files": [
@@ -59,8 +59,9 @@
     }
   ],
   "limitations": [
-    "Nguồn Gemini896×1200; không chứng nhận in300DPI.",
-    "Đã đối chiếu khóa Thánh Thiên lane4; coordinator vẫn cần nghiệm thu liên trang toàn sách."
+    "Nhân vật Thánh Thiên ở xa nhỏ: giữ dấu hiệu khăn trắng/áo lục, không dùng chân dung nhỏ làm khóa nhận diện mới.",
+    "Cảnh kết là minh họa tổng hợp của bản chuyển thể; không coi đây là chứng cứ lịch sử về vị trí hợp quân.",
+    "Nguồn896×1200; không chứng nhận in300DPI."
   ],
-  "typography_revision": "PASS: narration21.5px, dialogue18px, geometry and manual PNG/PDF review"
+  "typography_revision": "Cỡ21,5px giữ từ bản khôi phục; lượt này chỉnh trọng tâm tranh/câu kết."
 }

@@ -39,3 +39,8 @@ Sau mỗi trang: ghi file đã có, kiểm thực tế, lỗi còn lại, bướ
 - Đã push bản tăng chữ 068afe447d68f2a5b14f6466767665321a572610 lên đúng nhánh sửa. Fetch lại và merge-base --is-ancestor PASS.
 - Chỉ thay lane5; không force push; không lưu credential vào repo/URL/file.
 - PDF tải về đã cập nhật cùng bản tăng chữ.
+
+## Hai Bà là chủ đạo ở trang kết —12/11/2026
+- Theo chỉ thị mới: sửa riêng21, Hai Bà/two elephants chiếm tiền cảnh, nữ tướng cưỡi ngựa nhỏ phía sau; dùng image_gen có tham chiếu, lưu prompt/bản trước.
+- Câu cuối nhấn ngọn cờ Hai Bà. Giữ cỡ chữ của bản khôi phục; không tái áp dụngV3.
+- Mở PNG/render mới, QA PASS;18–20 toàn bộPDF/PNG/text/art và render3trang đầu trong lô giữ nguyên.

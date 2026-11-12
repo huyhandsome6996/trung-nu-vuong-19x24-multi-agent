@@ -9,3 +9,8 @@ Cờ đỏ đất trơn/phục trang là quy ước minh họa chung, không tuy
 Chữ/người nói/tọa độ dàn trang ở text/PDF_XX.json; tranh chỉnh bằng image_gen giữ trong source/PDF_XX_art.png cùng mô tả chỉnh và hash tham chiếu. Không vẽ đè hình học lên cờ hoặc nhân vật bằng code.
 
 Phiên tạm trước bị khởi tạo lại sau khi hạn mức chặn checkpoint. Ảnh đã tạo được khôi phục nguyên vẹn từ các bản lưu; script và chữ được tái lập từ nội dung đã soạn trong phiên, không khai đã commit/push lượt trước.
+
+## Trọng tâm trang kết theo chỉ thị mới
+- Chỉ PDF21 đổi bố cục: Trưng Trắc/Trưng Nhị trên2voi chiếm tiền cảnh; Thánh Thiên nhỏ ở hàng quân sau, không ngang vai thị giác.
+- Câu cuối đổi sang “Dưới ngọn cờ của Hai Bà Trưng” để nhấn vai trò chủ đạo; phần kể trước đó và toàn bộ PDF18–20 giữ nguyên.
+- Cảnh minh họa tổng hợp theo storyboard chuyển thể; không khẳng định vị trí hợp quân là sự kiện được khảo chứng.

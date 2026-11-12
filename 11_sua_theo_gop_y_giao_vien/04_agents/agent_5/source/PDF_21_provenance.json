@@ -20,7 +20,7 @@
     }
   ],
   "retained_edited_art": "source/PDF_21_art.png",
-  "retained_art_sha256": "c7b36272b1b501a2d9b2245a8389d5554b76b3e64baf772864ed06d70f31c5e0",
+  "retained_art_sha256": "82a2dd9deeb6f3ae34f9eeb919cec95068c15d7ca287182d55f1f696ef961756",
   "edit_spec": "source/PDF_21_edit_spec.txt",
   "layout_source": "source/build_pages.py",
   "text_source": "text/PDF_21.json",
@@ -41,5 +41,12 @@
     "original_edited_image_library_id": "libfile_9daff32d2520819181f3d55a422b5de4",
     "note": "Ảnh đã tạo được khôi phục từ bản lưu sau khi thư mục tạm phiên trước bị khởi tạo lại; font/JSON/script tái lập rồi kiểm lại."
   },
-  "print_claim": "Không tuyên bố 300 DPI hoặc phục dựng lịch sử."
+  "print_claim": "Không tuyên bố 300 DPI hoặc phục dựng lịch sử.",
+  "hai_ba_focus_refinement": {
+    "actual_reference": "source/PDF_21_before_hai_ba_focus.png",
+    "sha256": "c7b36272b1b501a2d9b2245a8389d5554b76b3e64baf772864ed06d70f31c5e0",
+    "prompt": "source/PDF_21_hai_ba_focus_prompt.txt",
+    "purpose": "Hai Bà Trưng là hai chủ thể tiền cảnh; Thánh Thiên nhỏ phía sau, không ngang vai trò thị giác.",
+    "text_edit": "Bỏ cụm “và nữ tướng Thánh Thiên” trong câu dưới ngọn cờ, nhấn Hai Bà theo chỉ thị mới."
+  }
 }
