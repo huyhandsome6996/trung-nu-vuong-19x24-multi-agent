@@ -1,0 +1,61 @@
+[
+  {
+    "font_size_px": 18,
+    "line_count": 4,
+    "lines": [
+      "Trong lúc Tào Quyền và Lục Hiến đắc ý trên nhà gỗ, hơn 300 kỵ binh nghĩa quân",
+      "bất ngờ ập tới bao vây! Toàn bộ quân Hán trên khe Mãng Xà và 30 khinh thuyền",
+      "ngoài bến sông đều đã bị bắt giết sạch. Tào Quyền và Lục Hiến khiếp đảm chui",
+      "xuống gầm phản thuốc nhưng bị nghĩa quân dùng câu liêm lôi cổ ra!"
+    ],
+    "box": [
+      94,
+      91,
+      717,
+      112
+    ]
+  },
+  {
+    "font_size_px": 14.5,
+    "line_count": 3,
+    "lines": [
+      "Quân trên núi bị bắt,",
+      "thuyền bị đoạt! Hết",
+      "đường chạy!"
+    ],
+    "box": [
+      190,
+      838,
+      153,
+      69
+    ]
+  },
+  {
+    "font_size_px": 14.5,
+    "line_count": 2,
+    "lines": [
+      "Tìm đường",
+      "xuống thuyền!"
+    ],
+    "box": [
+      561,
+      891,
+      111,
+      62
+    ]
+  },
+  {
+    "font_size_px": 14.5,
+    "line_count": 2,
+    "lines": [
+      "Bị vây rồi... Trốn",
+      "đâu bây giờ?"
+    ],
+    "box": [
+      333,
+      913,
+      118,
+      63
+    ]
+  }
+]

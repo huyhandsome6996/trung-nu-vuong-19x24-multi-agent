@@ -7,6 +7,9 @@ original 896 x 1200 canvas. No character, costume or flag is drawn in code.
 from pathlib import Path
 import sys, json, re, hashlib
 from reportlab.pdfgen import canvas
+from reportlab import rl_config
+# Binary Flate streams keep PDFs compact and correctly recognized as binary by git.
+rl_config.useA85 = 0
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
 import fitz

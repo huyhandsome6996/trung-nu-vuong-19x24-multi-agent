@@ -1,0 +1,55 @@
+{
+  "pdf_page": 19,
+  "status": "PASS",
+  "checks": {
+    "source_and_scope": "PASS",
+    "teacher_specific": "PASS",
+    "yellow_boxes": "PASS",
+    "flags_all_visible": "PASS",
+    "costumes_by_faction": "PASS",
+    "vietnamese_text": "PASS",
+    "dialogue_and_tail": "PASS",
+    "layout_and_no_damage": "PASS",
+    "rendered_pdf_review": "PASS"
+  },
+  "teacher_requirement_results": [
+    {
+      "requirement_index": 1,
+      "status": "PASS",
+      "note": "Khung dưới có3 câu đúng người: nghĩa quân “Quân trên núi bị bắt, thuyền bị đoạt! Hết đường chạy!”, Tào Quyền “Tìm đường xuống thuyền!”, Lục Hiến “Bị vây rồi... Trốn đâu bây giờ?”. Đuôi hướng miệng, không che tay/câu liêm; không có tiếng cuối lẻ dòng."
+    },
+    {
+      "requirement_index": 2,
+      "status": "PASS",
+      "note": "Giữ hai khung xiên và hành động kéo giặc dưới bàn; mặt hoảng sợ nghiêm túc. Sửa khăn vấn/áo ngắn/vạt trái/giáp gọn cho lính cả xa. Giữ áo tía và xám của hai quan giặc. Loại cờ sinh thêm để giữ cảnh không cờ như gốc."
+    }
+  ],
+  "visual_review": {
+    "reviewed": true,
+    "reviewer": "agent_5",
+    "evidence": [
+      "output/PDF_19.png",
+      "qa/PDF_19_render.png"
+    ],
+    "notes": "Đã mở cả PNG và render PDF cuối sau bỏ cờ sinh thêm và sửa câu Tào Quyền để không lẻ “thuyền!”. Mọi chữ nằm trong ô/bóng thoại, rõ dấu, không che mặt/tay/vũ khí. Ô vàng từ~214px xuống~137px ởcanvas896×1200, nền được tiếp cảnh cây núi."
+  },
+  "cross_lane_identity": "NOT_APPLICABLE",
+  "source_files": [
+    {
+      "path": "../../01_nguon_bat_bien/pages/PDF_19.jpg",
+      "sha256": "74ae52289cc9933820e988dd21c5d05785582d86229158cef645d1b91c01ea19"
+    },
+    {
+      "path": "../../01_nguon_bat_bien/tham_khao_trang_phuc/ao_vat_trai_tham_khao.png",
+      "sha256": "6d9ad68c3f3d08c2e013aa45966465232b4b075c9ba260e5825fd1c343deeee0"
+    },
+    {
+      "path": "../../01_nguon_bat_bien/tham_khao_trang_phuc/giap_tham_khao.png",
+      "sha256": "2551db9c97ae522c5025551468e939133f14be23b02980eff70211c9599b942b"
+    }
+  ],
+  "limitations": [
+    "Nguồn Gemini896×1200; không chứng nhận in300DPI.",
+    "Lời thoại là chuyển thể biên tập, không phải trích dẫn chính sử."
+  ]
+}
