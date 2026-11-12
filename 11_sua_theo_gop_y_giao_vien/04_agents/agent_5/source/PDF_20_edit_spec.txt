@@ -1,0 +1,3 @@
+Đặc tả các lượt chỉnh đã thực hiện bằng built-in image_gen; tái lập từ nhật ký phiên sau khởi tạo lại, không phải bản sao nguyên văn prompt tiếng Anh. Ảnh chỉnh cuối được giữ làm nguồn tái tạo trang.
+
+Chỉnh trang Gemini PDF20 bằng ảnh gốc, khóa mặt Thánh Thiên lane4 và tham khảo áo giáp. Giữ tranh toàn trang: thế đứng/vung kiếm, tù binh/cọc gỗ và núi rừng. Không thêm chém đầu, máu hoặc bạo lực trực diện. Thánh Thiên theo cùng khuôn mặt/khăn tang/búi thấp/áo lục/giáp ngắn như PDF18/ref lane4, bỏ mũ vàng/lông lớn/áo choàng lông. Mọi cờ cả nhỏ xa và mép trái/phải/tiền cảnh: chữ nhật đỏ đất #A84032 trơn, cán gỗ, không sao/mặt trời/chữ/đuôi nheo. Nghĩa quân áo ngắn/vạt trái, khăn vấn; giữ áo tù binh. Thu ô vàng, xóa chữ ảnh để dàn chữ thật, khóa “Trảm thủ!” không ngắt dòng.

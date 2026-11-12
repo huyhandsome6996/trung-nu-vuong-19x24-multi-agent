@@ -9,10 +9,11 @@
   ],
   "completed_pages": [
     18,
-    19
+    19,
+    20
   ],
   "blocked_pages": [],
-  "last_checkpoint": "PDF18–19 đã mở PNG/render cuối và PASS; PDF20–21 chờ chốt QA.",
+  "last_checkpoint": "PDF18–20 đã QA PASS; PDF21 đã mở PNG/render, đang ghi bàn giao.",
   "cross_lane_review": "PENDING",
   "artifacts": []
 }

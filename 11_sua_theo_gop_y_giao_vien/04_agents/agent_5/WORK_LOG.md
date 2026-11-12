@@ -13,3 +13,8 @@ Sau mỗi trang: ghi file đã có, kiểm thực tế, lỗi còn lại, bướ
 - Đã mở PNG/render cuối,3 thoại đúng người và không lẻ “thuyền!”. Giữ2khung và câu liêm, rà trang phục cả xa.
 - Bỏ cờ sinh thêm từ lượt ART trước; giữ không cờ như nguồn.
 - Diff check PDF18 trước đó nhận PDF ASCII của ReportLab là văn bản, báo khoảng trắng. Đã đổi stream PDF sang Flate nhị phân, kiểm đủ8ảnh PNG/render trước/sau byte-identical; không thay nội dung nhìn thấy.
+
+## Checkpoint PDF20 —12/11/2026
+- Mở PNG/render cuối và ảnh đối chiếu mặt với lane4; khóa “Trảm thủ!” cùng dòng.
+- Rà6cờ cả mép/tiền cảnh, trang phục lính và không thêm cảnh chém đầu.
+- Ghi trung thực chênh số tù binh có sẵn giữa lời dẫn/hình Gemini trong QA để coordinator quyết định riêng.
