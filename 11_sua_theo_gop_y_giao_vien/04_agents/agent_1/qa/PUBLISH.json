@@ -1,13 +1,13 @@
 {
   "status": "PUBLISHED",
-  "content_commit": "7280294e974c89010e0b50d2fe7ad421907d3092",
+  "content_commit": "702583db81f3b7597f3dd22d9a0c5b9a9b43c65d",
   "branch": "sua-theo-gop-y-giao-vien",
   "remote_publication_confirmed": true,
   "next_step": "Coordinator cross-lane review and final assembly.",
   "artifact_readiness": "READY_FOR_COORDINATOR",
   "blocked_art_pages": [],
   "authorization": "User directly requested push to the previously named repository/branch and supplied credentials in the current conversation.",
-  "verified_remote_head": "7280294e974c89010e0b50d2fe7ad421907d3092",
+  "verified_remote_head": "702583db81f3b7597f3dd22d9a0c5b9a9b43c65d",
   "verification": "git fetch origin branch, then git merge-base --is-ancestor content_commit origin/branch returned 0",
-  "verified_at": "2026-11-12T12:35:26+07:00"
+  "verified_at": "2026-11-12T15:00:29+07:00"
 }

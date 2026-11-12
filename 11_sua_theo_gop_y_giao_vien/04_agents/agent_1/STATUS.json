@@ -90,5 +90,5 @@
     "text/changes.md"
   ],
   "publication": "PUBLISHED",
-  "publication_note": "Đang xuất bản bản cập nhật sửa lỗi hình ảnh PDF01/03/04/05 và LO_TRANG.pdf (SHA256 0de454ca3de1404969cb7587b74535f3b0727d8571cc9f81f5764a561d37a049) lên nhánh sua-theo-gop-y-giao-vien."
+  "publication_note": "Đã push và kiểm commit nội dung 702583db81f3b7597f3dd22d9a0c5b9a9b43c65d (sửa lỗi hình ảnh PDF01/03/04/05, LO_TRANG.pdf SHA256 0de454ca3de1404969cb7587b74535f3b0727d8571cc9f81f5764a561d37a049) là tổ tiên của đầu nhánh remote."
 }
