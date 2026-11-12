@@ -7,3 +7,4 @@
 - PDF11 là cảnh quân Hán tại pháp trường, do đó giữ giáp và mũ phe Hán, cờ xám than trơn. Không biến lính Hán thành nghĩa quân.
 - Cờ và trang phục là quy ước minh họa theo tham khảo người dùng, không tuyên bố phục dựng khảo cổ.
 - Nguồn ảnh 896×1200px; không tuyên bố 300 DPI. PDF giữ MediaBox430,08×576pt.
+- Đợt rà sửa PDF12: khung trên của `PDF_12.jpg` gốc đã đúng quy ước Lĩnh Nam (khăn vấn đính lông, áo vạt chéo, đai vải, giáp mảnh, áo choàng lông), không có chi tiết Trung Quốc; khôi phục nguyên bản khung trên (ghép mềm đa giác từ `y=286` đến mép đường chéo khung) và giữ nguyên khung dưới đã sửa lính và cờ đỏ đất trơn.

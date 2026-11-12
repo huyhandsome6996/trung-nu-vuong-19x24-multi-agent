@@ -16,7 +16,7 @@
     {
       "requirement_index": 1,
       "status": "PASS",
-      "note": "Đã xem nhóm lính sau Trưng Trắc cả tiền/hậu cảnh: khăn vấn, áo ngắn vạt chéo, đai vải, giáp ngắn; khung trên đã rà cùng quy ước."
+      "note": "Đã kiểm tra zoom khung trên PDF_12.jpg gốc: trang phục đã là Lĩnh Nam (không có cổ trụ/khuy thắt/mũ quan Trung Quốc) nên khôi phục nguyên bản khung trên ghép mượt vào art_master.png; khung dưới giữ nhóm lính sau Trưng Trắc đã sửa khăn vấn, áo ngắn vạt chéo, đai vải, giáp ngắn."
     },
     {
       "requirement_index": 2,
@@ -31,7 +31,7 @@
       "output/PDF_12.png",
       "qa/PDF_12_render.png"
     ],
-    "notes": "Đã mở bằng view_image ảnh PNG cuối và ảnh render PDF riêng; đối chiếu JPEG gốc/ảnh khoanh. Chữ thật font Việt, không tràn/hộp kép; giữ số khung và hành động chính."
+    "notes": "Đã mở ảnh gốc PDF_12.jpg, art_master.png, output/PDF_12.png và qa/PDF_12_render.png; khung trên khôi phục nguyên bản không lệch nét ghép, khung dưới mặt/tay/kiếm/cờ đỏ đất trơn sạch lỗi. Chữ thật font Việt 5 dòng, không tràn/hộp kép; giữ hai khung và tang phục Trưng Trắc."
   },
   "cross_lane_identity": "PENDING",
   "source_files": [

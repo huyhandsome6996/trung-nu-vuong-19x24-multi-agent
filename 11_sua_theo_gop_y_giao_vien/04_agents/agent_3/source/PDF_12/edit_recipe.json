@@ -3,5 +3,6 @@
   "generated_path": "/workspace/scratch/8cbda302ddb5/generated_images/exec-df33ce9d-6652-4060-b4ed-14be97937c71.png",
   "engine": "built-in image_gen",
   "image_role": "edited art master; blank typography areas",
-  "source_page": "../../../01_nguon_bat_bien/pages/PDF_12.jpg"
+  "source_page": "../../../01_nguon_bat_bien/pages/PDF_12.jpg",
+  "post_fix_notes": "Khôi phục nguyên bản khung trên từ PDF_12.jpg (LANCZOS lên 1084x1451, composite đa giác [(4,286),(892,286),(892,572),(4,752)] với GaussianBlur r=3.0) vì khung trên gốc đã đúng trang phục Lĩnh Nam (không có chi tiết Trung Quốc), giữ nguyên phần trên y=285 và khung dưới đã sửa lính và cờ."
 }
