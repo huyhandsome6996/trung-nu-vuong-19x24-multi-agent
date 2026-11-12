@@ -1,0 +1,59 @@
+{
+  "pdf_page": 18,
+  "status": "PASS",
+  "checks": {
+    "source_and_scope": "PASS",
+    "teacher_specific": "PASS",
+    "yellow_boxes": "PASS",
+    "flags_all_visible": "PASS",
+    "costumes_by_faction": "PASS",
+    "vietnamese_text": "PASS",
+    "dialogue_and_tail": "PASS",
+    "layout_and_no_damage": "PASS",
+    "rendered_pdf_review": "PASS"
+  },
+  "teacher_requirement_results": [
+    {
+      "requirement_index": 1,
+      "status": "PASS",
+      "note": "Khung2: Thánh Thiên “Tào tặc! Có giỏi thì theo ta!”, Tào Quyền “Chúng chạy rồi! Đuổi theo!”. Hai đuôi đúng người, không tiết lộ bẫy cho địch."
+    },
+    {
+      "requirement_index": 2,
+      "status": "PASS",
+      "note": "Đối chiếu mặt hơi góc, mày ngang, búi thấp/khăn tang trắng, áo lục/giáp ngắn với reference lane4. Nghĩa quân áo ngắn/khăn vấn, giữ giáp quân Hán; trang không có cờ. Ô vàng thu và cân chữ5 dòng."
+    }
+  ],
+  "visual_review": {
+    "reviewed": true,
+    "reviewer": "agent_5",
+    "evidence": [
+      "output/PDF_18.png",
+      "qa/PDF_18_render.png"
+    ],
+    "notes": "Đã mở PNG/render PDF tái tạo cuối. Giữ hai khung xiên, cảnh phục kích, động tác chỉ tay; chữ đủ dấu không đè mặt/tay, không trùng chữ cũ. Đuôi trái hướng Thánh Thiên, phải hướng quan giặc."
+  },
+  "cross_lane_identity": "PASS",
+  "source_files": [
+    {
+      "path": "../../01_nguon_bat_bien/pages/PDF_18.jpg",
+      "sha256": "2acee9a7583bd25337247a7662b925b380ae01e84576e72e2b237563ab50c704"
+    },
+    {
+      "path": "../agent_4/source/THANH_THIEN_REFERENCE.png",
+      "sha256": "bcc4b5daed58f1e1a9c64772f5ecf121618ad597c7e7a987dff685c72cae9a0a"
+    },
+    {
+      "path": "../../01_nguon_bat_bien/tham_khao_trang_phuc/ao_vat_trai_tham_khao.png",
+      "sha256": "6d9ad68c3f3d08c2e013aa45966465232b4b075c9ba260e5825fd1c343deeee0"
+    },
+    {
+      "path": "../../01_nguon_bat_bien/tham_khao_trang_phuc/giap_tham_khao.png",
+      "sha256": "2551db9c97ae522c5025551468e939133f14be23b02980eff70211c9599b942b"
+    }
+  ],
+  "limitations": [
+    "Nguồn Gemini 896×1200; không chứng nhận in300DPI.",
+    "Chỉ kiểm lô18–21 và khóa Thánh Thiên lane4; chưa nghiệm thu toàn bộ21 trang."
+  ]
+}

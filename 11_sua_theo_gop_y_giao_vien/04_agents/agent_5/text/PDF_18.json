@@ -1,0 +1,64 @@
+{
+  "narration": "Sáu trăm quân Hán hùng hổ xông vào khu tư dinh bày đầy nhà gỗ của Nguyễn thần y. Bỗng pháo đại nổ đì đùng, tên nỏ bắn ra như mưa, Thánh Thiên bước ra chỉ mặt mắng Tào Quyền. Nàng giả vờ yếu thế rút chạy lên núi, nhử toàn bộ quân Hán hăm hở đuổi theo vào bẫy phục kích tại khe Mãng Xà!",
+  "dialogue": [
+    {
+      "speaker": "Thánh Thiên",
+      "panel": 2,
+      "order": 1,
+      "text": "Tào tặc! Có giỏi thì theo ta!"
+    },
+    {
+      "speaker": "Tào Quyền",
+      "panel": 2,
+      "order": 2,
+      "text": "Chúng chạy rồi! Đuổi theo!"
+    }
+  ],
+  "changes": [
+    "Thu gọn ô vàng, dàn chữ thật có dấu; giữ nội dung kể gốc, chuẩn hóa Tào Quyền.",
+    "Thêm hai câu thoại chuyển thể: Thánh Thiên chủ động thách giặc, Tào Quyền chủ quan ra lệnh đuổi; không tiết lộ kế cho địch.",
+    "Đổi mặt/khăn tang/áo lục/giáp ngắn theo khóa lane4; giữ hai khung và động tác chỉ tay.",
+    "Rà quân phục theo phe, giữ giáp quân Hán; trang không có cờ."
+  ],
+  "pdf_page": 18,
+  "footnote": null,
+  "adaptation_note": "Lời thoại bổ sung là lời chuyển thể biên tập, không phải trích dẫn lịch sử.",
+  "layout_blocks": [
+    {
+      "box": [
+        98,
+        101,
+        696,
+        151
+      ],
+      "text": "Sáu trăm quân Hán hùng hổ xông vào khu tư dinh bày đầy nhà gỗ của Nguyễn thần y. Bỗng pháo đại nổ đì đùng, tên nỏ bắn ra như mưa, Thánh Thiên bước ra chỉ mặt mắng Tào Quyền. Nàng giả vờ yếu thế rút chạy lên núi, nhử toàn bộ quân Hán hăm hở đuổi theo vào bẫy phục kích tại khe Mãng Xà!",
+      "size": 19,
+      "red": [
+        "pháo đại nổ đì đùng, tên nỏ bắn ra như mưa",
+        "giả vờ yếu thế rút chạy lên núi"
+      ]
+    },
+    {
+      "box": [
+        150,
+        751,
+        153,
+        70
+      ],
+      "text": "Tào tặc! Có giỏi thì theo ta!",
+      "size": 17,
+      "font": "NotoSansBold"
+    },
+    {
+      "box": [
+        566,
+        695,
+        121,
+        68
+      ],
+      "text": "Chúng chạy rồi! Đuổi theo!",
+      "size": 16,
+      "font": "NotoSansBold"
+    }
+  ]
+}

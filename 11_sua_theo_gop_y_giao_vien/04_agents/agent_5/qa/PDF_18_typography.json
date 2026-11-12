@@ -1,0 +1,47 @@
+[
+  {
+    "font_size_px": 19,
+    "line_count": 5,
+    "lines": [
+      "Sáu trăm quân Hán hùng hổ xông vào khu tư dinh bày đầy nhà gỗ của",
+      "Nguyễn thần y. Bỗng pháo đại nổ đì đùng, tên nỏ bắn ra như mưa,",
+      "Thánh Thiên bước ra chỉ mặt mắng Tào Quyền. Nàng giả vờ yếu thế rút",
+      "chạy lên núi, nhử toàn bộ quân Hán hăm hở đuổi theo vào",
+      "bẫy phục kích tại khe Mãng Xà!"
+    ],
+    "box": [
+      98,
+      101,
+      696,
+      151
+    ]
+  },
+  {
+    "font_size_px": 17,
+    "line_count": 2,
+    "lines": [
+      "Tào tặc! Có giỏi",
+      "thì theo ta!"
+    ],
+    "box": [
+      150,
+      751,
+      153,
+      70
+    ]
+  },
+  {
+    "font_size_px": 16,
+    "line_count": 2,
+    "lines": [
+      "Chúng chạy",
+      "rồi! Đuổi theo!"
+    ],
+    "box": [
+      566,
+      695,
+      121,
+      68
+    ]
+  }
+]

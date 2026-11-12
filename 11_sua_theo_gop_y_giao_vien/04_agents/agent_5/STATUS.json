@@ -1,15 +1,17 @@
 {
   "agent": "agent_5",
-  "status": "NOT_STARTED",
+  "status": "IN_PROGRESS",
   "pages": [
     18,
     19,
     20,
     21
   ],
-  "completed_pages": [],
+  "completed_pages": [
+    18
+  ],
   "blocked_pages": [],
-  "last_checkpoint": "Gói nhiệm vụ được chuẩn bị; agent chưa bắt đầu.",
+  "last_checkpoint": "PDF18 đã sửa tranh/chữ, mở PNG/render PDF tái tạo và PASS; PDF19–21 đang hoàn tất QA.",
   "cross_lane_review": "PENDING",
   "artifacts": []
 }

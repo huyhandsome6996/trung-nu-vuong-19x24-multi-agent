@@ -1,0 +1,3 @@
+Đặc tả các lượt chỉnh đã thực hiện bằng built-in image_gen; tái lập từ nhật ký phiên sau khởi tạo lại, không phải bản sao nguyên văn prompt tiếng Anh. Ảnh chỉnh cuối được giữ làm nguồn tái tạo trang.
+
+Chỉnh trang Gemini PDF18 bằng ảnh gốc và khóa mặt Thánh Thiên lane4. Giữ hai khung xiên, nhà gỗ, nỏ, pháo và động tác chỉ tay. Bỏ chữ cũ, thu ô vàng và thêm hai bóng thoại trống có đuôi đúng Thánh Thiên/Tào Quyền. Thánh Thiên mặt hơi góc, mày ngang, mắt hạnh, mũi ngắn, cằm tròn, búi tóc thấp, khăn tang trắng, áo vạt trái lục #526747 và giáp ngắn đơn giản. Bỏ vương miện/lông lớn/áo choàng lông. Lính bản địa áo ngắn/khăn vấn, giữ riêng quân Hán. Chữ Việt ghép riêng từ JSON.
