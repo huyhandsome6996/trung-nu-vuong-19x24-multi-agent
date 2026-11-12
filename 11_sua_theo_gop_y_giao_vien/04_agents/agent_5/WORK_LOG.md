@@ -18,3 +18,8 @@ Sau mỗi trang: ghi file đã có, kiểm thực tế, lỗi còn lại, bướ
 - Mở PNG/render cuối và ảnh đối chiếu mặt với lane4; khóa “Trảm thủ!” cùng dòng.
 - Rà6cờ cả mép/tiền cảnh, trang phục lính và không thêm cảnh chém đầu.
 - Ghi trung thực chênh số tù binh có sẵn giữa lời dẫn/hình Gemini trong QA để coordinator quyết định riêng.
+
+## Chốt PDF21 và lô18–21 —12/11/2026
+- Đã mở PNG/render cuối, giữ2voi và bố cục kết, sửa mọi cờ kể cả xa nhỏ; Hai Bà phân màu đất/chàm và Thánh Thiên khăn tang/áo lục.
+- Đã xem ảnh ghép mặt lane4 với18/20/21. Rà liên lô PASS theo khóa, coordinator vẫn cần xem toàn sách.
+- LO_TRANG đủ4trang tăng dần; render từng trang trong lô giống PDF riêng. READY_FOR_COORDINATOR, không có BLOCKED_ART.

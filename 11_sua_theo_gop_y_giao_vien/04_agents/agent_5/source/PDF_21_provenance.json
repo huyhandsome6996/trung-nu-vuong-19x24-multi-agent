@@ -1,0 +1,45 @@
+{
+  "pdf_page": 21,
+  "mode": "built-in image_gen referenced-image edit, followed by editable Vietnamese font typesetting",
+  "actual_references": [
+    {
+      "path": "../../01_nguon_bat_bien/pages/PDF_21.jpg",
+      "sha256": "d93529acc5b264f3610c0b41b909b4bf9181dfaf79b1479d72e67d4b7fa89acf"
+    },
+    {
+      "path": "../agent_4/source/THANH_THIEN_REFERENCE.png",
+      "sha256": "bcc4b5daed58f1e1a9c64772f5ecf121618ad597c7e7a987dff685c72cae9a0a"
+    },
+    {
+      "path": "../../01_nguon_bat_bien/tham_khao_trang_phuc/ao_vat_trai_tham_khao.png",
+      "sha256": "6d9ad68c3f3d08c2e013aa45966465232b4b075c9ba260e5825fd1c343deeee0"
+    },
+    {
+      "path": "../../01_nguon_bat_bien/tham_khao_trang_phuc/giap_tham_khao.png",
+      "sha256": "2551db9c97ae522c5025551468e939133f14be23b02980eff70211c9599b942b"
+    }
+  ],
+  "retained_edited_art": "source/PDF_21_art.png",
+  "retained_art_sha256": "c7b36272b1b501a2d9b2245a8389d5554b76b3e64baf772864ed06d70f31c5e0",
+  "edit_spec": "source/PDF_21_edit_spec.txt",
+  "layout_source": "source/build_pages.py",
+  "text_source": "text/PDF_21.json",
+  "rebuild_command": "python3 source/build_pages.py 21",
+  "source_raster_px": [
+    896,
+    1200
+  ],
+  "edited_art_px": [
+    1084,
+    1451
+  ],
+  "page_size_pt": [
+    430.08,
+    576
+  ],
+  "recovery": {
+    "original_edited_image_library_id": "libfile_9daff32d2520819181f3d55a422b5de4",
+    "note": "Ảnh đã tạo được khôi phục từ bản lưu sau khi thư mục tạm phiên trước bị khởi tạo lại; font/JSON/script tái lập rồi kiểm lại."
+  },
+  "print_claim": "Không tuyên bố 300 DPI hoặc phục dựng lịch sử."
+}

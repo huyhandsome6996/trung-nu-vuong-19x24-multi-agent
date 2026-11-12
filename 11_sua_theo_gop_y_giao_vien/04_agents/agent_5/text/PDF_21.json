@@ -1,0 +1,31 @@
+{
+  "narration": "Chiến thắng tại núi Phượng Hoàng và đại lễ thề sư ở cửa sông Hát Môn đã làm rúng động thành Luy Lâu. Từ sự hy sinh anh dũng của Thi Sách, Trưng Định, Nguyễn Huyền, Đinh Lương, ngọn lửa đại nghĩa đã bùng cháy. Dưới ngọn cờ của Hai Bà Trưng và nữ tướng Thánh Thiên, đại quân Lạc Việt tiến về Luy Lâu quét sạch giặc Đông Hán!",
+  "dialogue": [],
+  "changes": [
+    "Giữ trang kết đơn, hai voi, đoàn quân, trống, kỵ binh, sông và bình minh theo bố cục Gemini.",
+    "Thay toàn bộ cờ, kể cả cờ nhỏ trong đoàn quân phía xa, thành đỏ đất trơn.",
+    "Phân biệt Hai Bà: Trưng Trắc tông đất và Trưng Nhị chàm; áo ngắn/giáp đơn giản/họa tiết dệt.",
+    "Kỵ tướng Thánh Thiên dùng khăn tang trắng, búi thấp, áo lục/giáp ngắn theo khóa lane4; lính/trống dùng khăn vấn.",
+    "Thu gọn ô vàng và dàn lại toàn bộ lời kết, giữ chữ đỏ có ý nghĩa."
+  ],
+  "pdf_page": 21,
+  "footnote": null,
+  "adaptation_note": "Lời thoại bổ sung là lời chuyển thể biên tập, không phải trích dẫn lịch sử.",
+  "layout_blocks": [
+    {
+      "box": [
+        78,
+        100,
+        740,
+        149
+      ],
+      "text": "Chiến thắng tại núi Phượng Hoàng và đại lễ thề sư ở cửa sông Hát Môn đã làm rúng động thành Luy Lâu. Từ sự hy sinh anh dũng của Thi Sách, Trưng Định, Nguyễn Huyền, Đinh Lương, ngọn lửa đại nghĩa đã bùng cháy. Dưới ngọn cờ của Hai Bà Trưng và nữ tướng Thánh Thiên, đại quân Lạc Việt tiến về Luy Lâu quét sạch giặc Đông Hán!",
+      "size": 19,
+      "red": [
+        "đại lễ thề sư ở cửa sông Hát Môn",
+        "Thi Sách, Trưng Định, Nguyễn Huyền, Đinh Lương",
+        "Hai Bà Trưng và nữ tướng Thánh Thiên"
+      ]
+    }
+  ]
+}
