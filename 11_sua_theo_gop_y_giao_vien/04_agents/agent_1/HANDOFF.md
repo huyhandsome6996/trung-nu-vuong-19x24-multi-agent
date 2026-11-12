@@ -27,7 +27,7 @@ Không thêm bóng thoại. Không đổi cốt truyện hoặc dùng thiết k�
 
 Nhánh duy nhất: `sua-theo-gop-y-giao-vien`. Toàn bộ thay đổi thuộc `11_sua_theo_gop_y_giao_vien/04_agents/agent_1/`.
 
-SHA checkpoint hoàn tất tranh/chữ PDF05: `5393dfb388a56d483f23ca09d6e7625526be597d`. Năm checkpoint từng trang nằm ở `qa/CHECKPOINT_COMMITS.json`. Commit bàn giao sau checkpoint chứa trạng thái READY, lô PDF và tài liệu này. Đây không phải xác nhận đã push; báo cáo phiên giao ghi kết quả remote sau lần thử thực tế.
+SHA checkpoint hoàn tất tranh/chữ PDF05: `5393dfb388a56d483f23ca09d6e7625526be597d`. Năm checkpoint từng trang nằm ở `qa/CHECKPOINT_COMMITS.json`. Commit bàn giao sau checkpoint chứa trạng thái READY, lô PDF và tài liệu này. Các SHA này là checkpoint lịch sử của clone tạm đã mất; bản khôi phục có commit xuất bản mới dưới đây.
 
 ## QA và giới hạn
 
@@ -37,10 +37,8 @@ Coordinator còn phải rà liên lane về cờ/trang phục và nhận diện 
 
 Nguồn tranh 896 × 1200 px, khoảng 150 ppi ở khổ PDF này; không tuyên bố đạt in 300 DPI. Cờ và trang phục theo quy ước minh hoạ/tài liệu người dùng, không phải chứng nhận khảo cổ. Chi tiết nét bút trong vùng sửa sinh có thể khác ảnh gốc; vùng ngoài mask giữ JPEG gốc. PASS là QA của agent, chưa phải giáo viên duyệt.
 
-## Xuất bản bị chặn
+## Xuất bản GitHub đã xác nhận
 
-Lệnh fetch/rebase/push đã bị hệ thống duyệt tự động từ chối vì chưa xác nhận quyền xuất bản lên đích GitHub/nhánh dùng chung. Chưa có xác nhận commit trên remote; không thử cách vòng qua. Các tệp và checkpoint hoàn chỉnh vẫn ở local và gói ZIP bàn giao. Cần người dùng xác nhận trực tiếp quyền push đúng repo/nhánh trước lần thử tiếp theo. Chi tiết: qa/PUBLISH.json.
+Người dùng đã trực tiếp cho phép push. Commit nội dung `7280294e974c89010e0b50d2fe7ad421907d3092` đã có trên nhánh `sua-theo-gop-y-giao-vien`; đã fetch và kiểm tổ tiên thành công. Chi tiết ở `qa/PUBLISH.json`.
 
-## Cập nhật tiếp tục xuất bản
-
-Người dùng đã xác nhận trực tiếp cho phép push. Clone tạm cũ không còn; toàn bộ đầu ra/nguồn/QA được khôi phục nguyên byte từ ZIP bàn giao, các commit cũ chỉ còn SHA lịch sử (không có đối tượng git trong ZIP). Lần xuất bản này dùng commit tổng hợp mới trên nhánh hiện hành, giữ công việc agent_4. Tình trạng mới nhất xem qa/PUBLISH.json, ghi đè trạng thái bị chặn ở phần trước.
+Clone tạm cũ đã mất khi môi trường làm mới; 77 tệp lane được khôi phục nguyên byte từ ZIP bàn giao và ghi bằng commit mới. PDF lô giữ SHA256 `69839cdf7ca4e19aef78eab00114bc7b26c30c80795cd4af2cd160f884ddc36c`. Giữ nguyên công việc agent_4 trên remote. Các đối tượng commit cũ không có trong ZIP, SHA cũ chỉ dùng truy nguyên lịch sử.

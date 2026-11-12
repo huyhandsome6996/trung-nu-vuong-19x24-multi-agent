@@ -23,3 +23,5 @@ Sau mỗi trang: ghi file đã có, kiểm thực tế, lỗi còn lại, bướ
 - Xuất bản: BLOCKED_APPROVAL. Hệ thống duyệt tự động từ chối lệnh push do chưa xác nhận quyền đích GitHub/nhánh dùng chung. Không thử lại/đi vòng; hoàn thiện gói PDF/ZIP bàn giao, chờ xác nhận trực tiếp.
 
 - Tiếp tục 12/11/2026: người dùng cho phép push trực tiếp. Clone cũ đã mất sau khi môi trường làm mới; khôi phục nguyên tệp lane từ ZIP đã lưu, dựa trên nhánh remote hiện hành có lô agent_4. Tạo commit xuất bản mới, giữ các SHA checkpoint cũ làm ghi nhận lịch sử.
+
+- Đã xuất bản commit nội dung 7280294e974c89010e0b50d2fe7ad421907d3092; fetch và kiểm ancestry remote PASS. Cập nhật publication=PUBLISHED. QA liên lane vẫn PENDING cho coordinator.

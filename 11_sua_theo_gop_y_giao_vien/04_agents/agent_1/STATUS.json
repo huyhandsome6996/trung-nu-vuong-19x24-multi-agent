@@ -89,6 +89,6 @@
     "text/PDF_05.json",
     "text/changes.md"
   ],
-  "publication": "AUTHORIZED_PENDING_PUSH",
-  "publication_note": "Người dùng đã xác nhận trực tiếp push; đang xuất bản bản khôi phục đúng ZIP."
+  "publication": "PUBLISHED",
+  "publication_note": "Đã push và kiểm commit nội dung 7280294e974c89010e0b50d2fe7ad421907d3092 là tổ tiên của đầu nhánh remote."
 }
