@@ -7,8 +7,7 @@
     "Phân biệt Hai Bà: Trưng Trắc tông đất và Trưng Nhị chàm; áo ngắn/giáp đơn giản/họa tiết dệt.",
     "Kỵ tướng Thánh Thiên dùng khăn tang trắng, búi thấp, áo lục/giáp ngắn theo khóa lane4; lính/trống dùng khăn vấn.",
     "Thu gọn ô vàng và dàn lại toàn bộ lời kết, giữ chữ đỏ có ý nghĩa.",
-    "Theo góp ý mới: chữ lời dẫn thống nhất21,5px và thoại18px, chỉnh ngắt dòng/khoảng đệm theo từng khung; giữ nguyên nội dung và tranh.",
-    "Lượt3 theo góp ý: tăng chữ rõ rệt lên30px và dàn lại khung/bóng thoại đủ chỗ; không thu chữ tự động."
+    "Theo góp ý mới: chữ lời dẫn thống nhất21,5px và thoại18px, chỉnh ngắt dòng/khoảng đệm theo từng khung; giữ nguyên nội dung và tranh."
   ],
   "pdf_page": 21,
   "footnote": null,
@@ -16,19 +15,19 @@
   "layout_blocks": [
     {
       "box": [
-        65,
-        50,
-        760,
-        272
+        78,
+        94,
+        740,
+        163
       ],
       "text": "Chiến thắng tại núi Phượng Hoàng và đại lễ thề sư ở cửa sông Hát Môn đã làm rúng động thành Luy Lâu. Từ sự hy sinh anh dũng của Thi Sách, Trưng Định, Nguyễn Huyền, Đinh Lương, ngọn lửa đại nghĩa đã bùng cháy. Dưới ngọn cờ của Hai Bà Trưng và nữ tướng Thánh Thiên, đại quân Lạc Việt tiến về Luy Lâu quét sạch giặc Đông Hán!",
-      "size": 30,
+      "size": 21.5,
       "red": [
         "đại lễ thề sư ở cửa sông Hát Môn",
         "Thi Sách, Trưng Định, Nguyễn Huyền, Đinh Lương",
         "Hai Bà Trưng và nữ tướng Thánh Thiên"
       ],
-      "leading_ratio": 1.15
+      "leading_ratio": 1.18
     }
   ]
 }

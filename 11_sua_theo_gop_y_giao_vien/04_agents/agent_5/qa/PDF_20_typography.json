@@ -1,32 +1,28 @@
 [
   {
-    "font_size_px": 30,
-    "requested_size_px": 30,
-    "line_count": 7,
-    "leading_px": 34.5,
+    "font_size_px": 21.5,
+    "requested_size_px": 21.5,
+    "line_count": 5,
+    "leading_px": 25.369999999999997,
     "line_widths_px": [
-      591.06,
-      737.97,
-      718.35,
-      749.13,
-      742.98,
-      512.58,
-      362.7
+      679.099,
+      680.97,
+      688.946,
+      686.925,
+      439.159
     ],
     "lines": [
-      "Giữa sân rộng chân núi Phượng Hoàng,",
-      "Tào Quyền, Lục Hiến và ba tướng giặc bị trói chặt",
-      "vào cọc gỗ. Nữ động chủ Thánh Thiên oai phong",
-      "tuốt gươm tuyên án tội ác sát hại thân phụ và tàn",
-      "hại bách tính Giao Chỉ. Trước sự ngoan cố của tên",
-      "giặc họ Tào, nàng vung kiếm dõng",
-      "dạc hạ lệnh: “Trảm thủ!”"
+      "Giữa sân rộng chân núi Phượng Hoàng, Tào Quyền, Lục Hiến và",
+      "ba tướng giặc bị trói chặt vào cọc gỗ. Nữ động chủ Thánh Thiên",
+      "oai phong tuốt gươm tuyên án tội ác sát hại thân phụ và tàn hại",
+      "bách tính Giao Chỉ. Trước sự ngoan cố của tên giặc họ Tào, nàng",
+      "vung kiếm dõng dạc hạ lệnh: “Trảm thủ!”"
     ],
     "box": [
-      65,
-      57,
-      760,
-      283
+      98,
+      99,
+      696,
+      155
     ]
   }
 ]

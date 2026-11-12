@@ -20,7 +20,7 @@
     }
   ],
   "retained_edited_art": "source/PDF_21_art.png",
-  "retained_art_sha256": "9b8bd0a2ea28516b7d01274e45a1a94835457cac1ade922857d64945287a7222",
+  "retained_art_sha256": "c7b36272b1b501a2d9b2245a8389d5554b76b3e64baf772864ed06d70f31c5e0",
   "edit_spec": "source/PDF_21_edit_spec.txt",
   "layout_source": "source/build_pages.py",
   "text_source": "text/PDF_21.json",
@@ -41,11 +41,5 @@
     "original_edited_image_library_id": "libfile_9daff32d2520819181f3d55a422b5de4",
     "note": "Ảnh đã tạo được khôi phục từ bản lưu sau khi thư mục tạm phiên trước bị khởi tạo lại; font/JSON/script tái lập rồi kiểm lại."
   },
-  "print_claim": "Không tuyên bố 300 DPI hoặc phục dựng lịch sử.",
-  "large_type_v3_refinement": {
-    "input": "source/PDF_21_art_before_type_v3.png",
-    "input_sha256": "c7b36272b1b501a2d9b2245a8389d5554b76b3e64baf772864ed06d70f31c5e0",
-    "prompt": "source/PDF_21_type_v3_prompt.txt",
-    "note": "Dàn lại khung/bóng thoại bằng chỉnh ảnh có tham chiếu để đủ chỗ cho chữ lớn, giữ số khung/cảnh/hành động và nhận diện."
-  }
+  "print_claim": "Không tuyên bố 300 DPI hoặc phục dựng lịch sử."
 }

@@ -1,87 +1,81 @@
 [
   {
-    "font_size_px": 30,
-    "requested_size_px": 30,
-    "line_count": 7,
-    "leading_px": 34.5,
+    "font_size_px": 21.5,
+    "requested_size_px": 21.5,
+    "line_count": 5,
+    "leading_px": 24.080000000000002,
     "line_widths_px": [
-      711.21,
-      689.67,
-      721.71,
-      684.27,
-      729.99,
-      669.72,
-      346.32
+      639.26,
+      711.457,
+      714.252,
+      601.85,
+      607.268
     ],
     "lines": [
-      "Trong lúc Tào Quyền và Lục Hiến đắc ý trên nhà",
-      "gỗ, hơn 300 kỵ binh nghĩa quân bất ngờ ập tới",
-      "bao vây! Toàn bộ quân Hán trên khe Mãng Xà và",
-      "30 khinh thuyền ngoài bến sông đều đã bị bắt",
-      "giết sạch. Tào Quyền và Lục Hiến khiếp đảm chui",
-      "xuống gầm phản thuốc nhưng bị nghĩa quân",
-      "dùng câu liêm lôi cổ ra!"
+      "Trong lúc Tào Quyền và Lục Hiến đắc ý trên nhà gỗ, hơn 300",
+      "kỵ binh nghĩa quân bất ngờ ập tới bao vây! Toàn bộ quân Hán trên",
+      "khe Mãng Xà và 30 khinh thuyền ngoài bến sông đều đã bị bắt giết",
+      "sạch. Tào Quyền và Lục Hiến khiếp đảm chui xuống gầm",
+      "phản thuốc nhưng bị nghĩa quân dùng câu liêm lôi cổ ra!"
     ],
     "box": [
-      77,
-      66,
-      740,
-      258
+      94,
+      85,
+      717,
+      123
     ]
   },
   {
-    "font_size_px": 26,
-    "requested_size_px": 26,
-    "line_count": 4,
-    "leading_px": 29.9,
+    "font_size_px": 18,
+    "requested_size_px": 18,
+    "line_count": 3,
+    "leading_px": 19.8,
     "line_widths_px": [
-      181.714,
-      181.454,
-      151.84,
-      162.968
+      147.366,
+      176.958,
+      149.724
     ],
     "lines": [
-      "Quân trên núi",
-      "bị bắt, thuyền",
-      "bị đoạt! Hết",
-      "đường chạy!"
+      "Quân trên núi bị",
+      "bắt, thuyền bị đoạt!",
+      "Hết đường chạy!"
     ],
     "box": [
-      96,
-      801,
-      220,
-      125
+      145,
+      841,
+      190,
+      64
     ]
   },
   {
-    "font_size_px": 26,
-    "requested_size_px": 26,
+    "font_size_px": 18,
+    "requested_size_px": 18,
     "line_count": 2,
-    "leading_px": 29.9,
+    "leading_px": 19.8,
     "line_widths_px": [
-      143.104,
-      188.63
+      99.072,
+      130.59
     ],
     "lines": [
       "Tìm đường",
       "xuống thuyền!"
     ],
     "box": [
-      548,
-      832,
-      194,
-      85
+      551,
+      885,
+      132,
+      66
     ]
   },
   {
-    "font_size_px": 26,
-    "requested_size_px": 26,
+    "font_size_px": 18,
+    "requested_size_px": 18,
     "line_count": 3,
-    "leading_px": 29.9,
+    "leading_px": 19.8,
     "line_widths_px": [
-      142.272,
-      116.454,
-      108.16
+      98.496,
+      80.622,
+      74.88
     ],
     "lines": [
       "Bị vây rồi...",
@@ -89,10 +83,10 @@
       "bây giờ?"
     ],
     "box": [
-      351,
-      856,
-      160,
-      98
+      328,
+      908,
+      125,
+      73
     ]
   }
 ]

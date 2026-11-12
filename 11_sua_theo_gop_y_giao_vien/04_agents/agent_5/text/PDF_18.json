@@ -19,8 +19,7 @@
     "Thêm hai câu thoại chuyển thể: Thánh Thiên chủ động thách giặc, Tào Quyền chủ quan ra lệnh đuổi; không tiết lộ kế cho địch.",
     "Đổi mặt/khăn tang/áo lục/giáp ngắn theo khóa lane4; giữ hai khung và động tác chỉ tay.",
     "Rà quân phục theo phe, giữ giáp quân Hán; trang không có cờ.",
-    "Theo góp ý mới: chữ lời dẫn thống nhất21,5px và thoại18px, chỉnh ngắt dòng/khoảng đệm theo từng khung; giữ nguyên nội dung và tranh.",
-    "Lượt3 theo góp ý: tăng chữ rõ rệt lên30px và dàn lại khung/bóng thoại đủ chỗ; không thu chữ tự động."
+    "Theo góp ý mới: chữ lời dẫn thống nhất21,5px và thoại18px, chỉnh ngắt dòng/khoảng đệm theo từng khung; giữ nguyên nội dung và tranh."
   ],
   "pdf_page": 18,
   "footnote": null,
@@ -28,51 +27,49 @@
   "layout_blocks": [
     {
       "box": [
-        77,
-        46,
-        740,
-        251
+        98,
+        99,
+        696,
+        155
       ],
       "text": "Sáu trăm quân Hán hùng hổ xông vào khu tư dinh bày đầy nhà gỗ của Nguyễn thần y. Bỗng pháo đại nổ đì đùng, tên nỏ bắn ra như mưa, Thánh Thiên bước ra chỉ mặt mắng Tào Quyền. Nàng giả vờ yếu thế rút chạy lên núi, nhử toàn bộ quân Hán hăm hở đuổi theo vào bẫy phục kích tại khe Mãng Xà!",
-      "size": 30,
+      "size": 21.5,
       "red": [
         "pháo đại nổ đì đùng, tên nỏ bắn ra như mưa",
         "giả vờ yếu thế rút chạy lên núi"
       ],
-      "leading_ratio": 1.15
+      "leading_ratio": 1.18
     },
     {
       "box": [
-        88,
-        728,
-        240,
-        110
+        149,
+        748,
+        155,
+        75
       ],
       "text": "Tào tặc! Có giỏi thì theo ta!",
-      "size": 26,
+      "size": 18,
       "font": "NotoSansBold",
-      "leading_ratio": 1.15,
+      "leading_ratio": 1.1,
       "lines": [
-        "Tào tặc!",
-        "Có giỏi thì",
-        "theo ta!"
+        "Tào tặc! Có giỏi",
+        "thì theo ta!"
       ]
     },
     {
       "box": [
-        491,
-        674,
-        201,
-        128
+        556,
+        692,
+        141,
+        70
       ],
       "text": "Chúng chạy rồi! Đuổi theo!",
-      "size": 26,
+      "size": 18,
       "font": "NotoSansBold",
-      "leading_ratio": 1.15,
+      "leading_ratio": 1.1,
       "lines": [
-        "Chúng",
-        "chạy rồi!",
-        "Đuổi theo!"
+        "Chúng chạy",
+        "rồi! Đuổi theo!"
       ]
     }
   ]

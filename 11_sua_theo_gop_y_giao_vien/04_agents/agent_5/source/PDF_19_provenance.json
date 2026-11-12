@@ -16,7 +16,7 @@
     }
   ],
   "retained_edited_art": "source/PDF_19_art.png",
-  "retained_art_sha256": "acc86dfb8fd55ad2ac5c38df00f1a79699de8fb89391b8ef17f0fb8d390cd1cd",
+  "retained_art_sha256": "54e6228c7ad344a3eebfc3f66f124a7a051d26e25be180caa10ad34972f58b86",
   "edit_spec": "source/PDF_19_edit_spec.txt",
   "layout_source": "source/build_pages.py",
   "text_source": "text/PDF_19.json",
@@ -48,15 +48,5 @@
     "prompt": "source/PDF_19_type_v2_balloon_prompt.txt",
     "sha256": "755323c717dd8bef838234376929dc69c1593bc5b258b41cb0751a27f6e291f1",
     "note": "Nới ngang hai bóng thoại để dàn chữ lớn, giữ nội dung/cảnh/hành động."
-  },
-  "large_type_v3_refinement": {
-    "input": "source/PDF_19_art_before_type_v3.png",
-    "input_sha256": "54e6228c7ad344a3eebfc3f66f124a7a051d26e25be180caa10ad34972f58b86",
-    "prompt": "source/PDF_19_type_v3_prompt.txt",
-    "note": "Dàn lại khung/bóng thoại bằng chỉnh ảnh có tham chiếu để đủ chỗ cho chữ lớn, giữ số khung/cảnh/hành động và nhận diện.",
-    "caption_refine": {
-      "input": "source/PDF_19_type_v3_art_draft.png",
-      "prompt": "source/PDF_19_type_v3_caption_refine.txt"
-    }
   }
 }

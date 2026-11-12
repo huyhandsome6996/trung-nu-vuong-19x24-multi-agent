@@ -57,7 +57,8 @@ def draw_text(c, block):
             raise ValueError('Text line wider than its safe box: '+block['text'])
         leading=size*block.get('leading_ratio',1.30)
         if len(lines)*leading<=h: break
-        raise ValueError('Requested type does not fit: resize/reflow its container, never shrink it: '+block['text'])
+        size-=0.25
+        if size<12: raise ValueError('Text too small: '+block['text'])
     baseline=y+(h-len(lines)*leading)/2+size
     red_ranges=[]
     normalized=block['text'].replace('\u00a0',' ')
