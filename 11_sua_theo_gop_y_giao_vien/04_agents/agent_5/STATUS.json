@@ -14,7 +14,7 @@
     21
   ],
   "blocked_pages": [],
-  "last_checkpoint": "PDF21 nhấn Hai Bà trên2voi ở tiền cảnh; Thánh Thiên nhỏ phía sau, câu kết nhấn Hai Bà. Cỡ chữ khôi phục giữ nguyên. PDF18–20 byte/render không đổi. QA PASS.",
+  "last_checkpoint": "Đã push và xác minh PDF21 lấy Hai Bà làm chủ đạo;18–20 nguyên vẹn, chỉ lane5.",
   "cross_lane_review": "PASS_REFERENCE_LANE4_COORDINATOR_BOOK_REVIEW_PENDING",
   "artifacts": [
     "HANDOFF.md",
@@ -75,6 +75,6 @@
     "text/PDF_21.json",
     "text/changes.md"
   ],
-  "publication_status": "READY_TO_PUSH",
-  "release_commit": "068afe447d68f2a5b14f6466767665321a572610"
+  "publication_status": "PUSHED",
+  "release_commit": "e29924043ae659d8b60d745e6d975b0afa1973e1"
 }

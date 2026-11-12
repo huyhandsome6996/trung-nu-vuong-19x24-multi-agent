@@ -44,3 +44,7 @@ Sau mỗi trang: ghi file đã có, kiểm thực tế, lỗi còn lại, bướ
 - Theo chỉ thị mới: sửa riêng21, Hai Bà/two elephants chiếm tiền cảnh, nữ tướng cưỡi ngựa nhỏ phía sau; dùng image_gen có tham chiếu, lưu prompt/bản trước.
 - Câu cuối nhấn ngọn cờ Hai Bà. Giữ cỡ chữ của bản khôi phục; không tái áp dụngV3.
 - Mở PNG/render mới, QA PASS;18–20 toàn bộPDF/PNG/text/art và render3trang đầu trong lô giữ nguyên.
+
+## Xác minh push bản Hai Bà chủ đạo
+- Commit e29924043ae659d8b60d745e6d975b0afa1973e1 đã push thành công; fetch và kiểm ancestor PASS.
+- Giữ nguyên18–20, tất cả commit trước đó và mọi lane khác.

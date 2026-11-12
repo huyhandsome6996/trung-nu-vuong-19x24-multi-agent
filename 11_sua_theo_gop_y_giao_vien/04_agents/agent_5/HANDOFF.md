@@ -1,6 +1,6 @@
 # Bàn giao Agent5: PDF18–21
 
-**Cập nhật hiện hành:** PDF21 lấy Hai Bà Trưng trên hai voi làm trọng tâm tiền cảnh; Thánh Thiên nhỏ trong đoàn quân sau. Câu cuối nhấn dưới ngọn cờ Hai Bà. Cỡ chữ giữ bản khôi phục,18–20 không đổi. Trạng thái push xem PUBLICATION.json.
+**Cập nhật hiện hành (đã push e29924043ae659d8b60d745e6d975b0afa1973e1):** PDF21 lấy Hai Bà Trưng trên hai voi làm trọng tâm tiền cảnh; Thánh Thiên nhỏ trong đoàn quân sau. Câu cuối nhấn dưới ngọn cờ Hai Bà. Cỡ chữ giữ bản khôi phục,18–20 không đổi. Trạng thái push xem PUBLICATION.json.
 
 Trạng thái: READY_FOR_COORDINATOR. Đây là4trang PDF vật lý18–21 trong bản Gemini21trang; không phải bộ28trang. Không nhận đã được giáo viên duyệt.
 

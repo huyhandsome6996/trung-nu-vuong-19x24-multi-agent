@@ -1,6 +1,6 @@
 {
   "agent": "agent_5",
-  "status": "READY_TO_PUSH",
+  "status": "PUSHED",
   "checkpoint_commits": [
     {
       "sha": "f29450fbdf2c3cf4f1abee85757a27afe12f2a47",
@@ -25,12 +25,16 @@
     {
       "sha": "068afe447d68f2a5b14f6466767665321a572610",
       "subject": "sua giao vien: agent_5 tang chu dong bo PDF18-21"
+    },
+    {
+      "sha": "e29924043ae659d8b60d745e6d975b0afa1973e1",
+      "subject": "sua giao vien: agent_5 trang ket lay Hai Ba Trung lam chu dao"
     }
   ],
   "intended_remote": "https://github.com/huyhandsome6996/trung-nu-vuong-19x24-multi-agent.git",
   "intended_branch": "sua-theo-gop-y-giao-vien",
-  "remote_verified": false,
-  "reason": "New user direction: Hai Bà Trưng are primary in the ending; only PDF21 art/text, lane handoff and combined PDF updated.",
+  "remote_verified": true,
+  "reason": "Page21 ending revised with Hai Bà Trưng as primary; push succeeded and remote ancestry verified. Pages18–20 unchanged.",
   "artifact_readiness": "READY_FOR_COORDINATOR",
   "blocked_pages": [],
   "validation": [
@@ -42,7 +46,8 @@
     "Actual reference SHA256 hashes verified after rebase"
   ],
   "scope": "Only 11_sua_theo_gop_y_giao_vien/04_agents/agent_5/ changed",
-  "checked_at": "2026-11-12T09:18:38.479515+00:00",
+  "checked_at": "2026-11-12T10:18:45.572787+00:00",
   "previous_release_commit": "068afe447d68f2a5b14f6466767665321a572610",
-  "remote_head_verified": "068afe447d68f2a5b14f6466767665321a572610"
+  "remote_head_verified": "e29924043ae659d8b60d745e6d975b0afa1973e1",
+  "release_commit": "e29924043ae659d8b60d745e6d975b0afa1973e1"
 }
