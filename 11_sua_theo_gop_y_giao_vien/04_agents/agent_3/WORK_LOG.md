@@ -54,3 +54,7 @@ Clone riêng đúng nhánh, chỉ ghi lane agent_3. Đã mở trực tiếp 5 JP
 ## Xuất bản
 
 Đã fetch/rebase đúng nhánh; push bị chặn vì thiếu xác thực GitHub ghi repo. Không tuyên bố đã push. Lưu commit cuối và bàn giao ZIP/PDF.
+
+## Tiếp tục xuất bản theo ủy quyền người dùng
+
+Khôi phục7commit từ bundle, áp lên đầu nhánh có Agent4, không có xung đột. Chỉ thay lane agent_3. Thông tin xác thực được truyền tạm qua môi trường, không lưu vào repo/URL/log.
