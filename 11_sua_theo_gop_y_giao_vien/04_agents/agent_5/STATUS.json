@@ -14,7 +14,7 @@
     21
   ],
   "blocked_pages": [],
-  "last_checkpoint": "V3: cả4trang lời dẫn30px/thoại26px, tăng39,5%/44,4% so bản trước, dàn lại khung/bóng thoại, kiểm ở546px và full render, QA PASS.",
+  "last_checkpoint": "V3 cả4trang đã push và xác minh remote: lời dẫn30px, thoại26px, không tràn, kiểm đủ4trang ở546px; chỉ thay lane5.",
   "cross_lane_review": "PASS_REFERENCE_LANE4_COORDINATOR_BOOK_REVIEW_PENDING",
   "artifacts": [
     "output/LO_TRANG.pdf",
@@ -96,6 +96,6 @@
     "HANDOFF.md",
     "PUBLICATION.json"
   ],
-  "publication_status": "READY_TO_PUSH",
-  "release_commit": "068afe447d68f2a5b14f6466767665321a572610"
+  "publication_status": "PUSHED",
+  "release_commit": "d650d52590d0b3837476b400c0662680c839351d"
 }

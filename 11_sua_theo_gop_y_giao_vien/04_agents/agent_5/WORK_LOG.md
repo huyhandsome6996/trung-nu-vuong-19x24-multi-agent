@@ -46,3 +46,8 @@ Sau mỗi trang: ghi file đã có, kiểm thực tế, lỗi còn lại, bướ
 - Tắt tự thu nhỏ cỡ chữ trong build; không vừa phải sửa bố trí/khung.
 - Mở đủ4PNG/4render PDF và4ảnh đọc ở546px như khung user chụp; chữ đủ lớn, không tràn, không che hành động/mặt/tay.
 - Kiểm cỡ chữ đúng30/26, dòng trong box, không lẻ từ cuối, khổ430,08×576pt, bản gộp4trang giống PDF riêng. PASS.
+
+## Xác minh xuất bản V3
+- Push d650d52590d0b3837476b400c0662680c839351d thành công; fetch + merge-base --is-ancestor PASS.
+- Kiểm diff từ4a217fb: chỉ lane5, không ảnh hưởng lane khác; working tree sẽ sạch sau commit ghi nhận.
+- PDF tải về cập nhật tên Agent_5_PDF18-21_CHU_LON_V3.pdf để phân biệt bản mới.

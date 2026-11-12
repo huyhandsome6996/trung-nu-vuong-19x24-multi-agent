@@ -1,6 +1,6 @@
 # Bản hiện hành V3: chữ lớn dễ đọc — PDF18–21
 
-Đây là bản mới sau phản hồi chữ vẫn bé: lời dẫn30px, thoại26px trên cả4trang, tăng39,5%/44,4% so bản V2. Khung/bóng thoại đã dàn lại để giữ cỡ chữ lớn; không rút nội dung, không thu chữ tự động. Đã mở đủ PNG/render và kiểm thêm ở độ rộng546px như màn hình đọc của người dùng. Xem qa/TYPOGRAPHY_REVISION_V3.json và PUBLICATION.json để biết bản phát hành/trạng thái push mới nhất.
+ĐÃ PUSH V3 d650d52590d0b3837476b400c0662680c839351d; đã fetch và xác minh trên remote. Đây là bản mới sau phản hồi chữ vẫn bé: lời dẫn30px, thoại26px trên cả4trang, tăng39,5%/44,4% so bản V2. Khung/bóng thoại đã dàn lại để giữ cỡ chữ lớn; không rút nội dung, không thu chữ tự động. Đã mở đủ PNG/render và kiểm thêm ở độ rộng546px như màn hình đọc của người dùng. Xem qa/TYPOGRAPHY_REVISION_V3.json và PUBLICATION.json để biết bản phát hành/trạng thái push mới nhất.
 
 Các phần bên dưới ghi lịch sử bàn giao; mọi số cỡ chữ21,5/18px ở phần lịch sử là bản trước, không phải bản hiện hành.
 
@@ -40,7 +40,7 @@ Trạng thái: READY_FOR_COORDINATOR. Đây là4trang PDF vật lý18–21 trong
 
 ## Git
 Nhánh duy nhất: sua-theo-gop-y-giao-vien. Chỉ ghi04_agents/agent_5/.
-ĐÃ PUSH bản tăng chữ: 068afe447d68f2a5b14f6466767665321a572610. Đã fetch lại và kiểm commit là tổ tiên của đầu nhánh remote. PUBLICATION.json ghi SHA các checkpoint sau rebase và chứng cứ trạng thái.
+ĐÃ PUSH bản hiện hành V3: d650d52590d0b3837476b400c0662680c839351d. Đã fetch lại và kiểm commit là tổ tiên của đầu nhánh remote. PUBLICATION.json ghi SHA các checkpoint sau rebase và chứng cứ trạng thái.
 Lượt trước từng bị chặn quyền push; người dùng đã trực tiếp cho phép ở lượt tăng chữ này, nên giới hạn đó đã được giải quyết.
 
 ## Bản tăng chữ mới nhất
