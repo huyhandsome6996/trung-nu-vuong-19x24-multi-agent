@@ -16,7 +16,7 @@
     14
   ],
   "blocked_pages": [],
-  "last_checkpoint": "Ho?n t?t ??t r? s?a PDF10, PDF12, PDF13 v? ki?m to?n b? PDF10?14; ?? t?i xu?t LO_TRANG.pdf kh?p t?ng trang v? ki?m validate_lane --ready PASS. Ch? coordinator ki?m li?n lane / push ??t s?a.",
+  "last_checkpoint": "Hoàn tất vòng rà sửa PDF_10, PDF_12, PDF_13 và kiểm tra toàn bộ PDF_10–14; đã tái xuất LO_TRANG.pdf, kiểm khớp 5/5 trang, validate_lane --ready PASS và push lên origin/sua-theo-gop-y-giao-vien.",
   "cross_lane_review": "PENDING",
   "artifacts": [
     "HANDOFF.md",
@@ -41,11 +41,11 @@
     "source/build_pages.py"
   ],
   "publication": {
-    "status": "AWAITING_PUSH",
+    "status": "PUBLISHED",
     "remote_branch": "sua-theo-gop-y-giao-vien",
-    "pushed": false,
-    "verified_content_commit": "b4f6aaf128173d6a64ab2f9411de68a731168cb2",
-    "verification": "Local branch is ahead of origin/sua-theo-gop-y-giao-vien after fix round; not pushed yet",
-    "reason": "??t r? s?a c?c b? sau b4f6aaf ch?a push l?n remote."
+    "pushed": true,
+    "verified_content_commit": "7654d6a244d381c21d56857914f89483b398b966",
+    "verification": "git fetch origin && git merge-base --is-ancestor 7654d6a244d381c21d56857914f89483b398b966 origin/sua-theo-gop-y-giao-vien (exit 0)",
+    "reason": "Đã đẩy toàn bộ vòng sửa PDF_10, PDF_12, PDF_13 và LO_TRANG.pdf lên nhánh sua-theo-gop-y-giao-vien và xác minh tổ tiên trên remote."
   }
 }

@@ -51,4 +51,4 @@ Commit bàn giao là commit chứa HANDOFF này (xem git log). Chỉ báo đã p
 
 - Lần push trước đã xác minh trên nhánh `sua-theo-gop-y-giao-vien`: `b4f6aaf128173d6a64ab2f9411de68a731168cb2`.
 - Vòng sửa bổ sung (fix round): sửa lại `PDF_12` (khôi phục khung trên theo gốc, giữ sửa lính khung dưới và 2 cờ đỏ trơn), `PDF_13` (gộp `núi Phượng Hoàng.` cùng dòng 5 trong ô 5 dòng), `PDF_10` (thay toàn bộ cờ có sao và khôi phục chuẩn chính tả `Đô Năng Tế`), và rebuild + kiểm khớp pixel/text toàn bộ `output/LO_TRANG.pdf` (5 trang).
-- Trạng thái hiện tại: `READY_FOR_COORDINATOR`, chờ đẩy các commit vòng sửa lên `origin/sua-theo-gop-y-giao-vien`.
+- Trạng thái hiện tại: `READY_FOR_COORDINATOR` / `PUBLISHED`. Commit nội dung vòng sửa đã push và xác minh trên `origin/sua-theo-gop-y-giao-vien`: `7654d6a244d381c21d56857914f89483b398b966` (`git merge-base --is-ancestor`: PASS).
