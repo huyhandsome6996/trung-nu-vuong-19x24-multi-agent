@@ -1,0 +1,32 @@
+{
+  "pdf_page": 14,
+  "narration": "Tại ngã ba sông Hát Môn, nghĩa quân đắp đàn tế cao hơn hai trượng dựa lưng vào núi Ba Vì. Chín mươi chín lá cờ ngũ sắc tung bay, 8 thớt voi trắng, 500 kỵ mã, hơn 100 chiến thuyền dàn trận uy nghiêm. Trong tiếng chiêng trống vang trời, Trưng Trắc và Trưng Nhị thành kính dâng hương tế cáo trời đất và tổ tiên.",
+  "footnote": null,
+  "dialogue": [
+    {
+      "speaker": "Trưng Trắc",
+      "panel": 2,
+      "order": 1,
+      "text": "Kính cáo trời đất, tổ tiên! Chúng con nguyện đồng lòng cứu dân, giành lại non sông."
+    },
+    {
+      "speaker": "Trưng Nhị",
+      "panel": 2,
+      "order": 2,
+      "text": "Dẫu gian nguy, chị em con quyết chẳng lui!"
+    }
+  ],
+  "changes": [
+    "Thay tất cả cờ, cả cờ nhỏ trên bờ và thuyền, thành đỏ đất trơn theo quy ước mỹ thuật.",
+    "Thêm lời khấn chuyển thể của Hai Bà ở khung dưới, không gán là nguyên văn lịch sử.",
+    "Rà trang phục Hai Bà/nghĩa quân, giữ tang phục, đàn tế, cảnh sông và hai khung.",
+    "Thu ô dẫn, giữ nguyên các số lượng và nội dung nguồn ngoài phạm vi sửa."
+  ],
+  "red_phrases": [
+    "đắp đàn tế cao hơn hai trượng",
+    "8 thớt voi trắng, 500 kỵ mã, hơn 100 chiến thuyền",
+    "Trưng Trắc và Trưng Nhị"
+  ],
+  "source_narration": "01_nguon_bat_bien/pages/PDF_14.jpg",
+  "editorial_status": "FINAL_TYPESET"
+}

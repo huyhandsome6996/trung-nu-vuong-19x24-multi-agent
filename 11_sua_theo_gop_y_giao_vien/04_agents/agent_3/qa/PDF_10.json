@@ -1,0 +1,49 @@
+{
+  "pdf_page": 10,
+  "status": "PASS",
+  "checks": {
+    "source_and_scope": "PASS",
+    "teacher_specific": "PASS",
+    "yellow_boxes": "PASS",
+    "flags_all_visible": "PASS",
+    "costumes_by_faction": "PASS",
+    "vietnamese_text": "PASS",
+    "dialogue_and_tail": "PASS",
+    "layout_and_no_damage": "PASS",
+    "rendered_pdf_review": "PASS"
+  },
+  "teacher_requirement_results": [
+    {
+      "requirement_index": 1,
+      "status": "PASS",
+      "note": "Đã xem cờ sau voi ở giữa và hai lá bên mép phải: vải đỏ đất trơn, không còn sao."
+    },
+    {
+      "requirement_index": 2,
+      "status": "PASS",
+      "note": "Đã xem trang phục lính/nhạc công ở khung dưới: khăn vấn, áo nâu/chàm và giáp ngắn; ô dẫn giảm từ khoảng 217 xuống175px, không che người."
+    }
+  ],
+  "visual_review": {
+    "reviewed": true,
+    "reviewer": "agent_3",
+    "evidence": [
+      "output/PDF_10.png",
+      "qa/PDF_10_render.png"
+    ],
+    "notes": "Đã mở bằng view_image ảnh PNG cuối và ảnh render PDF riêng; đối chiếu JPEG gốc/ảnh khoanh. Chữ thật font Việt, không tràn/hộp kép; giữ số khung và hành động chính."
+  },
+  "cross_lane_identity": "PENDING",
+  "source_files": [
+    "../../../01_nguon_bat_bien/pages/PDF_10.jpg",
+    "source/PDF_10/art_master.png",
+    "source/PDF_10/layout.json",
+    "source/build_pages.py",
+    "text/PDF_10.json"
+  ],
+  "limitations": [
+    "Cần coordinator đối chiếu nhận diện Hai Bà và trang phục với các lane khác.",
+    "Nguồn896×1200px; hình chỉnh1084×1451px không chứng minh chi tiết gốc đạt in300DPI.",
+    "Chỉnh ART bằng image_gen có thể đổi nét nhỏ; đã kiểm bố cục, nhận diện và sự kiện, không khẳng định pixel ngoài vùng sửa bằng nhau."
+  ]
+}

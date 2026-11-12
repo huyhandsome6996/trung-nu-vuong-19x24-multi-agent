@@ -1,0 +1,35 @@
+{
+  "narration": {
+    "font_px": 19.2,
+    "leading_px": 24,
+    "rect_px": [
+      79,
+      67,
+      817,
+      211
+    ],
+    "lines": [
+      {
+        "text": "Nửa đêm tại Cổ Lôi sơn trang, tin dữ Thi Sách cùng 7 vị tộc trưởng bị sát hại",
+        "baseline_y": 98.1
+      },
+      {
+        "text": "bay về Mê Linh. Trưng Trắc nén đau thương trước mặt sư phụ Đô Năng Tế,",
+        "baseline_y": 122.1
+      },
+      {
+        "text": "đanh giọng thề lớn: “Phụ thân bị giam, phu quân bị giết! Thù ta tất báo, nhục",
+        "baseline_y": 146.1
+      },
+      {
+        "text": "ta tất rửa!” Ngay trong đêm, bà triệu tập 17 vị tộc trưởng và 17 chiếc trống",
+        "baseline_y": 170.1
+      },
+      {
+        "text": "đồng chuẩn bị khởi nghĩa.",
+        "baseline_y": 194.1
+      }
+    ]
+  },
+  "dialogue": []
+}

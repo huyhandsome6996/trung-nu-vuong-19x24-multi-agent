@@ -1,0 +1,37 @@
+{
+  "pdf_page": 13,
+  "narration": "Khắp cõi Giao Chỉ đêm đêm lửa trại cháy rực, tiếng trống đồng, tiếng voi gầm vang vọng. Trong thành Luy Lâu, Thái thú Tô Định hoang mang lo sợ mất ăn mất ngủ. Đại tổng quản Tào Quyền hiến độc kế chia binh: sai Mã Tắc đánh Hát Môn, còn đích thân y đem 600 tinh binh và 30 khinh thuyền đánh úp núi Phượng Hoàng.",
+  "footnote": null,
+  "dialogue": [
+    {
+      "speaker": "Tào Quyền",
+      "panel": 3,
+      "order": 1,
+      "text": "Xin đánh Phượng Hoàng trước, phá thế liên kết!"
+    },
+    {
+      "speaker": "Tô Định",
+      "panel": 3,
+      "order": 2,
+      "text": "Nếu không giữ nổi thành, phải tính đường rút!"
+    },
+    {
+      "speaker": "Mã Tắc",
+      "panel": 3,
+      "order": 3,
+      "text": "Thần sẽ chặn đường Hát Môn!"
+    }
+  ],
+  "changes": [
+    "Khóa cụm Phượng Hoàng cùng dòng; thu ô dẫn.",
+    "Dùng Tào Quyền theo chú giải nguồn trang sách 247–269; sửa biến thể Tào Quyên trên ảnh Gemini.",
+    "Sửa trang phục quân Lĩnh Nam khung trên phải, giữ trang phục Hán của ba người khung dưới.",
+    "Thêm ba câu thoại chuyển thể: đường rút chỉ là dự phòng; giữ nguyên kế chia quân trong lời dẫn."
+  ],
+  "red_phrases": [
+    "lửa trại cháy rực, tiếng trống đồng, tiếng voi gầm",
+    "Tào Quyền hiến độc kế chia binh:"
+  ],
+  "source_narration": "01_nguon_bat_bien/pages/PDF_13.jpg",
+  "editorial_status": "FINAL_TYPESET"
+}

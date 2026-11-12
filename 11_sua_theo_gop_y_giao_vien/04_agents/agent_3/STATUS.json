@@ -1,6 +1,6 @@
 {
   "agent": "agent_3",
-  "status": "NOT_STARTED",
+  "status": "IN_PROGRESS",
   "pages": [
     10,
     11,
@@ -8,9 +8,18 @@
     13,
     14
   ],
-  "completed_pages": [],
+  "completed_pages": [
+    10
+  ],
   "blocked_pages": [],
-  "last_checkpoint": "Gói nhiệm vụ được chuẩn bị; agent chưa bắt đầu.",
+  "last_checkpoint": "PDF10: chữ/tranh/PNG/PDF/render đã kiểm trực tiếp, QA PASS; checkpoint theo trang.",
   "cross_lane_review": "PENDING",
-  "artifacts": []
+  "artifacts": [
+    "output/PDF_10.pdf",
+    "output/PDF_10.png",
+    "qa/PDF_10.json",
+    "output/PDF_10.pdf",
+    "output/PDF_10.png",
+    "qa/PDF_10.json"
+  ]
 }
