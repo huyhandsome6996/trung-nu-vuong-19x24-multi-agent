@@ -62,3 +62,11 @@ Khôi phục7commit từ bundle, áp lên đầu nhánh có Agent4, không có x
 ## Push đã xác minh
 
 Commit `b4f6aaf128173d6a64ab2f9411de68a731168cb2` đã lên remote. Lượt đầu bị từ chối fetch-first do agent khác push; đã fetch/rebase và thử lại an toàn, không xung đột, không force-push. Chỉ ghi lane agent_3, giữ commit các agent khác.
+
+## Đợt rà sửa bổ sung (PDF10–14)
+
+- PDF12: khôi phục khung trên nguyên bản Lĩnh Nam, ghép mượt vào `art_master.png`, giữ khung dưới đã sửa lính/cờ đỏ đất trơn.
+- PDF13: dàn lại ô dẫn còn 5 dòng đầy (`font 22,5px`, `leading 29px`) để `núi Phượng Hoàng.` gọn ở dòng 5; giữ Tào Quyền, quân Lĩnh Nam khung trên phải, 3 bóng thoại khung dưới.
+- PDF10: xác nhận tên đúng `Đô Năng Tế` theo `PDF_PAGE_BY_PAGE_ANNOTATIONS.md` và `AGENTS.md` (khôi phục từ nhầm lẫn `Đỗ Năng Tế` ở ảnh gốc Gemini), tái xuất PDF/PNG và cập nhật SHA-256.
+- PDF11 & PDF14: rà lại toàn diện từng tiêu chí, ảnh gốc/khoanh đỏ/`output/PDF_XX.png`/`qa/PDF_XX_render.png` đều đạt PASS, không phát sinh lỗi cần sửa thêm.
+- Tái xuất `output/LO_TRANG.pdf` từ 5 PDF hiện hành, kiểm khớp pixel từng trang và trích xuất chữ khớp JSON; `validate_lane.py agent_3 --ready` PASS, trạng thái `READY_FOR_COORDINATOR` (chưa push nhánh local lên remote).

@@ -1,6 +1,6 @@
 {
   "agent": "agent_3",
-  "status": "IN_PROGRESS",
+  "status": "READY_FOR_COORDINATOR",
   "pages": [
     10,
     11,
@@ -16,7 +16,7 @@
     14
   ],
   "blocked_pages": [],
-  "last_checkpoint": "Đã push lô PDF10–14, xác minh commit nằm trên remote; giữ toàn bộ commit Agent1/Agent4, chỉ thay lane agent_3. READY_FOR_COORDINATOR; cross-lane PENDING.",
+  "last_checkpoint": "Ho?n t?t ??t r? s?a PDF10, PDF12, PDF13 v? ki?m to?n b? PDF10?14; ?? t?i xu?t LO_TRANG.pdf kh?p t?ng trang v? ki?m validate_lane --ready PASS. Ch? coordinator ki?m li?n lane / push ??t s?a.",
   "cross_lane_review": "PENDING",
   "artifacts": [
     "HANDOFF.md",
@@ -41,11 +41,11 @@
     "source/build_pages.py"
   ],
   "publication": {
-    "status": "PUBLISHED",
+    "status": "AWAITING_PUSH",
     "remote_branch": "sua-theo-gop-y-giao-vien",
-    "pushed": true,
+    "pushed": false,
     "verified_content_commit": "b4f6aaf128173d6a64ab2f9411de68a731168cb2",
-    "verification": "git fetch + merge-base --is-ancestor: PASS",
-    "reason": null
+    "verification": "Local branch is ahead of origin/sua-theo-gop-y-giao-vien after fix round; not pushed yet",
+    "reason": "??t r? s?a c?c b? sau b4f6aaf ch?a push l?n remote."
   }
 }
