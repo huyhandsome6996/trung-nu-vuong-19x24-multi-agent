@@ -1,14 +1,20 @@
 {
   "agent": "agent_4",
-  "status": "NOT_STARTED",
+  "status": "IN_PROGRESS",
   "pages": [
     15,
     16,
     17
   ],
-  "completed_pages": [],
+  "completed_pages": [
+    15
+  ],
   "blocked_pages": [],
-  "last_checkpoint": "Gói nhiệm vụ được chuẩn bị; agent chưa bắt đầu.",
+  "last_checkpoint": "PDF15 đã chỉnh tranh, dàn chữ, xuất PNG/PDF và mở cả ảnh đầu ra lẫn PDF render. PDF16-17 chưa hoàn thành.",
   "cross_lane_review": "PENDING",
-  "artifacts": []
+  "artifacts": [
+    "output/PDF_15.png",
+    "output/PDF_15.pdf",
+    "qa/PDF_15.json"
+  ]
 }

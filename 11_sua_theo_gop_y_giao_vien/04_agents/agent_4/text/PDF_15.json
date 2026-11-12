@@ -1,0 +1,60 @@
+{
+  "pdf_page": 15,
+  "narration": "Trên kỳ đài Hát Môn, Nữ chủ tướng Trưng Trắc dõng dạc đọc bài Hịch truyền đánh giặc Tô Định: “Ta vốn dòng dõi hoàng tộc, con cháu Hùng tướng, vì nghĩa trừ hại, thù nước phải báo! Hãy kề vai sát cánh giương cây cung mạnh, quét sạch ngoại bang, lấy nước sông Thiên Hà rửa binh khí!”",
+  "footnote": null,
+  "dialogue": [
+    {
+      "speaker": "Trưng Trắc",
+      "panel": 1,
+      "order": 1,
+      "text": "Vì nợ nước, thù nhà, ta thề đánh đuổi giặc, khôi phục Lĩnh Nam!"
+    },
+    {
+      "speaker": "Nghĩa quân",
+      "panel": 1,
+      "order": 2,
+      "text": "Một lòng theo chủ tướng! Quyết giữ non sông!"
+    }
+  ],
+  "changes": [
+    "Thu ô vàng, dàn lại chữ Việt và giữ trọng tâm bài hịch.",
+    "Thêm lời thề chuyển thể của Trưng Trắc và lời hưởng ứng của nghĩa quân.",
+    "Đổi toàn bộ cờ mặt trời sang vải đỏ đất trơn; rà trang phục toàn cảnh."
+  ],
+  "layout_blocks": [
+    {
+      "text": "Trên kỳ đài Hát Môn, Nữ chủ tướng Trưng Trắc dõng dạc đọc bài Hịch truyền đánh giặc Tô Định: “Ta vốn dòng dõi hoàng tộc, con cháu Hùng tướng, vì nghĩa trừ hại, thù nước phải báo! Hãy kề vai sát cánh giương cây cung mạnh, quét sạch ngoại bang, lấy nước sông Thiên Hà rửa binh khí!”",
+      "box": [
+        81,
+        68,
+        734,
+        100
+      ],
+      "size": 17,
+      "red": [
+        "bài Hịch truyền đánh giặc Tô Định:",
+        "Ta vốn dòng dõi hoàng tộc, con cháu Hùng tướng, vì nghĩa trừ hại, thù nước phải báo! Hãy kề vai sát cánh giương cây cung mạnh, quét sạch ngoại bang, lấy nước sông Thiên Hà rửa binh khí!"
+      ]
+    },
+    {
+      "text": "Vì nợ nước, thù nhà, ta thề đánh đuổi giặc, khôi phục Lĩnh Nam!",
+      "box": [
+        570,
+        235,
+        240,
+        116
+      ],
+      "size": 18
+    },
+    {
+      "text": "Một lòng theo chủ tướng! Quyết giữ non sông!",
+      "box": [
+        57,
+        847,
+        152,
+        62
+      ],
+      "size": 15
+    }
+  ]
+}

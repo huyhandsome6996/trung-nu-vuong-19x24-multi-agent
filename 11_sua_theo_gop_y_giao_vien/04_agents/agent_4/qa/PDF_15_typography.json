@@ -1,0 +1,48 @@
+[
+  {
+    "font_size_px": 17,
+    "line_count": 4,
+    "lines": [
+      "Trên kỳ đài Hát Môn, Nữ chủ tướng Trưng Trắc dõng dạc đọc bài Hịch truyền đánh",
+      "giặc Tô Định: “Ta vốn dòng dõi hoàng tộc, con cháu Hùng tướng, vì nghĩa trừ hại, thù",
+      "nước phải báo! Hãy kề vai sát cánh giương cây cung mạnh, quét sạch ngoại bang, lấy",
+      "nước sông Thiên Hà rửa binh khí!”"
+    ],
+    "box": [
+      81,
+      68,
+      734,
+      100
+    ]
+  },
+  {
+    "font_size_px": 18,
+    "line_count": 3,
+    "lines": [
+      "Vì nợ nước, thù nhà, ta",
+      "thề đánh đuổi giặc, khôi",
+      "phục Lĩnh Nam!"
+    ],
+    "box": [
+      570,
+      235,
+      240,
+      116
+    ]
+  },
+  {
+    "font_size_px": 15,
+    "line_count": 3,
+    "lines": [
+      "Một lòng theo chủ",
+      "tướng! Quyết giữ",
+      "non sông!"
+    ],
+    "box": [
+      57,
+      847,
+      152,
+      62
+    ]
+  }
+]
