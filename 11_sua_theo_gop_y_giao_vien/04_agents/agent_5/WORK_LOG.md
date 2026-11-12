@@ -34,3 +34,8 @@ Sau mỗi trang: ghi file đã có, kiểm thực tế, lỗi còn lại, bướ
 - Lời dẫn đồng bộ21,5px (tăng7,5–19,4%); toàn bộ thoại18px (tăng5,9–24,1%). FontNotoSansBold/màu chữ giữ chung.
 - Chỉnh ngắt dòng/đệm; nới ngang2bóng thoại PDF19 bằng image_gen có tham chiếu. Lưu bản trước và prompt. Không đổi lời dẫn/thoại/số trang.
 - Mở đủ4PNG +4render PDF mới; kiểm dòng không vượt box, không lẻ từ cuối, khổ430,08×576pt và lô4trang khớpPDF riêng. PASS.
+
+## Xác nhận push —12/11/2026
+- Đã push bản tăng chữ 068afe447d68f2a5b14f6466767665321a572610 lên đúng nhánh sửa. Fetch lại và merge-base --is-ancestor PASS.
+- Chỉ thay lane5; không force push; không lưu credential vào repo/URL/file.
+- PDF tải về đã cập nhật cùng bản tăng chữ.

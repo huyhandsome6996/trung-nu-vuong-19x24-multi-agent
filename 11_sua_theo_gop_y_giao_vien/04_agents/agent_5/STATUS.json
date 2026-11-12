@@ -14,7 +14,7 @@
     21
   ],
   "blocked_pages": [],
-  "last_checkpoint": "Tăng chữ4trang: lời dẫn21,5px, thoại18px; mở đủ PNG/render mới, kiểm kích thước/không tràn/không lẻ dòng; user đã cho phép push đích repo hiện hành.",
+  "last_checkpoint": "Chữ đã tăng đồng bộ, QA PASS; đã push và xác minh commit thuộc nhánh remote sua-theo-gop-y-giao-vien.",
   "cross_lane_review": "PASS_REFERENCE_LANE4_COORDINATOR_BOOK_REVIEW_PENDING",
   "artifacts": [
     "HANDOFF.md",
@@ -71,5 +71,6 @@
     "text/PDF_21.json",
     "text/changes.md"
   ],
-  "publication_status": "READY_TO_PUSH"
+  "publication_status": "PUSHED",
+  "release_commit": "068afe447d68f2a5b14f6466767665321a572610"
 }
