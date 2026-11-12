@@ -1,0 +1,37 @@
+{
+  "tool": "image_gen.imagegen",
+  "mode": "referenced_image_paths",
+  "original_image": {
+    "path": "01_nguon_bat_bien/pages/PDF_02.jpg",
+    "sha256": "a5c70a1fd4226d825f78592d7e12b868757b9a9ba8929d9a35ed657c77c9c14e",
+    "role": "edit_target"
+  },
+  "references_viewed": [
+    {
+      "path": "01_nguon_bat_bien/tham_khao_trang_phuc/nam_tham_khao.png",
+      "sha256": "c093a14e9657e783b4659b42575421bb0241970b597eca2249e10baaee2f999d",
+      "role": "costume_reference_viewed"
+    },
+    {
+      "path": "01_nguon_bat_bien/tham_khao_trang_phuc/nu_tham_khao.png",
+      "sha256": "72b833caf0fb8a956809b412d54dfdf04452d38d86d650bc709fc01d5faa6e49",
+      "role": "costume_reference_viewed"
+    },
+    {
+      "path": "01_nguon_bat_bien/tham_khao_trang_phuc/giap_tham_khao.png",
+      "sha256": "2551db9c97ae522c5025551468e939133f14be23b02980eff70211c9599b942b",
+      "role": "costume_reference_viewed"
+    },
+    {
+      "path": "01_nguon_bat_bien/tham_khao_trang_phuc/ao_vat_trai_tham_khao.png",
+      "sha256": "6d9ad68c3f3d08c2e013aa45966465232b4b075c9ba260e5825fd1c343deeee0",
+      "role": "costume_reference_viewed"
+    }
+  ],
+  "actual_references_sent": [],
+  "raw_output_sha256": "3f2c6aedda70845067895885126c6bac803787a1baf2f710f566031194752e35",
+  "prompt": "edit_prompt.md",
+  "reproduction": "Archived edited raster is the deterministic layout input. Image generation itself is non-deterministic; rerunning the prompt need not reproduce identical pixels.",
+  "compositing": "Only white mask regions use the archived imagegen edit; black retains immutable JPEG pixels. No flags/costumes are drawn with code.",
+  "art_for_layout_sha256": "6f38d71cd9db47a72b27196d0908266a884c4798f861abbcd0dcff7ee5169d55"
+}

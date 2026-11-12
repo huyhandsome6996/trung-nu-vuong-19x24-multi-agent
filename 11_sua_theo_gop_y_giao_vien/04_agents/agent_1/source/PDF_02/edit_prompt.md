@@ -1,0 +1,5 @@
+Use case: precise-object-edit. This is comic page PDF02. It depicts HAN CHINESE soldiers, NOT Ling Nam; do NOT change their costumes, headgear, faces or any panel content.
+ONLY edit the two yellow TEXT PLAQUES for later typesetting:
+1. Remove all letters inside the upper yellow narration box, leave it completely BLANK. Preserve its pale yellow paper and hand-inked rounded outline, shorten the box from y=78..273 to y=78..248 in the original 896x1200 coordinates, same x=80..826. Reconstruct the revealed strip beneath with the surrounding paper/sky, no blank yellow strip. Do not move panels.
+2. Remove ALL letters and the asterisk from the bottom footnote yellow box, leaving it BLANK, same compact height around y=1140..1190. Keep its border and pale yellow paper.
+ALL artwork outside these two text areas must remain identical: two diagonal upper panels and one wide lower panel, Tô Định in tall official cap and maroon robe, armoured Han commander, tiger-shaped token, torches, marching army and castle, trees and ink/watercolor style. No new text, no extra scene, no costume replacement, no flags added. This is a local text-cleanup operation, not a page redesign.

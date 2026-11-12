@@ -1,0 +1,46 @@
+{
+  "pdf_page": 3,
+  "page_size_pt": [
+    430.08,
+    576
+  ],
+  "image_size_px": [
+    896,
+    1200
+  ],
+  "art": "art_for_layout.png",
+  "paragraphs": [
+    {
+      "font": "Narration",
+      "font_size_px": 19.2,
+      "box_px": [
+        91,
+        82,
+        807,
+        235
+      ],
+      "lines": [
+        {
+          "text": "Từ ngày Tô Định cai trị, quân Hán mặc sức cướp bóc, đàn áp bách tính",
+          "baseline_y_px": 114.628
+        },
+        {
+          "text": "Giao Chỉ. Lo cho cha già, Trưng Trắc từ biệt chồng trở về Mê Linh thăm cha",
+          "baseline_y_px": 139.012
+        },
+        {
+          "text": "và bàn kế cùng sư phụ. Ở lại phủ Chu Diên, Thi Sách trăn trở suốt đêm,",
+          "baseline_y_px": 163.396
+        },
+        {
+          "text": "vừa tờ mờ sáng đã triệu vợ chồng tướng trẻ Đinh Lương và",
+          "baseline_y_px": 187.78
+        },
+        {
+          "text": "Phùng Thị Chính tới bàn kế sách giữ đất Chu Diên.",
+          "baseline_y_px": 212.164
+        }
+      ]
+    }
+  ]
+}

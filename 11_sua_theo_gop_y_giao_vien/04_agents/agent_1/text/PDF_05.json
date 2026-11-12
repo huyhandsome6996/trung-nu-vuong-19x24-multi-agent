@@ -1,0 +1,20 @@
+{
+  "pdf_page": 5,
+  "narration": "Một hôm, chim câu từ Mê Linh bay tới mang theo mật thư khẩn của phu nhân Trưng Trắc: “Giặc Tô Định đã bắt giữ cha thiếp tại Luy Lâu, lại đang đem quân xuống Chu Diên bắt phu quân!” Thi Sách lập tức sai Đinh Lương triệu tập 27 tộc trưởng, 70 thương thuyền cùng 8 phường săn về ứng cứu, và sai Phùng Thị Chính dẫn thị vệ về Mê Linh.",
+  "footnote": null,
+  "dialogue": [],
+  "embedded_quotation": [
+    {
+      "speaker": "Trưng Trắc",
+      "medium": "mật thư được trích trong lời dẫn, không phải bóng thoại",
+      "text": "Giặc Tô Định đã bắt giữ cha thiếp tại Luy Lâu, lại đang đem quân xuống Chu Diên bắt phu quân!"
+    }
+  ],
+  "changes": [
+    "Đổi mở đầu Bỗng chim câu thành Một hôm, chim câu.",
+    "Giữ nguyên nội dung mật thư, hành động và các số 27, 70, 8 của bản Gemini.",
+    "Thu ô vàng, thay toàn bộ cờ lớn/nhỏ thành đỏ đất trơn và rà trang phục Lĩnh Nam."
+  ],
+  "text_source": "Bản Gemini: đọc trực tiếp JPEG nguồn; áp dụng đúng chỉ thị giáo viên ngày 12/11/2026.",
+  "dialogue_added": false
+}

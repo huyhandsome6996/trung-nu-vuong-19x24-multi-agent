@@ -1,0 +1,63 @@
+{
+  "pdf_page": 2,
+  "status": "PASS",
+  "checks": {
+    "source_and_scope": "PASS",
+    "teacher_specific": "PASS",
+    "yellow_boxes": "PASS",
+    "flags_all_visible": "PASS",
+    "costumes_by_faction": "PASS",
+    "vietnamese_text": "PASS",
+    "dialogue_and_tail": "PASS",
+    "layout_and_no_damage": "PASS",
+    "rendered_pdf_review": "PASS"
+  },
+  "teacher_requirement_results": [
+    {
+      "requirement_index": 1,
+      "status": "PASS",
+      "note": "Không còn Chú thích: hoặc dấu * trong ô dẫn và ô chân trang; kiểm cả chữ trích xuất từ PDF và ảnh render."
+    },
+    {
+      "requirement_index": 2,
+      "status": "PASS",
+      "note": "Cả lời dẫn và chú giải đều dùng “Tiên phát chế nhân”; toàn bộ chú giải dùng Noto Sans Italic, đủ nghĩa gốc."
+    },
+    {
+      "requirement_index": 3,
+      "status": "PASS",
+      "note": "Ô dẫn cao khoảng 174 px thay khoảng 195 px; ô chân trang gọn theo hai dòng chữ, không xoá giải nghĩa. Đã nhìn thấy padding và viền ở cả PNG/PDF render."
+    },
+    {
+      "requirement_index": 4,
+      "status": "PASS",
+      "note": "Giữ nguyên pixel tranh ở cả ba khung quân Hán; Tô Định, viên báo tin, tướng nhận hổ phù và đội quân vẫn mang nhận diện Hán."
+    }
+  ],
+  "visual_review": {
+    "reviewed": true,
+    "reviewer": "agent_1 / Codex",
+    "evidence": [
+      "output/PDF_02.png",
+      "qa/PDF_02_render.png"
+    ],
+    "notes": "Đã mở trực tiếp PNG đầu ra và ảnh render độc lập bằng Poppler 150 dpi; rà chữ, viền khung, cờ gần/xa, trang phục đúng phe và các hành động chính. PASS là QA của agent, không phải giáo viên phê duyệt."
+  },
+  "cross_lane_identity": "PENDING",
+  "source_files": [
+    "source/PDF_02/art_edit_raw.png",
+    "source/PDF_02/art_for_layout.png",
+    "source/PDF_02/edit_selection_mask.png",
+    "source/PDF_02/edit_prompt.md",
+    "source/PDF_02/provenance.json",
+    "source/PDF_02/layout.json",
+    "source/build_pages.py",
+    "text/PDF_02.json"
+  ],
+  "limitations": [
+    "Ảnh nền nguồn 896×1200 px, tương ứng khoảng 150 ppi ở khổ PDF; không chứng nhận in 300 DPI.",
+    "Chỉnh sinh chỉ được ghép trong vùng mask; các chi tiết nét bút trong vùng trang phục/nền/cờ có thể khác bản gốc.",
+    "Coordinator cần rà liên lane về cờ/trang phục và nhận diện trước ghép 21 trang."
+  ],
+  "text_pdf_verification": "PASS: normalized extracted text equals final text JSON"
+}

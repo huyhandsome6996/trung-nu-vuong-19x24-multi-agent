@@ -1,0 +1,8 @@
+{
+  "source_archive": "Agent_1_PDF01-05_Ban_Giao.zip",
+  "archive_sha256": "9fceb31168110278825ef7c7a765a8aa38e2ade2b58d4d4621219d5abc6a84f2",
+  "restored_lane_files": 77,
+  "prior_local_head": "814bdbc17933aa3eb96fe483429b5fd21023f500",
+  "note": "Previous ephemeral clone is unavailable; historical checkpoint objects were not in the handoff ZIP. Restored exact lane bytes onto latest shared branch and will use a new consolidated publication commit.",
+  "artifact_bytes_changed": false
+}

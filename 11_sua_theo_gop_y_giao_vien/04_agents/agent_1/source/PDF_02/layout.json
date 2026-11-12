@@ -1,0 +1,66 @@
+{
+  "pdf_page": 2,
+  "page_size_pt": [
+    430.08,
+    576
+  ],
+  "image_size_px": [
+    896,
+    1200
+  ],
+  "art": "art_for_layout.png",
+  "paragraphs": [
+    {
+      "font": "Narration",
+      "font_size_px": 19.2,
+      "box_px": [
+        96,
+        91,
+        808,
+        240
+      ],
+      "lines": [
+        {
+          "text": "Tại thành Luy Lâu, tướng Mã Tắc khẩn cấp vào bẩm báo Thái thú Tô Định:",
+          "baseline_y_px": 121.628
+        },
+        {
+          "text": "cha của Trưng Trắc là Trưng Định cùng thần y Nguyễn Huyền đã bị bắt",
+          "baseline_y_px": 146.012
+        },
+        {
+          "text": "giam. Sợ con rể Trưng Định là Thi Sách ở Chu Diên nổi dậy, Tô Định liền",
+          "baseline_y_px": 170.396
+        },
+        {
+          "text": "dùng kế “Tiên phát chế nhân”, trao hổ phù sai Mã Tắc và Lữ Thạch lập tức",
+          "baseline_y_px": 194.78
+        },
+        {
+          "text": "đem quân đánh úp Chu Diên.",
+          "baseline_y_px": 219.164
+        }
+      ]
+    },
+    {
+      "font": "Footnote",
+      "font_size_px": 14.6,
+      "box_px": [
+        59,
+        1146,
+        835,
+        1182
+      ],
+      "lines": [
+        {
+          "text": "“Tiên phát chế nhân” nghĩa là chủ động ra tay hành động trước để giành lợi thế, khống chế đối phương trước khi họ",
+          "baseline_y_px": 1158.744
+        },
+        {
+          "text": "kịp phản kháng.",
+          "baseline_y_px": 1176.994
+        }
+      ]
+    }
+  ]
+}

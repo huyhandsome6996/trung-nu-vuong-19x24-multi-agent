@@ -1,0 +1,11 @@
+{
+  "status": "AUTHORIZED_PENDING_PUSH",
+  "content_commit": "df39be6b6899874cf81cffa64718ba452e6ad879",
+  "branch": "sua-theo-gop-y-giao-vien",
+  "remote_publication_confirmed": false,
+  "reason": "Automatic approval review rejected the push: unverified GitHub destination/shared remote branch without trusted end-user authorization for publication.",
+  "next_step": "Commit the restored lane, fetch/rebase, push and verify ancestry. Credentials are used only in process memory.",
+  "artifact_readiness": "READY_FOR_COORDINATOR",
+  "blocked_art_pages": [],
+  "authorization": "User directly requested push to the previously named repository/branch and supplied credentials in the current conversation."
+}

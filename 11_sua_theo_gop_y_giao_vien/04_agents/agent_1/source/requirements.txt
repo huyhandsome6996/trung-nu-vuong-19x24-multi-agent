@@ -1,0 +1,4 @@
+Pillow
+reportlab
+PyMuPDF
+# Independent QA renderer: Poppler pdftoppm

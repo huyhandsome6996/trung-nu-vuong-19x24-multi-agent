@@ -1,0 +1,46 @@
+# Bàn giao Agent 1 — PDF01–05
+
+Trạng thái: READY_FOR_COORDINATOR. Hoàn thành 5/5 trang, không có BLOCKED_ART. Đây là lô 5 trang vật lý của PDF Gemini 21 trang, tính bìa là 01; không phải bộ sản xuất 28 trang cũ.
+
+## Sản phẩm thật
+
+- `output/PDF_01.png` … `PDF_05.png`: 896 × 1200 px.
+- `output/PDF_01.pdf` … `PDF_05.pdf`: một trang mỗi file, MediaBox 430,08 × 576 pt.
+- `output/LO_TRANG.pdf`: 5 trang theo thứ tự 01–05, cùng khổ nguồn.
+- `text/PDF_XX.json`: toàn bộ chữ cuối, người viết thư/người nói nếu có và quyết định sửa.
+- `source/PDF_XX/`: ảnh sửa thật từ image_gen.imagegen, prompt, provenance/hash tham chiếu, ảnh ghép, mask, layout từng dòng; `source/build_pages.py` và font đính kèm tái tạo dàn trang.
+- `qa/PDF_XX.json`: kết quả từng yêu cầu và ảnh render Poppler đã mở kiểm.
+
+## Điều đã sửa
+
+|Trang|Sửa|
+|---|---|
+|01|Tất cả cờ lớn/nhỏ đỏ đất trơn; trang phục/khăn lính; giữ nguyên tiêu đề, phụ đề và câu dẫn.|
+|02|Bỏ nhãn/dấu *; thuật ngữ trong ngoặc kép; chú giải đủ nghĩa, in nghiêng; ô vàng gọn, giữ tranh quân Hán gốc.|
+|03|Thành phía sau đôi nhân vật → ruộng lúa/trâu; trang phục và ô vàng; giữ lời dẫn và ba khung.|
+|04|Phùng Công Lực ở hai chỗ đại từ ông; Nay vợ chồng Phùng Thị Chính; theo Thi Sách và Trưng Trắc; rà cờ/trang phục hồi tưởng.|
+|05|Một hôm, chim câu…; mật thư và 27/70/8 giữ nguyên; ô vàng, trang phục, cờ gần/xa.|
+
+Không thêm bóng thoại. Không đổi cốt truyện hoặc dùng thiết kế cũ làm nền. Phần tranh được chỉnh bằng tham chiếu gốc, rồi chọn vùng bằng mask; chữ mới dùng font Việt thật.
+
+## Git và phạm vi
+
+Nhánh duy nhất: `sua-theo-gop-y-giao-vien`. Toàn bộ thay đổi thuộc `11_sua_theo_gop_y_giao_vien/04_agents/agent_1/`.
+
+SHA checkpoint hoàn tất tranh/chữ PDF05: `5393dfb388a56d483f23ca09d6e7625526be597d`. Năm checkpoint từng trang nằm ở `qa/CHECKPOINT_COMMITS.json`. Commit bàn giao sau checkpoint chứa trạng thái READY, lô PDF và tài liệu này. Đây không phải xác nhận đã push; báo cáo phiên giao ghi kết quả remote sau lần thử thực tế.
+
+## QA và giới hạn
+
+Đã mở đủ PNG sửa và ảnh render PDF bằng Poppler. Chữ trích xuất PDF02–05 khớp hoàn toàn JSON khi chuẩn hoá khoảng trắng; bìa giữ chữ raster gốc và đã đọc kiểm. Các kiểm kỹ thuật cuối được ghi trong `qa/TECHNICAL_CHECKS.md`.
+
+Coordinator còn phải rà liên lane về cờ/trang phục và nhận diện trước ghép 21 trang; mục liên lane PENDING được giữ rõ trong STATUS/QA. Lô này không có Thánh Thiên để đối chiếu lane 4/5.
+
+Nguồn tranh 896 × 1200 px, khoảng 150 ppi ở khổ PDF này; không tuyên bố đạt in 300 DPI. Cờ và trang phục theo quy ước minh hoạ/tài liệu người dùng, không phải chứng nhận khảo cổ. Chi tiết nét bút trong vùng sửa sinh có thể khác ảnh gốc; vùng ngoài mask giữ JPEG gốc. PASS là QA của agent, chưa phải giáo viên duyệt.
+
+## Xuất bản bị chặn
+
+Lệnh fetch/rebase/push đã bị hệ thống duyệt tự động từ chối vì chưa xác nhận quyền xuất bản lên đích GitHub/nhánh dùng chung. Chưa có xác nhận commit trên remote; không thử cách vòng qua. Các tệp và checkpoint hoàn chỉnh vẫn ở local và gói ZIP bàn giao. Cần người dùng xác nhận trực tiếp quyền push đúng repo/nhánh trước lần thử tiếp theo. Chi tiết: qa/PUBLISH.json.
+
+## Cập nhật tiếp tục xuất bản
+
+Người dùng đã xác nhận trực tiếp cho phép push. Clone tạm cũ không còn; toàn bộ đầu ra/nguồn/QA được khôi phục nguyên byte từ ZIP bàn giao, các commit cũ chỉ còn SHA lịch sử (không có đối tượng git trong ZIP). Lần xuất bản này dùng commit tổng hợp mới trên nhánh hiện hành, giữ công việc agent_4. Tình trạng mới nhất xem qa/PUBLISH.json, ghi đè trạng thái bị chặn ở phần trước.

@@ -1,0 +1,4 @@
+# PDF is a binary document even when its streams use ASCII85 encoding.
+*.pdf binary
+*.png binary
+*.ttf binary

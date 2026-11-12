@@ -1,0 +1,53 @@
+{
+  "pdf_page": 1,
+  "status": "PASS",
+  "checks": {
+    "source_and_scope": "PASS",
+    "teacher_specific": "PASS",
+    "yellow_boxes": "PASS",
+    "flags_all_visible": "PASS",
+    "costumes_by_faction": "PASS",
+    "vietnamese_text": "PASS",
+    "dialogue_and_tail": "PASS",
+    "layout_and_no_damage": "PASS",
+    "rendered_pdf_review": "PASS"
+  },
+  "teacher_requirement_results": [
+    {
+      "requirement_index": 1,
+      "status": "PASS",
+      "note": "Đã mở PNG và bản render Poppler: cờ lớn bên trái, cờ lớn phải và cờ nhỏ cạnh vai phải đều là đỏ đất trơn; hai lính thường dùng khăn vấn, giáp ngắn và cổ áo/đai vải được chỉnh theo ảnh tham khảo."
+    },
+    {
+      "requirement_index": 2,
+      "status": "PASS",
+      "note": "Tiêu đề, phụ đề, hai nhãn tên và câu dẫn chân trang giữ trực tiếp từ pixel nguồn. Bố cục bìa, nhân vật và cảnh thành phía sau được giữ; ô bìa vốn gọn, không thu ép."
+    }
+  ],
+  "visual_review": {
+    "reviewed": true,
+    "reviewer": "agent_1 / Codex",
+    "evidence": [
+      "output/PDF_01.png",
+      "qa/PDF_01_render.png"
+    ],
+    "notes": "Đã mở trực tiếp PNG đầu ra và ảnh render độc lập bằng Poppler 150 dpi; rà chữ, viền khung, cờ gần/xa, trang phục đúng phe và các hành động chính. PASS là QA của agent, không phải giáo viên phê duyệt."
+  },
+  "cross_lane_identity": "PENDING",
+  "source_files": [
+    "source/PDF_01/art_edit_raw.png",
+    "source/PDF_01/art_for_layout.png",
+    "source/PDF_01/edit_selection_mask.png",
+    "source/PDF_01/edit_prompt.md",
+    "source/PDF_01/provenance.json",
+    "source/PDF_01/layout.json",
+    "source/build_pages.py",
+    "text/PDF_01.json"
+  ],
+  "limitations": [
+    "Ảnh nền nguồn 896×1200 px, tương ứng khoảng 150 ppi ở khổ PDF; không chứng nhận in 300 DPI.",
+    "Chỉnh sinh chỉ được ghép trong vùng mask; các chi tiết nét bút trong vùng trang phục/nền/cờ có thể khác bản gốc.",
+    "Coordinator cần rà liên lane về cờ/trang phục và nhận diện trước ghép 21 trang."
+  ],
+  "text_pdf_verification": "PASS: cover lettering retained from original image, visually checked against text JSON"
+}
