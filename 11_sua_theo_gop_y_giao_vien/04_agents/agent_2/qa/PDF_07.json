@@ -1,0 +1,47 @@
+{
+  "pdf_page": 7,
+  "status": "PASS",
+  "checks": {
+    "source_and_scope": "PASS",
+    "teacher_specific": "PASS",
+    "yellow_boxes": "PASS",
+    "flags_all_visible": "PASS",
+    "costumes_by_faction": "PASS",
+    "vietnamese_text": "PASS",
+    "dialogue_and_tail": "PASS",
+    "layout_and_no_damage": "PASS",
+    "rendered_pdf_review": "PASS"
+  },
+  "teacher_requirement_results": [
+    {
+      "requirement_index": 1,
+      "status": "PASS",
+      "note": "Mở PNG/render cuối: Thi Sách ở phải khung trên, trái khung dưới mặc giáp phiến ngắn trên áo tía vạt trái, đai vải và khăn đỏ. Lữ Thạch, Mã Tắc và toàn hàng lính giữ trang phục Hán."
+    },
+    {
+      "requirement_index": 2,
+      "status": "PASS",
+      "note": "Giữ hai khung gạt tên và bắn trả, một mũi đang lắp trên cung; các tên đã bay cách nhau theo đường nối tiếp. Lời dẫn giữ đúng mười phát tên và mười lính Hán, không thể hiện bắn cả chùm từ cung."
+    }
+  ],
+  "visual_review": {
+    "reviewed": true,
+    "reviewer": "agent_2",
+    "evidence": [
+      "output/PDF_07.png",
+      "qa/PDF_07_render.png"
+    ],
+    "notes": "Đã kiểm lại sau lượt sửa riêng nock: chỉ còn một thân tên từ tay kéo tới đầu tên tại cung. Khung trên một tên bị gạt; khung dưới các quỹ đạo nối tiếp. Chữ đọc rõ, đủ dấu, tên riêng không rớt tiếng; không có cờ rõ/thoại mới."
+  },
+  "cross_lane_identity": "PENDING",
+  "source_files": [
+    "01_nguon_bat_bien/pages/PDF_07.jpg",
+    "01_nguon_bat_bien/tham_khao_trang_phuc/giap_tham_khao.png",
+    "01_nguon_bat_bien/tham_khao_trang_phuc/nam_tham_khao.png"
+  ],
+  "limitations": [
+    "Mười phát tên được giữ trong lời dẫn; không diễn giải khung tĩnh là mười phát cùng lúc.",
+    "Sai khác nét nhỏ do chỉnh AI; cần coordinator rà nhận diện với lane 1.",
+    "Không khẳng định in 300 DPI/giáo viên duyệt."
+  ]
+}

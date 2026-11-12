@@ -1,0 +1,35 @@
+{
+  "pdf_page": 8,
+  "narration": "Thi Sách huýt sáo gọi tuấn mã đen tuyền phóng ra, cùng Lữ Thạch đại chiến gần trăm hiệp. Lữ Thạch vung thương bổ xuống đầu ngựa nhưng thần mã khẽ nghiêng mình hóa giải. Thi Sách bất thần tung người trên yên ngựa, dùng tuyệt kỹ “Mãnh long giáng địa” đâm thẳng từ trên cao xuống và đá văng thương của tướng giặc!",
+  "footnote": null,
+  "dialogue": [],
+  "rich_text": [
+    {
+      "text": "Thi Sách huýt sáo gọi ",
+      "color": "#171611"
+    },
+    {
+      "text": "tuấn mã đen tuyền",
+      "color": "#B22920"
+    },
+    {
+      "text": " phóng ra, cùng Lữ Thạch đại chiến gần trăm hiệp. Lữ Thạch vung thương bổ xuống đầu ngựa nhưng thần mã khẽ nghiêng mình hóa giải. Thi Sách bất thần tung người trên yên ngựa, dùng tuyệt kỹ ",
+      "color": "#171611"
+    },
+    {
+      "text": "“Mãnh long giáng địa”",
+      "color": "#B22920"
+    },
+    {
+      "text": " đâm thẳng từ trên cao xuống và đá văng thương của tướng giặc!",
+      "color": "#171611"
+    }
+  ],
+  "changes": [
+    "Sửa phục trang Lĩnh Nam theo ảnh tham khảo; giữ quân Hán khác biệt.",
+    "Dàn lại chữ Việt thật, giữ nguyên lời dẫn và các cụm chữ đỏ.",
+    "Không thêm thoại hoặc thay đổi sự kiện/số khung."
+  ],
+  "content_source": "01_nguon_bat_bien/pages/PDF_08.jpg",
+  "editorial_note": "Chép từ ảnh Gemini; không thêm câu chuyển thể mới. Đối chiếu diễn biến ngăn 01/03."
+}

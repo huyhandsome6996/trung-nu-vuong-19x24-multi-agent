@@ -1,15 +1,42 @@
 {
   "agent": "agent_2",
-  "status": "NOT_STARTED",
+  "status": "READY_FOR_COORDINATOR",
   "pages": [
     6,
     7,
     8,
     9
   ],
-  "completed_pages": [],
+  "completed_pages": [
+    6,
+    7,
+    8,
+    9
+  ],
   "blocked_pages": [],
-  "last_checkpoint": "Gói nhiệm vụ được chuẩn bị; agent chưa bắt đầu.",
+  "last_checkpoint": "Cả 4 trang đã mở PNG/render và QA nội bộ PASS; văn bản PDF khớp JSON; chờ coordinator rà liên lane.",
   "cross_lane_review": "PENDING",
-  "artifacts": []
+  "artifacts": [
+    "text/PDF_06.json",
+    "output/PDF_06.png",
+    "output/PDF_06.pdf",
+    "qa/PDF_06.json",
+    "text/PDF_07.json",
+    "output/PDF_07.png",
+    "output/PDF_07.pdf",
+    "qa/PDF_07.json",
+    "text/PDF_08.json",
+    "output/PDF_08.png",
+    "output/PDF_08.pdf",
+    "qa/PDF_08.json",
+    "text/PDF_09.json",
+    "output/PDF_09.png",
+    "output/PDF_09.pdf",
+    "qa/PDF_09.json",
+    "output/LO_TRANG.pdf",
+    "HANDOFF.md",
+    "source/build_pages.py",
+    "qa/text_roundtrip.json"
+  ],
+  "publication_authorization": "Chủ dự án đã xác nhận trực tiếp ngày12/11/2026: push đúng nhánh sửa, giữ công việc các agent khác; đang thực hiện xuất bản an toàn."
 }

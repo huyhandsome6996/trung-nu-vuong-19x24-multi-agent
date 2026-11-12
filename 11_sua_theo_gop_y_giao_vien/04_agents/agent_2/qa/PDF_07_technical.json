@@ -1,0 +1,26 @@
+{
+  "pdf_page": 7,
+  "input_art_pixels": [
+    1084,
+    1451
+  ],
+  "output_pixels": [
+    896,
+    1200
+  ],
+  "media_box_pt": [
+    430.08,
+    576
+  ],
+  "font_size_px": 20.5,
+  "lines": [
+    "Trước sân phủ, tướng giặc Lữ Thạch bất ngờ rút cung bắn trộm",
+    "một mũi tên hiểm độc. Thi Sách vung trường thương gạt phắt",
+    "mũi tên, rồi nổi giận rút cung gia bảo đáp trả. Ngài bắn liền",
+    "mười phát tên xuyên cổ mười tên lính Hán chỉ trong chớp mắt,",
+    "khiến chủ tướng Lữ Thạch và Mã Tắc kinh hoàng thất sắc!"
+  ],
+  "pdf_extracted_text": "Trước sân phủ, tướng giặc Lữ Thạch bất ngờ rút cung bắn trộm\nmột mũi tên hiểm độc. Thi Sách vung trường thương gạt phắt\nmũi tên, rồi nổi giận rút cung gia bảo đáp trả. Ngài bắn liền\nmười phát tên xuyên cổ mười tên lính Hán chỉ trong chớp mắt,\nkhiến chủ tướng Lữ Thạch và Mã Tắc kinh hoàng thất sắc!\n",
+  "art_sha256": "553fb231545ca5a7eea2c7bbc4b1247bbeded3aa25432945b4a03c29ddb4b3e3",
+  "print_note": "No 300 DPI claim; original source 896×1200 px. AI edit can introduce local stroke drift."
+}

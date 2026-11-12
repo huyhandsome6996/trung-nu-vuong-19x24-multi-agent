@@ -1,0 +1,11 @@
+{
+  "box": [
+    70,
+    75,
+    827,
+    250
+  ],
+  "redraw_box": true,
+  "font_size": 19.5,
+  "line_height": 26
+}

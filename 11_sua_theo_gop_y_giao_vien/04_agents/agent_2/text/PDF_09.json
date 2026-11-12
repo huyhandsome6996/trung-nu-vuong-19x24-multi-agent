@@ -1,0 +1,36 @@
+{
+  "pdf_page": 9,
+  "narration": "Thi Sách giẫm chân lên ngực Lữ Thạch, vung trường kiếm chém bay đầu tên chủ tướng giặc! Mã Tắc kinh hoàng thét 500 cung thủ bắn tên như mưa khiến thần mã gục ngã che cho chủ. Đô tướng Đinh Lương dẫn 200 tráng đinh mở đường máu xông vào, cùng Thi Sách và các bô lão chiến đấu anh dũng đến hơi thở cuối cùng!",
+  "footnote": null,
+  "dialogue": [],
+  "rich_text": [
+    {
+      "text": "Thi Sách giẫm chân lên ngực Lữ Thạch, ",
+      "color": "#171611"
+    },
+    {
+      "text": "vung trường kiếm chém bay đầu tên chủ tướng giặc!",
+      "color": "#B22920"
+    },
+    {
+      "text": " Mã Tắc kinh hoàng thét 500 cung thủ bắn tên như mưa khiến thần mã gục ngã che cho chủ. Đô tướng ",
+      "color": "#171611"
+    },
+    {
+      "text": "Đinh Lương dẫn 200 tráng đinh mở đường máu",
+      "color": "#B22920"
+    },
+    {
+      "text": " xông vào, cùng Thi Sách và các bô lão chiến đấu anh dũng đến hơi thở cuối cùng!",
+      "color": "#171611"
+    }
+  ],
+  "changes": [
+    "Sửa phục trang Lĩnh Nam theo ảnh tham khảo; giữ quân Hán khác biệt.",
+    "Dàn lại chữ Việt thật, giữ nguyên lời dẫn và các cụm chữ đỏ.",
+    "Không thêm thoại hoặc thay đổi sự kiện/số khung.",
+    "Cờ trong hàng ngũ quân Hán được đổi thành vải xám than trơn theo quy chuẩn phe."
+  ],
+  "content_source": "01_nguon_bat_bien/pages/PDF_09.jpg",
+  "editorial_note": "Chép từ ảnh Gemini; không thêm câu chuyển thể mới. Đối chiếu diễn biến ngăn 01/03."
+}

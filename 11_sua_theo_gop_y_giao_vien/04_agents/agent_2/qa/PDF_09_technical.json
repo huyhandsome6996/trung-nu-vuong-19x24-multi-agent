@@ -1,0 +1,26 @@
+{
+  "pdf_page": 9,
+  "input_art_pixels": [
+    1084,
+    1451
+  ],
+  "output_pixels": [
+    896,
+    1200
+  ],
+  "media_box_pt": [
+    430.08,
+    576
+  ],
+  "font_size_px": 19.5,
+  "lines": [
+    "Thi Sách giẫm chân lên ngực Lữ Thạch, vung trường kiếm chém bay đầu",
+    "tên chủ tướng giặc! Mã Tắc kinh hoàng thét 500 cung thủ bắn tên như",
+    "mưa khiến thần mã gục ngã che cho chủ. Đô tướng Đinh Lương dẫn 200",
+    "tráng đinh mở đường máu xông vào, cùng Thi Sách và các bô lão chiến",
+    "đấu anh dũng đến hơi thở cuối cùng!"
+  ],
+  "pdf_extracted_text": "Thi Sách giẫm chân lên ngực Lữ Thạch, vung trường kiếm chém bay đầu\ntên chủ tướng giặc! Mã Tắc kinh hoàng thét 500 cung thủ bắn tên như\nmưa khiến thần mã gục ngã che cho chủ. Đô tướng Đinh Lương dẫn 200\ntráng đinh mở đường máu xông vào, cùng Thi Sách và các bô lão chiến\nđấu anh dũng đến hơi thở cuối cùng!\n",
+  "art_sha256": "3788cba01c703695a78a1016c2f9b9cef6581fac98a67e11e7b49df173c92dc6",
+  "print_note": "No 300 DPI claim; original source 896×1200 px. AI edit can introduce local stroke drift."
+}

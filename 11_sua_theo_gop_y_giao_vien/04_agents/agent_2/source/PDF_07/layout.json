@@ -1,0 +1,12 @@
+{
+  "box": [
+    80,
+    79,
+    825,
+    272
+  ],
+  "redraw_box": false,
+  "font_size": 20.5,
+  "line_height": 26,
+  "horizontal_padding": 45
+}

@@ -1,0 +1,26 @@
+{
+  "pdf_page": 6,
+  "input_art_pixels": [
+    1084,
+    1451
+  ],
+  "output_pixels": [
+    896,
+    1200
+  ],
+  "media_box_pt": [
+    430.08,
+    576
+  ],
+  "font_size_px": 19.5,
+  "lines": [
+    "Hai ngàn quân Hán của Mã Tắc và Lữ Thạch bất ngờ ập tới bao vây kín",
+    "phủ Chu Diên. Thi Sách khoác chiến bào Lạc hầu đính hổ phù gia truyền,",
+    "cầm trường thương bước ra đại sảnh. Lão trượng họ Khúc,",
+    "mạc khách họ Kiều và các tộc trưởng đồng thanh hô vang: “Dòng giống",
+    "Hồng Bàng quyết không đội trời chung với quan quân phương Bắc!”"
+  ],
+  "pdf_extracted_text": "Hai ngàn quân Hán của Mã Tắc và Lữ Thạch bất ngờ ập tới bao vây kín\nphủ Chu Diên. Thi Sách khoác chiến bào Lạc hầu đính hổ phù gia truyền,\ncầm trường thương bước ra đại sảnh. Lão trượng họ Khúc,\nmạc khách họ Kiều và các tộc trưởng đồng thanh hô vang: “Dòng giống\nHồng Bàng quyết không đội trời chung với quan quân phương Bắc!”\n",
+  "art_sha256": "8fe94ecd6ea915c3c3c99730e733e00cb245089199b88c0ed8f5368632746ba8",
+  "print_note": "No 300 DPI claim; original source 896×1200 px. AI edit can introduce local stroke drift."
+}

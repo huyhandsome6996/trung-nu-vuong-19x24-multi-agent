@@ -1,0 +1,50 @@
+{
+  "pdf_page": 6,
+  "narration": "Hai ngàn quân Hán của Mã Tắc và Lữ Thạch bất ngờ ập tới bao vây kín phủ Chu Diên. Thi Sách khoác chiến bào Lạc hầu đính hổ phù gia truyền, cầm trường thương bước ra đại sảnh. Lão trượng họ Khúc, mạc khách họ Kiều và các tộc trưởng đồng thanh hô vang: “Dòng giống Hồng Bàng quyết không đội trời chung với quan quân phương Bắc!”",
+  "footnote": null,
+  "dialogue": [
+    {
+      "speaker": "Lão trượng họ Khúc, mạc khách họ Kiều và các tộc trưởng",
+      "panel": 1,
+      "order": 1,
+      "text": "Dòng giống Hồng Bàng quyết không đội trời chung với quan quân phương Bắc!",
+      "placement": "quoted_in_narration",
+      "adaptation_added": false
+    }
+  ],
+  "rich_text": [
+    {
+      "text": "Hai ngàn quân Hán của ",
+      "color": "#171611"
+    },
+    {
+      "text": "Mã Tắc và Lữ Thạch",
+      "color": "#B22920"
+    },
+    {
+      "text": " bất ngờ ập tới bao vây kín phủ Chu Diên. Thi Sách khoác ",
+      "color": "#171611"
+    },
+    {
+      "text": "chiến bào Lạc hầu đính hổ phù",
+      "color": "#B22920"
+    },
+    {
+      "text": " gia truyền, cầm trường thương bước ra đại sảnh. Lão trượng họ Khúc, mạc khách họ Kiều và các tộc trưởng đồng thanh hô vang: ",
+      "color": "#171611"
+    },
+    {
+      "text": "“Dòng giống Hồng Bàng quyết không đội trời chung với quan quân phương Bắc!”",
+      "color": "#B22920"
+    }
+  ],
+  "changes": [
+    "Sửa phục trang Lĩnh Nam theo ảnh tham khảo; giữ quân Hán khác biệt.",
+    "Dàn lại chữ Việt thật, giữ nguyên lời dẫn và các cụm chữ đỏ.",
+    "Không thêm thoại hoặc thay đổi sự kiện/số khung.",
+    "Cờ trong hàng ngũ quân Hán được đổi thành vải xám than trơn theo quy chuẩn phe.",
+    "Thu ô vàng bỏ phần đệm thừa; giữ chi tiết hổ phù và gia truyền."
+  ],
+  "content_source": "01_nguon_bat_bien/pages/PDF_06.jpg",
+  "editorial_note": "Chép từ ảnh Gemini; không thêm câu chuyển thể mới. Đối chiếu diễn biến ngăn 01/03."
+}

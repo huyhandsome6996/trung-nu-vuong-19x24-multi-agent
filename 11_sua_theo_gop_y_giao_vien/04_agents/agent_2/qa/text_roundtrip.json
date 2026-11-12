@@ -1,0 +1,38 @@
+[
+  {
+    "pdf_page": 6,
+    "text_matches_json": true,
+    "selectable_vietnamese_text": true,
+    "media_box_pt": [
+      430.0799865722656,
+      576.0
+    ]
+  },
+  {
+    "pdf_page": 7,
+    "text_matches_json": true,
+    "selectable_vietnamese_text": true,
+    "media_box_pt": [
+      430.0799865722656,
+      576.0
+    ]
+  },
+  {
+    "pdf_page": 8,
+    "text_matches_json": true,
+    "selectable_vietnamese_text": true,
+    "media_box_pt": [
+      430.0799865722656,
+      576.0
+    ]
+  },
+  {
+    "pdf_page": 9,
+    "text_matches_json": true,
+    "selectable_vietnamese_text": true,
+    "media_box_pt": [
+      430.0799865722656,
+      576.0
+    ]
+  }
+]

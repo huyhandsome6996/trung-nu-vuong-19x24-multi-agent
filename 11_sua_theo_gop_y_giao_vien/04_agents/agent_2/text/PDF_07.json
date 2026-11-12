@@ -1,0 +1,36 @@
+{
+  "pdf_page": 7,
+  "narration": "Trước sân phủ, tướng giặc Lữ Thạch bất ngờ rút cung bắn trộm một mũi tên hiểm độc. Thi Sách vung trường thương gạt phắt mũi tên, rồi nổi giận rút cung gia bảo đáp trả. Ngài bắn liền mười phát tên xuyên cổ mười tên lính Hán chỉ trong chớp mắt, khiến chủ tướng Lữ Thạch và Mã Tắc kinh hoàng thất sắc!",
+  "footnote": null,
+  "dialogue": [],
+  "rich_text": [
+    {
+      "text": "Trước sân phủ, tướng giặc Lữ Thạch bất ngờ rút ",
+      "color": "#171611"
+    },
+    {
+      "text": "cung bắn trộm một mũi tên hiểm độc.",
+      "color": "#B22920"
+    },
+    {
+      "text": " Thi Sách vung trường thương gạt phắt mũi tên, rồi nổi giận rút cung gia bảo đáp trả. Ngài ",
+      "color": "#171611"
+    },
+    {
+      "text": "bắn liền mười phát tên xuyên cổ mười tên lính Hán",
+      "color": "#B22920"
+    },
+    {
+      "text": " chỉ trong chớp mắt, khiến chủ tướng Lữ Thạch và Mã Tắc kinh hoàng thất sắc!",
+      "color": "#171611"
+    }
+  ],
+  "changes": [
+    "Sửa phục trang Lĩnh Nam theo ảnh tham khảo; giữ quân Hán khác biệt.",
+    "Dàn lại chữ Việt thật, giữ nguyên lời dẫn và các cụm chữ đỏ.",
+    "Không thêm thoại hoặc thay đổi sự kiện/số khung.",
+    "Giữ mười phát tên liên tiếp; cung chỉ lắp một mũi tại một thời điểm."
+  ],
+  "content_source": "01_nguon_bat_bien/pages/PDF_07.jpg",
+  "editorial_note": "Chép từ ảnh Gemini; không thêm câu chuyển thể mới. Đối chiếu diễn biến ngăn 01/03."
+}

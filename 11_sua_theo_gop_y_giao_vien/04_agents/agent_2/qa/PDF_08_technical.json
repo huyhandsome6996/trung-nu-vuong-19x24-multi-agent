@@ -1,0 +1,26 @@
+{
+  "pdf_page": 8,
+  "input_art_pixels": [
+    1084,
+    1451
+  ],
+  "output_pixels": [
+    896,
+    1200
+  ],
+  "media_box_pt": [
+    430.08,
+    576
+  ],
+  "font_size_px": 20.5,
+  "lines": [
+    "Thi Sách huýt sáo gọi tuấn mã đen tuyền phóng ra, cùng Lữ Thạch",
+    "đại chiến gần trăm hiệp. Lữ Thạch vung thương bổ xuống đầu ngựa",
+    "nhưng thần mã khẽ nghiêng mình hóa giải. Thi Sách bất thần tung",
+    "người trên yên ngựa, dùng tuyệt kỹ “Mãnh long giáng địa” đâm",
+    "thẳng từ trên cao xuống và đá văng thương của tướng giặc!"
+  ],
+  "pdf_extracted_text": "Thi Sách huýt sáo gọi tuấn mã đen tuyền phóng ra, cùng Lữ Thạch\nđại chiến gần trăm hiệp. Lữ Thạch vung thương bổ xuống đầu ngựa\nnhưng thần mã khẽ nghiêng mình hóa giải. Thi Sách bất thần tung\nngười trên yên ngựa, dùng tuyệt kỹ “Mãnh long giáng địa” đâm\nthẳng từ trên cao xuống và đá văng thương của tướng giặc!\n",
+  "art_sha256": "6a7bd09bbf4a700597373fafc6b76e5d996bc78b41d7456f9202ebd2decda86a",
+  "print_note": "No 300 DPI claim; original source 896×1200 px. AI edit can introduce local stroke drift."
+}

@@ -1,0 +1,27 @@
+{
+  "pdf_page": 8,
+  "tool": "built-in image_gen.imagegen",
+  "mode": "referenced-image edit",
+  "actual_references": [
+    {
+      "path": "01_nguon_bat_bien/pages/PDF_08.jpg",
+      "sha256": "702fac1395188e5dd338c1511121fb143052637b824238944e4657242c2d570c"
+    },
+    {
+      "path": "01_nguon_bat_bien/tham_khao_trang_phuc/giap_tham_khao.png",
+      "sha256": "2551db9c97ae522c5025551468e939133f14be23b02980eff70211c9599b942b"
+    },
+    {
+      "path": "01_nguon_bat_bien/tham_khao_trang_phuc/nam_tham_khao.png",
+      "sha256": "c093a14e9657e783b4659b42575421bb0241970b597eca2249e10baaee2f999d"
+    }
+  ],
+  "other_costume_images_visually_inspected": [
+    "ao_vat_trai_tham_khao.png",
+    "nu_tham_khao.png"
+  ],
+  "teacher_marked_note": null,
+  "final_art_sha256": "6a7bd09bbf4a700597373fafc6b76e5d996bc78b41d7456f9202ebd2decda86a",
+  "refinement": null,
+  "no_pixel_identity_claim": true
+}

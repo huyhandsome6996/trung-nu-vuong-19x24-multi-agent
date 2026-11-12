@@ -1,0 +1,47 @@
+{
+  "pdf_page": 9,
+  "status": "PASS",
+  "checks": {
+    "source_and_scope": "PASS",
+    "teacher_specific": "PASS",
+    "yellow_boxes": "PASS",
+    "flags_all_visible": "PASS",
+    "costumes_by_faction": "PASS",
+    "vietnamese_text": "PASS",
+    "dialogue_and_tail": "PASS",
+    "layout_and_no_damage": "PASS",
+    "rendered_pdf_review": "PASS"
+  },
+  "teacher_requirement_results": [
+    {
+      "requirement_index": 1,
+      "status": "PASS",
+      "note": "Mở PNG/render cuối: Thi Sách cả hai khung áo tía/giáp phiến ngắn, Đinh Lương giữa khung dưới giáp ngắn/đai vải/quần chàm; Mã Tắc và Lữ Thạch giữ mũ/giáp Hán. Cờ trên thành thuộc Hán đổi xám than trơn, kể cả lá sát mép phải."
+    },
+    {
+      "requirement_index": 2,
+      "status": "PASS",
+      "note": "Giữ hai khung, thế giẫm ngực ở trên, ngựa gục và hai nghĩa sĩ tử chiến ở dưới; lời dẫn giữ 500 cung thủ/200 tráng đinh và kết cục. Không tăng máu hoặc thêm hình chém đầu trực diện."
+    }
+  ],
+  "visual_review": {
+    "reviewed": true,
+    "reviewer": "agent_2",
+    "evidence": [
+      "output/PDF_09.png",
+      "qa/PDF_09_render.png"
+    ],
+    "notes": "Đã mở cả hai ảnh sau lượt thu ô dẫn: ô còn khoảng 150px cao so với khoảng 235px nguồn, phần phía trên trở lại khói tự nhiên. Chữ không tràn hoặc đụng lông đầu, không lẻ một tiếng cuối. Rà cờ nhỏ trên thành/trang phục quân xa."
+  },
+  "cross_lane_identity": "PENDING",
+  "source_files": [
+    "01_nguon_bat_bien/pages/PDF_09.jpg",
+    "01_nguon_bat_bien/tham_khao_trang_phuc/giap_tham_khao.png",
+    "01_nguon_bat_bien/tham_khao_trang_phuc/nam_tham_khao.png"
+  ],
+  "limitations": [
+    "AI chỉnh có sai khác nét nhỏ; không cam kết giữ nguyên từng pixel ngoài vùng sửa.",
+    "Nhận diện Thi Sách với lane 1 chưa rà; coordinator kiểm liên trang.",
+    "Nguồn 896×1200; không nhận đủ in 300 DPI/giáo viên đã duyệt."
+  ]
+}

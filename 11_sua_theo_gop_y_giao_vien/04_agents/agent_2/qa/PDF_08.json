@@ -1,0 +1,46 @@
+{
+  "pdf_page": 8,
+  "status": "PASS",
+  "checks": {
+    "source_and_scope": "PASS",
+    "teacher_specific": "PASS",
+    "yellow_boxes": "PASS",
+    "flags_all_visible": "PASS",
+    "costumes_by_faction": "PASS",
+    "vietnamese_text": "PASS",
+    "dialogue_and_tail": "PASS",
+    "layout_and_no_damage": "PASS",
+    "rendered_pdf_review": "PASS"
+  },
+  "teacher_requirement_results": [
+    {
+      "requirement_index": 1,
+      "status": "PASS",
+      "note": "Đã mở PNG và render: cả hai Thi Sách dùng áo tía vạt trái/giáp ngắn phiến ngang; Lữ Thạch bên phải và lính nhỏ phía dưới trái giữ giáp/mũ Hán. Hai khung, ngựa đen, thế né và tung người đá thương giữ nguyên."
+    },
+    {
+      "requirement_index": 2,
+      "status": "PASS",
+      "note": "Tên chiêu “Mãnh long giáng địa” giữ nguyên trên một dòng, màu đỏ; giữ lời kể bản Gemini và ô dẫn khoảng 192 px, không có dải vàng trống lớn."
+    }
+  ],
+  "visual_review": {
+    "reviewed": true,
+    "reviewer": "agent_2",
+    "evidence": [
+      "output/PDF_08.png",
+      "qa/PDF_08_render.png"
+    ],
+    "notes": "Mở cả PNG và render cuối: không che mặt/tay/thương; chữ đủ dấu, tên chiêu liền cụm. Không có cờ rõ hoặc bóng thoại cần sửa. Có hai khung giao chiến, không thêm cảnh."
+  },
+  "cross_lane_identity": "PENDING",
+  "source_files": [
+    "01_nguon_bat_bien/pages/PDF_08.jpg",
+    "01_nguon_bat_bien/tham_khao_trang_phuc/giap_tham_khao.png",
+    "01_nguon_bat_bien/tham_khao_trang_phuc/nam_tham_khao.png"
+  ],
+  "limitations": [
+    "AI có sai khác nét nhỏ so với ảnh gốc; coordinator rà cạnh trang 06/07/09 và lane 1.",
+    "Nguồn 896×1200 px; không nhận in 300 DPI hoặc giáo viên duyệt."
+  ]
+}
