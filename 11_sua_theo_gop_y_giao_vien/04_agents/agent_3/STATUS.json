@@ -12,10 +12,11 @@
     10,
     11,
     12,
-    13
+    13,
+    14
   ],
   "blocked_pages": [],
-  "last_checkpoint": "PDF13: chữ/tranh/PNG/PDF/render đã kiểm trực tiếp, QA PASS; checkpoint theo trang.",
+  "last_checkpoint": "PDF14: chữ/tranh/PNG/PDF/render đã kiểm trực tiếp, QA PASS; checkpoint theo trang.",
   "cross_lane_review": "PENDING",
   "artifacts": [
     "output/PDF_10.pdf",
@@ -32,6 +33,9 @@
     "qa/PDF_12.json",
     "output/PDF_13.pdf",
     "output/PDF_13.png",
-    "qa/PDF_13.json"
+    "qa/PDF_13.json",
+    "output/PDF_14.pdf",
+    "output/PDF_14.png",
+    "qa/PDF_14.json"
   ]
 }

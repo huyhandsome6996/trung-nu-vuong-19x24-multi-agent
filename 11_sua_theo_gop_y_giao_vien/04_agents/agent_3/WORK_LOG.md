@@ -39,3 +39,10 @@ Clone riêng đúng nhánh, chỉ ghi lane agent_3. Đã mở trực tiếp 5 JP
 - Đã xem3bóng thoại, đuôi đúng Tào Quyền trái/Tô Định giữa/Mã Tắc phải, không che mặt/tay/bản đồ; đường rút là điều kiện nếu không giữ nổi thành, lời dẫn vẫn nêu chia binh.
 - Tên Tào Quyền trong lời dẫn, JSON và changes.md thống nhất theo chú giải nguồn trang247–269; không dùng biến thể Quyên.
 - Đã mở output/PDF_13.png và qa/PDF_13_render.png, QA PASS trong trang; kiểm liên lane PENDING.
+
+## PDF14 — checkpoint đã kiểm
+
+- Đã rà cờ sau Hai Bà, trên đàn, hai bờ, thuyền và phía xa; tất cả vải đỏ đất trơn, không sao.
+- Hai lời khấn ở khung dưới hướng tổ tiên/cứu dân/quyết chí, đuôi đúng Trưng Trắc trái/Trưng Nhị phải; ghi rõ chuyển thể trong changes.md.
+- Giữ đàn tế, sông, hai khung, lư hương, tay chắp và tang phục; quân Lĩnh Nam khăn vấn áo nâu/chàm, Trưng Nhị phân biệt bằng áo trong chàm.
+- Đã mở output/PDF_14.png và qa/PDF_14_render.png, QA PASS trong trang; kiểm liên lane PENDING.

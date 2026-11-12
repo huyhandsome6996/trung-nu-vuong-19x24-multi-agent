@@ -1,0 +1,92 @@
+{
+  "narration": {
+    "font_px": 23,
+    "leading_px": 29,
+    "rect_px": [
+      81,
+      76,
+      821,
+      249
+    ],
+    "lines": [
+      {
+        "text": "Tại ngã ba sông Hát Môn, nghĩa quân đắp đàn tế cao hơn hai",
+        "baseline_y": 113.01
+      },
+      {
+        "text": "trượng dựa lưng vào núi Ba Vì. Chín mươi chín lá cờ ngũ sắc",
+        "baseline_y": 142.01
+      },
+      {
+        "text": "tung bay, 8 thớt voi trắng, 500 kỵ mã, hơn 100 chiến thuyền dàn",
+        "baseline_y": 171.01
+      },
+      {
+        "text": "trận uy nghiêm. Trong tiếng chiêng trống vang trời, Trưng Trắc",
+        "baseline_y": 200.01
+      },
+      {
+        "text": "và Trưng Nhị thành kính dâng hương tế cáo trời đất và tổ tiên.",
+        "baseline_y": 229.01
+      }
+    ]
+  },
+  "dialogue": [
+    {
+      "speaker": "Trưng Trắc",
+      "order": 1,
+      "font_px": 14,
+      "leading_px": 17,
+      "rect_px": [
+        189,
+        787,
+        387,
+        856
+      ],
+      "lines": [
+        {
+          "text": "Kính cáo trời đất, tổ tiên!",
+          "baseline_y": 801.18
+        },
+        {
+          "text": "Chúng con nguyện đồng",
+          "baseline_y": 818.18
+        },
+        {
+          "text": "lòng cứu dân, giành lại",
+          "baseline_y": 835.18
+        },
+        {
+          "text": "non sông.",
+          "baseline_y": 852.18
+        }
+      ]
+    },
+    {
+      "speaker": "Trưng Nhị",
+      "order": 2,
+      "font_px": 15,
+      "leading_px": 18,
+      "rect_px": [
+        584,
+        724,
+        742,
+        784
+      ],
+      "lines": [
+        {
+          "text": "Dẫu gian nguy,",
+          "baseline_y": 741.55
+        },
+        {
+          "text": "chị em con quyết",
+          "baseline_y": 759.55
+        },
+        {
+          "text": "chẳng lui!",
+          "baseline_y": 777.55
+        }
+      ]
+    }
+  ]
+}
