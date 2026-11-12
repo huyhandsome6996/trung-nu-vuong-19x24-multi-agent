@@ -16,7 +16,7 @@
     14
   ],
   "blocked_pages": [],
-  "last_checkpoint": "Đủ5trang; PNG/PDF/render đã mở trực tiếp, ghép LO_TRANG5trang và kiểm render khớp từng trang; chờ coordinator rà liên trang.",
+  "last_checkpoint": "5trang READY_FOR_COORDINATOR; nguồn/tranh/chữ/PDF/QA đủ; push bị chặn do thiếu xác thực, bàn giao ZIP.",
   "cross_lane_review": "PENDING",
   "artifacts": [
     "HANDOFF.md",
@@ -39,5 +39,11 @@
     "qa/PDF_14.json",
     "source/assemble_lane.py",
     "source/build_pages.py"
-  ]
+  ],
+  "publication": {
+    "status": "BLOCKED_AUTH",
+    "remote_branch": "sua-theo-gop-y-giao-vien",
+    "pushed": false,
+    "reason": "No GitHub write credential available; push could not read Username."
+  }
 }

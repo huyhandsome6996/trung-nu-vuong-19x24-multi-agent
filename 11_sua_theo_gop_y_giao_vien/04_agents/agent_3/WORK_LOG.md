@@ -50,3 +50,7 @@ Clone riêng đúng nhánh, chỉ ghi lane agent_3. Đã mở trực tiếp 5 JP
 ## Bàn giao lô
 
 Đủ5trang, ghép LO_TRANG.pdf,5trang render khớp PDF riêng và chữ trích xuất khớp JSON. READY_FOR_COORDINATOR, cross-lane PENDING; không có BLOCKED_ART. Đã lưu HANDOFF/nguồn tái xuất/font/recipe/hash.
+
+## Xuất bản
+
+Đã fetch/rebase đúng nhánh; push bị chặn vì thiếu xác thực GitHub ghi repo. Không tuyên bố đã push. Lưu commit cuối và bàn giao ZIP/PDF.

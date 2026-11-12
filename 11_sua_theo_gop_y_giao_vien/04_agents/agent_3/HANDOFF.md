@@ -46,3 +46,7 @@ Trạng thái: READY_FOR_COORDINATOR. Không có BLOCKED_ART. Chỉ thay file tr
 ```
 
 Commit bàn giao là commit chứa HANDOFF này (xem git log). Chỉ báo đã push sau khi xác minh commit là tổ tiên của đầu nhánh remote.
+
+## Trạng thái xuất bản remote
+
+Push đã thử nhưng thất bại do phiên không có xác thực GitHub ghi repo: `could not read Username for https://github.com`. Không có commit nào của lane này được xác nhận đã lên remote. Các commit đang cục bộ; file ZIP bàn giao giữ trọn lane để coordinator nhận và đẩy. Nhánh đích vẫn `sua-theo-gop-y-giao-vien`; không sửa main, không force-push.
