@@ -31,3 +31,11 @@ Clone riêng đúng nhánh, chỉ ghi lane agent_3. Đã mở trực tiếp 5 JP
 - Đã xem nhóm lính sau Trưng Trắc cả tiền/hậu cảnh: khăn vấn, áo ngắn vạt chéo, đai vải, giáp ngắn; khung trên đã rà cùng quy ước.
 - Hai lá cờ trái/phải khung dưới đỏ đất trơn; ô dẫn khoảng187px, chữ5dòng, giữ tang phục trắng và hai khung.
 - Đã mở output/PDF_12.png và qa/PDF_12_render.png, QA PASS trong trang; kiểm liên lane PENDING.
+
+## PDF13 — checkpoint đã kiểm
+
+- Cụm Phượng Hoàng nằm nguyên trên dòng cuối, không còn Hoàng đơn lẻ; font23px,6dòng với đệm vừa.
+- Quân Lĩnh Nam khung trên phải đã đổi khăn/áo/giáp ngắn; ba người Hán phía dưới giữ bộ phục trang riêng.
+- Đã xem3bóng thoại, đuôi đúng Tào Quyền trái/Tô Định giữa/Mã Tắc phải, không che mặt/tay/bản đồ; đường rút là điều kiện nếu không giữ nổi thành, lời dẫn vẫn nêu chia binh.
+- Tên Tào Quyền trong lời dẫn, JSON và changes.md thống nhất theo chú giải nguồn trang247–269; không dùng biến thể Quyên.
+- Đã mở output/PDF_13.png và qa/PDF_13_render.png, QA PASS trong trang; kiểm liên lane PENDING.

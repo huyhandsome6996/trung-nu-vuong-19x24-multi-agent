@@ -1,0 +1,106 @@
+{
+  "narration": {
+    "font_px": 23,
+    "leading_px": 29,
+    "rect_px": [
+      80,
+      76,
+      821,
+      249
+    ],
+    "lines": [
+      {
+        "text": "Khắp cõi Giao Chỉ đêm đêm lửa trại cháy rực, tiếng trống đồng,",
+        "baseline_y": 98.51
+      },
+      {
+        "text": "tiếng voi gầm vang vọng. Trong thành Luy Lâu, Thái thú Tô Định",
+        "baseline_y": 127.51
+      },
+      {
+        "text": "hoang mang lo sợ mất ăn mất ngủ. Đại tổng quản Tào Quyền",
+        "baseline_y": 156.51
+      },
+      {
+        "text": "hiến độc kế chia binh: sai Mã Tắc đánh Hát Môn, còn đích thân y",
+        "baseline_y": 185.51
+      },
+      {
+        "text": "đem 600 tinh binh và 30 khinh thuyền đánh úp núi",
+        "baseline_y": 214.51
+      },
+      {
+        "text": "Phượng Hoàng.",
+        "baseline_y": 243.51
+      }
+    ]
+  },
+  "dialogue": [
+    {
+      "speaker": "Tào Quyền",
+      "order": 1,
+      "font_px": 16,
+      "leading_px": 19,
+      "rect_px": [
+        92,
+        842,
+        316,
+        903
+      ],
+      "lines": [
+        {
+          "text": "Xin đánh Phượng Hoàng",
+          "baseline_y": 868.92
+        },
+        {
+          "text": "trước, phá thế liên kết!",
+          "baseline_y": 887.92
+        }
+      ]
+    },
+    {
+      "speaker": "Tô Định",
+      "order": 2,
+      "font_px": 16,
+      "leading_px": 19,
+      "rect_px": [
+        368,
+        804,
+        580,
+        875
+      ],
+      "lines": [
+        {
+          "text": "Nếu không giữ nổi thành,",
+          "baseline_y": 835.92
+        },
+        {
+          "text": "phải tính đường rút!",
+          "baseline_y": 854.92
+        }
+      ]
+    },
+    {
+      "speaker": "Mã Tắc",
+      "order": 3,
+      "font_px": 15,
+      "leading_px": 18,
+      "rect_px": [
+        651,
+        797,
+        794,
+        855
+      ],
+      "lines": [
+        {
+          "text": "Thần sẽ chặn",
+          "baseline_y": 822.55
+        },
+        {
+          "text": "đường Hát Môn!",
+          "baseline_y": 840.55
+        }
+      ]
+    }
+  ]
+}
