@@ -1,0 +1,7 @@
+{
+  "prompt": "Use case: precise-object-edit. Edit this original comic page PDF11 surgically, preserve the Gemini colored-pencil ink style, all faces, people, bound prisoners, execution platform, weapons, coffin, architecture and full framing. THIS IS A HAN MILITARY EXECUTION SCENE: do not change the Han guards' Chinese armor and metal helmets. Replace every banner including tiny wall flags and crowd flags with plain CHARCOAL GRAY cloth #444440, no star, symbols, lettering, or decorative border; natural wooden shafts. TOP NARRATION: remove all text cleanly, leave a BLANK pale-yellow hand-ink outlined rounded box reduced substantially in height, approximately x70..827 y65..245 on the original 896x1200 coordinate scale. Reconstruct the exposed background sky beneath it matching original pencil strokes, no blank stripe; do not move or resize the people or gate. Blank box is reserved for later real-font typesetting and must have no writing. No other changes, do not redesign or add events. Full original page aspect 896:1200, no cropping.",
+  "generated_path": "/workspace/scratch/8cbda302ddb5/generated_images/exec-f6917283-2a85-4404-9acd-d77c4cd0c1ec.png",
+  "engine": "built-in image_gen",
+  "image_role": "edited art master; blank typography areas",
+  "source_page": "../../../01_nguon_bat_bien/pages/PDF_11.jpg"
+}
