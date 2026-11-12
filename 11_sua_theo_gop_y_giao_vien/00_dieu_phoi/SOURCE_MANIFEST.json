@@ -1,0 +1,236 @@
+{
+  "base_commit": "94ab1d316be49f139cf5ddbf0c3d7e690ced0da7",
+  "input_pdf_original_name": "Truyen_Tranh_Trung_Nu_Vuong_Hoi_7_8 (1).pdf",
+  "input_zip_original_name": "TỔNG HỢP(2).zip",
+  "input_zip_sha256": "380b7030112dcb1bfaab6da38e15d58d032a520fe6c429e893eb973a4c9a973a",
+  "pdf_page_count": 21,
+  "notes": [
+    {
+      "pdf_page": 10,
+      "original_name": "1794410420496_1953902039918001891_1953902039918001891_e3d16426ec31a4474c4b6bd46ca63ca6.jpg",
+      "path": "01_nguon_bat_bien/ghi_chu_giao_vien/PDF_10_khoanh_do.jpg"
+    },
+    {
+      "pdf_page": 11,
+      "original_name": "1794410457761_1953902039918001891_1953902039918001891_a113c40a6d2374a7ec4b440ebb07e468.jpg",
+      "path": "01_nguon_bat_bien/ghi_chu_giao_vien/PDF_11_khoanh_do.jpg"
+    },
+    {
+      "pdf_page": 12,
+      "original_name": "1794410515628_1953902039918001891_1953902039918001891_0395f0d55816b68959321ab0bbe7c777.jpg",
+      "path": "01_nguon_bat_bien/ghi_chu_giao_vien/PDF_12_khoanh_do.jpg"
+    },
+    {
+      "pdf_page": 13,
+      "original_name": "1794410565000_1953902039918001891_1953902039918001891_14d78870285aa7adb093db5a52b9fd01.jpg",
+      "path": "01_nguon_bat_bien/ghi_chu_giao_vien/PDF_13_khoanh_do.jpg"
+    },
+    {
+      "pdf_page": 14,
+      "original_name": "1794410699952_1953902039918001891_1953902039918001891_9b537cac88758fb28dafb95b47b5770b.jpg",
+      "path": "01_nguon_bat_bien/ghi_chu_giao_vien/PDF_14_khoanh_do.jpg"
+    },
+    {
+      "pdf_page": 16,
+      "original_name": "1794410782777_1953902039918001891_1953902039918001891_62b3fdaf89b898cd905ef615410f3590.jpg",
+      "path": "01_nguon_bat_bien/ghi_chu_giao_vien/PDF_16_khoanh_do.jpg"
+    },
+    {
+      "pdf_page": 17,
+      "original_name": "1794410825874_1953902039918001891_1953902039918001891_56c5f9725d99342c4de6784290b3d0b4.jpg",
+      "path": "01_nguon_bat_bien/ghi_chu_giao_vien/PDF_17_khoanh_do.jpg"
+    },
+    {
+      "pdf_page": 19,
+      "original_name": "1794410884170_1953902039918001891_1953902039918001891_53042085ab6fe2280f12406d11e006a5.jpg",
+      "path": "01_nguon_bat_bien/ghi_chu_giao_vien/PDF_19_khoanh_do.jpg"
+    },
+    {
+      "pdf_page": 20,
+      "original_name": "1794410933191_1953902039918001891_1953902039918001891_b8454e6252c04c2151dc19b00b3018b1.jpg",
+      "path": "01_nguon_bat_bien/ghi_chu_giao_vien/PDF_20_khoanh_do.jpg"
+    }
+  ],
+  "files": [
+    {
+      "path": "01_nguon_bat_bien/YEU_CAU_NGUYEN_VAN.md",
+      "bytes": 1809,
+      "sha256": "a31a96218b8cacd001c3bdec4a9b8852837f39d99ca8a33d7c8207003792f41a"
+    },
+    {
+      "path": "01_nguon_bat_bien/ban_goc_gemini.pdf",
+      "bytes": 6806031,
+      "sha256": "d11acdc4be8824a37334808d120011869888cd2638b0cdefe9d1f2cae84d0958"
+    },
+    {
+      "path": "01_nguon_bat_bien/ghi_chu_giao_vien/PDF_10_khoanh_do.jpg",
+      "bytes": 1670446,
+      "sha256": "70aa94804147775d214209f1c9efe609a1315d8dbf0099525a09dd96a1c1dcdf"
+    },
+    {
+      "path": "01_nguon_bat_bien/ghi_chu_giao_vien/PDF_11_khoanh_do.jpg",
+      "bytes": 1648276,
+      "sha256": "58244ff3e7a0081415b8c8338585081f4d492fd950a33917685acb337ae9d031"
+    },
+    {
+      "path": "01_nguon_bat_bien/ghi_chu_giao_vien/PDF_12_khoanh_do.jpg",
+      "bytes": 1937881,
+      "sha256": "e51e2c59b0c1786a3d3cc06655a3b8eb3add07f665208a76be602d7c0dbfa3e4"
+    },
+    {
+      "path": "01_nguon_bat_bien/ghi_chu_giao_vien/PDF_13_khoanh_do.jpg",
+      "bytes": 1711792,
+      "sha256": "df8b8813b404c6c7cbdb5b93ec8e9b3ba72d36dc3962fc2d6486e0173b22b0b4"
+    },
+    {
+      "path": "01_nguon_bat_bien/ghi_chu_giao_vien/PDF_14_khoanh_do.jpg",
+      "bytes": 1884329,
+      "sha256": "01f1f5d7d06815eed3281469d9eccdc05ad690e7a6fe009b2a2c30d4476d6388"
+    },
+    {
+      "path": "01_nguon_bat_bien/ghi_chu_giao_vien/PDF_16_khoanh_do.jpg",
+      "bytes": 1792131,
+      "sha256": "1e253c70424bc5a3cb3f39fbf337f2f4155e2434a93ea9e7d8fb34fb973e4992"
+    },
+    {
+      "path": "01_nguon_bat_bien/ghi_chu_giao_vien/PDF_17_khoanh_do.jpg",
+      "bytes": 1321385,
+      "sha256": "8c7cc32fc2884b92472d4366944e6ca02642c97896955c4f5877990ec8692ee7"
+    },
+    {
+      "path": "01_nguon_bat_bien/ghi_chu_giao_vien/PDF_19_khoanh_do.jpg",
+      "bytes": 1635074,
+      "sha256": "e8f7c723985c7573a0ceb150b35079f14c9bc0636a2f590242f2cc179b5ffc25"
+    },
+    {
+      "path": "01_nguon_bat_bien/ghi_chu_giao_vien/PDF_20_khoanh_do.jpg",
+      "bytes": 1105081,
+      "sha256": "a0c43fdd1d9e03f6aa5c82bfa1e1c5df2cdfdcce04c27ce6537d5699602b043f"
+    },
+    {
+      "path": "01_nguon_bat_bien/pages/PDF_01.jpg",
+      "bytes": 341761,
+      "sha256": "ae828e75bad174718013ed5eec448822add41e796c1905b44b54442365333897"
+    },
+    {
+      "path": "01_nguon_bat_bien/pages/PDF_02.jpg",
+      "bytes": 323962,
+      "sha256": "a5c70a1fd4226d825f78592d7e12b868757b9a9ba8929d9a35ed657c77c9c14e"
+    },
+    {
+      "path": "01_nguon_bat_bien/pages/PDF_03.jpg",
+      "bytes": 311974,
+      "sha256": "93673dea9bce5582fe056728a40099646057f050d118c16cdd0995b83a9f4851"
+    },
+    {
+      "path": "01_nguon_bat_bien/pages/PDF_04.jpg",
+      "bytes": 344593,
+      "sha256": "ecfa425b6d1f6da8abbc914c37dcaa46d3cc728453f363e67086c28de330e46a"
+    },
+    {
+      "path": "01_nguon_bat_bien/pages/PDF_05.jpg",
+      "bytes": 302919,
+      "sha256": "fa82cb955b723335760b9f7f80685680a4ef4b37fee7a7fe382915066741da78"
+    },
+    {
+      "path": "01_nguon_bat_bien/pages/PDF_06.jpg",
+      "bytes": 325968,
+      "sha256": "030467552b3e392a461bc3c39a8a1e7eebee472b66a0d4f3cc718a87453902bc"
+    },
+    {
+      "path": "01_nguon_bat_bien/pages/PDF_07.jpg",
+      "bytes": 309768,
+      "sha256": "ef7e9be0031d7ffe61def009664bff4ffedabcbb6bf19a2b4fd23ac3e1981bea"
+    },
+    {
+      "path": "01_nguon_bat_bien/pages/PDF_08.jpg",
+      "bytes": 307990,
+      "sha256": "702fac1395188e5dd338c1511121fb143052637b824238944e4657242c2d570c"
+    },
+    {
+      "path": "01_nguon_bat_bien/pages/PDF_09.jpg",
+      "bytes": 334559,
+      "sha256": "67ef5a88690dfa939a4cd826e8a267821bab6b8097ec6163496f96175783f3d5"
+    },
+    {
+      "path": "01_nguon_bat_bien/pages/PDF_10.jpg",
+      "bytes": 339923,
+      "sha256": "9ec72d2c984017b71bc62d9b6eec6e8416997b08777184d3013d462ae2e1d967"
+    },
+    {
+      "path": "01_nguon_bat_bien/pages/PDF_11.jpg",
+      "bytes": 310478,
+      "sha256": "1146b48f38965b83045860e7a71ad3b67e8005e1dbb0f9a12e068cb802eb6f5b"
+    },
+    {
+      "path": "01_nguon_bat_bien/pages/PDF_12.jpg",
+      "bytes": 339337,
+      "sha256": "3457accf3c42cf05f6445dae1e0e828cd6f9fc0f1a2148db54f54bd7277766ba"
+    },
+    {
+      "path": "01_nguon_bat_bien/pages/PDF_13.jpg",
+      "bytes": 308617,
+      "sha256": "4a8427728ae84b48093451971dc5e2c77ca02d558bcdd8d0ff8761c55d2104ac"
+    },
+    {
+      "path": "01_nguon_bat_bien/pages/PDF_14.jpg",
+      "bytes": 340593,
+      "sha256": "77c2bfb001c31f07f9b62910b7287f0b846fd04bf47d76afbfee693b32c4399f"
+    },
+    {
+      "path": "01_nguon_bat_bien/pages/PDF_15.jpg",
+      "bytes": 315330,
+      "sha256": "4a7af67f280c5dbcedcda2e33b3a4ecdffc701a8a28e3ea27f53fcee0a5c5bb9"
+    },
+    {
+      "path": "01_nguon_bat_bien/pages/PDF_16.jpg",
+      "bytes": 348435,
+      "sha256": "863b5682d3230515ce23666307b6134858417e49efeaa17e6571a49cfd8df78f"
+    },
+    {
+      "path": "01_nguon_bat_bien/pages/PDF_17.jpg",
+      "bytes": 291932,
+      "sha256": "20cfa8e762a9e49f35d697649b560c721ac54ff7bc500a58f374457268e3e362"
+    },
+    {
+      "path": "01_nguon_bat_bien/pages/PDF_18.jpg",
+      "bytes": 317199,
+      "sha256": "2acee9a7583bd25337247a7662b925b380ae01e84576e72e2b237563ab50c704"
+    },
+    {
+      "path": "01_nguon_bat_bien/pages/PDF_19.jpg",
+      "bytes": 323536,
+      "sha256": "74ae52289cc9933820e988dd21c5d05785582d86229158cef645d1b91c01ea19"
+    },
+    {
+      "path": "01_nguon_bat_bien/pages/PDF_20.jpg",
+      "bytes": 332734,
+      "sha256": "bf4a6e2ded9c6e4407b5b8ecfc085d83d0e7bdeae738efe579c54f54d5d1bdbe"
+    },
+    {
+      "path": "01_nguon_bat_bien/pages/PDF_21.jpg",
+      "bytes": 323465,
+      "sha256": "d93529acc5b264f3610c0b41b909b4bf9181dfaf79b1479d72e67d4b7fa89acf"
+    },
+    {
+      "path": "01_nguon_bat_bien/tham_khao_trang_phuc/ao_vat_trai_tham_khao.png",
+      "bytes": 1295832,
+      "sha256": "6d9ad68c3f3d08c2e013aa45966465232b4b075c9ba260e5825fd1c343deeee0"
+    },
+    {
+      "path": "01_nguon_bat_bien/tham_khao_trang_phuc/giap_tham_khao.png",
+      "bytes": 2875622,
+      "sha256": "2551db9c97ae522c5025551468e939133f14be23b02980eff70211c9599b942b"
+    },
+    {
+      "path": "01_nguon_bat_bien/tham_khao_trang_phuc/nam_tham_khao.png",
+      "bytes": 1406806,
+      "sha256": "c093a14e9657e783b4659b42575421bb0241970b597eca2249e10baaee2f999d"
+    },
+    {
+      "path": "01_nguon_bat_bien/tham_khao_trang_phuc/nu_tham_khao.png",
+      "bytes": 1407816,
+      "sha256": "72b833caf0fb8a956809b412d54dfdf04452d38d86d650bc709fc01d5faa6e49"
+    }
+  ]
+}

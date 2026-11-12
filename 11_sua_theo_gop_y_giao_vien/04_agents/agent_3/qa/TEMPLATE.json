@@ -1,0 +1,25 @@
+{
+  "pdf_page": null,
+  "status": "PENDING",
+  "checks": {
+    "source_and_scope": "PENDING",
+    "teacher_specific": "PENDING",
+    "yellow_boxes": "PENDING",
+    "flags_all_visible": "PENDING",
+    "costumes_by_faction": "PENDING",
+    "vietnamese_text": "PENDING",
+    "dialogue_and_tail": "PENDING",
+    "layout_and_no_damage": "PENDING",
+    "rendered_pdf_review": "PENDING"
+  },
+  "teacher_requirement_results": [],
+  "visual_review": {
+    "reviewed": false,
+    "reviewer": "",
+    "evidence": [],
+    "notes": ""
+  },
+  "cross_lane_identity": "PENDING",
+  "source_files": [],
+  "limitations": []
+}

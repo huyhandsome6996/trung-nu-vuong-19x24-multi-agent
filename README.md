@@ -1,3 +1,11 @@
+# Đợt sửa giáo viên12/11/2026 - ngoại lệ trên nhánh `sua-theo-gop-y-giao-vien`
+
+Chủ dự án đã yêu cầu một nhánh riêng và5 agent sửa PDF Gemini21 trang. Trên nhánh này, vào [ngăn sửa giáo viên](11_sua_theo_gop_y_giao_vien/README.md) và đọc [quyền làm việc mới](11_sua_theo_gop_y_giao_vien/AGENTS.md). Chỉ thị này thay quy tắc main-only, phân côngA/B và nguồn hình thiết kế cũ bên dưới trong phạm vi đợt sửa. Không cập nhật queue28 trang hoặc tài sản cũ; mỗi agent chỉ ghi lane được giao. Kiểm trước commit bằng công cụ trong ngăn 11; bộcheck_repo.py cũ dành cho sản xuất cũ, không làm cổng cho đợt sửa21 trang này.
+
+Các hướng dẫn phía dưới là tài liệu của luồng cũ, giữ để truy nguyên; không phải lệnh quay vềmain cho đợt sửa.
+
+---
+
 # TRƯNG NỮ VƯƠNG — truyện minh họa 19×24 cm
 
 [![Validate repository](https://github.com/huyhandsome6996/trung-nu-vuong-19x24-multi-agent/actions/workflows/validate-main.yml/badge.svg)](https://github.com/huyhandsome6996/trung-nu-vuong-19x24-multi-agent/actions/workflows/validate-main.yml)

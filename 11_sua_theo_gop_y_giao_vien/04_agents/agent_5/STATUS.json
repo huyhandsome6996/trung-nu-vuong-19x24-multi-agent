@@ -1,0 +1,15 @@
+{
+  "agent": "agent_5",
+  "status": "NOT_STARTED",
+  "pages": [
+    18,
+    19,
+    20,
+    21
+  ],
+  "completed_pages": [],
+  "blocked_pages": [],
+  "last_checkpoint": "Gói nhiệm vụ được chuẩn bị; agent chưa bắt đầu.",
+  "cross_lane_review": "PENDING",
+  "artifacts": []
+}

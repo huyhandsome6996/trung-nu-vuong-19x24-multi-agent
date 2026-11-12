@@ -1,0 +1,56 @@
+{
+  "branch": "sua-theo-gop-y-giao-vien",
+  "base_commit": "94ab1d316be49f139cf5ddbf0c3d7e690ced0da7",
+  "page_numbering": "physical PDF page; cover=1",
+  "page_count": 21,
+  "lanes": {
+    "agent_1": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "agent_2": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "agent_3": [
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "agent_4": [
+      15,
+      16,
+      17
+    ],
+    "agent_5": [
+      18,
+      19,
+      20,
+      21
+    ]
+  },
+  "coordinator_owned": [
+    "00_dieu_phoi",
+    "01_nguon_bat_bien",
+    "02_quy_chuan",
+    "03_nhiem_vu_tung_trang",
+    "05_prompts",
+    "06_cong_cu",
+    "07_tong_hop"
+  ],
+  "page_size_pt": [
+    430.0799865722656,
+    576.0
+  ],
+  "source_image_px": [
+    896,
+    1200
+  ]
+}
