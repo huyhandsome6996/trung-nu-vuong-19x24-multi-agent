@@ -28,7 +28,7 @@ LAYOUT={
 }
 def split_tokens(t):
     # Keep explicit proper names together during wrapping.
-    for name in ['Phượng Hoàng','Tào Quyền','Đỗ Năng Tế','Trưng Trắc','Trưng Nhị','Thi Sách','Nguyễn Huyền','Hát Môn','Mã Tắc','Tô Định','Hùng Vương','non sông','chẳng lui','chị em']:
+    for name in ['Phượng Hoàng','Tào Quyền','Đô Năng Tế','Trưng Trắc','Trưng Nhị','Thi Sách','Nguyễn Huyền','Hát Môn','Mã Tắc','Tô Định','Hùng Vương','non sông','chẳng lui','chị em']:
         t=t.replace(name,name.replace(' ','\u00a0'))
     return t.split(' ')
 def wrap(text,font,size,width):
