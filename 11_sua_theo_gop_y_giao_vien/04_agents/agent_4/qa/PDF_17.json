@@ -1,0 +1,55 @@
+{
+  "pdf_page": 17,
+  "status": "PASS",
+  "checks": {
+    "source_and_scope": "PASS",
+    "teacher_specific": "PASS",
+    "yellow_boxes": "PASS",
+    "flags_all_visible": "PASS",
+    "costumes_by_faction": "PASS",
+    "vietnamese_text": "PASS",
+    "dialogue_and_tail": "PASS",
+    "layout_and_no_damage": "PASS",
+    "rendered_pdf_review": "PASS"
+  },
+  "teacher_requirement_results": [
+    {
+      "requirement_index": 1,
+      "status": "PASS",
+      "note": "Khung sa bàn có 2 thoại: Thánh Thiên nêu giả thua dụ vào khe Mãng Xà và phục cung nỏ; tướng nhận chặn bến đoạt thuyền cắt đường lui. Cả hai đều ở thì kế hoạch, không kể đã thắng."
+    },
+    {
+      "requirement_index": 2,
+      "status": "PASS",
+      "note": "Giữ 2 khung trên thuyền/dưới sa bàn và đường chia chéo. Bản đồ, que chỉ và hai tay nữ tướng đều hiện rõ; vùng tường trống nới cho thoại. Không đổi mạch chiến thuật."
+    },
+    {
+      "requirement_index": 3,
+      "status": "PASS",
+      "note": "Mặt/khăn tang/tóc búi thấp/áo lục và giáp ngắn theo crop reference PDF16. Tào Quyền kiểm đối chiếu nguồn chú giải 247-269 và chữ gốc; giữ 30 khinh thuyền."
+    }
+  ],
+  "visual_review": {
+    "reviewed": true,
+    "reviewer": "agent_4",
+    "evidence": [
+      "output/PDF_17.png",
+      "qa/PDF_17_render.png",
+      "source/THANH_THIEN_REFERENCE.png"
+    ],
+    "notes": "Mở PNG và PDF render: lời Thánh Thiên ở bóng cao bên phải đọc trước; tướng đáp ở bóng thấp bên trái. Đuôi hướng đúng người, không che mặt/que chỉ/tay/sa bàn. Ô vàng 3 dòng gọn, không lẻ dòng; tên địa danh được khóa. Không có cờ. Quân Hán giữ áo tím/nâu, nghĩa quân giữ khăn và giáp ngắn."
+  },
+  "cross_lane_identity": "PENDING",
+  "source_files": [
+    "../../01_nguon_bat_bien/pages/PDF_17.jpg",
+    "../../01_nguon_bat_bien/ghi_chu_giao_vien/PDF_17_khoanh_do.jpg",
+    "source/THANH_THIEN_REFERENCE.png",
+    "source/PDF_17_art.png",
+    "source/PDF_17_prompt.txt",
+    "source/build_pages.py",
+    "text/PDF_17.json"
+  ],
+  "limitations": [
+    "Đã đối chiếu PDF16-17 trong lane; coordinator cần so tiếp PDF18-21 khi agent5 có kết quả. Nguồn gốc 896x1200, không tuyên bố 300 DPI."
+  ]
+}

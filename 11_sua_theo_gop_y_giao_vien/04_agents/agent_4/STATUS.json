@@ -8,10 +8,11 @@
   ],
   "completed_pages": [
     15,
-    16
+    16,
+    17
   ],
   "blocked_pages": [],
-  "last_checkpoint": "PDF15-16 đã QA nội trang; khóa Thánh Thiên đã có ở source/THANH_THIEN_REFERENCE.png. Còn PDF17 và kiểm liên lane.",
+  "last_checkpoint": "PDF15-17 đã kiểm nội trang và khóa mặt PDF16-17. Chuẩn bị ghép lô, kiểm cuối và HANDOFF; liên lane còn PENDING.",
   "cross_lane_review": "PENDING",
   "artifacts": [
     "output/PDF_15.png",
@@ -20,6 +21,9 @@
     "output/PDF_16.png",
     "output/PDF_16.pdf",
     "qa/PDF_16.json",
-    "source/THANH_THIEN_REFERENCE.png"
+    "source/THANH_THIEN_REFERENCE.png",
+    "output/PDF_17.png",
+    "output/PDF_17.pdf",
+    "qa/PDF_17.json"
   ]
 }

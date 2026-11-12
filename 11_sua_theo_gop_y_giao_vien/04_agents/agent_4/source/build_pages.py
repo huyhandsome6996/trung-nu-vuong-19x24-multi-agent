@@ -86,7 +86,7 @@ def build(page):
     c=canvas.Canvas(str(out),pagesize=(PW,PH))
     c.setTitle(f'Trưng Nữ Vương - trang PDF {page} - sửa góp ý giáo viên')
     c.scale(PW/W,PH/H)
-    c.drawImage(str(art),0,0,width=W,height=H)
+    c.drawImage(str(art),0,0,width=W,height=H,preserveAspectRatio=True,anchor='c')
     metrics=[draw_text(c,b) for b in data['layout_blocks']]
     c.showPage();c.save()
     with fitz.open(out) as pdf:
@@ -99,7 +99,7 @@ def build(page):
             clip=fitz.Rect(310*PW/W,790*PH/H,610*PW/W,1195*PH/H)
             with fitz.open() as reference:
                 rp=reference.new_page(width=PW,height=PH)
-                rp.insert_image(rp.rect,filename=str(art),keep_proportion=False)
+                rp.insert_image(rp.rect,filename=str(art),keep_proportion=True)
                 rp.get_pixmap(matrix=fitz.Matrix(3,3),clip=clip,alpha=False).save(LANE/'source/THANH_THIEN_REFERENCE.png')
     (LANE/'qa'/f'{stem}_typography.json').write_text(json.dumps(metrics,ensure_ascii=False,indent=2)+'\n')
     print(stem, 'built', out)

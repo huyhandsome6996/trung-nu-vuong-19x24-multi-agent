@@ -1,0 +1,62 @@
+{
+  "pdf_page": 17,
+  "narration": "Mờ sáng trên sông Lục Đầu Giang, Tào Quyền cùng tên phản bội Lục Hiến dẫn 30 khinh thuyền về núi Phượng Hoàng. Trong căn nhà gỗ, Thánh Thiên cùng các tướng bàn kế “Điệu hổ ly sơn” bên sa bàn đất, chuẩn bị nhử giặc vào khe Mãng Xà.",
+  "footnote": null,
+  "dialogue": [
+    {
+      "speaker": "Thánh Thiên",
+      "panel": 2,
+      "order": 1,
+      "text": "Ta sẽ giả thua, nhử chúng vào khe Mãng Xà. Các đội cung nỏ phục sẵn hai bên!"
+    },
+    {
+      "speaker": "Tướng nghĩa quân",
+      "panel": 2,
+      "order": 2,
+      "text": "Chúng tôi sẽ chặn bến, đoạt thuyền, cắt đường lui của giặc!"
+    }
+  ],
+  "changes": [
+    "Thu gọn ô vàng và chuyển chi tiết kế sách sang lời nói trực tiếp, giữ mạch chuẩn bị tác chiến.",
+    "Giữ tên Tào Quyền theo chú giải nguồn 247-269, 30 khinh thuyền và Lục Hiến.",
+    "Đồng bộ Thánh Thiên theo reference PDF16, giữ sa bàn đất và động tác chỉ bản đồ.",
+    "Rà trang phục đúng phe; giữ quân Hán khung trên, sửa nghĩa quân khung dưới."
+  ],
+  "layout_blocks": [
+    {
+      "text": "Mờ sáng trên sông Lục Đầu Giang, Tào Quyền cùng tên phản bội Lục Hiến dẫn 30 khinh thuyền về núi Phượng Hoàng. Trong căn nhà gỗ, Thánh Thiên cùng các tướng bàn kế “Điệu hổ ly sơn” bên sa bàn đất, chuẩn bị nhử giặc vào khe Mãng Xà.",
+      "box": [
+        91,
+        99,
+        713,
+        72
+      ],
+      "size": 17,
+      "red": [
+        "Tào Quyền cùng tên phản bội Lục Hiến",
+        "Thánh Thiên",
+        "Điệu hổ ly sơn"
+      ]
+    },
+    {
+      "text": "Ta sẽ giả thua, nhử chúng vào khe Mãng Xà. Các đội cung nỏ phục sẵn hai bên!",
+      "box": [
+        485,
+        606,
+        280,
+        117
+      ],
+      "size": 18
+    },
+    {
+      "text": "Chúng tôi sẽ chặn bến, đoạt thuyền, cắt đường lui của giặc!",
+      "box": [
+        157,
+        723,
+        205,
+        88
+      ],
+      "size": 17
+    }
+  ]
+}

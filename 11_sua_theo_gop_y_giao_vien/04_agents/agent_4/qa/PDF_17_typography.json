@@ -1,0 +1,47 @@
+[
+  {
+    "font_size_px": 17,
+    "line_count": 3,
+    "lines": [
+      "Mờ sáng trên sông Lục Đầu Giang, Tào Quyền cùng tên phản bội Lục Hiến dẫn",
+      "30 khinh thuyền về núi Phượng Hoàng. Trong căn nhà gỗ, Thánh Thiên cùng các",
+      "tướng bàn kế “Điệu hổ ly sơn” bên sa bàn đất, chuẩn bị nhử giặc vào khe Mãng Xà."
+    ],
+    "box": [
+      91,
+      99,
+      713,
+      72
+    ]
+  },
+  {
+    "font_size_px": 18,
+    "line_count": 3,
+    "lines": [
+      "Ta sẽ giả thua, nhử chúng vào",
+      "khe Mãng Xà. Các đội cung nỏ",
+      "phục sẵn hai bên!"
+    ],
+    "box": [
+      485,
+      606,
+      280,
+      117
+    ]
+  },
+  {
+    "font_size_px": 17,
+    "line_count": 3,
+    "lines": [
+      "Chúng tôi sẽ chặn bến,",
+      "đoạt thuyền, cắt đường",
+      "lui của giặc!"
+    ],
+    "box": [
+      157,
+      723,
+      205,
+      88
+    ]
+  }
+]
