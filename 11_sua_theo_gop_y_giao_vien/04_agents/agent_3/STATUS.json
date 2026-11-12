@@ -16,7 +16,7 @@
     14
   ],
   "blocked_pages": [],
-  "last_checkpoint": "Đã khôi phục7commit từ bundle lên sau Agent4; xác thực ghi repo đã được người dùng cấp; kiểm lane PASS, chuẩn bị push an toàn.",
+  "last_checkpoint": "Đã push lô PDF10–14, xác minh commit nằm trên remote; giữ toàn bộ commit Agent1/Agent4, chỉ thay lane agent_3. READY_FOR_COORDINATOR; cross-lane PENDING.",
   "cross_lane_review": "PENDING",
   "artifacts": [
     "HANDOFF.md",
@@ -41,9 +41,11 @@
     "source/build_pages.py"
   ],
   "publication": {
-    "status": "READY_TO_PUSH",
+    "status": "PUBLISHED",
     "remote_branch": "sua-theo-gop-y-giao-vien",
-    "pushed": false,
+    "pushed": true,
+    "verified_content_commit": "b4f6aaf128173d6a64ab2f9411de68a731168cb2",
+    "verification": "git fetch + merge-base --is-ancestor: PASS",
     "reason": null
   }
 }
