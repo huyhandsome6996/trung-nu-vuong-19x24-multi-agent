@@ -23,3 +23,8 @@ Sau mỗi trang: ghi file đã có, kiểm thực tế, lỗi còn lại, bướ
 - Đã mở PNG/render cuối, giữ2voi và bố cục kết, sửa mọi cờ kể cả xa nhỏ; Hai Bà phân màu đất/chàm và Thánh Thiên khăn tang/áo lục.
 - Đã xem ảnh ghép mặt lane4 với18/20/21. Rà liên lô PASS theo khóa, coordinator vẫn cần xem toàn sách.
 - LO_TRANG đủ4trang tăng dần; render từng trang trong lô giống PDF riêng. READY_FOR_COORDINATOR, không có BLOCKED_ART.
+
+## Xuất bản Git bị chặn —12/11/2026
+- Fetch/rebase thành công theo remote,4commit chỉ lane5. SHA sau rebase được cập nhật trong HANDOFF/PUBLICATION.
+- Lệnh push thường không có xác thực; lần thử tương tác bị automatic approval review từ chối vì chưa ghi nhận user xác nhận trực tiếp địa chỉ GitHub đích. Không tìm đường vòng sau từ chối.
+- Sản phẩm4trang vẫn READY_FOR_COORDINATOR; chỉ publication BLOCKED_PUSH_APPROVAL. Bàn giao PDF và ZIP có bundle commit; không nhận đã push.

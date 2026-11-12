@@ -32,4 +32,4 @@ Trạng thái: READY_FOR_COORDINATOR. Đây là4trang PDF vật lý18–21 trong
 
 ## Git
 Nhánh duy nhất: sua-theo-gop-y-giao-vien. Chỉ ghi04_agents/agent_5/.
-SHA checkpoint:896c36c(PDF18),28ccdbc(PDF19),ffdbef4(PDF20). SHA chốt lô/remote được ghi trong PUBLICATION.json sau khi xuất bản được xác minh. Không ghi PAT vào repo/URL/log.
+SHA checkpoint:a0c9f335fc4f(PDF18),f0ed70212dcb(PDF19),c44441aed1cd(PDF20). SHA chốt lô: a416aa98e752d74eefd697397dbb69cebe07672f. Chi tiết xuất bản trong PUBLICATION.json. Push chưa thành công: hệ thống duyệt tự động yêu cầu xác nhận trực tiếp địa chỉ đích. Có bundle commit để bàn giao, không nhận đã đẩy. Không ghi PAT vào repo/URL/log.

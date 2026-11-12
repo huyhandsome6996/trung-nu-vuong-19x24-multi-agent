@@ -14,7 +14,7 @@
     21
   ],
   "blocked_pages": [],
-  "last_checkpoint": "Cả4trang đã mở PNG/render PDF và PASS; khóa Thánh Thiên đối chiếu lane4; LO_TRANG đủ4trang, chờ coordinator rà toàn sách/ghép21trang.",
+  "last_checkpoint": "Bốn trang READY_FOR_COORDINATOR; đã rebase theo remote. Push bị auto-review chặn, chưa có commit trên remote; bàn giao PDF/ZIP/bundle, cần chủ dự án xác nhận trực tiếp đích push.",
   "cross_lane_review": "PASS_REFERENCE_LANE4_COORDINATOR_BOOK_REVIEW_PENDING",
   "artifacts": [
     "text/changes.md",
@@ -65,6 +65,8 @@
     "qa/PDF_20_render.png",
     "qa/PDF_19_render.png",
     "qa/PDF_21_render.png",
-    "HANDOFF.md"
-  ]
+    "HANDOFF.md",
+    "PUBLICATION.json"
+  ],
+  "publication_status": "BLOCKED_PUSH_APPROVAL"
 }
