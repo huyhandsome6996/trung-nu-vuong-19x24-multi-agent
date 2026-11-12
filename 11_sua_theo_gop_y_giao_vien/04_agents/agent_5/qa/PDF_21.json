@@ -26,7 +26,7 @@
     {
       "requirement_index": 3,
       "status": "PASS",
-      "note": "Ô vàng gọn hơn gốc, lời kết đủ5dòng cân, giữ các cụm đỏ và dấu tiếng Việt. Không thêm trang; LO_TRANG chỉ4trang18–21 theo thứ tự."
+      "note": "Ô vàng gọn hơn gốc, lời kết đủ6dòng cân, giữ các cụm đỏ và dấu tiếng Việt. Không thêm trang; LO_TRANG chỉ4trang18–21 theo thứ tự."
     }
   ],
   "visual_review": {
@@ -37,7 +37,7 @@
       "qa/PDF_21_render.png",
       "qa/THANH_THIEN_CROSS_LANE.png"
     ],
-    "notes": "Đã mở PNG và render PDF cuối, nhìn cờ nhỏ ở mép trái, hai voi/Hai Bà/đoàn quân, lời kết, nhân vật khăn tang trên ngựa. Không che mặt/tay/voi, không rơi tiếng cuối dòng hay trùng chữ cũ. Đối chiếu mặt với lane4 trong ảnh ghép."
+    "notes": "Đã mở PNG và render PDF cuối, nhìn cờ nhỏ ở mép trái, hai voi/Hai Bà/đoàn quân, lời kết, nhân vật khăn tang trên ngựa. Không che mặt/tay/voi, không rơi tiếng cuối dòng hay trùng chữ cũ. Đối chiếu mặt với lane4 trong ảnh ghép.\nLượt tăng chữ: đã mở PNG/render PDF mới; lời dẫn21,5px, thoại18px nhất quán. Giữ nguyên câu chữ, chữ đỏ, tên/cụm cố định; không tràn khung/bóng thoại hoặc lẻ một từ cuối dòng. PDF19 nới ngang2bóng thoại để có khoảng đệm."
   },
   "cross_lane_identity": "PASS",
   "source_files": [
@@ -61,5 +61,6 @@
   "limitations": [
     "Nguồn Gemini896×1200; không chứng nhận in300DPI.",
     "Đã đối chiếu khóa Thánh Thiên lane4; coordinator vẫn cần nghiệm thu liên trang toàn sách."
-  ]
+  ],
+  "typography_revision": "PASS: narration21.5px, dialogue18px, geometry and manual PNG/PDF review"
 }

@@ -1,61 +1,92 @@
 [
   {
-    "font_size_px": 18,
-    "line_count": 4,
+    "font_size_px": 21.5,
+    "requested_size_px": 21.5,
+    "line_count": 5,
+    "leading_px": 24.080000000000002,
+    "line_widths_px": [
+      639.26,
+      711.457,
+      714.252,
+      601.85,
+      607.268
+    ],
     "lines": [
-      "Trong lúc Tào Quyền và Lục Hiến đắc ý trên nhà gỗ, hơn 300 kỵ binh nghĩa quân",
-      "bất ngờ ập tới bao vây! Toàn bộ quân Hán trên khe Mãng Xà và 30 khinh thuyền",
-      "ngoài bến sông đều đã bị bắt giết sạch. Tào Quyền và Lục Hiến khiếp đảm chui",
-      "xuống gầm phản thuốc nhưng bị nghĩa quân dùng câu liêm lôi cổ ra!"
+      "Trong lúc Tào Quyền và Lục Hiến đắc ý trên nhà gỗ, hơn 300",
+      "kỵ binh nghĩa quân bất ngờ ập tới bao vây! Toàn bộ quân Hán trên",
+      "khe Mãng Xà và 30 khinh thuyền ngoài bến sông đều đã bị bắt giết",
+      "sạch. Tào Quyền và Lục Hiến khiếp đảm chui xuống gầm",
+      "phản thuốc nhưng bị nghĩa quân dùng câu liêm lôi cổ ra!"
     ],
     "box": [
       94,
-      91,
+      85,
       717,
-      112
+      123
     ]
   },
   {
-    "font_size_px": 14.5,
+    "font_size_px": 18,
+    "requested_size_px": 18,
     "line_count": 3,
+    "leading_px": 19.8,
+    "line_widths_px": [
+      147.366,
+      176.958,
+      149.724
+    ],
     "lines": [
-      "Quân trên núi bị bắt,",
-      "thuyền bị đoạt! Hết",
-      "đường chạy!"
+      "Quân trên núi bị",
+      "bắt, thuyền bị đoạt!",
+      "Hết đường chạy!"
     ],
     "box": [
+      145,
+      841,
       190,
-      838,
-      153,
-      69
+      64
     ]
   },
   {
-    "font_size_px": 14.5,
+    "font_size_px": 18,
+    "requested_size_px": 18,
     "line_count": 2,
+    "leading_px": 19.8,
+    "line_widths_px": [
+      99.072,
+      130.59
+    ],
     "lines": [
       "Tìm đường",
       "xuống thuyền!"
     ],
     "box": [
-      561,
-      891,
-      111,
-      62
+      551,
+      885,
+      132,
+      66
     ]
   },
   {
-    "font_size_px": 14.5,
-    "line_count": 2,
+    "font_size_px": 18,
+    "requested_size_px": 18,
+    "line_count": 3,
+    "leading_px": 19.8,
+    "line_widths_px": [
+      98.496,
+      80.622,
+      74.88
+    ],
     "lines": [
-      "Bị vây rồi... Trốn",
-      "đâu bây giờ?"
+      "Bị vây rồi...",
+      "Trốn đâu",
+      "bây giờ?"
     ],
     "box": [
-      333,
-      913,
-      118,
-      63
+      328,
+      908,
+      125,
+      73
     ]
   }
 ]

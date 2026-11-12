@@ -31,7 +31,7 @@
       "output/PDF_18.png",
       "qa/PDF_18_render.png"
     ],
-    "notes": "Đã mở PNG/render PDF tái tạo cuối. Giữ hai khung xiên, cảnh phục kích, động tác chỉ tay; chữ đủ dấu không đè mặt/tay, không trùng chữ cũ. Đuôi trái hướng Thánh Thiên, phải hướng quan giặc."
+    "notes": "Đã mở PNG/render PDF tái tạo cuối. Giữ hai khung xiên, cảnh phục kích, động tác chỉ tay; chữ đủ dấu không đè mặt/tay, không trùng chữ cũ. Đuôi trái hướng Thánh Thiên, phải hướng quan giặc.\nLượt tăng chữ: đã mở PNG/render PDF mới; lời dẫn21,5px, thoại18px nhất quán. Giữ nguyên câu chữ, chữ đỏ, tên/cụm cố định; không tràn khung/bóng thoại hoặc lẻ một từ cuối dòng. PDF19 nới ngang2bóng thoại để có khoảng đệm."
   },
   "cross_lane_identity": "PASS",
   "source_files": [
@@ -55,5 +55,6 @@
   "limitations": [
     "Nguồn Gemini 896×1200; không chứng nhận in300DPI.",
     "Chỉ kiểm lô18–21 và khóa Thánh Thiên lane4; chưa nghiệm thu toàn bộ21 trang."
-  ]
+  ],
+  "typography_revision": "PASS: narration21.5px, dialogue18px, geometry and manual PNG/PDF review"
 }

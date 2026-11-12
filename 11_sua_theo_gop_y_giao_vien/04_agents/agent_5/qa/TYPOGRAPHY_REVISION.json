@@ -1,0 +1,140 @@
+{
+  "revision": "larger type requested by user",
+  "before_art_sha256": {
+    "18": "79da229bfa858a582b831a7b8888873964abfd365e90a4afc9d5539b1e9928ea",
+    "19": "755323c717dd8bef838234376929dc69c1593bc5b258b41cb0751a27f6e291f1",
+    "20": "fec1b58ba4ba35fb3e6ca16a98544370e2694876d7be0228831f68b7b64ceb86",
+    "21": "c7b36272b1b501a2d9b2245a8389d5554b76b3e64baf772864ed06d70f31c5e0"
+  },
+  "changes": [
+    {
+      "pdf_page": 18,
+      "block": 0,
+      "old_size_px": 19,
+      "new_size_px": 21.5,
+      "change_percent": 13.2,
+      "new_box": [
+        98,
+        99,
+        696,
+        155
+      ]
+    },
+    {
+      "pdf_page": 18,
+      "block": 1,
+      "old_size_px": 17,
+      "new_size_px": 18,
+      "change_percent": 5.9,
+      "new_box": [
+        149,
+        748,
+        155,
+        75
+      ]
+    },
+    {
+      "pdf_page": 18,
+      "block": 2,
+      "old_size_px": 16,
+      "new_size_px": 18,
+      "change_percent": 12.5,
+      "new_box": [
+        556,
+        692,
+        141,
+        70
+      ]
+    },
+    {
+      "pdf_page": 19,
+      "block": 0,
+      "old_size_px": 18,
+      "new_size_px": 21.5,
+      "change_percent": 19.4,
+      "new_box": [
+        94,
+        85,
+        717,
+        123
+      ]
+    },
+    {
+      "pdf_page": 19,
+      "block": 1,
+      "old_size_px": 14.5,
+      "new_size_px": 18,
+      "change_percent": 24.1,
+      "new_box": [
+        145,
+        841,
+        190,
+        64
+      ]
+    },
+    {
+      "pdf_page": 19,
+      "block": 2,
+      "old_size_px": 14.5,
+      "new_size_px": 18,
+      "change_percent": 24.1,
+      "new_box": [
+        551,
+        885,
+        132,
+        66
+      ]
+    },
+    {
+      "pdf_page": 19,
+      "block": 3,
+      "old_size_px": 14.5,
+      "new_size_px": 18,
+      "change_percent": 24.1,
+      "new_box": [
+        328,
+        908,
+        125,
+        73
+      ]
+    },
+    {
+      "pdf_page": 20,
+      "block": 0,
+      "old_size_px": 20,
+      "new_size_px": 21.5,
+      "change_percent": 7.5,
+      "new_box": [
+        98,
+        99,
+        696,
+        155
+      ]
+    },
+    {
+      "pdf_page": 21,
+      "block": 0,
+      "old_size_px": 19,
+      "new_size_px": 21.5,
+      "change_percent": 13.2,
+      "new_box": [
+        78,
+        94,
+        740,
+        163
+      ]
+    }
+  ],
+  "reviewed": true,
+  "reviewer": "agent_5",
+  "checked_at": "2026-11-12T09:14:59.171522+00:00",
+  "checks": {
+    "uniform_target_sizes": "PASS",
+    "safe_line_widths_and_heights": "PASS",
+    "no_single_word_last_line": "PASS",
+    "narration_and_dialogue_unchanged": "PASS",
+    "all_png_and_pdf_renders_opened": "PASS",
+    "combined_pdf_matches_pages": "PASS"
+  },
+  "note": "PDF19 nới ngang2bóng thoại bằng chỉnh ảnh có tham chiếu; các tranh18/20/21 giữ nguyên hash."
+}

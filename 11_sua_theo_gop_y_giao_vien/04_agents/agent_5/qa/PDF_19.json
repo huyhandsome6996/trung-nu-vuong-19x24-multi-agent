@@ -31,7 +31,7 @@
       "output/PDF_19.png",
       "qa/PDF_19_render.png"
     ],
-    "notes": "Đã mở cả PNG và render PDF cuối sau bỏ cờ sinh thêm và sửa câu Tào Quyền để không lẻ “thuyền!”. Mọi chữ nằm trong ô/bóng thoại, rõ dấu, không che mặt/tay/vũ khí. Ô vàng từ~214px xuống~137px ởcanvas896×1200, nền được tiếp cảnh cây núi."
+    "notes": "Đã mở cả PNG và render PDF cuối sau bỏ cờ sinh thêm và sửa câu Tào Quyền để không lẻ “thuyền!”. Mọi chữ nằm trong ô/bóng thoại, rõ dấu, không che mặt/tay/vũ khí. Ô vàng từ~214px xuống~137px ởcanvas896×1200, nền được tiếp cảnh cây núi.\nLượt tăng chữ: đã mở PNG/render PDF mới; lời dẫn21,5px, thoại18px nhất quán. Giữ nguyên câu chữ, chữ đỏ, tên/cụm cố định; không tràn khung/bóng thoại hoặc lẻ một từ cuối dòng. PDF19 nới ngang2bóng thoại để có khoảng đệm."
   },
   "cross_lane_identity": "NOT_APPLICABLE",
   "source_files": [
@@ -51,5 +51,6 @@
   "limitations": [
     "Nguồn Gemini896×1200; không chứng nhận in300DPI.",
     "Lời thoại là chuyển thể biên tập, không phải trích dẫn chính sử."
-  ]
+  ],
+  "typography_revision": "PASS: narration21.5px, dialogue18px, geometry and manual PNG/PDF review"
 }

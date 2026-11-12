@@ -50,7 +50,11 @@ def draw_text(c, block):
     font=block.get('font','NotoSansBold')
     size=block.get('size',18)
     while True:
-        lines=wrap(block['text'],font,size,w)
+        lines=block.get('lines') or wrap(block['text'],font,size,w)
+        if ' '.join(lines) != block['text']:
+            raise ValueError('Explicit line breaks changed text: '+block['text'])
+        if any(width(line,font,size)>w+.01 for line in lines):
+            raise ValueError('Text line wider than its safe box: '+block['text'])
         leading=size*block.get('leading_ratio',1.30)
         if len(lines)*leading<=h: break
         size-=0.25
@@ -82,7 +86,7 @@ def draw_text(c, block):
             start+=width(token,font,size)
         cursor=line_offset+len(line)
         baseline+=leading
-    return {'font_size_px':size,'line_count':len(lines),'lines':lines,'box':block['box']}
+    return {'font_size_px':size,'requested_size_px':block.get('size',18),'line_count':len(lines),'leading_px':leading,'line_widths_px':[round(width(line,font,size),3) for line in lines],'lines':lines,'box':block['box']}
 
 def build(page):
     stem=f'PDF_{page:02}'

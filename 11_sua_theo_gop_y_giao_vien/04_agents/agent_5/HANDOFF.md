@@ -33,3 +33,6 @@ Trạng thái: READY_FOR_COORDINATOR. Đây là4trang PDF vật lý18–21 trong
 ## Git
 Nhánh duy nhất: sua-theo-gop-y-giao-vien. Chỉ ghi04_agents/agent_5/.
 SHA checkpoint:a0c9f335fc4f(PDF18),f0ed70212dcb(PDF19),c44441aed1cd(PDF20). SHA chốt lô: a416aa98e752d74eefd697397dbb69cebe07672f. Chi tiết xuất bản trong PUBLICATION.json. Push chưa thành công: hệ thống duyệt tự động yêu cầu xác nhận trực tiếp địa chỉ đích. Có bundle commit để bàn giao, không nhận đã đẩy. Không ghi PAT vào repo/URL/log.
+
+## Bản tăng chữ mới nhất
+Theo góp ý trực tiếp của người dùng: lời dẫn4trang cùng21,5px, thoại cùng18px; giữ nguyên nội dung/chữ đỏ. Đã kiểm bằng mắt tất cảPNG/render mới và đo chiều rộng/chiều cao dòng. Nới ngang2bóng thoại PDF19 để tránh sát viền. QA PASS, xem qa/TYPOGRAPHY_REVISION.json. User đã cho phép push repo hiện hành; trạng thái xuất bản mới nhất xem PUBLICATION.json.

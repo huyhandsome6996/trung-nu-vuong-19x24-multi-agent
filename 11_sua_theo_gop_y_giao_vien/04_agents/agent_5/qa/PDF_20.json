@@ -37,7 +37,7 @@
       "qa/PDF_20_render.png",
       "qa/THANH_THIEN_CROSS_LANE.png"
     ],
-    "notes": "Đã mở PNG/render PDF cuối, xem đủ cờ nhỏ/viền trang, chữ và ảnh đối chiếu mặt lane4. Lời dẫn5dòng, “Trảm thủ!” cùng dòng, không trùng chữ cũ; giữ bố cục đơn/trạng thái tù binh Gemini."
+    "notes": "Đã mở PNG/render PDF cuối, xem đủ cờ nhỏ/viền trang, chữ và ảnh đối chiếu mặt lane4. Lời dẫn5dòng, “Trảm thủ!” cùng dòng, không trùng chữ cũ; giữ bố cục đơn/trạng thái tù binh Gemini.\nLượt tăng chữ: đã mở PNG/render PDF mới; lời dẫn21,5px, thoại18px nhất quán. Giữ nguyên câu chữ, chữ đỏ, tên/cụm cố định; không tràn khung/bóng thoại hoặc lẻ một từ cuối dòng. PDF19 nới ngang2bóng thoại để có khoảng đệm."
   },
   "cross_lane_identity": "PASS",
   "source_files": [
@@ -61,5 +61,6 @@
   "limitations": [
     "Nguồn Gemini896×1200; không chứng nhận in300DPI.",
     "Giữ số tù binh hiện trong hình Gemini (3); lời dẫn nguyên bản nhắc Tào Quyền/Lục Hiến và3tướng (5người). Đây là chênh lệch có sẵn, không tự mở rộng phạm vi sửa số người."
-  ]
+  ],
+  "typography_revision": "PASS: narration21.5px, dialogue18px, geometry and manual PNG/PDF review"
 }

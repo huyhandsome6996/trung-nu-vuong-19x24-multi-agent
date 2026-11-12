@@ -28,3 +28,9 @@ Sau mỗi trang: ghi file đã có, kiểm thực tế, lỗi còn lại, bướ
 - Fetch/rebase thành công theo remote,4commit chỉ lane5. SHA sau rebase được cập nhật trong HANDOFF/PUBLICATION.
 - Lệnh push thường không có xác thực; lần thử tương tác bị automatic approval review từ chối vì chưa ghi nhận user xác nhận trực tiếp địa chỉ GitHub đích. Không tìm đường vòng sau từ chối.
 - Sản phẩm4trang vẫn READY_FOR_COORDINATOR; chỉ publication BLOCKED_PUSH_APPROVAL. Bàn giao PDF và ZIP có bundle commit; không nhận đã push.
+
+## Tăng chữ theo góp ý người dùng —12/11/2026
+- User trực tiếp yêu cầu tăng chữ và push repo/nhánh hiện hành.
+- Lời dẫn đồng bộ21,5px (tăng7,5–19,4%); toàn bộ thoại18px (tăng5,9–24,1%). FontNotoSansBold/màu chữ giữ chung.
+- Chỉnh ngắt dòng/đệm; nới ngang2bóng thoại PDF19 bằng image_gen có tham chiếu. Lưu bản trước và prompt. Không đổi lời dẫn/thoại/số trang.
+- Mở đủ4PNG +4render PDF mới; kiểm dòng không vượt box, không lẻ từ cuối, khổ430,08×576pt và lô4trang khớpPDF riêng. PASS.
